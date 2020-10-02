@@ -1,0 +1,42 @@
+# started on Wed Aug  5 22:15:07 2020
+
+
+ Performance counter stats for './draco/main':
+
+      73272,351277      task-clock (msec)         #    1,005 CPUs utilized          
+             8.808      context-switches          #    0,120 K/sec                  
+               603      cpu-migrations            #    0,008 K/sec                  
+            20.527      page-faults               #    0,280 K/sec                  
+   211.230.722.913      cycles                    #    2,883 GHz                    
+   498.219.528.708      instructions              #    2,36  insn per cycle         
+    96.554.961.413      branches                  # 1317,754 M/sec                  
+       869.532.020      branch-misses             #    0,90% of all branches        
+
+      72,942957710 seconds time elapsed
+
+# started on Thu Aug  6 12:40:57 2020
+
+
+ Performance counter stats for './draco/main':
+
+      66953,520037      task-clock (msec)         #    1,004 CPUs utilized          
+             7.661      context-switches          #    0,114 K/sec                  
+               238      cpu-migrations            #    0,004 K/sec                  
+            19.876      page-faults               #    0,297 K/sec                  
+   200.550.030.556      cycles                    #    2,995 GHz                      (30,76%)
+   498.103.776.416      instructions              #    2,48  insn per cycle           (38,46%)
+    96.496.255.960      branches                  # 1441,242 M/sec                    (38,49%)
+       886.767.886      branch-misses             #    0,92% of all branches          (38,49%)
+   184.941.919.249      L1-dcache-loads           # 2762,243 M/sec                    (38,48%)
+     4.655.085.957      L1-dcache-load-misses     #    2,52% of all L1-dcache hits    (38,47%)
+       134.178.165      LLC-loads                 #    2,004 M/sec                    (30,78%)
+        31.225.745      LLC-load-misses           #   23,27% of all LL-cache hits     (30,77%)
+   <not supported>      L1-icache-loads                                             
+        63.040.879      L1-icache-load-misses                                         (30,76%)
+   185.042.087.303      dTLB-loads                # 2763,739 M/sec                    (30,77%)
+        15.645.340      dTLB-load-misses          #    0,01% of all dTLB cache hits   (30,73%)
+         1.999.990      iTLB-loads                #    0,030 M/sec                    (30,74%)
+         1.225.025      iTLB-load-misses          #   61,25% of all iTLB cache hits   (30,77%)
+
+      66,685563061 seconds time elapsed
+

@@ -1,0 +1,16 @@
+# started on Thu Aug  6 12:04:07 2020
+
+
+ Performance counter stats for 'java -cp bunch/Bunch-3.5.jar:bunch/ BunchAPITest graphs/test/bigbluebutton.mdg':
+
+    1745935,667592      task-clock (msec)         #    1,008 CPUs utilized          
+           501.395      context-switches          #    0,287 K/sec                  
+           139.840      cpu-migrations            #    0,080 K/sec                  
+           217.583      page-faults               #    0,125 K/sec                  
+ 5.072.380.269.048      cycles                    #    2,905 GHz                    
+ 3.325.404.889.718      instructions              #    0,66  insn per cycle         
+   687.523.575.254      branches                  #  393,785 M/sec                  
+    29.877.163.598      branch-misses             #    4,35% of all branches        
+
+    1731,743843630 seconds time elapsed
+

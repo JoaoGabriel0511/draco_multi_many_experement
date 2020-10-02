@@ -1,0 +1,42 @@
+# started on Wed Aug  5 22:16:20 2020
+
+
+ Performance counter stats for 'java -cp bunch/Bunch-3.5.jar:bunch/ BunchAPITest graphs/test/react-native.mdg':
+
+      13654,178026      task-clock (msec)         #    1,084 CPUs utilized          
+             3.822      context-switches          #    0,280 K/sec                  
+               885      cpu-migrations            #    0,065 K/sec                  
+           177.657      page-faults               #    0,013 M/sec                  
+    37.286.449.743      cycles                    #    2,731 GHz                    
+    35.209.304.938      instructions              #    0,94  insn per cycle         
+     7.106.504.065      branches                  #  520,464 M/sec                  
+        75.276.730      branch-misses             #    1,06% of all branches        
+
+      12,595467123 seconds time elapsed
+
+# started on Thu Aug  6 12:42:04 2020
+
+
+ Performance counter stats for 'java -cp bunch/Bunch-3.5.jar:bunch/ BunchAPITest graphs/test/react-native.mdg':
+
+      10605,526033      task-clock (msec)         #    1,084 CPUs utilized          
+             3.389      context-switches          #    0,320 K/sec                  
+               783      cpu-migrations            #    0,074 K/sec                  
+           177.776      page-faults               #    0,017 M/sec                  
+    30.691.560.097      cycles                    #    2,894 GHz                      (30,41%)
+    33.405.863.509      instructions              #    1,09  insn per cycle           (38,19%)
+     6.736.455.139      branches                  #  635,183 M/sec                    (38,28%)
+        59.800.280      branch-misses             #    0,89% of all branches          (38,48%)
+    10.346.478.232      L1-dcache-loads           #  975,574 M/sec                    (38,87%)
+     1.635.380.079      L1-dcache-load-misses     #   15,81% of all L1-dcache hits    (39,02%)
+       205.572.199      LLC-loads                 #   19,383 M/sec                    (31,35%)
+        15.842.335      LLC-load-misses           #    7,71% of all LL-cache hits     (31,16%)
+   <not supported>      L1-icache-loads                                             
+        43.493.956      L1-icache-load-misses                                         (30,87%)
+    10.426.760.979      dTLB-loads                #  983,144 M/sec                    (30,57%)
+        12.236.033      dTLB-load-misses          #    0,12% of all dTLB cache hits   (30,36%)
+         2.098.452      iTLB-loads                #    0,198 M/sec                    (30,37%)
+           574.402      iTLB-load-misses          #   27,37% of all iTLB cache hits   (30,27%)
+
+       9,781464891 seconds time elapsed
+

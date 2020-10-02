@@ -1,0 +1,16 @@
+# started on Wed Aug  5 22:16:34 2020
+
+
+ Performance counter stats for './draco/main':
+
+     179492,573183      task-clock (msec)         #    1,003 CPUs utilized          
+            20.418      context-switches          #    0,114 K/sec                  
+             1.190      cpu-migrations            #    0,007 K/sec                  
+            41.320      page-faults               #    0,230 K/sec                  
+   526.869.315.216      cycles                    #    2,935 GHz                    
+ 1.365.691.973.980      instructions              #    2,59  insn per cycle         
+   267.515.363.927      branches                  # 1490,398 M/sec                  
+     1.623.272.720      branch-misses             #    0,61% of all branches        
+
+     179,010186024 seconds time elapsed
+
