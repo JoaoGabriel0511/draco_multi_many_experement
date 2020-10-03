@@ -8,8 +8,8 @@
     - Docker version 19.03.13
     - docker-compose version 1.25.0
 - Steps to run (run for all mdgs):
-    $ docker-compose -f docker-compose.draco.yml  --compatibility up -d  # to start
-    $ docker-compose -f docker-compose.draco.yml  --compatibility down  # to stop
+    $ cd scam2020
+    $ bash run_all.sh --start
 
 ### Python
 
