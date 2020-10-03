@@ -1,0 +1,11 @@
+version: "3"
+services:
+    draco:
+        build: 
+            context: .
+            dockerfile: Dockerfile.draco
+  
+    bunch:
+        build: 
+            context: .
+            dockerfile: Dockerfile.bunch
