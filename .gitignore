@@ -13,4 +13,6 @@
 venv/
 
 # scm files
+log/
+exp/
 *.dot

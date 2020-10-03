@@ -1,11 +1,23 @@
 # SCM Performance Analyzer
 
+## How to run
+
+### Docker
+
+- System requirements:
+    - Docker version 19.03.13
+    - docker-compose version 1.25.0
+- Steps to run (run for all mdgs):
+    $ docker-compose -f docker-compose.draco.yml  --compatibility up -d  # to start
+    $ docker-compose -f docker-compose.draco.yml  --compatibility down  # to stop
+
+### Python
+
 - System requirements: python 3.7 +
-- Steps:
+- Steps to run:
     - Compile the SCM tools (Bunch and Draco) binarie's files (instructions below)
     - Run the analyzer with the desired parameters: 
         $ python3 main.py <test, small, medium, large, all>
-
 
 ## SCM Tools 
 
