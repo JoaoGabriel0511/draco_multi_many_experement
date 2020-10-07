@@ -1,0 +1,18 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# no format files
+*
+!/**/
+!*.*
+
+# python virtualenv
+venv/
+
+# scm files
+log/
+exp/
+*.dot
