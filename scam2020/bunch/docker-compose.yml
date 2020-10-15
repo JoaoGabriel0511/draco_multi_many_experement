@@ -1,0 +1,81 @@
+version: "3.2"
+services:
+    base:
+        build: 
+            context: .
+            dockerfile: dockerfile/Dockerfile.bunch.base
+        container_name: scam2020_bunch
+
+    test:
+        build: 
+            context: .
+            args:
+                MDG_SIZE: test
+            dockerfile: dockerfile/Dockerfile.bunch
+        volumes:
+            - ./bunch/dot:/java/src/app/bunch/dot
+            - ../graphs:/java/src/data/graphs
+        container_name: scam2020_bunch_test
+        depends_on:
+            - base
+        deploy:
+            resources:
+                limits:
+                    cpus: '1'
+                    memory: 1gb
+  
+    small:
+        build: 
+            context: .
+            args:
+                MDG_SIZE: small
+            dockerfile: dockerfile/Dockerfile.bunch
+        volumes:
+            - ./bunch/dot:/java/src/app/bunch/dot
+            - ../graphs:/java/src/data/graphs
+        container_name: scam2020_bunch_small
+        depends_on:
+            - base
+        deploy:
+            resources:
+                limits:
+                    cpus: '1'
+                    memory: 1gb
+  
+    medium:
+        build: 
+            context: .
+            args:
+                MDG_SIZE: medium
+            dockerfile: dockerfile/Dockerfile.bunch
+        container_name: scam2020_bunch_medium
+        volumes:
+            - ./bunch/dot:/java/src/app/bunch/dot
+            - ../graphs:/java/src/data/graphs
+        depends_on:
+            - base
+        deploy:
+            resources:
+                limits:
+                    cpus: '1'
+                    memory: 1gb
+  
+    large:
+        build: 
+            context: .
+            args:
+                MDG_SIZE: large
+            dockerfile: dockerfile/Dockerfile.bunch
+        container_name: scam2020_bunch_large
+        volumes:
+            - ./bunch/dot:/java/src/app/bunch/dot
+            - ../graphs:/java/src/data/graphs
+        depends_on:
+            - base
+        deploy:
+            resources:
+                limits:
+                    cpus: '1'
+                    memory: 1gb
+  
+

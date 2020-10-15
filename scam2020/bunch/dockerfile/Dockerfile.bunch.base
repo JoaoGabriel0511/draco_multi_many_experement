@@ -1,0 +1,7 @@
+FROM openjdk:7
+
+ENV BASE_PATH=/java/src/app \
+    DOT_PATH=/java/src/app/bunch/dot \
+    DATA_PATH=/java/src/data/
+
+RUN apt-get update -y
