@@ -13,8 +13,9 @@ services:
                 MDG_SIZE: test
             dockerfile: dockerfile/Dockerfile.bunch
         volumes:
-            - ./bunch/dot:/java/src/app/bunch/dot
+            - ./exp:/java/src/exp
             - ../graphs:/java/src/data/graphs
+            - ./log:/java/src/log
         container_name: scam2020_bunch_test
         depends_on:
             - base
@@ -31,8 +32,9 @@ services:
                 MDG_SIZE: small
             dockerfile: dockerfile/Dockerfile.bunch
         volumes:
-            - ./bunch/dot:/java/src/app/bunch/dot
+            - ./exp:/java/src/exp
             - ../graphs:/java/src/data/graphs
+            - ./log:/java/src/log
         container_name: scam2020_bunch_small
         depends_on:
             - base
@@ -50,8 +52,9 @@ services:
             dockerfile: dockerfile/Dockerfile.bunch
         container_name: scam2020_bunch_medium
         volumes:
-            - ./bunch/dot:/java/src/app/bunch/dot
+            - ./exp:/java/src/exp
             - ../graphs:/java/src/data/graphs
+            - ./log:/java/src/log
         depends_on:
             - base
         deploy:
@@ -68,8 +71,9 @@ services:
             dockerfile: dockerfile/Dockerfile.bunch
         container_name: scam2020_bunch_large
         volumes:
-            - ./bunch/dot:/java/src/app/bunch/dot
+            - ./exp:/java/src/exp
             - ../graphs:/java/src/data/graphs
+            - ./log:/java/src/log
         depends_on:
             - base
         deploy:
