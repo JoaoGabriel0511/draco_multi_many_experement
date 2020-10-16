@@ -6,9 +6,8 @@ ENV MDG_SIZE=${MDG_SIZE}
 
 WORKDIR ${BASE_PATH}
 
-COPY script/run_bunch.sh Bunch-3.5.jar BunchAPITest.java ./
+COPY script/run_bunch.sh src/Bunch-3.5.jar src/BunchAPITest.java ./
 
-RUN mkdir -p bunch/dot && \
-    javac -cp Bunch-3.5.jar BunchAPITest.java 
+RUN javac -cp Bunch-3.5.jar BunchAPITest.java 
 
 ENTRYPOINT bash run_bunch.sh --size ${MDG_SIZE}
