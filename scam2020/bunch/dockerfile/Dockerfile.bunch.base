@@ -1,0 +1,9 @@
+FROM openjdk:7
+
+ENV BASE_PATH=/java/src/app \
+    EXP_PATH=/java/src/exp \
+    LOG_PATH=/java/src/log \
+    DATA_PATH=/java/src/data
+
+RUN apt-get update -y && \
+    apt-get install -y time

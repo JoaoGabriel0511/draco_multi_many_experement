@@ -1,17 +1,17 @@
-function run_draco {
+function run_bunch {
     mdg_size="$1"
 
     GRAPHS_PATH=${DATA_PATH}/graphs/${mdg_size}
     GRAPH_FILES=($(ls -A ${GRAPHS_PATH}))
     echo "MDG SIZE: ${mdg_size}"
     echo "GRAPH FILES: ${GRAPH_FILES[*]}"
-    # get mdg per size, run draco and keep the time record of this experiment
+    # get mdg per size, run bunch and keep the time record of this experiment 
     echo "Files to test: ${#GRAPH_FILES[@]}"
     echo
     for idx in "${!GRAPH_FILES[@]}"; do
         mdg_name=${GRAPH_FILES[$idx]%.*}
         echo "${idx}: MDG NAME: ${mdg_name}"
-        /usr/bin/time -o ${LOG_PATH}/${mdg_size}/${mdg_name}.out --append ${BASE_PATH}/main < ${GRAPHS_PATH}/${GRAPH_FILES[$idx]} > ${EXP_PATH}/${mdg_size}/${mdg_name}.dot
+        /usr/bin/time -o ${LOG_PATH}/${mdg_size}/${mdg_name}.out --append java -cp ${BASE_PATH}/.:Bunch-3.5.jar BunchAPITest ${GRAPHS_PATH}/${GRAPH_FILES[$idx]} ${EXP_PATH}/${mdg_size}/
     done
 }
 
@@ -21,10 +21,10 @@ function run_exps {
 
     if [ "$mdg_size" = "all" ]; then
         for size in ${mdg_types}; do
-            run_draco $size
+            run_bunch $size
         done
     else
-        run_draco $mdg_size
+        run_bunch $mdg_size
     fi
 }
 
