@@ -1,8 +1,7 @@
 FROM draco_base:latest
 
-ARG MDG_SIZE
-
-ENV MDG_SIZE=${MDG_SIZE}
+ARG EXPERIMENT_NAME
+ENV EXPERIMENT_NAME=${EXPERIMENT_NAME}
 
 WORKDIR ${BASE_PATH}
 
@@ -10,4 +9,4 @@ COPY script/run_draco.sh src/main.go ./
 
 RUN go build -o main main.go
 
-ENTRYPOINT bash run_draco.sh --size ${MDG_SIZE}
+ENTRYPOINT bash run_draco.sh --name ${EXPERIMENT_NAME}

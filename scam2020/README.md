@@ -9,7 +9,7 @@
     - docker-compose version 1.25.0
 - Steps to run (run for all mdgs):
     $ cd scam2020
-    $ bash run_all.sh --start
+    $ bash run.sh --start experiment_1
 
 ## SCM Tools 
 
