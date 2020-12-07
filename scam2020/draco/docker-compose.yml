@@ -10,6 +10,8 @@ services:
         build: 
             context: .
             dockerfile: dockerfile/Dockerfile.draco
+            args:
+                EXPERIMENT_NAME: $EXPERIMENT_NAME
         volumes:
             - ../graphs:/go/src/data/graphs
             - ../experiments/draco/report:/go/src/exp

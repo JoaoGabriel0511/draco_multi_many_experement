@@ -10,10 +10,12 @@ services:
         build: 
             context: .
             dockerfile: dockerfile/Dockerfile.bunch
+            args:
+                EXPERIMENT_NAME: $EXPERIMENT_NAME
         volumes:
-            - ../graphs:/go/src/data/graphs
-            - ../experiments/bunch/report:/go/src/exp
-            - ../experiments/bunch/log:/go/src/log
+            - ../graphs:/java/src/data/graphs
+            - ../experiments/bunch/report:/java/src/exp
+            - ../experiments/bunch/log:/java/src/log
         container_name: scam2020_bunch_experiment
         depends_on:
             - base

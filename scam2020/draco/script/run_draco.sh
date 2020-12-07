@@ -2,7 +2,7 @@ function run_draco {
     EXPERIMENT_NAME="$1"
 
     GRAPHS_PATH=${DATA_PATH}/graphs/${EXPERIMENT_NAME}
-    GRAPH_FILES=($(ls -A ${GRAPHS_PATH}))
+    GRAPH_FILES=($(ls -SrA ${GRAPHS_PATH}))
     echo "EXP NAME: ${EXPERIMENT_NAME}"
     echo "GRAPH FILES: ${GRAPH_FILES[*]}"
     echo "FILES: ${#GRAPH_FILES[@]}"
@@ -10,16 +10,7 @@ function run_draco {
     for idx in "${!GRAPH_FILES[@]}"; do
         mdg_name=${GRAPH_FILES[$idx]%.*}
         echo "${idx} > MDG NAME: ${mdg_name}"
-        /usr/bin/time -o ${LOG_PATH}/${EXPERIMENT_NAME}/${mdg_name}.out --append ${BASE_PATH}/main < ${GRAPHS_PATH}/${GRAPH_FILES[$idx]} > ${EXP_PATH}/${EXPERIMENT_NAME}/${mdg_name}.dot &
-        PID=$!
-        echo "Process ${PID} started."
-        if ps -p $PID > /dev/null
-        then
-            echo "$PID is running..."
-            sleep 1
-        fi
-        MEM=$(pmap ${PID} | tail -n 1 | awk '/[0-9]K/{print $2}' | sed 's/.$//')
-        echo "$PID finished and used $MEM KB."
+        /usr/bin/time -v -o ${LOG_PATH}/${EXPERIMENT_NAME}/${mdg_name}.out ${BASE_PATH}/main < ${GRAPHS_PATH}/${GRAPH_FILES[$idx]} > ${EXP_PATH}/${EXPERIMENT_NAME}/${mdg_name}.dot
     done
 }
 
@@ -38,7 +29,7 @@ function run_script {
             key="$1"
 
             case $key in
-                -s|--size)
+                -n|--name)
                 EXPERIMENT_NAME=$2
                 shift # past argument
                 shift # past value

@@ -7,16 +7,16 @@ function run_cmd {
 
 function mkdirs {
     NAME=$1
-    mkdir -p "experiments/${NAME}/draco/report"
-    mkdir -p "experiments/${NAME}/draco/log"
-    mkdir -p "experiments/${NAME}/bunch/report"
-    mkdir -p "experiments/${NAME}/bunch/log"
+    mkdir -p "experiments/draco/report/${NAME}"
+    mkdir -p "experiments/draco/log/${NAME}"
+    mkdir -p "experiments/bunch/report/${NAME}"
+    mkdir -p "experiments/bunch/log/${NAME}"
 }
 
 echo "Welcome to SCM Performance Analyzer"
 echo
 if [ "$1" = "" ]; then
-    echo "/run_all.sh [ACTIONS] [TOOLS]"
+    echo "/run_all.sh [ACTIONS] [TOOLS] [ARGS]"
     echo
     echo " ACTIONS: [REQUIRED]"
     echo "    -s/--start experiment_1       Start experiment_1 for [TOOLS]."
@@ -31,8 +31,11 @@ if [ "$1" = "" ]; then
     echo "    -d/--draco        Applies the actions above only for draco."
     echo "    -b/--bunch        Applies the actions above only for bunch."
     echo
+    echo " ARGS:"
+    echo "    --detached        Starts experiment in detached mode."
+    echo
 else
-    OPT= EXP=ALL NAME=
+    OPT= EXP=ALL NAME= DETACHED=NO
     while [[ $# -gt 0 ]]
     do
         key="$1"
@@ -61,7 +64,7 @@ else
             ;;
             -c|--clean)
             OPT=CLEAN
-            OPT=$2
+            NAME=$2
             shift # past argument
             shift # past value
             ;;
@@ -81,6 +84,10 @@ else
             EXP=ALL
             shift # past argument
             ;;
+            --detached)
+            DETACHED=YES
+            shift # past argument
+            ;;
             *)    # unknown option
             POSITIONAL+=("$1") # save it in an array for later
             shift # past argument
@@ -90,71 +97,82 @@ else
 
     set -- "${POSITIONAL[@]}" # restore positional parameters
         
-    echo "OPT  = ${OPT}"
-    echo "EXP  = ${EXP}"
+    echo "OPT       = ${OPT}"
+    echo "EXP       = ${EXP}"
+    echo "DETACHED  = ${DETACHED}"
+
+    EXTRA_ARGS=""
+    if [ "$DETACHED" = "YES" ]; then
+        EXTRA_ARGS="-d"
+    fi
 
     if [ "$OPT" = "" ] && [ "$NAME" = "" ]; then
         echo "Please describe the script option."
         exit 4
     elif [ "$OPT" = "START" ]; then
         echo "NAME = ${NAME}"
-        export EXPERIMENT_NAME=${NAME}
         echo
         mkdirs "$NAME"
         if [ "$EXP" = "DRACO" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "docker-compose -f draco/docker-compose.yml --compatibility up --remove-orphans -d"
+            EXPERIMENT_NAME=$NAME docker-compose -f draco/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
         
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "docker-compose -f bunch/docker-compose.yml --compatibility up --remove-orphans -d"
+            EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "BUILD" ]; then
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
         if [ "$EXP" = "DRACO" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "docker-compose -f draco/docker-compose.yml --compatibility up --build --remove-orphans -d"
+            EXPERIMENT_NAME=$NAME docker-compose -f draco/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
 
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "docker-compose -f bunch/docker-compose.yml --compatibility up --build --remove-orphans -d"
+            EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "FORCE" ]; then
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
         if [ "$EXP" = "DRACO" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "docker-compose -f draco/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans -d"
+            EXPERIMENT_NAME=$NAME docker-compose -f draco/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
 
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "docker-compose -f bunch/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans -d"
+            EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "STOP" ]; then
         if [ "$EXP" = "DRACO" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "docker-compose -f draco/docker-compose.yml --compatibility down"
+            EXPERIMENT_NAME=$NAME docker-compose -f draco/docker-compose.yml --compatibility down
         fi
 
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "docker-compose -f bunch/docker-compose.yml --compatibility down"
+            EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility down
         fi
     elif [ "$OPT" = "CLEAN" ]; then
         echo "NAME = ${NAME}"
         echo
+        if [ "$EXP" = "ALL" ]; then
+            run_cmd "rm -rf experiments"
+        elif [ "$EXP" = "DRACO" ]; then
+            run_cmd "rm -rf experiments/${NAME}/draco"
+        elif [ "$EXP" = "BUNCH" ]; then
+            run_cmd "rm -rf experiments/${NAME}/bunch"
+        fi
+    elif [ "$OPT" = "LOGS" ]; then
         if [ "$EXP" = "DRACO" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "rm -rf experiments/${NAME}/draco/"
+            echo "---------"; 
+            echo "DRACO IMAGE"; 
+            docker logs -t --tail 50 scam2020_draco_experiment
+            echo
         fi
 
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
-            run_cmd "rm -rf experiments/${NAME}/bunch/"
-        fi
-    elif [ "$OPT" = "LOGS" ]; then
-        for cid in $(docker ps -q); 
-        do
             echo "---------"; 
-            echo "CONTAINER: ${cid}"; 
-            docker logs --tail 10 $cid;
-            echo;
-        done
+            echo "BUNCH IMAGE"; 
+            docker logs -t --tail 50 scam2020_bunch_experiment
+            echo
+        fi
     fi
 fi 
