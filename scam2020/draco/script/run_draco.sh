@@ -1,51 +1,36 @@
 function run_draco {
-    mdg_size="$1"
+    EXPERIMENT_NAME="$1"
 
-    GRAPHS_PATH=${DATA_PATH}/graphs/${mdg_size}
-    GRAPH_FILES=($(ls -A ${GRAPHS_PATH}))
-    echo "MDG SIZE: ${mdg_size}"
+    GRAPHS_PATH=${DATA_PATH}/graphs/${EXPERIMENT_NAME}
+    GRAPH_FILES=($(ls -SrA ${GRAPHS_PATH}))
+    echo "EXP NAME: ${EXPERIMENT_NAME}"
     echo "GRAPH FILES: ${GRAPH_FILES[*]}"
-    # get mdg per size, run draco and keep the time record of this experiment
-    echo "Files to test: ${#GRAPH_FILES[@]}"
+    echo "FILES: ${#GRAPH_FILES[@]}"
     echo
     for idx in "${!GRAPH_FILES[@]}"; do
         mdg_name=${GRAPH_FILES[$idx]%.*}
-        echo "${idx}: MDG NAME: ${mdg_name}"
-        /usr/bin/time -o ${LOG_PATH}/${mdg_size}/${mdg_name}.out --append ${BASE_PATH}/main < ${GRAPHS_PATH}/${GRAPH_FILES[$idx]} > ${EXP_PATH}/${mdg_size}/${mdg_name}.dot
+        echo "${idx} > MDG NAME: ${mdg_name}"
+        /usr/bin/time -v -o ${LOG_PATH}/${EXPERIMENT_NAME}/${mdg_name}.out ${BASE_PATH}/main < ${GRAPHS_PATH}/${GRAPH_FILES[$idx]} > ${EXP_PATH}/${EXPERIMENT_NAME}/${mdg_name}.dot
     done
 }
 
-function run_exps {
-    mdg_size="$1"
-    mdg_types="test small medium large"
-
-    if [ "$mdg_size" = "all" ]; then
-        for size in ${mdg_types}; do
-            run_draco $size
-        done
-    else
-        run_draco $mdg_size
-    fi
-}
-
-
 function run_script {
     POSITIONAL=()
-    MDG_SIZE=$1
+    EXPERIMENT_NAME=$1
 
     if [ "$1" = "" ]; then
-        echo "  Choose the size of the mdg's dataset:"
-        echo "    ./run.sh -s/--size <test, small, medium, large, all>"
+        echo "  Experiment folder that contains the mdg's dataset:"
+        echo "    ./run.sh -n/--name <experiment>"
         echo
     else
-        MDG_SIZE=
+        EXPERIMENT_NAME=
         while [[ $# -gt 0 ]]
         do
             key="$1"
 
             case $key in
-                -s|--size)
-                MDG_SIZE=$2
+                -n|--name)
+                EXPERIMENT_NAME=$2
                 shift # past argument
                 shift # past value
                 ;;
@@ -58,13 +43,13 @@ function run_script {
 
         set -- "${POSITIONAL[@]}" # restore positional parameters
         
-        echo "MDG_OPTION = ${MDG_SIZE}"
+        echo "EXP NAME = ${EXPERIMENT_NAME}"
 
-        if [ "$MDG_SIZE" = "" ]; then
-            echo "Please describe the mdg type you want to test."
+        if [ "$EXPERIMENT_NAME" = "" ]; then
+            echo "Please describe the experiment folder you want to run."
             exit 4
         else
-            run_exps $MDG_SIZE
+            run_draco $EXPERIMENT_NAME
         fi
     fi
 }

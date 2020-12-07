@@ -6,80 +6,22 @@ services:
             dockerfile: dockerfile/Dockerfile.bunch.base
         container_name: scam2020_bunch
 
-    test:
+    experiment:
         build: 
             context: .
-            args:
-                MDG_SIZE: test
             dockerfile: dockerfile/Dockerfile.bunch
+            args:
+                EXPERIMENT_NAME: $EXPERIMENT_NAME
         volumes:
-            - ./exp:/java/src/exp
             - ../graphs:/java/src/data/graphs
-            - ./log:/java/src/log
-        container_name: scam2020_bunch_test
+            - ../experiments/bunch/report:/java/src/exp
+            - ../experiments/bunch/log:/java/src/log
+        container_name: scam2020_bunch_experiment
         depends_on:
             - base
         deploy:
             resources:
                 limits:
-                    cpus: '1'
-                    memory: 1gb
-  
-    small:
-        build: 
-            context: .
-            args:
-                MDG_SIZE: small
-            dockerfile: dockerfile/Dockerfile.bunch
-        volumes:
-            - ./exp:/java/src/exp
-            - ../graphs:/java/src/data/graphs
-            - ./log:/java/src/log
-        container_name: scam2020_bunch_small
-        depends_on:
-            - base
-        deploy:
-            resources:
-                limits:
-                    cpus: '1'
-                    memory: 1gb
-  
-    medium:
-        build: 
-            context: .
-            args:
-                MDG_SIZE: medium
-            dockerfile: dockerfile/Dockerfile.bunch
-        container_name: scam2020_bunch_medium
-        volumes:
-            - ./exp:/java/src/exp
-            - ../graphs:/java/src/data/graphs
-            - ./log:/java/src/log
-        depends_on:
-            - base
-        deploy:
-            resources:
-                limits:
-                    cpus: '1'
-                    memory: 1gb
-  
-    large:
-        build: 
-            context: .
-            args:
-                MDG_SIZE: large
-            dockerfile: dockerfile/Dockerfile.bunch
-        container_name: scam2020_bunch_large
-        volumes:
-            - ./exp:/java/src/exp
-            - ../graphs:/java/src/data/graphs
-            - ./log:/java/src/log
-        depends_on:
-            - base
-        deploy:
-            resources:
-                limits:
-                    cpus: '1'
-                    memory: 1gb
-  
+                    cpus: '3'
+                    memory: 3gb
 

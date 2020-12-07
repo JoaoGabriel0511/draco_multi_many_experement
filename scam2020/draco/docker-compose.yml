@@ -6,80 +6,21 @@ services:
             dockerfile: dockerfile/Dockerfile.draco.base
         container_name: scam2020_draco
 
-    test:
+    experiment:
         build: 
             context: .
-            args:
-                MDG_SIZE: test
             dockerfile: dockerfile/Dockerfile.draco
+            args:
+                EXPERIMENT_NAME: $EXPERIMENT_NAME
         volumes:
-            - ./exp:/go/src/exp
             - ../graphs:/go/src/data/graphs
-            - ./log:/go/src/log
-        container_name: scam2020_draco_test
+            - ../experiments/draco/report:/go/src/exp
+            - ../experiments/draco/log:/go/src/log
+        container_name: scam2020_draco_experiment
         depends_on:
             - base
         deploy:
             resources:
                 limits:
-                    cpus: '1'
-                    memory: 1gb
-  
-    small:
-        build: 
-            context: .
-            args:
-                MDG_SIZE: small
-            dockerfile: dockerfile/Dockerfile.draco
-        volumes:
-            - ./exp:/go/src/exp
-            - ../graphs:/go/src/data/graphs
-            - ./log:/go/src/log
-        container_name: scam2020_draco_small
-        depends_on:
-            - base
-        deploy:
-            resources:
-                limits:
-                    cpus: '1'
-                    memory: 1gb
-  
-    medium:
-        build: 
-            context: .
-            args:
-                MDG_SIZE: medium
-            dockerfile: dockerfile/Dockerfile.draco
-        container_name: scam2020_draco_medium
-        volumes:
-            - ./exp:/go/src/exp
-            - ../graphs:/go/src/data/graphs
-            - ./log:/go/src/log
-        depends_on:
-            - base
-        deploy:
-            resources:
-                limits:
-                    cpus: '1'
-                    memory: 1gb
-  
-    large:
-        build: 
-            context: .
-            args:
-                MDG_SIZE: large
-            dockerfile: dockerfile/Dockerfile.draco
-        container_name: scam2020_draco_large
-        volumes:
-            - ./exp:/go/src/exp
-            - ../graphs:/go/src/data/graphs
-            - ./log:/go/src/log
-        depends_on:
-            - base
-        deploy:
-            resources:
-                limits:
-                    cpus: '1'
-                    memory: 1gb
-  
-
+                    cpus: '3'
+                    memory: 3gb
