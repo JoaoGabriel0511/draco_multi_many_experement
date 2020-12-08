@@ -1,16 +1,15 @@
-function run_draco {
+function run_draco_multi {
     EXPERIMENT_NAME="$1"
 
     GRAPHS_PATH=${DATA_PATH}/graphs/${EXPERIMENT_NAME}
     GRAPH_FILES=($(ls -SrA ${GRAPHS_PATH}))
-    echo "EXP NAME: ${EXPERIMENT_NAME}"
     echo "GRAPH FILES: ${GRAPH_FILES[*]}"
     echo "FILES: ${#GRAPH_FILES[@]}"
     echo
     for idx in "${!GRAPH_FILES[@]}"; do
         mdg_name=${GRAPH_FILES[$idx]%.*}
         echo "${idx} > MDG NAME: ${mdg_name}"
-        /usr/bin/time -v -o ${LOG_PATH}/${EXPERIMENT_NAME}/${mdg_name}.out ${BASE_PATH}/main < ${GRAPHS_PATH}/${GRAPH_FILES[$idx]} > ${EXP_PATH}/${EXPERIMENT_NAME}/${mdg_name}.dot
+        /usr/bin/time -v -o ${LOG_PATH}/${EXPERIMENT_NAME}/${mdg_name}.out ${BASE_PATH}/main --multi < ${GRAPHS_PATH}/${GRAPH_FILES[$idx]} > ${EXP_PATH}/${EXPERIMENT_NAME}/${mdg_name}.dot
     done
 }
 
@@ -49,7 +48,7 @@ function run_script {
             echo "Please describe the experiment folder you want to run."
             exit 4
         else
-            run_draco $EXPERIMENT_NAME
+            run_draco_multi $EXPERIMENT_NAME
         fi
     fi
 }
