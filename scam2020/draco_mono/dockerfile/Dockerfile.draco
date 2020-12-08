@@ -1,4 +1,4 @@
-FROM draco_base:latest
+FROM draco_mono_base:latest
 
 ARG EXPERIMENT_NAME
 ENV EXPERIMENT_NAME=${EXPERIMENT_NAME}
