@@ -3,7 +3,6 @@ function run_bunch {
 
     GRAPHS_PATH=${DATA_PATH}/graphs/${EXPERIMENT_NAME}
     GRAPH_FILES=($(ls -SrA ${GRAPHS_PATH}))
-    echo "EXP NAME: ${EXPERIMENT_NAME}"
     echo "GRAPH FILES: ${GRAPH_FILES[*]}"
     echo "FILES: ${#GRAPH_FILES[@]}"
     echo
