@@ -1,0 +1,26 @@
+version: "3.2"
+services:
+    base:
+        build: 
+            context: .
+            dockerfile: dockerfile/Dockerfile.draco.base
+        container_name: scam2020_draco_mono
+
+    experiment:
+        build: 
+            context: .
+            dockerfile: dockerfile/Dockerfile.draco
+            args:
+                EXPERIMENT_NAME: $EXPERIMENT_NAME
+        volumes:
+            - ../graphs:/go/src/data/graphs
+            - ../experiments/draco_mono/report:/go/src/exp
+            - ../experiments/draco_mono/log:/go/src/log
+        container_name: scam2020_draco_mono_experiment
+        depends_on:
+            - base
+        deploy:
+            resources:
+                limits:
+                    cpus: '3'
+                    memory: 3gb
