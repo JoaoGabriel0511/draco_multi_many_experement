@@ -11,6 +11,8 @@ function mkdirs {
     mkdir -p "experiments/draco_mono/log/${NAME}"
     mkdir -p "experiments/draco_multi/report/${NAME}"
     mkdir -p "experiments/draco_multi/log/${NAME}"
+    mkdir -p "experiments/hdg_mono/report/${NAME}"
+    mkdir -p "experiments/hdg_mono/log/${NAME}"
     mkdir -p "experiments/bunch/report/${NAME}"
     mkdir -p "experiments/bunch/log/${NAME}"
 }
@@ -32,6 +34,7 @@ if [ "$1" = "" ]; then
     echo "    --all [default]           Applies the actions above for draco (mono and multi) and bunch."
     echo "    -dmo/--draco-mono         Applies the actions above only for draco mono objetive."
     echo "    -dmu/--draco-multi        Applies the actions above only for draco multiple objetives."
+    echo "    -h/--hdg-mono             Applies the actions above only for hdg mono objetive."
     echo "    -b/--bunch                Applies the actions above only for bunch."
     echo
     echo " ARGS:"
@@ -83,6 +86,10 @@ else
             EXP=DRACO_MULTI
             shift # past argument
             ;;
+            -h|--hdg-mono)
+            EXP=HDG_MONO
+            shift # past argument
+            ;;
             -b|--bunch)
             EXP=BUNCH
             shift # past argument
@@ -128,6 +135,10 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_multi/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
         
+        if [ "$EXP" = "HDG_MONO" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f hdg_mono/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
+        fi
+        
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
@@ -143,6 +154,10 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_multi/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
 
+        if [ "$EXP" = "HDG_MONO" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f hdg_mono/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
+        fi
+        
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
@@ -158,6 +173,10 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_multi/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
 
+        if [ "$EXP" = "HDG_MONO" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f hdg_mono/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
+        fi
+        
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
@@ -170,6 +189,10 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_multi/docker-compose.yml --compatibility down
         fi
 
+        if [ "$EXP" = "HDG_MONO" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f hdg_mono/docker-compose.yml --compatibility down
+        fi
+        
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility down
         fi
@@ -182,6 +205,8 @@ else
             run_cmd "rm -rf experiments/${NAME}/draco_mono"
         elif [ "$EXP" = "DRACO_MULTI" ]; then
             run_cmd "rm -rf experiments/${NAME}/draco_multi"
+        elif [ "$EXP" = "HDG_MONO" ]; then
+            run_cmd "rm -rf experiments/${NAME}/hdg_mono"
         elif [ "$EXP" = "BUNCH" ]; then
             run_cmd "rm -rf experiments/${NAME}/bunch"
         fi
@@ -197,6 +222,13 @@ else
             echo "---------"; 
             echo "DRACO MULTI IMAGE"; 
             docker logs -t --tail 50 scam2020_draco_multi_experiment
+            echo
+        fi
+
+        if [ "$EXP" = "HDG_MONO" ] || [ "$EXP" = "ALL" ]; then
+            echo "---------"; 
+            echo "HDG MONO IMAGE"; 
+            docker logs -t --tail 50 scam2020_hdg_mono_experiment
             echo
         fi
 

@@ -1,0 +1,27 @@
+version: "3.2"
+services:
+    base:
+        build: 
+            context: .
+            dockerfile: dockerfile/Dockerfile.hdg_mono.base
+        container_name: scam2020_hdg_mono
+
+    experiment:
+        build: 
+            context: .
+            dockerfile: dockerfile/Dockerfile.hdg_mono
+            args:
+                EXPERIMENT_NAME: $EXPERIMENT_NAME
+        volumes:
+            - ../graphs:/java/src/data/graphs
+            - ../experiments/hdg_mono/report:/java/src/exp
+            - ../experiments/hdg_mono/log:/java/src/log
+        container_name: scam2020_hdg_mono_experiment
+        depends_on:
+            - base
+        deploy:
+            resources:
+                limits:
+                    cpus: '3'
+                    memory: 3gb
+

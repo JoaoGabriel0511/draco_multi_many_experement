@@ -1,0 +1,12 @@
+FROM hdg_mono_base:latest
+
+ARG EXPERIMENT_NAME
+ENV EXPERIMENT_NAME=${EXPERIMENT_NAME}
+
+WORKDIR ${BASE_PATH}
+
+COPY script/run_hdg_mono.sh src/ ./
+
+RUN mvn clean package install 
+
+ENTRYPOINT bash run_hdg_mono.sh --name ${EXPERIMENT_NAME}
