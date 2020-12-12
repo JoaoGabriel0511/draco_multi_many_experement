@@ -1,0 +1,1764 @@
+
+
+
+digraph {
+subgraph cluster405 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[CS]/SchemaExport(ConnectionHelper,String[],String[])/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_function_TrimFunction.java/[CN]/TrimFunction/[MT]/render(CriteriaQueryCompiler.RenderingContext)/body";
+"hibernate-core_src_main_java_org_hibernate_type_ComponentType.java/[CN]/ComponentType/[MT]/isDirty(Object,Object,SessionImplementor)/body";
+}
+subgraph cluster82 {
+"hibernate-core_src_main_java_org_hibernate_transaction_JOTMTransactionManagerLookup.java/[CN]/JOTMTransactionManagerLookup/[FE]/TM_CLASS_NAME";
+}
+subgraph cluster138 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_annotation_AnnotationMetaEntity.java/[CN]/AnnotationMetaEntity/[MT]/getElementType(DeclaredType,String)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_annotation_AnnotationMetaEntity.java/[CN]/AnnotationMetaEntity/[MT]/getTargetEntity(List<? extends AnnotationMirror>)/body";
+}
+subgraph cluster481 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/negated().conflicted2/body";
+}
+subgraph cluster483 {
+"hibernate-core_src_main_java_org_hibernate_collection_internal_AbstractPersistentCollection.java/[CN]/AbstractPersistentCollection/[MT]/readElementExistence(Object)/body";
+}
+subgraph cluster391 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted3/body";
+"hibernate-core_src_main_java_org_hibernate_service_internal_StandardSessionFactoryServiceInitiators.java/[CN]/StandardSessionFactoryServiceInitiators/[MT]/buildStandardServiceInitiatorList()/body";
+"core_src_main_java_org_hibernate_loader_hql_QueryLoader.java/[CN]/QueryLoader/[MT]/applyLocks(String,LockOptions,Dialect)/body";
+}
+subgraph cluster509 {
+"hibernate-java8_src_main_java_org_hibernate_type_OffsetTimeType.java/[CN]/OffsetTimeType/[CS]/OffsetTimeType()/body";
+"hibernate-java8_src_main_java_org_hibernate_type_descriptor_java_OffsetTimeJavaDescriptor.java/[CN]/OffsetTimeJavaDescriptor/[MT]/unwrap(OffsetTime,Class<X>,WrapperOptions)/body";
+}
+subgraph cluster20 {
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[MT]/getPersisterClassProvider()/parameters";
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[MT]/setPersisterClassProvider(PersisterClassProvider)/parameters";
+"hibernate-core_src_main_java_org_hibernate_loader_criteria_CriteriaLoader.java/[CN]/CriteriaLoader/[MT]/scroll(SessionImplementor,ScrollMode)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/negated().conflicted4/body";
+}
+subgraph cluster195 {
+"hibernate-core_src_main_java_org_hibernate_hql_ast_SqlGenerator.java/[CN]/SqlGenerator/[MT]/traceIn(String,AST)/body";
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiArchiveDescriptor.java/[CN]/OsgiArchiveDescriptor/[MT]/visitArchive(ArchiveContext)/body";
+}
+subgraph cluster395 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/checkAudited(XProperty,PropertyAuditingData,Audited)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/fillPropertyData(XProperty,PropertyAuditingData,String,Audited)/body";
+}
+subgraph cluster314 {
+"hibernate-core_src_main_java_org_hibernate_event_internal_DefaultLoadEventListener.java/[CN]/DefaultLoadEventListener/[MT]/processCachedEntry(LoadEvent,EntityPersister,Object,SessionImplementor,EntityKey)/body";
+"hibernate-core_src_main_java_org_hibernate_cache_internal_StandardQueryCache.java/[CN]/StandardQueryCache/[MT]/get(QueryKey,Type[],boolean,Set<Serializable>,SessionImplementor)/body";
+}
+subgraph cluster366 {
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServerDialect.java/[CN]/SQLServerDialect/[MT]/getLimitString(String,int,int)/parameters";
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServerDialect.java/[CN]/SQLServerDialect/[MT]/supportsLimitOffset()/body";
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServerDialect.java/[CN]/SQLServerDialect/[MT]/getLimitString(String,int,int)/body";
+}
+subgraph cluster145 {
+"hibernate-core_src_main_java_org_hibernate_cache_internal_StandardQueryCache.java/[CN]/StandardQueryCache/[MT]/logCachedResultRowDetails(Type[],Object)/body";
+"hibernate-core_src_main_java_org_hibernate_cache_internal_StandardQueryCache.java/[CN]/StandardQueryCache/[MT]/put(QueryKey,Type[],List,boolean,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_cache_internal_StandardQueryCache.java/[CN]/StandardQueryCache/[MT]/logCachedResultRowDetails(Type[],Object[])/body";
+}
+subgraph cluster239 {
+"hibernate-core_src_main_java_org_hibernate_service_internal_AbstractServiceRegistryImpl.java/[CN]/AbstractServiceRegistryImpl/[MT]/destroy()/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/handleRootElementAnnotationMirrors(Element)/body";
+"hibernate-core_src_main_java_org_hibernate_boot_registry_internal_BootstrapServiceRegistryImpl.java/[CN]/BootstrapServiceRegistryImpl/[MT]/destroy()/body";
+}
+subgraph cluster14 {
+"hibernate-core_src_main_java_org_hibernate_transaction_BTMTransactionManagerLookup.java/[CN]/BTMTransactionManagerLookup/[FE]/TM_CLASS_NAME";
+"hibernate-core_src_main_java_org_hibernate_proxy_pojo_cglib_SerializableProxy.java/[CN]/SerializableProxy/[MT]/readResolve()/body";
+}
+subgraph cluster136 {
+"entitymanager_src_main_java_org_hibernate_ejb_metamodel_AttributeFactory.java/[CN]/AttributeFactory/[MT]/buildIdAttribute(AbstractIdentifiableType<X>,Property)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_metamodel_AttributeFactory.java/[CN]/AttributeFactory/[MT]/buildVersionAttribute(AbstractIdentifiableType<X>,Property)/body";
+}
+subgraph cluster109 {
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ExecutableList.java/[CN]/ExecutableList/[CS]/ExecutableList(int,ExecutableList.Sorter<E>)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ExecutableList.java/[CN]/ExecutableList/[MT]/add(E)/body";
+}
+subgraph cluster498 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_metamodel_MetamodelImpl.java/[CN]/MetamodelImpl/[MT]/getManagedTypes()/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_metamodel_MetamodelImpl.java/[CN]/MetamodelImpl/[MT]/managedType(Class<X>)/body";
+}
+subgraph cluster107 {
+"hibernate-core_src_main_java_org_hibernate_internal_util_ConfigHelper.java/[CN]/ConfigHelper/[MT]/getUserResourceAsStream(String)/body";
+}
+subgraph cluster362 {
+"hibernate-core_src_main_java_org_hibernate_engine_query_spi_QueryPlanCache.java/[CN]/QueryPlanCache/[MT]/getNativeSQLQueryPlan(NativeSQLQuerySpecification)/body";
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_ImportSqlCommandExtractorInitiator.java/[CN]/ImportSqlCommandExtractorInitiator/[FE]/DEFAULT_EXTRACTOR";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_global_TableBinder.java/[CN]/TableBinder/[MT]/bindIndexAnnotation(Table,AnnotationInstance)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_annotation_AnnotationMetaEntity.java/[CN]/AnnotationMetaEntity/[CN]/TypeVisitor/[MT]/createAnnotationMetaAttributeForMap(DeclaredType,Element,String,String)/body";
+}
+subgraph cluster275 {
+"hibernate-envers_src_main_java_org_hibernate_envers_entities_mapper_id_AbstractCompositeIdMapper.java/[CN]/AbstractCompositeIdMapper/[MT]/mapToIdFromMap(Map)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_entities_mapper_id_MultipleIdMapper.java/[CN]/MultipleIdMapper/[MT]/mapToIdFromEntity(Object)/body";
+}
+subgraph cluster302 {
+"hibernate-core_src_main_java_org_hibernate_internal_SessionImpl.java/[CN]/SessionImpl/[CN]/SimpleNaturalIdLoadAccessImpl/[MT]/getReference(Object)/body";
+"hibernate-core_src_main_java_org_hibernate_internal_SessionImpl.java/[CN]/SessionImpl/[CN]/SimpleNaturalIdLoadAccessImpl/[MT]/with(LockOptions)/body";
+"hibernate-core_src_main_java_org_hibernate_internal_SessionImpl.java/[CN]/SessionImpl/[CN]/NaturalIdLoadAccessImpl/[CS]/NaturalIdLoadAccessImpl(EntityPersister)/body";
+}
+subgraph cluster212 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_internal_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/addFromComponentProperty(XProperty,String,Component,Audited)/body";
+}
+subgraph cluster289 {
+"hibernate-core_src_main_java_org_hibernate_bytecode_internal_javassist_FieldTransformer.java/[CN]/FieldTransformer/[MT]/addSetFieldHandlerMethod(ClassFile)/body";
+}
+subgraph cluster415 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_domain_AbstractHbmAttributeDomainState.java/[CN]/AbstractHbmAttributeDomainState/[CS]/AbstractHbmAttributeDomainState(MappingDefaults,Attribute,Map<String,MetaAttribute>,XMLVersion)/body";
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_internal_spaces_EntityQuerySpaceImpl.java/[CN]/EntityQuerySpaceImpl/[MT]/makeCompositeIdentifierJoin()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_PooledConnections.java/[CN]/PooledConnections/[MT]/poll()/body";
+}
+subgraph cluster475 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_AuditMetadataGenerator.java/[CN]/AuditMetadataGenerator/[MT]/createJoins(PersistentClass,Element,ClassAuditingData)/body";
+}
+subgraph cluster473 {
+"core_src_main_java_org_hibernate_type_descriptor_sql_BlobTypeDescriptor.java/[CN]/BlobTypeDescriptor/[MT]/getBinder(JavaTypeDescriptor<X>)/body";
+"core_src_main_java_org_hibernate_type_descriptor_java_BinaryStreamImpl.java/[CN]/BinaryStreamImpl/[MT]/getInputStream()/body";
+}
+subgraph cluster154 {
+"hibernate-core_src_main_java_org_hibernate_action_internal_EntityInsertAction.java/[CN]/EntityInsertAction/[MT]/doAfterTransactionCompletion(boolean,SessionImplementor)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_metamodel_AbstractIdentifiableType.java/[CN]/AbstractIdentifiableType/[MT]/getIdClassAttributesSafely()/body";
+}
+subgraph cluster510 {
+"envers_src_main_java_org_hibernate_envers_configuration_metadata_AuditMetadataGenerator.java/[CN]/AuditMetadataGenerator/[MT]/addRevisionInfoRelation(Element)/body";
+"envers_src_main_java_org_hibernate_envers_configuration_metadata_MetadataTools.java/[CN]/MetadataTools/[MT]/addColumn(Element,String,Integer,Integer,Integer,String)/body";
+}
+subgraph cluster430 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_ConfiguredClassHierarchy.java/[CN]/ConfiguredClassHierarchy/[CS]/ConfiguredClassHierarchy(List<ClassInfo>,ServiceRegistry)/body";
+}
+subgraph cluster337 {
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServer2005Dialect.java/[CN]/SQLServer2005Dialect/[MT]/supportsVariableLimit()/body";
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServer2005Dialect.java/[CN]/SQLServer2005Dialect/[MT]/getLimitString(String,int,int)/parameters";
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServer2005Dialect.java/[CN]/SQLServer2005Dialect/[MT]/getLimitString(String,int,int)/body";
+}
+subgraph cluster361 {
+"hibernate-core_src_main_java_org_hibernate_cfg_HbmBinder.java/[CN]/HbmBinder/[MT]/bindManyToOne(Element,ManyToOne,String,boolean,Mappings)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_HbmBinder.java/[CN]/HbmBinder/[MT]/bindOneToOne(Element,OneToOne,String,boolean,Mappings)/body";
+}
+subgraph cluster382 {
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[MT]/reset()/body";
+}
+subgraph cluster197 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_TableMetadata.java/[CN]/TableMetadata/[MT]/addColumn(ResultSet)/body";
+}
+subgraph cluster28 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted2/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/rendered().conflicted3/body";
+}
+subgraph cluster429 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmColumnRelationalState.java/[CN]/HbmColumnRelationalState/[CS]/HbmColumnRelationalState(XMLVersion,HbmSimpleValueRelationalStateContainer)/body";
+"hibernate-core_src_main_java_org_hibernate_transaction_WebSphereExtendedJTATransactionLookup.java/[CN]/WebSphereExtendedJTATransactionLookup/[CN]/TransactionManagerAdapter/[CS]/TransactionManagerAdapter(Properties)/body";
+}
+subgraph cluster506 {
+"hibernate-core_src_main_java_org_hibernate_internal_SessionImpl.java/[CN]/SessionImpl/[CN]/MultiIdentifierLoadAccessImpl/[MT]/multiLoad(List<K>)/body";
+"hibernate-core_src_main_java_org_hibernate_internal_SessionImpl.java/[CN]/SessionImpl/[CN]/MultiIdentifierLoadAccessImpl/[MT]/multiLoad(K)/body";
+}
+subgraph cluster268 {
+"hibernate-core_src_main_java_org_hibernate_internal_SessionFactoryImpl.java/[CN]/SessionFactoryImpl/[MT]/checkNamedQueries()/body";
+"hibernate-core_src_main_java_org_hibernate_internal_SessionFactoryImpl.java/[CN]/SessionFactoryImpl/[CS]/SessionFactoryImpl(Configuration,Mapping,ServiceRegistry,Settings,SessionFactoryObserver)/body";
+}
+subgraph cluster455 {
+"hibernate-core_src_main_java_org_hibernate_tool_schema_extract_internal_InformationExtractorJdbcDatabaseMetaDataImpl.java/[CN]/InformationExtractorJdbcDatabaseMetaDataImpl/[MT]/getIndexes(TableInformation)/body";
+"annotations_src_main_java_org_hibernate_cfg_Ejb3Column.java/[CN]/Ejb3Column/[MT]/buildColumnFromAnnotation(javax.persistence.Column[],org.hibernate.annotations.Formula,Nullability,PropertyHolder,PropertyData,String,Map<String,Join>,ExtendedMappings)/body";
+}
+subgraph cluster30 {
+"hibernate-core_src_main_java_org_hibernate_bytecode_internal_javassist_FieldTransformer.java/[CN]/FieldTransformer/[MT]/addReadMethod(ClassFile,FieldInfo)/body";
+"hibernate-core_src_main_java_org_hibernate_bytecode_internal_javassist_FieldTransformer.java/[CN]/FieldTransformer/[MT]/addGetFieldHandlerMethod(ClassFile)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[MT]/parseEmbeddableAttributes(EmbeddableAttributes)/body";
+}
+subgraph cluster463 {
+"annotations_src_main_java_org_hibernate_cfg_AbstractPropertyHolder.java/[CN]/AbstractPropertyHolder/[MT]/getOverriddenColumn(String)/body";
+"annotations_src_main_java_org_hibernate_cfg_annotations_MapBinder.java/[CN]/MapBinder/[MT]/bindKeyFromAssociationTable(XClass,Map,String,XProperty,boolean,ExtendedMappings,Ejb3Column[],Ejb3JoinColumn[],String)/body";
+}
+subgraph cluster233 {
+"core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[MT]/isReadOnly()/body";
+"core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[MT]/setReadOnly(boolean)/body";
+}
+subgraph cluster291 {
+"hibernate-envers_src_main_java_org_hibernate_envers_reader_AuditReaderImpl.java/[CN]/AuditReaderImpl/[MT]/findRevisions(Class<T>,Set<Number>)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_reader_AuditReaderImpl.java/[CN]/AuditReaderImpl/[MT]/findRevision(Class<T>,Number)/body";
+}
+subgraph cluster491 {
+"hibernate-core_src_main_java_org_hibernate_property_DirectPropertyAccessor.java/[CN]/DirectPropertyAccessor/[CN]/DirectGetter/[MT]/getMethod()/body";
+"hibernate-core_src_main_java_org_hibernate_property_DirectPropertyAccessor.java/[CN]/DirectPropertyAccessor/[CN]/DirectGetter/[MT]/getMethodName()/body";
+}
+subgraph cluster253 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_internal_spaces_EntityQuerySpaceImpl.java/[CN]/EntityQuerySpaceImpl/[MT]/addCompositeJoin(CompositionDefinition,String)/body";
+"core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[CS]/SchemaExport(Configuration,Properties)/body";
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_internal_spaces_EntityQuerySpaceImpl.java/[CN]/EntityQuerySpaceImpl/[MT]/addEntityJoin(AttributeDefinition,EntityPersister,String,boolean)/body";
+}
+subgraph cluster91 {
+"core_src_main_java_org_hibernate_util_SerializationHelper.java/[CN]/SerializationHelper/[MT]/deserialize(byte[])/body";
+"core_src_main_java_org_hibernate_dialect_Oracle9Dialect.java/[CN]/Oracle9Dialect/[CS]/Oracle9Dialect()/body";
+}
+subgraph cluster438 {
+"hibernate-core_src_main_java_org_hibernate_internal_SessionImpl.java/[CN]/SessionImpl/[CN]/SimpleNaturalIdLoadAccessImpl/[CS]/SimpleNaturalIdLoadAccessImpl(EntityPersister)/body";
+}
+subgraph cluster505 {
+"hibernate-core_src_main_java_org_hibernate_mapping_UniqueKey.java/[CN]/UniqueKey/[MT]/sqlConstraintString(Dialect,String,String,String)/body";
+"annotations_src_main_java_org_hibernate_cfg_annotations_CollectionBinder.java/[CN]/CollectionBinder/[MT]/bindManyToManySecondPass(Collection,Map,Ejb3JoinColumn[],Ejb3JoinColumn[],Ejb3Column[],boolean,XClass,boolean,boolean,boolean,TableBinder,XProperty,PropertyHolder,String,ExtendedMappings)/body";
+}
+subgraph cluster213 {
+"hibernate-envers_src_main_java_org_hibernate_envers_strategy_ValidityAuditStrategy.java/[CN]/ValidityAuditStrategy/[MT]/updateLastRevision(Session,AuditConfiguration,List<Object>,Object,String,Object)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_strategy_ValidityAuditStrategy.java/[CN]/ValidityAuditStrategy/[MT]/performCollectionChange(Session,AuditConfiguration,PersistentCollectionChangeData,Object)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_strategy_ValidityAuditStrategy.java/[CN]/ValidityAuditStrategy/[MT]/perform(Session,String,AuditConfiguration,Serializable,Object,Object)/body";
+}
+subgraph cluster201 {
+"core_src_main_java_org_hibernate_mapping_Component.java/[CN]/Component/[CN]/ValueGenerationPlan/[MT]/execute(SessionImplementor,Object,Object)/body";
+"core_src_main_java_org_hibernate_mapping_Component.java/[CN]/Component/[CN]/ValueGenerationPlan/[MT]/execute(SessionImplementor,Object,Object)/parameters";
+}
+subgraph cluster166 {
+"hibernate-core_src_main_java_org_hibernate_id_factory_internal_DefaultIdentifierGeneratorFactory.java/[CN]/DefaultIdentifierGeneratorFactory/[MT]/getIdentifierGeneratorClass(String)/body";
+"hibernate-core_src_main_java_org_hibernate_id_factory_internal_DefaultIdentifierGeneratorFactory.java/[CN]/DefaultIdentifierGeneratorFactory/[MT]/injectServices(ServiceRegistryImplementor)/body";
+}
+subgraph cluster464 {
+"core_src_main_java_org_hibernate_util_SerializationHelper.java/[CN]/SerializationHelper/[CN]/CustomObjectInputStream/[MT]/resolveClass(ObjectStreamClass)/body";
+"core_src_main_java_org_hibernate_util_SerializationHelper.java/[CN]/SerializationHelper/[MT]/deserialize(InputStream,ClassLoader)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_metamodel_MetadataContext.java/[CN]/MetadataContext/[MT]/registerAttributes(Class,AbstractManagedType<X>)/body";
+}
+subgraph cluster106 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/bindDiscriminatorColumn(EntityBinding)/body";
+}
+subgraph cluster511 {
+"hibernate-core_src_main_java_org_hibernate_id_enhanced_PooledLoThreadLocalOptimizer.java/[CN]/PooledLoThreadLocalOptimizer/[MT]/generate(AccessCallback)/body";
+"hibernate-core_src_main_java_org_hibernate_id_enhanced_PooledLoThreadLocalOptimizer.java/[CN]/PooledLoThreadLocalOptimizer/[MT]/noTenantGenerationState()/body";
+}
+subgraph cluster260 {
+"entitymanager_src_main_java_org_hibernate_ejb_packaging_PersistenceXmlLoader.java/[CN]/PersistenceXmlLoader/[CN]/ErrorLogger/[MT]/fatalError(SAXParseException)/body";
+}
+subgraph cluster137 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_reflection_JPAOverridenAnnotationReader.java/[CN]/JPAOverridenAnnotationReader/[MT]/initAnnotations()/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_reflection_JPAOverridenAnnotationReader.java/[CN]/JPAOverridenAnnotationReader/[MT]/buildUniqueConstraints(AnnotationDescriptor,Element)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_reflection_JPAOverridenAnnotationReader.java/[CN]/JPAOverridenAnnotationReader/[MT]/getElementCollection(List<Annotation>,XMLContext.Default)/body";
+}
+subgraph cluster251 {
+"core_src_main_java_org_hibernate_tuple_entity_AbstractEntityTuplizer.java/[CN]/AbstractEntityTuplizer/[MT]/getIdentifier(Object)/body";
+"core_src_main_java_org_hibernate_tuple_entity_AbstractEntityTuplizer.java/[CN]/AbstractEntityTuplizer/[MT]/getPropertyValue(Object,String)/body";
+"core_src_main_java_org_hibernate_tuple_entity_AbstractEntityTuplizer.java/[CN]/AbstractEntityTuplizer/[CS]/AbstractEntityTuplizer(EntityMetamodel,PersistentClass)/body";
+}
+subgraph cluster494 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_metamodel_AbstractIdentifiableType.java/[CN]/AbstractIdentifiableType/[CS]/AbstractIdentifiableType(Class<X>,String,AbstractIdentifiableType<? super X>,boolean,boolean,boolean)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_metamodel_AbstractIdentifiableType.java/[CN]/AbstractIdentifiableType/[MT]/ensureNoIdClass()/body";
+}
+subgraph cluster329 {
+"core_src_main_java_org_hibernate_intercept_FieldInterceptionHelper.java/[CN]/FieldInterceptionHelper/[MT]/injectFieldInterceptor(Object,String,Set,SessionImplementor)/body";
+"core_src_main_java_org_hibernate_intercept_FieldInterceptionHelper.java/[CN]/FieldInterceptionHelper/[MT]/isInstrumented(Class)/body";
+"core_src_main_java_org_hibernate_intercept_FieldInterceptionHelper.java/[CN]/FieldInterceptionHelper/[MT]/extractFieldInterceptor(Object)/body";
+}
+subgraph cluster331 {
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[CN]/MappingsImpl/[MT]/setPersisterClassProvider(PersisterClassProvider)/body";
+}
+subgraph cluster85 {
+"hibernate-core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[MT]/initialize()/body";
+"hibernate-core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[MT]/unsetSession()/body";
+"hibernate-core_src_main_java_org_hibernate_collection_internal_AbstractPersistentCollection.java/[CN]/AbstractPersistentCollection/[MT]/unsetSession(SessionImplementor)/body";
+}
+subgraph cluster398 {
+"hibernate-core_src_main_java_org_hibernate_bytecode_enhance_internal_PersistentAttributesEnhancer.java/[CN]/PersistentAttributesEnhancer/[MT]/generateFieldReader(CtClass,CtField,AttributeTypeDescriptor)/body";
+"hibernate-core_src_main_java_org_hibernate_bytecode_enhance_internal_PersistentAttributesEnhancer.java/[CN]/PersistentAttributesEnhancer/[MT]/generateFieldWriter(CtClass,CtField,AttributeTypeDescriptor)/body";
+}
+subgraph cluster277 {
+"envers_src_main_java_org_hibernate_envers_event_AuditEventListener.java/[CN]/AuditEventListener/[MT]/onPostInsert(PostInsertEvent)/body";
+"envers_src_main_java_org_hibernate_envers_event_AuditEventListener.java/[CN]/AuditEventListener/[MT]/onPostUpdate(PostUpdateEvent)/body";
+"envers_src_main_java_org_hibernate_envers_event_AuditEventListener.java/[CN]/AuditEventListener/[MT]/onPostDelete(PostDeleteEvent)/body";
+}
+subgraph cluster383 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[CS]/SchemaExport(Configuration,Properties)/body";
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_java_ClobTypeDescriptor.java/[CN]/ClobTypeDescriptor/[MT]/extractLoggableRepresentation(Clob)/body";
+"annotations_src_main_java_org_hibernate_cfg_AnnotationBinder.java/[CN]/AnnotationBinder/[MT]/addProperty(PropertyContainer,XProperty,List<PropertyData>,String,ExtendedMappings)/body";
+}
+subgraph cluster416 {
+"hibernate-core_src_main_java_org_hibernate_engine_transaction_internal_TransactionCoordinatorImpl.java/[CN]/TransactionCoordinatorImpl/[MT]/pulse()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_transaction_internal_TransactionCoordinatorImpl.java/[CN]/TransactionCoordinatorImpl/[MT]/afterTransaction(TransactionImplementor,int)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_transaction_internal_TransactionCoordinatorImpl.java/[CN]/TransactionCoordinatorImpl/[MT]/attemptToRegisterJtaSync()/body";
+}
+subgraph cluster161 {
+"hibernate-core_src_main_java_org_hibernate_hql_ast_HqlSqlWalker.java/[CN]/HqlSqlWalker/[MT]/traceIn(String,AST)/body";
+"hibernate-core_src_main_java_org_hibernate_hql_ast_SqlGenerator.java/[CN]/SqlGenerator/[MT]/traceOut(String,AST)/body";
+}
+subgraph cluster49 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_metamodel_AbstractIdentifiableType.java/[CN]/AbstractIdentifiableType/[MT]/hasSingleIdAttribute()/body";
+}
+subgraph cluster19 {
+"core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/collapseQualifierBase(String,String)/body";
+"core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/partiallyUnqualify(String,String)/body";
+}
+subgraph cluster211 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityClass.java/[CN]/EntityClass/[MT]/definesItsOwnTable()/body";
+}
+subgraph cluster114 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmSimpleValueRelationalStateContainer.java/[CN]/HbmSimpleValueRelationalStateContainer/[CS]/HbmSimpleValueRelationalStateContainer(MappingDefaults,boolean,XMLTimestamp)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_MetadataTools.java/[CN]/MetadataTools/[MT]/addColumns(Element,Iterator<Column>)/body";
+}
+subgraph cluster25 {
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[CN]/MappingsImpl/[MT]/getPersisterClassProvider()/parameters";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/buildCollectionRegion(String,Properties,CacheDataDescription)/body";
+"hibernate-core_src_main_java_org_hibernate_resource_transaction_backend_jdbc_internal_JdbcResourceLocalTransactionCoordinatorImpl.java/[CN]/JdbcResourceLocalTransactionCoordinatorImpl/[MT]/afterCompletionCallback(boolean)/body";
+}
+subgraph cluster214 {
+"hibernate-core_src_main_java_org_hibernate_mapping_OneToMany.java/[CN]/OneToMany/[MT]/getEntityType()/body";
+}
+subgraph cluster222 {
+"hibernate-core_src_main_java_org_hibernate_event_internal_EventCache.java/[CN]/EventCache/[MT]/put(Object,Object)/body";
+"hibernate-core_src_main_java_org_hibernate_cache_UpdateTimestampsCache.java/[CN]/UpdateTimestampsCache/[MT]/isUpToDate(Set,Long)/body";
+"hibernate-core_src_main_java_org_hibernate_event_internal_EventCache.java/[CN]/EventCache/[MT]/put(Object,Object,boolean)/body";
+}
+subgraph cluster312 {
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServer2005Dialect.java/[CN]/SQLServer2005Dialect/[MT]/insertRowNumberFunction(StringBuilder,CharSequence)/body";
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServer2005Dialect.java/[CN]/SQLServer2005Dialect/[MT]/stripAliases(String)/body";
+}
+subgraph cluster229 {
+"hibernate-core_src_main_java_org_hibernate_loader_criteria_CriteriaLoader.java/[CN]/CriteriaLoader/[MT]/list(SessionImplementor)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_event_spi_JpaIntegrator.java/[CN]/JpaIntegrator/[MT]/integrate(Configuration,SessionFactoryImplementor,SessionFactoryServiceRegistry)/body";
+}
+subgraph cluster189 {
+"envers_src_main_java_org_hibernate_envers_entities_mapper_relation_lazy_ToOneDelegateSessionImplementor.java/[CN]/ToOneDelegateSessionImplementor/[MT]/doImmediateLoad(String)/body";
+"envers_src_main_java_org_hibernate_envers_entities_mapper_relation_ToOneIdMapper.java/[CN]/ToOneIdMapper/[MT]/mapToEntityFromMap(AuditConfiguration,Object,Map,Object,AuditReaderImplementor,Number)/body";
+"envers_src_main_java_org_hibernate_envers_entities_mapper_relation_lazy_ToOneDelegateSessionImplementor.java/[CN]/ToOneDelegateSessionImplementor/[CS]/ToOneDelegateSessionImplementor(AuditReaderImplementor,Class<?>,Object,Number,AuditConfiguration)/body";
+}
+subgraph cluster456 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityClass.java/[CN]/EntityClass/[MT]/processDiscriminator()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_attribute_DiscriminatorSourceImpl.java/[CN]/DiscriminatorSourceImpl/[MT]/getDiscriminatorRelationalValueSource()/body";
+}
+subgraph cluster503 {
+"cache-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/buildQueryResultsRegion(String,Properties)/body";
+}
+subgraph cluster170 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/negated().conflicted3/body";
+}
+subgraph cluster185 {
+"core_src_main_java_org_hibernate_cfg_SettingsFactory.java/[CN]/SettingsFactory/[MT]/buildSettings(Properties)/body";
+"hibernate-core_src_main_java_org_hibernate_tool_schema_internal_TargetFileImpl.java/[CN]/TargetFileImpl/[CS]/TargetFileImpl(String,String)/body";
+"envers_src_main_java_org_hibernate_envers_configuration_metadata_AuditMetadataGenerator.java/[CN]/AuditMetadataGenerator/[CS]/AuditMetadataGenerator(Configuration,GlobalConfiguration,AuditEntitiesConfiguration,Element,AuditEntityNameRegister)/body";
+}
+subgraph cluster90 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_internal_HibernateTypeResolver.java/[CN]/HibernateTypeResolver/[MT]/determineDefaultCollectionInformation(AbstractPluralAttributeBinding)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_internal_HibernateTypeResolver.java/[CN]/HibernateTypeResolver/[MT]/resolvePluralAttributeTypeInformation(AbstractPluralAttributeBinding)/body";
+}
+subgraph cluster419 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_PooledConnections.java/[CN]/PooledConnections/[MT]/removeConnections(int)/body";
+"core_src_main_java_org_hibernate_id_enhanced_TableGenerator.java/[CN]/TableGenerator/[MT]/buildSelectQuery(Dialect)/body";
+}
+subgraph cluster371 {
+"hibernate-core_src_main_java_org_hibernate_tool_schema_internal_TargetFileImpl.java/[CN]/TargetFileImpl/[CS]/TargetFileImpl(String,String)/parameters";
+"hibernate-core_src_main_java_org_hibernate_jpa_boot_internal_EntityManagerFactoryBuilderImpl.java/[CN]/EntityManagerFactoryBuilderImpl/[MT]/buildBootstrapServiceRegistry(Map,ClassLoader,ClassLoaderService)/body";
+}
+subgraph cluster334 {
+"core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[CS]/SchemaExport(Configuration,Settings)/body";
+"core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[CS]/SchemaExport(Configuration,Connection)/body";
+}
+subgraph cluster98 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[CS]/XmlMetaEntity(Entity,String,TypeElement,Context)/body";
+}
+subgraph cluster51 {
+"hibernate-core_src_main_java_org_hibernate_query_internal_AbstractProducedQuery.java/[CN]/AbstractProducedQuery/[MT]/getParameter(int)/body";
+"hibernate-core_src_main_java_org_hibernate_query_internal_AbstractProducedQuery.java/[CN]/AbstractProducedQuery/[MT]/getParameter(String,Class<T>)/body";
+"hibernate-core_src_main_java_org_hibernate_query_internal_AbstractProducedQuery.java/[CN]/AbstractProducedQuery/[MT]/getParameter(int,Class<T>)/body";
+}
+subgraph cluster64 {
+"hibernate-core_src_main_java_org_hibernate_impl_SessionFactoryImpl.java/[CN]/SessionFactoryImpl/[MT]/getSecondLevelCacheRegion(String)/body";
+}
+subgraph cluster241 {
+"cache-jbosscache2_src_main_java_org_hibernate_cache_jbc2_BasicRegionAdapter.java/[CN]/BasicRegionAdapter/[MT]/establishRegionRootNode()/body";
+"cache-jbosscache2_src_main_java_org_hibernate_cache_jbc2_BasicRegionAdapter.java/[CN]/BasicRegionAdapter/[MT]/activateLocalClusterNode()/body";
+"cache-jbosscache2_src_main_java_org_hibernate_cache_jbc2_BasicRegionAdapter.java/[CN]/BasicRegionAdapter/[MT]/ensureRegionRootExists()/body";
+}
+subgraph cluster174 {
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_java_SerializableTypeDescriptor.java/[CN]/SerializableTypeDescriptor/[MT]/wrap(X,WrapperOptions)/body";
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_java_SerializableTypeDescriptor.java/[CN]/SerializableTypeDescriptor/[MT]/unwrap(T,Class<X>,WrapperOptions)/body";
+}
+subgraph cluster87 {
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[CS]/ActionQueue(SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ExecutableList.java/[CN]/ExecutableList/[MT]/readExternal(ObjectInput)/body";
+}
+subgraph cluster428 {
+"hibernate-core_src_main_java_org_hibernate_type_SerializableToBlobType.java/[CN]/SerializableToBlobType/[MT]/setParameterValues(Properties)/body";
+"core_src_main_java_org_hibernate_dialect_DB2Dialect.java/[CN]/DB2Dialect/[CS]/DB2Dialect()/body";
+"entitymanager_src_main_java_org_hibernate_ejb_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/setDefaultProperties()/body";
+}
+subgraph cluster84 {
+"hibernate-core_src_main_java_org_hibernate_mapping_Table.java/[CN]/Table/[MT]/sqlTemporaryTableCreateString(Dialect,Mapping)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_relational_UniqueKey.java/[CN]/UniqueKey/[MT]/sqlConstraintStringInAlterTable(Dialect)/body";
+}
+subgraph cluster276 {
+"hibernate-core_src_main_java_org_hibernate_context_ThreadLocalSessionContext.java/[CN]/ThreadLocalSessionContext/[MT]/sessionMap()/body";
+"hibernate-core_src_main_java_org_hibernate_context_ThreadLocalSessionContext.java/[CN]/ThreadLocalSessionContext/[MT]/wrap(Session)/body";
+}
+subgraph cluster150 {
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_TimestampTypeDescriptor.java/[CN]/TimestampTypeDescriptor/[MT]/getBinder(JavaTypeDescriptor<X>)/body";
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_TimeTypeDescriptor.java/[CN]/TimeTypeDescriptor/[MT]/getBinder(JavaTypeDescriptor<X>)/body";
+}
+subgraph cluster121 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_xml_mocker_AccessHelper.java/[CN]/AccessHelper/[MT]/getAccessFromDefault(IndexBuilder)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_xml_mocker_AccessHelper.java/[CN]/AccessHelper/[MT]/getAccess(Map<DotName,List<AnnotationInstance>>)/body";
+}
+subgraph cluster86 {
+"hibernate-core_src_main_java_org_hibernate_type_ComponentType.java/[CN]/ComponentType/[MT]/isDirty(Object,Object,boolean[],SessionImplementor)/body";
+}
+subgraph cluster304 {
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_BasicBinder.java/[CN]/BasicBinder/[MT]/bind(PreparedStatement,J,int,WrapperOptions)/body";
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_BasicExtractor.java/[CN]/BasicExtractor/[MT]/extract(CallableStatement,String[],WrapperOptions)/body";
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_BasicExtractor.java/[CN]/BasicExtractor/[MT]/extract(CallableStatement,int,WrapperOptions)/body";
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_BasicExtractor.java/[CN]/BasicExtractor/[MT]/extract(ResultSet,String,WrapperOptions)/body";
+}
+subgraph cluster38 {
+"hibernate-core_src_main_java_org_hibernate_bytecode_internal_javassist_FieldTransformer.java/[CN]/FieldTransformer/[MT]/transformInvokevirtualsIntoPutAndGetfields(ClassFile)/body";
+}
+subgraph cluster354 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_spi_AbstractLoadPlanBuildingAssociationVisitationStrategy.java/[CN]/AbstractLoadPlanBuildingAssociationVisitationStrategy/[MT]/startingAttribute(AttributeDefinition)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_transaction_internal_TransactionImpl.java/[CN]/TransactionImpl/[MT]/commit()/body";
+}
+subgraph cluster281 {
+"core_src_main_java_org_hibernate_event_PreInsertEvent.java/[CN]/PreInsertEvent/extend";
+}
+subgraph cluster310 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/readPersistentPropertiesAccess()/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/addFromPropertiesGroup(String,XProperty,String,Component,Audited)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/addFromComponentProperty(XProperty,String,Component,Audited)/body";
+}
+subgraph cluster272 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted0/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted1/body";
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_internal_spaces_CompositeQuerySpaceImpl.java/[CN]/CompositeQuerySpaceImpl/[MT]/addCompositeJoin(CompositionDefinition,String)/body";
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[MT]/importScript(NamedReader,List<Exporter>)/body";
+"envers_src_main_java_org_hibernate_envers_configuration_RevisionInfoConfiguration.java/[CN]/RevisionInfoConfiguration/[MT]/searchForRevisionInfoCfgInProperties(XClass,ReflectionManager,MutableBoolean,MutableBoolean,String)/body";
+"hibernate-core_src_main_java_org_hibernate_dialect_TypeNames.java/[CN]/TypeNames/[MT]/get(int,long,int,int)/body";
+}
+subgraph cluster442 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[MT]/getCollectionType(String,String)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[MT]/parseAttributes(Attributes)/body";
+}
+subgraph cluster29 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_metamodel_AbstractIdentifiableType.java/[CN]/AbstractIdentifiableType/[MT]/getIdType()/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_MetadataTools.java/[CN]/MetadataTools/[MT]/addColumn(Element,String,Integer,Integer,Integer,String,String,String,boolean)/body";
+}
+subgraph cluster79 {
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[MT]/executeActions()/body";
+}
+subgraph cluster104 {
+"hibernate-core_src_main_java_org_hibernate_action_internal_EntityUpdateAction.java/[CN]/EntityUpdateAction/[MT]/execute()/body";
+"hibernate-core_src_main_java_org_hibernate_collection_internal_AbstractPersistentCollection.java/[CN]/AbstractPersistentCollection/[MT]/openTemporarySessionForLoading()/body";
+}
+subgraph cluster379 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_spi_AbstractLoadPlanBuildingAssociationVisitationStrategy.java/[CN]/AbstractLoadPlanBuildingAssociationVisitationStrategy/[MT]/finishingAttribute(AttributeDefinition)/body";
+}
+subgraph cluster476 {
+"entitymanager_src_main_java_org_hibernate_ejb_metamodel_MetadataContext.java/[CN]/MetadataContext/[MT]/applyIdMetadata(MappedSuperclass,MappedSuperclassTypeImpl<X>)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_metamodel_MetadataContext.java/[CN]/MetadataContext/[MT]/applyVersionAttribute(MappedSuperclass,MappedSuperclassTypeImpl<X>)/body";
+}
+subgraph cluster167 {
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_converter_AttributeConverterTypeAdapter.java/[CN]/AttributeConverterTypeAdapter/extend";
+"hibernate-core_src_main_java_org_hibernate_mapping_SimpleValue.java/[CN]/SimpleValue/[MT]/buildAttributeConverterTypeAdapter()/body";
+}
+subgraph cluster410 {
+"annotations_src_main_java_org_hibernate_cfg_AnnotationBinder.java/[CN]/AnnotationBinder/[MT]/bindComponent(PropertyData,PropertyHolder,AccessType,EntityBinder,boolean,ExtendedMappings,boolean,boolean,Map<XClass,InheritanceState>)/body";
+"annotations_src_main_java_org_hibernate_cfg_annotations_PropertyBinder.java/[CN]/PropertyBinder/[MT]/bind(Property)/body";
+}
+subgraph cluster469 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_Ejb3Configuration.java/[CN]/Ejb3Configuration/[MT]/configure(Properties,Map)/body";
+}
+subgraph cluster96 {
+"hibernate-core_src_main_java_org_hibernate_loader_Loader.java/[CN]/Loader/[MT]/processResultSet(ResultSet,QueryParameters,SessionImplementor,boolean,ResultTransformer,int,List<AfterLoadAction>)/body";
+"hibernate-core_src_main_java_org_hibernate_loader_Loader.java/[CN]/Loader/[MT]/wrapResultSetIfEnabled(ResultSet,SessionImplementor)/body";
+}
+subgraph cluster71 {
+"hibernate-envers_src_main_java_org_hibernate_envers_entities_mapper_relation_ToOneIdMapper.java/[CN]/ToOneIdMapper/[MT]/nullSafeMapToEntityFromMap(AuditConfiguration,Object,Map,Object,AuditReaderImplementor,Number)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_entities_mapper_relation_lazy_ToOneDelegateSessionImplementor.java/[CN]/ToOneDelegateSessionImplementor/[MT]/doImmediateLoad(String)/body";
+}
+subgraph cluster401 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_CollectionBinder.java/[CN]/CollectionBinder/[MT]/buildCollectionKey(Collection,Ejb3JoinColumn[],boolean,XProperty,MetadataBuildingContext)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_OneToOneSecondPass.java/[CN]/OneToOneSecondPass/[MT]/doSecondPass(Map)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_HbmBinder.java/[CN]/HbmBinder/[MT]/bindRootPersistentClassCommonValues(Element,java.util.Map,Mappings,RootClass)/body";
+}
+subgraph cluster374 {
+"hibernate-core_src_main_java_org_hibernate_service_internal_AbstractServiceRegistryImpl.java/[CN]/AbstractServiceRegistryImpl/[MT]/createServiceBinding(ServiceInitiator<R>)/body";
+}
+subgraph cluster471 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_boot_internal_EntityManagerFactoryBuilderImpl.java/[CN]/EntityManagerFactoryBuilderImpl/[MT]/build()/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_boot_internal_EntityManagerFactoryBuilderImpl.java/[CN]/EntityManagerFactoryBuilderImpl/[MT]/withValidatorFactory(Object)/body";
+}
+subgraph cluster424 {
+"hibernate-core_src_main_java_org_hibernate_boot_registry_internal_BootstrapServiceRegistryImpl.java/[CN]/BootstrapServiceRegistryImpl/[MT]/deRegisterChild(ServiceRegistryImplementor)/body";
+}
+subgraph cluster99 {
+"hibernate-envers_src_main_java_org_hibernate_envers_synchronization_work_PersistentCollectionChangeWorkUnit.java/[CN]/PersistentCollectionChangeWorkUnit/[CS]/PersistentCollectionChangeWorkUnit(SessionImplementor,String,AuditConfiguration,PersistentCollection,CollectionEntry,Serializable,Serializable,String)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_synchronization_work_PersistentCollectionChangeWorkUnit.java/[CN]/PersistentCollectionChangeWorkUnit/[CS]/PersistentCollectionChangeWorkUnit(SessionImplementor,String,AuditConfiguration,Serializable,List<PersistentCollectionChangeData>,String)/body";
+}
+subgraph cluster184 {
+"hibernate-core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/getFirstNonWhitespaceCharacter(String)/parameters";
+}
+subgraph cluster370 {
+"core_src_main_java_org_hibernate_exception_SQLStateConverter.java/[CN]/SQLStateConverter/[MT]/convert(SQLException,String,String)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/convert(HibernateException,LockOptions)/body";
+}
+subgraph cluster270 {
+"hibernate-core_src_main_java_org_hibernate_event_internal_AbstractFlushingEventListener.java/[CN]/AbstractFlushingEventListener/[MT]/flushCollections(EventSource,PersistenceContext)/body";
+"hibernate-core_src_main_java_org_hibernate_id_enhanced_PooledLoThreadLocalOptimizer.java/[CN]/PooledLoThreadLocalOptimizer/[MT]/locateGenerationState(String)/body";
+"hibernate-core_src_main_java_org_hibernate_event_internal_AbstractFlushingEventListener.java/[CN]/AbstractFlushingEventListener/[MT]/prepareCollectionFlushes(PersistenceContext)/body";
+}
+subgraph cluster192 {
+"hibernate-core_src_main_java_org_hibernate_loader_hql_QueryLoader.java/[CN]/QueryLoader/[MT]/scroll(QueryParameters,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_relational_Table.java/[CN]/Table/[MT]/sqlCreateStrings(Dialect)/body";
+}
+subgraph cluster452 {
+"hibernate-core_src_main_java_org_hibernate_tool_schema_internal_TargetStdoutImpl.java/[CN]/TargetStdoutImpl/[CS]/TargetStdoutImpl(String)/body";
+}
+subgraph cluster507 {
+"hibernate-core_src_main_java_org_hibernate_cache_spi_UpdateTimestampsCache.java/[CN]/UpdateTimestampsCache/[MT]/invalidate(Serializable[])/body";
+"hibernate-core_src_main_java_org_hibernate_cache_spi_UpdateTimestampsCache.java/[CN]/UpdateTimestampsCache/[MT]/preinvalidate(Serializable[])/body";
+"hibernate-core_src_main_java_org_hibernate_cache_spi_UpdateTimestampsCache.java/[CN]/UpdateTimestampsCache/[MT]/isUpToDate(Set,Long)/body";
+}
+subgraph cluster21 {
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_java_NClobTypeDescriptor.java/[CN]/NClobTypeDescriptor/[MT]/extractLoggableRepresentation(NClob)/body";
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_java_BlobTypeDescriptor.java/[CN]/BlobTypeDescriptor/[MT]/extractLoggableRepresentation(Blob)/body";
+}
+subgraph cluster147 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityClass.java/[CN]/EntityClass/[MT]/toString()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityClass.java/[CN]/EntityClass/[CS]/EntityClass(ClassInfo,EntityClass,AccessType,InheritanceType,AnnotationBindingContext)/body";
+}
+subgraph cluster191 {
+"core_src_main_java_org_hibernate_action_BulkOperationCleanupAction.java/[CN]/BulkOperationCleanupAction/[CS]/BulkOperationCleanupAction(SessionImplementor,Set)/body";
+"core_src_main_java_org_hibernate_action_BulkOperationCleanupAction.java/[CN]/BulkOperationCleanupAction/[MT]/affectedEntity(Set,Serializable[])/body";
+}
+subgraph cluster186 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/rendered().conflicted3/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_internal_metadata_reader_AnnotationsMetadataReader.java/[CN]/AnnotationsMetadataReader/[MT]/getAuditData()/body";
+}
+subgraph cluster194 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_function_LocateFunction.java/[CN]/LocateFunction/[MT]/render(CriteriaQueryCompiler.RenderingContext)/body";
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_spi_AbstractLoadPlanBuildingAssociationVisitationStrategy.java/[CN]/AbstractLoadPlanBuildingAssociationVisitationStrategy/[MT]/finishingCollectionIndex(CollectionIndexDefinition)/body";
+}
+subgraph cluster226 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[CS]/XmlMetaEntity(MappedSuperclass,String,TypeElement,Context)/parameters";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[CS]/XmlMetaEntity(Embeddable,String,TypeElement,Context)/parameters";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[CS]/XmlMetaEntity(Entity,String,TypeElement,Context)/parameters";
+}
+subgraph cluster17 {
+"core_src_main_java_org_hibernate_id_MultipleHiLoPerTableGenerator.java/[CN]/MultipleHiLoPerTableGenerator/[MT]/generate(SessionImplementor,Object)/body";
+"core_src_main_java_org_hibernate_id_SequenceHiLoGenerator.java/[CN]/SequenceHiLoGenerator/[MT]/generate(SessionImplementor,Object)/body";
+}
+subgraph cluster157 {
+"core_src_main_java_org_hibernate_dialect_Ingres9Dialect.java/[CN]/Ingres9Dialect/[CS]/Ingres9Dialect()/body";
+"core_src_main_java_org_hibernate_dialect_Ingres9Dialect.java/[CN]/Ingres9Dialect/[MT]/registerDateTimeFunctions()/body";
+}
+subgraph cluster172 {
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/buildTimestampsRegion(String,Properties)/body";
+"hibernate-core_src_main_java_org_hibernate_transaction_WebSphereExtendedJTATransactionLookup.java/[CN]/WebSphereExtendedJTATransactionLookup/[MT]/getTransactionIdentifier(Transaction)/body";
+"core_src_main_java_org_hibernate_cfg_BinderHelper.java/[CN]/BinderHelper/[MT]/getPropertyOverriddenByMapperOrMapsId(boolean,PropertyHolder,String,Mappings)/body";
+}
+subgraph cluster407 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_DriverManagerConnectionProviderImpl.java/[CN]/DriverManagerConnectionProviderImpl/[MT]/configure(Map)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[CN]/MappingsImpl/[MT]/setPersisterClassProvider(PersisterClassProvider)/parameters";
+}
+subgraph cluster373 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[CS]/SchemaExport(Configuration,Connection)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_internal_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/addPropertiesFromClass(XClass)/body";
+}
+subgraph cluster122 {
+"cache-jbosscache2_src_main_java_org_hibernate_cache_jbc2_timestamp_TimestampsRegionImpl.java/[CN]/TimestampsRegionImpl/[MT]/get(Object)/body";
+"cache-jbosscache2_src_main_java_org_hibernate_cache_jbc2_timestamp_TimestampsRegionImpl.java/[CN]/TimestampsRegionImpl/[MT]/put(Object,Object)/body";
+}
+subgraph cluster303 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_ConfiguredClassHierarchy.java/[CN]/ConfiguredClassHierarchy/[MT]/determineDefaultAccessType()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_ConfiguredClassHierarchy.java/[CN]/ConfiguredClassHierarchy/[MT]/determineInheritanceType()/body";
+}
+subgraph cluster427 {
+"hibernate-core_src_main_java_org_hibernate_persister_collection_AbstractCollectionPersister.java/[CN]/AbstractCollectionPersister/[MT]/processQueuedOps(PersistentCollection,Serializable,SessionImplementor)/body";
+}
+subgraph cluster130 {
+"hibernate-core_src_main_java_org_hibernate_persister_walking_spi_MetamodelGraphWalker.java/[CN]/MetamodelGraphWalker/[MT]/visitCollectionElements(CollectionDefinition)/body";
+"hibernate-core_src_main_java_org_hibernate_persister_walking_spi_MetamodelGraphWalker.java/[CN]/MetamodelGraphWalker/[MT]/visitCollectionIndex(CollectionDefinition)/body";
+}
+subgraph cluster243 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntitySourceImpl.java/[CN]/EntitySourceImpl/[MT]/attributeSources()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_ComponentAttributeSourceImpl.java/[CN]/ComponentAttributeSourceImpl/[MT]/attributeSources()/body";
+}
+subgraph cluster209 {
+"hibernate-core_src_main_java_org_hibernate_hql_internal_classic_QueryTranslatorImpl.java/[CN]/QueryTranslatorImpl/[MT]/scroll(QueryParameters,SessionImplementor)/body";
+}
+subgraph cluster12 {
+"hibernate-core_src_main_java_org_hibernate_tool_schema_internal_TargetFileImpl.java/[CN]/TargetFileImpl/[MT]/accept(String)/body";
+}
+subgraph cluster188 {
+"hibernate-core_src_main_java_org_hibernate_query_internal_QueryParameterBindingsImpl.java/[CN]/QueryParameterBindingsImpl/[MT]/getBinding(int)/body";
+"hibernate-core_src_main_java_org_hibernate_query_internal_QueryParameterBindingsImpl.java/[CN]/QueryParameterBindingsImpl/[MT]/calculatePositionalValueSpan(boolean)/body";
+"hibernate-core_src_main_java_org_hibernate_query_internal_QueryParameterBindingsImpl.java/[CN]/QueryParameterBindingsImpl/[MT]/verifyParametersBound(boolean)/body";
+}
+subgraph cluster179 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/bindEmbeddedAttributes(EntityBinding)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/bindAttributes(EntityBinding)/body";
+}
+subgraph cluster431 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_env_internal_NormalizingIdentifierHelperImpl.java/[CN]/NormalizingIdentifierHelperImpl/[MT]/applyGlobalQuoting(String)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_env_internal_JdbcEnvironmentImpl.java/[CN]/JdbcEnvironmentImpl/[CS]/JdbcEnvironmentImpl(ServiceRegistryImplementor,Dialect,DatabaseMetaData)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_env_internal_JdbcEnvironmentImpl.java/[CN]/JdbcEnvironmentImpl/[CS]/JdbcEnvironmentImpl(ServiceRegistryImplementor,Dialect)/body";
+}
+subgraph cluster311 {
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiClassLoader.java/[CN]/OsgiClassLoader/[MT]/findResources(String)/body";
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiClassLoader.java/[CN]/OsgiClassLoader/[MT]/clear()/body";
+}
+subgraph cluster422 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_SubqueryComparisonModifierExpression.java/[CN]/SubqueryComparisonModifierExpression/[MT]/rendered().conflicted0/body";
+}
+subgraph cluster120 {
+"core_src_main_java_org_hibernate_event_PreUpdateEvent.java/[CN]/PreUpdateEvent/[CS]/PreUpdateEvent(Object,Serializable,Object[],Object[],EntityPersister,EventSource)/body";
+"core_src_main_java_org_hibernate_event_PreUpdateEvent.java/[CN]/PreUpdateEvent/extend";
+}
+subgraph cluster18 {
+"hibernate-core_src_main_java_org_hibernate_transaction_BTMTransactionManagerLookup.java/[CN]/BTMTransactionManagerLookup/[MT]/getTransactionManager(Properties)/body";
+}
+subgraph cluster63 {
+"core_src_main_java_org_hibernate_util_SerializationHelper.java/[CN]/SerializationHelper/[MT]/deserialize(InputStream)/body";
+}
+subgraph cluster493 {
+"hibernate-core_src_main_java_org_hibernate_service_internal_AbstractServiceRegistryImpl.java/[CN]/AbstractServiceRegistryImpl/[CS]/AbstractServiceRegistryImpl(BootstrapServiceRegistry)/body";
+"hibernate-core_src_main_java_org_hibernate_service_internal_AbstractServiceRegistryImpl.java/[CN]/AbstractServiceRegistryImpl/[CS]/AbstractServiceRegistryImpl(ServiceRegistryImplementor)/body";
+}
+subgraph cluster108 {
+"hibernate-core_src_main_java_org_hibernate_jpa_boot_internal_EntityManagerFactoryBuilderImpl.java/[CN]/EntityManagerFactoryBuilderImpl/[MT]/populate(SessionFactoryBuilder,StandardServiceRegistry)/body";
+"hibernate-core_src_main_java_org_hibernate_internal_AbstractSharedSessionContract.java/[CN]/AbstractSharedSessionContract/[MT]/getTransaction()/body";
+}
+subgraph cluster458 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted1/body";
+}
+subgraph cluster60 {
+"hibernate-core_src_main_java_org_hibernate_cfg_SettingsFactory.java/[CN]/SettingsFactory/[MT]/createRegionFactory(Properties,boolean)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_SettingsFactory.java/[CN]/SettingsFactory/[MT]/buildSettings(Properties,ServiceRegistry)/body";
+}
+subgraph cluster45 {
+"hibernate-core_src_main_java_org_hibernate_internal_SessionImpl.java/[CN]/SessionImpl/[CN]/SimpleNaturalIdLoadAccessImpl/[MT]/load(Object)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ExecutableList.java/[CN]/ExecutableList/[MT]/clear()/body";
+}
+subgraph cluster386 {
+"core_src_main_java_org_hibernate_cache_QueryKey.java/[CN]/QueryKey/[CS]/QueryKey(String,Type[],Object[],Map,Integer,Integer,Set,EntityMode,ResultTransformer)/parameters";
+"core_src_main_java_org_hibernate_cache_QueryKey.java/[CN]/QueryKey/[MT]/equals(Object)/body";
+"core_src_main_java_org_hibernate_cache_QueryKey.java/[CN]/QueryKey/[MT]/toString()/body";
+}
+subgraph cluster457 {
+"hibernate-core_src_main_java_org_hibernate_internal_util_ConfigHelper.java/[CN]/ConfigHelper/[MT]/getResourceAsStream(String)/body";
+"hibernate-core_src_main_java_org_hibernate_query_internal_ParameterMetadataImpl.java/[CN]/ParameterMetadataImpl/[MT]/getOrdinalParameterDescriptor(int)/body";
+"hibernate-core_src_main_java_org_hibernate_internal_SessionFactoryImpl.java/[CN]/SessionFactoryImpl/[CS]/SessionFactoryImpl(MetadataImplementor,SessionFactoryOptions,SessionFactoryObserver)/body";
+}
+subgraph cluster10 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted4/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/negated().conflicted0/body";
+}
+subgraph cluster42 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_annotation_AnnotationMetaEntity.java/[CN]/AnnotationMetaEntity/[MT]/getAccessTypeForClass(TypeElement)/body";
+}
+subgraph cluster100 {
+"hibernate-core_src_main_java_org_hibernate_impl_SessionFactoryImpl.java/[CN]/SessionFactoryImpl/[CS]/SessionFactoryImpl(Configuration,Mapping,ServicesRegistry,Settings,EventListeners,SessionFactoryObserver)/body";
+"hibernate-core_src_main_java_org_hibernate_impl_SessionFactoryImpl.java/[CN]/SessionFactoryImpl/[CN]/CacheImpl/[MT]/evictQueryRegions()/body";
+}
+subgraph cluster274 {
+"hibernate-core_src_main_java_org_hibernate_event_internal_EventCache.java/[CN]/EventCache/[MT]/setOperatedOn(Object,boolean)/body";
+}
+subgraph cluster295 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/bind()/body";
+}
+subgraph cluster50 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_internal_JdbcResourceRegistryImpl.java/[CN]/JdbcResourceRegistryImpl/[MT]/release(ResultSet)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_internal_JdbcResourceRegistryImpl.java/[CN]/JdbcResourceRegistryImpl/[MT]/close(Statement)/body";
+}
+subgraph cluster218 {
+"hibernate-core_src_main_java_org_hibernate_mapping_Property.java/[CN]/Property/[MT]/isUpdateable()/body";
+"hibernate-core_src_main_java_org_hibernate_tuple_entity_EntityMetamodel.java/[CN]/EntityMetamodel/[CS]/EntityMetamodel(PersistentClass,SessionFactoryImplementor)/body";
+}
+subgraph cluster70 {
+"envers_src_main_java_org_hibernate_envers_event_AuditEventListener.java/[CN]/AuditEventListener/[MT]/generateBidirectionalCollectionChangeWorkUnits(AuditSync,EntityPersister,String,Object[],Object[],SessionImplementor)/body";
+"core_src_main_java_org_hibernate_event_def_DefaultMergeEventListener.java/[CN]/DefaultMergeEventListener/[MT]/onMerge(MergeEvent,Map)/body";
+}
+subgraph cluster83 {
+"hibernate-core_src_main_java_org_hibernate_dialect_Dialect.java/[CN]/Dialect/[MT]/useFollowOnLocking()/body";
+"hibernate-core_src_main_java_org_hibernate_loader_criteria_CriteriaLoader.java/[CN]/CriteriaLoader/[MT]/applyLocks(String,QueryParameters,Dialect,List<AfterLoadAction>)/body";
+"hibernate-core_src_main_java_org_hibernate_loader_Loader.java/[CN]/Loader/[MT]/shouldUseFollowOnLocking(QueryParameters,Dialect,List<AfterLoadAction>)/body";
+}
+subgraph cluster221 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[CS]/XmlMetaEntity(Embeddable,String,TypeElement,Context)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[FE]/context";
+}
+subgraph cluster420 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_metamodel_AbstractIdentifiableType.java/[CN]/AbstractIdentifiableType/[MT]/getIdClassAttributes()/body";
+}
+subgraph cluster384 {
+"hibernate-core_src_main_java_org_hibernate_boot_registry_selector_internal_StrategySelectorImpl.java/[CN]/StrategySelectorImpl/[MT]/resolveDefaultableStrategy(Class<T>,Object,T)/body";
+"hibernate-core_src_main_java_org_hibernate_boot_registry_selector_internal_StrategySelectorImpl.java/[CN]/StrategySelectorImpl/[MT]/resolveDefaultableStrategy(Class<T>,Object,Callable<T>)/body";
+}
+subgraph cluster77 {
+"hibernate-core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/replace(String,String,String,String,boolean,boolean)/parameters";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted5/body";
+"hibernate-core_src_main_java_org_hibernate_mapping_Table.java/[CN]/Table/[MT]/createUniqueKey(List)/body";
+}
+subgraph cluster3 {
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_converter_AttributeConverterSqlTypeDescriptorAdapter.java/[CN]/AttributeConverterSqlTypeDescriptorAdapter/[MT]/getExtractor(JavaTypeDescriptor<X>)/body";
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_converter_AttributeConverterSqlTypeDescriptorAdapter.java/[CN]/AttributeConverterSqlTypeDescriptorAdapter/[MT]/getBinder(JavaTypeDescriptor<X>)/body";
+}
+subgraph cluster341 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_AuditMetadataGenerator.java/[CN]/AuditMetadataGenerator/[MT]/addEndRevision(Element)/body";
+}
+subgraph cluster350 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmColumnRelationalState.java/[CN]/HbmColumnRelationalState/[CS]/HbmColumnRelationalState(XMLTimestamp,HbmSimpleValueRelationalStateContainer)/body";
+}
+subgraph cluster180 {
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiServiceUtil.java/[CN]/OsgiServiceUtil/[MT]/getServiceImpls(Class<T>,BundleContext)/body";
+"hibernate-java8_src_main_java_org_hibernate_type_OffsetTimeType.java/[CN]/OffsetTimeType/[MT]/objectToSQLString(OffsetTime,Dialect)/body";
+}
+subgraph cluster265 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_batch_internal_BatchingBatch.java/[CN]/BatchingBatch/[MT]/doExecuteBatch()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_batch_internal_BatchingBatch.java/[CN]/BatchingBatch/[MT]/addToBatch()/body";
+}
+subgraph cluster273 {
+"entitymanager_src_main_java_org_hibernate_ejb_packaging_PersistenceXmlLoader.java/[CN]/PersistenceXmlLoader/[MT]/parsePersistenceUnit(Element)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_packaging_PersistenceMetadata.java/[CN]/PersistenceMetadata/[MT]/toString()/body";
+}
+subgraph cluster236 {
+"hibernate-envers_src_main_java_org_hibernate_envers_entities_EntityInstantiator.java/[CN]/EntityInstantiator/[MT]/createInstanceFromVersionsEntity(String,Map,Number)/body";
+}
+subgraph cluster414 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_SerializableBlobProxy.java/[CN]/SerializableBlobProxy/[MT]/getProxyClassLoader()/body";
+"hibernate-core_src_main_java_org_hibernate_impl_SessionFactoryImpl.java/[CN]/SessionFactoryImpl/[MT]/getAllSecondLevelCacheRegions()/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_annotation_AnnotationMetaEntity.java/[CN]/AnnotationMetaEntity/[CN]/TypeVisitor/[MT]/visitDeclared(DeclaredType,Element)/body";
+}
+subgraph cluster11 {
+"entitymanager_src_main_java_org_hibernate_ejb_metamodel_MetadataContext.java/[CN]/MetadataContext/[MT]/buildIdClassAttributes(MappedSuperclassTypeImpl<X>,MappedSuperclass)/body";
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_ForeignKeyMetadata.java/[CN]/ForeignKeyMetadata/[MT]/hasReference(Column,Column)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_packaging_PersistenceXmlLoader.java/[CN]/PersistenceXmlLoader/[CN]/ErrorLogger/[MT]/error(SAXParseException)/body";
+}
+subgraph cluster13 {
+"hibernate-core_src_main_java_org_hibernate_internal_util_SerializationHelper.java/[CN]/SerializationHelper/[MT]/defaultClassLoader()/body";
+}
+subgraph cluster477 {
+"core_src_main_java_org_hibernate_dialect_lock_PessimisticWriteSelectLockingStrategy.java/[CN]/PessimisticWriteSelectLockingStrategy/[MT]/lock(Serializable,Object,Object,int,SessionImplementor)/body";
+"core_src_main_java_org_hibernate_dialect_lock_PessimisticReadSelectLockingStrategy.java/[CN]/PessimisticReadSelectLockingStrategy/[MT]/lock(Serializable,Object,Object,int,SessionImplementor)/body";
+}
+subgraph cluster244 {
+"hibernate-core_src_main_java_org_hibernate_persister_entity_AbstractEntityPersister.java/[CN]/AbstractEntityPersister/[MT]/getLoaders()/parameters";
+"hibernate-core_src_main_java_org_hibernate_persister_entity_AbstractEntityPersister.java/[CN]/AbstractEntityPersister/[MT]/getAppropriateLoader(LockOptions,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_persister_entity_AbstractEntityPersister.java/[CN]/AbstractEntityPersister/[MT]/getLoaders()/body";
+}
+subgraph cluster168 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_EntityBinder.java/[CN]/EntityBinder/[MT]/bindHibernateAnnotation(org.hibernate.annotations.Entity)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_EntityBinder.java/[CN]/EntityBinder/[MT]/bindTable(String,String,String,List<UniqueConstraintHolder>,String,Table)/body";
+}
+subgraph cluster206 {
+"hibernate-core_src_main_java_org_hibernate_persister_collection_OneToManyPersister.java/[CN]/OneToManyPersister/[MT]/recreate(PersistentCollection,Serializable,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_persister_collection_OneToManyPersister.java/[CN]/OneToManyPersister/[MT]/insertRows(PersistentCollection,Serializable,SessionImplementor)/body";
+}
+subgraph cluster39 {
+"hibernate-core_src_main_java_org_hibernate_engine_internal_Collections.java/[CN]/Collections/[MT]/processNeverReferencedCollection(PersistentCollection,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_Collections.java/[CN]/Collections/[MT]/processReachableCollection(PersistentCollection,CollectionType,Object,SessionImplementor)/body";
+}
+subgraph cluster46 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_ClobProxy.java/[CN]/ClobProxy/[MT]/invoke(Object,Method,Object[])/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_ResultSetWrapperProxy.java/[CN]/ResultSetWrapperProxy/[MT]/locateCorrespondingColumnIndexMethod(Method)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_BlobProxy.java/[CN]/BlobProxy/[MT]/invoke(Object,Method,Object[])/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_env_internal_JdbcEnvironmentImpl.java/[CN]/JdbcEnvironmentImpl/[CS]/JdbcEnvironmentImpl(DatabaseMetaData,Dialect)/body";
+}
+subgraph cluster54 {
+"core_src_main_java_org_hibernate_dialect_MySQLDialect.java/[CN]/MySQLDialect/[CS]/MySQLDialect()/body";
+}
+subgraph cluster7 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_Ejb3Configuration.java/[CN]/Ejb3Configuration/[MT]/instantiateCustomClassFromConfiguration(Properties,T,T,String,String,Class<T>)/parameters";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_Ejb3Configuration.java/[CN]/Ejb3Configuration/[MT]/instantiateCustomClassFromConfiguration(Properties,T,T,String,String,Class<T>)/body";
+}
+subgraph cluster227 {
+"hibernate-core_src_main_java_org_hibernate_bytecode_internal_javassist_FieldTransformer.java/[CN]/FieldTransformer/[MT]/addWriteMethod(ClassFile,FieldInfo)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_xml_mocker_AccessHelper.java/[CN]/AccessHelper/[MT]/getAccessFromAttributeAnnotation(DotName,String,IndexBuilder)/body";
+"envers_src_main_java_org_hibernate_envers_configuration_RevisionInfoConfiguration.java/[CN]/RevisionInfoConfiguration/[MT]/configure(Configuration,ReflectionManager)/body";
+}
+subgraph cluster508 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_spi_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/createNamedQuery(String)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_spi_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/createNamedQuery(String,Class<T>)/body";
+}
+subgraph cluster298 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_PropertyBinder.java/[CN]/PropertyBinder/[MT]/getValueGenerationFromAnnotation(XProperty,A)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_PropertyBinder.java/[CN]/PropertyBinder/[MT]/determineValueGenerationStrategy(XProperty)/body";
+}
+subgraph cluster215 {
+"hibernate-envers_src_main_java_org_hibernate_envers_synchronization_work_DelWorkUnit.java/[CN]/DelWorkUnit/[CS]/DelWorkUnit(SessionImplementor,String,AuditConfiguration,Serializable,EntityPersister,Object[])/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_synchronization_work_AddWorkUnit.java/[CN]/AddWorkUnit/[CS]/AddWorkUnit(SessionImplementor,String,AuditConfiguration,Serializable,Map<String,Object>)/body";
+}
+subgraph cluster484 {
+"core_src_main_java_org_hibernate_impl_IteratorImpl.java/[CN]/IteratorImpl/[MT]/next()/body";
+"core_src_main_java_org_hibernate_impl_IteratorImpl.java/[CN]/IteratorImpl/[MT]/postNext()/body";
+}
+subgraph cluster190 {
+"hibernate-core_src_main_java_org_hibernate_service_internal_AbstractServiceRegistryImpl.java/[CN]/AbstractServiceRegistryImpl/[MT]/deRegisterChild(ServiceRegistryImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_loader_criteria_CriteriaQueryTranslator.java/[CN]/CriteriaQueryTranslator/[MT]/createCriteriaSQLAliasMap()/body";
+}
+subgraph cluster262 {
+"hibernate-core_src_main_java_org_hibernate_event_internal_DefaultFlushEntityEventListener.java/[CN]/DefaultFlushEntityEventListener/[MT]/isUpdateNecessary(FlushEntityEvent,boolean)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_EntityEntry.java/[CN]/EntityEntry/[MT]/postUpdate(Object,Object[],Object)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_EntityEntry.java/[CN]/EntityEntry/[MT]/setReadOnly(boolean,Object)/body";
+}
+subgraph cluster328 {
+"hibernate-core_src_main_java_org_hibernate_hql_internal_classic_QueryTranslatorImpl.java/[CN]/QueryTranslatorImpl/[MT]/getNamedParameterLocs(String)/body";
+"hibernate-core_src_main_java_org_hibernate_hql_internal_ast_HqlSqlWalker.java/[CN]/HqlSqlWalker/[MT]/getNamedParameterLocations(String)/body";
+"hibernate-core_src_main_java_org_hibernate_hql_internal_ast_QueryTranslatorImpl.java/[CN]/QueryTranslatorImpl/[MT]/doCompile(Map,boolean,String)/body";
+"hibernate-core_src_main_java_org_hibernate_hql_internal_classic_QueryTranslatorImpl.java/[CN]/QueryTranslatorImpl/[MT]/compile()/body";
+}
+subgraph cluster225 {
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiClassLoader.java/[CN]/OsgiClassLoader/[MT]/findResource(String)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_ConfiguredClassHierarchy.java/[CN]/ConfiguredClassHierarchy/[MT]/determineDefaultAccessType(List<ClassInfo>)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/bindEmbeddedIdAnnotation(EntityBinding)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_ConfiguredClass.java/[CN]/ConfiguredClass/[MT]/determineAttributeType(Map<DotName,List<AnnotationInstance>>)/body";
+}
+subgraph cluster81 {
+"hibernate-core_src_main_java_org_hibernate_engine_transaction_internal_TransactionImpl.java/[CN]/TransactionImpl/[MT]/rollback()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_transaction_internal_TransactionImpl.java/[CN]/TransactionImpl/[MT]/getStatus()/body";
+}
+subgraph cluster306 {
+"hibernate-core_src_main_java_org_hibernate_event_internal_EventCache.java/[CN]/EventCache/[MT]/remove(Object)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_PropertyBinder.java/[CN]/PropertyBinder/[MT]/makeProperty()/body";
+}
+subgraph cluster55 {
+"hibernate-core_src_main_java_org_hibernate_type_ComponentType.java/[CN]/ComponentType/[MT]/isEqual(Object,Object,SessionFactoryImplementor)/body";
+}
+subgraph cluster89 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_TableMetadata.java/[CN]/TableMetadata/[MT]/addIndex(ResultSet)/body";
+}
+subgraph cluster394 {
+"hibernate-core_src_main_java_org_hibernate_dialect_unique_DefaultUniqueDelegate.java/[CN]/DefaultUniqueDelegate/[FE]/dialect";
+"core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[CS]/AbstractLazyInitializer(String,Serializable,SessionImplementor)/body";
+}
+subgraph cluster249 {
+"envers_src_main_java_org_hibernate_envers_configuration_metadata_MetadataTools.java/[CN]/MetadataTools/[MT]/addProperty(Element,String,String,boolean,boolean)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmSimpleValueRelationalStateContainer.java/[CN]/HbmSimpleValueRelationalStateContainer/[CS]/HbmSimpleValueRelationalStateContainer(MappingDefaults,boolean,XMLVersion)/body";
+}
+subgraph cluster40 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_global_TableBinder.java/[CN]/TableBinder/[MT]/bindHibernateTableAnnotation(Table,AnnotationInstance)/body";
+}
+subgraph cluster228 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_relational_UniqueKey.java/[CN]/UniqueKey/[MT]/sqlDropStrings(Dialect)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_relational_UniqueKey.java/[CN]/UniqueKey/[MT]/sqlCreateStrings(Dialect)/body";
+}
+subgraph cluster340 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_domain_AbstractHbmAttributeDomainState.java/[CN]/AbstractHbmAttributeDomainState/[CS]/AbstractHbmAttributeDomainState(MappingDefaults,Attribute,XMLDiscriminator)/body";
+"hibernate-core_src_main_java_org_hibernate_internal_util_ReflectHelper.java/[CN]/ReflectHelper/[MT]/classForName(String)/body";
+}
+subgraph cluster393 {
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[CN]/MappingsImpl/[MT]/getPersisterClassProvider()/body";
+}
+subgraph cluster146 {
+"core_src_main_java_org_hibernate_id_enhanced_OptimizerFactory.java/[CN]/OptimizerFactory/[MT]/buildOptimizer(String,Class,int)/body";
+"core_src_main_java_org_hibernate_id_enhanced_TableGenerator.java/[CN]/TableGenerator/[MT]/configure(Type,Properties,Dialect)/body";
+}
+subgraph cluster207 {
+"entitymanager_src_main_java_org_hibernate_ejb_AbstractQueryImpl.java/[CN]/AbstractQueryImpl/[MT]/setHint(String,Object)/body";
+"core_src_main_java_org_hibernate_loader_hql_QueryLoader.java/[CN]/QueryLoader/[MT]/getLockModes(LockOptions)/body";
+}
+subgraph cluster22 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_internal_spaces_CompositeQuerySpaceImpl.java/[CN]/CompositeQuerySpaceImpl/[MT]/addEntityJoin(AttributeDefinition,EntityPersister,String,boolean)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_event_spi_JpaIntegrator.java/[CN]/JpaIntegrator/[MT]/integrate(MetadataImplementor,SessionFactoryImplementor,SessionFactoryServiceRegistry)/body";
+}
+subgraph cluster119 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_spi_AbstractLoadPlanBuildingAssociationVisitationStrategy.java/[CN]/AbstractLoadPlanBuildingAssociationVisitationStrategy/[MT]/startingComposite(CompositionDefinition)/body";
+}
+subgraph cluster5 {
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[FE]/persisterClassProvider";
+"hibernate-core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/getLastNonWhitespaceCharacter(String)/body";
+}
+subgraph cluster497 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_ConfiguredClass.java/[CN]/ConfiguredClass/[MT]/definesItsOwnTable()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_ConfiguredClass.java/[CN]/ConfiguredClass/[MT]/toString()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_ConfiguredClass.java/[CN]/ConfiguredClass/[MT]/determinePrimaryTableName()/body";
+}
+subgraph cluster101 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_env_spi_IdentifierHelperBuilder.java/[CN]/IdentifierHelperBuilder/[MT]/build()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_Collections.java/[CN]/Collections/[MT]/processDereferencedCollection(PersistentCollection,SessionImplementor)/body";
+}
+subgraph cluster152 {
+"annotations_src_main_java_org_hibernate_cfg_annotations_reflection_XMLContext.java/[CN]/XMLContext/[MT]/addDocument(Document)/body";
+"annotations_src_main_java_org_hibernate_cfg_annotations_reflection_JPAMetadataProvider.java/[CN]/JPAMetadataProvider/[MT]/getDefaults()/body";
+}
+subgraph cluster163 {
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[MT]/deserialize(ObjectInputStream,SessionImplementor)/body";
+}
+subgraph cluster487 {
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServer2005Dialect.java/[CN]/SQLServer2005Dialect/[MT]/getSelectFieldsWithoutAliases(StringBuilder)/body";
+"hibernate-core_src_main_java_org_hibernate_dialect_SQLServer2005Dialect.java/[CN]/SQLServer2005Dialect/[MT]/replaceDistinctWithGroupBy(StringBuilder)/body";
+}
+subgraph cluster300 {
+"core_src_main_java_org_hibernate_event_def_DefaultMergeEventListener.java/[CN]/DefaultMergeEventListener/[MT]/onMerge(MergeEvent)/body";
+"core_src_main_java_org_hibernate_event_def_DefaultMergeEventListener.java/[CN]/DefaultMergeEventListener/[MT]/mergeTransientEntity(Object,String,Serializable,EventSource,Map)/body";
+}
+subgraph cluster73 {
+"hibernate-java8_src_main_java_org_hibernate_type_descriptor_java_OffsetTimeJavaDescriptor.java/[CN]/OffsetTimeJavaDescriptor/[MT]/wrap(X,WrapperOptions)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_ClobProxy.java/[CN]/ClobProxy/[MT]/getProxyClassLoader()/body";
+}
+subgraph cluster325 {
+"hibernate-core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/replace(String,String,String,boolean,boolean)/parameters";
+}
+subgraph cluster199 {
+"hibernate-core_src_main_java_org_hibernate_hql_internal_ast_tree_LiteralNode.java/[CN]/LiteralNode/[MT]/setExpectedType(Type)/body";
+"hibernate-core_src_main_java_org_hibernate_hql_internal_ast_tree_LiteralNode.java/[CN]/LiteralNode/[MT]/getDataType()/body";
+}
+subgraph cluster347 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_domain_AbstractHbmAttributeDomainState.java/[CN]/AbstractHbmAttributeDomainState/[CS]/AbstractHbmAttributeDomainState(MappingDefaults,Attribute,Map<String,MetaAttribute>,XMLProperty)/body";
+}
+subgraph cluster202 {
+"core_src_main_java_org_hibernate_util_SerializationHelper.java/[CN]/SerializationHelper/[MT]/deserialize(byte[],ClassLoader)/body";
+"hibernate-core_src_main_java_org_hibernate_hql_ast_HqlSqlWalker.java/[CN]/HqlSqlWalker/[MT]/traceOut(String,AST)/body";
+}
+subgraph cluster97 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_spi_AbstractLoadPlanBuildingAssociationVisitationStrategy.java/[CN]/AbstractLoadPlanBuildingAssociationVisitationStrategy/[MT]/finishingCollection(CollectionDefinition)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_global_QueryBinder.java/[CN]/QueryBinder/[MT]/getString(AnnotationInstance[],String)/body";
+}
+subgraph cluster52 {
+"cache-jbosscache2_src_main_java_org_hibernate_cache_jbc2_timestamp_TimestampsRegionImpl.java/[CN]/TimestampsRegionImpl/[MT]/evictAll()/body";
+"cache-jbosscache2_src_main_java_org_hibernate_cache_jbc2_timestamp_TimestampsRegionImpl.java/[CN]/TimestampsRegionImpl/[MT]/nodeRemoved(NodeRemovedEvent)/body";
+}
+subgraph cluster259 {
+"hibernate-core_src_main_java_org_hibernate_proxy_pojo_javassist_JavassistLazyInitializer.java/[CN]/JavassistLazyInitializer/[MT]/getProxy(String,Class,Class[],Method,Method,CompositeType,Serializable,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_proxy_pojo_javassist_JavassistLazyInitializer.java/[CN]/JavassistLazyInitializer/[MT]/getProxy(Class,String,Class,Class[],Method,Method,CompositeType,Serializable,SessionImplementor,boolean)/body";
+}
+subgraph cluster31 {
+"hibernate-core_src_main_java_org_hibernate_internal_util_ReflectHelper.java/[CN]/ReflectHelper/[MT]/classForName(String,Class)/body";
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_TableMetadata.java/[CN]/TableMetadata/[MT]/getForeignKeyMetadata(String)/body";
+}
+subgraph cluster323 {
+"hibernate-core_src_main_java_org_hibernate_event_internal_EventCache.java/[CN]/EventCache/[MT]/invertMap()/body";
+"hibernate-core_src_main_java_org_hibernate_event_internal_EventCache.java/[CN]/EventCache/[MT]/putAll(Map)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/bindSingleIdAnnotation(EntityBinding)/body";
+}
+subgraph cluster95 {
+"annotations_src_main_java_org_hibernate_cfg_ColumnsBuilder.java/[CN]/ColumnsBuilder/[MT]/overrideColumnFromMapperOrMapsIdProperty(boolean)/body";
+"annotations_src_main_java_org_hibernate_cfg_AnnotationBinder.java/[CN]/AnnotationBinder/[MT]/fillComponent(PropertyHolder,PropertyData,PropertyData,AccessType,boolean,EntityBinder,boolean,boolean,boolean,ExtendedMappings,Map<XClass,InheritanceState>)/body";
+"annotations_src_main_java_org_hibernate_cfg_AnnotationBinder.java/[CN]/AnnotationBinder/[MT]/buildDefaultJoinColumnsForXToOne(PropertyHolder,XProperty,PropertyData,EntityBinder,ExtendedMappings)/body";
+}
+subgraph cluster472 {
+"hibernate-core_src_main_java_org_hibernate_hql_ast_HqlParser.java/[CN]/HqlParser/[MT]/traceOut(String)/body";
+}
+subgraph cluster496 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_global_IdGeneratorBinder.java/[CN]/IdGeneratorBinder/[MT]/bindSequenceGenerator(MetadataImpl,AnnotationInstance)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_global_IdGeneratorBinder.java/[CN]/IdGeneratorBinder/[MT]/bindTableGenerator(MetadataImpl,AnnotationInstance)/body";
+}
+subgraph cluster43 {
+"entitymanager_src_main_java_org_hibernate_ejb_metamodel_MetadataContext.java/[CN]/MetadataContext/[MT]/wrapUp()/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_IndexOrUniqueKeySecondPass.java/[CN]/IndexOrUniqueKeySecondPass/[CS]/IndexOrUniqueKeySecondPass(String,Ejb3Column,Mappings,boolean)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_TableBinder.java/[CN]/TableBinder/[MT]/addIndexes(Table,javax.persistence.Index[],Mappings)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_IndexOrUniqueKeySecondPass.java/[CN]/IndexOrUniqueKeySecondPass/[MT]/doSecondPass(Map)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_IndexOrUniqueKeySecondPass.java/[CN]/IndexOrUniqueKeySecondPass/[CS]/IndexOrUniqueKeySecondPass(Table,String,String[],Mappings)/body";
+}
+subgraph cluster403 {
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_util_BeginInvalidationCommand.java/[CN]/BeginInvalidationCommand/[MT]/getParameters()/body";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_util_CacheCommandInitializer.java/[CN]/CacheCommandInitializer/[MT]/buildBeginInvalidationCommand(Set<Flag>,Object[],Object)/body";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_util_BeginInvalidationCommand.java/[CN]/BeginInvalidationCommand/[MT]/setParameters(int,Object[])/body";
+}
+subgraph cluster453 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_annotation_AnnotationMetaEntity.java/[CN]/AnnotationMetaEntity/[FE]/element";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_annotation_AnnotationMetaEntity.java/[CN]/AnnotationMetaEntity/[FE]/importContext";
+}
+subgraph cluster200 {
+"hibernate-envers_src_main_java_org_hibernate_envers_query_criteria_NullAuditExpression.java/[CN]/NullAuditExpression/[MT]/addToQuery(AuditConfiguration,String,QueryBuilder,Parameters)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_query_criteria_NotNullAuditExpression.java/[CN]/NotNullAuditExpression/[MT]/addToQuery(AuditConfiguration,String,QueryBuilder,Parameters)/body";
+}
+subgraph cluster69 {
+"core_src_main_java_org_hibernate_engine_ActionQueue.java/[CN]/ActionQueue/[MT]/areTablesToUpdated(List,Set)/body";
+"core_src_main_java_org_hibernate_engine_ActionQueue.java/[CN]/ActionQueue/[CN]/InsertActionSorter/[MT]/findBatchNumber(EntityInsertAction,String)/body";
+"core_src_main_java_org_hibernate_engine_ActionQueue.java/[CN]/ActionQueue/[CN]/InsertActionSorter/[MT]/sort()/body";
+}
+subgraph cluster488 {
+"hibernate-envers_src_main_java_org_hibernate_envers_entities_EntityInstantiator.java/[CN]/EntityInstantiator/[MT]/replaceNonAuditIdProxies(Map,Number)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_entities_EntityInstantiator.java/[CN]/EntityInstantiator/[MT]/replaceNonAuditIdProxies(Map,Number)/parameters";
+}
+subgraph cluster271 {
+"hibernate-core_src_main_java_org_hibernate_type_EnumType.java/[CN]/EnumType/[CN]/OrdinalEnumValueMapper/[MT]/getValue(ResultSet,String[])/body";
+"hibernate-core_src_main_java_org_hibernate_type_EnumType.java/[CN]/EnumType/[CN]/NamedEnumValueMapper/[MT]/getValue(ResultSet,String[])/body";
+}
+subgraph cluster208 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_function_ParameterizedFunctionExpression.java/[CN]/ParameterizedFunctionExpression/[MT]/render(CriteriaQueryCompiler.RenderingContext)/body";
+}
+subgraph cluster421 {
+"hibernate-core_src_main_java_org_hibernate_cache_spi_NaturalIdCacheKey.java/[CN]/NaturalIdCacheKey/[MT]/toString()/body";
+"hibernate-core_src_main_java_org_hibernate_cache_spi_NaturalIdCacheKey.java/[CN]/NaturalIdCacheKey/[CS]/NaturalIdCacheKey(Object[],EntityPersister,SessionImplementor)/body";
+}
+subgraph cluster406 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan_build_internal_AbstractEntityGraphVisitationStrategy.java/[CN]/AbstractEntityGraphVisitationStrategy/[MT]/start()/body";
+"hibernate-core_src_main_java_org_hibernate_loader_plan_build_internal_AbstractEntityGraphVisitationStrategy.java/[CN]/AbstractEntityGraphVisitationStrategy/[MT]/startingEntity(EntityDefinition)/body";
+}
+subgraph cluster441 {
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[MT]/serialize(ObjectOutputStream)/body";
+"hibernate-core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/replace(String,String,String,boolean)/body";
+}
+subgraph cluster479 {
+"hibernate-core_src_main_java_org_hibernate_action_internal_EntityUpdateAction.java/[CN]/EntityUpdateAction/[MT]/doAfterTransactionCompletion(boolean,SessionImplementor)/body";
+}
+subgraph cluster378 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_PooledConnections.java/[CN]/PooledConnections/[MT]/close()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_HbmBinder.java/[CN]/HbmBinder/[MT]/bindTypeDefinitions()/body";
+}
+subgraph cluster36 {
+"hibernate-core_src_main_java_org_hibernate_LockOptions.java/[CN]/LockOptions/[MT]/setAliasSpecificLockMode(String,LockMode)/body";
+"hibernate-core_src_main_java_org_hibernate_LockOptions.java/[CN]/LockOptions/[MT]/getAliasSpecificLockMode(String)/body";
+}
+subgraph cluster368 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_metamodel_AttributeFactory.java/[CN]/AttributeFactory/[MT]/determineAttributeMetadata(AttributeContext<X>,MemberResolver)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_metamodel_AttributeFactory.java/[CN]/AttributeFactory/[MT]/buildAttribute(AbstractManagedType<X>,Property)/body";
+}
+subgraph cluster392 {
+"cache-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/buildTimestampsRegion(String,Properties)/body";
+}
+subgraph cluster279 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_CollectionBinder.java/[CN]/CollectionBinder/[MT]/bindManyToManySecondPass(Collection,Map,Ejb3JoinColumn[],Ejb3JoinColumn[],Ejb3Column[],boolean,XClass,boolean,boolean,boolean,TableBinder,XProperty,PropertyHolder,MetadataBuildingContext)/body";
+}
+subgraph cluster93 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_metamodel_EntityTypeImpl.java/[CN]/EntityTypeImpl/[CS]/EntityTypeImpl(Class<X>,AbstractIdentifiableType<? super X>,String,boolean,boolean)/parameters";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_metamodel_EntityTypeImpl.java/[CN]/EntityTypeImpl/[MT]/getName()/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_metamodel_MetamodelImpl.java/[CN]/MetamodelImpl/[MT]/buildEntityType(PersistentClass,MetadataContext)/body";
+}
+subgraph cluster252 {
+"hibernate-core_src_main_java_org_hibernate_mapping_Table.java/[CN]/Table/[MT]/sqlCreateString(Dialect,Mapping,String,String)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_global_IdGeneratorBinder.java/[CN]/IdGeneratorBinder/[MT]/addStringParameter(AnnotationInstance,String,Map<String,String>,String)/body";
+"hibernate-core_src_main_java_org_hibernate_mapping_Table.java/[CN]/Table/[MT]/sqlAlterStrings(Dialect,Mapping,TableMetadata,String,String)/body";
+}
+subgraph cluster408 {
+"annotations_src_main_java_org_hibernate_cfg_Ejb3Column.java/[CN]/Ejb3Column/[MT]/buildImplicitColumn(PropertyData,String,Map<String,Join>,PropertyHolder,Nullability,ExtendedMappings)/body";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_entity_EntityRegionImpl.java/[CN]/EntityRegionImpl/[MT]/getPutFromLoadValidator()/body";
+}
+subgraph cluster216 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_ManagedProviderConnectionHelper.java/[CN]/ManagedProviderConnectionHelper/[MT]/releaseConnection()/body";
+}
+subgraph cluster238 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_CollectionBinder.java/[CN]/CollectionBinder/[MT]/bindManyToManySecondPass(Collection,Map,Ejb3JoinColumn[],Ejb3JoinColumn[],Ejb3Column[],boolean,XClass,boolean,boolean,boolean,TableBinder,XProperty,PropertyHolder,String,Mappings)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_MapBinder.java/[CN]/MapBinder/[MT]/bindKeyFromAssociationTable(XClass,Map,String,XProperty,boolean,Mappings,Ejb3Column[],Ejb3JoinColumn[],String)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_PropertyBinder.java/[CN]/PropertyBinder/[MT]/makePropertyAndValue()/body";
+}
+subgraph cluster237 {
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/stopCacheManager()/body";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/stop()/body";
+}
+subgraph cluster23 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_EntityManagerFactoryImpl.java/[CN]/EntityManagerFactoryImpl/[MT]/createEntityManager(SynchronizationType,Map)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_EntityManagerFactoryImpl.java/[CN]/EntityManagerFactoryImpl/[MT]/createEntityManager(Map)/body";
+}
+subgraph cluster66 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_reflection_JPAOverridenAnnotationReader.java/[CN]/JPAOverridenAnnotationReader/[MT]/buildAttributeOverrides(List<Element>,String)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_reflection_JPAOverridenAnnotationReader.java/[CN]/JPAOverridenAnnotationReader/[MT]/buildNamedQueries(Element,boolean,XMLContext.Default)/body";
+}
+subgraph cluster240 {
+"core_src_main_java_org_hibernate_action_EntityInsertAction.java/[CN]/EntityInsertAction/[MT]/execute()/body";
+"core_src_main_java_org_hibernate_impl_SessionImpl.java/[CN]/SessionImpl/[MT]/afterTransactionCompletion(boolean,Transaction)/body";
+}
+subgraph cluster113 {
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/buildNaturalIdRegion(String,Properties,CacheDataDescription)/body";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/start(SessionFactoryOptions,Properties)/body";
+}
+subgraph cluster125 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaUpdate.java/[CN]/SchemaUpdate/[MT]/main(String[])/body";
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaValidator.java/[CN]/SchemaValidator/[MT]/main(String[])/body";
+}
+subgraph cluster257 {
+"hibernate-core_src_main_java_org_hibernate_engine_internal_StatefulPersistenceContext.java/[CN]/StatefulPersistenceContext/[MT]/getOwnerId(String,String,Object,Map)/body";
+}
+subgraph cluster434 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_ForeignKeyMetadata.java/[CN]/ForeignKeyMetadata/[MT]/addReference(ResultSet)/body";
+}
+subgraph cluster367 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_ConfiguredClass.java/[CN]/ConfiguredClass/[MT]/determineClassAccessType(AccessType)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_ConfiguredClass.java/[CN]/ConfiguredClass/[MT]/createMappedAttribute(Member,ResolvedTypeWithMembers,AccessType)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_ConfiguredClass.java/[CN]/ConfiguredClass/[MT]/createExplicitlyConfiguredAccessProperties(ResolvedTypeWithMembers)/body";
+}
+subgraph cluster423 {
+"hibernate-core_src_main_java_org_hibernate_loader_hql_QueryLoader.java/[CN]/QueryLoader/[MT]/list(SessionImplementor,QueryParameters)/body";
+}
+subgraph cluster409 {
+"entitymanager_src_main_java_org_hibernate_ejb_Ejb3Configuration.java/[CN]/Ejb3Configuration/[MT]/configure(String,Map)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_Ejb3Configuration.java/[CN]/Ejb3Configuration/[MT]/configure(PersistenceUnitInfo,Map)/body";
+}
+subgraph cluster171 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_internal_MetadataImpl.java/[CN]/MetadataImpl/[MT]/applyAnnotationMappings(MetadataSources,List<String>)/body";
+"core_src_main_java_org_hibernate_dialect_IngresDialect.java/[CN]/IngresDialect/[CS]/IngresDialect()/body";
+}
+subgraph cluster358 {
+"hibernate-core_src_main_java_org_hibernate_persister_walking_spi_MetadataDrivenModelGraphVisitor.java/[CN]/MetadataDrivenModelGraphVisitor/[MT]/visitAssociation(AssociationAttributeDefinition)/body";
+"hibernate-core_src_main_java_org_hibernate_persister_walking_spi_MetadataDrivenModelGraphVisitor.java/[CN]/MetadataDrivenModelGraphVisitor/[MT]/visitAttributeDefinition(AttributeDefinition)/body";
+}
+subgraph cluster447 {
+"core_src_main_java_org_hibernate_engine_TwoPhaseLoad.java/[CN]/TwoPhaseLoad/[MT]/initializeEntity(Object,boolean,SessionImplementor,PreLoadEvent,PostLoadEvent)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_BatchFetchQueue.java/[CN]/BatchFetchQueue/[MT]/removeBatchLoadableCollection(CollectionEntry)/body";
+}
+subgraph cluster8 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/rendered().conflicted2/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[MT]/addAction(QueuedOperationCollectionAction)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/rendered().conflicted5/body";
+}
+subgraph cluster411 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_internal_spaces_EntityQuerySpaceImpl.java/[CN]/EntityQuerySpaceImpl/[MT]/addCollectionJoin(AttributeDefinition,CollectionPersister,String)/body";
+}
+subgraph cluster412 {
+"hibernate-core_src_main_java_org_hibernate_engine_query_spi_QueryPlanCache.java/[CN]/QueryPlanCache/[MT]/getHQLQueryPlan(String,boolean,Map)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_query_spi_QueryPlanCache.java/[CN]/QueryPlanCache/[MT]/getFilterQueryPlan(String,String,boolean,Map)/body";
+}
+subgraph cluster462 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_Context.java/[CN]/Context/[MT]/processElement(TypeElement,AccessType)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_DriverManagerConnectionProviderImpl.java/[CN]/DriverManagerConnectionProviderImpl/[MT]/getConnection()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[MT]/toString()/body";
+}
+subgraph cluster376 {
+"hibernate-core_src_main_java_org_hibernate_tool_schema_internal_TargetStdoutImpl.java/[CN]/TargetStdoutImpl/[MT]/accept(String)/body";
+}
+subgraph cluster321 {
+"hibernate-core_src_main_java_org_hibernate_internal_CacheImpl.java/[CN]/CacheImpl/[MT]/buildCacheKey(Serializable,CollectionPersister)/body";
+"hibernate-core_src_main_java_org_hibernate_internal_AbstractSessionImpl.java/[CN]/AbstractSessionImpl/[MT]/generateCacheKey(Serializable,Type,String)/body";
+"hibernate-core_src_main_java_org_hibernate_internal_CacheImpl.java/[CN]/CacheImpl/[MT]/buildCacheKey(Serializable,EntityPersister)/body";
+}
+subgraph cluster141 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/negated().conflicted0/body";
+}
+subgraph cluster158 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/rendered().conflicted4/body";
+}
+subgraph cluster500 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlParser.java/[CN]/XmlParser/[MT]/parseMappedSuperClass(Collection<org.hibernate.jpamodelgen.xml.jaxb.MappedSuperclass>,String)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlParser.java/[CN]/XmlParser/[MT]/parseEmbeddable(Collection<org.hibernate.jpamodelgen.xml.jaxb.Embeddable>,String)/body";
+}
+subgraph cluster397 {
+"hibernate-core_src_main_java_org_hibernate_cfg_HbmBinder.java/[CN]/HbmBinder/[MT]/bindPersistentClassCommonValues(Element,PersistentClass,Mappings,java.util.Map)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_CollectionBinder.java/[CN]/CollectionBinder/[MT]/bind()/body";
+}
+subgraph cluster425 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_Metadata.java/[CN]/Metadata/[MT]/addImport(String,String)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_MetadataSourceQueue.java/[CN]/MetadataSourceQueue/[MT]/processAnnotatedClassesQueue()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_MetadataSourceQueue.java/[CN]/MetadataSourceQueue/[MT]/processHbmXmlQueue()/body";
+}
+subgraph cluster389 {
+"hibernate-core_src_main_java_org_hibernate_cache_UpdateTimestampsCache.java/[CN]/UpdateTimestampsCache/[MT]/preinvalidate(Serializable[])/body";
+"entitymanager_src_main_java_org_hibernate_ejb_packaging_PersistenceXmlLoader.java/[CN]/PersistenceXmlLoader/[MT]/loadURL(URL,EntityResolver)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_packaging_PersistenceXmlLoader.java/[CN]/PersistenceXmlLoader/[CN]/ErrorLogger/[MT]/warning(SAXParseException)/body";
+}
+subgraph cluster88 {
+"hibernate-core_src_main_java_org_hibernate_tool_schema_extract_internal_InformationExtractorJdbcDatabaseMetaDataImpl.java/[CN]/InformationExtractorJdbcDatabaseMetaDataImpl/[MT]/extractKeyTableName(ResultSet,String)/body";
+"core_src_main_java_org_hibernate_event_PreDeleteEvent.java/[CN]/PreDeleteEvent/extend";
+}
+subgraph cluster450 {
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[MT]/sortCollectionActions()/body";
+"hibernate-core_src_main_java_org_hibernate_collection_internal_AbstractPersistentCollection.java/[CN]/AbstractPersistentCollection/[MT]/withTemporarySessionIfNeeded(LazyInitializationWork<T>)/body";
+"hibernate-core_src_main_java_org_hibernate_type_SerializableToBlobType.java/[CN]/SerializableToBlobType/[MT]/getName()/body";
+}
+subgraph cluster57 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_exec_internal_LoadQueryJoinAndFetchProcessor.java/[CN]/LoadQueryJoinAndFetchProcessor/[MT]/renderEntityJoin(Join,JoinFragment)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmSimpleValueRelationalStateContainer.java/[CN]/HbmSimpleValueRelationalStateContainer/[MT]/createColumnOrFormulaRelationalState(HbmSimpleValueRelationalStateContainer,Object)/body";
+}
+subgraph cluster459 {
+"envers_src_main_java_org_hibernate_envers_configuration_metadata_AuditMetadataGenerator.java/[CN]/AuditMetadataGenerator/[CS]/AuditMetadataGenerator(Configuration,GlobalConfiguration,AuditEntitiesConfiguration,Element,AuditEntityNameRegister)/parameters";
+}
+subgraph cluster255 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_InPredicate.java/[CN]/InPredicate/[MT]/value(T)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_ExpressionImpl.java/[CN]/ExpressionImpl/[MT]/as(Class<X>)/body";
+}
+subgraph cluster504 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_relational_state_ValueCreator.java/[CN]/ValueCreator/[MT]/createDerivedValue(TableSpecification,DerivedValueRelationalState)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_relational_state_ValueCreator.java/[CN]/ValueCreator/[MT]/createColumn(TableSpecification,String,ColumnRelationalState,boolean,boolean)/body";
+}
+subgraph cluster140 {
+"hibernate-core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/replace(String,String,String,String,boolean,boolean)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted0/body";
+"core_src_main_java_org_hibernate_dialect_Oracle8iDialect.java/[CN]/Oracle8iDialect/[MT]/registerFunctions()/body";
+}
+subgraph cluster41 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[MT]/parseOneToMany(OneToMany)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[MT]/parseManyToMany(ManyToMany)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[MT]/parseElementCollection(ElementCollection)/body";
+}
+subgraph cluster445 {
+"core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[MT]/setSession(SessionImplementor)/body";
+"core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[MT]/unsetSession()/body";
+}
+subgraph cluster396 {
+"hibernate-core_src_main_java_org_hibernate_cache_internal_CollectionCacheInvalidator.java/[CN]/CollectionCacheInvalidator/[MT]/integrate(SessionFactoryServiceRegistry,SessionFactoryImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_cache_internal_CollectionCacheInvalidator.java/[CN]/CollectionCacheInvalidator/[MT]/evict(Serializable,CollectionPersister,EventSource)/body";
+}
+subgraph cluster76 {
+"hibernate-core_src_main_java_org_hibernate_engine_loading_internal_CollectionLoadContext.java/[CN]/CollectionLoadContext/[MT]/addCollectionToCache(LoadingCollectionEntry,CollectionPersister)/body";
+}
+subgraph cluster495 {
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiPersistenceProvider.java/[CN]/OsgiPersistenceProvider/[MT]/generateSettings(Map)/body";
+}
+subgraph cluster466 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_RevisionInfoConfiguration.java/[CN]/RevisionInfoConfiguration/[MT]/generateRevisionInfoRelationMapping()/body";
+"hibernate-core_src_main_java_org_hibernate_query_internal_QueryParameterBindingsImpl.java/[CN]/QueryParameterBindingsImpl/[MT]/locateBinding(int)/body";
+"core_src_main_java_org_hibernate_cfg_AnnotationBinder.java/[CN]/AnnotationBinder/[MT]/bindManyToOne(String,Ejb3JoinColumn[],boolean,boolean,boolean,XClass,PropertyHolder,PropertyData,boolean,boolean,boolean,PropertyBinder,Mappings)/body";
+}
+subgraph cluster44 {
+"hibernate-core_src_main_java_org_hibernate_hql_internal_ast_SqlGenerator.java/[CN]/SqlGenerator/[CN]/CastFunctionArguments/[MT]/getArgs()/body";
+"hibernate-core_src_main_java_org_hibernate_hql_internal_ast_SqlGenerator.java/[CN]/SqlGenerator/[CN]/CastFunctionArguments/[MT]/clause(String)/body";
+}
+subgraph cluster446 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_Context.java/[CN]/Context/[MT]/toString()/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_Context.java/[CN]/Context/[MT]/mappingDocumentFullyXmlConfigured(boolean)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_Context.java/[CN]/Context/[MT]/isFullyXmlConfigured()/body";
+}
+subgraph cluster133 {
+"hibernate-core_src_main_java_org_hibernate_persister_entity_SingleTableEntityPersister.java/[CN]/SingleTableEntityPersister/[CS]/SingleTableEntityPersister(PersistentClass,EntityRegionAccessStrategy,SessionFactoryImplementor,Mapping)/body";
+"hibernate-core_src_main_java_org_hibernate_persister_entity_JoinedSubclassEntityPersister.java/[CN]/JoinedSubclassEntityPersister/[CS]/JoinedSubclassEntityPersister(PersistentClass,EntityRegionAccessStrategy,SessionFactoryImplementor,Mapping)/body";
+"hibernate-core_src_main_java_org_hibernate_persister_entity_UnionSubclassEntityPersister.java/[CN]/UnionSubclassEntityPersister/[CS]/UnionSubclassEntityPersister(PersistentClass,EntityRegionAccessStrategy,SessionFactoryImplementor,Mapping)/body";
+}
+subgraph cluster116 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/process(Set<? extends TypeElement>,RoundEnvironment)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/init(ProcessingEnvironment)/body";
+}
+subgraph cluster128 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_Ejb3Configuration.java/[CN]/Ejb3Configuration/[MT]/setPersisterClassProvider(PersisterClassProvider)/parameters";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_Ejb3Configuration.java/[CN]/Ejb3Configuration/[MT]/setPersisterClassProvider(PersisterClassProvider)/body";
+}
+subgraph cluster139 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/bindSingleIdGeneratedValue(EntityBinding,String)/body";
+}
+subgraph cluster143 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_TableMetadata.java/[CN]/TableMetadata/[MT]/addForeignKey(ResultSet)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted5/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[MT]/areTablesToBeUpdated(Set)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted2/body";
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_TableMetadata.java/[CN]/TableMetadata/[MT]/getColumnMetadata(String)/body";
+}
+subgraph cluster261 {
+"hibernate-core_src_main_java_org_hibernate_cfg_CollectionPropertyHolder.java/[CN]/CollectionPropertyHolder/[MT]/resolveElementAttributeConverterDefinition(XClass)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_CollectionBinder.java/[CN]/CollectionBinder/[MT]/bindManyToManySecondPass(Collection,Map,Ejb3JoinColumn[],Ejb3JoinColumn[],Ejb3Column[],boolean,XClass,boolean,boolean,boolean,TableBinder,XProperty,PropertyHolder,Mappings)/body";
+}
+subgraph cluster359 {
+"envers_src_main_java_org_hibernate_envers_strategy_ValidityAuditStrategy.java/[CN]/ValidityAuditStrategy/[MT]/updateLastRevision(Session,AuditConfiguration,QueryBuilder,Object,String,Object)/body";
+"envers_src_main_java_org_hibernate_envers_strategy_ValidityAuditStrategy.java/[CN]/ValidityAuditStrategy/[MT]/performCollectionChange(Session,AuditConfiguration,PersistentCollectionChangeData,Object)/body";
+"envers_src_main_java_org_hibernate_envers_configuration_metadata_AuditMetadataGenerator.java/[CN]/AuditMetadataGenerator/[MT]/addEndRevision(Element)/body";
+}
+subgraph cluster135 {
+"hibernate-core_src_main_java_org_hibernate_type_AbstractStandardBasicType.java/[CN]/AbstractStandardBasicType/[MT]/extract(CallableStatement,String[],SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_type_AbstractStandardBasicType.java/[CN]/AbstractStandardBasicType/[MT]/nullSafeSet(PreparedStatement,Object,int,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_type_AbstractStandardBasicType.java/[CN]/AbstractStandardBasicType/[MT]/nullSafeGet(ResultSet,String,SessionImplementor)/body";
+}
+subgraph cluster203 {
+"hibernate-core_src_main_java_org_hibernate_persister_entity_AbstractEntityPersister.java/[CN]/AbstractEntityPersister/[MT]/getPropertyColumnUpdateable()/body";
+"hibernate-core_src_main_java_org_hibernate_persister_entity_AbstractEntityPersister.java/[CN]/AbstractEntityPersister/[MT]/getPropertyColumnUpdateable()/parameters";
+"hibernate-core_src_main_java_org_hibernate_persister_entity_AbstractEntityPersister.java/[CN]/AbstractEntityPersister/[MT]/getPropertyColumnInsertable()/parameters";
+}
+subgraph cluster339 {
+"hibernate-core_src_main_java_org_hibernate_engine_internal_StatefulPersistenceContext.java/[CN]/StatefulPersistenceContext/[MT]/addUnownedCollection(CollectionKey,PersistentCollection)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_StatefulPersistenceContext.java/[CN]/StatefulPersistenceContext/[MT]/initTransientState()/body";
+}
+subgraph cluster16 {
+"annotations_src_main_java_org_hibernate_type_EnumType.java/[CN]/EnumType/[MT]/initEnumValues()/body";
+"annotations_src_main_java_org_hibernate_type_EnumType.java/[CN]/EnumType/[MT]/nullSafeSet(PreparedStatement,Object,int)/body";
+"annotations_src_main_java_org_hibernate_type_EnumType.java/[CN]/EnumType/[MT]/setParameterValues(Properties)/body";
+}
+subgraph cluster454 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_SimpleValueBinder.java/[CN]/SimpleValueBinder/[MT]/setType(XProperty,XClass,String,AttributeConverterDefinition)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_SimpleValueBinder.java/[CN]/SimpleValueBinder/[MT]/make()/body";
+}
+subgraph cluster461 {
+"hibernate-core_src_main_java_org_hibernate_cache_spi_NaturalIdCacheKey.java/[CN]/NaturalIdCacheKey/[MT]/equals(Object)/body";
+}
+subgraph cluster443 {
+"hibernate-core_src_main_java_org_hibernate_internal_SessionImpl.java/[CN]/SessionImpl/[CN]/IdentifierLoadAccessImpl/[MT]/getReference(Serializable)/body";
+"hibernate-core_src_main_java_org_hibernate_internal_SessionImpl.java/[CN]/SessionImpl/[CN]/IdentifierLoadAccessImpl/[MT]/load(Serializable)/body";
+}
+subgraph cluster369 {
+"hibernate-core_src_main_java_org_hibernate_dialect_unique_DB2UniqueDelegate.java/[CN]/DB2UniqueDelegate/[MT]/hasNullable(org.hibernate.mapping.UniqueKey)/body";
+"hibernate-core_src_main_java_org_hibernate_dialect_unique_DB2UniqueDelegate.java/[CN]/DB2UniqueDelegate/[MT]/applyUniquesOnAlter(org.hibernate.mapping.UniqueKey,String,String)/body";
+"hibernate-core_src_main_java_org_hibernate_dialect_unique_DB2UniqueDelegate.java/[CN]/DB2UniqueDelegate/[MT]/hasNullable(UniqueKey)/body";
+}
+subgraph cluster117 {
+"hibernate-envers_src_main_java_org_hibernate_envers_event_EnversPostDeleteEventListenerImpl.java/[CN]/EnversPostDeleteEventListenerImpl/[MT]/onPostDelete(PostDeleteEvent)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_event_EnversPostInsertEventListenerImpl.java/[CN]/EnversPostInsertEventListenerImpl/[MT]/onPostInsert(PostInsertEvent)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_event_EnversPostUpdateEventListenerImpl.java/[CN]/EnversPostUpdateEventListenerImpl/[MT]/onPostUpdate(PostUpdateEvent)/body";
+}
+subgraph cluster313 {
+"annotations_src_main_java_org_hibernate_cfg_annotations_reflection_JPAOverridenAnnotationReader.java/[CN]/JPAOverridenAnnotationReader/[MT]/getAssociation(Class<? extends Annotation>,List<Annotation>,XMLContext.Default)/body";
+"annotations_src_main_java_org_hibernate_cfg_annotations_reflection_JPAOverridenAnnotationReader.java/[CN]/JPAOverridenAnnotationReader/[MT]/initAnnotations()/body";
+}
+subgraph cluster176 {
+"core_src_main_java_org_hibernate_event_PreInsertEvent.java/[CN]/PreInsertEvent/[CS]/PreInsertEvent(Object,Serializable,Object[],EntityPersister,EventSource)/body";
+"hibernate-core_src_main_java_org_hibernate_dialect_unique_DefaultUniqueDelegate.java/[CN]/DefaultUniqueDelegate/[MT]/uniqueConstraintSql(UniqueKey)/body";
+}
+subgraph cluster327 {
+"hibernate-core_src_main_java_org_hibernate_dialect_TypeNames.java/[CN]/TypeNames/[MT]/get(int,long,int,int)/parameters";
+"hibernate-core_src_main_java_org_hibernate_dialect_Dialect.java/[CN]/Dialect/[MT]/getTypeName(int,long,int,int)/body";
+}
+subgraph cluster388 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[CS]/SchemaExport(MetadataImplementor)/body";
+}
+subgraph cluster297 {
+"hibernate-core_src_main_java_org_hibernate_internal_util_ConfigHelper.java/[CN]/ConfigHelper/[MT]/findAsResource(String)/body";
+}
+subgraph cluster418 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/negated().conflicted3/body";
+}
+subgraph cluster35 {
+"hibernate-core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/replace(String,String,String,boolean,boolean)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_MetadataTools.java/[CN]/MetadataTools/[MT]/addOrModifyColumn(Element,String)/body";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_query_QueryResultsRegionImpl.java/[CN]/QueryResultsRegionImpl/[CS]/QueryResultsRegionImpl(AdvancedCache,String,TransactionManager,InfinispanRegionFactory)/body";
+}
+subgraph cluster223 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_StoredProcedureQueryImpl.java/[CN]/StoredProcedureQueryImpl/[MT]/execute()/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_StoredProcedureQueryImpl.java/[CN]/StoredProcedureQueryImpl/[MT]/getResultList()/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_StoredProcedureQueryImpl.java/[CN]/StoredProcedureQueryImpl/[MT]/getUpdateCount()/body";
+}
+subgraph cluster48 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_StoredProcedureQueryImpl.java/[CN]/StoredProcedureQueryImpl/[CS]/StoredProcedureQueryImpl(ProcedureCallMemento,HibernateEntityManagerImplementor)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_StoredProcedureQueryImpl.java/[CN]/StoredProcedureQueryImpl/[MT]/registerStoredProcedureParameter(int,Class,ParameterMode)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_StoredProcedureQueryImpl.java/[CN]/StoredProcedureQueryImpl/[MT]/registerStoredProcedureParameter(String,Class,ParameterMode)/body";
+}
+subgraph cluster118 {
+"core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[MT]/main(String[])/body";
+}
+subgraph cluster467 {
+"core_src_main_java_org_hibernate_dialect_RDMSOS2200Dialect.java/[CN]/RDMSOS2200Dialect/[CS]/RDMSOS2200Dialect()/body";
+}
+subgraph cluster292 {
+"hibernate-core_src_main_java_org_hibernate_loader_Loader.java/[CN]/Loader/[MT]/instanceNotYetLoaded(ResultSet,int,Loadable,String,EntityKey,LockMode,EntityKey,Object,List,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_BatchFetchQueue.java/[CN]/BatchFetchQueue/[MT]/isCached(Serializable,CollectionPersister)/body";
+}
+subgraph cluster499 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_SubqueryComparisonModifierExpression.java/[CN]/SubqueryComparisonModifierExpression/[MT]/rendered().conflicted1/body";
+}
+subgraph cluster129 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_TableMetadata.java/[CN]/TableMetadata/[MT]/getIndexMetadata(String)/body";
+}
+subgraph cluster432 {
+"hibernate-core_src_main_java_org_hibernate_persister_entity_AbstractEntityPersister.java/[CN]/AbstractEntityPersister/[MT]/initializeLazyProperty(String,Object,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_StatefulPersistenceContext.java/[CN]/StatefulPersistenceContext/[MT]/serialize(ObjectOutputStream)/body";
+}
+subgraph cluster148 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/bindSingleMappedAttribute(EntityBinding,AttributeContainer,SimpleAttribute)/body";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/buildQueryResultsRegion(String,Properties)/body";
+}
+subgraph cluster219 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_internal_HibernateTypeResolver.java/[CN]/HibernateTypeResolver/[MT]/resolveDiscriminatorTypeInformation(EntityDiscriminator)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_internal_HibernateTypeResolver.java/[CN]/HibernateTypeResolver/[MT]/resolve()/body";
+}
+subgraph cluster183 {
+"hibernate-core_src_main_java_org_hibernate_cfg_AnnotationConfiguration.java/[CN]/AnnotationConfiguration/[MT]/setPersisterClassProvider(PersisterClassProvider)/parameters";
+"hibernate-core_src_main_java_org_hibernate_transaction_JOTMTransactionManagerLookup.java/[CN]/JOTMTransactionManagerLookup/[MT]/getTransactionManager(Properties)/body";
+"hibernate-core_src_main_java_org_hibernate_transaction_JOnASTransactionManagerLookup.java/[CN]/JOnASTransactionManagerLookup/[FE]/TM_CLASS_NAME";
+"hibernate-core_src_main_java_org_hibernate_proxy_pojo_javassist_SerializableProxy.java/[CN]/SerializableProxy/[MT]/readResolve()/body";
+}
+subgraph cluster437 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_NamedEntityGraphDefinition.java/[CN]/NamedEntityGraphDefinition/[CS]/NamedEntityGraphDefinition(NamedEntityGraph,String,String)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_EntityManagerFactoryImpl.java/[CN]/EntityManagerFactoryImpl/[MT]/applyNamedEntityGraphs(Collection<NamedEntityGraphDefinition>)/body";
+}
+subgraph cluster299 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/addFromProperties(Iterable<XProperty>,String,Set<String>,Audited)/body";
+}
+subgraph cluster296 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmColumnRelationalState.java/[CN]/HbmColumnRelationalState/[CS]/HbmColumnRelationalState(XMLId,HbmSimpleValueRelationalStateContainer)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[MT]/clear()/body";
+}
+subgraph cluster126 {
+"hibernate-core_src_main_java_org_hibernate_dialect_TypeNames.java/[CN]/TypeNames/[MT]/put(int,String)/body";
+"hibernate-core_src_main_java_org_hibernate_dialect_DerbyDialect.java/[CN]/DerbyDialect/[MT]/supportsUnboundedLobLocatorMaterialization()/parameters";
+"hibernate-core_src_main_java_org_hibernate_dialect_TypeNames.java/[CN]/TypeNames/[MT]/get(int)/body";
+}
+subgraph cluster486 {
+"hibernate-core_src_main_java_org_hibernate_transaction_WebSphereExtendedJTATransactionLookup.java/[CN]/WebSphereExtendedJTATransactionLookup/[CN]/TransactionManagerAdapter/[CN]/TransactionAdapter/[MT]/getLocalId()/body";
+"hibernate-core_src_main_java_org_hibernate_type_AbstractStandardBasicType.java/[CN]/AbstractStandardBasicType/[MT]/nullSafeGet(ResultSet,String,WrapperOptions)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[FE]/defaultPackageName";
+}
+subgraph cluster162 {
+"hibernate-core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/getFirstNonWhitespaceCharacter(String)/body";
+"hibernate-core_src_main_java_org_hibernate_type_ComponentType.java/[CN]/ComponentType/[MT]/getPropertyValue(Object,int)/body";
+}
+subgraph cluster34 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_expression_function_SubstringFunction.java/[CN]/SubstringFunction/[MT]/render(CriteriaQueryCompiler.RenderingContext)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/applyProperties()/body";
+}
+subgraph cluster318 {
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ActionQueue.java/[CN]/ActionQueue/[MT]/init()/body";
+}
+subgraph cluster258 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[CS]/SchemaExport(ServiceRegistry,Configuration)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_BlobProxy.java/[CN]/BlobProxy/[MT]/getProxyClassLoader()/body";
+}
+subgraph cluster247 {
+"hibernate-core_src_main_java_org_hibernate_transaction_JOnASTransactionManagerLookup.java/[CN]/JOnASTransactionManagerLookup/[MT]/getTransactionManager(Properties)/body";
+"envers_src_main_java_org_hibernate_envers_configuration_AuditEntitiesConfiguration.java/[CN]/AuditEntitiesConfiguration/[CS]/AuditEntitiesConfiguration(Properties,String)/body";
+}
+subgraph cluster6 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_NClobProxy.java/[CN]/NClobProxy/[MT]/getProxyClassLoader()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_StatefulPersistenceContext.java/[CN]/StatefulPersistenceContext/[MT]/getCollectionEntryOrNull(Object)/body";
+}
+subgraph cluster235 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_SerializableClobProxy.java/[CN]/SerializableClobProxy/[MT]/getProxyClassLoader()/body";
+"hibernate-core_src_main_java_org_hibernate_boot_internal_SessionFactoryOptionsImpl.java/[CN]/SessionFactoryOptionsImpl/[CS]/SessionFactoryOptionsImpl(SessionFactoryOptionsState)/body";
+}
+subgraph cluster105 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/getInputStreamForResource(String)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_ExecutableList.java/[CN]/ExecutableList/[MT]/remove(int)/body";
+}
+subgraph cluster387 {
+"hibernate-core_src_main_java_org_hibernate_query_criteria_internal_CriteriaBuilderImpl.java/[CN]/CriteriaBuilderImpl/[MT]/parameter(Class<T>)/body";
+"hibernate-core_src_main_java_org_hibernate_query_criteria_internal_CriteriaBuilderImpl.java/[CN]/CriteriaBuilderImpl/[MT]/parameter(Class<T>,String)/body";
+}
+subgraph cluster317 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[CS]/XmlMetaEntity(MappedSuperclass,String,TypeElement,Context)/body";
+}
+subgraph cluster142 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/parseEntities(EntityMappings,AccessType)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/parseMappedSuperClass(EntityMappings,AccessType)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/parseEmbeddable(EntityMappings,AccessType)/body";
+}
+subgraph cluster470 {
+"hibernate-core_src_main_java_org_hibernate_tuple_PojoInstantiator.java/[CN]/PojoInstantiator/[MT]/instantiate()/body";
+}
+subgraph cluster27 {
+"hibernate-core_src_main_java_org_hibernate_transaction_WebSphereTransactionManagerLookup.java/[CN]/WebSphereTransactionManagerLookup/[MT]/getTransactionManager(Properties)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_internal_MetadataImpl.java/[CN]/MetadataImpl/[MT]/applyHibernateMappings(MetadataSources,List<String>)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_MetadataTools.java/[CN]/MetadataTools/[MT]/addColumn(Element,String,Integer,Integer,Integer,String,String,String)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted4/body";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/buildEntityRegion(String,Properties,CacheDataDescription)/body";
+}
+subgraph cluster316 {
+"entitymanager_src_main_java_org_hibernate_ejb_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/refresh(Object,LockModeType,Map<String,Object>)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/find(Class<A>,Object,LockModeType,Map<String,Object>)/body";
+}
+subgraph cluster342 {
+"hibernate-core_src_main_java_org_hibernate_loader_criteria_CriteriaQueryTranslator.java/[CN]/CriteriaQueryTranslator/[MT]/hasRestriction(String)/body";
+}
+subgraph cluster175 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaUpdate.java/[CN]/SchemaUpdate/[MT]/buildToolTargets(Target)/body";
+}
+subgraph cluster47 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/rendered().conflicted1/body";
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_SchemaExport.java/[CN]/SchemaExport/[MT]/main(String[])/body";
+"hibernate-core_src_main_java_org_hibernate_impl_SessionFactoryImpl.java/[CN]/SessionFactoryImpl/[MT]/getQueryCache(String)/body";
+}
+subgraph cluster131 {
+"hibernate-core_src_main_java_org_hibernate_transaction_WebSphereExtendedJTATransactionLookup.java/[CN]/WebSphereExtendedJTATransactionLookup/[CN]/TransactionManagerAdapter/[CN]/TransactionAdapter/[MT]/registerSynchronization(Synchronization)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_EntityBinder.java/[CN]/EntityBinder/[MT]/setFKNameIfDefined(Join)/body";
+"hibernate-core_src_main_java_org_hibernate_cache_UpdateTimestampsCache.java/[CN]/UpdateTimestampsCache/[MT]/toString()/body";
+"core_src_main_java_org_hibernate_dialect_MckoiDialect.java/[CN]/MckoiDialect/[CS]/MckoiDialect()/body";
+}
+subgraph cluster436 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_PooledConnections.java/[CN]/PooledConnections/[MT]/size()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_PooledConnections.java/[CN]/PooledConnections/[MT]/addConnections(int)/body";
+}
+subgraph cluster153 {
+"hibernate-core_src_main_java_org_hibernate_loader_custom_CustomLoader.java/[CN]/CustomLoader/[MT]/list(SessionImplementor,QueryParameters)/body";
+"hibernate-core_src_main_java_org_hibernate_loader_custom_CustomLoader.java/[CN]/CustomLoader/[MT]/scroll(QueryParameters,SessionImplementor)/body";
+}
+subgraph cluster335 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_spi_AbstractLoadPlanBuildingAssociationVisitationStrategy.java/[CN]/AbstractLoadPlanBuildingAssociationVisitationStrategy/[MT]/finishingEntity(EntityDefinition)/body";
+}
+subgraph cluster256 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_metamodel_MappedSuperclassTypeImpl.java/[CN]/MappedSuperclassTypeImpl/[CS]/MappedSuperclassTypeImpl(Class<X>,MappedSuperclass,AbstractIdentifiableType<? super X>)/body";
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiSessionFactoryService.java/[CN]/OsgiSessionFactoryService/[MT]/getService(Bundle,ServiceRegistration)/body";
+}
+subgraph cluster263 {
+"annotations_src_main_java_org_hibernate_cfg_AnnotationBinder.java/[CN]/AnnotationBinder/[MT]/bindManyToOne(String,Ejb3JoinColumn[],boolean,boolean,boolean,XClass,PropertyHolder,PropertyData,boolean,boolean,boolean,PropertyBinder,ExtendedMappings)/body";
+"annotations_src_main_java_org_hibernate_cfg_AnnotationBinder.java/[CN]/AnnotationBinder/[MT]/bindClass(XClass,Map<XClass,InheritanceState>,ExtendedMappings)/body";
+}
+subgraph cluster75 {
+"hibernate-core_src_main_java_org_hibernate_loader_criteria_CriteriaQueryTranslator.java/[CN]/CriteriaQueryTranslator/[MT]/getWithClause(String)/body";
+"hibernate-core_src_main_java_org_hibernate_loader_criteria_CriteriaQueryTranslator.java/[CN]/CriteriaQueryTranslator/[MT]/getPathInfo(String)/body";
+"hibernate-core_src_main_java_org_hibernate_loader_criteria_CriteriaQueryTranslator.java/[CN]/CriteriaQueryTranslator/[MT]/getQueryParameters()/body";
+}
+subgraph cluster282 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_RevisionInfoConfiguration.java/[CN]/RevisionInfoConfiguration/[CS]/RevisionInfoConfiguration(GlobalConfiguration)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_RevisionInfoConfiguration.java/[CN]/RevisionInfoConfiguration/[MT]/generateDefaultRevisionInfoXmlMapping()/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_RevisionInfoConfiguration.java/[CN]/RevisionInfoConfiguration/[MT]/configure(Configuration,ReflectionManager)/body";
+}
+subgraph cluster53 {
+"hibernate-core_src_main_java_org_hibernate_engine_internal_JoinHelper.java/[CN]/JoinHelper/[MT]/getLHSColumnNames(AssociationType,int,int,OuterJoinLoadable,Mapping)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_JoinHelper.java/[CN]/JoinHelper/[MT]/getLHSTableName(AssociationType,int,OuterJoinLoadable)/body";
+}
+subgraph cluster2 {
+"hibernate-core_src_main_java_org_hibernate_service_event_internal_EventListenerServiceInitiator.java/[CN]/EventListenerServiceInitiator/[MT]/initiateService(SessionFactoryImplementor,Configuration,ServiceRegistryImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_service_event_internal_EventListenerRegistryImpl.java/[CN]/EventListenerRegistryImpl/[MT]/buildEventListenerRegistry(SessionFactoryImplementor,Configuration,ServiceRegistryImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[MT]/enableBeanValidation(ServiceRegistry)/body";
+}
+subgraph cluster413 {
+"envers_src_main_java_org_hibernate_envers_configuration_metadata_ToOneRelationMetadataGenerator.java/[CN]/ToOneRelationMetadataGenerator/[MT]/addToOne(Element,PropertyAuditingData,Value,CompositeMapperBuilder,String,boolean)/body";
+"envers_src_main_java_org_hibernate_envers_configuration_metadata_CollectionMetadataGenerator.java/[CN]/CollectionMetadataGenerator/[MT]/addValueToMiddleTable(Value,Element,QueryGeneratorBuilder,String,JoinColumn[])/body";
+}
+subgraph cluster144 {
+"hibernate-envers_src_main_java_org_hibernate_envers_entities_mapper_relation_ToOneIdMapper.java/[CN]/ToOneIdMapper/[MT]/mapModifiedFlagsToMapForCollectionChange(String,Map<String,Object>)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_entities_mapper_relation_ToOneIdMapper.java/[CN]/ToOneIdMapper/[MT]/mapModifiedFlagsToMapFromEntity(SessionImplementor,Map<String,Object>,Object,Object)/body";
+}
+subgraph cluster372 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_xml_XmlMetaEntity.java/[CN]/XmlMetaEntity/[MT]/getCollectionTypes(String,String,String,ElementKind)/body";
+}
+subgraph cluster234 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/negated().conflicted5/body";
+}
+subgraph cluster56 {
+"hibernate-core_src_main_java_org_hibernate_util_StringHelper.java/[CN]/StringHelper/[MT]/getLastNonWhitespaceCharacter(String)/parameters";
+}
+subgraph cluster338 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_ConfiguredClass.java/[CN]/ConfiguredClass/[CS]/ConfiguredClass(ClassInfo,AccessType,ConfiguredClass,AnnotationBindingContext)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_ConfiguredClass.java/[CN]/ConfiguredClass/[MT]/findAttributeOverrides()/body";
+}
+subgraph cluster286 {
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_CollectionBinder.java/[CN]/CollectionBinder/[MT]/bindFilters(boolean)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_HbmBinder.java/[CN]/HbmBinder/[MT]/parseFilter(Element,Filterable,Mappings)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_annotations_EntityBinder.java/[CN]/EntityBinder/[MT]/bindEntity()/body";
+}
+subgraph cluster478 {
+"core_src_main_java_org_hibernate_type_descriptor_java_BinaryStreamImpl.java/[CN]/BinaryStreamImpl/[CS]/BinaryStreamImpl(byte[])/body";
+"hibernate-core_src_main_java_org_hibernate_type_ComponentType.java/[CN]/ComponentType/[MT]/isEqual(Object,Object)/body";
+}
+subgraph cluster451 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_DriverManagerConnectionProviderImpl.java/[CN]/DriverManagerConnectionProviderImpl/[MT]/buildPool(Map)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/rendered().conflicted2/body";
+}
+subgraph cluster67 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmSimpleValueRelationalStateContainer.java/[CN]/HbmSimpleValueRelationalStateContainer/[CS]/HbmSimpleValueRelationalStateContainer(MappingDefaults,boolean,XMLDiscriminator)/body";
+"hibernate-core_src_main_java_org_hibernate_tool_schema_internal_HibernateSchemaManagementTool.java/[CN]/HibernateSchemaManagementTool/[MT]/buildGenerationTargets(TargetDescriptor,JdbcContext,Map,boolean)/body";
+}
+subgraph cluster460 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/bindWhereFilter(EntityBindingStateImpl)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_EntityBinder.java/[CN]/EntityBinder/[MT]/createTable()/body";
+}
+subgraph cluster123 {
+"hibernate-core_src_main_java_org_hibernate_tool_hbm2ddl_ImportSqlCommandExtractorInitiator.java/[CN]/ImportSqlCommandExtractorInitiator/[MT]/initiateService(Map,ServiceRegistryImplementor)/body";
+}
+subgraph cluster24 {
+"annotations_src_main_java_org_hibernate_cfg_VerifyFetchProfileReferenceSecondPass.java/[CN]/VerifyFetchProfileReferenceSecondPass/[MT]/doSecondPass(Map)/body";
+"annotations_src_main_java_org_hibernate_cfg_AnnotationConfiguration.java/[CN]/AnnotationConfiguration/[MT]/reset()/body";
+}
+subgraph cluster465 {
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[MT]/setPersisterClassProvider(PersisterClassProvider)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_DriverManagerConnectionProviderImpl.java/[CN]/DriverManagerConnectionProviderImpl/[MT]/stop()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_Cascade.java/[CN]/Cascade/[MT]/deleteOrphans(String,PersistentCollection)/body";
+}
+subgraph cluster324 {
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_InfinispanRegionFactory.java/[CN]/InfinispanRegionFactory/[MT]/createCacheManager(Properties)/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_internal_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/addFromPropertiesGroup(String,XProperty,String,Component,Audited)/body";
+"hibernate-core_src_main_java_org_hibernate_cache_internal_CollectionCacheInvalidator.java/[CN]/CollectionCacheInvalidator/[MT]/evictCache(Object,EntityPersister,EventSource,Object[])/body";
+}
+subgraph cluster351 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_MetadataTools.java/[CN]/MetadataTools/[MT]/addColumn(Element,String,Integer,Integer,Integer,String,String,String)/parameters";
+}
+subgraph cluster78 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmColumnRelationalState.java/[CN]/HbmColumnRelationalState/[CS]/HbmColumnRelationalState(XMLDiscriminator,HbmSimpleValueRelationalStateContainer)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[MT]/getPersisterClassProvider()/body";
+}
+subgraph cluster489 {
+"hibernate-core_src_main_java_org_hibernate_persister_entity_AbstractEntityPersister.java/[CN]/AbstractEntityPersister/[MT]/isTransient(Object,SessionImplementor)/body";
+}
+subgraph cluster294 {
+"hibernate-core_src_main_java_org_hibernate_cfg_HbmBinder.java/[CN]/HbmBinder/[MT]/bindUnionSubclass(Element,UnionSubclass,Mappings,java.util.Map)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_HbmBinder.java/[CN]/HbmBinder/[MT]/bindJoinedSubclass(Element,JoinedSubclass,Mappings,java.util.Map)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_HbmBinder.java/[CN]/HbmBinder/[MT]/bindSubclass(Element,Subclass,Mappings,java.util.Map)/body";
+}
+subgraph cluster68 {
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_naturalid_NaturalIdRegionImpl.java/[CN]/NaturalIdRegionImpl/[MT]/getPutFromLoadValidator()/body";
+"hibernate-infinispan_src_main_java_org_hibernate_cache_infinispan_collection_CollectionRegionImpl.java/[CN]/CollectionRegionImpl/[MT]/getPutFromLoadValidator()/body";
+}
+subgraph cluster220 {
+"hibernate-core_src_main_java_org_hibernate_loader_plan2_build_internal_spaces_CompositeQuerySpaceImpl.java/[CN]/CompositeQuerySpaceImpl/[MT]/addCollectionJoin(AttributeDefinition,CollectionPersister,String)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/createMetaModelClasses()/body";
+}
+subgraph cluster156 {
+"hibernate-core_src_main_java_org_hibernate_mapping_OneToOne.java/[CN]/OneToOne/[MT]/getType()/body";
+"hibernate-core_src_main_java_org_hibernate_mapping_ManyToOne.java/[CN]/ManyToOne/[MT]/getType()/body";
+}
+subgraph cluster280 {
+"hibernate-core_src_main_java_org_hibernate_engine_internal_Cascade.java/[CN]/Cascade/[MT]/cascadeComponent(Object,Object,CompositeType,String,Object)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_Cascade.java/[CN]/Cascade/[MT]/cascadeProperty(Object,Object,Type,CascadeStyle,String,Object,boolean)/body";
+}
+subgraph cluster448 {
+"hibernate-core_src_main_java_org_hibernate_event_internal_AbstractFlushingEventListener.java/[CN]/AbstractFlushingEventListener/[MT]/flushEntities(FlushEvent,PersistenceContext)/body";
+"hibernate-core_src_main_java_org_hibernate_event_internal_AbstractFlushingEventListener.java/[CN]/AbstractFlushingEventListener/[MT]/prepareEntityFlushes(EventSource,PersistenceContext)/body";
+}
+subgraph cluster326 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_relational_Table.java/[CN]/Table/[MT]/getOrCreateIndex(String)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_relational_Table.java/[CN]/Table/[MT]/getOrCreateUniqueKey(String)/body";
+}
+subgraph cluster15 {
+"hibernate-core_src_main_java_org_hibernate_tool_schema_extract_internal_InformationExtractorJdbcDatabaseMetaDataImpl.java/[CN]/InformationExtractorJdbcDatabaseMetaDataImpl/[MT]/getForeignKeys(TableInformation)/body";
+"hibernate-core_src_main_java_org_hibernate_tool_schema_extract_internal_InformationExtractorJdbcDatabaseMetaDataImpl.java/[CN]/InformationExtractorJdbcDatabaseMetaDataImpl/[MT]/extractTableInformation(Identifier,Identifier,Identifier,ResultSet)/body";
+}
+subgraph cluster344 {
+"hibernate-core_src_main_java_org_hibernate_sql_Template.java/[CN]/Template/[MT]/renderWhereStringTemplate(String,String,Dialect,SQLFunctionRegistry)/body";
+"hibernate-core_src_main_java_org_hibernate_sql_Template.java/[CN]/Template/[MT]/isIdentifier(String)/body";
+}
+subgraph cluster417 {
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiArchiveDescriptorFactory.java/[CN]/OsgiArchiveDescriptorFactory/[MT]/buildArchiveDescriptor(URL,String)/body";
+}
+subgraph cluster267 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_ResultSetWrapperProxy.java/[CN]/ResultSetWrapperProxy/[MT]/getProxyClassLoader()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_domain_AbstractHbmAttributeDomainState.java/[CN]/AbstractHbmAttributeDomainState/[CS]/AbstractHbmAttributeDomainState(MappingDefaults,Attribute,Map<String,MetaAttribute>,XMLId)/body";
+"hibernate-core_src_main_java_org_hibernate_cache_UpdateTimestampsCache.java/[CN]/UpdateTimestampsCache/[MT]/invalidate(Serializable[])/body";
+}
+subgraph cluster111 {
+"core_src_main_java_org_hibernate_loader_Loader.java/[CN]/Loader/[MT]/listUsingQueryCache(SessionImplementor,QueryParameters,Set,Type[])/body";
+"core_src_main_java_org_hibernate_loader_Loader.java/[CN]/Loader/[MT]/putResultInQueryCache(SessionImplementor,QueryParameters,Type[],QueryCache,QueryKey,List)/body";
+"core_src_main_java_org_hibernate_loader_Loader.java/[CN]/Loader/[MT]/getResultFromQueryCache(SessionImplementor,QueryParameters,Set,Type[],QueryCache,QueryKey)/body";
+}
+subgraph cluster355 {
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiPersistenceProvider.java/[CN]/OsgiPersistenceProvider/[MT]/createEntityManagerFactory(String,Map)/body";
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiPersistenceProvider.java/[CN]/OsgiPersistenceProvider/[MT]/createContainerEntityManagerFactory(PersistenceUnitInfo,Map)/body";
+}
+subgraph cluster404 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/writeObject(ObjectOutputStream)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_EntityManagerFactoryImpl.java/[CN]/EntityManagerFactoryImpl/[CS]/EntityManagerFactoryImpl(PersistenceUnitTransactionType,boolean,Class,Configuration,ServiceRegistry,String)/body";
+}
+subgraph cluster380 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_global_IdGeneratorBinder.java/[CN]/IdGeneratorBinder/[MT]/bindSequenceGenerator(MetadataImplementor,AnnotationInstance)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_global_IdGeneratorBinder.java/[CN]/IdGeneratorBinder/[MT]/bindTableGenerator(MetadataImplementor,AnnotationInstance)/body";
+}
+subgraph cluster278 {
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiServiceUtil.java/[CN]/OsgiServiceUtil/[MT]/getServiceImpl(Class<T>,BundleContext)/body";
+}
+subgraph cluster72 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_domain_HbmCollectionElementDomainState.java/[CN]/HbmCollectionElementDomainState/[MT]/getHibernateTypeDescriptor()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmSimpleValueRelationalStateContainer.java/[CN]/HbmSimpleValueRelationalStateContainer/[CS]/HbmSimpleValueRelationalStateContainer(MappingDefaults,boolean,XMLId)/body";
+"core_src_main_java_org_hibernate_event_PreDeleteEvent.java/[CN]/PreDeleteEvent/[CS]/PreDeleteEvent(Object,Serializable,Object[],EntityPersister,EventSource)/body";
+"envers_src_main_java_org_hibernate_envers_configuration_RevisionInfoConfiguration.java/[CN]/RevisionInfoConfiguration/[MT]/generateRevisionInfoRelationMapping()/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_StatefulPersistenceContext.java/[CN]/StatefulPersistenceContext/[MT]/deserialize(ObjectInputStream,SessionImplementor)/body";
+}
+subgraph cluster217 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted0/body";
+}
+subgraph cluster348 {
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/read()/body";
+"hibernate-envers_src_main_java_org_hibernate_envers_configuration_metadata_reader_AuditedPropertiesReader.java/[CN]/AuditedPropertiesReader/[MT]/checkSuperclass(XClass,XClass)/body";
+}
+subgraph cluster61 {
+"hibernate-core_src_main_java_org_hibernate_collection_internal_AbstractPersistentCollection.java/[CN]/AbstractPersistentCollection/[MT]/readSize()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_ConfiguredClass.java/[CN]/ConfiguredClass/[MT]/collectAttributes()/body";
+"hibernate-core_src_main_java_org_hibernate_collection_internal_AbstractPersistentCollection.java/[CN]/AbstractPersistentCollection/[MT]/readIndexExistence(Object)/body";
+}
+subgraph cluster343 {
+"hibernate-core_src_main_java_org_hibernate_event_internal_DefaultInitializeCollectionEventListener.java/[CN]/DefaultInitializeCollectionEventListener/[MT]/onInitializeCollection(InitializeCollectionEvent)/body";
+"hibernate-core_src_main_java_org_hibernate_event_internal_DefaultReplicateEventListener.java/[CN]/DefaultReplicateEventListener/[MT]/onReplicate(ReplicateEvent)/body";
+}
+subgraph cluster1 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_internal_EntityManagerImpl.java/[CN]/EntityManagerImpl/[CS]/EntityManagerImpl(EntityManagerFactoryImpl,PersistenceContextType,SynchronizationType,PersistenceUnitTransactionType,boolean,Class,Map)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_spi_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/postInit()/body";
+}
+subgraph cluster399 {
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiServiceUtil.java/[CN]/OsgiServiceUtil/[MT]/getServiceImpls(Class<T>,BundleContext)/parameters";
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiJtaPlatform.java/[CN]/OsgiJtaPlatform/[MT]/retrieveTransactionManager()/body";
+"hibernate-osgi_src_main_java_org_hibernate_osgi_OsgiJtaPlatform.java/[CN]/OsgiJtaPlatform/[MT]/retrieveUserTransaction()/body";
+}
+subgraph cluster330 {
+"core_src_main_java_org_hibernate_event_EventListeners.java/[CN]/EventListeners/[MT]/initializeListeners(Configuration)/body";
+"core_src_main_java_org_hibernate_event_EventListeners.java/[CN]/EventListeners/[MT]/processListeners(ListenerProcesser)/body";
+}
+subgraph cluster231 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/rendered().conflicted0/body";
+}
+subgraph cluster492 {
+"hibernate-core_src_main_java_org_hibernate_internal_util_xml_XMLHelper.java/[CN]/XMLHelper/[MT]/getDocumentFactory()/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_predicate_ComparisonPredicate.java/[CN]/ComparisonPredicate/[MT]/negated().conflicted1/body";
+}
+subgraph cluster287 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_EntityBinder.java/[CN]/EntityBinder/[MT]/bindSingleIdAnnotation(EntityBinding)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_EntityBinder.java/[CN]/EntityBinder/[CN]/AnnotationSimpleAttributeDomainState/[MT]/getPropertyGeneration()/body";
+}
+subgraph cluster169 {
+"hibernate-core_src_main_java_org_hibernate_engine_internal_Cascade.java/[CN]/Cascade/[MT]/cascadeCollectionElements(Object,Object,CollectionType,CascadeStyle,Type,Object,boolean)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_internal_Cascade.java/[CN]/Cascade/[MT]/cascade(EntityPersister,Object,Object)/body";
+}
+subgraph cluster307 {
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_java_CalendarTimeTypeDescriptor.java/[CN]/CalendarTimeTypeDescriptor/[MT]/wrap(X,WrapperOptions)/body";
+"hibernate-core_src_main_java_org_hibernate_type_descriptor_java_JdbcDateTypeDescriptor.java/[CN]/JdbcDateTypeDescriptor/[MT]/wrap(X,WrapperOptions)/body";
+}
+subgraph cluster357 {
+"core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[MT]/setIdentifier(Serializable)/body";
+"core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[MT]/getProxyOrNull()/body";
+}
+subgraph cluster501 {
+"hibernate-core_src_main_java_org_hibernate_hql_internal_ast_util_LiteralProcessor.java/[CN]/LiteralProcessor/[MT]/getFormatter().conflicted1/body";
+"hibernate-core_src_main_java_org_hibernate_hql_internal_ast_util_LiteralProcessor.java/[CN]/LiteralProcessor/[MT]/getFormatter().conflicted0/body";
+}
+subgraph cluster353 {
+"hibernate-core_src_main_java_org_hibernate_type_EnumType.java/[CN]/EnumType/[MT]/nullSafeSet(PreparedStatement,Object,int,SessionImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_type_EnumType.java/[CN]/EnumType/[MT]/nullSafeGet(ResultSet,String[],SessionImplementor,Object)/body";
+}
+subgraph cluster449 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/tryGettingExistingEntityFromContext(AnnotationMirror,String)/body";
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/addMetaEntityToContext(AnnotationMirror,AnnotationMetaEntity)/body";
+}
+subgraph cluster254 {
+"hibernate-core_src_main_java_org_hibernate_id_IdentityGenerator.java/[CN]/IdentityGenerator/[CN]/InsertSelectDelegate/[MT]/executeAndExtract(PreparedStatement)/body";
+"hibernate-core_src_main_java_org_hibernate_id_SequenceIdentityGenerator.java/[CN]/SequenceIdentityGenerator/[CN]/Delegate/[MT]/executeAndExtract(PreparedStatement)/body";
+}
+subgraph cluster288 {
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/convert(HibernateException,LockOptions)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_ejb_AbstractEntityManagerImpl.java/[CN]/AbstractEntityManagerImpl/[MT]/wrapLockException(HibernateException,LockOptions)/body";
+}
+subgraph cluster32 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted5/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_criteria_expression_BinaryArithmeticOperation.java/[CN]/BinaryArithmeticOperation/[MT]/apply(String,String).conflicted1/body";
+}
+subgraph cluster322 {
+"hibernate-core_src_main_java_org_hibernate_persister_entity_SingleTableEntityPersister.java/[CN]/SingleTableEntityPersister/[CS]/SingleTableEntityPersister(EntityBinding,EntityRegionAccessStrategy,SessionFactoryImplementor,Mapping)/body";
+"hibernate-core_src_main_java_org_hibernate_persister_entity_AbstractEntityPersister.java/[CN]/AbstractEntityPersister/[CS]/AbstractEntityPersister(EntityBinding,EntityRegionAccessStrategy,SessionFactoryImplementor)/body";
+}
+subgraph cluster127 {
+"hibernate-core_src_main_java_org_hibernate_persister_collection_AbstractCollectionPersister.java/[CN]/AbstractCollectionPersister/[MT]/getElementByIndex(Serializable,Object,SessionImplementor,Object)/body";
+"hibernate-core_src_main_java_org_hibernate_persister_collection_AbstractCollectionPersister.java/[CN]/AbstractCollectionPersister/[MT]/getSize(Serializable,SessionImplementor)/body";
+}
+subgraph cluster103 {
+"tooling_metamodel-generator_src_main_java_org_hibernate_jpamodelgen_JPAMetaModelEntityProcessor.java/[CN]/JPAMetaModelEntityProcessor/[MT]/parseXml(String,Class<T>,String)/body";
+}
+subgraph cluster485 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_PooledConnections.java/[CN]/PooledConnections/[MT]/add(Connection)/body";
+}
+subgraph cluster440 {
+"hibernate-core_src_main_java_org_hibernate_engine_spi_BatchFetchQueue.java/[CN]/BatchFetchQueue/[MT]/getCollectionBatch(CollectionPersister,Serializable,int)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_spi_BatchFetchQueue.java/[CN]/BatchFetchQueue/[MT]/getEntityBatch(EntityPersister,Serializable,int,EntityMode)/body";
+}
+subgraph cluster400 {
+"hibernate-core_src_main_java_org_hibernate_cfg_BinderHelper.java/[CN]/BinderHelper/[MT]/shallowCopy(Property)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_HbmBinder.java/[CN]/HbmBinder/[MT]/createClassProperties(Element,PersistentClass,Mappings,java.util.Map,UniqueKey,boolean,boolean,boolean)/body";
+}
+subgraph cluster102 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_ConnectionProviderInitiator.java/[CN]/ConnectionProviderInitiator/[MT]/initiateService(Map,ServiceRegistryImplementor)/body";
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_ConnectionProviderInitiator.java/[CN]/ConnectionProviderInitiator/[MT]/getConnectionProperties(Map<?,?>)/body";
+}
+subgraph cluster94 {
+"hibernate-core_src_main_java_org_hibernate_tool_schema_internal_SchemaDropperImpl.java/[CN]/SchemaDropperImpl/[MT]/doDrop(Metadata,ServiceRegistry,Map,boolean,GenerationTarget)/body";
+"hibernate-core_src_main_java_org_hibernate_tool_schema_internal_SchemaDropperImpl.java/[CN]/SchemaDropperImpl/[CN]/DelayedDropActionImpl/[MT]/perform(ServiceRegistry)/body";
+}
+subgraph cluster435 {
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_HibernatePersistenceProvider.java/[CN]/HibernatePersistenceProvider/[MT]/createEntityManagerFactory(String,Map)/body";
+"hibernate-entitymanager_src_main_java_org_hibernate_jpa_HibernatePersistenceProvider.java/[CN]/HibernatePersistenceProvider/[MT]/createContainerEntityManagerFactory(PersistenceUnitInfo,Map)/body";
+}
+subgraph cluster375 {
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_JoinImpl.java/[CN]/JoinImpl/[CS]/JoinImpl(CriteriaBuilderImpl,Class<X>,PathImpl<Z>,Attribute<? super Z,?>,JoinType)/body";
+"entitymanager_src_main_java_org_hibernate_ejb_criteria_JoinImpl.java/[CN]/JoinImpl/[MT]/getManagedType()/body";
+}
+subgraph cluster178 {
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[MT]/buildUniqueKeyFromColumnNames(Table,String,String[],String[],boolean)/body";
+"hibernate-core_src_main_java_org_hibernate_cfg_Configuration.java/[CN]/Configuration/[MT]/secondPassCompile()/body";
+}
+subgraph cluster198 {
+"hibernate-core_src_main_java_org_hibernate_type_AbstractStandardBasicType.java/[CN]/AbstractStandardBasicType/[MT]/extract(CallableStatement,int,SessionImplementor)/body";
+}
+subgraph cluster58 {
+"hibernate-core_src_main_java_org_hibernate_boot_registry_classloading_internal_ClassLoaderServiceImpl.java/[CN]/ClassLoaderServiceImpl/[MT]/stop()/body";
+"hibernate-core_src_main_java_org_hibernate_boot_registry_classloading_internal_ClassLoaderServiceImpl.java/[CN]/ClassLoaderServiceImpl/[MT]/loadJavaServices(Class<S>)/body";
+}
+subgraph cluster490 {
+"hibernate-core_src_main_java_org_hibernate_engine_jdbc_connections_internal_DriverManagerConnectionProviderImpl.java/[CN]/DriverManagerConnectionProviderImpl/[MT]/closeConnection(Connection)/body";
+"core_src_main_java_org_hibernate_dialect_HSQLDialect.java/[CN]/HSQLDialect/[CS]/HSQLDialect()/body";
+}
+subgraph cluster363 {
+"hibernate-c3p0_src_main_java_org_hibernate_service_jdbc_connections_internal_C3P0ConnectionProvider.java/[CN]/C3P0ConnectionProvider/[MT]/isUnwrappableAs(Class)/parameters";
+"hibernate-c3p0_src_main_java_org_hibernate_service_jdbc_connections_internal_C3P0ConnectionProvider.java/[CN]/C3P0ConnectionProvider/[MT]/unwrap(Class<T>)/body";
+}
+subgraph cluster164 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_state_relational_HbmSimpleValueRelationalStateContainer.java/[CN]/HbmSimpleValueRelationalStateContainer/[CS]/HbmSimpleValueRelationalStateContainer(MappingDefaults,boolean,XMLProperty)/body";
+}
+subgraph cluster269 {
+"hibernate-core_src_main_java_org_hibernate_loader_criteria_CriteriaQueryTranslator.java/[CN]/CriteriaQueryTranslator/[MT]/getPropertyMapping(String)/body";
+"hibernate-core_src_main_java_org_hibernate_collection_internal_AbstractPersistentCollection.java/[CN]/AbstractPersistentCollection/[MT]/initialize(boolean)/body";
+}
+subgraph cluster336 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_HbmBinder.java/[CN]/HbmBinder/[MT]/processHibernateMapping()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_hbm_HbmBinder.java/[CN]/HbmBinder/[MT]/bindFetchProfiles(List<XMLFetchProfileElement>,String)/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_global_TypeDefBinder.java/[CN]/TypeDefBinder/[MT]/bind(String,String,Map<String,String>,MetadataImpl)/body";
+}
+subgraph cluster193 {
+"hibernate-core_src_main_java_org_hibernate_collection_internal_AbstractPersistentCollection.java/[CN]/AbstractPersistentCollection/[MT]/prepareForPossibleLoadingOutsideTransaction()/body";
+"hibernate-core_src_main_java_org_hibernate_proxy_AbstractLazyInitializer.java/[CN]/AbstractLazyInitializer/[MT]/prepareForPossibleLoadingOutsideTransaction()/body";
+}
+subgraph cluster134 {
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_entity_RootEntitySourceImpl.java/[CN]/RootEntitySourceImpl/[MT]/getIdentifierSource()/body";
+"hibernate-core_src_main_java_org_hibernate_metamodel_source_annotations_attribute_SingularAttributeSourceImpl.java/[CN]/SingularAttributeSourceImpl/[CS]/SingularAttributeSourceImpl(BasicAttribute)/body";
+}
+subgraph cluster4 {
+"tooling_hibernate-enhance-maven-plugin_src_main_java_org_hibernate_orm_tooling_maven_MavenEnhancePlugin.java/[CN]/MavenEnhancePlugin/[MT]/shouldApply()/body";
+"tooling_hibernate-enhance-maven-plugin_src_main_java_org_hibernate_orm_tooling_maven_MavenEnhancePlugin.java/[CN]/MavenEnhancePlugin/[MT]/execute()/body";
+}
+}

@@ -1,0 +1,1754 @@
+
+
+
+digraph {
+subgraph cluster279 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/nullable(boolean)/body";
+}
+subgraph cluster285 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateRelations(SchemaDefinition)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_firebird_rdb_tables_Rdb$refConstraints.java/[CN]/Rdb$refConstraints/[CS]/Rdb$refConstraints(java.lang.String)/body";
+}
+subgraph cluster161 {
+"jOOQ-console_src_main_java_org_jooq_debug_console_StatementMatchersDialogBox.java/[CN]/StatementMatchersDialogBox/[CS]/StatementMatchersDialogBox(Component,Debugger)/body";
+"jOOQ-console_src_main_java_org_jooq_debug_console_StatementMatchersPane.java/[CN]/StatementMatchersPane/[CS]/StatementMatchersPane(StatementMatcher[])/body";
+}
+subgraph cluster341 {
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[CN]/MetaSchema/[MT]/getColumns0(String,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/rollback()/body";
+"jOOQ-website_src_main_java_Transform.java/[CN]/Transform/[MT]/multiplePages()/body";
+}
+subgraph cluster477 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notBetweenSymmetric(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row9<T1,T2,T3,T4,T5,T6,T7,T8,T9>)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_sqlserver_SQLServerTableDefinition.java/[CN]/SQLServerTableDefinition/[MT]/getElements0()/body";
+}
+subgraph cluster262 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row5<T1,T2,T3,T4,T5>)/body";
+}
+subgraph cluster463 {
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/executeImmediateBegin(Context<?>,DDLStatementType)/body";
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/executeImmediateEnd(Context<?>,DDLStatementType)/body";
+}
+subgraph cluster357 {
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/setReturningIfNeeded(StoreQuery<R>)/body";
+}
+subgraph cluster473 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/setSyntheticIdentities(String[])/body";
+}
+subgraph cluster69 {
+"jOOQ_src_main_java_org_jooq_impl_DAOImpl.java/[CN]/DAOImpl/[MT]/findAll()/body";
+}
+subgraph cluster40 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultIdentityDefinition.java/[CN]/DefaultIdentityDefinition/[MT]/getColumn()/parameters";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row11<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11>)/body";
+}
+subgraph cluster478 {
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/notIn(Select)/body";
+"jOOQ_src_main_java_org_jooq_impl_Executor.java/[CN]/Executor/[MT]/fetchOne(ResultSet,DataType<?>)/body";
+}
+subgraph cluster408 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateRecord(TableDefinition)/body";
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/set(Field<T>,Select<? extends Record1<T>>)/body";
+}
+subgraph cluster260 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractTable.java/[CN]/AbstractTable/[MT]/equals(Object)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableFieldImpl.java/[CN]/TableFieldImpl/[MT]/equals(Object)/body";
+}
+subgraph cluster382 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[CS]/DefaultConfiguration()/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/addValue(StoreQuery<?>,Field<T>,Object)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/currentUser()/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/getValues(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/derive(Settings)/body";
+"jOOQ_src_main_java_org_jooq_impl_SchemaImpl.java/[CN]/SchemaImpl/[MT]/equals(Object)/body";
+}
+subgraph cluster400 {
+"jOOQ_src_main_java_org_jooq_impl_SQLTable.java/[CN]/SQLTable/[MT]/bind(BindContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_SQLField.java/[CN]/SQLField/[MT]/bind(BindContext)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_derby_DerbyDatabase.java/[CN]/DerbyDatabase/[MT]/loadForeignKeys(DefaultRelations)/body";
+"jOOQ_src_main_java_org_jooq_impl_BetweenCondition.java/[CN]/BetweenCondition/[MT]/toSQL(RenderContext)/body";
+}
+subgraph cluster418 {
+"jOOQ_src_main_java_org_jooq_impl_Prior.java/package";
+"jOOQ_src_main_java_org_jooq_impl_Substring.java/[CN]/Substring/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster462 {
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/info(Object,Object)/body";
+}
+subgraph cluster489 {
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/getAttachables()/body";
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[CS]/MergeImpl(Configuration,Table<R>)/body";
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/bind(BindContext)/body";
+}
+subgraph cluster152 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoGroups(Field<K>,Field<V>)/body";
+}
+subgraph cluster146 {
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryAsField.java/[CN]/SelectQueryAsField/[MT]/toSQL(RenderContext)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultForeignKeyDefinition.java/[CN]/DefaultForeignKeyDefinition/[MT]/getDefinitionPath()/body";
+}
+subgraph cluster274 {
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printSingletonReference(GenerationWriter,Definition)/body";
+"jOOQ_src_main_java_org_jooq_impl_CreateIndexImpl.java/[CN]/CreateIndexImpl/[MT]/on(String,String)/body";
+}
+subgraph cluster430 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/shr(Field<? extends Number>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/shl(Number)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/shr(Number)/body";
+}
+subgraph cluster49 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generate(SchemaDefinition)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultBindContext.java/[CN]/DefaultBindContext/[MT]/bindValue0(Object,Class<?>)/body";
+}
+subgraph cluster45 {
+"jOOQ-meta_src_main_java_org_jooq_util_sybase_SybaseDatabase.java/[CN]/SybaseDatabase/[MT]/loadForeignKeys(DefaultRelations)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row4<T1,T2,T3,T4>)/body";
+}
+subgraph cluster124 {
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/toSQLH2(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/toSQLStandard(RenderContext)/body";
+}
+subgraph cluster259 {
+"jOOQ_src_main_java_org_jooq_impl_UpdateImpl.java/[CN]/UpdateImpl/[MT]/set(Field<T>,Select<? extends Record1<T>>)/body";
+}
+subgraph cluster402 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/listAgg(Field<?>,String)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/listAgg(Field<?>,String)/body";
+}
+subgraph cluster194 {
+"jOOQ_src_main_java_org_jooq_impl_PackageImpl.java/[CN]/PackageImpl/[MT]/equals(Object)/body";
+"jOOQ_src_main_java_org_jooq_impl_ParameterImpl.java/[CN]/ParameterImpl/[MT]/equals(Object)/body";
+"jOOQ_src_main_java_org_jooq_impl_NameImpl.java/[CN]/NameImpl/[MT]/equals(Object)/body";
+}
+subgraph cluster299 {
+"jOOQ_src_main_java_org_jooq_impl_BatchCRUD.java/[CN]/BatchCRUD/[MT]/executePrepared()/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/scale(int)/body";
+}
+subgraph cluster273 {
+"jOOQ_src_main_java_org_jooq_impl_CreateViewImpl.java/[CN]/CreateViewImpl/[MT]/accept(Context<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createView(Table<?>,Field<?>)/body";
+}
+subgraph cluster150 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultEnumDefinition.java/[CN]/DefaultEnumDefinition/[MT]/getDefinitionPath()/body";
+}
+subgraph cluster4 {
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/lessThan(Select)/body";
+}
+subgraph cluster78 {
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryImpl.java/[CN]/SelectQueryImpl/[MT]/addJoinOnKey(TableLike<?>,JoinType,TableField<?,?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryImpl.java/[CN]/SelectQueryImpl/[MT]/addJoinUsing(TableLike<?>,JoinType,Collection<? extends Field<?>>)/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryImpl.java/[CN]/SelectQueryImpl/[MT]/addJoinOnKey(TableLike<?>,JoinType,ForeignKey<?,?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryImpl.java/[CN]/SelectQueryImpl/[MT]/addJoinOnKey(TableLike<?>,JoinType)/body";
+}
+subgraph cluster244 {
+"jOOQ-codegen_src_main_java_org_jooq_util_MatcherStrategy.java/[CN]/MatcherStrategy/[MT]/getJavaMemberName(Definition,Mode)/body";
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/toSQLInsert(RenderContext)/body";
+}
+subgraph cluster160 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractTable.java/[CN]/AbstractTable/[MT]/rightOuterJoin(TableLike<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/addRecordVersion(StoreQuery<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/isTimestampOrVersionAvailable()/parameters";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoGroups(int)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(Field<K>)/body";
+"jOOQ_src_main_java_org_jooq_impl_SQLCondition.java/[CN]/SQLCondition/[MT]/bind(BindContext)/body";
+}
+subgraph cluster281 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultIdentityDefinition.java/[CN]/DefaultIdentityDefinition/[MT]/getDefinitionPath()/parameters";
+"jOOQ-codegen_src_main_java_org_jooq_util_MatcherStrategy.java/[CN]/MatcherStrategy/[MT]/getJavaSetterName(Definition,Mode)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateUDTPojo(UDTDefinition)/body";
+}
+subgraph cluster165 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row2<T1,T2>)/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadCSV(File,Charset)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notLike(Field<String>)/body";
+}
+subgraph cluster303 {
+"jOOQ_src_main_java_org_jooq_impl_ClobBinding.java/[CN]/ClobBinding/[MT]/set(BindingSetStatementContext<String>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ClobBinding.java/[CN]/ClobBinding/[MT]/get(BindingGetStatementContext<String>)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateSchema(SchemaDefinition,JavaWriter)/body";
+}
+subgraph cluster216 {
+"jOOQ_src_main_java_org_jooq_impl_Repeat.java/[CN]/Repeat/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_Rpad.java/[CN]/Rpad/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster483 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/getDataType(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_Val.java/[CN]/Val/[MT]/toSQLCast(RenderContext,DataType<?>,int,int,int)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/precision(int)/body";
+}
+subgraph cluster506 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultExecuteListenerProvider.java/[CN]/DefaultExecuteListenerProvider/[MT]/toString()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitNand(Field<T>)/body";
+}
+subgraph cluster294 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notEqual(Select<? extends Record1<T>>)/body";
+}
+subgraph cluster365 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generatePackage(SchemaDefinition,PackageDefinition)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_AbstractGenerator.java/[CN]/AbstractGenerator/[MT]/generateGlobalSequenceReferences()/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateSchema(SchemaDefinition)/body";
+}
+subgraph cluster180 {
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/addColumn(String,DataType<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/dropColumn(String)/body";
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/alterColumn(String)/body";
+}
+subgraph cluster338 {
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryAsTable.java/[CN]/SelectQueryAsTable/[MT]/toSQL(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryAsSubQueryCondition.java/[CN]/SelectQueryAsSubQueryCondition/[MT]/toSQL(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryAsExistsCondition.java/[CN]/SelectQueryAsExistsCondition/[MT]/toSQL(RenderContext)/body";
+}
+subgraph cluster498 {
+"jOOQ_src_main_java_org_jooq_impl_Prior.java/[CN]/Prior/[CS]/Prior(Field<T>)/body";
+}
+subgraph cluster369 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/sql(String)/body";
+}
+subgraph cluster494 {
+"jOOQ-codegen_src_main_java_org_jooq_util_GeneratorStrategyWrapper.java/[CN]/GeneratorStrategyWrapper/[MT]/getJavaPackageName(Definition,Mode)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_GeneratorStrategyWrapper.java/[CN]/GeneratorStrategyWrapper/[MT]/getJavaIdentifier(Definition)/body";
+}
+subgraph cluster363 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row16<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitNand(T)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/dropTable(String)/body";
+}
+subgraph cluster499 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[CS]/DefaultConfiguration(ConnectionProvider,ExecuteListenerProvider[],SQLDialect,Settings,Map<Object,Object>)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_firebird_rdb_tables_Rdb$generators.java/[CN]/Rdb$generators/[CS]/Rdb$generators()/body";
+}
+subgraph cluster212 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/unnest(List<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/unnest(Object[])/body";
+}
+subgraph cluster320 {
+"jOOQ-meta_src_main_java_org_jooq_util_postgres_PostgresTableDefinition.java/[CN]/PostgresTableDefinition/[MT]/getElements0()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/betweenSymmetric(Field<T>)/body";
+}
+subgraph cluster336 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractTableDefinition.java/[CN]/AbstractTableDefinition/[MT]/getIdentity()/body";
+"jOOQ-console_src_main_java_org_jooq_debug_console_remote_messaging_MessagingInterface.java/[CN]/MessagingInterface/[CN]/MessageProcessingThread/[CS]/MessageProcessingThread(long)/body";
+}
+subgraph cluster366 {
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/notEqual(Select)/body";
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/in(Select)/body";
+}
+subgraph cluster460 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/formatSeparator()/body";
+}
+subgraph cluster426 {
+"jOOQ-website_src_main_java_Transform.java/[CN]/Transform/[MT]/singlePage()/body";
+"jOOQ-website_src_main_java_Transform.java/[CN]/Transform/[MT]/pdf()/body";
+}
+subgraph cluster243 {
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGeneratorStrategy.java/[CN]/DefaultGeneratorStrategy/[MT]/getJavaPackageName(Definition,Mode)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGeneratorStrategy.java/[CN]/DefaultGeneratorStrategy/[MT]/getJavaIdentifier(Definition)/body";
+}
+subgraph cluster170 {
+"jOOQ-meta_src_main_java_org_jooq_util_hsqldb_HSQLDBTableDefinition.java/[CN]/HSQLDBTableDefinition/[MT]/getElements0()/body";
+"jOOQ-meta_src_main_java_org_jooq_util_postgres_PostgresMaterializedViewDefinition.java/[CN]/PostgresMaterializedViewDefinition/[MT]/getElements0()/body";
+"jOOQ_src_main_java_org_jooq_impl_Atan.java/[CN]/Atan/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/addRecordVersion(StoreQuery<?>)/parameters";
+}
+subgraph cluster153 {
+"jOOQ_src_main_java_org_jooq_impl_Tanh.java/[CN]/Tanh/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitNot()/body";
+}
+subgraph cluster425 {
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/onDuplicateKeyIgnore(boolean)/body";
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/onDuplicateKeyUpdate(boolean)/body";
+}
+subgraph cluster254 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printForeignKey(JavaWriter,int,ForeignKeyDefinition)/body";
+"jOOQ_src_main_java_org_jooq_impl_Position.java/[CN]/Position/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_ThreadLocalTransactionProvider.java/[CN]/ThreadLocalTransactionProvider/[MT]/begin(TransactionContext)/body";
+}
+subgraph cluster213 {
+"jOOQ-meta_src_main_java_org_jooq_util_firebird_rdb_tables_Rdb$indexSegments.java/[CN]/Rdb$indexSegments/[CS]/Rdb$indexSegments(java.lang.String)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_firebird_rdb_tables_Rdb$generators.java/[CN]/Rdb$generators/[CS]/Rdb$generators(java.lang.String)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_firebird_rdb_tables_Rdb$relationFields.java/[CN]/Rdb$relationFields/[CS]/Rdb$relationFields(java.lang.String)/body";
+}
+subgraph cluster490 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/createParameter(String,DataType<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/createParameter(String,DataType<T>,boolean)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[CS]/AbstractRoutine(String,Schema,Package,DataType<T>)/body";
+}
+subgraph cluster144 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultDataTypeDefinition.java/[CN]/DefaultDataTypeDefinition/[CS]/DefaultDataTypeDefinition(Database,SchemaDefinition,String,Number,Number,Number,Boolean,Boolean,String,String)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractTypedElementDefinition.java/[CN]/AbstractTypedElementDefinition/[MT]/mapDefinedType(Definition,Definition,DataTypeDefinition)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultDataTypeDefinition.java/[CN]/DefaultDataTypeDefinition/[CS]/DefaultDataTypeDefinition(Database,SchemaDefinition,String,Number,Number,Number,Boolean,Boolean,String)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultDataTypeDefinition.java/[CN]/DefaultDataTypeDefinition/[CS]/DefaultDataTypeDefinition(Database,SchemaDefinition,String,Number,Number,Number,Boolean,Boolean,String,String)/parameters";
+}
+subgraph cluster316 {
+"jOOQ_src_main_java_org_jooq_impl_SQLResultQuery.java/[CN]/SQLResultQuery/[MT]/clauses(Context<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_SQLQuery.java/[CN]/SQLQuery/[MT]/clauses(Context<?>)/body";
+}
+subgraph cluster476 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractResultQuery.java/[CN]/AbstractResultQuery/[MT]/fetchArray(int,Class<? extends T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractResultQuery.java/[CN]/AbstractResultQuery/[MT]/fetchArray(String,Class<? extends T>)/body";
+}
+subgraph cluster377 {
+"jOOQ_src_main_java_org_jooq_impl_BatchStore.java/[CN]/BatchStore/[MT]/executeStatic()/body";
+"jOOQ_src_main_java_org_jooq_impl_BatchStore.java/[CN]/BatchStore/[MT]/executePrepared()/body";
+}
+subgraph cluster54 {
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/globalThreshold(Level)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notBetween(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_CreateTableImpl.java/[CN]/CreateTableImpl/[MT]/accept(Context<?>)/body";
+}
+subgraph cluster23 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/readObject(ObjectInputStream)/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadCSV(File,String)/body";
+}
+subgraph cluster122 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/setHoldability(int)/body";
+"jOOQ_src_main_java_org_jooq_impl_Function.java/[CN]/Function/[MT]/toSQLStringAgg(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/setAutoCommit(boolean)/body";
+}
+subgraph cluster210 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/dropView(String)/body";
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/drop(String)/body";
+}
+subgraph cluster313 {
+"jOOQ_src_main_java_org_jooq_impl_InformationSchemaExport.java/[CN]/InformationSchemaExport/[MT]/exportTables(Configuration,List<Table<?>>)/body";
+"jOOQ_src_main_java_org_jooq_impl_InformationSchemaExport.java/[CN]/InformationSchemaExport/[MT]/exportSchemas(Configuration,List<Schema>)/body";
+}
+subgraph cluster406 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/precision(int,int)/body";
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/alter(String)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/dropSequence(String)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateDao(TableDefinition)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_MatcherStrategy.java/[CN]/MatcherStrategy/[MT]/getJavaClassName(Definition,Mode)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGeneratorStrategy.java/[CN]/DefaultGeneratorStrategy/[MT]/getJavaClassName0(Definition,Mode)/body";
+}
+subgraph cluster182 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(OutputStream,char,String)/body";
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayPrepend(Field<T>,Field<T[]>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/rollback(Savepoint)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_derby_DerbyTableDefinition.java/[CN]/DerbyTableDefinition/[MT]/getElements0()/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getRelations0()/body";
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/lessOrEqual(Select)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_oracle_OracleTableDefinition.java/[CN]/OracleTableDefinition/[MT]/getElements0()/body";
+}
+subgraph cluster64 {
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryImpl.java/[CN]/SelectQueryImpl/[MT]/addLimit(int)/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryImpl.java/[CN]/SelectQueryImpl/[MT]/addLimit(Param<Integer>)/body";
+}
+subgraph cluster372 {
+"jOOQ_src_main_java_org_jooq_impl_RowInCondition.java/[CN]/RowInCondition/[MT]/delegate(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_RowIsNull.java/[CN]/RowIsNull/[MT]/delegate(Configuration)/body";
+}
+subgraph cluster415 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[CS]/DefaultDataType(SQLDialect,Class<T>,String,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_Asin.java/[CN]/Asin/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster217 {
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/fields(Field<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DAOImpl.java/[CN]/DAOImpl/[MT]/pk()/body";
+}
+subgraph cluster73 {
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[CN]/MetaPrimaryKey/[MT]/getReferences()/body";
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[CN]/MetaTable/[MT]/getReferences()/body";
+}
+subgraph cluster355 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notLikeIgnoreCase(Field<String>)/body";
+}
+subgraph cluster461 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayRemove(Field<T[]>,T)/body";
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayReplace(Field<T[]>,Field<T>,Field<T>)/body";
+}
+subgraph cluster271 {
+"jOOQ_src_main_java_org_jooq_impl_PackageImpl.java/[CN]/PackageImpl/[MT]/hashCode()/body";
+"jOOQ_src_main_java_org_jooq_impl_ParameterImpl.java/[CN]/ParameterImpl/[MT]/hashCode()/body";
+}
+subgraph cluster231 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractResultQuery.java/[CN]/AbstractResultQuery/[MT]/keepResultSet()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractResultQuery.java/[CN]/AbstractResultQuery/[MT]/prepare(ExecuteContext)/body";
+}
+subgraph cluster94 {
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[CN]/MetaSchema/[MT]/getTables()/body";
+}
+subgraph cluster48 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultIdentityDefinition.java/[CN]/DefaultIdentityDefinition/[CS]/DefaultIdentityDefinition(ColumnDefinition)/body";
+}
+subgraph cluster34 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultIdentityDefinition.java/[CN]/DefaultIdentityDefinition/[MT]/getDefinitionPath()/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/setTransactionIsolation(int)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/greaterThan(Field<T>)/body";
+"jOOQ-meta-extensions_src_main_java_org_jooq_util_jpa_JPADatabase.java/[CN]/JPADatabase/[FE]/log";
+}
+subgraph cluster191 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row3<T1,T2,T3>)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_GenerationTool.java/[CN]/GenerationTool/[MT]/databaseClass(String)/body";
+}
+subgraph cluster130 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notLikeIgnoreCase(Field<String>,char)/parameters";
+}
+subgraph cluster245 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultRelations.java/[CN]/DefaultRelations/[MT]/overridePrimaryKey(UniqueKeyDefinition)/body";
+}
+subgraph cluster410 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(int,RecordMapper<? super R,E>)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultIdentityDefinition.java/[CN]/DefaultIdentityDefinition/[FE]/column";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateTable(SchemaDefinition,TableDefinition)/body";
+}
+subgraph cluster287 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row14<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ClobBinding.java/[CN]/ClobBinding/[MT]/set(BindingSetSQLOutputContext<String>)/body";
+}
+subgraph cluster275 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultTransactionProvider.java/[CN]/DefaultTransactionProvider/[MT]/rollback(TransactionContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultTransactionProvider.java/[CN]/DefaultTransactionProvider/[MT]/commit(TransactionContext)/body";
+}
+subgraph cluster317 {
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[MT]/getTables()/body";
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[MT]/getSchemas()/body";
+}
+subgraph cluster447 {
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/selectReturning(Configuration,Object)/body";
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/selectReturning(Configuration,Object)/parameters";
+}
+subgraph cluster236 {
+"jOOQ_src_main_java_org_jooq_impl_BatchCRUD.java/[CN]/BatchCRUD/[MT]/execute()/body";
+"jOOQ_src_main_java_org_jooq_impl_BatchSingle.java/[CN]/BatchSingle/[MT]/execute()/body";
+}
+subgraph cluster199 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(Writer,boolean,char,String)/body";
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/debug(Object,Object,Throwable)/body";
+}
+subgraph cluster485 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/sql(char)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/sql(String,boolean)/body";
+}
+subgraph cluster301 {
+"jOOQ-meta_src_main_java_org_jooq_util_sybase_SybaseDatabase.java/[CN]/SybaseDatabase/[MT]/loadUniqueKeys(DefaultRelations)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_sybase_SybaseDatabase.java/[CN]/SybaseDatabase/[MT]/loadPrimaryKeys(DefaultRelations)/body";
+}
+subgraph cluster7 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultBinding.java/[CN]/DefaultBinding/[MT]/get(BindingGetStatementContext<U>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultBinding.java/[CN]/DefaultBinding/[MT]/get(BindingGetResultSetContext<U>)/body";
+}
+subgraph cluster364 {
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/error(Object,Object,Throwable)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_ase_ASEDatabase.java/[CN]/ASEDatabase/[MT]/loadForeignKeys(DefaultRelations)/body";
+}
+subgraph cluster390 {
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/accept0(Context<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/to(Name)/body";
+}
+subgraph cluster345 {
+"jOOQ_src_main_java_org_jooq_impl_UDTRecordImpl.java/[CN]/UDTRecordImpl/[MT]/valuesRow()/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/valuesRow()/body";
+}
+subgraph cluster90 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultBinding.java/[CN]/DefaultBinding/[MT]/getTime(SQLDialect,ResultSet,int)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultBinding.java/[CN]/DefaultBinding/[MT]/getTimestamp(SQLDialect,ResultSet,int)/body";
+}
+subgraph cluster186 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatHTML()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractQuery.java/[CN]/AbstractQuery/[MT]/execute()/body";
+}
+subgraph cluster422 {
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/addValue(StoreQuery<?>,Field<T>,Object)/body";
+}
+subgraph cluster163 {
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/in(Collection)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/defaulted()/body";
+}
+subgraph cluster373 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/isDistinctFrom(Field<T>)/body";
+}
+subgraph cluster19 {
+"jOOQ_src_main_java_org_jooq_impl_DAOImpl.java/[CN]/DAOImpl/[MT]/findById(T)/body";
+"jOOQ_src_main_java_org_jooq_impl_DAOImpl.java/[CN]/DAOImpl/[MT]/fetchOne(Field<Z>,Z)/body";
+}
+subgraph cluster282 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultExecuteContext.java/[CN]/DefaultExecuteContext/[CS]/DefaultExecuteContext(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultExecuteContext.java/[CN]/DefaultExecuteContext/[CS]/DefaultExecuteContext(Configuration,Routine<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultExecuteContext.java/[CN]/DefaultExecuteContext/[CS]/DefaultExecuteContext(Configuration,Query)/body";
+}
+subgraph cluster439 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultExecuteContext.java/[CN]/DefaultExecuteContext/[MT]/exception(RuntimeException)/body";
+}
+subgraph cluster503 {
+"jOOQ-meta_src_main_java_org_jooq_util_db2_DB2Database.java/[CN]/DB2Database/[MT]/loadForeignKeys(DefaultRelations)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_postgres_PostgresDatabase.java/[CN]/PostgresDatabase/[MT]/loadForeignKeys(DefaultRelations)/body";
+}
+subgraph cluster427 {
+"jOOQ_src_main_java_org_jooq_impl_SelectImpl.java/[CN]/SelectImpl/[MT]/onKey()/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectImpl.java/[CN]/SelectImpl/[MT]/onKey(TableField<?,?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectImpl.java/[CN]/SelectImpl/[MT]/onKey(ForeignKey<?,?>)/body";
+}
+subgraph cluster328 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatJSON(Writer)/body";
+}
+subgraph cluster177 {
+"jOOQ-codegen_src_main_java_org_jooq_util_AbstractGenerator.java/[CN]/AbstractGenerator/[MT]/generateGlobalUDTReferences()/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_AbstractGenerator.java/[CN]/AbstractGenerator/[MT]/generateGlobalRoutineReferences()/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_AbstractGenerator.java/[CN]/AbstractGenerator/[MT]/generateGlobalTableReferences()/body";
+}
+subgraph cluster115 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultParameterDefinition.java/[CN]/DefaultParameterDefinition/[CS]/DefaultParameterDefinition(RoutineDefinition,String,int,DataTypeDefinition,boolean)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultParameterDefinition.java/[CN]/DefaultParameterDefinition/[CS]/DefaultParameterDefinition(RoutineDefinition,String,int,DataTypeDefinition)/body";
+}
+subgraph cluster464 {
+"jOOQ_src_main_java_org_jooq_impl_ThreadLocalTransactionProvider.java/[CN]/ThreadLocalTransactionProvider/[MT]/commit(TransactionContext)/body";
+"jOOQ-meta-extensions_src_main_java_org_jooq_util_jpa_JPADatabase.java/package";
+}
+subgraph cluster283 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printRecordTypeMethod(JavaWriter,Definition)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV()/body";
+}
+subgraph cluster176 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/execute0(ExecuteContext,ExecuteListener)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_firebird_rdb_tables_Rdb$relations.java/[CN]/Rdb$relations/[CS]/Rdb$relations(java.lang.String)/body";
+}
+subgraph cluster132 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/startsWith(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Contains.java/[CN]/Contains/[MT]/condition()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/startsWith(T)/body";
+}
+subgraph cluster238 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateInterface(Definition)/body";
+}
+subgraph cluster99 {
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/bind(BindContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/toSQL(RenderContext)/body";
+}
+subgraph cluster102 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generatePojoEqualsAndHashCode(Definition,JavaWriter)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitXNor(T)/body";
+}
+subgraph cluster229 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/bind0(BindContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/addParameter(Parameter<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/toSQL0(RenderContext)/body";
+}
+subgraph cluster185 {
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/getFromResultSet(ExecuteContext,Class<T>,int)/body";
+}
+subgraph cluster70 {
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[CN]/MetaSchema/[MT]/getColumns(String,String)/body";
+}
+subgraph cluster289 {
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/setRecordVersionAndTimestamp(BigInteger,Timestamp)/parameters";
+}
+subgraph cluster174 {
+"jOOQ-meta_src_main_java_org_jooq_util_mysql_MySQLTableDefinition.java/[CN]/MySQLTableDefinition/[MT]/getElements0()/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row13<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Power.java/[CN]/Power/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster330 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/transactionResultAsync(TransactionalCallable<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/transactionAsync(TransactionalRunnable)/body";
+}
+subgraph cluster307 {
+"jOOQ-codegen_src_main_java_org_jooq_util_GenerationTool.java/[CN]/GenerationTool/[MT]/run(Configuration)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/newJavaWriter(File)/body";
+}
+subgraph cluster475 {
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/toMerge(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/toInsertSelect(Configuration)/body";
+}
+subgraph cluster405 {
+"jOOQ_src_main_java_org_jooq_impl_DSL.java/[CN]/DSL/[MT]/createView(String,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_CreateViewImpl.java/[CN]/CreateViewImpl/[MT]/accept0(Context<?>)/body";
+}
+subgraph cluster356 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getRecordVersionFields()/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getRecordTimestampFields()/body";
+}
+subgraph cluster76 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/fromArray(Object)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/fromMap(Map<String,?>)/body";
+}
+subgraph cluster187 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayPrepend(T,Field<T[]>)/body";
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayPrepend(T,T[])/body";
+}
+subgraph cluster11 {
+"jOOQ-meta_src_main_java_org_jooq_util_cubrid_CUBRIDTableDefinition.java/[CN]/CUBRIDTableDefinition/[MT]/getElements0()/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateEnum(EnumDefinition,JavaWriter)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_MatcherStrategy.java/[CN]/MatcherStrategy/[MT]/getJavaGetterName(Definition,Mode)/body";
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayReplace(T[],Field<T>,Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Lpad.java/[CN]/Lpad/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster310 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[CS]/DefaultDataType(SQLDialect,Class<T>,String)/body";
+}
+subgraph cluster51 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/like(Field<String>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/likeIgnoreCase(Field<String>)/body";
+}
+subgraph cluster270 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createGlobalTemporaryTable(Table<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createTemporaryTable(Table<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createTable(Table<?>)/body";
+}
+subgraph cluster38 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generatePojo(Definition)/body";
+}
+subgraph cluster20 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/literal(String)/body";
+}
+subgraph cluster65 {
+"jOOQ_src_main_java_org_jooq_impl_JSONReader.java/[CN]/JSONReader/[MT]/getJsonRoot()/body";
+"jOOQ_src_main_java_org_jooq_impl_JSONReader.java/[CN]/JSONReader/[MT]/readAll()/body";
+"jOOQ_src_main_java_org_jooq_impl_JSONReader.java/[CN]/JSONReader/[MT]/getFields()/body";
+}
+subgraph cluster510 {
+"jOOQ_src_main_java_org_jooq_CSVFormat.java/[CN]/CSVFormat/[MT]/newline(String)/body";
+}
+subgraph cluster239 {
+"jOOQ_src_main_java_org_jooq_impl_UDTRecordImpl.java/[CN]/UDTRecordImpl/[MT]/getSQLTypeName()/body";
+"jOOQ_src_main_java_org_jooq_impl_FieldTypeHelper.java/[CN]/FieldTypeHelper/[MT]/writeToSQLOutput(SQLOutput,Class<? extends T>,DataType<T>,T)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableAlias.java/[CN]/TableAlias/[MT]/init(String[])/body";
+}
+subgraph cluster451 {
+"jOOQ_src_main_java_org_jooq_impl_UDTRecordImpl.java/[CN]/UDTRecordImpl/[MT]/readSQL(SQLInput,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultExecuteContext.java/[CN]/DefaultExecuteContext/[MT]/clean()/body";
+"jOOQ_src_main_java_org_jooq_impl_FieldTypeHelper.java/[CN]/FieldTypeHelper/[MT]/getFromSQLInput(Configuration,SQLInput,Field<T>)/body";
+}
+subgraph cluster10 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultTransactionProvider.java/[CN]/DefaultTransactionProvider/[CS]/DefaultTransactionProvider(ConnectionProvider,boolean)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_DefaultTransactionProvider.java/[CN]/DefaultTransactionProvider/[CS]/DefaultTransactionProvider(ConnectionProvider,boolean)/body";
+}
+subgraph cluster272 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractTable.java/[CN]/AbstractTable/[MT]/naturalJoin(TableLike<?>)/body";
+}
+subgraph cluster14 {
+"jOOQ-meta_src_main_java_org_jooq_util_IdentityDefinition.java/package";
+}
+subgraph cluster145 {
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/prepare(Configuration,String)/body";
+}
+subgraph cluster452 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateRecord(Definition)/body";
+}
+subgraph cluster482 {
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadJSON(File)/body";
+}
+subgraph cluster72 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/endsWith(T)/body";
+}
+subgraph cluster493 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printConvenienceMethodFunctionAsField(JavaWriter,RoutineDefinition,boolean)/body";
+"jOOQ_src_main_java_org_jooq_impl_Sinh.java/[CN]/Sinh/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster296 {
+"jOOQ-meta_src_main_java_org_jooq_util_hsqldb_HSQLDBRoutineDefinition.java/[CN]/HSQLDBRoutineDefinition/[MT]/init0()/body";
+}
+subgraph cluster417 {
+"jOOQ_src_main_java_org_jooq_impl_Function.java/[CN]/Function/[MT]/toSQLGroupConcat(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Function.java/[CN]/Function/[MT]/toSQLArguments(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Function.java/[CN]/Function/[MT]/toSQLXMLAGG(RenderContext)/body";
+}
+subgraph cluster263 {
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[CS]/RowImpl(Collection<? extends Field<?>>)/body";
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[CS]/RowImpl(Field<?>)/body";
+}
+subgraph cluster449 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(char,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_Degrees.java/[CN]/Degrees/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/set(TransactionProvider)/body";
+}
+subgraph cluster360 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/informationSchema(Schema).conflicted0/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/informationSchema(Schema).conflicted1/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/informationSchema(Catalog).conflicted1/body";
+}
+subgraph cluster348 {
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/addValue(StoreQuery<?>,Field<T>)/parameters";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printReferences(JavaWriter,List<? extends Definition>,Class<?>,boolean)/body";
+}
+subgraph cluster140 {
+"jOOQ_src_main_java_org_jooq_impl_TableImpl.java/[CN]/TableImpl/[CS]/TableImpl(String,Schema,Table<R>)/body";
+}
+subgraph cluster172 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayReplace(T[],T,T)/body";
+}
+subgraph cluster133 {
+"jOOQ-codegen_src_main_java_org_jooq_util_GeneratorWriter.java/[CN]/GeneratorWriter/[MT]/print(String,Object)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printFetchMethod(JavaWriter,ColumnDefinition,ForeignKeyDefinition,TableDefinition)/body";
+}
+subgraph cluster446 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/equal(Select<? extends Record1<T>>)/body";
+}
+subgraph cluster195 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayAppend(T[],T)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/lessOrEqual(Field<T>)/body";
+}
+subgraph cluster242 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getRoutines(SchemaDefinition)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getPackages(SchemaDefinition)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getSequences(SchemaDefinition)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getTables(SchemaDefinition)/body";
+}
+subgraph cluster411 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractQuery.java/[CN]/AbstractQuery/[MT]/getSQL()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractQuery.java/[CN]/AbstractQuery/[MT]/closeIfNecessary(Param<?>)/body";
+}
+subgraph cluster420 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(Field<K>,Field<V>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoGroups(int,RecordMapper<? super R,E>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatJSON()/body";
+}
+subgraph cluster154 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/alterTable(String)/body";
+}
+subgraph cluster375 {
+"jOOQ-console_src_main_java_org_jooq_debug_console_remote_messaging_MessagingInterface.java/[CN]/MessagingInterface/[CN]/CM_asyncExec/[MT]/run(Object[])/body";
+}
+subgraph cluster35 {
+"jOOQ-codegen_src_main_java_org_jooq_util_GeneratorWriter.java/[CN]/GeneratorWriter/[CS]/GeneratorWriter(File)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_GeneratorWriter.java/[CN]/GeneratorWriter/[MT]/close()/body";
+}
+subgraph cluster116 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/derive(RecordListenerProvider)/body";
+}
+subgraph cluster31 {
+"jOOQ-console_src_main_java_org_jooq_debug_console_remote_ClientDebugger.java/[CN]/ClientDebugger/[MT]/modifyBreakpoint(Breakpoint)/body";
+"jOOQ-console_src_main_java_org_jooq_debug_console_remote_ClientDebugger.java/[CN]/ClientDebugger/[MT]/removeBreakpoint(Breakpoint)/body";
+}
+subgraph cluster322 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(Writer,CSVFormat)/body";
+}
+subgraph cluster438 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(Writer,char)/body";
+}
+subgraph cluster444 {
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/consumeWarnings(ExecuteContext,ExecuteListener)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/isNotDistinctFrom(Field<T>)/body";
+}
+subgraph cluster371 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayRemove(T[],Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/contains(T)/body";
+}
+subgraph cluster192 {
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGeneratorStrategy.java/[CN]/DefaultGeneratorStrategy/[MT]/getJavaPackageName(Definition,String)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGeneratorStrategy.java/[CN]/DefaultGeneratorStrategy/[MT]/getJavaClassName0(Definition,String)/body";
+}
+subgraph cluster127 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/endsWith(Field<T>)/body";
+}
+subgraph cluster89 {
+"jOOQ_src_main_java_org_jooq_impl_BatchCRUD.java/[CN]/BatchCRUD/[MT]/executeStatic()/body";
+}
+subgraph cluster492 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateTableReferences(SchemaDefinition)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/execute()/body";
+}
+subgraph cluster265 {
+"jOOQ_src_main_java_org_jooq_impl_InformationSchemaMetaImpl.java/[CN]/InformationSchemaMetaImpl/[MT]/init(InformationSchema)/body";
+"jOOQ_src_main_java_org_jooq_impl_InformationSchemaMetaImpl.java/[CN]/InformationSchemaMetaImpl/[CS]/InformationSchemaMetaImpl(Configuration,InformationSchema)/body";
+}
+subgraph cluster68 {
+"jOOQ_src_main_java_org_jooq_impl_AggregateFunctionImpl.java/[CN]/AggregateFunctionImpl/[CS]/AggregateFunctionImpl(Term,boolean,DataType<T>,Field<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AggregateFunctionImpl.java/[CN]/AggregateFunctionImpl/[CS]/AggregateFunctionImpl(String,boolean,DataType<T>,Field<?>)/body";
+}
+subgraph cluster197 {
+"jOOQ_src_main_java_org_jooq_SchemaMapping.java/[CN]/SchemaMapping/[MT]/use(String)/body";
+"jOOQ_src_main_java_org_jooq_SchemaMapping.java/[CN]/SchemaMapping/[MT]/add(String,String)/body";
+"jOOQ_src_main_java_org_jooq_SchemaMapping.java/[CN]/SchemaMapping/[MT]/map(Table<R>)/body";
+}
+subgraph cluster83 {
+"jOOQ_src_main_java_org_jooq_impl_UpdatableRecordImpl.java/[CN]/UpdatableRecordImpl/[MT]/refresh(Field<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_UpdatableRecordImpl.java/[CN]/UpdatableRecordImpl/[MT]/refresh(Field<?>)/parameters";
+}
+subgraph cluster241 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractQuery.java/[CN]/AbstractQuery/[MT]/getParams()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractQuery.java/[CN]/AbstractQuery/[MT]/getParam(String)/body";
+}
+subgraph cluster215 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(Writer,boolean,char)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(Writer,boolean)/body";
+}
+subgraph cluster181 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row20<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20>)/body";
+}
+subgraph cluster225 {
+"jOOQ-checker_src_main_java_org_jooq_checker_SQLDialectChecker.java/[CN]/SQLDialectChecker/[MT]/createSourceVisitor()/body";
+}
+subgraph cluster108 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/writeObject(ObjectOutputStream)/body";
+}
+subgraph cluster407 {
+"jOOQ_src_main_java_org_jooq_impl_UpdatableRecordImpl.java/[CN]/UpdatableRecordImpl/[MT]/store()/body";
+"jOOQ_src_main_java_org_jooq_impl_UpdatableRecordImpl.java/[CN]/UpdatableRecordImpl/[MT]/update()/body";
+}
+subgraph cluster353 {
+"jOOQ_src_main_java_org_jooq_impl_Pivot.java/[CN]/Pivot/[MT]/toSQL(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Pivot.java/[CN]/Pivot/[MT]/getAttachables0()/body";
+}
+subgraph cluster157 {
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/addRecordTimestamp(StoreQuery<?>)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/defaulted(boolean)/body";
+}
+subgraph cluster343 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/fetchMany(String,Object)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/fetchMany(String)/body";
+}
+subgraph cluster166 {
+"jOOQ_src_main_java_org_jooq_impl_JoinTable.java/[CN]/JoinTable/[MT]/toSQL(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_JoinTable.java/[CN]/JoinTable/[MT]/toSQLJoinCondition(RenderContext)/body";
+}
+subgraph cluster266 {
+"jOOQ_src_main_java_org_jooq_impl_Limit.java/[CN]/Limit/[MT]/setNumberOfRows(int)/body";
+"jOOQ_src_main_java_org_jooq_impl_Limit.java/[CN]/Limit/[MT]/accept(Context<?>)/body";
+}
+subgraph cluster455 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printParameterDeclarations(JavaWriter,TableDefinition,boolean)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row6<T1,T2,T3,T4,T5,T6>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ThreadLocalTransactionProvider.java/[CN]/ThreadLocalTransactionProvider/[MT]/rollback(TransactionContext)/body";
+}
+subgraph cluster474 {
+"jOOQ_src_main_java_org_jooq_impl_Expression.java/[CN]/Expression/[CN]/DateExpression/[MT]/getIntervalExpression(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_TimestampDiff.java/[CN]/TimestampDiff/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster221 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultIdentityDefinition.java/package";
+"jOOQ_src_main_java_org_jooq_impl_AbstractTable.java/[CN]/AbstractTable/[MT]/leftOuterJoin(TableLike<?>)/body";
+}
+subgraph cluster334 {
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/error(Object,Object)/body";
+}
+subgraph cluster251 {
+"jOOQ-codegen_src_main_java_org_jooq_util_AbstractGenerator.java/[CN]/AbstractGenerator/[MT]/generateGlobalSchemaReferences()/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_AbstractGenerator.java/[CN]/AbstractGenerator/[MT]/generateGlobalCatalogReferences()/body";
+}
+subgraph cluster388 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/releaseSavepoint(Savepoint)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_MatcherStrategy.java/[CN]/MatcherStrategy/[MT]/getJavaIdentifier(Definition)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(char)/body";
+}
+subgraph cluster502 {
+"jOOQ_src_main_java_org_jooq_impl_CreateIndexImpl.java/[CN]/CreateIndexImpl/[MT]/accept(Context<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createUniqueIndex(Name)/body";
+}
+subgraph cluster440 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/like(Field<String>,char)/body";
+"jOOQ_src_main_java_org_jooq_impl_ClobBinding.java/[CN]/ClobBinding/[MT]/get(BindingGetResultSetContext<String>)/body";
+}
+subgraph cluster395 {
+"jOOQ_src_main_java_org_jooq_impl_Fields.java/[CN]/Fields/[MT]/fields(String)/body";
+"jOOQ_src_main_java_org_jooq_impl_Fields.java/[CN]/Fields/[MT]/fields(int)/body";
+}
+subgraph cluster327 {
+"jOOQ-codegen_src_main_java_org_jooq_util_GenerationTool.java/[CN]/GenerationTool/[MT]/setConnection(Connection)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_GenerationTool.java/[CN]/GenerationTool/[MT]/setClassLoader(ClassLoader)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_GenerationTool.java/[CN]/GenerationTool/[MT]/main(Configuration)/body";
+}
+subgraph cluster91 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateArray(SchemaDefinition,ArrayDefinition)/body";
+}
+subgraph cluster258 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[CS]/DefaultDataType(SQLDialect,DataType<T>,String,String)/body";
+}
+subgraph cluster149 {
+"jOOQ_src_main_java_org_jooq_impl_TableImpl.java/[CN]/TableImpl/[CS]/TableImpl(String,Schema,Table<R>,Field<?>[])/body";
+"jOOQ_src_main_java_org_jooq_impl_TableImpl.java/[CN]/TableImpl/[CS]/TableImpl(String)/body";
+}
+subgraph cluster436 {
+"jOOQ_src_main_java_org_jooq_impl_ReferenceImpl.java/[CN]/ReferenceImpl/[MT]/fetchChildren(Collection<? extends O>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ReferenceImpl.java/[CN]/ReferenceImpl/[MT]/fetchParents(Collection<? extends R>)/body";
+}
+subgraph cluster500 {
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/storeUsing(TableField<R,?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/deleteUsing(TableField<R,?>)/body";
+"jOOQ-meta-extensions_src_main_java_org_jooq_util_jpa_JPADatabase.java/[CN]/JPADatabase/[MT]/create0()/body";
+}
+subgraph cluster337 {
+"jOOQ_src_main_java_org_jooq_tools_jdbc_JDBCUtils.java/[CN]/JDBCUtils/[MT]/dialect(Connection)/body";
+"jOOQ_src_main_java_org_jooq_tools_jdbc_JDBCUtils.java/[CN]/JDBCUtils/[MT]/dialect(String)/body";
+}
+subgraph cluster351 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/derive(ExecuteListenerProvider)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitNor(Field<T>)/body";
+}
+subgraph cluster118 {
+"jOOQ_src_main_java_org_jooq_impl_TableImpl.java/[CN]/TableImpl/[MT]/declaresTables()/body";
+"jOOQ_src_main_java_org_jooq_impl_TableImpl.java/[CN]/TableImpl/[MT]/toSQL(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableImpl.java/[CN]/TableImpl/[MT]/bind(BindContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoXML(H)/body";
+}
+subgraph cluster466 {
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/execute()/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/executeRows()/body";
+}
+subgraph cluster470 {
+"jOOQ_src_main_java_org_jooq_impl_DAOImpl.java/[CN]/DAOImpl/[MT]/insert(Collection<P>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DAOImpl.java/[CN]/DAOImpl/[MT]/update(Collection<P>)/body";
+}
+subgraph cluster1 {
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/toSQL(RenderContext)/body";
+}
+subgraph cluster486 {
+"jOOQ-website_src_main_java_Transform.java/[CN]/Transform/[MT]/file(String)/body";
+"jOOQ-website_src_main_java_Transform.java/[CN]/Transform/[MT]/root()/body";
+}
+subgraph cluster249 {
+"jOOQ_src_main_java_org_jooq_impl_DAOImpl.java/[CN]/DAOImpl/[MT]/records(Collection<P>,boolean)/body";
+"jOOQ_src_main_java_org_jooq_impl_DAOImpl.java/[CN]/DAOImpl/[MT]/deleteById(Collection<T>)/body";
+}
+subgraph cluster304 {
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryImpl.java/[CN]/SelectQueryImpl/[MT]/combine(CombineOperator,Select<? extends R>)/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryImpl.java/[CN]/SelectQueryImpl/[MT]/toSQLReference0(Context<?>,Field<?>[],Field<?>[])/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectQueryImpl.java/[CN]/SelectQueryImpl/[MT]/accept(Context<?>)/body";
+}
+subgraph cluster423 {
+"jOOQ_src_main_java_org_jooq_impl_RowSubqueryCondition.java/[CN]/RowSubqueryCondition/[MT]/delegate(Configuration,RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_RowSubqueryCondition.java/[CN]/RowSubqueryCondition/[CN]/Native/[MT]/toSQL(RenderContext)/body";
+}
+subgraph cluster204 {
+"jOOQ_src_main_java_org_jooq_impl_ThreadLocalTransactionProvider.java/[CN]/ThreadLocalTransactionProvider/[CS]/ThreadLocalTransactionProvider(ConnectionProvider,boolean)/parameters";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printConvenienceMethodProcedure(JavaWriter,RoutineDefinition,boolean)/body";
+}
+subgraph cluster53 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(Field<K>,Class<? extends E>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoGroups(Field<K>,Class<? extends E>)/body";
+}
+subgraph cluster404 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/length(int)/body";
+}
+subgraph cluster6 {
+"jOOQ-console_src_main_java_org_jooq_debug_console_Console.java/[CN]/Console/[MT]/init(boolean,boolean)/body";
+"jOOQ-console_src_main_java_org_jooq_debug_console_EditorsPane.java/[CN]/EditorsPane/[MT]/createTablePane()/body";
+"jOOQ-console_src_main_java_org_jooq_debug_console_Console.java/[CN]/Console/[MT]/addEditorTab()/body";
+}
+subgraph cluster235 {
+"jOOQ-sql-console_src_main_java_org_jooq_debugger_console_SqlLoggerPane.java/[CN]/SqlLoggerPane/[MT]/setLogging(boolean)/body";
+"jOOQ-sql-console_src_main_java_org_jooq_debugger_console_SqlLoggerPane.java/[CN]/SqlLoggerPane/[CS]/SqlLoggerPane()/body";
+}
+subgraph cluster202 {
+"jOOQ_src_main_java_org_jooq_CSVFormat.java/[CN]/CSVFormat/[MT]/nullString(String)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generatePojoToString(Definition,JavaWriter)/body";
+}
+subgraph cluster227 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notIn(Field<?>)/body";
+}
+subgraph cluster416 {
+"jOOQ_src_main_java_org_jooq_impl_BlobBinding.java/[CN]/BlobBinding/[MT]/get(BindingGetSQLInputContext<byte[]>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/executeListenerProviders()/body";
+"jOOQ_src_main_java_org_jooq_impl_Pi.java/[CN]/Pi/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster109 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractTable.java/[CN]/AbstractTable/[MT]/fullOuterJoin(TableLike<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(int,int)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultTransactionProvider.java/[CN]/DefaultTransactionProvider/[MT]/setSavepoint(Configuration)/body";
+}
+subgraph cluster0 {
+"jOOQ-console_src_main_java_org_jooq_tools_debug_impl_ClientDebugger.java/[CN]/ClientDebugger/[MT]/addBreakpoint(Breakpoint)/body";
+"jOOQ-console_src_main_java_org_jooq_tools_debug_impl_ClientDebugger.java/[CN]/ClientDebugger/[MT]/removeBreakpoint(Breakpoint)/body";
+}
+subgraph cluster125 {
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/getReturned()/body";
+}
+subgraph cluster342 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/currentTimestamp()/body";
+}
+subgraph cluster26 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitXNor(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitXor(T)/body";
+}
+subgraph cluster93 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/format(int)/body";
+}
+subgraph cluster443 {
+"jOOQ_src_main_java_org_jooq_impl_IsDistinctFrom.java/[CN]/IsDistinctFrom/[MT]/bind(BindContext)/body";
+"jOOQ-console_src_main_java_org_jooq_debug_console_remote_messaging_MessagingInterface.java/[CN]/MessagingInterface/[CN]/CM_asyncExecResponse/[MT]/run(Object[])/body";
+}
+subgraph cluster403 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractResultQuery.java/[CN]/AbstractResultQuery/[MT]/execute(ExecuteContext,ExecuteListener)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/toSQLEnd(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/toSQLCall(RenderContext)/body";
+}
+subgraph cluster487 {
+"jOOQ_src_main_java_org_jooq_impl_CurrentUser.java/[CN]/CurrentUser/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster87 {
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/executeJSON()/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/executeCSV()/body";
+}
+subgraph cluster117 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/toString()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/intoResultSet()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/original()/body";
+}
+subgraph cluster226 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/formatIndentLockEnd()/body";
+}
+subgraph cluster63 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRecordMapper.java/[CN]/DefaultRecordMapper/[MT]/init(E)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultRecordMapper.java/[CN]/DefaultRecordMapper/[CS]/DefaultRecordMapper(RecordType<R>,Class<? extends E>,E,Configuration)/body";
+}
+subgraph cluster264 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateSequences(SchemaDefinition)/body";
+}
+subgraph cluster218 {
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/peekAny(char[],int,String[])/body";
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/renderAndBind(Context<?>,String,List<QueryPart>)/body";
+}
+subgraph cluster46 {
+"jOOQ_src_main_java_org_jooq_impl_IsDistinctFrom.java/[CN]/IsDistinctFrom/[MT]/toSQL(RenderContext)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_IsDistinctFrom.java/[CN]/IsDistinctFrom/[MT]/toSQL(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_IsDistinctFrom.java/[CN]/IsDistinctFrom/[MT]/bind(BindContext)/parameters";
+}
+subgraph cluster43 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[CS]/AbstractRecord(Field<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/getValues()/body";
+}
+subgraph cluster112 {
+"jOOQ-meta_src_main_java_org_jooq_util_h2_H2Database.java/[CN]/H2Database/[MT]/loadUniqueKeys(DefaultRelations)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_h2_H2Database.java/[CN]/H2Database/[MT]/loadPrimaryKeys(DefaultRelations)/body";
+}
+subgraph cluster131 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoGroups(Field<?>[])/body";
+}
+subgraph cluster136 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createSequence(Sequence<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_CreateSequenceImpl.java/[CN]/CreateSequenceImpl/[MT]/accept(Context<?>)/body";
+}
+subgraph cluster96 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notLike(Field<String>,char)/body";
+}
+subgraph cluster326 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayToString(Object[],String)/body";
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/stringToArray(String,String)/body";
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/stringToArray(String,Field<String>)/body";
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/stringToArray(Field<String>,String)/body";
+}
+subgraph cluster2 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/reset(String)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/reset(Field<?>)/body";
+}
+subgraph cluster39 {
+"jOOQ_src_main_java_org_jooq_tools_jdbc_JDBCUtils.java/[CN]/JDBCUtils/[MT]/safeFree(Clob)/body";
+"jOOQ_src_main_java_org_jooq_tools_jdbc_JDBCUtils.java/[CN]/JDBCUtils/[MT]/safeFree(Blob)/body";
+}
+subgraph cluster203 {
+"jOOQ_src_main_java_org_jooq_impl_DDL.java/[CN]/DDL/[MT]/queries(Table<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DDL.java/[CN]/DDL/[MT]/queries(Schema)/body";
+}
+subgraph cluster504 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notBetweenSymmetric(Field<T>,Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notBetween(Field<T>,Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/keyword(String)/body";
+}
+subgraph cluster349 {
+"jOOQ-meta_src_main_java_org_jooq_util_h2_H2TableDefinition.java/[CN]/H2TableDefinition/[MT]/getElements0()/body";
+}
+subgraph cluster269 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(Writer)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitOr(Field<T>)/body";
+}
+subgraph cluster155 {
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/equal(Select)/body";
+}
+subgraph cluster8 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/toSQLBegin(RenderContext)/body";
+}
+subgraph cluster29 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(OutputStream)/body";
+}
+subgraph cluster148 {
+"jOOQ_src_main_java_org_jooq_impl_CursorImpl.java/[CN]/CursorImpl/[CN]/CursorResultSet/[MT]/close()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractStoreQuery.java/[CN]/AbstractStoreQuery/[MT]/execute(ExecuteContext,ExecuteListener)/body";
+}
+subgraph cluster291 {
+"jOOQ_src_main_java_org_jooq_impl_DateDiff.java/[CN]/DateDiff/[MT]/getFunction0(Configuration)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_AbstractGenerator.java/[CN]/AbstractGenerator/[MT]/generateGlobalQueueReferences()/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_AbstractGenerator.java/[CN]/AbstractGenerator/[MT]/generateGlobalLinkReferences()/body";
+}
+subgraph cluster159 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row8<T1,T2,T3,T4,T5,T6,T7,T8>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/formatIndentLockStart()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/contains(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/dropColumn(Field<?>)/body";
+}
+subgraph cluster508 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notIn(Select<? extends Record1<T>>)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/setRecordVersionAndTimestamp(BigInteger,Timestamp)/body";
+}
+subgraph cluster433 {
+"jOOQ_src_main_java_org_jooq_impl_SelectImpl.java/[CN]/SelectImpl/[MT]/join(TableLike<?>)/body";
+}
+subgraph cluster234 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractContext.java/[CN]/AbstractContext/[CN]/DefaultVisitContext/[MT]/queryParts()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractContext.java/[CN]/AbstractContext/[CN]/DefaultVisitContext/[MT]/queryPart()/parameters";
+"jOOQ_src_main_java_org_jooq_impl_AbstractContext.java/[CN]/AbstractContext/[CN]/DefaultVisitContext/[MT]/queryParts()/parameters";
+}
+subgraph cluster3 {
+"jOOQ_src_main_java_org_jooq_impl_DAOImpl.java/[CN]/DAOImpl/[MT]/fetch(Field<Z>,Z)/body";
+}
+subgraph cluster437 {
+"jOOQ-meta_src_main_java_org_jooq_util_firebird_rdb_tables_Rdb$relationConstraints.java/[CN]/Rdb$relationConstraints/[CS]/Rdb$relationConstraints(java.lang.String)/body";
+"jOOQ_src_main_java_org_jooq_impl_InsertQueryImpl.java/[CN]/InsertQueryImpl/[MT]/execute(Configuration,PreparedStatement)/body";
+}
+subgraph cluster25 {
+"jOOQ_src_main_java_org_jooq_impl_CursorImpl.java/[CN]/CursorImpl/[CN]/CursorIterator/[CN]/CursorRecordInitialiser/[MT]/operate(AbstractRecord)/body";
+"jOOQ_src_main_java_org_jooq_impl_CursorImpl.java/[CN]/CursorImpl/[CN]/CursorIterator/[MT]/fetchOne()/body";
+}
+subgraph cluster496 {
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printGetterAndSetter(GenerationWriter,TypedElementDefinition<?>)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/generate(Database)/body";
+}
+subgraph cluster376 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notLikeIgnoreCase(Field<String>)/parameters";
+"jOOQ-codegen_src_main_java_org_jooq_util_MatcherStrategy.java/[CN]/MatcherStrategy/[MT]/getJavaClassImplements(Definition,Mode)/body";
+}
+subgraph cluster135 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/between(Field<T>,Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Ceil.java/[CN]/Ceil/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster240 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractDataType.java/[CN]/AbstractDataType/[MT]/getDataType(SQLDialect,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractDataType.java/[CN]/AbstractDataType/[MT]/init()/body";
+}
+subgraph cluster246 {
+"jOOQ_src_main_java_org_jooq_impl_TableImpl.java/[CN]/TableImpl/[CS]/TableImpl(String,Schema)/body";
+}
+subgraph cluster465 {
+"jOOQ_src_main_java_org_jooq_tools_reflect_Reflect.java/[CN]/Reflect/[MT]/field(String)/body";
+"jOOQ_src_main_java_org_jooq_tools_reflect_Reflect.java/[CN]/Reflect/[MT]/set(String,Object)/body";
+}
+subgraph cluster252 {
+"jOOQ_src_main_java_org_jooq_impl_DropViewImpl.java/[CN]/DropViewImpl/[MT]/accept(Context<?>)/body";
+}
+subgraph cluster419 {
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/bindH2(BindContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[CS]/MergeImpl(Configuration,Table<R>,Collection<? extends Field<?>>)/body";
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/values(Object)/body";
+}
+subgraph cluster71 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/likeIgnoreCase(Field<String>)/parameters";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateInterface(Definition,JavaWriter)/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadJSON(File,Charset)/body";
+}
+subgraph cluster156 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(OutputStream,char)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printConvenienceMethodTableValuedFunctionAsField(JavaWriter,TableDefinition,boolean,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/equal(Field<T>)/body";
+}
+subgraph cluster30 {
+"jOOQ_src_main_java_org_jooq_impl_Pivot.java/[CN]/Pivot/[CN]/DefaultPivotTable/[MT]/toSQL(RenderContext)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_Pivot.java/[CN]/Pivot/[CN]/DefaultPivotTable/[MT]/bind(BindContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Pivot.java/[CN]/Pivot/[CN]/DefaultPivotTable/[MT]/toSQL(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Pivot.java/[CN]/Pivot/[CN]/DefaultPivotTable/[MT]/bind(BindContext)/parameters";
+}
+subgraph cluster253 {
+"jOOQ_src_main_java_org_jooq_impl_DSL.java/[CN]/DSL/[MT]/dateAdd(Field<Date>,Number,DatePart)/body";
+"jOOQ_src_main_java_org_jooq_impl_DSL.java/[CN]/DSL/[MT]/dateAdd(Date,Number,DatePart)/body";
+}
+subgraph cluster36 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generate(Database)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_TextWriter.java/[CN]/TextWriter/[CS]/TextWriter(File)/body";
+}
+subgraph cluster56 {
+"jOOQ_src_main_java_org_jooq_SchemaMapping.java/[CN]/SchemaMapping/[MT]/map(Schema)/body";
+"jOOQ_src_main_java_org_jooq_SchemaMapping.java/[CN]/SchemaMapping/[MT]/add(Table<?>,String)/body";
+}
+subgraph cluster171 {
+"jOOQ_src_main_java_org_jooq_impl_Nvl2.java/[CN]/Nvl2/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_Nvl.java/[CN]/Nvl/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster88 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/formatIndentEnd(int)/body";
+}
+subgraph cluster393 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generatePojo(Definition,JavaWriter)/body";
+}
+subgraph cluster28 {
+"jOOQ_src_main_java_org_jooq_impl_BatchCRUD.java/[CN]/BatchCRUD/[MT]/executeAction(int)/body";
+"jOOQ_src_main_java_org_jooq_impl_BatchCRUD.java/[CN]/BatchCRUD/[MT]/updateChangedFlag()/body";
+}
+subgraph cluster214 {
+"jOOQ_src_main_java_org_jooq_tools_LoggerListener.java/[CN]/LoggerListener/[MT]/resultEnd(ExecuteContext)/body";
+"jOOQ_src_main_java_org_jooq_tools_LoggerListener.java/[CN]/LoggerListener/[MT]/recordEnd(ExecuteContext)/body";
+}
+subgraph cluster442 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printConvenienceMethodFunction(JavaWriter,RoutineDefinition,boolean)/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadXML(File,CharsetDecoder)/body";
+"jOOQ_src_main_java_org_jooq_impl_Cosh.java/[CN]/Cosh/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster129 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/formatIndentStart(int)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/greaterOrEqual(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadXML(File,Charset)/body";
+"jOOQ-checker_src_main_java_org_jooq_checker_SQLDialectChecker.java/[CN]/SQLDialectChecker/extend";
+}
+subgraph cluster468 {
+"jOOQ_src_main_java_org_jooq_impl_InCondition.java/[CN]/InCondition/[MT]/toSQL(RenderContext)/body";
+}
+subgraph cluster389 {
+"jOOQ_src_main_java_org_jooq_impl_UpdateImpl.java/[CN]/UpdateImpl/[MT]/set(Record)/body";
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/set(Record)/body";
+}
+subgraph cluster458 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateUDTReferences(SchemaDefinition)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_MatcherStrategy.java/[CN]/MatcherStrategy/[MT]/getJavaMethodName(Definition,Mode)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateEnum(EnumDefinition)/body";
+}
+subgraph cluster32 {
+"jOOQ_src_main_java_org_jooq_impl_CurrentTimestamp.java/[CN]/CurrentTimestamp/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_CurrentTime.java/[CN]/CurrentTime/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster497 {
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[MT]/meta(MetaFunction)/body";
+}
+subgraph cluster386 {
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGeneratorStrategy.java/[CN]/DefaultGeneratorStrategy/[MT]/getFullJavaIdentifierUC(Definition)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printColumnDefinition(GenerationWriter,TypedElementDefinition<?>,Definition,Class<?>)/body";
+}
+subgraph cluster55 {
+"jOOQ_src_main_java_org_jooq_impl_BlobBinding.java/[CN]/BlobBinding/[MT]/set(BindingSetSQLOutputContext<byte[]>)/body";
+"jOOQ_src_main_java_org_jooq_impl_BlobBinding.java/[CN]/BlobBinding/[MT]/get(BindingGetStatementContext<byte[]>)/body";
+}
+subgraph cluster128 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notEqual(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/indentLock()/body";
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultIdentityDefinition.java/[CN]/DefaultIdentityDefinition/[CS]/DefaultIdentityDefinition(ColumnDefinition)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row7<T1,T2,T3,T4,T5,T6,T7>)/body";
+}
+subgraph cluster428 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/fetch(ResultSet)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/executeCallableStatement()/body";
+}
+subgraph cluster147 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitNor(T)/body";
+}
+subgraph cluster111 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/setSavepoint(String)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_sqlite_SQLiteTableDefinition.java/[CN]/SQLiteTableDefinition/[MT]/getElements0()/body";
+}
+subgraph cluster237 {
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/isDebugEnabled()/body";
+}
+subgraph cluster441 {
+"jOOQ-console_src_main_java_org_jooq_debug_console_remote_messaging_MessagingInterface.java/[CN]/MessagingInterface/[MT]/asyncSend(Message)/body";
+"jOOQ-console_src_main_java_org_jooq_debug_console_remote_messaging_Message.java/[CN]/Message/[MT]/setCommunicationInterface(CommunicationInterface)/body";
+}
+subgraph cluster284 {
+"jOOQ_src_main_java_org_jooq_impl_Fields.java/[CN]/Fields/[MT]/add(Field<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Fields.java/[CN]/Fields/[MT]/add(Field<?>)/parameters";
+}
+subgraph cluster189 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PGIntervalConverter.java/[CN]/PGIntervalConverter/[MT]/toYearToMonth(Object)/body";
+"jOOQ_src_main_java_org_jooq_util_postgres_PGIntervalConverter.java/[CN]/PGIntervalConverter/[MT]/toPGInterval(YearToMonth)/body";
+"jOOQ_src_main_java_org_jooq_util_postgres_PGIntervalConverter.java/[CN]/PGIntervalConverter/[MT]/toDayToSecond(Object)/body";
+}
+subgraph cluster82 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row12<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12>)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createView(String,String)/parameters";
+}
+subgraph cluster58 {
+"jOOQ_src_main_java_org_jooq_impl_InsertImpl.java/[CN]/InsertImpl/[MT]/values(Object)/body";
+"jOOQ_src_main_java_org_jooq_impl_InsertImpl.java/[CN]/InsertImpl/[MT]/values(Collection<?>)/body";
+}
+subgraph cluster308 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractStoreQuery.java/[CN]/AbstractStoreQuery/[MT]/getReturnedRecords()/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/into(Table<Z>)/body";
+}
+subgraph cluster190 {
+"jOOQ_src_main_java_org_jooq_impl_BlobBinding.java/[CN]/BlobBinding/[MT]/set(BindingSetStatementContext<byte[]>)/body";
+}
+subgraph cluster344 {
+"jOOQ_src_main_java_org_jooq_impl_Expression.java/[CN]/Expression/[CN]/DateExpression/[MT]/getNumberExpression(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/derive(RecordMapperProvider)/body";
+}
+subgraph cluster256 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateCatalog(CatalogDefinition,JavaWriter)/body";
+}
+subgraph cluster257 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(Field<K>,RecordMapper<? super R,E>)/body";
+}
+subgraph cluster179 {
+"jOOQ_src_main_java_org_jooq_impl_Executor.java/[CN]/Executor/[MT]/fetchOne(Table<R>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Executor.java/[CN]/Executor/[MT]/fetchOne(Table<R>,Condition)/body";
+"jOOQ_src_main_java_org_jooq_impl_Executor.java/[CN]/Executor/[MT]/fetchOne(ResultSet)/body";
+}
+subgraph cluster42 {
+"jOOQ_src_main_java_org_jooq_impl_UDTConstant.java/[CN]/UDTConstant/[MT]/toSQLInline(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_UDTConstant.java/[CN]/UDTConstant/[MT]/getInlineConstructor(RenderContext)/body";
+}
+subgraph cluster37 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateUDTRecord(UDTDefinition)/body";
+"jOOQ_src_main_java_org_jooq_impl_ConstraintImpl.java/[CN]/ConstraintImpl/[MT]/accept(Context<?>)/body";
+}
+subgraph cluster295 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateInterface(TableDefinition)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generatePojo(TableDefinition)/body";
+}
+subgraph cluster100 {
+"jOOQ_src_main_java_org_jooq_impl_UpdatableRecordImpl.java/[CN]/UpdatableRecordImpl/[MT]/storeUpdate0(Field<?>[],TableField<R,?>[])/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/storeInsert0(Field<?>[])/body";
+}
+subgraph cluster151 {
+"jOOQ_src_main_java_org_jooq_impl_JoinTable.java/[CN]/JoinTable/[MT]/onKey(TableField<?,?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_JoinTable.java/[CN]/JoinTable/[MT]/onKey(ForeignKey<?,?>)/body";
+}
+subgraph cluster321 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[CS]/DefaultConfiguration(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/derive(ConnectionProvider)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_ase_ASETableDefinition.java/[CN]/ASETableDefinition/[MT]/getElements0()/body";
+}
+subgraph cluster507 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/lastID()/body";
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/greaterOrEqual(Select)/body";
+}
+subgraph cluster378 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayAppend(T[],Field<T>)/body";
+}
+subgraph cluster409 {
+"jOOQ_src_main_java_org_jooq_impl_UpdatableRecordImpl.java/[CN]/UpdatableRecordImpl/[MT]/key()/body";
+"jOOQ_src_main_java_org_jooq_impl_UpdatableRecordImpl.java/[CN]/UpdatableRecordImpl/[MT]/copy()/body";
+}
+subgraph cluster347 {
+"jOOQ_src_main_java_org_jooq_impl_FieldTypeHelper.java/[CN]/FieldTypeHelper/[MT]/getFromStatement(ExecuteContext,Class<? extends T>,int)/body";
+"jOOQ_src_main_java_org_jooq_impl_FieldTypeHelper.java/[CN]/FieldTypeHelper/[MT]/getFromResultSet(ExecuteContext,Class<? extends T>,int)/body";
+}
+subgraph cluster432 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(Field<?>[],Class<? extends E>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoGroups(Field<?>[],Class<? extends E>)/body";
+}
+subgraph cluster66 {
+"jOOQ_src_main_java_org_jooq_impl_MD5.java/[CN]/MD5/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_Ascii.java/[CN]/Ascii/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster168 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(Table<S>,RecordMapper<? super R,E>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(Table<S>)/body";
+}
+subgraph cluster392 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractPackageDefinition.java/[CN]/AbstractPackageDefinition/[MT]/getDefinitionPath()/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractRoutineDefinition.java/[CN]/AbstractRoutineDefinition/[MT]/getDefinitionPath()/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/hasLength()/body";
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultUniqueKeyDefinition.java/[CN]/DefaultUniqueKeyDefinition/[MT]/getDefinitionPath()/body";
+}
+subgraph cluster335 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/greaterOrEqual(Select<? extends Record1<T>>)/body";
+"jOOQ_src_main_java_org_jooq_impl_SelectImpl.java/[CN]/SelectImpl/[MT]/join(TableLike<?>,JoinType)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/lessThan(Select<? extends Record1<T>>)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printColumnValidationAnnotation(JavaWriter,ColumnDefinition)/body";
+}
+subgraph cluster52 {
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/addColumn(Field<T>,DataType<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AlterTableImpl.java/[CN]/AlterTableImpl/[MT]/alterColumn(Field<T>)/body";
+}
+subgraph cluster223 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/likeIgnoreCase(Field<String>,char)/parameters";
+}
+subgraph cluster22 {
+"jOOQ_src_main_java_org_jooq_tools_debug_impl_LoggerImpl.java/[CN]/LoggerImpl/[MT]/logQuery(boolean)/body";
+"jOOQ_src_main_java_org_jooq_tools_debug_impl_LoggerImpl.java/[CN]/LoggerImpl/[MT]/logResult(boolean)/body";
+"jOOQ_src_main_java_org_jooq_tools_debug_impl_LoggerImpl.java/[CN]/LoggerImpl/[MT]/listener(LoggerListener)/body";
+}
+subgraph cluster158 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/hasPrecision()/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[MT]/hasScale()/body";
+}
+subgraph cluster16 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoGroups(Field<K>,RecordMapper<? super R,E>)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/isTimestampOrVersionAvailable()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitOr(T)/body";
+}
+subgraph cluster354 {
+"jOOQ_src_main_java_org_jooq_impl_JoinTable.java/[CN]/JoinTable/[MT]/fields0()/body";
+"jOOQ_src_main_java_org_jooq_impl_JoinTable.java/[CN]/JoinTable/[MT]/translateClause(JoinType)/body";
+"jOOQ_src_main_java_org_jooq_impl_JoinTable.java/[CN]/JoinTable/[MT]/accept(Context<?>)/body";
+}
+subgraph cluster434 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createView(String,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createTable(String)/body";
+}
+subgraph cluster445 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoMap(int)/body";
+"jOOQ_src_main_java_org_jooq_impl_ClobBinding.java/[CN]/ClobBinding/[MT]/get(BindingGetSQLInputContext<String>)/body";
+}
+subgraph cluster222 {
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/refreshUsing(TableField<R,?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/checkIfChanged(TableField<R,?>[])/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/storeUpdate(TableField<R,?>[])/body";
+}
+subgraph cluster211 {
+"jOOQ_src_main_java_org_jooq_tools_debug_impl_MatcherImpl.java/[CN]/MatcherImpl/[MT]/matchSQL(String)/body";
+"jOOQ_src_main_java_org_jooq_tools_debug_impl_MatcherImpl.java/[CN]/MatcherImpl/[MT]/matchThreadName(String)/body";
+"jOOQ_src_main_java_org_jooq_tools_debug_impl_MatcherImpl.java/[CN]/MatcherImpl/[MT]/matchCount(int)/body";
+}
+subgraph cluster380 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row17<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Prior.java/[CN]/Prior/[FE]/serialVersionUID";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/between(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[CS]/MetaImpl(Configuration)/body";
+}
+subgraph cluster448 {
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/addValue(StoreQuery<?>,Field<T>)/body";
+}
+subgraph cluster501 {
+"jOOQ_src_main_java_org_jooq_CSVFormat.java/[CN]/CSVFormat/[MT]/header(boolean)/body";
+"jOOQ_src_main_java_org_jooq_CSVFormat.java/[CN]/CSVFormat/[MT]/emptyString(String)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_postgres_PostgresRoutineDefinition.java/[CN]/PostgresRoutineDefinition/[CS]/PostgresRoutineDefinition(Database,Record)/body";
+}
+subgraph cluster139 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/createSequence(String)/body";
+}
+subgraph cluster268 {
+"jOOQ_src_main_java_org_jooq_impl_Cast.java/[CN]/Cast/[MT]/toSQL(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Cast.java/[CN]/Cast/[MT]/bind(BindContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Cast.java/[CN]/Cast/[MT]/asDecodeVarcharToBoolean(Configuration)/body";
+}
+subgraph cluster107 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultColumnDefinition.java/[CN]/DefaultColumnDefinition/[CS]/DefaultColumnDefinition(TableDefinition,String,int,DataTypeDefinition,boolean,String)/body";
+}
+subgraph cluster224 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/setField(Parameter<?>,Field<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/addInParameter(Parameter<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRoutine.java/[CN]/AbstractRoutine/[MT]/toSQLAssign(RenderContext)/body";
+"jOOQ-meta-extensions_src_main_java_org_jooq_util_jpa_JPADatabase.java/[CN]/JPADatabase/[MT]/create0()/parameters";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printFromAndInto(JavaWriter,TableDefinition)/body";
+}
+subgraph cluster230 {
+"jOOQ-codegen_src_main_java_org_jooq_util_GeneratorStrategyWrapper.java/[CN]/GeneratorStrategyWrapper/[MT]/getJavaMethodName(Definition,Mode)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_GeneratorStrategyWrapper.java/[CN]/GeneratorStrategyWrapper/[MT]/getJavaClassName(Definition,Mode)/body";
+}
+subgraph cluster421 {
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printConvenienceMethodProcedure(GenerationWriter,RoutineDefinition,boolean)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printConvenienceMethodFunctionAsField(GenerationWriter,RoutineDefinition,boolean)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printConvenienceMethodFunction(GenerationWriter,RoutineDefinition,boolean)/body";
+}
+subgraph cluster362 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/max(Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/min(Field<T>)/body";
+}
+subgraph cluster9 {
+"jOOQ_src_main_java_org_jooq_impl_Neg.java/[CN]/Neg/[MT]/toSQL(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Val.java/[CN]/Val/[MT]/shouldCast(RenderContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Expression.java/[CN]/Expression/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster339 {
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/set(Field<T>,Field<T>)/body";
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/set(Map<? extends Field<?>,?>)/body";
+}
+subgraph cluster178 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/derive(ExecuteListenerProvider)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row15<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15>)/body";
+}
+subgraph cluster247 {
+"jOOQ_src_main_java_org_jooq_impl_Right.java/[CN]/Right/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_Left.java/[CN]/Left/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster255 {
+"jOOQ_src_main_java_org_jooq_impl_Function.java/[CN]/Function/[MT]/bind(BindContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_Function.java/[CN]/Function/[MT]/toSQL(RenderContext)/body";
+}
+subgraph cluster350 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notLikeIgnoreCase(Field<String>,char)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/likeIgnoreCase(Field<String>,char)/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadJSON(File,CharsetDecoder)/body";
+"jOOQ_src_main_java_org_jooq_impl_Val.java/[CN]/Val/[MT]/toSQLCast(RenderContext)/body";
+}
+subgraph cluster201 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PGIntervalConverter.java/[CN]/PGIntervalConverter/[MT]/toPGInterval(DayToSecond)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printUniqueKey(JavaWriter,int,UniqueKeyDefinition)/body";
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/trace(Object,Object,Throwable)/body";
+"jOOQ_src_main_java_org_jooq_impl_FieldTypeHelper.java/[CN]/FieldTypeHelper/[MT]/pgFromString(Class<? extends T>,String)/body";
+}
+subgraph cluster359 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[CS]/Factory(Connection,SQLDialect)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[CS]/Factory(Connection,SQLDialect,Settings,org.jooq.SchemaMapping,Map<String,Object>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[CS]/Factory(Connection,SQLDialect,Settings)/body";
+}
+subgraph cluster456 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/count()/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/count(Field<?>)/body";
+}
+subgraph cluster481 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultIdentityDefinition.java/[CN]/DefaultIdentityDefinition/[MT]/getColumn()/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultTransactionProvider.java/[CN]/DefaultTransactionProvider/[MT]/begin(TransactionContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_InCondition.java/[CN]/InCondition/[MT]/toSQLSubValues(RenderContext,List<Field<?>>)/body";
+}
+subgraph cluster95 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatXML(Writer)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatHTML(Writer)/body";
+}
+subgraph cluster5 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultTransactionProvider.java/[CN]/DefaultTransactionProvider/[MT]/connection(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultTransactionProvider.java/[CN]/DefaultTransactionProvider/[MT]/brace(Configuration,boolean)/body";
+}
+subgraph cluster491 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateUDT(SchemaDefinition,UDTDefinition)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateRoutine(SchemaDefinition,RoutineDefinition)/body";
+}
+subgraph cluster47 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoArray(String,Converter<?,U>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoArray(Field<T>,Converter<? super T,U>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoArray(int,Converter<?,U>)/body";
+}
+subgraph cluster188 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row21<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV(Writer,char,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row22<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19,T20,T21,T22>)/body";
+}
+subgraph cluster261 {
+"jOOQ-console_src_main_java_org_jooq_debug_console_remote_messaging_MessagingInterface.java/[CN]/MessagingInterface/[MT]/syncSend(Message)/body";
+}
+subgraph cluster98 {
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/fieldsByName(String,String[])/body";
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/fields(int)/body";
+}
+subgraph cluster209 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateRoutines(SchemaDefinition)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitAnd(T)/body";
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/isInfoEnabled()/body";
+"jOOQ_src_main_java_org_jooq_impl_DSL.java/[CN]/DSL/[MT]/createView(String,String)/parameters";
+}
+subgraph cluster472 {
+"jOOQ_src_main_java_org_jooq_impl_Prior.java/[CN]/Prior/[FE]/field";
+}
+subgraph cluster413 {
+"jOOQ_src_main_java_org_jooq_impl_SQLQuery.java/[CN]/SQLQuery/[MT]/bind(BindContext)/body";
+"jOOQ_src_main_java_org_jooq_impl_SQLResultQuery.java/[CN]/SQLResultQuery/[MT]/bind(BindContext)/body";
+}
+subgraph cluster143 {
+"jOOQ_src_main_java_org_jooq_impl_Executor.java/[CN]/Executor/[MT]/fetchOne(ResultSet,Class<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Executor.java/[CN]/Executor/[MT]/fetchOne(ResultSet,Field<?>)/body";
+}
+subgraph cluster352 {
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/isTraceEnabled()/body";
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/warn(Object,Object)/body";
+"jOOQ_src_main_java_org_jooq_impl_BetweenCondition.java/[CN]/BetweenCondition/[MT]/and(T)/body";
+"jOOQ-meta-extensions_src_main_java_org_jooq_util_jpa_JPADatabase.java/[CN]/JPADatabase/extend";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/betweenSymmetric(Field<T>,Field<T>)/body";
+}
+subgraph cluster21 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultConfiguration.java/[CN]/DefaultConfiguration/[MT]/derive(SQLDialect)/body";
+}
+subgraph cluster13 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractResultQuery.java/[CN]/AbstractResultQuery/[MT]/fetchLazy(int)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_AbstractResultQuery.java/[CN]/AbstractResultQuery/[MT]/fetchLazy(int)/body";
+}
+subgraph cluster141 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/lessOrEqual(Select<? extends Record1<T>>)/body";
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row19<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18,T19>)/body";
+"jOOQ_src_main_java_org_jooq_impl_ThreadLocalTransactionProvider.java/[CN]/ThreadLocalTransactionProvider/[CS]/ThreadLocalTransactionProvider(ConnectionProvider,boolean)/body";
+}
+subgraph cluster77 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[FE]/cachedRenderFormatted";
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[FE]/cachedRenderKeywordStyle";
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[FE]/cachedRenderNameStyle";
+}
+subgraph cluster86 {
+"jOOQ_src_main_java_org_jooq_impl_RTrim.java/[CN]/RTrim/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_LTrim.java/[CN]/LTrim/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster183 {
+"jOOQ_src_main_java_org_jooq_CSVFormat.java/[CN]/CSVFormat/[MT]/delimiter(String)/body";
+}
+subgraph cluster453 {
+"jOOQ_src_main_java_org_jooq_impl_Function.java/[CN]/Function/[CS]/Function(String,boolean,DataType<T>,QueryPart)/body";
+"jOOQ_src_main_java_org_jooq_impl_Function.java/[CN]/Function/[CS]/Function(Term,boolean,DataType<T>,QueryPart)/body";
+}
+subgraph cluster277 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateRoutine(RoutineDefinition,JavaWriter)/body";
+"jOOQ_src_main_java_org_jooq_impl_JoinTable.java/[CN]/JoinTable/[MT]/simulateCrossJoin(RenderContext)/body";
+}
+subgraph cluster220 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayAppend(Field<T[]>,T)/body";
+}
+subgraph cluster331 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printIdentity(JavaWriter,int,IdentityDefinition)/body";
+}
+subgraph cluster267 {
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printRoutine(Database,SchemaDefinition,RoutineDefinition)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatCSV0(Object,CSVFormat)/body";
+}
+subgraph cluster278 {
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/types()/body";
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/dataTypes()/body";
+}
+subgraph cluster27 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayReplace(Field<T[]>,T,T)/body";
+"jOOQ-console_src_main_java_org_jooq_debug_console_EditorPane.java/[CN]/EditorPane/[MT]/getFilteredWords(int,String)/body";
+}
+subgraph cluster18 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateUDT(UDTDefinition,JavaWriter)/body";
+}
+subgraph cluster184 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/isTrue()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notIn(Collection<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/isFalse()/body";
+}
+subgraph cluster162 {
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printClassJavadoc(GenerationWriter,String,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_BatchSingle.java/[CN]/BatchSingle/[MT]/executePrepared()/body";
+}
+subgraph cluster379 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/filterExcludeInclude(List<T>,String[],String[],List<Filter>)/parameters";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractElementContainerDefinition.java/[CN]/AbstractElementContainerDefinition/[MT]/getElements()/body";
+}
+subgraph cluster196 {
+"jOOQ_src_main_java_org_jooq_impl_Round.java/[CN]/Round/[MT]/getFunction0(Configuration)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_DefaultGenerator.java/[CN]/DefaultGenerator/[MT]/printSingletonInstance(Definition,GenerationWriter)/body";
+}
+subgraph cluster290 {
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/notIn(Collection)/body";
+}
+subgraph cluster113 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/pattern(String)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/filterExcludeInclude(List<T>,String[],String[],List<Filter>)/body";
+}
+subgraph cluster488 {
+"jOOQ_src_main_java_org_jooq_impl_Least.java/[CN]/Least/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_Greatest.java/[CN]/Greatest/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster505 {
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadXML(File)/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadJSON(File,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_CreateTableImpl.java/[CN]/CreateTableImpl/[MT]/toSQLCreateTableName(Context<?>)/body";
+}
+subgraph cluster75 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/filterExcludeInclude(List<T>)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[CS]/AbstractDatabase()/body";
+}
+subgraph cluster306 {
+"jOOQ_src_main_java_org_jooq_impl_CreateTableImpl.java/[CN]/CreateTableImpl/[MT]/acceptCreateTableAsSelect(Context<?>)/body";
+}
+subgraph cluster398 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/values(Row18<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,T13,T14,T15,T16,T17,T18>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractTable.java/[CN]/AbstractTable/[MT]/join(TableLike<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_TableImpl.java/[CN]/TableImpl/[MT]/equals(Object)/body";
+}
+subgraph cluster396 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/printConvenienceMethodTableValuedFunction(JavaWriter,TableDefinition,String)/body";
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultArrayDefinition.java/[CN]/DefaultArrayDefinition/[MT]/getDefinitionPath()/body";
+}
+subgraph cluster60 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDefinition.java/[CN]/AbstractDefinition/[MT]/getQualifiedOutputName()/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDefinition.java/[CN]/AbstractDefinition/[MT]/getQualifiedInputName()/body";
+}
+subgraph cluster67 {
+"jOOQ_src_main_java_org_jooq_impl_Factory.java/[CN]/Factory/[MT]/setSavepoint()/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/addRecordTimestamp(StoreQuery<?>)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateUDTInterface(UDTDefinition)/body";
+}
+subgraph cluster169 {
+"jOOQ_src_main_java_org_jooq_impl_Euler.java/[CN]/Euler/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_Radians.java/[CN]/Radians/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster97 {
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/info(Object,Object,Throwable)/body";
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/warn(Object,Object,Throwable)/body";
+}
+subgraph cluster228 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/notIn(T)/body";
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/fields(Object[],Field<?>)/body";
+}
+subgraph cluster311 {
+"jOOQ_src_main_java_org_jooq_tools_JooqLogger.java/[CN]/JooqLogger/[MT]/trace(Object,Object)/body";
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadCSV(File,CharsetDecoder)/body";
+}
+subgraph cluster50 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractQuery.java/[CN]/AbstractQuery/[MT]/getSQL(ParamType)/body";
+"jOOQ_src_main_java_org_jooq_impl_Val.java/[CN]/Val/[MT]/getBindVariable(RenderContext)/body";
+}
+subgraph cluster325 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoGroups(int,int)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractTable.java/[CN]/AbstractTable/[MT]/naturalLeftOuterJoin(TableLike<?>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractTable.java/[CN]/AbstractTable/[MT]/naturalRightOuterJoin(TableLike<?>)/body";
+}
+subgraph cluster232 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultRenderContext.java/[CN]/DefaultRenderContext/[MT]/formatNewLine()/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/bitXor(Field<T>)/body";
+}
+subgraph cluster412 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayRemove(T[],T)/body";
+}
+subgraph cluster121 {
+"jOOQ-meta_src_main_java_org_jooq_util_ingres_IngresTableDefinition.java/[CN]/IngresTableDefinition/[MT]/getElements0()/body";
+}
+subgraph cluster280 {
+"jOOQ_src_main_java_org_jooq_impl_BatchMultiple.java/[CN]/BatchMultiple/[MT]/execute()/body";
+}
+subgraph cluster459 {
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getCatalogs()/body";
+"jOOQ-meta_src_main_java_org_jooq_util_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getSchemata()/body";
+}
+subgraph cluster219 {
+"jOOQ_src_main_java_org_jooq_impl_LoaderImpl.java/[CN]/LoaderImpl/[MT]/loadXML(File,String)/body";
+}
+subgraph cluster207 {
+"jOOQ_src_main_java_org_jooq_impl_Prior.java/[CN]/Prior/[CS]/Prior(Field<T>)/parameters";
+"jOOQ_src_main_java_org_jooq_impl_Prior.java/[CN]/Prior/extend";
+}
+subgraph cluster300 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/in(Field<?>)/body";
+}
+subgraph cluster367 {
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/formatXML()/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoXML()/body";
+}
+subgraph cluster33 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/in(Select<? extends Record1<T>>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/greaterThan(Select<? extends Record1<T>>)/body";
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[CN]/MetaTable/[MT]/getPrimaryKey()/body";
+}
+subgraph cluster79 {
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/getReturning()/body";
+"jOOQ_src_main_java_org_jooq_impl_TableRecordImpl.java/[CN]/TableRecordImpl/[MT]/getReturning()/parameters";
+}
+subgraph cluster435 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/fetchFromStringData(String[])/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/fetchFromStringData(List<String[]>)/body";
+}
+subgraph cluster319 {
+"jOOQ_src_main_java_org_jooq_impl_MetaImpl.java/[CN]/MetaImpl/[MT]/getCatalogs()/body";
+"jOOQ_src_main_java_org_jooq_impl_MergeImpl.java/[CN]/MergeImpl/[MT]/key(Collection<? extends Field<?>>)/body";
+}
+subgraph cluster340 {
+"jOOQ-meta_src_main_java_org_jooq_util_postgres_PostgresTableValuedFunction.java/[CN]/PostgresTableValuedFunction/[MT]/getElements0()/body";
+}
+subgraph cluster250 {
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateRecord(Definition,JavaWriter)/body";
+"jOOQ_src_main_java_org_jooq_impl_ResultImpl.java/[CN]/ResultImpl/[MT]/intoGroups(Field<K>)/body";
+"jOOQ-codegen_src_main_java_org_jooq_util_JavaGenerator.java/[CN]/JavaGenerator/[MT]/generateTable(TableDefinition,JavaWriter)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDataType.java/[CN]/DefaultDataType/[CS]/DefaultDataType(SQLDialect,DataType<T>,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_RowImpl.java/[CN]/RowImpl/[MT]/greaterThan(Select)/body";
+}
+subgraph cluster509 {
+"jOOQ_src_main_java_org_jooq_impl_ParamCollector.java/[CN]/ParamCollector/[MT]/bindInternal(QueryPartInternal)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/extractParams0(QueryPart,boolean)/body";
+}
+subgraph cluster293 {
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/getAnnotatedSetters(Configuration,Class<?>,String)/body";
+"jOOQ_src_main_java_org_jooq_impl_Utils.java/[CN]/Utils/[MT]/getAnnotatedMembers(Configuration,Class<?>,String)/body";
+}
+subgraph cluster173 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractField.java/[CN]/AbstractField/[MT]/lessThan(Field<T>)/body";
+}
+subgraph cluster175 {
+"jOOQ_src_main_java_org_jooq_impl_Sqrt.java/[CN]/Sqrt/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_Acos.java/[CN]/Acos/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster358 {
+"jOOQ_src_main_java_org_jooq_impl_DefaultDSLContext.java/[CN]/DefaultDSLContext/[MT]/alterSequence(String)/body";
+"jOOQ_src_main_java_org_jooq_impl_Ln.java/[CN]/Ln/[MT]/getFunction0(Configuration)/body";
+}
+subgraph cluster193 {
+"jOOQ_src_main_java_org_jooq_impl_Extract.java/[CN]/Extract/[MT]/getFunction0(Configuration)/body";
+"jOOQ_src_main_java_org_jooq_impl_DefaultExecuteListenerProvider.java/[CN]/DefaultExecuteListenerProvider/[MT]/provide()/body";
+}
+subgraph cluster41 {
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[CN]/TransferRecordState/[MT]/operate(R)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/intoRecord(Class<R>)/body";
+"jOOQ_src_main_java_org_jooq_impl_AbstractRecord.java/[CN]/AbstractRecord/[MT]/into(Table<R>)/body";
+}
+subgraph cluster302 {
+"jOOQ-meta_src_main_java_org_jooq_util_DefaultIdentityDefinition.java/[CN]/DefaultIdentityDefinition/extend";
+}
+subgraph cluster134 {
+"jOOQ_src_main_java_org_jooq_util_postgres_PostgresDSL.java/[CN]/PostgresDSL/[MT]/arrayPrepend(Field<T>,T[])/body";
+}
+subgraph cluster469 {
+"jOOQ_src_main_java_org_jooq_impl_ThreadLocalTransactionProvider.java/[CN]/ThreadLocalTransactionProvider/[MT]/configurations()/body";
+}
+}
