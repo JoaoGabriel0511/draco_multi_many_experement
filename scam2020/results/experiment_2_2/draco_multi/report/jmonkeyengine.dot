@@ -1,0 +1,2031 @@
+
+
+
+
+digraph {
+subgraph cluster190 {
+"engine_src_core_com_jme3_audio_plugins_WAVLoader.java/[CN]/WAVLoader/[MT]/readFormatChunk(int)/body";
+"engine_src_core_com_jme3_audio_plugins_WAVLoader.java/[CN]/WAVLoader/[MT]/readDataChunkForBuffer(int)/body";
+}
+subgraph cluster69 {
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[MT]/getOpenGLVersion(EGLConfig,EGLDisplay,EGL10)/body";
+}
+subgraph cluster391 {
+"jme3-lwjgl3_src_main_java_com_jme3_audio_lwjgl_LwjglALC.java/[CN]/LwjglALC/[MT]/alcIsExtensionPresent(String)/body";
+}
+subgraph cluster402 {
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_AngelFontVisualPanel2.java/[CN]/AngelFontVisualPanel2/[MT]/setFont(String)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_multiview_widgets_TexturePanel.java/[CN]/TexturePanel/[MT]/readProperty()/body";
+"sdk_jme3-assetpack-support_src_com_jme3_gde_assetpack_actions_AddToProjectAction.java/[CN]/AddToProjectAction/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster305 {
+"engine_src_core_com_jme3_app_SimpleApplication.java/[CN]/SimpleApplication/[MT]/initialize()/body";
+"engine_src_core_com_jme3_post_FilterPostProcessor.java/[CN]/FilterPostProcessor/[MT]/initFilter(Filter,ViewPort)/body";
+}
+subgraph cluster109 {
+"jme3-core_src_main_java_com_jme3_scene_Spatial.java/[CN]/Spatial/[MT]/oldClone(boolean)/body";
+"jme3-core_src_main_java_com_jme3_scene_Spatial.java/[CN]/Spatial/[MT]/read(JmeImporter)/body";
+"jme3-core_src_main_java_com_jme3_scene_Spatial.java/[CN]/Spatial/[MT]/write(JmeExporter)/body";
+}
+subgraph cluster406 {
+"engine_src_desktop_com_jme3_app_state_VideoRecorderAppState.java/[CN]/VideoRecorderAppState/[CN]/VideoProcessor/[MT]/cleanup()/body";
+"engine_src_desktop_com_jme3_app_state_VideoRecorderAppState.java/[CN]/VideoRecorderAppState/[CN]/VideoProcessor/[MT]/postFrame(FrameBuffer)/body";
+}
+subgraph cluster142 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainToolController.java/[CN]/TerrainToolController/[MT]/doTerrainEditToolActivated()/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/initComponents()/body";
+}
+subgraph cluster168 {
+"engine_src_jogl_com_jme3_audio_joal_JoalAudioRenderer.java/[CN]/JoalAudioRenderer/[MT]/initInThread()/body";
+"jme3-desktop_src_main_java_com_jme3_system_NativeLibraryLoader.java/[CN]/NativeLibraryLoader/[MT]/registerNativeLibrary(String,Platform,String)/body";
+}
+subgraph cluster46 {
+"engine_src_desktop_com_jme3_system_awt_AwtPanel.java/[CN]/AwtPanel/[MT]/drawFrameInThread()/body";
+"engine_src_desktop_com_jme3_system_awt_AwtPanel.java/[CN]/AwtPanel/[MT]/addNotify()/body";
+}
+subgraph cluster96 {
+"engine_src_ogre_com_jme3_scene_plugins_ogre_MeshLoader.java/[CN]/MeshLoader/[MT]/startDocument()/body";
+"engine_src_ogre_com_jme3_scene_plugins_ogre_MeshLoader.java/[CN]/MeshLoader/[MT]/endBoneAssigns()/body";
+}
+subgraph cluster367 {
+"jme3-terrain_src_main_java_com_jme3_terrain_geomipmap_TerrainPatch.java/[CN]/TerrainPatch/[MT]/cloneFields(Cloner,Object)/body";
+}
+subgraph cluster27 {
+"engine_src_blender_com_jme3_scene_plugins_blender_BlenderContext.java/[CN]/BlenderContext/[MT]/getMeshContext(Long)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_BlenderContext.java/[CN]/BlenderContext/[MT]/setMeshContext(Long,MeshContext)/body";
+}
+subgraph cluster48 {
+"engine_src_jbullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/addGhostObject(PhysicsGhostObject)/body";
+"engine_src_jbullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/addCharacter(PhysicsCharacter)/body";
+"engine_src_jbullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/removeGhostObject(PhysicsGhostObject)/body";
+"engine_src_bullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/addGhostObject(PhysicsGhostObject)/body";
+"engine_src_bullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/removeCharacter(PhysicsCharacter)/body";
+}
+subgraph cluster209 {
+"engine_src_blender_com_jme3_scene_plugins_blender_textures_UVCoordinatesGenerator.java/[CN]/UVCoordinatesGenerator/[MT]/getBoundingTube(Mesh)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_textures_UVProjectionGenerator.java/[CN]/UVProjectionGenerator/[MT]/tubeProjection(Mesh,BoundingTube)/body";
+}
+subgraph cluster5 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[CN]/TextureTableModel/[MT]/initModel()/body";
+}
+subgraph cluster394 {
+"engine_src_core-plugins_com_jme3_texture_plugins_TGALoader.java/[CN]/TGALoader/[MT]/load(AssetInfo)/body";
+"engine_src_core-plugins_com_jme3_texture_plugins_TGALoader.java/[CN]/TGALoader/[MT]/load(InputStream,boolean)/body";
+}
+subgraph cluster488 {
+"jme3-bullet_src_common_java_com_jme3_bullet_control_KinematicRagdollControl.java/[CN]/KinematicRagdollControl/[MT]/ikUpdate(float)/body";
+"jme3-bullet_src_common_java_com_jme3_bullet_control_KinematicRagdollControl.java/[CN]/KinematicRagdollControl/[MT]/update(float)/body";
+}
+subgraph cluster85 {
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/equals(Object)/body";
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/set(RenderState)/body";
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/toString()/body";
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/copyMergedTo(RenderState,RenderState)/body";
+}
+subgraph cluster244 {
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_NotifyUtil.java/[CN]/NotifyUtil/[MT]/info(String,String,boolean)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_NotifyUtil.java/[CN]/NotifyUtil/[MT]/plain(String,String,boolean)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_textures_UVProjectionGenerator.java/[CN]/UVProjectionGenerator/[MT]/tubeProjection(Mesh,BoundingTube)/parameters";
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_MessageUtil.java/[CN]/MessageUtil/[MT]/showException(String,Throwable)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_NotifyUtil.java/[CN]/NotifyUtil/[MT]/info(String,String)/body";
+}
+subgraph cluster169 {
+"jme3-android-examples_src_main_java_org_jmonkeyengine_jme3androidexamples_MainActivity.java/[CN]/MainActivity/[MT]/onSaveInstanceState(Bundle)/body";
+"jme3-android-examples_src_main_java_org_jmonkeyengine_jme3androidexamples_MainActivity.java/[CN]/MainActivity/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster120 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_OutBusPanel.java/[CN]/OutBusPanel/[MT]/paintComponent(Graphics)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_ConnectionCurve.java/[CN]/ConnectionCurve/[MT]/paintComponent(Graphics)/body";
+}
+subgraph cluster472 {
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onDestroy()/body";
+}
+subgraph cluster371 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerTopComponent.java/[CN]/SceneComposerTopComponent/[MT]/selectSpatial(JmeSpatial)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_SceneApplication.java/[CN]/SceneApplication/[MT]/closeScene(SceneRequest)/body";
+}
+subgraph cluster218 {
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_meshes_Face.java/[CN]/Face/[MT]/findClosestVertex(int,int)/body";
+"engine_src_core_com_jme3_material_Material.java/[CN]/Material/[MT]/setTextureParam(String,VarType,Texture)/body";
+}
+subgraph cluster435 {
+"jme3-core_src_main_java_com_jme3_shadow_PointLightShadowRenderer.java/[CN]/PointLightShadowRenderer/[MT]/getOccludersToRender(int,GeometryList)/body";
+}
+subgraph cluster234 {
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_ObjectAnimationModifier.java/[CN]/ObjectAnimationModifier/[MT]/apply(Node,BlenderContext)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_ArmatureModifier.java/[CN]/ArmatureModifier/[CS]/ArmatureModifier(Structure,Structure,BlenderContext)/body";
+}
+subgraph cluster9 {
+"jme3-lwjgl3_src_main_java_com_jme3_audio_lwjgl_LwjglALC.java/[CN]/LwjglALC/[MT]/createALC()/body";
+"jme3-lwjgl3_src_main_java_com_jme3_audio_lwjgl_LwjglALC.java/[CN]/LwjglALC/[MT]/alcDeviceResumeSOFT()/body";
+"engine_src_niftygui_com_jme3_niftygui_InputSystemJme.java/[CN]/InputSystemJme/[MT]/onMouseMotionEventQueued(MouseMotionEvent,NiftyInputConsumer)/body";
+}
+subgraph cluster15 {
+"engine_src_networking_com_jme3_network_base_DefaultServer.java/[CN]/DefaultServer/[MT]/connectionClosed(Endpoint)/body";
+"engine_src_networking_com_jme3_network_kernel_udp_UdpKernel.java/[CN]/UdpKernel/[MT]/closeEndpoint(UdpEndpoint)/body";
+}
+subgraph cluster351 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/deleteFrameBuffer(FrameBuffer)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/updateTexImageData(Image,Texture.Type,int)/body";
+}
+subgraph cluster375 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/convertTextureType(Texture.Type,int,int)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_JmeTerrainGrid.java/[CN]/JmeTerrainGrid/[MT]/tileDetached(Vector3f,TerrainQuad)/body";
+}
+subgraph cluster210 {
+"jme3-core_src_main_java_com_jme3_material_TechniqueDef.java/[CN]/TechniqueDef/[MT]/setShaderFile(EnumMap<Shader.ShaderType,String>,EnumMap<Shader.ShaderType,String>)/body";
+}
+subgraph cluster147 {
+"jme3-desktop_src_main_java_com_jme3_system_NativeLibraryLoader.java/[CN]/NativeLibraryLoader/[MT]/loadNativeLibrary(String,boolean)/body";
+}
+subgraph cluster410 {
+"engine_src_core_com_jme3_post_FilterPostProcessor.java/[CN]/FilterPostProcessor/[MT]/initialize(RenderManager,ViewPort)/body";
+}
+subgraph cluster160 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/setNormalMap(int,Texture)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/setDiffuseTexture(int,Texture)/body";
+"jme3-lwjgl_src_main_java_com_jme3_opencl_lwjgl_LwjglKernel.java/[CN]/LwjglKernel/[MT]/setArg(int,Matrix4f)/body";
+}
+subgraph cluster458 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/multipleTexNorthLoadButtonActionPerformed(java.awt.event.ActionEvent)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/multipleTexTopLoadButtonActionPerformed(java.awt.event.ActionEvent)/body";
+}
+subgraph cluster328 {
+"engine_src_core_com_jme3_input_ChaseCamera.java/[CN]/ChaseCamera/[FE]/ChaseCamZoomIn";
+"engine_src_core_com_jme3_post_FilterPostProcessor.java/[CN]/FilterPostProcessor/[MT]/renderProcessing(Renderer,FrameBuffer,Material)/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_lodcalc_PerspectiveLodCalculator.java/[CN]/PerspectiveLodCalculator/[MT]/turnOffLod()/body";
+}
+subgraph cluster266 {
+"engine_src_jbullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/addJoint(PhysicsJoint)/body";
+}
+subgraph cluster112 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerTopComponent.java/[CN]/SceneComposerTopComponent/[MT]/setSceneInfo(JmeNode,FileObject,boolean)/body";
+}
+subgraph cluster111 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_NodePanel.java/[CN]/NodePanel/[MT]/paintComponent(Graphics)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_NodePanel.java/[CN]/NodePanel/[MT]/mousePressed(MouseEvent)/body";
+}
+subgraph cluster50 {
+"sdk_jme3-welcome-screen_src_com_jme3_gde_welcome_WelcomeScreenTopComponent.java/[CN]/WelcomeScreenTopComponent/[MT]/initComponents()/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainPatch.java/[CN]/TerrainPatch/[MT]/getHeightMap()/body";
+}
+subgraph cluster257 {
+"jme3-core_src_main_java_com_jme3_renderer_RenderManager.java/[CN]/RenderManager/[MT]/renderGeometry(Geometry)/body";
+"jme3-lwjgl3_src_main_java_com_jme3_system_lwjgl_LwjglWindow.java/[CN]/LwjglWindow/[MT]/runLoop()/body";
+}
+subgraph cluster225 {
+"jme3-android_src_main_java_com_jme3_system_android_OGLESContext.java/[CN]/OGLESContext/[MT]/onDrawFrame(GL10)/body";
+"engine_src_core_com_jme3_font_Letters.java/[CN]/Letters/[MT]/setText(String)/body";
+}
+subgraph cluster103 {
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/checkBlenderFolders()/body";
+}
+subgraph cluster360 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainGrid.java/[CN]/TerrainGrid/[MT]/updateChildrens(Vector3f)/body";
+}
+subgraph cluster316 {
+"engine_src_core_com_jme3_animation_SkeletonControl.java/[CN]/SkeletonControl/[MT]/controlRender(RenderManager,ViewPort)/body";
+}
+subgraph cluster22 {
+"engine_src_core_com_jme3_effect_ParticleEmitter.java/[CN]/ParticleEmitter/[CN]/ParticleEmitterControl/[MT]/render(RenderManager,ViewPort)/body";
+}
+subgraph cluster170 {
+"engine_src_core_com_jme3_shader_Uniform.java/[CN]/Uniform/[MT]/setValue(VarType,Object)/body";
+}
+subgraph cluster404 {
+"engine_src_networking_com_jme3_network_kernel_tcp_SelectorKernel.java/[CN]/SelectorKernel/[MT]/closeEndpoint(NioEndpoint)/body";
+"sdk_jme3-blender_src_com_jme3_gde_blender_scripts_import__3ds.py/[MT]/main/body";
+}
+subgraph cluster148 {
+"jme3-lwjgl3_src_main_java_com_jme3_audio_lwjgl_LwjglALC.java/[CN]/LwjglALC/[MT]/alcGetInteger(int,IntBuffer,int)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_constraints_ConstraintHelper.java/[CN]/ConstraintHelper/[MT]/applyTransform(Long,String,Space,Transform)/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_constraints_definitions_ConstraintDefinitionIK.java/[CN]/ConstraintDefinitionIK/[MT]/bake(Space,Space,Transform,float)/body";
+}
+subgraph cluster478 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_MatDefEditorlElement.java/[CN]/MatDefEditorlElement/[MT]/refresh()/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_MatDefEditorToolBar.java/[CN]/MatDefEditorToolBar/[MT]/addTechnique(List<TechniqueBlock>)/body";
+"engine_src_networking_com_jme3_network_base_DefaultClient.java/[CN]/DefaultClient/[MT]/close()/body";
+}
+subgraph cluster491 {
+"engine_src_desktop_com_jme3_system_awt_AwtPanel.java/[CN]/AwtPanel/[MT]/removeNotify()/body";
+"engine_src_desktop_com_jme3_system_awt_AwtPanel.java/[CN]/AwtPanel/[MT]/reshapeInThread(int,int)/body";
+"engine_src_desktop_com_jme3_input_awt_AwtMouseInput.java/[CN]/AwtMouseInput/[MT]/update()/body";
+}
+subgraph cluster183 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/renderMesh(Mesh,int,int)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/renderMeshVertexArray(Mesh,int,int)/body";
+}
+subgraph cluster95 {
+"jme3-core_src_main_java_com_jme3_material_Material.java/[CN]/Material/[MT]/renderMultipassLighting(Shader,Geometry,LightList,RenderManager)/body";
+"jme3-core_src_main_java_com_jme3_material_Material.java/[CN]/Material/[MT]/updateLightListUniforms(Shader,Geometry,LightList,int,RenderManager,int)/body";
+}
+subgraph cluster108 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/doSmoothTerrain(Vector3f,float,float)/parameters";
+}
+subgraph cluster499 {
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[MT]/findConfig(EGL10,EGLDisplay)/body";
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[CS]/AndroidConfigChooser(ConfigType)/body";
+}
+subgraph cluster49 {
+"engine_src_core_com_jme3_shadow_PssmShadowRenderer.java/[CN]/PssmShadowRenderer/[FE]/fadeLength";
+}
+subgraph cluster319 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneEditTool.java/[CN]/SceneEditTool/[MT]/doUpdateToolsTransformation()/body";
+}
+subgraph cluster285 {
+"jme3-core_src_main_java_com_jme3_light_DirectionalLight.java/[CN]/DirectionalLight/[CS]/DirectionalLight(Vector3f)/body";
+}
+subgraph cluster104 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[CN]/TerrainSaveCookie/[MT]/save()/body";
+}
+subgraph cluster132 {
+"jme3-core_src_main_java_com_jme3_audio_openal_ALAudioRenderer.java/[CN]/ALAudioRenderer/[MT]/updateInRenderThread(float)/body";
+}
+subgraph cluster231 {
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_UberAssetLocator.java/[CN]/UberAssetLocator/[MT]/locate(AssetManager,AssetKey)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/multipleTexSouthLoadButtonActionPerformed(java.awt.event.ActionEvent)/body";
+"engine_src_core_com_jme3_audio_plugins_WAVLoader.java/[CN]/WAVLoader/[MT]/load(AssetInfo)/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainGrid.java/[CN]/TerrainGrid/[MT]/update(List<Vector3f>,LodCalculator)/body";
+}
+subgraph cluster217 {
+"engine_src_core-plugins_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/load(AssetInfo)/body";
+"engine_src_ogre_com_jme3_scene_plugins_ogre_SceneLoader.java/[CN]/SceneLoader/[MT]/load(AssetInfo)/body";
+"engine_src_core-plugins_com_jme3_scene_plugins_MTLLoader.java/[CN]/MTLLoader/[MT]/load(AssetInfo)/body";
+}
+subgraph cluster166 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainGrid.java/[CN]/TerrainGrid/[MT]/read(JmeImporter)/body";
+}
+subgraph cluster414 {
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[MT]/ConfigType(int,int,int,int,int,int,int,int,int,int,int,int)/parameters";
+}
+subgraph cluster89 {
+"engine_src_niftygui_com_jme3_niftygui_RenderDeviceJme.java/[CN]/RenderDeviceJme/[MT]/renderFont(RenderFont,String,int,int,Color,float,float)/parameters";
+}
+subgraph cluster39 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ProjectAssetManager.java/[CN]/ProjectAssetManager/[MT]/getMaterials()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ProjectAssetManager.java/[CN]/ProjectAssetManager/[MT]/getTextures()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ProjectAssetManager.java/[CN]/ProjectAssetManager/[MT]/getSounds()/body";
+}
+subgraph cluster398 {
+"engine_src_core_com_jme3_input_ChaseCamera.java/[CN]/ChaseCamera/[FE]/ChaseCamMoveRight";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneviewer_SceneViewerTopComponent.java/[CN]/SceneViewerTopComponent/[MT]/initComponents()/body";
+}
+subgraph cluster388 {
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/parseTextureOptions(List<String>)/body";
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/parseTextureType(VarType,String)/body";
+}
+subgraph cluster177 {
+"sdk_jme3-core_src_com_jme3_gde_core_completion_AssetCompletionProvider.java/[CN]/AssetCompletionProvider/[MT]/determineType(Document,int)/body";
+}
+subgraph cluster492 {
+"sdk_jme3-core_src_com_jme3_gde_core_properties_SceneExplorerProperty.java/[CN]/SceneExplorerProperty/[MT]/syncValue()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_properties_SceneExplorerProperty.java/[CN]/SceneExplorerProperty/[MT]/setValue(T)/body";
+}
+subgraph cluster36 {
+"engine_src_core_com_jme3_input_ChaseCamera.java/[CN]/ChaseCamera/[FE]/ChaseCamZoomOut";
+"engine_src_core_com_jme3_input_ChaseCamera.java/[CN]/ChaseCamera/[FE]/ChaseCamMoveLeft";
+}
+subgraph cluster59 {
+"engine_src_core_com_jme3_cinematic_events_AbstractCinematicEvent.java/[CN]/AbstractCinematicEvent/[MT]/play()/body";
+"engine_src_core_com_jme3_cinematic_events_AbstractCinematicEvent.java/[CN]/AbstractCinematicEvent/[MT]/internalUpdate(float)/body";
+"engine_src_core_com_jme3_cinematic_events_AbstractCinematicEvent.java/[CN]/AbstractCinematicEvent/[MT]/pause()/body";
+}
+subgraph cluster460 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_multiview_widgets_TexturePanel.java/[CN]/TexturePanel/[MT]/cleanUp()/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_multiview_widgets_TexturePanel.java/[CN]/TexturePanel/[MT]/displayPreview()/body";
+}
+subgraph cluster252 {
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/runBlender()/body";
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/getBlenderRootFolder()/body";
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/getBlenderExecutable()/body";
+"sdk_jme3-blender_src_com_jme3_gde_blender_OutputReader.java/[CN]/OutputReader/[MT]/run()/body";
+}
+subgraph cluster215 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerTopComponent.java/[CN]/SceneComposerTopComponent/[MT]/sceneOpened(SceneRequest)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerToolController.java/[CN]/SceneComposerToolController/[MT]/cleanup()/body";
+}
+subgraph cluster466 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainQuad.java/[CN]/TerrainQuad/[MT]/createQuadPatch(float[])/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_BlenderLoader.java/[CN]/BlenderLoader/[MT]/load(AssetInfo)/body";
+}
+subgraph cluster282 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/printRealFrameBufferInfo(FrameBuffer)/body";
+}
+subgraph cluster273 {
+"sdk_jme3-core_src_com_jme3_gde_core_properties_SceneExplorerProperty.java/[CN]/SceneExplorerProperty/[MT]/getValue()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_properties_SceneExplorerProperty.java/[CN]/SceneExplorerProperty/[MT]/notifyListeners(String,Object,Object)/body";
+}
+subgraph cluster1 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_SelectTool.java/[CN]/SelectTool/[MT]/clearState(boolean)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_SelectTool.java/[CN]/SelectTool/[MT]/doMouseScale(Vector3f,Vector2f,JmeNode,JmeSpatial)/body";
+}
+subgraph cluster74 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/getEnvMapType()/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[FE]/mapTypeCombo";
+}
+subgraph cluster86 {
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/setMainFrameBufferSrgb(boolean)/body";
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/setMainFrameBufferSrgb(boolean)/parameters";
+}
+subgraph cluster21 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_SceneToolController.java/[CN]/SceneToolController/[MT]/attachSelectionShape(Spatial)/body";
+}
+subgraph cluster93 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_SelectTool.java/[CN]/SelectTool/[MT]/duplicateSelected()/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_ArmatureModifier.java/[CN]/ArmatureModifier/[MT]/apply(Node,DataRepository)/body";
+}
+subgraph cluster242 {
+"engine_src_bullet_com_jme3_bullet_collision_shapes_HullCollisionShape.java/[CN]/HullCollisionShape/[MT]/createShape()/body";
+"engine_src_bullet_com_jme3_bullet_util_NativeMeshUtil.java/[CN]/NativeMeshUtil/[MT]/getTriangleIndexVertexArray(Mesh)/body";
+}
+subgraph cluster43 {
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[CN]/KillParticleControl/[MT]/controlUpdate(float)/body";
+}
+subgraph cluster159 {
+"engine_src_blender_com_jme3_scene_plugins_blender_helpers_v249_MaterialHelper.java/[CN]/MaterialHelper/[MT]/getParticlesMaterial(Material,Integer,DataRepository)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_helpers_v249_MaterialHelper.java/[CN]/MaterialHelper/[CS]/MaterialHelper(String)/body";
+}
+subgraph cluster37 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/initialize()/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/updateFrameBuffer(FrameBuffer)/body";
+}
+subgraph cluster480 {
+"sdk_jme3-core_src_com_jme3_gde_core_j2seproject_ProjectExtensionManager.java/[CN]/ProjectExtensionManager/[MT]/removeExtension(Project)/body";
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/getUserScriptsEnv()/body";
+}
+subgraph cluster439 {
+"jme3-android-examples_src_main_java_org_jmonkeyengine_jme3androidexamples_MainActivity.java/[CN]/MainActivity/[MT]/onClick(View)/body";
+}
+subgraph cluster4 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/convertShaderType(Shader.ShaderType)/body";
+}
+subgraph cluster165 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/extractNativeLib(String,String,boolean)/body";
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[MT]/getAtlasTexture(String)/body";
+}
+subgraph cluster366 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[FE]/extractionDir";
+}
+subgraph cluster32 {
+"engine_src_android_com_jme3_renderer_android_TextureUtil.java/[CN]/TextureUtil/[MT]/uploadTextureBitmap(int,Bitmap,boolean,boolean,int,int)/body";
+"engine_src_core_com_jme3_animation_AnimChannel.java/[CN]/AnimChannel/[MT]/setAnim(String,float)/body";
+}
+subgraph cluster511 {
+"engine_src_blender_com_jme3_scene_plugins_blender_textures_CombinedTexture.java/[CN]/CombinedTexture/[MT]/flatten(Geometry,Long,List<Vector2f>,BlenderContext)/body";
+}
+subgraph cluster105 {
+"engine_src_desktop_com_jme3_asset_DesktopAssetManager.java/[CN]/DesktopAssetManager/[MT]/removeClassLoader(ClassLoader)/body";
+"engine_src_desktop_com_jme3_asset_DesktopAssetManager.java/[CN]/DesktopAssetManager/[MT]/addClassLoader(ClassLoader)/body";
+}
+subgraph cluster180 {
+"engine_src_lwjgl-ogl_com_jme3_system_lwjgl_LwjglCanvas.java/[CN]/LwjglCanvas/[MT]/makePbufferAvailable()/body";
+"engine_src_lwjgl-ogl_com_jme3_system_lwjgl_LwjglCanvas.java/[CN]/LwjglCanvas/[MT]/destroyContext()/body";
+}
+subgraph cluster421 {
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/onScaleEnd(ScaleGestureDetector)/body";
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/generateEvents()/body";
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/onFling(MotionEvent,MotionEvent,float,float)/body";
+}
+subgraph cluster131 {
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglGL1Renderer.java/[CN]/LwjglGL1Renderer/[MT]/updateTexImageData(Image,Texture.Type,int)/body";
+"engine_src_core_com_jme3_app_state_AppStateManager.java/[CN]/AppStateManager/[MT]/cleanup()/body";
+}
+subgraph cluster14 {
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[MT]/addTexture(Texture,String)/body";
+"engine_src_core_com_jme3_effect_ParticleEmitter.java/[CN]/ParticleEmitter/[CN]/ParticleEmitterControl/[MT]/setEnabled(boolean)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_properties_TextureBrowser.java/[CN]/TextureBrowser/[MT]/setSelectedTexture(Texture)/body";
+"engine_src_lwjgl_com_jme3_input_lwjgl_JInputJoyInput.java/[CN]/JInputJoyInput/[CN]/JInputJoystick/[MT]/addButton(Component)/body";
+}
+subgraph cluster114 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/getNumDiffuseTextures()/body";
+}
+subgraph cluster301 {
+"engine_src_core-plugins_com_jme3_scene_plugins_MTLLoader.java/[CN]/MTLLoader/[MT]/skipLine()/body";
+"engine_src_core-plugins_com_jme3_scene_plugins_OBJLoader.java/[CN]/OBJLoader/[MT]/nextStatement()/body";
+}
+subgraph cluster61 {
+"engine_src_core_com_jme3_post_FilterPostProcessor.java/[CN]/FilterPostProcessor/[MT]/updateLastFilterIndex()/body";
+"engine_src_android_com_jme3_asset_AndroidImageInfo.java/[CN]/AndroidImageInfo/[FE]/bitmap";
+}
+subgraph cluster373 {
+"engine_src_bullet_com_jme3_bullet_collision_shapes_HeightfieldCollisionShape.java/[CN]/HeightfieldCollisionShape/[MT]/createShape()/body";
+"engine_src_lwjgl_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/applyRenderState(RenderState)/body";
+}
+subgraph cluster298 {
+"engine_src_android_com_jme3_audio_android_AndroidAudioRenderer.java/[CN]/AndroidAudioRenderer/[MT]/deleteAudioData(AudioData)/body";
+}
+subgraph cluster272 {
+"jme3-core_src_main_java_com_jme3_texture_image_DefaultImageRaster.java/[CN]/DefaultImageRaster/[MT]/getPixel(int,int,ColorRGBA)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_impl_NewGeometrySphereAction.java/[CN]/NewGeometrySphereAction/[MT]/doCreateSpatial(Node)/body";
+}
+subgraph cluster196 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/applyRenderState(RenderState)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/convertFormat(VertexBuffer.Format)/body";
+}
+subgraph cluster184 {
+"jme3-terrain_src_main_java_com_jme3_terrain_geomipmap_TerrainQuad.java/[CN]/TerrainQuad/[MT]/cloneFields(Cloner,Object)/body";
+}
+subgraph cluster188 {
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/copyFrameBuffer(FrameBuffer,FrameBuffer,boolean)/body";
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/updateRenderBuffer(FrameBuffer,RenderBuffer)/body";
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/setupTextureParams(Texture)/body";
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/updateShaderData(Shader)/body";
+}
+subgraph cluster243 {
+"engine_src_android_com_jme3_input_android_AndroidSensorJoyInput.java/[CN]/AndroidSensorJoyInput/[MT]/pauseSensors()/body";
+}
+subgraph cluster471 {
+"jme3-core_src_main_java_com_jme3_audio_openal_ALAudioRenderer.java/[CN]/ALAudioRenderer/[MT]/fillStreamingSource(int,AudioStream,boolean)/body";
+"jme3-core_src_main_java_com_jme3_audio_AudioStream.java/[CN]/AudioStream/[MT]/setTime(float)/body";
+"jme3-core_src_main_java_com_jme3_audio_openal_ALAudioRenderer.java/[CN]/ALAudioRenderer/[MT]/updateInDecoderThread(float)/body";
+}
+subgraph cluster106 {
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[CN]/BaseConfigChooser/[MT]/chooseConfig(EGL10,EGLDisplay)/body";
+}
+subgraph cluster452 {
+"jme3-lwjgl3_src_main_java_com_jme3_input_lwjgl_GlfwKeyInput.java/[CN]/GlfwKeyInput/[MT]/destroy()/body";
+"engine_src_core_com_jme3_util_SkyFactory.java/[CN]/SkyFactory/[MT]/createSky(AssetManager,Texture,Vector3f,boolean)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_objects_ObjectHelper.java/[CN]/ObjectHelper/[MT]/toObject(Structure,BlenderContext)/body";
+}
+subgraph cluster129 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_ScaleTool.java/[CN]/ScaleTool/[MT]/draggedSecondary(Vector2f,boolean,JmeNode,DataObject)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_ScaleTool.java/[CN]/ScaleTool/[MT]/actionSecondary(Vector2f,boolean,JmeNode,DataObject)/body";
+}
+subgraph cluster40 {
+"engine_src_ogre_com_jme3_scene_plugins_ogre_SceneLoader.java/[CN]/SceneLoader/[MT]/parseLightAttenuation(Attributes)/body";
+"engine_src_ogre_com_jme3_scene_plugins_ogre_SceneLoader.java/[CN]/SceneLoader/[MT]/endElement(String,String,String)/body";
+"engine_src_ogre_com_jme3_scene_plugins_ogre_SceneLoader.java/[CN]/SceneLoader/[MT]/parseLight(Attributes)/body";
+}
+subgraph cluster500 {
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/isApplyBlendEquation()/parameters";
+"engine_src_ogre_com_jme3_scene_plugins_ogre_MaterialLoader.java/[CN]/MaterialLoader/[MT]/load(AssetManager,AssetKey,InputStream)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_RotateTool.java/[CN]/RotateTool/[MT]/draggedSecondary(Vector2f,boolean,JmeNode,DataObject)/body";
+"engine_src_networking_com_jme3_network_base_DefaultServer.java/[CN]/DefaultServer/[CN]/Connection/[MT]/closeConnection()/body";
+}
+subgraph cluster76 {
+"engine_src_niftygui_com_jme3_niftygui_RenderDeviceJme.java/[CN]/RenderDeviceJme/[MT]/renderQuad(int,int,int,int,Color)/body";
+"engine_src_core_com_jme3_animation_SkeletonControl.java/[CN]/SkeletonControl/[MT]/resetToBind()/body";
+}
+subgraph cluster246 {
+"engine_src_jbullet_com_jme3_bullet_control_RagdollControl.java/[CN]/RagdollControl/[MT]/addToPhysicsSpace()/body";
+"engine_src_jbullet_com_jme3_bullet_control_RagdollControl.java/[CN]/RagdollControl/[MT]/setSpatial(Spatial)/body";
+"engine_src_jbullet_com_jme3_bullet_control_RagdollControl.java/[CN]/RagdollControl/[MT]/attachDebugShape(AssetManager)/body";
+}
+subgraph cluster29 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainCameraController.java/[CN]/TerrainCameraController/[MT]/checkMouseButtonState(int,boolean)/body";
+}
+subgraph cluster55 {
+"engine_src_core_com_jme3_shadow_PointLightShadowRenderer.java/[CN]/PointLightShadowRenderer/[MT]/getReceivers(GeometryList,GeometryList)/body";
+}
+subgraph cluster157 {
+"engine_src_bullet_com_jme3_bullet_objects_PhysicsVehicle.java/[CN]/PhysicsVehicle/[MT]/postRebuild()/body";
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/isApplyBlendEquationAlpha()/body";
+}
+subgraph cluster315 {
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_ImportModel.java/[CN]/ImportModel/[MT]/copyModel(WizardDescriptor)/body";
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/openInBlender(FileObject)/body";
+}
+subgraph cluster353 {
+"jme3-lwjgl3_src_main_java_com_jme3_opencl_lwjgl_LwjglKernel.java/[CN]/LwjglKernel/[MT]/setArg(int,Matrix4f)/body";
+}
+subgraph cluster496 {
+"engine_src_core_com_jme3_util_BufferUtils.java/[CN]/BufferUtils/[MT]/ensureLargeEnough(FloatBuffer,int)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/setDepthRange(float,float)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_util_SpatialUtil.java/[CN]/SpatialUtil/[MT]/findSpatial(Spatial,String,String)/body";
+"sdk_jme3-codepalette_src_com_jme3_gde_codepalette_scene_JmePaletteShinySphere.java/[CN]/JmePaletteShinySphere/[MT]/createBody()/body";
+}
+subgraph cluster221 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglGL1Renderer.java/[CN]/JoglGL1Renderer/[MT]/updateTexImageData(Image,Texture.Type,int)/body";
+"sdk_jme3-welcome-screen_src_com_jme3_gde_welcome_WelcomeScreenTopComponent.java/[CN]/WelcomeScreenTopComponent/[MT]/loadPage()/body";
+}
+subgraph cluster52 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainGrid.java/[CN]/TerrainGrid/[CS]/TerrainGrid(String,int,int,Vector3f,TerrainQuadGrid,Vector2f,float)/body";
+"engine_src_android_com_jme3_input_android_AndroidSensorJoyInput.java/[CN]/AndroidSensorJoyInput/[MT]/updateOrientation()/body";
+}
+subgraph cluster79 {
+"jme3-core_src_main_java_com_jme3_texture_image_DefaultImageRaster.java/[CN]/DefaultImageRaster/[MT]/setPixel(int,int,ColorRGBA)/body";
+}
+subgraph cluster0 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_NodePanel.java/[CN]/NodePanel/[MT]/delete()/body";
+}
+subgraph cluster99 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_impl_NewGeometryLineAction.java/[CN]/NewGeometryLineAction/[MT]/doCreateSpatial(Node)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_impl_NewGeometryBoxAction.java/[CN]/NewGeometryBoxAction/[MT]/doCreateSpatial(Node)/body";
+}
+subgraph cluster156 {
+"engine_src_blender_com_jme3_scene_plugins_blender_constraints_definitions_ConstraintDefinitionLocLike.java/[CN]/ConstraintDefinitionLocLike/[MT]/bake(Space,Space,Transform,float)/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainGrid.java/[CN]/TerrainGrid/[MT]/write(JmeExporter)/body";
+}
+subgraph cluster408 {
+"engine_src_core_com_jme3_animation_AnimChannel.java/[CN]/AnimChannel/[MT]/update(float,TempVars)/body";
+}
+subgraph cluster482 {
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/onTouch(View,MotionEvent)/body";
+}
+subgraph cluster343 {
+"engine_src_core_com_jme3_util_NativeObjectManager.java/[CN]/NativeObjectManager/[MT]/registerObject(NativeObject)/body";
+"engine_src_core_com_jme3_font_Letters.java/[CN]/Letters/[MT]/setColor(ColorRGBA)/body";
+}
+subgraph cluster264 {
+"engine_src_core_com_jme3_input_JoystickCompatibilityMappings.java/[CN]/JoystickCompatibilityMappings/[MT]/remapComponent(String,String)/body";
+"engine_src_core_com_jme3_input_JoystickCompatibilityMappings.java/[CN]/JoystickCompatibilityMappings/[MT]/addMapping(String,String,String)/body";
+}
+subgraph cluster204 {
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_textures_io_PixelIOFactory.java/[CN]/PixelIOFactory/[MT]/getPixelIO(Format)/body";
+"engine_src_core_com_jme3_util_SkyFactory.java/[CN]/SkyFactory/[MT]/createSky(AssetManager,Texture,Texture,Texture,Texture,Texture,Texture,Vector3f)/body";
+}
+subgraph cluster374 {
+"engine_src_ogre_com_jme3_scene_plugins_ogre_MeshLoader.java/[CN]/MeshLoader/[MT]/compileModel()/body";
+"engine_src_ogre_com_jme3_scene_plugins_ogre_SkeletonLoader.java/[CN]/SkeletonLoader/[MT]/load(InputStream)/body";
+}
+subgraph cluster161 {
+"engine_src_terrain_com_jme3_terrain_GeoMap.java/[CN]/GeoMap/[MT]/read(JmeImporter)/body";
+}
+subgraph cluster185 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerTopComponent.java/[CN]/SceneComposerTopComponent/[MT]/initComponents()/body";
+}
+subgraph cluster369 {
+"engine_src_android_com_jme3_system_android_OGLESContext.java/[CN]/OGLESContext/[MT]/onSurfaceChanged(GL10,int,int)/body";
+"engine_src_android_com_jme3_system_android_OGLESContext.java/[CN]/OGLESContext/[MT]/onSurfaceCreated(GL10,EGLConfig)/body";
+}
+subgraph cluster235 {
+"jme3-core_src_main_java_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[CS]/AudioNode(AudioData,AudioKey)/body";
+}
+subgraph cluster476 {
+"sdk_jme3-vehicle-creator_src_com_jme3_gde_vehiclecreator_VehicleEditorController.java/[CN]/VehicleEditorController/[MT]/prepareApplication()/body";
+"sdk_jme3-vehicle-creator_src_com_jme3_gde_vehiclecreator_VehicleEditorController.java/[CN]/VehicleEditorController/[MT]/cleanupApplication()/body";
+}
+subgraph cluster38 {
+"engine_src_blender_com_jme3_scene_plugins_blender_constraints_definitions_ConstraintDefinitionDistLimit.java/[CN]/ConstraintDefinitionDistLimit/[MT]/bake(Space,Space,Transform,float)/body";
+}
+subgraph cluster506 {
+"jme3-jogl_src_main_java_com_jme3_system_jogl_JoglNewtAbstractDisplay.java/[CN]/JoglNewtAbstractDisplay/[MT]/initGLCanvas()/body";
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[MT]/addTexture(Texture,String,Texture)/parameters";
+}
+subgraph cluster152 {
+"engine_src_tools_jme3tools_savegame_SaveGame.java/package";
+"engine_src_tools_jme3tools_savegame_SaveGame.java/[CN]/SaveGame/[MT]/loadGame(String,String,AssetManager)/body";
+}
+subgraph cluster387 {
+"engine_src_networking_com_jme3_network_kernel_NamedThreadFactory.java/[CN]/NamedThreadFactory/[CS]/NamedThreadFactory(String,ThreadFactory)/body";
+"engine_src_networking_com_jme3_network_kernel_NamedThreadFactory.java/[CN]/NamedThreadFactory/[MT]/newThread(Runnable)/body";
+}
+subgraph cluster223 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainQuad.java/[CN]/TerrainQuad/[MT]/needToRecalculateNormals()/body";
+"engine_src_core_com_jme3_input_JoystickCompatibilityMappings.java/[CN]/JoystickCompatibilityMappings/[MT]/remapComponent(String,String)/parameters";
+}
+subgraph cluster78 {
+"engine_src_core_com_jme3_post_FilterPostProcessor.java/[CN]/FilterPostProcessor/[MT]/preFrame(float)/body";
+}
+subgraph cluster362 {
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[MT]/setTime(float,float,AnimControl,AnimChannel,TempVars)/body";
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[MT]/setEmitter(ParticleEmitter)/body";
+}
+subgraph cluster62 {
+"engine_src_core_com_jme3_scene_Mesh.java/[CN]/Mesh/[MT]/setInterleaved()/body";
+"engine_src_core_com_jme3_scene_Mesh.java/[CN]/Mesh/[MT]/deepClone()/body";
+}
+subgraph cluster28 {
+"engine_src_blender_com_jme3_scene_plugins_blender_materials_MaterialContext.java/[CN]/MaterialContext/[MT]/applyMaterial(Geometry,Long,List<Vector2f>,BlenderContext)/body";
+}
+subgraph cluster122 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_NewLightPopup.java/[CN]/NewLightPopup/[CN]/AddProbeAction/[MT]/actionPerformed(ActionEvent)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_JmeLightProbe.java/[CN]/JmeLightProbe/[MT]/createSheet()/body";
+}
+subgraph cluster121 {
+"engine_src_desktop_com_jme3_input_awt_AwtKeyInput.java/[CN]/AwtKeyInput/[MT]/setInputSource(Component)/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainGrid.java/[CN]/TerrainGrid/[MT]/update(List<Vector3f>)/body";
+}
+subgraph cluster212 {
+"engine_src_core_com_jme3_animation_AnimControl.java/[CN]/AnimControl/[MT]/read(JmeImporter)/body";
+"engine_src_core_com_jme3_animation_AnimControl.java/[CN]/AnimControl/[MT]/cloneForSpatial(Spatial)/body";
+}
+subgraph cluster176 {
+"jme3-bullet_src_main_java_com_jme3_bullet_objects_PhysicsRigidBody.java/[CN]/PhysicsRigidBody/[MT]/read(JmeImporter)/body";
+"jme3-bullet_src_main_java_com_jme3_bullet_objects_PhysicsRigidBody.java/[CN]/PhysicsRigidBody/[MT]/write(JmeExporter)/body";
+}
+subgraph cluster11 {
+"engine_src_blender_com_jme3_scene_plugins_blender_utils_AbstractBlenderHelper.java/[CN]/AbstractBlenderHelper/[MT]/loadProperties(Structure,DataRepository)/body";
+}
+subgraph cluster361 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_EditableMatDefFile.java/[CN]/EditableMatDefFile/[MT]/load(Lookup)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_MatDefEditorlElement.java/[CN]/MatDefEditorlElement/[MT]/reload(EditableMatDefFile,Lookup)/body";
+}
+subgraph cluster372 {
+"engine_src_desktop_com_jme3_input_awt_AwtMouseInput.java/[CN]/AwtMouseInput/[MT]/mouseWheelMoved(MouseWheelEvent)/body";
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onRestart()/body";
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onStart()/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainGrid.java/[CN]/TerrainGrid/[MT]/getQuadrant(int)/body";
+"engine_src_desktop_com_jme3_input_awt_AwtMouseInput.java/[CN]/AwtMouseInput/[MT]/mouseMoved(MouseEvent)/body";
+}
+subgraph cluster84 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/setTextureScale(int,float)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/isTriPlanarEnabled()/body";
+}
+subgraph cluster198 {
+"jme3-core_src_main_java_com_jme3_material_Material.java/[CN]/Material/[MT]/render(Geometry,LightList,RenderManager)/body";
+"jme3-core_src_main_java_com_jme3_material_Technique.java/[CN]/Technique/[MT]/makeCurrent(AssetManager,boolean,EnumSet<Caps>,RenderManager)/body";
+"jme3-core_src_main_java_com_jme3_material_Material.java/[CN]/Material/[MT]/preload(RenderManager)/body";
+}
+subgraph cluster287 {
+"jme3-core_src_main_java_com_jme3_shadow_PssmShadowRenderer.java/[CN]/PssmShadowRenderer/[MT]/postQueue(RenderQueue)/body";
+"jme3-core_src_main_java_com_jme3_shadow_SpotLightShadowRenderer.java/[CN]/SpotLightShadowRenderer/[MT]/getOccludersToRender(int,GeometryList)/body";
+"jme3-core_src_main_java_com_jme3_shadow_BasicShadowRenderer.java/[CN]/BasicShadowRenderer/[MT]/postQueue(RenderQueue)/body";
+}
+subgraph cluster222 {
+"engine_src_core_com_jme3_renderer_queue_GeometryList.java/[CN]/GeometryList/[MT]/sort()/body";
+"engine_src_core_com_jme3_renderer_queue_GeometryList.java/[CN]/GeometryList/[FE]/geometries2";
+}
+subgraph cluster425 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[FE]/jLabel10";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/updateVertexArray(Mesh)/body";
+}
+subgraph cluster83 {
+"engine_src_desktop_com_jme3_app_state_VideoRecorderAppState.java/[CN]/VideoRecorderAppState/[MT]/cleanup()/body";
+"engine_src_desktop_com_jme3_app_state_VideoRecorderAppState.java/[CN]/VideoRecorderAppState/[MT]/initialize(AppStateManager,Application)/body";
+}
+subgraph cluster490 {
+"engine_src_blender_com_jme3_scene_plugins_blender_constraints_SimulationNode.java/[CN]/SimulationNode/[MT]/simulateSkeleton()/body";
+"engine_src_android_com_jme3_asset_AndroidImageInfo.java/[CN]/AndroidImageInfo/[FE]/format";
+}
+subgraph cluster318 {
+"sdk_jme3-core_src_com_jme3_gde_core_util_SpatialUtil.java/[CN]/SpatialUtil/[MT]/findTaggedSpatial(Spatial,Spatial)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_util_SpatialUtil.java/[CN]/SpatialUtil/[MT]/storeOriginalPathUserData(Spatial)/body";
+}
+subgraph cluster378 {
+"engine_src_blender_com_jme3_scene_plugins_blender_meshes_MeshBuilder.java/[CN]/MeshBuilder/[MT]/appendFace(int,int,int,boolean,int,Vector2f[],boolean,int)/body";
+}
+subgraph cluster338 {
+"jme3-core_src_main_java_com_jme3_light_DirectionalLight.java/[CN]/DirectionalLight/[CS]/DirectionalLight(Vector3f)/parameters";
+"jme3-core_src_main_java_com_jme3_light_DirectionalLight.java/[CN]/DirectionalLight/[CS]/DirectionalLight()/body";
+}
+subgraph cluster263 {
+"engine_src_core_com_jme3_animation_SkeletonControl.java/[CN]/SkeletonControl/[MT]/controlRenderSoftware()/body";
+}
+subgraph cluster179 {
+"engine_src_core-plugins_com_jme3_scene_plugins_MTLLoader.java/[CN]/MTLLoader/[MT]/resetMaterial()/body";
+}
+subgraph cluster502 {
+"jme3-lwjgl_src_main_java_com_jme3_system_lwjgl_LwjglOffscreenBuffer.java/[CN]/LwjglOffscreenBuffer/[MT]/initInThread()/body";
+"jme3-lwjgl_src_main_java_com_jme3_system_lwjgl_LwjglDisplay.java/[CN]/LwjglDisplay/[MT]/createContext(AppSettings)/body";
+}
+subgraph cluster91 {
+"sdk_jme3-vehicle-creator_src_com_jme3_gde_vehiclecreator_VehicleCreatorTopComponent.java/[CN]/VehicleCreatorTopComponent/[MT]/sceneOpened(SceneRequest)/body";
+}
+subgraph cluster290 {
+"engine_src_desktop-fx_com_jme3_water_WaterFilter.java/[CN]/WaterFilter/[MT]/setUnderWaterFogDistance(float)/body";
+"engine_src_desktop-fx_com_jme3_water_WaterFilter.java/[CN]/WaterFilter/[MT]/setCausticsIntensity(float)/body";
+}
+subgraph cluster68 {
+"jme3-core_src_main_java_com_jme3_light_SpotLight.java/[CN]/SpotLight/[MT]/intersectsFrustum(Camera,TempVars)/body";
+"jme3-core_src_main_java_com_jme3_light_SpotLight.java/[CN]/SpotLight/[MT]/computeAngleParameters()/body";
+}
+subgraph cluster269 {
+"sdk_jme3-core_src_com_jme3_gde_core_properties_TextureBrowser.java/[CN]/TextureBrowser/[MT]/valueChanged(TreeSelectionEvent)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_properties_TextureBrowser.java/[CN]/TextureBrowser/[MT]/loadAvailableTextures()/body";
+}
+subgraph cluster334 {
+"jme3-lwjgl_src_main_java_com_jme3_system_lwjgl_LwjglContext.java/[CN]/LwjglContext/[MT]/loadNatives()/body";
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/setView(View)/body";
+}
+subgraph cluster417 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/initComponents()/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[CS]/SkyboxVisualPanel2()/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/getEnvMapType()/parameters";
+}
+subgraph cluster17 {
+"jme3-jogg_src_main_java_com_jme3_audio_plugins_OGGLoader.java/[CN]/OGGLoader/[MT]/load(AssetInfo)/body";
+"engine_src_core_com_jme3_util_TangentBinormalGenerator.java/[CN]/TangentBinormalGenerator/[MT]/processTriangleFan(Mesh,int[],Vector3f[],Vector2f[])/body";
+}
+subgraph cluster182 {
+"engine_src_tools_jme3tools_savegame_SaveGame.java/[CN]/SaveGame/[MT]/loadGame(String,String,AssetManager)/parameters";
+"engine_src_tools_jme3tools_savegame_SaveGame.java/[CN]/SaveGame/[MT]/saveGame(String,String,Savable)/parameters";
+}
+subgraph cluster504 {
+"engine_src_android_com_jme3_renderer_android_TextureUtil.java/[CN]/TextureUtil/[MT]/getImageFormat(Format)/body";
+"engine_src_android_com_jme3_renderer_android_TextureUtil.java/[CN]/TextureUtil/[MT]/loadTextureFeatures(String)/body";
+}
+subgraph cluster187 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/updateRenderBuffer(FrameBuffer,RenderBuffer)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/deleteShaderSource(ShaderSource)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/updateShaderData(Shader)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/getFrameBufferSamplePositions(FrameBuffer)/body";
+}
+subgraph cluster280 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/updateShaderData(Shader)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/updateBufferData(VertexBuffer)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/updateTexImageData(Image,Texture.Type)/body";
+}
+subgraph cluster216 {
+"engine_src_core_com_jme3_cinematic_events_MotionTrack.java/[CN]/MotionTrack/[MT]/setCurrentWayPoint(int)/body";
+}
+subgraph cluster87 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/printRealRenderBufferInfo(FrameBuffer,RenderBuffer,String)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/getTargetBufferName(int)/body";
+}
+subgraph cluster230 {
+"engine_src_core_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/read(JmeImporter)/body";
+"jme3-core_src_main_java_com_jme3_audio_openal_ALAudioRenderer.java/[CN]/ALAudioRenderer/[MT]/run()/body";
+"engine_src_core_com_jme3_renderer_queue_GeometryList.java/[CN]/GeometryList/[MT]/add(Geometry)/body";
+"engine_src_lwjgl-ogl_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/applyRenderState(RenderState)/body";
+}
+subgraph cluster175 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerToolController.java/[CN]/SceneComposerToolController/[MT]/addLightMarker(Light)/body";
+"sdk_jme3-welcome-screen_src_com_jme3_gde_welcome_rss_RssFeedParser.java/[CN]/RssFeedParser/[MT]/updateFeed()/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerToolController.java/[CN]/SceneComposerToolController/[MT]/removeLightMarker(Light)/body";
+}
+subgraph cluster213 {
+"engine_src_core_com_jme3_scene_Mesh.java/[CN]/Mesh/[MT]/setBuffer(Type,int,ShortBuffer)/body";
+"engine_src_core_com_jme3_scene_Mesh.java/[CN]/Mesh/[MT]/setBuffer(Type,int,FloatBuffer)/body";
+}
+subgraph cluster365 {
+"engine_src_bullet-common_com_jme3_bullet_control_KinematicRagdollControl.java/[CN]/KinematicRagdollControl/[MT]/write(JmeExporter)/body";
+}
+subgraph cluster355 {
+"jme3-lwjgl3_src_main_java_com_jme3_audio_lwjgl_LwjglALC.java/[CN]/LwjglALC/[MT]/alcDevicePauseSOFT()/body";
+"jme3-lwjgl3_src_main_java_com_jme3_audio_lwjgl_LwjglALC.java/[CN]/LwjglALC/[MT]/alcGetString(int)/body";
+}
+subgraph cluster163 {
+"engine_src_blender_com_jme3_scene_plugins_blender_textures_UVProjectionGenerator.java/[CN]/UVProjectionGenerator/[MT]/flatProjection(Mesh,BoundingBox)/body";
+"engine_src_lwjgl_com_jme3_input_lwjgl_JInputJoyInput.java/[CN]/JInputJoyInput/[CN]/JInputJoystick/[MT]/addAxis(Component)/body";
+}
+subgraph cluster80 {
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_UberAssetLocator.java/[CN]/UberAssetLocator/[MT]/resetLocatedList()/body";
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_UberAssetLocator.java/[CN]/UberAssetLocator/[MT]/findFile(AssetKey)/body";
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_UberAssetLocator.java/[CN]/UberAssetLocator/[MT]/getInfo(AssetKey)/body";
+}
+subgraph cluster495 {
+"engine_src_android_com_jme3_util_android_AndroidSkyFactory.java/[CN]/AndroidSkyFactory/[MT]/createSky(AssetManager,Texture,Texture,Texture,Texture,Texture,Texture)/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_constraints_definitions_ConstraintDefinitionIK.java/[CN]/ConstraintDefinitionIK/[MT]/loadBones()/body";
+}
+subgraph cluster181 {
+"engine_src_blender_com_jme3_scene_plugins_blender_textures_TriangulatedTexture.java/[CN]/TriangulatedTexture/[MT]/getResultTexture(boolean)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_textures_TriangulatedTexture.java/[CN]/TriangulatedTexture/[CS]/TriangulatedTexture(Texture2D,List<Vector2f>,BlenderContext)/body";
+}
+subgraph cluster136 {
+"engine_src_core_com_jme3_util_TangentBinormalGenerator.java/[CN]/TangentBinormalGenerator/[MT]/processTriangleStrip(Mesh,int[],Vector3f[],Vector2f[])/body";
+}
+subgraph cluster226 {
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[MT]/addTexture(Texture,String,Texture)/body";
+}
+subgraph cluster135 {
+"jme3-core_src_main_java_com_jme3_renderer_opengl_GLRenderer.java/[CN]/GLRenderer/[MT]/applyRenderState(RenderState)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_impl_NewCustomControlWizardPanel1.java/[CN]/NewCustomControlWizardPanel1/[MT]/readSettings(Object)/body";
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_FontCreator.java/[CN]/FontCreator/[MT]/buildFont(String)/body";
+}
+subgraph cluster340 {
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/runConversionScript(String,FileObject)/body";
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/runToolScript(String,FileObject)/body";
+}
+subgraph cluster317 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/bindProgram(Shader)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/copyFrameBuffer(FrameBuffer,FrameBuffer,boolean)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneviewer_SceneViewerTopComponent.java/[CN]/SceneViewerTopComponent/[MT]/componentOpened()/body";
+}
+subgraph cluster274 {
+"engine_src_bullet_com_jme3_bullet_objects_PhysicsVehicle.java/[CN]/PhysicsVehicle/[MT]/createVehicle(PhysicsSpace)/body";
+"sdk_jme3-codepalette_src_com_jme3_gde_codepalette_scene_JmePaletteTextureCube.java/[CN]/JmePaletteTextureCube/[MT]/createBody()/body";
+}
+subgraph cluster53 {
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[CN]/ComponentSizeChooser/[MT]/chooseConfig(EGL10,EGLDisplay,EGLConfig[])/body";
+"jme3-core_src_main_java_com_jme3_material_TechniqueDef.java/[CN]/TechniqueDef/[MT]/setShaderFile(String,String,String,String)/body";
+}
+subgraph cluster464 {
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_modifiers_SubdivisionSurfaceModifier.java/[CN]/SubdivisionSurfaceModifier/[CN]/CreasePoint/[CS]/CreasePoint(int,boolean,List<Edge>,TemporalMesh)/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_modifiers_SubdivisionSurfaceModifier.java/[CN]/SubdivisionSurfaceModifier/[MT]/subdivideCatmullClark(TemporalMesh)/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_modifiers_SubdivisionSurfaceModifier.java/[CN]/SubdivisionSurfaceModifier/[MT]/apply(Node,BlenderContext)/body";
+}
+subgraph cluster30 {
+"engine_src_networking_com_jme3_network_Network.java/[CN]/Network/[MT]/createServer(int)/body";
+"engine_src_networking_com_jme3_network_Network.java/[CN]/Network/[MT]/createClient()/body";
+}
+subgraph cluster498 {
+"jme3-core_src_main_java_com_jme3_renderer_Statistics.java/[CN]/Statistics/[MT]/getData(int[])/body";
+"jme3-core_src_main_java_com_jme3_renderer_Statistics.java/[CN]/Statistics/[MT]/getLabels()/body";
+}
+subgraph cluster486 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainQuad.java/[CN]/TerrainQuad/[CS]/TerrainQuad(String,int,int,Vector3f,float[],LodCalculatorFactory)/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainQuad.java/[CN]/TerrainQuad/[CS]/TerrainQuad(String,int,int,int,float[],LodCalculatorFactory)/body";
+}
+subgraph cluster100 {
+"engine_src_core_com_jme3_material_Technique.java/[CN]/Technique/[MT]/loadShader(AssetManager)/body";
+"engine_src_core_com_jme3_material_Material.java/[CN]/Material/[MT]/selectTechnique(String,RenderManager)/body";
+}
+subgraph cluster164 {
+"engine_src_android_com_jme3_util_android_AndroidSkyFactory.java/[CN]/AndroidSkyFactory/[MT]/createSky(AssetManager,Texture,boolean)/body";
+"engine_src_android_com_jme3_util_android_AndroidSkyFactory.java/[CN]/AndroidSkyFactory/[MT]/createSky(AssetManager,String,boolean)/body";
+"engine_src_networking_com_jme3_network_base_DefaultServer.java/[CN]/DefaultServer/[MT]/close()/body";
+}
+subgraph cluster370 {
+"jme3-core_src_main_java_com_jme3_scene_Node.java/[CN]/Node/[MT]/detachChildAt(int)/body";
+"jme3-core_src_main_java_com_jme3_scene_Node.java/[CN]/Node/[MT]/attachChildAt(Spatial,int)/body";
+}
+subgraph cluster446 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_grid_AssetQuadGrid.java/[CN]/AssetQuadGrid/[MT]/write(JmeExporter)/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_grid_AssetQuadGrid.java/[CN]/AssetQuadGrid/[MT]/read(JmeImporter)/body";
+}
+subgraph cluster296 {
+"engine_src_core-plugins_com_jme3_scene_plugins_OBJLoader.java/[CN]/OBJLoader/[MT]/loadMtlLib(String)/body";
+}
+subgraph cluster329 {
+"engine_src_bullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/removeRigidBody(PhysicsRigidBody)/body";
+"engine_src_jbullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/removeRigidBody(PhysicsRigidBody)/body";
+"engine_src_desktop-fx_com_jme3_post_filters_FXAAFilter.java/[CN]/FXAAFilter/[MT]/setSubPixelShift(float)/body";
+}
+subgraph cluster127 {
+"engine_src_jbullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/removeCharacter(PhysicsCharacter)/body";
+"engine_src_bullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/addRigidBody(PhysicsRigidBody)/body";
+}
+subgraph cluster345 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_RotateTool.java/[CN]/RotateTool/[MT]/draggedPrimary(Vector2f,boolean,JmeNode,DataObject)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_RotateTool.java/[CN]/RotateTool/[MT]/actionPrimary(Vector2f,boolean,JmeNode,DataObject)/body";
+"engine_src_jbullet_com_jme3_bullet_util_Converter.java/[CN]/Converter/[MT]/convert(Mesh)/body";
+}
+subgraph cluster401 {
+"engine_src_core_com_jme3_effect_ParticleEmitter.java/[CN]/ParticleEmitter/[CN]/ParticleEmitterControl/[MT]/isEnabled()/body";
+"engine_src_core_com_jme3_effect_ParticleEmitter.java/[CN]/ParticleEmitter/[CN]/ParticleEmitterControl/[MT]/update(float)/body";
+}
+subgraph cluster63 {
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[CS]/TextureAtlas(int,int)/body";
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[MT]/addImage(Image,String,String,String)/body";
+}
+subgraph cluster174 {
+"jme3-core_src_main_java_com_jme3_bounding_BoundingSphere.java/[CN]/BoundingSphere/[MT]/collideWith(Collidable)/body";
+"jme3-core_src_main_java_com_jme3_bounding_BoundingVolume.java/[CN]/BoundingVolume/[MT]/collideWith(Collidable)/body";
+}
+subgraph cluster444 {
+"jme3-core_src_main_java_com_jme3_light_AmbientLight.java/[CN]/AmbientLight/[CS]/AmbientLight(ColorRGBA)/parameters";
+"jme3-core_src_main_java_com_jme3_light_Light.java/[CN]/Light/[CS]/Light()/parameters";
+"engine_src_jbullet_com_jme3_bullet_control_RagdollControl.java/[CN]/RagdollControl/[MT]/boneRecursion(Spatial,Bone,PhysicsRigidBody,int)/body";
+}
+subgraph cluster203 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/propertyChange(PropertyChangeEvent)/parameters";
+}
+subgraph cluster283 {
+"engine_src_jogl_com_jme3_audio_joal_JoalAudioRenderer.java/[CN]/JoalAudioRenderer/[MT]/updateFilter(Filter)/body";
+"engine_src_jogl_com_jme3_audio_joal_JoalAudioRenderer.java/[CN]/JoalAudioRenderer/[MT]/setEnvironment(Environment)/body";
+}
+subgraph cluster207 {
+"engine_src_networking_com_jme3_network_Network.java/[CN]/Network/[MT]/connectToServer(String,int,int)/body";
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_AngelFontVisualPanel1.java/[CN]/AngelFontVisualPanel1/[MT]/initComponents()/body";
+}
+subgraph cluster441 {
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglGL1Renderer.java/[CN]/LwjglGL1Renderer/[MT]/initialize()/body";
+}
+subgraph cluster145 {
+"engine_src_jbullet_com_jme3_bullet_util_CollisionShapeFactory.java/[CN]/CollisionShapeFactory/[MT]/createMeshShape(Spatial)/body";
+"engine_src_jbullet_com_jme3_bullet_util_CollisionShapeFactory.java/[CN]/CollisionShapeFactory/[MT]/createCompoundShape(Node,Node,CompoundCollisionShape,boolean,boolean)/body";
+}
+subgraph cluster423 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_AssetDataObject.java/[CN]/AssetDataObject/[CN]/AssetListListener/[MT]/start()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_AssetDataObject.java/[CN]/AssetDataObject/[CN]/AssetListListener/[MT]/assetRequested(AssetKey)/body";
+}
+subgraph cluster359 {
+"engine_src_niftygui_com_jme3_niftygui_RenderDeviceJme.java/[CN]/RenderDeviceJme/[MT]/renderImage(RenderImage,int,int,int,int,int,int,int,int,Color,float,int,int)/body";
+"engine_src_niftygui_com_jme3_niftygui_RenderDeviceJme.java/[CN]/RenderDeviceJme/[MT]/renderFont(RenderFont,String,int,int,Color,float,float)/body";
+"engine_src_niftygui_com_jme3_niftygui_RenderDeviceJme.java/[CN]/RenderDeviceJme/[MT]/renderQuad(int,int,int,int,Color,Color,Color,Color)/body";
+"engine_src_niftygui_com_jme3_niftygui_RenderDeviceJme.java/[CN]/RenderDeviceJme/[MT]/renderImage(RenderImage,int,int,int,int,Color,float)/body";
+}
+subgraph cluster475 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ProjectAssetManager.java/[CN]/ProjectAssetManager/[MT]/removeAssetEventListener(AssetEventListener)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainCameraController.java/[CN]/TerrainCameraController/[MT]/checkClick(int,boolean)/body";
+}
+subgraph cluster322 {
+"sdk_jme3-core_src_com_jme3_gde_core_appstates_RunAppStateAction.java/[CN]/RunAppStateAction/[MT]/checkData(Lookup,String)/body";
+}
+subgraph cluster291 {
+"sdk_jme3-core_src_com_jme3_gde_core_appstates_RunAppStateAction.java/[CN]/RunAppStateAction/[MT]/actionPerformed(ActionEvent)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_appstates_RunAppStateAction.java/[CN]/RunAppStateAction/[MT]/createContextAwareInstance(Lookup)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_appstates_RunAppStateAction.java/[CN]/RunAppStateAction/[MT]/isEnabled()/body";
+}
+subgraph cluster268 {
+"engine_src_core_com_jme3_util_SkyFactory.java/[CN]/SkyFactory/[MT]/checkImagesForCubeMap(Image)/body";
+}
+subgraph cluster434 {
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_NotifyUtil.java/[CN]/NotifyUtil/[MT]/show(String,String,MessageType,int)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_SceneApplication.java/[CN]/SceneApplication/[CS]/SceneApplication()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_NotifyUtil.java/[CN]/NotifyUtil/[MT]/show(String,String,MessageType,ActionListener,int)/body";
+}
+subgraph cluster469 {
+"engine_src_networking_com_jme3_network_Network.java/[CN]/Network/[MT]/connectToServer(String,int,String,int,int)/parameters";
+"engine_src_networking_com_jme3_network_Network.java/[CN]/Network/[MT]/connectToServer(String,int,String,int,int)/body";
+}
+subgraph cluster321 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_SceneToolController.java/[CN]/SceneToolController/[MT]/attachBoxSelection(Spatial)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_SceneToolController.java/[CN]/SceneToolController/[MT]/update(float)/body";
+}
+subgraph cluster489 {
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_meshes_Face.java/[CN]/Face/[MT]/contains(Edge)/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_meshes_Edge.java/[CN]/Edge/[MT]/cross(Edge)/body";
+}
+subgraph cluster505 {
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[CS]/AndroidConfigChooser(ConfigType)/parameters";
+}
+subgraph cluster220 {
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/applyToTexture(String,Texture).conflicted2/body";
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/applyToTexture(String,Texture).conflicted1/body";
+}
+subgraph cluster102 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ProjectAssetManager.java/[CN]/ProjectAssetManager/[MT]/addAssetEventListener(AssetEventListener)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_animations_BoneContext.java/[CN]/BoneContext/[FE]/BONE_ARMATURE_TRANSFORMATION_MATRIX";
+"engine_src_niftygui_com_jme3_niftygui_InputSystemJme.java/[CN]/InputSystemJme/[MT]/onTouchEventQueued(TouchEvent,NiftyInputConsumer)/body";
+}
+subgraph cluster149 {
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onRetainNonConfigurationInstance()/body";
+}
+subgraph cluster389 {
+"jme3-core_src_main_java_com_jme3_shadow_AbstractShadowRenderer.java/[CN]/AbstractShadowRenderer/[MT]/postFrame(FrameBuffer)/body";
+}
+subgraph cluster191 {
+"engine_src_desktop_com_jme3_app_SettingsDialog.java/[CN]/SettingsDialog/[MT]/getWindowedResolutions(DisplayMode[])/body";
+"engine_src_desktop_com_jme3_app_SettingsDialog.java/[CN]/SettingsDialog/[MT]/updateResolutionChoices()/body";
+}
+subgraph cluster294 {
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/layoutDisplay()/body";
+}
+subgraph cluster288 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/deleteShaderSource(ShaderSource)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/clearVertexAttribs()/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/setBackgroundColor(ColorRGBA)/body";
+}
+subgraph cluster200 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/renderMesh(Mesh,int,int)/body";
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[MT]/ConfigType(int,int,int,int,int,int,int,int,int,int,int,int)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/clearVertexAttribs()/body";
+}
+subgraph cluster261 {
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_FontCreator.java/[CN]/FontCreator/[MT]/buildFont(String,int)/body";
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_FontCreator.java/[CN]/FontCreator/[MT]/buildFont(String,int,int)/parameters";
+}
+subgraph cluster158 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainPatch.java/[CN]/TerrainPatch/[MT]/setHeight(List<LocationHeight>,boolean)/body";
+}
+subgraph cluster248 {
+"engine_src_core_com_jme3_scene_Mesh.java/[CN]/Mesh/[MT]/generateBindPose(boolean)/body";
+"engine_src_core_com_jme3_scene_Mesh.java/[CN]/Mesh/[MT]/generateBindPose(boolean)/parameters";
+}
+subgraph cluster92 {
+"engine_src_android_com_jme3_renderer_android_TextureUtil.java/[CN]/TextureUtil/[MT]/uploadSubTexture(Image,int,int,int,int)/body";
+"engine_src_android_com_jme3_renderer_android_TextureUtil.java/[CN]/TextureUtil/[MT]/uploadBitmapAsCompressed(int,int,Bitmap,boolean,int,int)/body";
+}
+subgraph cluster133 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/setVertexAttrib_Array(VertexBuffer,VertexBuffer)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/drawTriangleArray(Mesh.Mode,int,int)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/deleteShader(Shader)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/clearClipRect()/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/deleteBuffer(VertexBuffer)/body";
+}
+subgraph cluster219 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/doRemoveNormalMap(int)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/getDiffuseTexture(int)/body";
+}
+subgraph cluster494 {
+"jme3-core_src_main_java_com_jme3_app_state_BaseAppState.java/[CN]/BaseAppState/[MT]/cleanup()/body";
+"jme3-core_src_main_java_com_jme3_app_state_BaseAppState.java/[CN]/BaseAppState/[MT]/initialize(AppStateManager,Application)/body";
+}
+subgraph cluster10 {
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/onLongPress(MotionEvent)/body";
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/onScale(ScaleGestureDetector)/body";
+}
+subgraph cluster354 {
+"engine_src_niftygui_com_jme3_niftygui_SoundHandleJme.java/[CN]/SoundHandleJme/[CS]/SoundHandleJme(AudioRenderer,AudioNode)/body";
+"engine_src_niftygui_com_jme3_niftygui_SoundHandleJme.java/[CN]/SoundHandleJme/[MT]/stop()/body";
+}
+subgraph cluster117 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_SceneToolController.java/[CN]/SceneToolController/[MT]/initTools()/body";
+}
+subgraph cluster320 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_AbstractNewControlWizardAction.java/[CN]/AbstractNewControlWizardAction/[MT]/makeAction(JmeSpatial,DataObject)/body";
+}
+subgraph cluster116 {
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/onShowPress(MotionEvent)/body";
+}
+subgraph cluster457 {
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_UberAssetLocator.java/[CN]/UberAssetLocator/[MT]/setRootPath(String)/body";
+}
+subgraph cluster115 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_AssetDataObject.java/[CN]/AssetDataObject/[CS]/AssetDataObject(FileObject,MultiFileLoader)/body";
+}
+subgraph cluster509 {
+"engine_src_android_com_jme3_input_android_AndroidSensorJoyInput.java/[CN]/AndroidSensorJoyInput/[MT]/setJoyRumble(int,float)/body";
+"engine_src_core_com_jme3_util_TangentBinormalGenerator.java/[CN]/TangentBinormalGenerator/[MT]/genNormalLines(Mesh,float)/body";
+}
+subgraph cluster403 {
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/onScroll(MotionEvent,MotionEvent,float,float)/body";
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/onSingleTapUp(MotionEvent)/body";
+}
+subgraph cluster501 {
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_textures_io_AWTPixelInputOutput.java/[CN]/AWTPixelInputOutput/[MT]/read(Image,int,TexturePixel,int)/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_textures_io_AWTPixelInputOutput.java/[CN]/AWTPixelInputOutput/[MT]/write(Image,int,TexturePixel,int)/body";
+}
+subgraph cluster453 {
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_ObjectAnimationModifier.java/[CN]/ObjectAnimationModifier/[CS]/ObjectAnimationModifier(Structure,BlenderContext)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_meshes_MeshHelper.java/[CN]/MeshHelper/[MT]/toMesh(Structure,BlenderContext)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_ObjectAnimationModifier.java/[CN]/ObjectAnimationModifier/[CS]/ObjectAnimationModifier(Structure,DataRepository)/body";
+}
+subgraph cluster396 {
+"engine_src_core_com_jme3_cinematic_events_MotionTrack.java/[CN]/MotionTrack/[MT]/initEvent(Application,Cinematic)/body";
+"engine_src_bullet-common_com_jme3_bullet_debug_BulletGhostObjectDebugControl.java/[CN]/BulletGhostObjectDebugControl/[MT]/controlUpdate(float)/body";
+}
+subgraph cluster313 {
+"engine_src_core_com_jme3_cinematic_events_RotationTrack.java/[CN]/RotationTrack/[MT]/onPlay()/body";
+"engine_src_core_com_jme3_cinematic_events_RotationTrack.java/[CN]/RotationTrack/[MT]/onUpdate(float)/body";
+}
+subgraph cluster467 {
+"jme3-lwjgl3_src_main_java_com_jme3_system_lwjgl_LwjglContext.java/[CN]/LwjglContext/[MT]/initContextFirstTime()/body";
+}
+subgraph cluster35 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/setExtractionDir(String)/body";
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/extractNativeLibs(Platform,AppSettings)/body";
+}
+subgraph cluster455 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_SceneExplorerTopComponent.java/[CN]/SceneExplorerTopComponent/[MT]/addMaterialChangeListener(MaterialChangeListener)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_SceneExplorerTopComponent.java/[CN]/SceneExplorerTopComponent/[MT]/swapMaterialChangeListener(MaterialChangeListener,String,String)/body";
+}
+subgraph cluster484 {
+"engine_src_core_com_jme3_animation_SkeletonControl.java/[CN]/SkeletonControl/[MT]/write(JmeExporter)/body";
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/applyToTexture(String,Texture).conflicted0/body";
+}
+subgraph cluster19 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_lodcalc_PerspectiveLodCalculator.java/[CN]/PerspectiveLodCalculator/[MT]/isLodOff()/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_lodcalc_PerspectiveLodCalculator.java/[CN]/PerspectiveLodCalculator/[MT]/turnOnLod()/body";
+}
+subgraph cluster339 {
+"engine_src_networking_com_jme3_network_base_DefaultServer.java/[CN]/DefaultServer/[MT]/start()/body";
+"engine_src_networking_com_jme3_network_base_DefaultServer.java/[CN]/DefaultServer/[MT]/broadcast(Filter<? super HostedConnection>,Message)/body";
+}
+subgraph cluster292 {
+"jme3-core_src_main_java_com_jme3_shadow_AbstractShadowRenderer.java/[CN]/AbstractShadowRenderer/[MT]/postQueue(RenderQueue)/body";
+"jme3-core_src_main_java_com_jme3_shadow_DirectionalLightShadowRenderer.java/[CN]/DirectionalLightShadowRenderer/[MT]/getOccludersToRender(int,GeometryList)/body";
+"jme3-core_src_main_java_com_jme3_renderer_queue_RenderQueue.java/[CN]/RenderQueue/[MT]/clear()/body";
+}
+subgraph cluster303 {
+"jme3-core_src_main_java_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[CS]/AudioNode(AssetManager,String,boolean,boolean)/body";
+"jme3-core_src_main_java_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[MT]/getType()/body";
+"jme3-core_src_main_java_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[MT]/setAudioData(AudioData,AudioKey)/body";
+}
+subgraph cluster418 {
+"sdk_jme3-obfuscate_src_com_jme3_gde_obfuscate_ObfuscateCustomizerPanel.java/[CN]/ObfuscateCustomizerPanel/[MT]/loadProperties()/body";
+"sdk_jme3-obfuscate_src_com_jme3_gde_obfuscate_ObfuscateCustomizerPanel.java/[CN]/ObfuscateCustomizerPanel/[MT]/initComponents()/body";
+}
+subgraph cluster311 {
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/read(JmeImporter)/body";
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/readRenderStateStatement(Statement)/body";
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/write(JmeExporter)/body";
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/isApplyBlendEquation()/body";
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[FE]/blendEquation";
+}
+subgraph cluster493 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneviewer_SceneViewerTopComponent.java/[CN]/SceneViewerTopComponent/[MT]/componentClosed()/body";
+}
+subgraph cluster485 {
+"engine_src_ogre_com_jme3_scene_plugins_ogre_matext_MaterialExtensionLoader.java/[CN]/MaterialExtensionLoader/[MT]/readExtendingMaterialStatement(Statement)/body";
+"engine_src_core-plugins_com_jme3_scene_plugins_MTLLoader.java/[CN]/MTLLoader/[MT]/loadTexture(String)/body";
+}
+subgraph cluster205 {
+"sdk_jme3-core_src_com_jme3_gde_core_j2seproject_ProjectExtensionManager.java/[CN]/ProjectExtensionManager/[MT]/writeFile(ZipInputStream,FileObject)/body";
+}
+subgraph cluster451 {
+"jme3-core_src_main_java_com_jme3_texture_image_LastTextureState.java/[CN]/LastTextureState/[MT]/reset()/body";
+"jme3-core_src_main_java_com_jme3_texture_image_LastTextureState.java/[CN]/LastTextureState/[CS]/LastTextureState()/body";
+}
+subgraph cluster393 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/deleteShader(Shader)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/updateUniformLocation(Shader,Uniform)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/drawTriangleArray(Mesh.Mode,int,int)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/readFrameBuffer(FrameBuffer,ByteBuffer)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/updateShaderSourceData(ShaderSource)/body";
+}
+subgraph cluster41 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainPatch.java/[CN]/TerrainPatch/[MT]/updateNormals()/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainPatch.java/[CN]/TerrainPatch/[MT]/fixNormalEdges(TerrainPatch,TerrainPatch,TerrainPatch,TerrainPatch,TerrainPatch,TerrainPatch,TerrainPatch,TerrainPatch)/body";
+}
+subgraph cluster302 {
+"jme3-core_src_main_java_com_jme3_material_Technique.java/[CN]/Technique/[CS]/Technique(Material,TechniqueDef)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_SceneApplication.java/[CN]/SceneApplication/[MT]/destroy()/body";
+"sdk_jme3-assetpack-support_src_com_jme3_gde_assetpack_actions_AddAssetAction.java/[CN]/AddAssetAction/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster119 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_AbstractCameraController.java/[CN]/AbstractCameraController/[MT]/onAnalog(String,float,float)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneviewer_SceneViewerTopComponent.java/[CN]/SceneViewerTopComponent/[CS]/SceneViewerTopComponent()/body";
+}
+subgraph cluster380 {
+"sdk_jme3-blender_src_com_jme3_gde_blender_filetypes_BlenderDaeDataObject.java/[CN]/BlenderDaeDataObject/extend";
+"sdk_jme3-blender_src_com_jme3_gde_blender_filetypes_Blender3dsDataObject.java/[CN]/Blender3dsDataObject/extend";
+}
+subgraph cluster107 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_tools_PaintTerrainTool.java/[CN]/PaintTerrainTool/[MT]/action(Vector3f,int,AbstractSceneExplorerNode,DataObject)/body";
+}
+subgraph cluster150 {
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_ArrayModifier.java/[CN]/ArrayModifier/[MT]/apply(Node,BlenderContext)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/enableTextureButtons()/body";
+}
+subgraph cluster426 {
+"jme3-lwjgl3_src_main_java_com_jme3_system_lwjgl_LwjglWindow.java/[CN]/LwjglWindow/[MT]/initInThread()/body";
+}
+subgraph cluster154 {
+"engine_src_blender_com_jme3_scene_plugins_blender_animations_ArmatureHelper.java/[CN]/ArmatureHelper/[MT]/getTracks250(Structure,Skeleton,BlenderContext)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_ObjectAnimationModifier.java/[CN]/ObjectAnimationModifier/[CS]/ObjectAnimationModifier(Ipo,String,Long,BlenderContext)/body";
+}
+subgraph cluster442 {
+"engine_src_core_com_jme3_animation_BoneTrack.java/[CN]/BoneTrack/[MT]/setTime(float,float,AnimControl,AnimChannel,TempVars)/body";
+}
+subgraph cluster459 {
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_textures_CombinedTexture.java/[CN]/CombinedTexture/[MT]/isWithoutAlpha(TextureData,BlenderContext)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_impl_OptimizeGeometry.java/[CN]/OptimizeGeometry/[MT]/doApplyTool(AbstractSceneExplorerNode)/body";
+}
+subgraph cluster239 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainCameraController.java/[CN]/TerrainCameraController/[MT]/checkDragged(int,boolean)/body";
+}
+subgraph cluster88 {
+"engine_src_core_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/write(JmeExporter)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_constraints_SimulationNode.java/[CN]/SimulationNode/[MT]/applyConstraints(Bone,Set<Long>,int)/body";
+}
+subgraph cluster454 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/doRemoveDiffuseTexture(int)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_SceneToolController.java/[CN]/SceneToolController/[MT]/attachGeometrySelection(Geometry)/body";
+}
+subgraph cluster178 {
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onStop()/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/readFrameBuffer(FrameBuffer,ByteBuffer)/body";
+"engine_src_ogre_com_jme3_scene_plugins_ogre_MeshLoader.java/[CN]/MeshLoader/[MT]/applyMaterial(Geometry,String)/body";
+}
+subgraph cluster429 {
+"sdk_jme3-vehicle-creator_src_com_jme3_gde_vehiclecreator_VehicleCreatorTopComponent.java/[CN]/VehicleCreatorTopComponent/[MT]/sceneClosed(SceneRequest)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_MirrorModifier.java/[CN]/MirrorModifier/[MT]/apply(Node,BlenderContext)/body";
+}
+subgraph cluster12 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_FakeApplication.java/[CN]/FakeApplication/[MT]/clearNode(Node)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_SceneApplication.java/[CN]/SceneApplication/[MT]/closeScene(SceneRequest,SceneRequest)/body";
+}
+subgraph cluster64 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/setupTextureParams(Texture)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/deleteImage(Image)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/updateUniformLocation(Shader,Uniform)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/clearBuffers(boolean,boolean,boolean)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/setClipRect(int,int,int,int)/body";
+}
+subgraph cluster72 {
+"sdk_jme3-core_src_com_jme3_gde_core_properties_TextureBrowser.java/[CN]/TextureBrowser/[MT]/initComponents()/body";
+}
+subgraph cluster186 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/openScene(Spatial,AssetDataObject,ProjectAssetManager)/body";
+"jme3-core_src_main_java_com_jme3_audio_openal_ALAudioRenderer.java/[CN]/ALAudioRenderer/[MT]/attachStreamToSource(int,AudioStream,boolean)/body";
+}
+subgraph cluster364 {
+"engine_src_jbullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/addRigidBody(PhysicsRigidBody)/body";
+"engine_src_bullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/addJoint(PhysicsJoint)/body";
+"engine_src_core_com_jme3_shader_DefineList.java/[CN]/DefineList/[MT]/set(String,VarType,Object)/body";
+}
+subgraph cluster232 {
+"engine_src_core-plugins_com_jme3_scene_plugins_MTLLoader.java/[CN]/MTLLoader/[MT]/createMaterial()/body";
+"engine_src_core-plugins_com_jme3_scene_plugins_MTLLoader.java/[CN]/MTLLoader/[MT]/readLine()/body";
+}
+subgraph cluster336 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/setStorageExtractionDir()/body";
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/setStorageExtractionDir()/parameters";
+}
+subgraph cluster249 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_AssetDataObject.java/[CN]/AssetDataObject/[MT]/closeAsset()/body";
+"engine_src_bullet-common_com_jme3_bullet_control_KinematicRagdollControl.java/[CN]/KinematicRagdollControl/[MT]/read(JmeImporter)/body";
+}
+subgraph cluster382 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ExternalChangeScanner.java/[CN]/ExternalChangeScanner/[MT]/fileDeleted(FileEvent)/body";
+}
+subgraph cluster508 {
+"engine_src_lwjgl-ogl_com_jme3_system_lwjgl_LwjglCanvas.java/[CN]/LwjglCanvas/[MT]/restoreCanvas()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ProjectAssetManager.java/[CN]/ProjectAssetManager/[MT]/loadClassLoader()/body";
+"engine_src_desktop_com_jme3_system_awt_AwtPanel.java/[CN]/AwtPanel/[MT]/postFrame(FrameBuffer)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_ArmatureModifier.java/[CN]/ArmatureModifier/[MT]/apply(Node,BlenderContext)/body";
+}
+subgraph cluster199 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ProjectAssetManager.java/[CN]/ProjectAssetManager/[MT]/clearClassLoader()/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_MatDefEditorlElement.java/[CN]/MatDefEditorlElement/[MT]/initDiagram(Lookup)/body";
+"engine_src_jogl_com_jme3_input_jogl_NewtKeyInput.java/[CN]/NewtKeyInput/[MT]/keyReleased(KeyEvent)/body";
+}
+subgraph cluster344 {
+"engine_src_blender_com_jme3_scene_plugins_blender_helpers_v249_ParticlesHelper.java/[CN]/ParticlesHelper/[MT]/toParticleEmitter(Structure,DataRepository)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_helpers_v249_MeshHelper.java/[CN]/MeshHelper/[MT]/toMesh(Structure,DataRepository)/body";
+}
+subgraph cluster82 {
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_ModelImporterVisualPanel1.java/[CN]/ModelImporterVisualPanel1/[MT]/loadKey(File)/body";
+}
+subgraph cluster57 {
+"engine_src_blender_com_jme3_asset_BlenderKey.java/[CN]/BlenderKey/[MT]/read(JmeImporter)/body";
+"engine_src_blender_com_jme3_asset_BlenderKey.java/[CN]/BlenderKey/[MT]/write(JmeExporter)/body";
+"engine_src_blender_com_jme3_asset_BlenderKey.java/[CN]/BlenderKey/[MT]/hashCode()/body";
+}
+subgraph cluster348 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneviewer_actions_ToggleOrthoPerspAction.java/[CN]/ToggleOrthoPerspAction/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster331 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/initialize()/body";
+"engine_src_core-effects_com_jme3_water_SimpleWaterProcessor.java/[CN]/SimpleWaterProcessor/[MT]/setDistortionMix(float)/body";
+}
+subgraph cluster60 {
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_FontCreator.java/[CN]/FontCreator/[MT]/buildFont(String,String,int,int,int,int,int,int,boolean)/body";
+}
+subgraph cluster510 {
+"engine_src_ogre_com_jme3_scene_plugins_ogre_MaterialLoader.java/[CN]/MaterialLoader/[MT]/compileMaterial()/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/addTextureButtonActionPerformed(java.awt.event.ActionEvent)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_modifiers_ParticlesModifier.java/[CN]/ParticlesModifier/[MT]/apply(Node,BlenderContext)/body";
+}
+subgraph cluster229 {
+"engine_src_desktop_com_jme3_app_state_MjpegFileWriter.java/[CN]/MjpegFileWriter/[MT]/addImage(byte[])/body";
+"engine_src_desktop_com_jme3_app_state_VideoRecorderAppState.java/[CN]/VideoRecorderAppState/[CN]/VideoProcessor/[MT]/addImage(Renderer,FrameBuffer)/body";
+"engine_src_desktop_com_jme3_app_state_VideoRecorderAppState.java/[CN]/VideoRecorderAppState/[CS]/VideoRecorderAppState(File)/body";
+}
+subgraph cluster20 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_PreviewRequest.java/[CN]/PreviewRequest/[CS]/PreviewRequest(Object,Spatial)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_ScenePreviewProcessor.java/[CN]/ScenePreviewProcessor/[MT]/setupPreviewView()/body";
+}
+subgraph cluster6 {
+"engine_src_core-effects_com_jme3_water_SimpleWaterProcessor.java/[CN]/SimpleWaterProcessor/[MT]/setDistortionScale(float)/body";
+"engine_src_core-effects_com_jme3_water_SimpleWaterProcessor.java/[CN]/SimpleWaterProcessor/[MT]/setTexScale(float)/body";
+}
+subgraph cluster118 {
+"jme3-core_src_main_java_com_jme3_renderer_queue_GeometryList.java/[CN]/GeometryList/[MT]/add(Geometry)/body";
+}
+subgraph cluster352 {
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[MT]/cloneForSpatial(Spatial)/body";
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[MT]/cleanUp()/body";
+}
+subgraph cluster310 {
+"sdk_jme3-vehicle-creator_src_com_jme3_gde_vehiclecreator_VehicleCreatorTopComponent.java/[CN]/VehicleCreatorTopComponent/[MT]/openFile(BinaryModelDataObject,Node)/body";
+}
+subgraph cluster400 {
+"jme3-core_src_main_java_com_jme3_light_PointLight.java/[CN]/PointLight/[CS]/PointLight()/parameters";
+"jme3-core_src_main_java_com_jme3_light_PointLight.java/[CN]/PointLight/[CS]/PointLight()/body";
+"jme3-core_src_main_java_com_jme3_light_AmbientLight.java/[CN]/AmbientLight/[CS]/AmbientLight(ColorRGBA)/body";
+}
+subgraph cluster8 {
+"jme3-core_src_main_java_com_jme3_light_DirectionalLight.java/[CN]/DirectionalLight/[CS]/DirectionalLight()/parameters";
+"engine_src_core_com_jme3_cinematic_events_MotionTrack.java/[CN]/MotionTrack/[MT]/onUpdate(float)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_impl_NewCustomControlVisualPanel1.java/[CN]/NewCustomControlVisualPanel1/[MT]/initComponents()/body";
+}
+subgraph cluster325 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/updateFrameBufferAttachment(FrameBuffer,RenderBuffer)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_constraints_ConstraintHelper.java/[CN]/ConstraintHelper/[MT]/getTransform(Long,String,Space)/body";
+}
+subgraph cluster66 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/renderMeshDefault(Mesh,int,int)/body";
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/updateShaderSourceData(ShaderSource)/body";
+}
+subgraph cluster258 {
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[CN]/ComponentSizeChooser/[CS]/ComponentSizeChooser(ConfigType,int)/body";
+"sdk_jme3-obfuscate_src_com_jme3_gde_obfuscate_ObfuscateCustomizerPanel.java/[CN]/ObfuscateCustomizerPanel/[MT]/saveProperties()/body";
+"jme3-lwjgl_src_main_java_com_jme3_system_lwjgl_LwjglCanvas.java/[CN]/LwjglCanvas/[MT]/acquirePixelFormat(boolean)/body";
+}
+subgraph cluster440 {
+"jme3-core_src_main_java_com_jme3_renderer_opengl_GLDebugDesktop.java/[CN]/GLDebugDesktop/[MT]/glBlendEquationSeparate(int,int)/body";
+"engine_src_core_com_jme3_scene_Mesh.java/[CN]/Mesh/[MT]/setBuffer(Type,int,IntBuffer)/body";
+}
+subgraph cluster428 {
+"engine_src_lwjgl-ogl_com_jme3_system_lwjgl_LwjglCanvas.java/[CN]/LwjglCanvas/[MT]/createContext(AppSettings)/body";
+"engine_src_lwjgl-ogl_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/resetGLObjects()/body";
+"engine_src_lwjgl-ogl_com_jme3_system_lwjgl_LwjglCanvas.java/[CN]/LwjglCanvas/[CN]/GLCanvas/[MT]/addNotify()/body";
+}
+subgraph cluster487 {
+"jme3-jogg_src_main_java_com_jme3_audio_plugins_OGGLoader.java/[CN]/OGGLoader/[CN]/SeekableJOggInputStream/[MT]/setTime(float)/body";
+}
+subgraph cluster281 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ProjectAssetManager.java/[CN]/ProjectAssetManager/[MT]/addFolderLocator(String)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_j2seproject_ProjectExtensionManager.java/[CN]/ProjectExtensionManager/[MT]/removeZipContents(FileObject)/body";
+}
+subgraph cluster146 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/updateVertexArray(Mesh)/body";
+"engine_src_jogl_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/renderMeshVertexArray(Mesh,int,int)/body";
+}
+subgraph cluster238 {
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/setAlphaToCoverage(boolean)/body";
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/updateTexImageData(Image,Texture.Type,int)/body";
+}
+subgraph cluster124 {
+"engine_src_desktop-fx_com_jme3_post_filters_FXAAFilter.java/[CN]/FXAAFilter/[MT]/initFilter(AssetManager,RenderManager,ViewPort,int,int)/body";
+}
+subgraph cluster140 {
+"sdk_jme3-core_src_com_jme3_gde_core_properties_SceneExplorerProperty.java/[CN]/SceneExplorerProperty/[MT]/setSuperValue(T,boolean)/body";
+"jme3-core_src_main_java_com_jme3_renderer_Statistics.java/[CN]/Statistics/[MT]/clearFrame()/body";
+}
+subgraph cluster324 {
+"engine_src_core_com_jme3_animation_Bone.java/[CN]/Bone/[MT]/updateWorldVectors()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_SceneApplication.java/[CN]/SceneApplication/[MT]/openScene(SceneRequest)/body";
+}
+subgraph cluster155 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_impl_OptimizeGeometry.java/[CN]/OptimizeGeometry/[MT]/doUndoTool(AbstractSceneExplorerNode,Object)/body";
+}
+subgraph cluster151 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/deleteRenderBuffer(FrameBuffer,RenderBuffer)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/updateRenderBuffer(FrameBuffer,RenderBuffer)/body";
+}
+subgraph cluster77 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/mapTypeComboActionPerformed(java.awt.event.ActionEvent)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/mapTypeComboActionPerformed(java.awt.event.ActionEvent)/parameters";
+}
+subgraph cluster483 {
+"engine_src_core_com_jme3_post_FilterPostProcessor.java/[CN]/FilterPostProcessor/[MT]/cleanup()/body";
+"engine_src_jbullet_com_jme3_bullet_control_RagdollControl.java/[CN]/RagdollControl/[MT]/scanSpatial(Spatial)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_SelectTool.java/[CN]/SelectTool/[MT]/actionSecondary(Vector2f,boolean,JmeNode,DataObject)/body";
+}
+subgraph cluster97 {
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onCreate(Bundle)/body";
+"engine_src_android_com_jme3_system_JmeSystem.java/[CN]/JmeSystem/[MT]/getPlatform()/body";
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onClick(DialogInterface,int)/body";
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[FE]/splashImageView";
+}
+subgraph cluster383 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_SelectTool.java/[CN]/SelectTool/[MT]/deleteSelected()/body";
+"engine_src_core_com_jme3_cinematic_events_AnimationTrack.java/[CN]/AnimationTrack/[MT]/setTime(float)/body";
+}
+subgraph cluster24 {
+"engine_src_blender_com_jme3_scene_plugins_blender_objects_ObjectHelper.java/[CN]/ObjectHelper/[MT]/getMatrix(Structure,String,boolean)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_objects_ObjectHelper.java/[CN]/ObjectHelper/[MT]/getTransformation(Structure,BlenderContext)/body";
+}
+subgraph cluster125 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/drawTriangleList_Array(VertexBuffer,Mesh,int)/body";
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/updateRenderTexture(FrameBuffer,RenderBuffer)/body";
+}
+subgraph cluster397 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_LODGeomap.java/[CN]/LODGeomap/[MT]/getGridTrianglesAtPoint(float,float)/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_LODGeomap.java/[CN]/LODGeomap/[MT]/writeNormalArray(FloatBuffer,Vector3f)/body";
+}
+subgraph cluster241 {
+"engine_src_blender_com_jme3_scene_plugins_blender_helpers_v249_ObjectHelper.java/[CN]/ObjectHelper/[MT]/toObject(Structure,DataRepository)/body";
+}
+subgraph cluster381 {
+"jme3-android-examples_src_main_java_org_jmonkeyengine_jme3androidexamples_MainActivity.java/[CN]/MainActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster337 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/extractNativeLib(String,String,boolean)/parameters";
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/extractNativeLib(String,String)/body";
+}
+subgraph cluster363 {
+"engine_src_android_com_jme3_renderer_android_OGLESShaderRenderer.java/[CN]/OGLESShaderRenderer/[MT]/setViewPort(int,int,int,int)/body";
+"engine_src_jogl_com_jme3_input_jogl_NewtKeyInput.java/[CN]/NewtKeyInput/[MT]/keyPressed(KeyEvent)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_multiview_widgets_TextPanel.java/[CN]/TextPanel/[MT]/initComponents()/body";
+}
+subgraph cluster167 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/isUsingNativeBullet()/parameters";
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/isUsingNativeBullet()/body";
+}
+subgraph cluster333 {
+"engine_src_core_com_jme3_util_BufferUtils.java/[CN]/BufferUtils/[MT]/ensureLargeEnough(ShortBuffer,int)/body";
+"engine_src_bullet-common_com_jme3_bullet_debug_BulletRigidBodyDebugControl.java/[CN]/BulletRigidBodyDebugControl/[MT]/controlUpdate(float)/body";
+}
+subgraph cluster70 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainPatch.java/[CN]/TerrainPatch/[MT]/getHeightmap()/body";
+}
+subgraph cluster405 {
+"engine_src_tools_jme3tools_optimize_GeometryBatchFactory.java/[CN]/GeometryBatchFactory/[MT]/makeBatches(Collection<Geometry>,boolean)/body";
+}
+subgraph cluster44 {
+"jme3-jogl_src_main_java_com_jme3_system_jogl_JoglOffscreenBuffer.java/[CN]/JoglOffscreenBuffer/[MT]/run()/body";
+}
+subgraph cluster275 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_ScaleTool.java/[CN]/ScaleTool/[MT]/draggedPrimary(Vector2f,boolean,JmeNode,DataObject)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_ScaleTool.java/[CN]/ScaleTool/[MT]/actionPrimary(Vector2f,boolean,JmeNode,DataObject)/body";
+}
+subgraph cluster16 {
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/getFrameBufferSamplePositions(FrameBuffer)/body";
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/modifyTexture(Texture,Image,int,int)/body";
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/initialize()/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/sceneOpened(SceneRequest)/body";
+}
+subgraph cluster293 {
+"engine_src_tools_jme3tools_savegame_SaveGame.java/[CN]/SaveGame/[MT]/loadGame(String,String)/parameters";
+"engine_src_tools_jme3tools_savegame_SaveGame.java/[CN]/SaveGame/[MT]/saveGame(String,String,Savable)/body";
+}
+subgraph cluster237 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneviewer_actions_SwitchFrontViewAction.java/[CN]/SwitchFrontViewAction/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster13 {
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[FE]/blendEquationAlpha";
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[FE]/applyBlendEquationAlpha";
+"engine_src_android_com_jme3_renderer_android_TextureUtil.java/[CN]/TextureUtil/[MT]/uploadSubTexture(Image,int,int,int,int)/parameters";
+}
+subgraph cluster342 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_SceneApplication.java/[CN]/SceneApplication/[MT]/handleError(String,Throwable)/body";
+}
+subgraph cluster227 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_PickManager.java/[CN]/PickManager/[MT]/initiatePick(Spatial,Quaternion,SceneComposerToolController.TransformationType,Camera,Vector2f)/body";
+"engine_src_blender_com_jme3_asset_BlenderKey.java/[CN]/BlenderKey/[MT]/equals(Object)/body";
+}
+subgraph cluster413 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_SceneApplication.java/[CN]/SceneApplication/[MT]/showStartupErrorMessage(Throwable)/body";
+"jme3-core_src_main_java_com_jme3_renderer_queue_GeometryList.java/[CN]/GeometryList/[MT]/sort()/body";
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_UberAssetLocator.java/[CN]/UberAssetLocator/[MT]/getUserPath(AssetKey)/body";
+}
+subgraph cluster265 {
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/getConfigEnv()/body";
+}
+subgraph cluster390 {
+"engine_src_lwjgl_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/updateTexImageData(Image,Texture.Type,int)/body";
+}
+subgraph cluster503 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/getNormalMap(int)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/doGetAlphaTexture(Terrain,int)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_constraints_SimulationNode.java/[CN]/SimulationNode/[CS]/SimulationNode(Long,BlenderContext,boolean)/body";
+}
+subgraph cluster31 {
+"sdk_jme3-obfuscate_src_com_jme3_gde_obfuscate_ObfuscateCompositeProvider.java/[CN]/ObfuscateCompositeProvider/[MT]/createComponent(ProjectCustomizer.Category,Lookup)/body";
+}
+subgraph cluster424 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerToolController.java/[CN]/SceneComposerToolController/[CS]/SceneComposerToolController(Node,AssetManager,JmeNode)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerToolController.java/[CN]/SceneComposerToolController/[MT]/addMarkers(Node)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerToolController.java/[CN]/SceneComposerToolController/[MT]/refreshNonSpatialMarkers()/body";
+}
+subgraph cluster349 {
+"engine_src_core_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[MT]/playInstance()/body";
+"engine_src_core_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[MT]/stop()/body";
+}
+subgraph cluster419 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_multiview_widgets_TexturePanel.java/[CN]/TexturePanel/[MT]/updateFlipRepeat()/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_multiview_widgets_TexturePanel.java/[CN]/TexturePanel/[MT]/jButton1ActionPerformed(java.awt.event.ActionEvent)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_multiview_widgets_TexturePanel.java/[CN]/TexturePanel/[MT]/jButton2ActionPerformed(java.awt.event.ActionEvent)/body";
+}
+subgraph cluster477 {
+"sdk_jme3-core_src_com_jme3_gde_core_properties_SceneExplorerProperty.java/[CN]/SceneExplorerProperty/[FE]/logger";
+"sdk_jme3-core_src_com_jme3_gde_core_properties_SceneExplorerProperty.java/[CN]/SceneExplorerProperty/[MT]/getSuperValue()/body";
+"engine_src_core_com_jme3_animation_SkeletonControl.java/[CN]/SkeletonControl/[MT]/switchToHardware()/body";
+}
+subgraph cluster101 {
+"jme3-core_src_main_java_com_jme3_light_Light.java/[CN]/Light/[CS]/Light()/body";
+"engine_src_core_com_jme3_animation_SkeletonControl.java/[CN]/SkeletonControl/[MT]/switchToSoftware()/body";
+}
+subgraph cluster67 {
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/applyToTexture(String,Texture).conflicted3/body";
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/contentHashCode()/body";
+"engine_src_core_com_jme3_post_FilterPostProcessor.java/[CN]/FilterPostProcessor/[MT]/addFilter(Filter)/body";
+}
+subgraph cluster254 {
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_AngelFontWizardPanel2.java/[CN]/AngelFontWizardPanel2/[MT]/storeSettings(Object)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_AbstractNewSpatialWizardAction.java/[CN]/AbstractNewSpatialWizardAction/[MT]/makeAction(JmeNode,DataObject)/body";
+"engine_src_core_com_jme3_input_ChaseCamera.java/[CN]/ChaseCamera/[FE]/ChaseCamToggleRotate";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_SelectTool.java/[CN]/SelectTool/[MT]/keyPressed(KeyInputEvent)/body";
+}
+subgraph cluster137 {
+"engine_src_android_com_jme3_audio_android_AndroidAudioRenderer.java/[CN]/AndroidAudioRenderer/[MT]/onCompletion(MediaPlayer)/body";
+"engine_src_android_com_jme3_audio_android_AndroidAudioRenderer.java/[CN]/AndroidAudioRenderer/[MT]/onLoadComplete(SoundPool,int,int)/body";
+}
+subgraph cluster306 {
+"jme3-core_src_main_java_com_jme3_material_Technique.java/[CN]/Technique/[MT]/notifyTechniqueSwitched()/body";
+"jme3-core_src_main_java_com_jme3_material_Technique.java/[CN]/Technique/[MT]/notifyParamChanged(String,VarType,Object)/body";
+}
+subgraph cluster443 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_MaterialPreviewRenderer.java/[CN]/MaterialPreviewRenderer/[MT]/showMaterial(ProjectAssetManager,String)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_MaterialPreviewRenderer.java/[CN]/MaterialPreviewRenderer/[MT]/showMaterial(Material)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_MaterialPreviewRenderer.java/[CN]/MaterialPreviewRenderer/[MT]/cleanUp()/body";
+}
+subgraph cluster431 {
+"sdk_jme3-welcome-screen_src_com_jme3_gde_welcome_WelcomeScreenTopComponent.java/[CN]/WelcomeScreenTopComponent/[MT]/checkOpen()/body";
+}
+subgraph cluster90 {
+"engine_src_core_com_jme3_shader_Uniform.java/[CN]/Uniform/[MT]/setVector4InArray(float,float,float,float,int)/body";
+"engine_src_core_com_jme3_shader_Uniform.java/[CN]/Uniform/[MT]/setVector4Length(int)/body";
+}
+subgraph cluster307 {
+"engine_src_blender_com_jme3_scene_plugins_blender_meshes_MeshHelper.java/[CN]/MeshHelper/[MT]/toMesh(Structure,DataRepository)/body";
+}
+subgraph cluster139 {
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_NotifyUtil.java/[CN]/NotifyUtil/[MT]/warn(String,String,boolean)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_NotifyUtil.java/[CN]/NotifyUtil/[MT]/error(String,String,Throwable,boolean)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_NotifyUtil.java/[CN]/NotifyUtil/[MT]/error(String,String,boolean)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_util_notify_NotifyUtil.java/[CN]/NotifyUtil/[MT]/error(Throwable)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_SceneApplication.java/[CN]/SceneApplication/[MT]/initialize()/body";
+}
+subgraph cluster300 {
+"engine_src_core_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/copyMergedTo(RenderState,RenderState)/body";
+"engine_src_core_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/toString()/body";
+}
+subgraph cluster289 {
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/getBlenderSettingsFolder()/body";
+}
+subgraph cluster255 {
+"sdk_jme3-core_src_com_jme3_gde_core_j2seproject_ProjectExtensionManager.java/[CN]/ProjectExtensionManager/[MT]/addZipContents(FileObject)/body";
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/readShaderDefinition(Shader.ShaderType,String,String)/body";
+}
+subgraph cluster384 {
+"jme3-core_src_main_java_com_jme3_material_TechniqueDef.java/[CN]/TechniqueDef/[MT]/toString()/body";
+"jme3-core_src_main_java_com_jme3_app_state_BaseAppState.java/[CN]/BaseAppState/[MT]/setEnabled(boolean)/body";
+}
+subgraph cluster224 {
+"jme3-core_src_main_java_com_jme3_renderer_opengl_GLRenderer.java/[CN]/GLRenderer/[MT]/setupTextureParams(int,Texture)/body";
+}
+subgraph cluster58 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_AssetData.java/[CN]/AssetData/[MT]/setProperty(String,String)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_AssetData.java/[CN]/AssetData/[MT]/readProperties()/body";
+}
+subgraph cluster260 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_SceneComposerTopComponent.java/[CN]/SceneComposerTopComponent/[MT]/openScene(Spatial,AssetDataObject,ProjectAssetManager)/body";
+}
+subgraph cluster113 {
+"engine_src_android_com_jme3_system_android_OGLESContext.java/[CN]/OGLESContext/[MT]/createView(ConfigType,boolean)/body";
+}
+subgraph cluster295 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/selectSpatial(JmeSpatial)/body";
+}
+subgraph cluster309 {
+"engine_src_jbullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/removeJoint(PhysicsJoint)/body";
+"engine_src_bullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/removeJoint(PhysicsJoint)/body";
+}
+subgraph cluster481 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/getExtractionDir()/body";
+"engine_src_android_com_jme3_audio_android_AndroidAudioRenderer.java/[CN]/AndroidAudioRenderer/[MT]/cleanup()/body";
+}
+subgraph cluster432 {
+"engine_src_desktop_com_jme3_input_awt_AwtMouseInput.java/[CN]/AwtMouseInput/[MT]/mouseReleased(MouseEvent)/body";
+}
+subgraph cluster284 {
+"engine_src_core_com_jme3_app_SimpleApplication.java/[CN]/SimpleApplication/[CS]/SimpleApplication()/body";
+"jme3-core_src_main_java_com_jme3_material_TechniqueDef.java/[CN]/TechniqueDef/[MT]/write(JmeExporter)/body";
+}
+subgraph cluster297 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_impl_NewCustomControlWizardAction.java/[CN]/NewCustomControlWizardAction/[MT]/showWizard(Node)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_AssetDataObject.java/[CN]/AssetDataObject/[MT]/loadAsset()/body";
+}
+subgraph cluster262 {
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[MT]/write(JmeExporter)/body";
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[MT]/read(JmeImporter)/body";
+}
+subgraph cluster251 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_AbstractCameraController.java/[CN]/AbstractCameraController/[MT]/enable()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_AbstractCameraController.java/[CN]/AbstractCameraController/[MT]/disable()/body";
+}
+subgraph cluster415 {
+"jme3-bullet_src_common_java_com_jme3_bullet_control_KinematicRagdollControl.java/[CN]/KinematicRagdollControl/[MT]/removeIKTarget(Bone)/body";
+"jme3-bullet_src_common_java_com_jme3_bullet_control_KinematicRagdollControl.java/[CN]/KinematicRagdollControl/[MT]/setMode(Mode)/body";
+}
+subgraph cluster228 {
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[CN]/OnEndListener/[MT]/onAnimCycleDone(AnimControl,AnimChannel,String)/body";
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[MT]/stop()/body";
+}
+subgraph cluster416 {
+"engine_src_core_com_jme3_animation_EffectTrack.java/[CN]/EffectTrack/[CN]/KillParticleControl/[MT]/cloneForSpatial(Spatial)/body";
+"engine_src_android_com_jme3_system_JmeSystem.java/[CN]/JmeSystem/[MT]/getFullName()/body";
+"engine_src_networking_com_jme3_network_base_DefaultClient.java/[CN]/DefaultClient/[MT]/dispatch(Message)/body";
+}
+subgraph cluster7 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/getTextureScale(int)/body";
+}
+subgraph cluster347 {
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/readTechnique(Statement)/body";
+"jme3-core_src_plugins_java_com_jme3_material_plugins_J3MLoader.java/[CN]/J3MLoader/[MT]/initNodesLoader()/body";
+}
+subgraph cluster206 {
+"jme3-android_src_main_java_com_jme3_system_android_OGLESContext.java/[CN]/OGLESContext/[MT]/setSettings(AppSettings)/body";
+"engine_src_android_com_jme3_input_android_AndroidSensorJoyInput.java/[CN]/AndroidSensorJoyInput/[MT]/onSensorChanged(SensorEvent)/body";
+}
+subgraph cluster392 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_JmeGenericControl.java/[CN]/JmeGenericControl/[MT]/createSheet()/body";
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_TextureUtil.java/[CN]/TextureUtil/[MT]/getImageFormat(EnumSet<Caps>,Format,boolean)/body";
+}
+subgraph cluster214 {
+"engine_src_blender_com_jme3_scene_plugins_blender_objects_ObjectHelper.java/[CN]/ObjectHelper/[MT]/toObject(Structure,DataRepository)/body";
+}
+subgraph cluster98 {
+"jme3-core_src_tools_java_jme3tools_shadercheck_ShaderCheck.java/[CN]/ShaderCheck/[MT]/checkMatDef(String)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_AssetDataObject.java/[CN]/AssetDataObject/[CN]/AssetListListener/[MT]/assetDependencyNotFound(AssetKey,AssetKey)/body";
+}
+subgraph cluster172 {
+"engine_src_core_com_jme3_scene_BatchNode.java/[CN]/BatchNode/[MT]/gatherGeomerties(Map<Material,List<Geometry>>,Spatial,boolean)/body";
+}
+subgraph cluster312 {
+"engine_src_networking_com_jme3_network_base_DefaultClient.java/[CN]/DefaultClient/[MT]/start()/body";
+}
+subgraph cluster323 {
+"jme3-core_src_main_java_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/isApplyBlendEquationAlpha()/parameters";
+"sdk_jme3-blender_src_com_jme3_gde_blender_scripts_import__dae.py/[MT]/main/body";
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[MT]/drawImage(Image,int,int,String)/body";
+}
+subgraph cluster34 {
+"jme3-lwjgl_src_main_java_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/convertTextureType(Texture.Type,int,int)/body";
+}
+subgraph cluster474 {
+"engine_src_core_com_jme3_input_JoystickCompatibilityMappings.java/[CN]/JoystickCompatibilityMappings/[MT]/addMapping(String,String,String)/parameters";
+"sdk_jme3-gui_src_com_jme3_gde_gui_NiftyGuiVisualElement.java/[CN]/NiftyGuiVisualElement/[MT]/update(Observable,Object)/body";
+}
+subgraph cluster26 {
+"sdk_jme3-gui_src_com_jme3_gde_gui_NiftyGuiVisualElement.java/[CN]/NiftyGuiVisualElement/[MT]/componentActivated()/body";
+"engine_src_core_com_jme3_animation_AudioTrack.java/[CN]/AudioTrack/[MT]/setAudio(AudioNode)/body";
+}
+subgraph cluster162 {
+"engine_src_desktop_com_jme3_input_awt_AwtMouseInput.java/[CN]/AwtMouseInput/[MT]/getJMEButtonIndex(MouseEvent)/body";
+"engine_src_desktop_com_jme3_input_awt_AwtKeyInput.java/[CN]/AwtKeyInput/[MT]/keyReleased(KeyEvent)/body";
+}
+subgraph cluster437 {
+"engine_src_core_com_jme3_cinematic_events_MotionTrack.java/[CN]/MotionTrack/[MT]/update(float)/body";
+"engine_src_core_com_jme3_cinematic_events_AbstractCinematicEvent.java/[CN]/AbstractCinematicEvent/[MT]/initEvent(Application,Cinematic)/body";
+"engine_src_core_com_jme3_cinematic_events_AbstractCinematicEvent.java/[CN]/AbstractCinematicEvent/[MT]/stop()/body";
+}
+subgraph cluster211 {
+"engine_src_bullet_com_jme3_bullet_PhysicsSpace.java/[CN]/PhysicsSpace/[MT]/removeGhostObject(PhysicsGhostObject)/body";
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/runBlender(String,boolean)/body";
+}
+subgraph cluster332 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/propertyChange(PropertyChangeEvent)/body";
+}
+subgraph cluster171 {
+"engine_src_core_com_jme3_shader_DefineList.java/[CN]/DefineList/[MT]/remove(String)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_JmeGenericControl.java/[CN]/JmeGenericControl/extend";
+}
+subgraph cluster240 {
+"engine_src_lwjgl_com_jme3_renderer_lwjgl_LwjglGL1Renderer.java/[CN]/LwjglGL1Renderer/[MT]/updateTexImageData(Image,Texture.Type,int)/body";
+}
+subgraph cluster286 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/setTriPlanarEnabled(boolean)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_AssetData.java/[CN]/AssetData/[MT]/getProperty(String,String)/body";
+}
+subgraph cluster81 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_MatDefEditorToolBar.java/[CN]/MatDefEditorToolBar/[MT]/initComponents()/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_MaterialPreviewRenderer.java/[CN]/MaterialPreviewRenderer/[MT]/reloadMaterial(Material)/body";
+}
+subgraph cluster449 {
+"jme3-jogg_src_main_java_com_jme3_audio_plugins_OGGLoader.java/[CN]/OGGLoader/[MT]/readToStream(boolean)/body";
+}
+subgraph cluster51 {
+"jme3-core_src_main_java_com_jme3_scene_Spatial.java/[CN]/Spatial/[MT]/cloneFields(Cloner,Object)/body";
+"jme3-core_src_main_java_com_jme3_scene_CameraNode.java/[CN]/CameraNode/[MT]/cloneFields(Cloner,Object)/body";
+"jme3-core_src_main_java_com_jme3_scene_instancing_InstancedNode.java/[CN]/InstancedNode/[MT]/cloneFields(Cloner,Object)/body";
+"jme3-core_src_main_java_com_jme3_scene_instancing_InstancedGeometry.java/[CN]/InstancedGeometry/[MT]/cloneFields(Cloner,Object)/body";
+}
+subgraph cluster45 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/computeNativesHash()/body";
+"engine_src_core-plugins_com_jme3_scene_plugins_OBJLoader.java/[CN]/OBJLoader/[MT]/readLine()/body";
+"jme3-android_src_main_java_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster346 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_SceneExplorerTopComponent.java/[CN]/SceneExplorerTopComponent/[MT]/addMaterialChangeProvider(MaterialChangeProvider)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_SceneExplorerTopComponent.java/[CN]/SceneExplorerTopComponent/[MT]/removeMaterialChangeProvider(MaterialChangeProvider)/body";
+}
+subgraph cluster468 {
+"jme3-lwjgl3_src_main_java_com_jme3_system_lwjgl_LwjglWindow.java/[CN]/LwjglWindow/[MT]/createContext(AppSettings)/body";
+"jme3-lwjgl3_src_main_java_com_jme3_input_lwjgl_GlfwMouseInput.java/[CN]/GlfwMouseInput/[MT]/initialize()/body";
+"jme3-lwjgl3_src_main_java_com_jme3_audio_lwjgl_LwjglALC.java/[CN]/LwjglALC/[MT]/destroyALC()/body";
+"jme3-lwjgl3_src_main_java_com_jme3_input_lwjgl_GlfwKeyInput.java/[CN]/GlfwKeyInput/[MT]/initialize()/body";
+}
+subgraph cluster470 {
+"engine_src_core_com_jme3_shadow_AbstractShadowRenderer.java/[CN]/AbstractShadowRenderer/[MT]/postFrame(FrameBuffer)/body";
+"engine_src_core_com_jme3_shadow_AbstractShadowRenderer.java/[CN]/AbstractShadowRenderer/[MT]/postQueue(RenderQueue)/body";
+}
+subgraph cluster233 {
+"engine_src_core_com_jme3_effect_ParticleEmitter.java/[CN]/ParticleEmitter/[MT]/clone()/body";
+"engine_src_core_com_jme3_effect_ParticleEmitter.java/[CN]/ParticleEmitter/[CN]/ParticleEmitterControl/[MT]/cloneForSpatial(Spatial)/body";
+}
+subgraph cluster173 {
+"sdk_jme3-core_src_com_jme3_gde_core_filters_FilterExplorerTopComponent.java/[CN]/FilterExplorerTopComponent/[MT]/updateFilterState()/body";
+}
+subgraph cluster201 {
+"jme3-core_src_main_java_com_jme3_audio_openal_ALAudioRenderer.java/[CN]/ALAudioRenderer/[MT]/initialize()/body";
+"jme3-core_src_main_java_com_jme3_audio_openal_ALAudioRenderer.java/[CN]/ALAudioRenderer/[MT]/playSourceInstance(AudioSource)/body";
+}
+subgraph cluster433 {
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_FontCreator.java/[CN]/FontCreator/[MT]/buildFont(String,int,int)/body";
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_AngelFontVisualPanel1.java/[CN]/AngelFontVisualPanel1/[MT]/updateFont(javax.swing.event.ListSelectionEvent)/body";
+}
+subgraph cluster376 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_SceneToolController.java/[CN]/SceneToolController/[MT]/attachPhysicsSelection(Spatial)/body";
+}
+subgraph cluster409 {
+"engine_src_core_com_jme3_animation_SkeletonControl.java/[CN]/SkeletonControl/[MT]/setSpatial(Spatial)/body";
+"engine_src_core_com_jme3_animation_SkeletonControl.java/[CN]/SkeletonControl/[MT]/read(JmeImporter)/body";
+}
+subgraph cluster335 {
+"engine_src_blender_com_jme3_scene_plugins_blender_helpers_v249_TextureHelper.java/[CN]/TextureHelper/[MT]/getTexture(Structure,DataRepository)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_helpers_v249_MaterialHelper.java/[CN]/MaterialHelper/[MT]/toMaterial(Structure,DataRepository)/body";
+}
+subgraph cluster192 {
+"engine_src_core_com_jme3_cinematic_events_SoundTrack.java/[CN]/SoundTrack/[MT]/setTime(float)/body";
+"engine_src_core_com_jme3_cinematic_events_AbstractCinematicEvent.java/[CN]/AbstractCinematicEvent/[MT]/setTime(float)/body";
+"engine_src_core_com_jme3_cinematic_Cinematic.java/[CN]/Cinematic/[MT]/setTime(float)/body";
+}
+subgraph cluster267 {
+"engine_src_blender_com_jme3_scene_plugins_blender_constraints_definitions_ConstraintDefinitionLocLimit.java/[CN]/ConstraintDefinitionLocLimit/[MT]/bake(Space,Space,Transform,float)/body";
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/extractNativeLib(String,String,boolean,boolean)/parameters";
+"engine_src_core_com_jme3_scene_VertexBuffer.java/[CN]/VertexBuffer/[MT]/setupData(Usage,int,Format,Buffer)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_multiview_widgets_ColorPanel.java/[CN]/ColorPanel/[MT]/initComponents()/body";
+}
+subgraph cluster326 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[CN]/TextureTableModel/[MT]/addNewTexture(int)/body";
+"engine_src_core_com_jme3_shadow_PssmShadowRenderer.java/[CN]/PssmShadowRenderer/[FE]/fadeInfo";
+}
+subgraph cluster463 {
+"jme3-core_src_main_java_com_jme3_renderer_opengl_GLImageFormats.java/[CN]/GLImageFormats/[MT]/getFormatsForCaps(EnumSet<Caps>)/body";
+"jme3-core_src_main_java_com_jme3_renderer_opengl_GLImageFormat.java/[CN]/GLImageFormat/[CS]/GLImageFormat(int,int,int,boolean)/body";
+}
+subgraph cluster56 {
+"engine_src_ogre_com_jme3_scene_plugins_ogre_MaterialLoader.java/[CN]/MaterialLoader/[MT]/readTextureImage(String)/body";
+}
+subgraph cluster456 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/extractNativeLib(String,String,boolean,boolean)/body";
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[FE]/extractionDirOverride";
+}
+subgraph cluster126 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[MT]/childrenAdded(NodeMemberEvent)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/reinitTextureTable()/body";
+}
+subgraph cluster42 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/multipleTexBottomLoadButtonActionPerformed(java.awt.event.ActionEvent)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/singleTexLoadButtonActionPerformed(java.awt.event.ActionEvent)/body";
+}
+subgraph cluster461 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainQuad.java/[CN]/TerrainQuad/[MT]/setHeight(List<Vector2f>,List<Float>,boolean)/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainQuad.java/[CN]/TerrainQuad/[MT]/getHeightmapHeight(Vector2f)/body";
+}
+subgraph cluster386 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_EditableMatDefFile.java/[CN]/EditableMatDefFile/[MT]/updateLookupWithMaterialData(MatDefDataObject)/body";
+}
+subgraph cluster308 {
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ExternalChangeScanner.java/[CN]/ExternalChangeScanner/[MT]/notifyUser()/body";
+}
+subgraph cluster245 {
+"jme3-core_src_main_java_com_jme3_renderer_RenderContext.java/[CN]/RenderContext/[MT]/reset()/body";
+"jme3-core_src_main_java_com_jme3_renderer_opengl_GLRenderer.java/[CN]/GLRenderer/[MT]/initialize()/body";
+"engine_src_terrain_com_jme3_terrain_geomipmap_TerrainGrid.java/[CN]/TerrainGrid/[MT]/initialize(Vector3f)/body";
+}
+subgraph cluster395 {
+"engine_src_core_com_jme3_renderer_RenderContext.java/[CN]/RenderContext/[MT]/reset()/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_MoveTool.java/[CN]/MoveTool/[MT]/draggedPrimary(Vector2f,boolean,JmeNode,DataObject)/body";
+}
+subgraph cluster270 {
+"jme3-lwjgl3_src_main_java_com_jme3_system_lwjgl_LwjglWindow.java/[CN]/LwjglWindow/[MT]/run()/body";
+"jme3-lwjgl3_src_main_java_com_jme3_system_lwjgl_LwjglWindow.java/[CN]/LwjglWindow/[MT]/destroyContext()/body";
+}
+subgraph cluster73 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_SelectTool.java/[CN]/SelectTool/[MT]/findModelNodeParent(Spatial)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_SelectTool.java/[CN]/SelectTool/[MT]/isTerrain(Spatial)/body";
+}
+subgraph cluster427 {
+"jme3-core_src_main_java_com_jme3_light_AmbientLight.java/[CN]/AmbientLight/[CS]/AmbientLight()/parameters";
+"jme3-core_src_main_java_com_jme3_material_TechniqueDef.java/[CN]/TechniqueDef/[MT]/read(JmeImporter)/body";
+}
+subgraph cluster420 {
+"jme3-core_src_main_java_com_jme3_scene_Node.java/[CN]/Node/[MT]/cloneFields(Cloner,Object)/body";
+"jme3-core_src_main_java_com_jme3_scene_LightNode.java/[CN]/LightNode/[MT]/cloneFields(Cloner,Object)/body";
+}
+subgraph cluster422 {
+"engine_src_jbullet_com_jme3_bullet_control_RagdollControl.java/[CN]/RagdollControl/[MT]/collision(PhysicsCollisionEvent)/body";
+"engine_src_jbullet_com_jme3_bullet_control_RagdollControl.java/[CN]/RagdollControl/[MT]/makeShape(PhysicsBoneLink,Spatial)/body";
+"engine_src_lwjgl_com_jme3_renderer_lwjgl_LwjglGL1Renderer.java/[CN]/LwjglGL1Renderer/[MT]/renderMeshDefault(Mesh,int,int)/body";
+}
+subgraph cluster23 {
+"engine_src_core_com_jme3_scene_VertexBuffer.java/[CN]/VertexBuffer/[MT]/updateData(Buffer)/body";
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_SelectTool.java/[CN]/SelectTool/[MT]/doMouseRotate(Vector3f,Vector2f,JmeNode,JmeSpatial)/body";
+}
+subgraph cluster350 {
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[MT]/getPixelFormat(EGLConfig,EGLDisplay,EGL10)/body";
+}
+subgraph cluster356 {
+"engine_src_lwjgl_com_jme3_renderer_lwjgl_LwjglRenderer.java/[CN]/LwjglRenderer/[MT]/initialize()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_controller_AbstractCameraController.java/[CN]/AbstractCameraController/[MT]/addAdditionnalToolbar()/body";
+}
+subgraph cluster448 {
+"engine_src_android_com_jme3_input_android_AndroidInput.java/[CN]/AndroidInput/[MT]/onDoubleTap(MotionEvent)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_filters_FilterExplorerTopComponent.java/[CN]/FilterExplorerTopComponent/[MT]/clearFilters()/body";
+}
+subgraph cluster110 {
+"engine_src_core_com_jme3_animation_Animation.java/[CN]/Animation/[MT]/setTime(float,float,AnimControl,AnimChannel,TempVars)/body";
+"engine_src_core_com_jme3_animation_Animation.java/[CN]/Animation/[MT]/removeTrack(Track)/body";
+}
+subgraph cluster465 {
+"engine_src_terrain_com_jme3_terrain_geomipmap_LODGeomap.java/[CN]/LODGeomap/[MT]/writeTexCoordArray(FloatBuffer,Vector2f,Vector2f,float,int)/body";
+}
+subgraph cluster128 {
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onResume()/body";
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/onPause()/body";
+}
+subgraph cluster299 {
+"engine_src_lwjgl_com_jme3_system_lwjgl_LwjglDisplay.java/[CN]/LwjglDisplay/[MT]/createContext(AppSettings)/body";
+"engine_src_lwjgl_com_jme3_system_lwjgl_LwjglOffscreenBuffer.java/[CN]/LwjglOffscreenBuffer/[MT]/initInThread()/body";
+}
+subgraph cluster253 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_Diagram.java/[CN]/Diagram/[MT]/mouseDragged(MouseEvent)/body";
+}
+subgraph cluster134 {
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_ModelImporterVisualPanel3.java/[CN]/ModelImporterVisualPanel3/[MT]/loadSettings(WizardDescriptor)/body";
+"sdk_jme3-model-importer_src_com_jme3_gde_modelimporter_ModelImporterVisualPanel3.java/[CN]/ModelImporterVisualPanel3/[MT]/applySettings(WizardDescriptor)/body";
+}
+subgraph cluster47 {
+"engine_src_ogre_com_jme3_scene_plugins_ogre_MeshLoader.java/[CN]/MeshLoader/[MT]/load(AssetInfo)/body";
+"engine_src_android_com_jme3_util_android_AndroidSkyFactory.java/[CN]/AndroidSkyFactory/[MT]/createSky(AssetManager,Texture,Texture,Texture,Texture,Texture,Texture,Vector3f)/body";
+}
+subgraph cluster54 {
+"engine_src_core_com_jme3_material_RenderState.java/[CN]/RenderState/[MT]/setStencil(boolean,StencilOperation,StencilOperation,StencilOperation,StencilOperation,StencilOperation,StencilOperation,TestFunction,TestFunction)/body";
+}
+subgraph cluster507 {
+"engine_src_android_com_jme3_util_android_AndroidSkyFactory.java/[CN]/AndroidSkyFactory/[MT]/createSky(AssetManager,Texture,Vector3f,boolean)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_actions_impl_NewGeometryQuadAction.java/[CN]/NewGeometryQuadAction/[MT]/doCreateSpatial(Node)/body";
+}
+subgraph cluster473 {
+"engine_src_core_com_jme3_input_InputManager.java/[CN]/InputManager/[MT]/onJoyAxisEventQueued(JoyAxisEvent)/body";
+"engine_src_core_com_jme3_input_InputManager.java/[CN]/InputManager/[MT]/onMouseMotionEventQueued(MouseMotionEvent)/body";
+}
+subgraph cluster399 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/generateTerrain(WizardDescriptor)/body";
+"engine_src_core_com_jme3_post_FilterPostProcessor.java/[CN]/FilterPostProcessor/[MT]/reshape(ViewPort,int,int)/body";
+}
+subgraph cluster278 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/heightSliderStateChanged(javax.swing.event.ChangeEvent)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/radiusSliderStateChanged(javax.swing.event.ChangeEvent)/body";
+}
+subgraph cluster141 {
+"engine_src_core_com_jme3_scene_Mesh.java/[CN]/Mesh/[MT]/clone()/body";
+}
+subgraph cluster341 {
+"jme3-jogl_src_main_java_com_jme3_renderer_jogl_JoglRenderer.java/[CN]/JoglRenderer/[MT]/updateShaderSourceData(ShaderSource)/body";
+"jme3-ios_src_main_java_com_jme3_renderer_ios_IGLESShaderRenderer.java/[CN]/IGLESShaderRenderer/[MT]/updateShaderSourceData(ShaderSource)/body";
+}
+subgraph cluster2 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/sceneRequested(SceneRequest)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorController.java/[CN]/TerrainEditorController/[CS]/TerrainEditorController(JmeSpatial,AssetDataObject,TerrainEditorTopComponent)/body";
+}
+subgraph cluster450 {
+"engine_src_bullet_com_jme3_bullet_collision_shapes_MeshCollisionShape.java/[CN]/MeshCollisionShape/[MT]/createCollisionMesh(Mesh)/body";
+}
+subgraph cluster143 {
+"engine_src_core_com_jme3_scene_BatchNode.java/[CN]/BatchNode/[MT]/findBatchByMaterial(Material)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_EditableMatDefFile.java/[CN]/EditableMatDefFile/[MT]/getShaderCode(String,Shader.ShaderType)/body";
+}
+subgraph cluster194 {
+"engine_src_lwjgl-ogl_com_jme3_system_lwjgl_LwjglCanvas.java/[CN]/LwjglCanvas/[MT]/pauseCanvas()/body";
+"engine_src_core_com_jme3_util_TangentBinormalGenerator.java/[CN]/TangentBinormalGenerator/[MT]/genTangentLines(Mesh,float)/body";
+"engine_src_core_com_jme3_shadow_SpotLightShadowRenderer.java/[CN]/SpotLightShadowRenderer/[MT]/getReceivers(GeometryList,GeometryList)/body";
+}
+subgraph cluster379 {
+"engine_src_core_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[MT]/play()/body";
+"engine_src_core_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[MT]/setPositional(boolean)/body";
+"engine_src_core_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[MT]/setDryFilter(Filter)/body";
+}
+subgraph cluster202 {
+"jme3-android-examples_src_main_java_org_jmonkeyengine_jme3androidexamples_MainActivity.java/[CN]/MainActivity/[MT]/onPrepareOptionsMenu(Menu)/body";
+}
+subgraph cluster411 {
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[CN]/TextureAtlasTile/[MT]/transformTextureCoords(FloatBuffer,int,FloatBuffer)/body";
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[CN]/TextureAtlasTile/[MT]/getLocation(Vector2f)/body";
+}
+subgraph cluster430 {
+"engine_src_blender_com_jme3_scene_plugins_blender_meshes_MeshHelper.java/[CN]/MeshHelper/[MT]/readTraditionalFaces(MeshBuilder,Structure,BlenderContext)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_meshes_MeshHelper.java/[CN]/MeshHelper/[MT]/readBMesh(MeshBuilder,Structure,BlenderContext)/body";
+}
+subgraph cluster195 {
+"engine_src_android_com_jme3_system_android_OGLESContext.java/[CN]/OGLESContext/[MT]/deinitInThread()/body";
+"engine_src_android_com_jme3_system_android_OGLESContext.java/[CN]/OGLESContext/[MT]/onDrawFrame(GL10)/body";
+"engine_src_android_com_jme3_system_android_OGLESContext.java/[CN]/OGLESContext/[MT]/initInThread()/body";
+}
+subgraph cluster445 {
+"jme3-core_src_main_java_com_jme3_scene_Mesh.java/[CN]/Mesh/[MT]/jmeClone()/body";
+"jme3-core_src_main_java_com_jme3_scene_AssetLinkNode.java/[CN]/AssetLinkNode/[MT]/cloneFields(Cloner,Object)/body";
+"jme3-core_src_main_java_com_jme3_scene_Geometry.java/[CN]/Geometry/[MT]/cloneFields(Cloner,Object)/body";
+"jme3-core_src_main_java_com_jme3_scene_BatchNode.java/[CN]/BatchNode/[MT]/cloneFields(Cloner,Object)/body";
+}
+subgraph cluster271 {
+"engine_src_jbullet_com_jme3_bullet_control_RagdollControl.java/[CN]/RagdollControl/[MT]/removeFromPhysicsSpace()/body";
+}
+subgraph cluster144 {
+"jme3-lwjgl3_src_main_java_com_jme3_input_lwjgl_GlfwMouseInput.java/[CN]/GlfwMouseInput/[MT]/destroy()/body";
+"jme3-core_src_main_java_com_jme3_scene_Spatial.java/[CN]/Spatial/[CS]/Spatial(String)/body";
+}
+subgraph cluster256 {
+"engine_src_core_com_jme3_app_state_AppStateManager.java/[CN]/AppStateManager/[MT]/attach(AppState)/body";
+"engine_src_android_com_jme3_app_AndroidHarness.java/[CN]/AndroidHarness/[MT]/loseFocus()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_nodes_JmeTerrainGrid.java/[CN]/JmeTerrainGrid/[MT]/tileAttached(Vector3f,TerrainQuad)/body";
+}
+subgraph cluster438 {
+"jme3-core_src_main_java_com_jme3_audio_AudioNode.java/[CN]/AudioNode/[CS]/AudioNode(AudioRenderer,AssetManager,String)/body";
+}
+subgraph cluster197 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materials_multiview_widgets_TexturePanel.java/[CN]/TexturePanel/[MT]/initComponents()/body";
+}
+subgraph cluster447 {
+"engine_src_core_com_jme3_input_ChaseCamera.java/[CN]/ChaseCamera/[FE]/ChaseCamUp";
+}
+subgraph cluster276 {
+"engine_src_desktop_com_jme3_system_Natives.java/[CN]/Natives/[MT]/computeNativesHash()/parameters";
+"jme3-core_src_main_java_com_jme3_renderer_opengl_TextureUtil.java/[CN]/TextureUtil/[MT]/uploadTexture(Image,int,int,boolean)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_completion_AssetCompletionProvider.java/[CN]/AssetCompletionProvider/[MT]/createTask(int,JTextComponent)/body";
+}
+subgraph cluster71 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_TerrainEditorTopComponent.java/[CN]/TerrainEditorTopComponent/[MT]/removeTextureButtonActionPerformed(java.awt.event.ActionEvent)/body";
+"engine_src_niftygui_com_jme3_niftygui_InputSystemJme.java/[CN]/InputSystemJme/[MT]/onMouseButtonEventQueued(MouseButtonEvent,NiftyInputConsumer)/body";
+}
+subgraph cluster436 {
+"engine_src_ogre_com_jme3_scene_plugins_ogre_SceneLoader.java/[CN]/SceneLoader/[MT]/startElement(String,String,String,Attributes)/body";
+"engine_src_ogre_com_jme3_scene_plugins_ogre_SceneLoader.java/[CN]/SceneLoader/[MT]/parseLightNormal(Attributes)/body";
+}
+subgraph cluster247 {
+"sdk_jme3-blender_src_com_jme3_gde_blender_BlenderTool.java/[CN]/BlenderTool/[MT]/runBlender(String,boolean)/parameters";
+"sdk_jme3-blender_src_com_jme3_gde_blender_OpenInBlender.java/[CN]/OpenInBlender/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster358 {
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_AngelFontVisualPanel2.java/[CN]/AngelFontVisualPanel2/[MT]/updateFont()/body";
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_FontCreator.java/[CN]/FontCreator/[MT]/buildFont(String,int,int,int,boolean)/body";
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_AngelFontVisualPanel2.java/[CN]/AngelFontVisualPanel2/[MT]/initComponents()/body";
+"sdk_jme3-angelfont_src_com_jme3_gde_angelfont_AngelFontWizardIterator.java/[CN]/AngelFontWizardIterator/[MT]/instantiate()/body";
+}
+subgraph cluster208 {
+"engine_src_jogl_com_jme3_renderer_jogl_JoglGL1Renderer.java/[CN]/JoglGL1Renderer/[MT]/initialize()/body";
+"engine_src_lwjgl_com_jme3_renderer_lwjgl_LwjglGL1Renderer.java/[CN]/LwjglGL1Renderer/[MT]/initialize()/body";
+}
+subgraph cluster94 {
+"engine_src_android_com_jme3_audio_android_AndroidAudioRenderer.java/[CN]/AndroidAudioRenderer/[MT]/update(float)/body";
+}
+subgraph cluster25 {
+"jme3-jogl_src_main_java_com_jme3_input_jogl_NewtMouseInput.java/[CN]/NewtMouseInput/[MT]/setInputSource(GLWindow)/body";
+"jme3-jogl_src_main_java_com_jme3_input_jogl_NewtMouseInput.java/[CN]/NewtMouseInput/[MT]/mouseMoved(MouseEvent)/body";
+"jme3-jogl_src_main_java_com_jme3_input_jogl_NewtMouseInput.java/[CN]/NewtMouseInput/[MT]/setCursorVisible(boolean)/body";
+}
+subgraph cluster33 {
+"sdk_jme3-core_src_com_jme3_gde_core_sceneexplorer_SceneExplorerTopComponent.java/[CN]/SceneExplorerTopComponent/[MT]/removeMaterialChangeListener(MaterialChangeListener)/body";
+}
+subgraph cluster189 {
+"engine_src_blender_com_jme3_scene_plugins_blender_materials_MaterialContext.java/[CN]/MaterialContext/[MT]/applyMaterial(Geometry,Long,LinkedHashMap<String,List<Vector2f>>,BlenderContext)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_materials_MaterialContext.java/[CN]/MaterialContext/[CS]/MaterialContext(Structure,BlenderContext)/body";
+}
+subgraph cluster277 {
+"engine_src_core_com_jme3_util_TempVars.java/[CN]/TempVars/[MT]/get()/body";
+"engine_src_core_com_jme3_util_TempVars.java/[CN]/TempVars/[MT]/release()/body";
+}
+subgraph cluster236 {
+"jme3-jogl_src_main_java_com_jme3_opencl_jocl_JoclProgram.java/[CN]/JoclProgram/[MT]/getBinary(Device)/body";
+"jme3-jogl_src_main_java_com_jme3_opencl_jocl_JoclProgram.java/[CN]/JoclProgram/[MT]/getBinary(Device)/parameters";
+}
+subgraph cluster250 {
+"engine_src_core_com_jme3_util_NativeObjectManager.java/[CN]/NativeObjectManager/[MT]/resetObjects()/body";
+"engine_src_android_com_jme3_system_android_AndroidConfigChooser.java/[CN]/AndroidConfigChooser/[MT]/chooseConfig(EGL10,EGLDisplay)/body";
+}
+subgraph cluster377 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/multipleTexWestLoadButtonActionPerformed(java.awt.event.ActionEvent)/body";
+"engine_src_desktop_com_jme3_input_awt_AwtMouseInput.java/[CN]/AwtMouseInput/[MT]/mousePressed(MouseEvent)/body";
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_sky_SkyboxVisualPanel2.java/[CN]/SkyboxVisualPanel2/[MT]/multipleTexEastLoadButtonActionPerformed(java.awt.event.ActionEvent)/body";
+}
+subgraph cluster3 {
+"jme3-core_src_main_java_com_jme3_light_Light.java/[CN]/Light/[CS]/Light(ColorRGBA)/body";
+"jme3-core_src_main_java_com_jme3_light_Light.java/[CN]/Light/[CS]/Light(ColorRGBA)/parameters";
+}
+subgraph cluster330 {
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_Diagram.java/[CN]/Diagram/[MT]/mousePressed(MouseEvent)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_DraggablePanel.java/[CN]/DraggablePanel/[MT]/mouseDragged(MouseEvent)/body";
+"sdk_jme3-materialeditor_src_com_jme3_gde_materialdefinition_editor_DraggablePanel.java/[CN]/DraggablePanel/[MT]/mousePressed(MouseEvent)/body";
+}
+subgraph cluster462 {
+"engine_src_core_com_jme3_app_state_AppStateManager.java/[CN]/AppStateManager/[MT]/postRender()/body";
+"engine_src_core_com_jme3_app_state_AppStateManager.java/[CN]/AppStateManager/[MT]/update(float)/body";
+"engine_src_core_com_jme3_app_state_AppStateManager.java/[CN]/AppStateManager/[MT]/detach(AppState)/body";
+"engine_src_core_com_jme3_app_state_AppStateManager.java/[CN]/AppStateManager/[MT]/render(RenderManager)/body";
+}
+subgraph cluster304 {
+"sdk_jme3-ogretools_src_com_jme3_gde_ogretools_OgreBinaryMeshDataObject.java/[CN]/OgreBinaryMeshDataObject/[MT]/loadAsset()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_SpatialAssetDataObject.java/[CN]/SpatialAssetDataObject/[MT]/loadAsset()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_SpatialAssetDataObject.java/[CN]/SpatialAssetDataObject/[MT]/saveAsset()/body";
+}
+subgraph cluster368 {
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_meshes_TemporalMesh.java/[CN]/TemporalMesh/[MT]/isBoundary(Integer)/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_modifiers_SubdivisionSurfaceModifier.java/[CN]/SubdivisionSurfaceModifier/[MT]/subdivideSimple(TemporalMesh)/body";
+}
+subgraph cluster153 {
+"engine_src_networking_com_jme3_network_base_DefaultClient.java/[CN]/DefaultClient/[MT]/send(Message)/body";
+}
+subgraph cluster412 {
+"engine_src_tools_jme3tools_optimize_TextureAtlas.java/[CN]/TextureAtlas/[MT]/addTexture(Texture,String,String)/body";
+}
+subgraph cluster314 {
+"engine_src_networking_com_jme3_network_Network.java/[CN]/Network/[MT]/createServer(int,int)/body";
+}
+subgraph cluster479 {
+"engine_src_blender_com_jme3_scene_plugins_blender_BlenderContext.java/[CN]/BlenderContext/[MT]/setSkeleton(Long,Skeleton)/body";
+"engine_src_blender_com_jme3_scene_plugins_blender_BlenderContext.java/[CN]/BlenderContext/[MT]/getSkeleton(Long)/body";
+}
+subgraph cluster138 {
+"sdk_jme3-scenecomposer_src_com_jme3_gde_scenecomposer_tools_RotateTool.java/[CN]/RotateTool/[MT]/actionSecondary(Vector2f,boolean,JmeNode,DataObject)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_assets_ExternalChangeScanner.java/[CN]/ExternalChangeScanner/[MT]/fileRenamed(FileRenameEvent)/body";
+}
+subgraph cluster130 {
+"sdk_jme3-terrain-editor_src_com_jme3_gde_terraineditor_tools_PaintTerrainTool.java/[CN]/PaintTerrainTool/[MT]/setModified(AbstractSceneExplorerNode,DataObject)/body";
+"sdk_jme3-core_src_com_jme3_gde_core_j2seproject_ProjectExtensionManager.java/[CN]/ProjectExtensionManager/[MT]/getImplFile(FileObject,boolean)/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_landscape_LandscapeHelper.java/[CN]/LandscapeHelper/[MT]/toFog(Structure)/body";
+}
+subgraph cluster497 {
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_meshes_Edge.java/[CN]/Edge/[MT]/toString()/body";
+"jme3-blender_src_main_java_com_jme3_scene_plugins_blender_meshes_Edge.java/[CN]/Edge/[MT]/clone()/body";
+}
+subgraph cluster407 {
+"engine_src_android_com_jme3_util_AndroidLogHandler.java/[CN]/AndroidLogHandler/[MT]/publish(LogRecord)/body";
+"engine_src_android_com_jme3_system_android_JmeAndroidSystem.java/[CN]/JmeAndroidSystem/[MT]/initialize(AppSettings)/body";
+}
+subgraph cluster357 {
+"engine_src_blender_com_jme3_scene_plugins_blender_animations_BoneContext.java/[CN]/BoneContext/[CS]/BoneContext(Structure,Long,BoneContext,BlenderContext)/body";
+}
+subgraph cluster385 {
+"engine_src_networking_com_jme3_network_base_ConnectorAdapter.java/[CN]/ConnectorAdapter/[MT]/run()/body";
+"engine_src_networking_com_jme3_network_base_KernelAdapter.java/[CN]/KernelAdapter/[MT]/createAndDispatch(Envelope)/body";
+}
+subgraph cluster279 {
+"engine_src_lwjgl-ogl_com_jme3_system_lwjgl_LwjglCanvas.java/[CN]/LwjglCanvas/[CN]/GLCanvas/[MT]/removeNotify()/body";
+}
+subgraph cluster327 {
+"sdk_jme3-core_src_com_jme3_gde_core_scene_FakeApplication.java/[CN]/FakeApplication/[MT]/removeCurrentStates()/body";
+"sdk_jme3-core_src_com_jme3_gde_core_scene_FakeApplication.java/[CN]/FakeApplication/[MT]/removeAllStates()/body";
+}
+subgraph cluster193 {
+"engine_src_android_com_jme3_audio_android_AndroidAudioRenderer.java/[CN]/AndroidAudioRenderer/[MT]/updateListenerParam(Listener,ListenerParam)/body";
+}
+}
