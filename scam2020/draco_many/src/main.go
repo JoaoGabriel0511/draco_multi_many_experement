@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/project-draco/moea"
-	"github.com/project-draco/moea/binary"
-	"github.com/project-draco/moea/integer"
-	"github.com/project-draco/moea/nsgaii"
+	"github.com/JoaoGabriel0511/moea"
+	"github.com/JoaoGabriel0511/moea/binary"
+	"github.com/JoaoGabriel0511/moea/integer"
+	"github.com/JoaoGabriel0511/moea/nsgaii"
 )
 
 func main() {
