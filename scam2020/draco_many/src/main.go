@@ -6,16 +6,18 @@ import (
 	"fmt"
 	"log"
 	"math"
+	"moea/nsgaiii"
 	"os"
 	"runtime/pprof"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/JoaoGabriel0511/moea"
-	"github.com/JoaoGabriel0511/moea/binary"
-	"github.com/JoaoGabriel0511/moea/integer"
-	"github.com/JoaoGabriel0511/moea/nsgaii"
+	"github.com/project-draco/moea"
+	"github.com/project-draco/moea/binary"
+	"github.com/project-draco/moea/integer"
+	"github.com/project-draco/moea/nsgaii"
+	"github.com/project-draco/moea/nsgaiii"
 )
 
 func main() {
@@ -184,7 +186,7 @@ func main() {
 		// _ /*ip :*/ = integer.NewRandomIntegerPopulation(ps, len(vertices), ibounds, rng)
 		var selection moea.SelectionOperator
 		if *pmany {
-			//NSGAIII
+			selection = &nsgaiii.NsgaIIISelection{ReferencePointsDivision: 3}
 		} else if *pmulti {
 			selection = &nsgaii.NsgaIISelection{}
 		} else {

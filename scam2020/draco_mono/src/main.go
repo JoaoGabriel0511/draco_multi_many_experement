@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"math"
+	"moea/nsgaiii"
 	"os"
 	"runtime/pprof"
 	"strconv"
@@ -184,7 +185,7 @@ func main() {
 		// _ /*ip :*/ = integer.NewRandomIntegerPopulation(ps, len(vertices), ibounds, rng)
 		var selection moea.SelectionOperator
 		if *pmany {
-			//NSGAIII
+			selection = &nsgaiii.NsgaIIISelection{ReferencePointsDivision: 3}
 		} else if *pmulti {
 			selection = &nsgaii.NsgaIISelection{}
 		} else {
