@@ -1,0 +1,13 @@
+FROM draco_many_base:latest
+
+ARG EXPERIMENT_NAME
+ENV EXPERIMENT_NAME=${EXPERIMENT_NAME}
+
+WORKDIR ${BASE_PATH}
+
+COPY script/run_draco_many.sh src/main.go ./
+
+
+RUN go build -o main main.go
+
+ENTRYPOINT bash run_draco_many.sh --name ${EXPERIMENT_NAME}

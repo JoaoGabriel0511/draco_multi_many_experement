@@ -11,6 +11,8 @@ function mkdirs {
     mkdir -p "experiments/draco_mono/log/${NAME}"
     mkdir -p "experiments/draco_multi/report/${NAME}"
     mkdir -p "experiments/draco_multi/log/${NAME}"
+    mkdir -p "experiments/draco_many/report/${NAME}"
+    mkdir -p "experiments/draco_many/log/${NAME}"
     mkdir -p "experiments/bunch/report/${NAME}"
     mkdir -p "experiments/bunch/log/${NAME}"
 }
@@ -29,9 +31,10 @@ if [ "$1" = "" ]; then
     echo "    -l/--logs                     Show the last 10 lines from all containers up from [TOOLS]."
     echo
     echo " EXP:"
-    echo "    --all [default]           Applies the actions above for draco (mono and multi) and bunch."
+    echo "    --all [default]           Applies the actions above for draco (mono, multi and many) and bunch."
     echo "    -dmo/--draco-mono         Applies the actions above only for draco mono objetive."
     echo "    -dmu/--draco-multi        Applies the actions above only for draco multiple objetives."
+    echo "    -dma/--draco-many         Applies the actions above only for draco many objetives."
     echo "    -b/--bunch                Applies the actions above only for bunch."
     echo
     echo " ARGS:"
@@ -83,6 +86,10 @@ else
             EXP=DRACO_MULTI
             shift # past argument
             ;;
+            -dma|--draco-many)
+            EXP=DRACO_MANY
+            shift # past argument
+            ;;
             -b|--bunch)
             EXP=BUNCH
             shift # past argument
@@ -127,6 +134,10 @@ else
         if [ "$EXP" = "DRACO_MULTI" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_multi/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
+
+        if [ "$EXP" = "DRACO_MANY" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
+        fi
         
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
@@ -141,6 +152,10 @@ else
 
         if [ "$EXP" = "DRACO_MULTI" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_multi/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
+        fi
+
+        if [ "$EXP" = "DRACO_MANY" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
 
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
@@ -158,6 +173,10 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_multi/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
 
+        if [ "$EXP" = "DRACO_MANY" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
+        fi
+
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
@@ -168,6 +187,10 @@ else
 
         if [ "$EXP" = "DRACO_MULTI" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_multi/docker-compose.yml --compatibility down
+        fi
+
+        if [ "$EXP" = "DRACO_MANY" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility down
         fi
 
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
@@ -182,6 +205,8 @@ else
             run_cmd "rm -rf experiments/${NAME}/draco_mono"
         elif [ "$EXP" = "DRACO_MULTI" ]; then
             run_cmd "rm -rf experiments/${NAME}/draco_multi"
+        elif [ "$EXP" = "DRACO_MANY" ]; then
+            run_cmd "rm -rf experiments/${NAME}/draco_many"
         elif [ "$EXP" = "BUNCH" ]; then
             run_cmd "rm -rf experiments/${NAME}/bunch"
         fi
@@ -197,6 +222,13 @@ else
             echo "---------"; 
             echo "DRACO MULTI IMAGE"; 
             docker logs -t --tail 50 scam2020_draco_multi_experiment
+            echo
+        fi
+
+        if [ "$EXP" = "DRACO_MANY" ] || [ "$EXP" = "ALL" ]; then
+            echo "---------"; 
+            echo "DRACO MANY IMAGE"; 
+            docker logs -t --tail 50 scam2020_draco_many_experiment
             echo
         fi
 

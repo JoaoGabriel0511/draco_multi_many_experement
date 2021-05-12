@@ -16,11 +16,13 @@ import (
 	"github.com/project-draco/moea/binary"
 	"github.com/project-draco/moea/integer"
 	"github.com/project-draco/moea/nsgaii"
+	"github.com/project-draco/moea/nsgaiii"
 )
 
 func main() {
 	prepeat := flag.Int("repeat", 0, "Repeat")
 	pmulti := flag.Bool("multi", false, "Multi-objective")
+	pmany := flag.Bool("many", false, "Many-objective")
 	cpuprofile := flag.String("cpuprofile", "", "write cpu profile to file")
 	memprofile := flag.String("memprofile", "", "write mem profile to file")
 	flag.Parse()
@@ -182,7 +184,9 @@ func main() {
 		bp := binary.NewRandomBinaryPopulation(ps, lengths, nil /*bounds*/, rng)
 		// _ /*ip :*/ = integer.NewRandomIntegerPopulation(ps, len(vertices), ibounds, rng)
 		var selection moea.SelectionOperator
-		if *pmulti {
+		if *pmany {
+			selection = &nsgaiii.NsgaIIISelection{ReferencePointsDivision: 3}
+		} else if *pmulti {
 			selection = &nsgaii.NsgaIISelection{}
 		} else {
 			selection = &moea.TournamentSelection{10}
