@@ -5,6 +5,6 @@ ENV BASE_PATH=/go/src/app \
     LOG_PATH=/go/src/log \
     DATA_PATH=/go/src/data
 
-RUN go get -u github.com/JoaoGabriel0511/moea && \
+RUN go get -u github.com/project-draco/moea && \
     apt-get update -y && \
     apt-get install -y time

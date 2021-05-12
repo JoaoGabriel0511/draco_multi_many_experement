@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"log"
 	"math"
-	"moea/nsgaiii"
 	"os"
 	"runtime/pprof"
 	"strconv"

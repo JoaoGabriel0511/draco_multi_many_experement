@@ -34,7 +34,7 @@ if [ "$1" = "" ]; then
     echo "    --all [default]           Applies the actions above for draco (mono, multi and many) and bunch."
     echo "    -dmo/--draco-mono         Applies the actions above only for draco mono objetive."
     echo "    -dmu/--draco-multi        Applies the actions above only for draco multiple objetives."
-    echo "    -dmu/--draco-many         Applies the actions above only for draco many objetives."
+    echo "    -dma/--draco-many         Applies the actions above only for draco many objetives."
     echo "    -b/--bunch                Applies the actions above only for bunch."
     echo
     echo " ARGS:"
@@ -86,7 +86,7 @@ else
             EXP=DRACO_MULTI
             shift # past argument
             ;;
-            -dmu|--draco-many)
+            -dma|--draco-many)
             EXP=DRACO_MANY
             shift # past argument
             ;;

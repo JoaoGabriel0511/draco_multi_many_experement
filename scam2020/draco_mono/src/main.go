@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"log"
 	"math"
-	"moea/nsgaiii"
 	"os"
 	"runtime/pprof"
 	"strconv"
@@ -17,6 +16,7 @@ import (
 	"github.com/project-draco/moea/binary"
 	"github.com/project-draco/moea/integer"
 	"github.com/project-draco/moea/nsgaii"
+	"github.com/project-draco/moea/nsgaiii"
 )
 
 func main() {
