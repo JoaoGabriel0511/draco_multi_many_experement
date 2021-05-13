@@ -19,8 +19,3 @@ services:
         container_name: scam2020_draco_multi_experiment
         depends_on:
             - base
-        deploy:
-            resources:
-                limits:
-                    cpus: '3'
-                    memory: 3gb
