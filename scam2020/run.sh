@@ -127,7 +127,7 @@ else
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
-        if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
 
@@ -139,14 +139,14 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
         
-        if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "BUNCH" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "BUILD" ]; then
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
-        if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
 
@@ -158,7 +158,7 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
 
-        if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "BUNCH" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "FORCE" ]; then
