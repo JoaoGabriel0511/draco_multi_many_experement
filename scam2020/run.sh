@@ -7,6 +7,8 @@ function run_cmd {
 
 function mkdirs {
     NAME=$1
+    mkdir -p "experiments/draco_mono_lns/report/${NAME}"
+    mkdir -p "experiments/draco_mono_lns/log/${NAME}"
     mkdir -p "experiments/draco_mono/report/${NAME}"
     mkdir -p "experiments/draco_mono/log/${NAME}"
     mkdir -p "experiments/draco_multi/report/${NAME}"
@@ -78,6 +80,10 @@ else
             OPT=LOGS
             shift # past argument
             ;;
+            -dmolns|--draco-mono-lns)
+            EXP=DRACO_MONO_LNS
+            shift # past argument
+            ;;
             -dmo|--draco-mono)
             EXP=DRACO_MONO
             shift # past argument
@@ -127,6 +133,10 @@ else
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
+        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f draco_mono_lns/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
+        fi
+        
         if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
@@ -146,6 +156,10 @@ else
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
+        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f draco_mono_lns/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
+        fi
+
         if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
@@ -165,6 +179,10 @@ else
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
+        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f draco_mono_lns/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
+        fi
+
         if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
@@ -181,6 +199,10 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "STOP" ]; then
+        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f draco_mono_lns/docker-compose.yml --compatibility down
+        fi
+
         if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility down
         fi
@@ -201,6 +223,8 @@ else
         echo
         if [ "$EXP" = "ALL" ]; then
             run_cmd "rm -rf experiments"
+        elif [ "$EXP" = "DRACO_MONO_LNS" ]; then
+            run_cmd "rm -rf experiments/${NAME}/draco_mono_lns"
         elif [ "$EXP" = "DRACO_MONO" ]; then
             run_cmd "rm -rf experiments/${NAME}/draco_mono"
         elif [ "$EXP" = "DRACO_MULTI" ]; then
@@ -211,6 +235,13 @@ else
             run_cmd "rm -rf experiments/${NAME}/bunch"
         fi
     elif [ "$OPT" = "LOGS" ]; then
+        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+            echo "---------"; 
+            echo "DRACO MONO LNS IMAGE"; 
+            docker logs -t --tail 50 scam2020_draco_mono_lns_experiment
+            echo
+        fi
+
         if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
             echo "---------"; 
             echo "DRACO MONO IMAGE"; 
