@@ -185,13 +185,16 @@ func main() {
 		// _ /*ip :*/ = integer.NewRandomIntegerPopulation(ps, len(vertices), ibounds, rng)
 		var selection moea.SelectionOperator
 		if *pmany {
+			fmt.Fprintln(os.Stderr, "many")
 			selection = &nsgaiii.NsgaIIISelection{ReferencePointsDivision: 3}
 		} else if *pmulti {
+			fmt.Fprintln(os.Stderr, "multi")
 			selection = &nsgaii.NsgaIISelection{}
 		} else {
+			fmt.Fprintln(os.Stderr, "mono")
 			selection = &moea.TournamentSelection{10}
 		}
-		fmt.Fprintln(os.Stderr, "About to create config")
+		fmt.Fprintln(os.Stderr, "About to create ")
 		return &moea.Config{
 			Algorithm:             moea.NewSimpleAlgorithm(selection, &moea.FastMutation{}),
 			Population:            bp,
