@@ -27,3 +27,7 @@
 - Compile go file and generates a binary file called `main`:
     $ go build -o draco/main draco/main.go
 
+
+## How to add new experiment
+- Add a folder inside graphs directory and add all of the mdgs that are a part of the experiment/
+- Example: graphs/example/test.mdg
