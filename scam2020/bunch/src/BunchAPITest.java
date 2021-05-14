@@ -15,7 +15,7 @@ public class BunchAPITest {
         bp.setProperty(BunchProperties.CLUSTERING_ALG, BunchProperties.ALG_HILL_CLIMBING);
         bp.setProperty(BunchProperties.OUTPUT_FORMAT, BunchProperties.DOT_OUTPUT_FORMAT);
         bp.setProperty(BunchProperties.MDG_PARSER_USE_SPACES, "False");
-        bp.setProperty(BunchProperties.MQ_CALCULATOR_CLASS, "bunch.TurboMQ");
+        //bp.setProperty(BunchProperties.MQ_CALCULATOR_CLASS, "bunch.TurboMQ");
 
         api.setProperties(bp);
 
