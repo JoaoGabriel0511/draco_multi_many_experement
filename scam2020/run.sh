@@ -36,6 +36,7 @@ if [ "$1" = "" ]; then
     echo
     echo " EXP:"
     echo "    --all [default]           Applies the actions above for draco (mono, multi and many) and bunch."
+    echo "    -dmo/--draco-mono-lns     Applies the actions above only for draco mono objetive LNS."
     echo "    -dmo/--draco-mono         Applies the actions above only for draco mono objetive."
     echo "    -dmu/--draco-multi        Applies the actions above only for draco multiple objetives."
     echo "    -dma/--draco-many         Applies the actions above only for draco many objetives."
