@@ -1,0 +1,46 @@
+/**
+ * AggregativeComparator.java
+ *
+ * @author Juan J. Durillo
+ * @version 1.0
+ */
+package jmetal.base.operator.comparator;
+
+import java.util.Comparator;
+import jmetal.base.Solution;
+
+/**
+ * This class implements a <code>Comparator</code> (a method for comparing
+ * <code>Solution</code> objects) based on the aggregative sum of the objective
+ * values.
+ */
+public class AggregativeComparator implements Comparator<Solution>
+{
+	/**
+	 * Compares two solutions.
+	 * 
+	 * @param o1 Object representing the first <code>Solution</code>.
+	 * @param o2 Object representing the second <code>Solution</code>.
+	 * @return -1, or 0, or 1 if o1 is less than, equal, or greater than o2,
+	 *         respectively.
+	 */
+	public int compare(Solution o1, Solution o2)
+	{
+		if (o1 == null)
+			return 1;
+
+		if (o2 == null)
+			return -1;
+
+		double value1 = o1.getAggregativeValue();
+		double value2 = o2.getAggregativeValue();
+
+		if (value1 < value2)
+			return -1;
+
+		if (value2 < value1)
+			return 1;
+
+		return 0;
+	}
+}
