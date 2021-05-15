@@ -33,19 +33,20 @@ public class BunchAPITest {
         Hashtable [] resultLevels = (Hashtable[])results.get
                                         (BunchAPI.RESULT_CLUSTER_OBJS);
 
-        // Output detailed information for each level
-        for(int i = 0; i < resultLevels.length; i++) {
-            Hashtable lvlResults = resultLevels[0];
-            System.out.println("***** LEVEL " + i + "*****");
-            String mq = (String)lvlResults.get(BunchAPI.MQVALUE);
-            String depth = (String)lvlResults.get(BunchAPI.CLUSTER_DEPTH);
-            String numC = (String)lvlResults.get(BunchAPI.NUMBER_CLUSTERS);
-            System.out.println("MQ Value = " + mq);
-            System.out.println(" Best Cluster Depth = " + depth);
-            System.out.println(" Number of Clusters in Best Partition = " +
-                               numC);
-            System.out.println();
-        }
+        //Output detailed information for each level
+        //for(int i = 0; i < resultLevels.length; i++)
+        //{
+        Hashtable lvlResults = resultLevels[0];
+        //System.out.println("***** LEVEL "+i+"*****");
+        String mq = (String)lvlResults.get(BunchAPI.MQVALUE);
+        String depth = (String)lvlResults.get(BunchAPI.CLUSTER_DEPTH);
+        String numC = (String)lvlResults.get(BunchAPI.NUMBER_CLUSTERS);
+        System.out.println("MQ Value = " + mq);
+        //System.out.println(" Best Cluster Depth = " + depth);
+        //System.out.println(" Number of Clusters in Best Partition = " +
+        //numC);
+        System.out.println();
+        //}
 
     }
 
