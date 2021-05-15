@@ -40,7 +40,7 @@ if [ "$1" = "" ]; then
     echo "    -dmu/--draco-multi        Applies the actions above only for draco multiple objetives."
     echo "    -dma/--draco-many         Applies the actions above only for draco many objetives."
     echo "    -b/--bunch                Applies the actions above only for bunch."
-    echo "    -hdmo/--hd_mono           Applies the actions above only for Heuristic Design Mono."
+    echo "    -hdmo/--hd-mono           Applies the actions above only for Heuristic Design Mono."
     echo
     echo " ARGS:"
     echo "    --detached        Starts experiment in detached mode."
