@@ -1,0 +1,14 @@
+FROM hd_mono_base:latest
+
+ARG EXPERIMENT_NAME
+ENV EXPERIMENT_NAME=${EXPERIMENT_NAME}
+
+WORKDIR ${BASE_PATH}
+
+COPY script/run_hd_mono.sh src/ ./
+
+RUN mvn -f cms/pom.xml clean package install
+RUN mvn -f cms_mono_objective/pom.xml package clean install
+RUN mvn -f cms_runner/pom.xml clean compile assembly:single
+
+ENTRYPOINT bash run_hd_mono.sh --name ${EXPERIMENT_NAME}

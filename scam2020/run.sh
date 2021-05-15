@@ -17,6 +17,8 @@ function mkdirs {
     mkdir -p "experiments/draco_many/log/${NAME}"
     mkdir -p "experiments/bunch/report/${NAME}"
     mkdir -p "experiments/bunch/log/${NAME}"
+    mkdir -p "experiments/hd_mono/report/${NAME}"
+    mkdir -p "experiments/hd_mono/log/${NAME}"
 }
 
 echo "Welcome to SCM Performance Analyzer"
@@ -38,6 +40,7 @@ if [ "$1" = "" ]; then
     echo "    -dmu/--draco-multi        Applies the actions above only for draco multiple objetives."
     echo "    -dma/--draco-many         Applies the actions above only for draco many objetives."
     echo "    -b/--bunch                Applies the actions above only for bunch."
+    echo "    -hdmo/--hd_mono           Applies the actions above only for Heuristic Design Mono."
     echo
     echo " ARGS:"
     echo "    --detached        Starts experiment in detached mode."
@@ -100,6 +103,10 @@ else
             EXP=BUNCH
             shift # past argument
             ;;
+            -hdmo|--hd-mono)
+            EXP=HD_MONO
+            shift # past argument
+            ;;
             --all)
             EXP=ALL
             shift # past argument
@@ -152,6 +159,10 @@ else
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
+
+        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f hd_mono/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
+        fi
     elif [ "$OPT" = "BUILD" ]; then
         echo "NAME = ${NAME}"
         echo
@@ -174,6 +185,10 @@ else
 
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
+        fi
+
+        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f hd_mono/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "FORCE" ]; then
         echo "NAME = ${NAME}"
@@ -198,6 +213,10 @@ else
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
+
+        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f hd_mono/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
+        fi
     elif [ "$OPT" = "STOP" ]; then
         if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono_lns/docker-compose.yml --compatibility down
@@ -218,6 +237,10 @@ else
         if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility down
         fi
+
+        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+            EXPERIMENT_NAME=$NAME docker-compose -f hd_mono/docker-compose.yml --compatibility down
+        fi
     elif [ "$OPT" = "CLEAN" ]; then
         echo "NAME = ${NAME}"
         echo
@@ -233,6 +256,8 @@ else
             run_cmd "rm -rf experiments/${NAME}/draco_many"
         elif [ "$EXP" = "BUNCH" ]; then
             run_cmd "rm -rf experiments/${NAME}/bunch"
+        elif [ "$EXP" = "HD_MONO" ]; then
+            run_cmd "rm -rf experiments/${NAME}/hd_mono"
         fi
     elif [ "$OPT" = "LOGS" ]; then
         if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
@@ -267,6 +292,13 @@ else
             echo "---------"; 
             echo "BUNCH IMAGE"; 
             docker logs -t --tail 50 scam2020_bunch_experiment
+            echo
+        fi
+
+        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+            echo "---------"; 
+            echo "HD MONO IMAGE"; 
+            docker logs -t --tail 50 scam2020_hd_mono_experiment
             echo
         fi
     fi
