@@ -191,7 +191,7 @@ func main() {
 		} else {
 			selection = &moea.TournamentSelection{10}
 		}
-		fmt.Fprintln(os.Stderr, "About to create ")
+		fmt.Fprintln(os.Stderr, "About to create config")
 		return &moea.Config{
 			Algorithm:             moea.NewSimpleAlgorithm(selection, &moea.FastMutation{}),
 			Population:            bp,
@@ -245,7 +245,11 @@ func main() {
 	}
 	fmt.Println("}")
 	fmt.Fprintln(os.Stderr, "")
-	fmt.Fprintln(os.Stderr, result.BestObjective[0])
+	fmt.Fprintln(os.Stderr, "mq: ", result.BestObjective[0])
+	fmt.Fprintln(os.Stderr, "f1: ", result.BestObjective[1])
+	fmt.Fprintln(os.Stderr, "f2: ", result.BestObjective[2])
+	fmt.Fprintln(os.Stderr, "cc: ", result.BestObjective[3])
+	fmt.Fprintln(os.Stderr, "dif: ", result.BestObjective[4])
 	if *memprofile != "" {
 		f, err := os.Create(*memprofile)
 		if err != nil {
