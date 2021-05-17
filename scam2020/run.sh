@@ -141,11 +141,11 @@ else
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
-        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO_LNS" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono_lns/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
         
-        if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
 
@@ -157,22 +157,22 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
         
-        if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "BUNCH" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
 
-        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "HD_MONO" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f hd_mono/docker-compose.yml --compatibility up --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "BUILD" ]; then
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
-        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO_LNS" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono_lns/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
 
-        if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
 
@@ -184,22 +184,22 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
 
-        if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "BUNCH" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
 
-        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "HD_MONO" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f hd_mono/docker-compose.yml --compatibility up --build --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "FORCE" ]; then
         echo "NAME = ${NAME}"
         echo
         mkdirs "$NAME"
-        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO_LNS" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono_lns/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
 
-        if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
 
@@ -211,19 +211,19 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
 
-        if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "BUNCH" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
 
-        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "HD_MONO" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f hd_mono/docker-compose.yml --compatibility up --build --no-cache --force-recreate --remove-orphans ${EXTRA_ARGS}
         fi
     elif [ "$OPT" = "STOP" ]; then
-        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO_LNS" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono_lns/docker-compose.yml --compatibility down
         fi
 
-        if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f draco_mono/docker-compose.yml --compatibility down
         fi
 
@@ -235,11 +235,11 @@ else
             EXPERIMENT_NAME=$NAME docker-compose -f draco_many/docker-compose.yml --compatibility down
         fi
 
-        if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "BUNCH" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f bunch/docker-compose.yml --compatibility down
         fi
 
-        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "HD_MONO" ] ; then
             EXPERIMENT_NAME=$NAME docker-compose -f hd_mono/docker-compose.yml --compatibility down
         fi
     elif [ "$OPT" = "CLEAN" ]; then
@@ -261,14 +261,14 @@ else
             run_cmd "rm -rf experiments/${NAME}/hd_mono"
         fi
     elif [ "$OPT" = "LOGS" ]; then
-        if [ "$EXP" = "DRACO_MONO_LNS" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO_LNS" ] ; then
             echo "---------"; 
             echo "DRACO MONO LNS IMAGE"; 
             docker logs -t --tail 50 scam2020_draco_mono_lns_experiment
             echo
         fi
 
-        if [ "$EXP" = "DRACO_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "DRACO_MONO" ] ; then
             echo "---------"; 
             echo "DRACO MONO IMAGE"; 
             docker logs -t --tail 50 scam2020_draco_mono_experiment
@@ -289,14 +289,14 @@ else
             echo
         fi
 
-        if [ "$EXP" = "BUNCH" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "BUNCH" ]; then
             echo "---------"; 
             echo "BUNCH IMAGE"; 
             docker logs -t --tail 50 scam2020_bunch_experiment
             echo
         fi
 
-        if [ "$EXP" = "HD_MONO" ] || [ "$EXP" = "ALL" ]; then
+        if [ "$EXP" = "HD_MONO" ]; then
             echo "---------"; 
             echo "HD MONO IMAGE"; 
             docker logs -t --tail 50 scam2020_hd_mono_experiment
