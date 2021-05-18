@@ -1,0 +1,1018 @@
+Welcome to SCM Performance Analyzer
+
+OPT       = BUILD
+EXP       = ALL
+DETACHED  = NO
+NAME = test
+
+Sending build context to Docker daemon  17.41kB
+Step 1/3 : FROM golang:1.14
+ ---> 21a5635903d6
+Step 2/3 : ENV BASE_PATH=/go/src/app     EXP_PATH=/go/src/exp     LOG_PATH=/go/src/log     DATA_PATH=/go/src/data
+ ---> Using cache
+ ---> d7c5da289bf7
+Step 3/3 : RUN go get -u github.com/project-draco/moea &&     apt-get update -y &&     apt-get install -y time
+ ---> Using cache
+ ---> fa97dba4d817
+Successfully built fa97dba4d817
+Successfully tagged draco_multi_base:latest
+Sending build context to Docker daemon  17.41kB
+Step 1/7 : FROM draco_multi_base:latest
+ ---> fa97dba4d817
+Step 2/7 : ARG EXPERIMENT_NAME
+ ---> Using cache
+ ---> 664dba8ad89c
+Step 3/7 : ENV EXPERIMENT_NAME=${EXPERIMENT_NAME}
+ ---> Using cache
+ ---> 7db88c91f3c5
+Step 4/7 : WORKDIR ${BASE_PATH}
+ ---> Using cache
+ ---> 1699db80dcf0
+Step 5/7 : COPY script/run_draco_multi.sh src/main.go ./
+ ---> Using cache
+ ---> e68a59292526
+Step 6/7 : RUN go build -o main main.go
+ ---> Using cache
+ ---> 81b0468618d5
+Step 7/7 : ENTRYPOINT bash run_draco_multi.sh --name ${EXPERIMENT_NAME}
+ ---> Using cache
+ ---> c825b4034dad
+Successfully built c825b4034dad
+Successfully tagged draco_multi_experiment:latest
+Attaching to scam2020_draco_multi, scam2020_draco_multi_experiment
+[33mscam2020_draco_multi_experiment |[0m EXP NAME = test
+[33mscam2020_draco_multi_experiment |[0m GRAPH FILES: storm(1).mdg
+[33mscam2020_draco_multi_experiment |[0m FILES: 1
+[33mscam2020_draco_multi_experiment |[0m 
+[33mscam2020_draco_multi_experiment |[0m 0 > MDG NAME: storm(1)
+[33mscam2020_draco_multi_experiment |[0m Max Generations: 9020, Population Size: 451, Individual Size: 3608, Variables: 451
+[33mscam2020_draco_multi_experiment |[0m About to create config
+[36mscam2020_draco_multi exited with code 0
+[0m[33mscam2020_draco_multi_experiment |[0m start..........1m2.5s..........2m3.3s..........3m3.4s..........4m3.5s..........5m3.5s..........6m4.3s..........7m4.4s..........8m5.4s..........9m7.5s
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6465,f1: -432.0000,f2: 5634.0000,cc: -253.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.8489,f1: -545.0000,f2: 5408.0000,cc: -256.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.6691,f1: -655.0000,f2: 5188.0000,cc: -244.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.5964,f1: -617.0000,f2: 5264.0000,cc: -255.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.9773,f1: -552.0000,f2: 5394.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.3167,f1: -490.0000,f2: 5518.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.6557,f1: -610.0000,f2: 5278.0000,cc: -252.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.3008,f1: -613.0000,f2: 5272.0000,cc: -250.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.9645,f1: -491.0000,f2: 5516.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.0942,f1: -494.0000,f2: 5510.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.0172,f1: -564.0000,f2: 5370.0000,cc: -244.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9857,f1: -661.0000,f2: 5176.0000,cc: -244.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.7749,f1: -556.0000,f2: 5386.0000,cc: -251.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.5039,f1: -473.0000,f2: 5552.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.8424,f1: -549.0000,f2: 5400.0000,cc: -254.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.4774,f1: -442.0000,f2: 5614.0000,cc: -248.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.4906,f1: -643.0000,f2: 5212.0000,cc: -253.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.3200,f1: -490.0000,f2: 5518.0000,cc: -253.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9857,f1: -661.0000,f2: 5176.0000,cc: -244.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.1433,f1: -551.0000,f2: 5396.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9744,f1: -632.0000,f2: 5234.0000,cc: -250.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.6492,f1: -518.0000,f2: 5462.0000,cc: -240.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.4714,f1: -547.0000,f2: 5404.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6579,f1: -612.0000,f2: 5274.0000,cc: -251.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.4253,f1: -443.0000,f2: 5612.0000,cc: -247.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.4253,f1: -443.0000,f2: 5612.0000,cc: -247.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3887,f1: -553.0000,f2: 5392.0000,cc: -251.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.8731,f1: -555.0000,f2: 5388.0000,cc: -251.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.7208,f1: -553.0000,f2: 5392.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9857,f1: -661.0000,f2: 5176.0000,cc: -244.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.4022,f1: -433.0000,f2: 5632.0000,cc: -253.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.9009,f1: -554.0000,f2: 5390.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3813,f1: -654.0000,f2: 5190.0000,cc: -248.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.8388,f1: -585.0000,f2: 5328.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.6398,f1: -575.0000,f2: 5348.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.2493,f1: -566.0000,f2: 5366.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.2255,f1: -475.0000,f2: 5548.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.7044,f1: -495.0000,f2: 5508.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.8943,f1: -650.0000,f2: 5198.0000,cc: -251.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.8404,f1: -565.0000,f2: 5368.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.4444,f1: -512.0000,f2: 5474.0000,cc: -250.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.3318,f1: -589.0000,f2: 5320.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.2679,f1: -602.0000,f2: 5294.0000,cc: -252.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.1936,f1: -439.0000,f2: 5620.0000,cc: -247.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.1347,f1: -549.0000,f2: 5400.0000,cc: -248.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.7590,f1: -648.0000,f2: 5202.0000,cc: -252.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.9315,f1: -655.0000,f2: 5188.0000,cc: -253.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9857,f1: -661.0000,f2: 5176.0000,cc: -244.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.6839,f1: -568.0000,f2: 5362.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8878,f1: -531.0000,f2: 5436.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8428,f1: -619.0000,f2: 5260.0000,cc: -252.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.3090,f1: -648.0000,f2: 5202.0000,cc: -253.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.9412,f1: -612.0000,f2: 5274.0000,cc: -256.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.6355,f1: -555.0000,f2: 5388.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.3554,f1: -560.0000,f2: 5378.0000,cc: -249.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.5892,f1: -657.0000,f2: 5184.0000,cc: -250.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.4336,f1: -578.0000,f2: 5342.0000,cc: -256.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.1987,f1: -581.0000,f2: 5336.0000,cc: -256.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -60.8695,f1: -497.0000,f2: 5504.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.2786,f1: -606.0000,f2: 5286.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8553,f1: -610.0000,f2: 5278.0000,cc: -246.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.2027,f1: -594.0000,f2: 5310.0000,cc: -256.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5931,f1: -551.0000,f2: 5396.0000,cc: -249.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.1502,f1: -485.0000,f2: 5528.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2905,f1: -658.0000,f2: 5182.0000,cc: -248.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6571,f1: -557.0000,f2: 5384.0000,cc: -251.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6055,f1: -442.0000,f2: 5614.0000,cc: -250.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.2829,f1: -559.0000,f2: 5380.0000,cc: -251.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.1892,f1: -557.0000,f2: 5384.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.4133,f1: -602.0000,f2: 5294.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9861,f1: -563.0000,f2: 5372.0000,cc: -245.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.2984,f1: -633.0000,f2: 5232.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2244,f1: -443.0000,f2: 5612.0000,cc: -246.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.7700,f1: -654.0000,f2: 5190.0000,cc: -251.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.4204,f1: -618.0000,f2: 5262.0000,cc: -243.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.1031,f1: -636.0000,f2: 5226.0000,cc: -252.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.1362,f1: -560.0000,f2: 5378.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2792,f1: -610.0000,f2: 5278.0000,cc: -242.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.0985,f1: -437.0000,f2: 5624.0000,cc: -251.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3652,f1: -566.0000,f2: 5366.0000,cc: -240.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6508,f1: -530.0000,f2: 5438.0000,cc: -256.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.6124,f1: -597.0000,f2: 5304.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.0516,f1: -662.0000,f2: 5174.0000,cc: -246.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.8425,f1: -444.0000,f2: 5610.0000,cc: -248.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9396,f1: -478.0000,f2: 5542.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.6008,f1: -605.0000,f2: 5288.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.7963,f1: -431.0000,f2: 5636.0000,cc: -253.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6543,f1: -592.0000,f2: 5314.0000,cc: -255.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.0522,f1: -497.0000,f2: 5504.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.0034,f1: -615.0000,f2: 5268.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9921,f1: -441.0000,f2: 5616.0000,cc: -247.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.8746,f1: -471.0000,f2: 5556.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5242,f1: -654.0000,f2: 5190.0000,cc: -246.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.0114,f1: -610.0000,f2: 5278.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.4538,f1: -561.0000,f2: 5376.0000,cc: -251.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.0308,f1: -562.0000,f2: 5374.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5418,f1: -444.0000,f2: 5610.0000,cc: -246.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.1929,f1: -588.0000,f2: 5322.0000,cc: -250.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.3008,f1: -613.0000,f2: 5272.0000,cc: -250.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5791,f1: -620.0000,f2: 5258.0000,cc: -242.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.8178,f1: -487.0000,f2: 5524.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5695,f1: -632.0000,f2: 5234.0000,cc: -251.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3455,f1: -651.0000,f2: 5196.0000,cc: -249.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.9766,f1: -552.0000,f2: 5394.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9186,f1: -620.0000,f2: 5258.0000,cc: -241.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.8697,f1: -612.0000,f2: 5274.0000,cc: -250.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5229,f1: -516.0000,f2: 5466.0000,cc: -246.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.6410,f1: -613.0000,f2: 5272.0000,cc: -247.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5573,f1: -506.0000,f2: 5486.0000,cc: -248.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.6492,f1: -518.0000,f2: 5462.0000,cc: -240.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5229,f1: -516.0000,f2: 5466.0000,cc: -246.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2068,f1: -559.0000,f2: 5380.0000,cc: -242.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6259,f1: -546.0000,f2: 5406.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.4784,f1: -658.0000,f2: 5182.0000,cc: -250.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.7840,f1: -641.0000,f2: 5216.0000,cc: -250.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3250,f1: -616.0000,f2: 5266.0000,cc: -247.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.8619,f1: -440.0000,f2: 5618.0000,cc: -249.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6955,f1: -446.0000,f2: 5606.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.6763,f1: -515.0000,f2: 5468.0000,cc: -248.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.4340,f1: -549.0000,f2: 5400.0000,cc: -255.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.6569,f1: -545.0000,f2: 5408.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5290,f1: -655.0000,f2: 5188.0000,cc: -251.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.9793,f1: -619.0000,f2: 5260.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.9545,f1: -635.0000,f2: 5228.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.2487,f1: -626.0000,f2: 5246.0000,cc: -255.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6672,f1: -447.0000,f2: 5604.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5265,f1: -636.0000,f2: 5226.0000,cc: -250.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.7881,f1: -555.0000,f2: 5388.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3446,f1: -617.0000,f2: 5264.0000,cc: -245.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5695,f1: -632.0000,f2: 5234.0000,cc: -251.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.6613,f1: -515.0000,f2: 5468.0000,cc: -246.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.2539,f1: -639.0000,f2: 5220.0000,cc: -256.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9857,f1: -661.0000,f2: 5176.0000,cc: -244.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.6026,f1: -499.0000,f2: 5500.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.5739,f1: -602.0000,f2: 5294.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.0928,f1: -637.0000,f2: 5224.0000,cc: -255.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.5590,f1: -544.0000,f2: 5410.0000,cc: -255.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8127,f1: -569.0000,f2: 5360.0000,cc: -249.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.8401,f1: -534.0000,f2: 5430.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.1235,f1: -493.0000,f2: 5512.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.1629,f1: -550.0000,f2: 5398.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8085,f1: -611.0000,f2: 5276.0000,cc: -247.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.0216,f1: -587.0000,f2: 5324.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.3997,f1: -556.0000,f2: 5386.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.2342,f1: -613.0000,f2: 5272.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9024,f1: -540.0000,f2: 5418.0000,cc: -249.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9240,f1: -516.0000,f2: 5466.0000,cc: -243.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.8384,f1: -552.0000,f2: 5394.0000,cc: -254.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.6763,f1: -515.0000,f2: 5468.0000,cc: -248.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2357,f1: -604.0000,f2: 5290.0000,cc: -249.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.4997,f1: -594.0000,f2: 5310.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9633,f1: -436.0000,f2: 5626.0000,cc: -251.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.5414,f1: -501.0000,f2: 5496.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.1334,f1: -570.0000,f2: 5358.0000,cc: -250.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.0957,f1: -536.0000,f2: 5426.0000,cc: -255.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.6330,f1: -435.0000,f2: 5628.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.9714,f1: -532.0000,f2: 5434.0000,cc: -256.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.0407,f1: -656.0000,f2: 5186.0000,cc: -250.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8559,f1: -607.0000,f2: 5284.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.8579,f1: -587.0000,f2: 5324.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.6533,f1: -582.0000,f2: 5334.0000,cc: -253.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.7628,f1: -538.0000,f2: 5422.0000,cc: -251.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.9654,f1: -601.0000,f2: 5296.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.4289,f1: -651.0000,f2: 5196.0000,cc: -251.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.7012,f1: -617.0000,f2: 5264.0000,cc: -246.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.1610,f1: -500.0000,f2: 5498.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.5786,f1: -595.0000,f2: 5308.0000,cc: -240.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.7404,f1: -611.0000,f2: 5276.0000,cc: -255.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.0732,f1: -654.0000,f2: 5190.0000,cc: -252.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.8036,f1: -493.0000,f2: 5512.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.7325,f1: -558.0000,f2: 5382.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9556,f1: -651.0000,f2: 5196.0000,cc: -248.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.5285,f1: -628.0000,f2: 5242.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.0520,f1: -436.0000,f2: 5626.0000,cc: -252.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.7568,f1: -544.0000,f2: 5410.0000,cc: -254.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.3224,f1: -591.0000,f2: 5316.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.7044,f1: -495.0000,f2: 5508.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -61.7344,f1: -430.0000,f2: 5638.0000,cc: -255.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.2782,f1: -636.0000,f2: 5226.0000,cc: -255.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.1235,f1: -493.0000,f2: 5512.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.9261,f1: -643.0000,f2: 5212.0000,cc: -255.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9421,f1: -614.0000,f2: 5270.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.2270,f1: -443.0000,f2: 5612.0000,cc: -248.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.0290,f1: -513.0000,f2: 5472.0000,cc: -248.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.0507,f1: -575.0000,f2: 5348.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2027,f1: -661.0000,f2: 5176.0000,cc: -249.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.3224,f1: -591.0000,f2: 5316.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.0528,f1: -426.0000,f2: 5646.0000,cc: -255.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.1050,f1: -608.0000,f2: 5282.0000,cc: -252.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9239,f1: -565.0000,f2: 5368.0000,cc: -242.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.7011,f1: -511.0000,f2: 5476.0000,cc: -238.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.0203,f1: -610.0000,f2: 5278.0000,cc: -255.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.3315,f1: -569.0000,f2: 5360.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.7021,f1: -507.0000,f2: 5484.0000,cc: -244.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.7273,f1: -559.0000,f2: 5380.0000,cc: -249.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.7556,f1: -549.0000,f2: 5400.0000,cc: -249.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2244,f1: -636.0000,f2: 5226.0000,cc: -249.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3553,f1: -547.0000,f2: 5404.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.7400,f1: -430.0000,f2: 5638.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.7306,f1: -539.0000,f2: 5420.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.2669,f1: -442.0000,f2: 5614.0000,cc: -249.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.7099,f1: -657.0000,f2: 5184.0000,cc: -243.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.2074,f1: -599.0000,f2: 5300.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.4055,f1: -444.0000,f2: 5610.0000,cc: -247.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.2980,f1: -597.0000,f2: 5304.0000,cc: -252.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.0432,f1: -592.0000,f2: 5314.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3461,f1: -566.0000,f2: 5366.0000,cc: -242.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5885,f1: -514.0000,f2: 5470.0000,cc: -247.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.7421,f1: -560.0000,f2: 5378.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.1556,f1: -424.0000,f2: 5650.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.0166,f1: -495.0000,f2: 5508.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.3336,f1: -637.0000,f2: 5224.0000,cc: -248.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.7243,f1: -426.0000,f2: 5646.0000,cc: -253.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.6044,f1: -444.0000,f2: 5610.0000,cc: -244.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.3412,f1: -608.0000,f2: 5282.0000,cc: -251.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.2863,f1: -447.0000,f2: 5604.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5233,f1: -543.0000,f2: 5412.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.8220,f1: -608.0000,f2: 5282.0000,cc: -253.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.7310,f1: -514.0000,f2: 5470.0000,cc: -248.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.8121,f1: -517.0000,f2: 5464.0000,cc: -241.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.2477,f1: -497.0000,f2: 5504.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6290,f1: -516.0000,f2: 5466.0000,cc: -248.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.3527,f1: -601.0000,f2: 5296.0000,cc: -243.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.5763,f1: -609.0000,f2: 5280.0000,cc: -240.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.0003,f1: -556.0000,f2: 5386.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.0136,f1: -564.0000,f2: 5370.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8029,f1: -542.0000,f2: 5414.0000,cc: -249.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3500,f1: -616.0000,f2: 5266.0000,cc: -246.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.4186,f1: -435.0000,f2: 5628.0000,cc: -248.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.1755,f1: -498.0000,f2: 5502.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.1440,f1: -619.0000,f2: 5260.0000,cc: -242.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.8297,f1: -509.0000,f2: 5480.0000,cc: -253.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.4631,f1: -614.0000,f2: 5270.0000,cc: -245.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.4531,f1: -599.0000,f2: 5300.0000,cc: -255.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.0623,f1: -562.0000,f2: 5374.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3107,f1: -618.0000,f2: 5262.0000,cc: -245.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.2491,f1: -489.0000,f2: 5520.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.4199,f1: -479.0000,f2: 5540.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.8616,f1: -594.0000,f2: 5310.0000,cc: -252.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9240,f1: -516.0000,f2: 5466.0000,cc: -243.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.8303,f1: -517.0000,f2: 5464.0000,cc: -247.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.2984,f1: -633.0000,f2: 5232.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.1937,f1: -613.0000,f2: 5272.0000,cc: -245.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.3688,f1: -465.0000,f2: 5568.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.3217,f1: -652.0000,f2: 5194.0000,cc: -250.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.3038,f1: -649.0000,f2: 5200.0000,cc: -248.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.3524,f1: -650.0000,f2: 5198.0000,cc: -246.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2208,f1: -652.0000,f2: 5194.0000,cc: -249.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.3908,f1: -483.0000,f2: 5532.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9295,f1: -657.0000,f2: 5184.0000,cc: -249.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8602,f1: -564.0000,f2: 5370.0000,cc: -245.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.0827,f1: -573.0000,f2: 5352.0000,cc: -247.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.1889,f1: -598.0000,f2: 5302.0000,cc: -256.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.9966,f1: -592.0000,f2: 5314.0000,cc: -256.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.6208,f1: -564.0000,f2: 5370.0000,cc: -247.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5411,f1: -536.0000,f2: 5426.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9684,f1: -607.0000,f2: 5284.0000,cc: -247.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2579,f1: -659.0000,f2: 5180.0000,cc: -247.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.9555,f1: -584.0000,f2: 5330.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.4044,f1: -461.0000,f2: 5576.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.1141,f1: -617.0000,f2: 5264.0000,cc: -244.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8832,f1: -557.0000,f2: 5384.0000,cc: -247.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.4573,f1: -542.0000,f2: 5414.0000,cc: -254.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8208,f1: -559.0000,f2: 5380.0000,cc: -249.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.0929,f1: -595.0000,f2: 5308.0000,cc: -246.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.7447,f1: -500.0000,f2: 5498.0000,cc: -248.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.7027,f1: -665.0000,f2: 5168.0000,cc: -241.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5073,f1: -492.0000,f2: 5514.0000,cc: -249.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.4983,f1: -647.0000,f2: 5204.0000,cc: -244.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.4631,f1: -611.0000,f2: 5276.0000,cc: -241.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2112,f1: -599.0000,f2: 5300.0000,cc: -244.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -62.8749,f1: -634.0000,f2: 5230.0000,cc: -256.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.3123,f1: -548.0000,f2: 5402.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.0430,f1: -608.0000,f2: 5282.0000,cc: -246.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.7377,f1: -629.0000,f2: 5240.0000,cc: -251.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.0949,f1: -572.0000,f2: 5354.0000,cc: -247.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.6707,f1: -525.0000,f2: 5448.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9899,f1: -653.0000,f2: 5192.0000,cc: -245.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.3751,f1: -609.0000,f2: 5280.0000,cc: -242.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.0701,f1: -563.0000,f2: 5372.0000,cc: -242.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.8872,f1: -428.0000,f2: 5642.0000,cc: -256.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5561,f1: -625.0000,f2: 5248.0000,cc: -253.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.1438,f1: -560.0000,f2: 5378.0000,cc: -246.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6920,f1: -621.0000,f2: 5256.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.4151,f1: -565.0000,f2: 5368.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.6934,f1: -554.0000,f2: 5390.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9318,f1: -550.0000,f2: 5398.0000,cc: -247.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.3679,f1: -591.0000,f2: 5316.0000,cc: -243.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8909,f1: -509.0000,f2: 5480.0000,cc: -243.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.6603,f1: -591.0000,f2: 5316.0000,cc: -249.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.6044,f1: -444.0000,f2: 5610.0000,cc: -244.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9779,f1: -454.0000,f2: 5590.0000,cc: -253.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.4726,f1: -553.0000,f2: 5392.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2029,f1: -651.0000,f2: 5196.0000,cc: -250.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.4526,f1: -572.0000,f2: 5354.0000,cc: -251.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.3987,f1: -555.0000,f2: 5388.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.1267,f1: -605.0000,f2: 5288.0000,cc: -251.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3938,f1: -557.0000,f2: 5384.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.2882,f1: -430.0000,f2: 5638.0000,cc: -252.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9366,f1: -556.0000,f2: 5386.0000,cc: -252.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.0074,f1: -556.0000,f2: 5386.0000,cc: -250.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.8716,f1: -639.0000,f2: 5220.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.3463,f1: -605.0000,f2: 5288.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.3796,f1: -633.0000,f2: 5232.0000,cc: -255.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9045,f1: -646.0000,f2: 5206.0000,cc: -249.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.7346,f1: -571.0000,f2: 5356.0000,cc: -249.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.1137,f1: -643.0000,f2: 5212.0000,cc: -249.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5619,f1: -663.0000,f2: 5172.0000,cc: -242.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8711,f1: -561.0000,f2: 5376.0000,cc: -246.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9265,f1: -661.0000,f2: 5176.0000,cc: -246.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.3011,f1: -635.0000,f2: 5228.0000,cc: -255.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.0782,f1: -599.0000,f2: 5300.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2182,f1: -584.0000,f2: 5330.0000,cc: -246.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2278,f1: -555.0000,f2: 5388.0000,cc: -243.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5574,f1: -565.0000,f2: 5368.0000,cc: -244.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2851,f1: -657.0000,f2: 5184.0000,cc: -246.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9440,f1: -562.0000,f2: 5374.0000,cc: -248.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8390,f1: -543.0000,f2: 5412.0000,cc: -251.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.1251,f1: -656.0000,f2: 5186.0000,cc: -251.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8594,f1: -559.0000,f2: 5380.0000,cc: -248.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.4653,f1: -649.0000,f2: 5200.0000,cc: -251.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.2014,f1: -580.0000,f2: 5338.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5629,f1: -515.0000,f2: 5468.0000,cc: -250.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.2749,f1: -518.0000,f2: 5462.0000,cc: -244.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3002,f1: -419.0000,f2: 5660.0000,cc: -251.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.5120,f1: -641.0000,f2: 5216.0000,cc: -245.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.6713,f1: -612.0000,f2: 5274.0000,cc: -246.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2537,f1: -543.0000,f2: 5412.0000,cc: -241.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.4364,f1: -604.0000,f2: 5290.0000,cc: -252.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.0632,f1: -434.0000,f2: 5630.0000,cc: -252.0000,dif: 3.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.7461,f1: -638.0000,f2: 5222.0000,cc: -254.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.1993,f1: -510.0000,f2: 5478.0000,cc: -252.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.0352,f1: -634.0000,f2: 5230.0000,cc: -254.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9231,f1: -542.0000,f2: 5414.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9274,f1: -614.0000,f2: 5270.0000,cc: -249.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.6298,f1: -613.0000,f2: 5272.0000,cc: -238.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5552,f1: -462.0000,f2: 5574.0000,cc: -253.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.4327,f1: -512.0000,f2: 5474.0000,cc: -251.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.8372,f1: -653.0000,f2: 5192.0000,cc: -249.0000,dif: 7.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3713,f1: -662.0000,f2: 5174.0000,cc: -245.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2461,f1: -551.0000,f2: 5396.0000,cc: -245.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -68.3532,f1: -659.0000,f2: 5180.0000,cc: -242.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.1292,f1: -528.0000,f2: 5442.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -64.6254,f1: -646.0000,f2: 5206.0000,cc: -254.0000,dif: 8.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -66.4084,f1: -559.0000,f2: 5380.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3109,f1: -599.0000,f2: 5300.0000,cc: -249.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -63.7891,f1: -567.0000,f2: 5364.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.5701,f1: -450.0000,f2: 5598.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_multi_experiment |[0m mq: -65.9764,f1: -644.0000,f2: 5210.0000,cc: -249.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5788,f1: -511.0000,f2: 5476.0000,cc: -251.0000,dif: 4.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9533,f1: -619.0000,f2: 5260.0000,cc: -251.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.3600,f1: -420.0000,f2: 5658.0000,cc: -254.0000,dif: 3.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -62.7917,f1: -577.0000,f2: 5344.0000,cc: -255.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -63.9968,f1: -643.0000,f2: 5212.0000,cc: -254.0000,dif: 8.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8539,f1: -639.0000,f2: 5220.0000,cc: -248.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.6861,f1: -649.0000,f2: 5200.0000,cc: -248.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2774,f1: -608.0000,f2: 5282.0000,cc: -248.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -65.3179,f1: -555.0000,f2: 5388.0000,cc: -254.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.6165,f1: -427.0000,f2: 5644.0000,cc: -251.0000,dif: 3.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5639,f1: -540.0000,f2: 5418.0000,cc: -251.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.3272,f1: -546.0000,f2: 5406.0000,cc: -250.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.0099,f1: -660.0000,f2: 5178.0000,cc: -246.0000,dif: 8.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.6130,f1: -565.0000,f2: 5368.0000,cc: -248.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.3262,f1: -615.0000,f2: 5268.0000,cc: -244.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9265,f1: -659.0000,f2: 5180.0000,cc: -247.0000,dif: 8.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -63.3763,f1: -588.0000,f2: 5322.0000,cc: -256.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.1251,f1: -656.0000,f2: 5186.0000,cc: -249.0000,dif: 8.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.6533,f1: -644.0000,f2: 5210.0000,cc: -251.0000,dif: 8.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.2355,f1: -536.0000,f2: 5426.0000,cc: -253.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -63.6755,f1: -494.0000,f2: 5510.0000,cc: -254.0000,dif: 4.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9011,f1: -631.0000,f2: 5236.0000,cc: -251.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.5261,f1: -530.0000,f2: 5438.0000,cc: -251.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -65.8645,f1: -609.0000,f2: 5280.0000,cc: -252.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.0659,f1: -609.0000,f2: 5280.0000,cc: -251.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.1106,f1: -579.0000,f2: 5340.0000,cc: -252.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -65.9214,f1: -574.0000,f2: 5350.0000,cc: -252.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -65.8561,f1: -604.0000,f2: 5290.0000,cc: -251.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9265,f1: -609.0000,f2: 5280.0000,cc: -241.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -62.0956,f1: -532.0000,f2: 5434.0000,cc: -256.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -62.7691,f1: -579.0000,f2: 5340.0000,cc: -255.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -63.6718,f1: -423.0000,f2: 5652.0000,cc: -254.0000,dif: 3.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -61.8882,f1: -541.0000,f2: 5416.0000,cc: -255.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.0771,f1: -645.0000,f2: 5208.0000,cc: -247.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5427,f1: -642.0000,f2: 5214.0000,cc: -249.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -62.8460,f1: -552.0000,f2: 5394.0000,cc: -255.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -61.9421,f1: -485.0000,f2: 5528.0000,cc: -256.0000,dif: 4.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2384,f1: -531.0000,f2: 5436.0000,cc: -250.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -63.9025,f1: -625.0000,f2: 5248.0000,cc: -253.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -61.1980,f1: -498.0000,f2: 5502.0000,cc: -254.0000,dif: 4.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -60.7917,f1: -553.0000,f2: 5392.0000,cc: -256.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.6044,f1: -444.0000,f2: 5610.0000,cc: -242.0000,dif: 3.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.1594,f1: -644.0000,f2: 5210.0000,cc: -252.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -62.0963,f1: -601.0000,f2: 5296.0000,cc: -254.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -62.3134,f1: -482.0000,f2: 5534.0000,cc: -256.0000,dif: 4.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.1274,f1: -535.0000,f2: 5428.0000,cc: -250.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3151,f1: -550.0000,f2: 5398.0000,cc: -249.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5775,f1: -614.0000,f2: 5270.0000,cc: -249.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5576,f1: -515.0000,f2: 5468.0000,cc: -243.0000,dif: 4.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.8396,f1: -578.0000,f2: 5342.0000,cc: -254.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.8105,f1: -558.0000,f2: 5382.0000,cc: -248.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -65.3506,f1: -602.0000,f2: 5294.0000,cc: -253.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.3386,f1: -523.0000,f2: 5452.0000,cc: -252.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -68.2164,f1: -645.0000,f2: 5208.0000,cc: -245.0000,dif: 8.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -62.1553,f1: -637.0000,f2: 5224.0000,cc: -253.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.7429,f1: -607.0000,f2: 5284.0000,cc: -250.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.3309,f1: -563.0000,f2: 5372.0000,cc: -243.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.1895,f1: -624.0000,f2: 5250.0000,cc: -253.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -62.6397,f1: -425.0000,f2: 5648.0000,cc: -255.0000,dif: 3.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -65.3721,f1: -554.0000,f2: 5390.0000,cc: -251.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.2490,f1: -568.0000,f2: 5362.0000,cc: -250.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -60.6050,f1: -628.0000,f2: 5242.0000,cc: -256.0000,dif: 7.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.1389,f1: -616.0000,f2: 5266.0000,cc: -240.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.8785,f1: -592.0000,f2: 5314.0000,cc: -252.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.9473,f1: -518.0000,f2: 5462.0000,cc: -252.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.2987,f1: -505.0000,f2: 5488.0000,cc: -252.0000,dif: 4.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -66.5331,f1: -424.0000,f2: 5650.0000,cc: -253.0000,dif: 4.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -67.9188,f1: -550.0000,f2: 5398.0000,cc: -246.0000,dif: 5.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m mq: -64.6840,f1: -538.0000,f2: 5422.0000,cc: -256.0000,dif: 6.0000,] 2
+[33mscam2020_draco_multi_experiment |[0m 
+[33mscam2020_draco_multi_experiment |[0m 
+[33mscam2020_draco_multi_experiment |[0m BEST OBJECTIVES
+[33mscam2020_draco_multi_experiment |[0m mq:  -68.70992371516842
+[33mscam2020_draco_multi_experiment |[0m f1:  -665
+[33mscam2020_draco_multi_experiment |[0m f2:  5168
+[33mscam2020_draco_multi_experiment |[0m cc:  -256
+[33mscam2020_draco_multi_experiment |[0m dif:  3
+[33mscam2020_draco_multi_experiment exited with code 0
+[0mSending build context to Docker daemon  17.41kB
+Step 1/3 : FROM golang:1.14
+ ---> 21a5635903d6
+Step 2/3 : ENV BASE_PATH=/go/src/app     EXP_PATH=/go/src/exp     LOG_PATH=/go/src/log     DATA_PATH=/go/src/data
+ ---> Using cache
+ ---> d7c5da289bf7
+Step 3/3 : RUN go get -u github.com/project-draco/moea &&     apt-get update -y &&     apt-get install -y time
+ ---> Using cache
+ ---> fa97dba4d817
+Successfully built fa97dba4d817
+Successfully tagged draco_many_base:latest
+Sending build context to Docker daemon  17.41kB
+Step 1/7 : FROM draco_many_base:latest
+ ---> fa97dba4d817
+Step 2/7 : ARG EXPERIMENT_NAME
+ ---> Using cache
+ ---> 664dba8ad89c
+Step 3/7 : ENV EXPERIMENT_NAME=${EXPERIMENT_NAME}
+ ---> Using cache
+ ---> 7db88c91f3c5
+Step 4/7 : WORKDIR ${BASE_PATH}
+ ---> Using cache
+ ---> 1699db80dcf0
+Step 5/7 : COPY script/run_draco_many.sh src/main.go ./
+ ---> Using cache
+ ---> faacf7ee9548
+Step 6/7 : RUN go build -o main main.go
+ ---> Using cache
+ ---> 196207693b01
+Step 7/7 : ENTRYPOINT bash run_draco_many.sh --name ${EXPERIMENT_NAME}
+ ---> Using cache
+ ---> cb1d8292e4c1
+Successfully built cb1d8292e4c1
+Successfully tagged draco_many_experiment:latest
+Attaching to scam2020_draco_many, scam2020_draco_many_experiment
+[33mscam2020_draco_many_experiment |[0m EXP NAME = test
+[33mscam2020_draco_many_experiment |[0m GRAPH FILES: storm(1).mdg
+[33mscam2020_draco_many_experiment |[0m FILES: 1
+[33mscam2020_draco_many_experiment |[0m 
+[33mscam2020_draco_many_experiment |[0m 0 > MDG NAME: storm(1)
+[33mscam2020_draco_many_experiment |[0m Max Generations: 9020, Population Size: 451, Individual Size: 3608, Variables: 451
+[33mscam2020_draco_many_experiment |[0m About to create config
+[36mscam2020_draco_many exited with code 0
+[0m[33mscam2020_draco_many_experiment |[0m start..........1m0.5s..........1m58.6s..........2m56.7s..........3m54.3s..........4m51.3s..........5m48.4s..........6m45.4s..........7m42.6s..........8m39.8s
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9157,f1: -523.0000,f2: 5452.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -60.7582,f1: -526.0000,f2: 5446.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -60.5882,f1: -529.0000,f2: 5440.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -60.4442,f1: -527.0000,f2: 5444.0000,cc: -255.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.6828,f1: -523.0000,f2: 5452.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.3740,f1: -474.0000,f2: 5550.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8983,f1: -524.0000,f2: 5450.0000,cc: -251.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9318,f1: -518.0000,f2: 5462.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.7360,f1: -478.0000,f2: 5542.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5771,f1: -534.0000,f2: 5430.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9571,f1: -530.0000,f2: 5438.0000,cc: -244.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8542,f1: -526.0000,f2: 5446.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8976,f1: -524.0000,f2: 5450.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.6418,f1: -528.0000,f2: 5442.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8847,f1: -521.0000,f2: 5456.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5292,f1: -412.0000,f2: 5674.0000,cc: -253.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.3801,f1: -408.0000,f2: 5682.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -59.9443,f1: -527.0000,f2: 5444.0000,cc: -256.0000,dif: 7.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8305,f1: -524.0000,f2: 5450.0000,cc: -253.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.3963,f1: -416.0000,f2: 5666.0000,cc: -253.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8816,f1: -522.0000,f2: 5454.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8976,f1: -524.0000,f2: 5450.0000,cc: -252.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8794,f1: -522.0000,f2: 5454.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.7013,f1: -521.0000,f2: 5456.0000,cc: -255.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -60.6602,f1: -526.0000,f2: 5446.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9556,f1: -534.0000,f2: 5430.0000,cc: -253.0000,dif: 7.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9211,f1: -514.0000,f2: 5470.0000,cc: -251.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.7288,f1: -530.0000,f2: 5438.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.3998,f1: -524.0000,f2: 5450.0000,cc: -254.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.4950,f1: -520.0000,f2: 5458.0000,cc: -256.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8176,f1: -482.0000,f2: 5534.0000,cc: -252.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5709,f1: -457.0000,f2: 5584.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.6629,f1: -525.0000,f2: 5448.0000,cc: -254.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -60.2618,f1: -417.0000,f2: 5664.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9556,f1: -530.0000,f2: 5438.0000,cc: -251.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -250.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8816,f1: -522.0000,f2: 5454.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.2759,f1: -533.0000,f2: 5432.0000,cc: -255.0000,dif: 7.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5813,f1: -523.0000,f2: 5452.0000,cc: -254.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5292,f1: -412.0000,f2: 5674.0000,cc: -253.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -60.7954,f1: -402.0000,f2: 5694.0000,cc: -256.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.7156,f1: -480.0000,f2: 5538.0000,cc: -253.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.1743,f1: -482.0000,f2: 5534.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.6637,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9568,f1: -530.0000,f2: 5438.0000,cc: -250.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.6684,f1: -480.0000,f2: 5538.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8589,f1: -470.0000,f2: 5558.0000,cc: -251.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9034,f1: -512.0000,f2: 5474.0000,cc: -253.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9318,f1: -518.0000,f2: 5462.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.1021,f1: -416.0000,f2: 5666.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9078,f1: -524.0000,f2: 5450.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -60.9346,f1: -523.0000,f2: 5452.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -418.0000,f2: 5662.0000,cc: -247.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8363,f1: -476.0000,f2: 5546.0000,cc: -254.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.3716,f1: -414.0000,f2: 5670.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.2003,f1: -418.0000,f2: 5662.0000,cc: -253.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.3727,f1: -410.0000,f2: 5678.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5292,f1: -412.0000,f2: 5674.0000,cc: -253.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9078,f1: -524.0000,f2: 5450.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9318,f1: -518.0000,f2: 5462.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8473,f1: -520.0000,f2: 5458.0000,cc: -254.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -59.5741,f1: -412.0000,f2: 5674.0000,cc: -255.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8592,f1: -470.0000,f2: 5558.0000,cc: -248.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9513,f1: -524.0000,f2: 5450.0000,cc: -249.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.4051,f1: -478.0000,f2: 5542.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.3339,f1: -406.0000,f2: 5686.0000,cc: -255.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9078,f1: -524.0000,f2: 5450.0000,cc: -250.0000,dif: 5.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.2090,f1: -410.0000,f2: 5678.0000,cc: -255.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.2090,f1: -410.0000,f2: 5678.0000,cc: -255.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -464.0000,f2: 5570.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5545,f1: -418.0000,f2: 5662.0000,cc: -251.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -60.6730,f1: -524.0000,f2: 5450.0000,cc: -256.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.2585,f1: -415.0000,f2: 5668.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9571,f1: -534.0000,f2: 5430.0000,cc: -251.0000,dif: 7.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.2993,f1: -479.0000,f2: 5540.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.6045,f1: -440.0000,f2: 5618.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.4568,f1: -404.0000,f2: 5690.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9247,f1: -520.0000,f2: 5458.0000,cc: -252.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.8351,f1: -482.0000,f2: 5534.0000,cc: -249.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -60.0870,f1: -407.0000,f2: 5684.0000,cc: -256.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5517,f1: -418.0000,f2: 5662.0000,cc: -252.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.9078,f1: -530.0000,f2: 5438.0000,cc: -252.0000,dif: 6.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.6509,f1: -528.0000,f2: 5442.0000,cc: -254.0000,dif: 7.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.4885,f1: -458.0000,f2: 5582.0000,cc: -256.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.3727,f1: -410.0000,f2: 5678.0000,cc: -254.0000,dif: 3.0000,] 1
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.0238,f1: -516.0000,f2: 5466.0000,cc: -256.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7335,f1: -526.0000,f2: 5446.0000,cc: -253.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8371,f1: -525.0000,f2: 5448.0000,cc: -253.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8574,f1: -521.0000,f2: 5456.0000,cc: -252.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7782,f1: -524.0000,f2: 5450.0000,cc: -251.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7879,f1: -482.0000,f2: 5534.0000,cc: -248.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.6948,f1: -480.0000,f2: 5538.0000,cc: -255.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9306,f1: -526.0000,f2: 5446.0000,cc: -253.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1823,f1: -462.0000,f2: 5574.0000,cc: -256.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5035,f1: -522.0000,f2: 5454.0000,cc: -254.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.5583,f1: -525.0000,f2: 5448.0000,cc: -255.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.3795,f1: -408.0000,f2: 5682.0000,cc: -254.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.6835,f1: -356.0000,f2: 5786.0000,cc: -256.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.6835,f1: -356.0000,f2: 5786.0000,cc: -256.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.6775,f1: -378.0000,f2: 5742.0000,cc: -256.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -58.9947,f1: -402.0000,f2: 5694.0000,cc: -256.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -58.9947,f1: -402.0000,f2: 5694.0000,cc: -256.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.6835,f1: -356.0000,f2: 5786.0000,cc: -256.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.2140,f1: -533.0000,f2: 5432.0000,cc: -253.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.5750,f1: -481.0000,f2: 5536.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.8897,f1: -479.0000,f2: 5540.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.6134,f1: -412.0000,f2: 5674.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8578,f1: -508.0000,f2: 5482.0000,cc: -252.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9318,f1: -524.0000,f2: 5450.0000,cc: -251.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9422,f1: -530.0000,f2: 5438.0000,cc: -250.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8119,f1: -480.0000,f2: 5538.0000,cc: -249.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9568,f1: -530.0000,f2: 5438.0000,cc: -247.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5164,f1: -521.0000,f2: 5456.0000,cc: -255.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5258,f1: -528.0000,f2: 5442.0000,cc: -254.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.6214,f1: -480.0000,f2: 5538.0000,cc: -254.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5042,f1: -406.0000,f2: 5686.0000,cc: -253.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5042,f1: -406.0000,f2: 5686.0000,cc: -253.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1018,f1: -416.0000,f2: 5666.0000,cc: -254.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1018,f1: -416.0000,f2: 5666.0000,cc: -254.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.6665,f1: -524.0000,f2: 5450.0000,cc: -252.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5292,f1: -412.0000,f2: 5674.0000,cc: -252.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9063,f1: -524.0000,f2: 5450.0000,cc: -250.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.7400,f1: -522.0000,f2: 5454.0000,cc: -256.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.8788,f1: -523.0000,f2: 5452.0000,cc: -255.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.6888,f1: -533.0000,f2: 5432.0000,cc: -252.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.2198,f1: -523.0000,f2: 5452.0000,cc: -255.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.1520,f1: -480.0000,f2: 5538.0000,cc: -256.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7855,f1: -476.0000,f2: 5546.0000,cc: -253.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7923,f1: -474.0000,f2: 5550.0000,cc: -254.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.3019,f1: -412.0000,f2: 5674.0000,cc: -254.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9078,f1: -524.0000,f2: 5450.0000,cc: -248.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1624,f1: -417.0000,f2: 5664.0000,cc: -253.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1256,f1: -418.0000,f2: 5662.0000,cc: -253.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.3725,f1: -410.0000,f2: 5678.0000,cc: -254.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9068,f1: -508.0000,f2: 5482.0000,cc: -251.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7897,f1: -508.0000,f2: 5482.0000,cc: -254.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7150,f1: -510.0000,f2: 5478.0000,cc: -254.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.6679,f1: -401.0000,f2: 5696.0000,cc: -256.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8592,f1: -470.0000,f2: 5558.0000,cc: -247.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9081,f1: -524.0000,f2: 5450.0000,cc: -247.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9321,f1: -518.0000,f2: 5462.0000,cc: -249.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9081,f1: -524.0000,f2: 5450.0000,cc: -247.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.4041,f1: -474.0000,f2: 5550.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.3905,f1: -476.0000,f2: 5546.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.2219,f1: -478.0000,f2: 5542.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.2925,f1: -477.0000,f2: 5544.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8339,f1: -462.0000,f2: 5574.0000,cc: -252.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1413,f1: -406.0000,f2: 5686.0000,cc: -255.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1982,f1: -392.0000,f2: 5714.0000,cc: -255.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.6637,f1: -414.0000,f2: 5670.0000,cc: -248.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7861,f1: -482.0000,f2: 5534.0000,cc: -252.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.1947,f1: -410.0000,f2: 5678.0000,cc: -255.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7056,f1: -532.0000,f2: 5434.0000,cc: -253.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5292,f1: -412.0000,f2: 5674.0000,cc: -252.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9081,f1: -524.0000,f2: 5450.0000,cc: -247.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.8338,f1: -470.0000,f2: 5558.0000,cc: -256.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.4372,f1: -412.0000,f2: 5674.0000,cc: -253.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8818,f1: -500.0000,f2: 5498.0000,cc: -253.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.0492,f1: -523.0000,f2: 5452.0000,cc: -253.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8726,f1: -516.0000,f2: 5466.0000,cc: -251.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7696,f1: -476.0000,f2: 5546.0000,cc: -254.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8016,f1: -468.0000,f2: 5562.0000,cc: -253.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.6387,f1: -408.0000,f2: 5682.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9568,f1: -534.0000,f2: 5430.0000,cc: -251.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9571,f1: -534.0000,f2: 5430.0000,cc: -250.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9568,f1: -534.0000,f2: 5430.0000,cc: -251.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -57.4387,f1: -523.0000,f2: 5452.0000,cc: -256.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.6069,f1: -482.0000,f2: 5534.0000,cc: -255.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5548,f1: -414.0000,f2: 5670.0000,cc: -249.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.0573,f1: -530.0000,f2: 5438.0000,cc: -255.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.9568,f1: -534.0000,f2: 5430.0000,cc: -251.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7397,f1: -522.0000,f2: 5454.0000,cc: -252.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8080,f1: -476.0000,f2: 5546.0000,cc: -250.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7596,f1: -520.0000,f2: 5458.0000,cc: -253.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.6490,f1: -531.0000,f2: 5436.0000,cc: -254.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.7370,f1: -520.0000,f2: 5458.0000,cc: -256.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1728,f1: -482.0000,f2: 5534.0000,cc: -254.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -58.7585,f1: -405.0000,f2: 5688.0000,cc: -256.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -58.7290,f1: -406.0000,f2: 5686.0000,cc: -256.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8113,f1: -470.0000,f2: 5558.0000,cc: -252.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.3331,f1: -523.0000,f2: 5452.0000,cc: -254.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.3578,f1: -416.0000,f2: 5666.0000,cc: -253.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7990,f1: -476.0000,f2: 5546.0000,cc: -252.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5545,f1: -414.0000,f2: 5670.0000,cc: -251.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8555,f1: -522.0000,f2: 5454.0000,cc: -251.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5260,f1: -418.0000,f2: 5662.0000,cc: -252.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.7859,f1: -408.0000,f2: 5682.0000,cc: -255.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1717,f1: -526.0000,f2: 5446.0000,cc: -255.0000,dif: 7.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.7150,f1: -510.0000,f2: 5478.0000,cc: -254.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8997,f1: -530.0000,f2: 5438.0000,cc: -252.0000,dif: 6.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.8570,f1: -470.0000,f2: 5558.0000,cc: -251.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.4763,f1: -450.0000,f2: 5598.0000,cc: -256.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.4070,f1: -456.0000,f2: 5586.0000,cc: -256.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -255.0000,dif: 4.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.6710,f1: -521.0000,f2: 5456.0000,cc: -253.0000,dif: 5.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.5545,f1: -418.0000,f2: 5662.0000,cc: -250.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -61.1740,f1: -414.0000,f2: 5670.0000,cc: -254.0000,dif: 3.0000,] 2
+[33mscam2020_draco_many_experiment |[0m mq: -60.3609,f1: -532.0000,f2: 5434.0000,cc: -252.0000,dif: 7.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.7392,f1: -527.0000,f2: 5444.0000,cc: -251.0000,dif: 6.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.5315,f1: -464.0000,f2: 5570.0000,cc: -253.0000,dif: 4.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.5331,f1: -458.0000,f2: 5582.0000,cc: -254.0000,dif: 4.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -60.6672,f1: -402.0000,f2: 5694.0000,cc: -255.0000,dif: 3.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -59.8662,f1: -475.0000,f2: 5548.0000,cc: -254.0000,dif: 4.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.7414,f1: -524.0000,f2: 5450.0000,cc: -248.0000,dif: 5.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -60.0228,f1: -351.0000,f2: 5796.0000,cc: -256.0000,dif: 3.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.4665,f1: -470.0000,f2: 5558.0000,cc: -254.0000,dif: 4.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.3402,f1: -523.0000,f2: 5452.0000,cc: -253.0000,dif: 6.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.5138,f1: -468.0000,f2: 5562.0000,cc: -255.0000,dif: 4.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -60.1299,f1: -413.0000,f2: 5672.0000,cc: -253.0000,dif: 3.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -59.9717,f1: -474.0000,f2: 5550.0000,cc: -254.0000,dif: 4.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -60.9902,f1: -530.0000,f2: 5438.0000,cc: -250.0000,dif: 7.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.3689,f1: -534.0000,f2: 5430.0000,cc: -249.0000,dif: 7.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -59.4603,f1: -519.0000,f2: 5460.0000,cc: -253.0000,dif: 5.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -59.3694,f1: -388.0000,f2: 5722.0000,cc: -256.0000,dif: 3.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.3498,f1: -412.0000,f2: 5674.0000,cc: -251.0000,dif: 3.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.3623,f1: -526.0000,f2: 5446.0000,cc: -252.0000,dif: 7.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -60.8452,f1: -531.0000,f2: 5436.0000,cc: -252.0000,dif: 7.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.1553,f1: -404.0000,f2: 5690.0000,cc: -253.0000,dif: 3.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -60.5091,f1: -475.0000,f2: 5548.0000,cc: -253.0000,dif: 4.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -60.9905,f1: -511.0000,f2: 5476.0000,cc: -254.0000,dif: 5.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.1213,f1: -412.0000,f2: 5674.0000,cc: -253.0000,dif: 3.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -60.8901,f1: -476.0000,f2: 5546.0000,cc: -252.0000,dif: 4.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.3810,f1: -416.0000,f2: 5666.0000,cc: -250.0000,dif: 3.0000,] 3
+[33mscam2020_draco_many_experiment |[0m mq: -61.8352,f1: -470.0000,f2: 5558.0000,cc: -251.0000,dif: 4.0000,] 3
+[33mscam2020_draco_many_experiment |[0m 
+[33mscam2020_draco_many_experiment |[0m 
+[33mscam2020_draco_many_experiment |[0m BEST OBJECTIVES
+[33mscam2020_draco_many_experiment |[0m mq:  -61.95713310014815
+[33mscam2020_draco_many_experiment |[0m f1:  -534
+[33mscam2020_draco_many_experiment |[0m f2:  5430
+[33mscam2020_draco_many_experiment |[0m cc:  -256
+[33mscam2020_draco_many_experiment |[0m dif:  3
+[33mscam2020_draco_many_experiment exited with code 0
+[0m

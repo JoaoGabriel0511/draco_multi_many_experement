@@ -129,6 +129,9 @@ func main() {
 	// This is the typical mutatation rate for binary encoding according to Brian S. Mitchel (2002, p 93)
 	mp := 16.0 / (math.Sqrt(float64(len(vertices))) * 1000)
 	var start time.Time
+	var selection moea.SelectionOperator
+	var nsgaiii = &nsgaiii.NsgaIIISelection{ReferencePointsDivision: 3}
+	var nsgaii = &nsgaii.NsgaIISelection{}
 	newConfig := func() *moea.Config {
 		// Objective function computes Turbo MQ metric according to Brian S. Mitchel (2002, pp 65-67)
 		α := make([]float64, len(vertices))
@@ -183,11 +186,10 @@ func main() {
 		rng := moea.NewXorshiftWithSeed(uint32(time.Now().UTC().UnixNano()))
 		bp := binary.NewRandomBinaryPopulation(ps, lengths, nil /*bounds*/, rng)
 		// _ /*ip :*/ = integer.NewRandomIntegerPopulation(ps, len(vertices), ibounds, rng)
-		var selection moea.SelectionOperator
 		if *pmany {
-			selection = &nsgaiii.NsgaIIISelection{ReferencePointsDivision: 3}
+			selection = nsgaiii
 		} else if *pmulti {
-			selection = &nsgaii.NsgaIISelection{}
+			selection = nsgaii
 		} else {
 			selection = &moea.TournamentSelection{10}
 		}
@@ -245,6 +247,19 @@ func main() {
 	}
 	fmt.Println("}")
 	fmt.Fprintln(os.Stderr, "")
+	for i, individual := range result.Individuals {
+		fmt.Printf("[")
+		fmt.Fprintf(os.Stderr, "mq: %.4f,", individual.Objective[0])
+		fmt.Fprintf(os.Stderr, "f1: %.4f,", individual.Objective[1])
+		fmt.Fprintf(os.Stderr, "f2: %.4f,", individual.Objective[2])
+		fmt.Fprintf(os.Stderr, "cc: %.4f,", individual.Objective[3])
+		fmt.Fprintf(os.Stderr, "dif: %.4f,", individual.Objective[4])
+		fmt.Fprintf(os.Stderr, "]")
+		fmt.Fprintf(os.Stderr, " %v\n", nsgaii.Rank[i])
+	}
+	fmt.Fprintln(os.Stderr, "")
+	fmt.Fprintln(os.Stderr, "")
+	fmt.Fprintln(os.Stderr, "BEST OBJECTIVES")
 	fmt.Fprintln(os.Stderr, "mq: ", result.BestObjective[0])
 	fmt.Fprintln(os.Stderr, "f1: ", result.BestObjective[1])
 	fmt.Fprintln(os.Stderr, "f2: ", result.BestObjective[2])
