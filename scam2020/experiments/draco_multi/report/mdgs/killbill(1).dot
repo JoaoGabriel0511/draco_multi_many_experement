@@ -1,0 +1,1838 @@
+
+
+
+digraph {
+subgraph cluster451 {
+"payment_src_main_java_com_ning_billing_payment_setup_PaymentModule.java/[CN]/PaymentModule/[MT]/configure()/body";
+}
+subgraph cluster8 {
+"util_src_main_java_com_ning_billing_util_notificationq_DefaultNotificationQueue.java/[CN]/DefaultNotificationQueue/[MT]/doProcessEvents()/body";
+"util_src_main_java_com_ning_billing_util_notificationq_DefaultNotificationQueue.java/[CN]/DefaultNotificationQueue/[MT]/getReadyNotifications()/body";
+}
+subgraph cluster32 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createPayment(Account,List<String>)/body";
+}
+subgraph cluster127 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/insertCredit(UUID,UUID,BigDecimal,LocalDate,Currency,CallContext)/body";
+}
+subgraph cluster254 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_InvoiceResource.java/[CN]/InvoiceResource/[MT]/generateDryRunInvoice(InvoiceDryRunJson,String,String,String,String,String,HttpServletRequest,UriInfo)/body";
+"invoice_src_main_java_org_killbill_billing_invoice_InvoiceDispatcher.java/[CN]/InvoiceDispatcher/[MT]/processAccountWithLock(UUID,DateTime,DryRunArguments,InternalCallContext)/body";
+}
+subgraph cluster457 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/createRefund(UUID,BigDecimal,boolean,Map<UUID,BigDecimal>,UUID,InternalCallContext)/body";
+}
+subgraph cluster363 {
+"util_src_main_java_com_ning_billing_util_notificationq_DefaultNotificationQueueService.java/[CN]/DefaultNotificationQueueService/[CS]/DefaultNotificationQueueService(IDBI,Clock)/body";
+}
+subgraph cluster130 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/getPaymentMethods(String,Boolean,String,String)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_janitor_IncompletePaymentAttemptTask.java/[CN]/IncompletePaymentAttemptTask/[MT]/getItemsForIteration()/body";
+}
+subgraph cluster505 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_CreditJson.java/[CN]/CreditJson/[CS]/CreditJson(BigDecimal,UUID,String,DateTime,DateTime,String,UUID)/body";
+}
+subgraph cluster181 {
+"util_src_main_java_com_ning_billing_util_queue_PersistentQueueBase.java/[CN]/PersistentQueueBase/[MT]/startQueue()/body";
+"util_src_main_java_com_ning_billing_util_notificationq_NotificationQueueDispatcher.java/[CN]/NotificationQueueDispatcher/[CS]/NotificationQueueDispatcher(Clock,NotificationQueueConfig,IDBI,InternalCallContextFactory)/body";
+}
+subgraph cluster157 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_CreditJson.java/[CN]/CreditJson/[MT]/getAccountId()/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_CreditJson.java/[CN]/CreditJson/[FE]/accountId";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_CreditJson.java/[CN]/CreditJson/[MT]/getAccountId()/parameters";
+}
+subgraph cluster184 {
+"junction_src_main_java_com_ning_billing_junction_plumbing_billing_BlockingCalculator.java/[CN]/BlockingCalculator/[MT]/createNewReenableEvent(DateTime,BillingEvent)/body";
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/insertExternalCharge(UUID,UUID,UUID,String,BigDecimal,LocalDate,Currency,InternalCallContext)/body";
+}
+subgraph cluster353 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransitionRecorder.java/[CN]/BusinessSubscriptionTransitionRecorder/[MT]/subscriptionCancelled(SubscriptionEvent)/body";
+}
+subgraph cluster307 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getPhone()/body";
+}
+subgraph cluster64 {
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getPaidAmount()/body";
+}
+subgraph cluster161 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_EntitlementSqlDao.java/[CN]/EntitlementSqlDao/[MT]/buildBundleSubscriptions(List<Subscription>)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/setFieldValue(String,String)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/clearFields()/body";
+}
+subgraph cluster85 {
+"catalog_src_main_java_org_killbill_billing_catalog_io_VersionedCatalogLoader.java/[CN]/VersionedCatalogLoader/[MT]/loadDefaultCatalog(String)/body";
+}
+subgraph cluster283 {
+"junction_src_main_java_com_ning_billing_junction_plumbing_api_BlockingSubscription.java/[CN]/BlockingSubscription/[MT]/getAllTransitions()/parameters";
+}
+subgraph cluster368 {
+"invoice_src_main_java_com_ning_billing_invoice_notification_DefaultNextBillingDateNotifier.java/[CN]/DefaultNextBillingDateNotifier/[MT]/insertNextBillingNotification(Transmogrifier,UUID,DateTime)/body";
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/create(Invoice)/body";
+"invoice_src_main_java_com_ning_billing_invoice_model_InvoiceItemList.java/[CN]/InvoiceItemList/[CS]/InvoiceItemList()/parameters";
+}
+subgraph cluster315 {
+"util_src_main_java_org_killbill_billing_util_nodes_DefaultNodeInfo.java/[CN]/DefaultNodeInfo/[MT]/toPluginInfo(Iterable<PluginInfoModelJson>)/body";
+"util_src_main_java_org_killbill_billing_util_nodes_json_PluginInfoModelJson.java/[CN]/PluginInfoModelJson/[MT]/equals(Object)/body";
+}
+subgraph cluster354 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_RepairEntitlementDao.java/[CN]/RepairEntitlementDao/[CN]/SubscriptionRepairEvent/[MT]/getEvents()/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionApiService.java/[CN]/SubscriptionApiService/[MT]/changePlan(SubscriptionData,String,BillingPeriod,String,DateTime)/body";
+}
+subgraph cluster337 {
+"analytics_src_main_java_com_ning_billing_analytics_dao_BusinessSubscriptionTransitionMapper.java/[CN]/BusinessSubscriptionTransitionMapper/[MT]/map(int,ResultSet,StatementContext)/body";
+}
+subgraph cluster155 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_PaymentMethodResource.java/[CN]/PaymentMethodResource/[MT]/deletePaymentMethod(String,Boolean,String,String,String,HttpServletRequest)/body";
+}
+subgraph cluster426 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscription.java/[CN]/BusinessSubscription/[MT]/hashCode()/body";
+}
+subgraph cluster235 {
+"junction_src_main_java_com_ning_billing_junction_plumbing_api_BlockingSubscription.java/[CN]/BlockingSubscription/[MT]/getAllTransitions()/body";
+}
+subgraph cluster25 {
+"util_src_main_java_org_killbill_billing_util_cache_TenantKVCacheLoader.java/[CN]/TenantKVCacheLoader/[MT]/load(Object,Object)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_janitor_IncompletePaymentTransactionTask.java/[CN]/IncompletePaymentTransactionTask/[MT]/updatePaymentAndTransactionIfNeeded(PaymentModelDao,PaymentTransactionModelDao,PaymentTransactionInfoPlugin,InternalTenantContext)/body";
+}
+subgraph cluster308 {
+"overdue_src_main_java_org_killbill_billing_overdue_notification_DefaultOverduePosterBase.java/[CN]/DefaultOverduePosterBase/[MT]/insertOverdueNotification(UUID,DateTime,String,T,InternalCallContext)/body";
+}
+subgraph cluster263 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getEmail()/body";
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPlugin.java/[CN]/JRubyPlugin/[MT]/instantiatePlugin(Map<String,Object>,String)/body";
+}
+subgraph cluster269 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_PaymentOperation.java/[CN]/PaymentOperation/[MT]/wrapTimeoutException(PaymentStateContext,TimeoutException)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_EntitlementSqlDao.java/[CN]/EntitlementSqlDao/[MT]/createNextPhaseEvent(UUID,EntitlementEvent,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_RetryOperationCallback.java/[CN]/RetryOperationCallback/[MT]/wrapInterruptedException(PaymentStateContext,InterruptedException)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_EntitlementSqlDao.java/[CN]/EntitlementSqlDao/[MT]/recreateSubscription(UUID,List<EntitlementEvent>,CallContext)/body";
+}
+subgraph cluster137 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getInvoicesBySubscription(UUID)/body";
+}
+subgraph cluster177 {
+"invoice_src_main_java_org_killbill_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getPaidAmount()/body";
+}
+subgraph cluster310 {
+"payment_src_main_java_org_killbill_billing_payment_core_PaymentMethodProcessor.java/[CN]/PaymentMethodProcessor/[MT]/addPaymentMethod(String,String,Account,boolean,PaymentMethodPlugin,Iterable<PluginProperty>,CallContext,InternalCallContext)/body";
+}
+subgraph cluster40 {
+"account_src_main_java_com_ning_billing_account_dao_DefaultAccountDao.java/[CN]/DefaultAccountDao/[MT]/getById(String)/body";
+"payment_src_main_java_org_killbill_billing_payment_dispatcher_CallableWithRequestData.java/[CN]/CallableWithRequestData/[MT]/call()/body";
+}
+subgraph cluster415 {
+"overdue_src_main_java_com_ning_billing_overdue_wrapper_OverdueWrapperFactory.java/[CN]/OverdueWrapperFactory/[MT]/createOverdueWrapperFor(T)/body";
+"overdue_src_main_java_com_ning_billing_overdue_wrapper_OverdueWrapperFactory.java/[CN]/OverdueWrapperFactory/[MT]/createOverdueWrapperFor(UUID)/body";
+}
+subgraph cluster295 {
+"account_src_main_java_com_ning_billing_account_api_user_DefaultAccountUserApi.java/[CN]/DefaultAccountUserApi/[MT]/migrateAccount(MigrationAccountData,CallContext)/body";
+}
+subgraph cluster248 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createPaymentForPaymentAttempt(UUID)/body";
+}
+subgraph cluster103 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountTimelineJson.java/[CN]/AccountTimelineJson/[CS]/AccountTimelineJson(Account,List<Invoice>,List<PaymentAttempt>,List<BundleTimeline>)/body";
+}
+subgraph cluster83 {
+"entitlement_src_main_java_org_killbill_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/createBaseEntitlementWithAddOns(UUID,String,Iterable<EntitlementSpecifier>,LocalDate,Iterable<PluginProperty>,CallContext)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/createAccount(AccountJson,String,String,String)/body";
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/cancelWithPolicy(DefaultSubscriptionBase,BillingActionPolicy,CallContext)/body";
+}
+subgraph cluster397 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_PaymentMethodJson.java/[CN]/PaymentMethodJson/[CS]/PaymentMethodJson(String,String,Boolean,String,PaymentMethodPluginDetailJson)/parameters";
+}
+subgraph cluster14 {
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[FE]/cardType";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_PaymentMethodJson.java/[CN]/PaymentMethodJson/[CN]/PaymentMethodPluginDetailJson/[MT]/getExternalPaymentMethodId()/parameters";
+}
+subgraph cluster224 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_api_user_AnalyticsUserApi.java/[CN]/AnalyticsUserApi/[CS]/AnalyticsUserApi(OSGIKillbillLogService,OSGIKillbillAPI,OSGIKillbillDataSource)/body";
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_AnalyticsListener.java/[CN]/AnalyticsListener/[MT]/handleKillbillEvent(ExtBusEvent)/body";
+}
+subgraph cluster16 {
+"payment_src_main_java_com_ning_billing_payment_core_PaymentProcessor.java/[CN]/PaymentProcessor/[CS]/--large-name19--/body";
+}
+subgraph cluster95 {
+"invoice_src_main_java_com_ning_billing_invoice_model_ExternalChargeInvoiceItem.java/[CN]/ExternalChargeInvoiceItem/[CS]/ExternalChargeInvoiceItem(UUID,UUID,UUID,String,LocalDate,BigDecimal,Currency)/parameters";
+"invoice_src_main_java_org_killbill_billing_invoice_model_DefaultInvoicePayment.java/[CN]/DefaultInvoicePayment/[CS]/DefaultInvoicePayment(UUID,InvoicePaymentType,UUID,UUID,DateTime,BigDecimal,Currency,Currency,String,UUID)/body";
+}
+subgraph cluster320 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[FE]/DEFAULT_NOTIFIED_FOR_INVOICES_VALUE";
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[FE]/DEFAULT_MIGRATED_VALUE";
+}
+subgraph cluster473 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getCompanyName()/body";
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getCountry()/body";
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getPostalCode()/body";
+}
+subgraph cluster160 {
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceGenerator.java/[CN]/DefaultInvoiceGenerator/[MT]/reconcileInvoiceItems(UUID,InvoiceItemList,InvoiceItemList)/body";
+}
+subgraph cluster372 {
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/cancelWithRequestedDate(DefaultSubscriptionBase,DateTime,CallContext)/body";
+}
+subgraph cluster80 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_PaymentMethodJson.java/[CN]/PaymentMethodJson/[CN]/PaymentMethodPluginDetailJson/[MT]/equals(Object)/body";
+}
+subgraph cluster15 {
+"payment_src_main_java_com_ning_billing_payment_retry_BaseRetryService.java/[CN]/BaseRetryService/[MT]/initialize(String)/body";
+}
+subgraph cluster335 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_SubscriptionJsonNoEvents.java/[CN]/SubscriptionJsonNoEvents/[CS]/SubscriptionJsonNoEvents(String,String,String,String,LocalDate,String,String,String,String,LocalDate,List<AuditLogJson>,LocalDate,LocalDate,LocalDate)/parameters";
+}
+subgraph cluster394 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_model_BusinessAccountModelDao.java/[CN]/BusinessAccountModelDao/[MT]/toString()/body";
+}
+subgraph cluster375 {
+"account_src_main_java_com_ning_billing_account_dao_AuditedAccountDao.java/[CN]/AuditedAccountDao/[MT]/create(Account,CallContext)/body";
+"account_src_main_java_com_ning_billing_account_dao_AuditedAccountDao.java/[CN]/AuditedAccountDao/[MT]/update(Account,CallContext)/body";
+}
+subgraph cluster470 {
+"payment_src_main_java_com_ning_billing_payment_core_PaymentProcessor.java/[CN]/PaymentProcessor/[MT]/getPayments(Long,Long,String,TenantContext,InternalTenantContext)/body";
+}
+subgraph cluster409 {
+"payment_src_main_java_com_ning_billing_payment_RetryService.java/[CN]/RetryService/[MT]/retry(String)/body";
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/createRefund(UUID,BigDecimal,boolean,Map<UUID,BigDecimal>,UUID,CallContext)/parameters";
+}
+subgraph cluster139 {
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessOverdueStatus.java/[CN]/BusinessOverdueStatus/[MT]/equals(Object)/body";
+"util_src_main_java_com_ning_billing_util_template_translation_DefaultTranslatorBase.java/[CN]/DefaultTranslatorBase/[MT]/getBundle(Locale,String)/body";
+}
+subgraph cluster108 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/isNotifiedForInvoices()/body";
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/isMigrated()/body";
+}
+subgraph cluster59 {
+"catalog_src_main_java_org_killbill_billing_catalog_DefaultBlock.java/[CN]/DefaultBlock/[MT]/getMinTopUpCredit()/body";
+}
+subgraph cluster325 {
+"junction_src_main_java_com_ning_billing_junction_plumbing_billing_BlockingCalculator.java/[CN]/BlockingCalculator/[MT]/createNewDisableEvent(DateTime,BillingEvent)/body";
+}
+subgraph cluster441 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_ChargebackResource.java/[CN]/ChargebackResource/[MT]/getChargeback(String)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_ChargebackResource.java/[CN]/ChargebackResource/[MT]/getForPayment(String)/body";
+}
+subgraph cluster276 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_DefaultSubscriptionApiService.java/[CN]/DefaultSubscriptionApiService/[MT]/createFromSubscription(SubscriptionData,Plan,PhaseType,String,DateTime,DateTime,DateTime,boolean,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_DefaultSubscriptionApiService.java/[CN]/DefaultSubscriptionApiService/[MT]/uncancel(SubscriptionData,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_timeline_SubscriptionDataRepair.java/[CN]/SubscriptionDataRepair/[MT]/addAddonCancellationIfRequired(List<SubscriptionDataRepair>,Product,DateTime,CallContext)/body";
+}
+subgraph cluster274 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createChargebackWithPaymentControl(Account,UUID,BigDecimal,Currency,String,PaymentOptions,CallContext)/body";
+}
+subgraph cluster216 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/cancelEntitlementWithDate(LocalDate,boolean,CallContext)/body";
+}
+subgraph cluster213 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_EntitlementDateHelper.java/[CN]/EntitlementDateHelper/[MT]/fromNowAndReferenceTime(DateTime,DateTimeZone)/body";
+"profiles_killbill_src_main_java_org_killbill_billing_server_filters_ResponseCorsFilter.java/[CN]/ResponseCorsFilter/[CS]/ResponseCorsFilter()/parameters";
+}
+subgraph cluster214 {
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoice.java/[CN]/DefaultInvoice/[MT]/getBalance()/body";
+}
+subgraph cluster488 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[MT]/hashCode()/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[MT]/hashCode()/parameters";
+}
+subgraph cluster246 {
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceGenerator.java/[CN]/DefaultInvoiceGenerator/[MT]/addInvoiceItem(UUID,InvoiceItemList,BillingEvent,DateTime,BigDecimal,BigDecimal,BigDecimal,Currency)/body";
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceItem.java/[CN]/DefaultInvoiceItem/[MT]/toString()/body";
+}
+subgraph cluster75 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_mappers_ExceptionMapperBase.java/[CN]/ExceptionMapperBase/[MT]/buildConflictingRequestResponse(Exception,UriInfo)/body";
+}
+subgraph cluster468 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_CreditJson.java/[CN]/CreditJson/[CS]/CreditJson(BigDecimal,UUID,String,DateTime,DateTime,String,UUID)/parameters";
+}
+subgraph cluster421 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentGatewayApi.java/[CN]/DefaultPaymentGatewayApi/[MT]/processNotificationWithPaymentControl(String,String,Iterable<PluginProperty>,PaymentOptions,CallContext)/body";
+}
+subgraph cluster260 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/getPaymentByIdOrKey(String,String,Iterable<PluginProperty>,TenantContext)/parameters";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/getChargebacksForAccount(String,HttpServletRequest)/body";
+}
+subgraph cluster152 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransitionRecorder.java/[CN]/BusinessSubscriptionTransitionRecorder/[MT]/subscriptionCreated(SubscriptionEvent)/body";
+}
+subgraph cluster18 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransition.java/[CN]/BusinessSubscriptionTransition/[MT]/equals(Object)/body";
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransition.java/[CN]/BusinessSubscriptionTransition/[MT]/hashCode()/body";
+}
+subgraph cluster109 {
+"payment_src_main_java_org_killbill_billing_payment_core_PaymentMethodProcessor.java/[CN]/PaymentMethodProcessor/[MT]/refreshPaymentMethods(String,Account,Iterable<PluginProperty>,CallContext,InternalCallContext)/body";
+}
+subgraph cluster464 {
+"payment_src_main_java_com_ning_billing_payment_provider_DefaultPaymentProviderPluginRegistry.java/[CN]/DefaultPaymentProviderPluginRegistry/[MT]/registerService(OSGIServiceDescriptor,PaymentPluginApi)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_DefaultPaymentProviderPluginRegistry.java/[CN]/DefaultPaymentProviderPluginRegistry/[MT]/unregisterService(String)/body";
+}
+subgraph cluster5 {
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginProvider.java/[CN]/NoOpPaymentProviderPluginProvider/[MT]/get()/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginProvider.java/[CN]/NoOpPaymentProviderPluginProvider/[CS]/NoOpPaymentProviderPluginProvider(String)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/deletePaymentMethod(String,String)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginModule.java/[CN]/NoOpPaymentProviderPluginModule/[MT]/configure()/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginProvider.java/[CN]/NoOpPaymentProviderPluginProvider/[FE]/instanceName";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginProvider.java/[CN]/NoOpPaymentProviderPluginProvider/[MT]/setPaymentProviderPluginRegistry(PaymentProviderPluginRegistry)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/getPaymentProviderAccount(String)/parameters";
+}
+subgraph cluster395 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessAccountRecorder.java/[CN]/BusinessAccountRecorder/[MT]/accountUpdated(UUID)/body";
+}
+subgraph cluster55 {
+"junction_src_main_java_com_ning_billing_junction_plumbing_billing_DefaultInternalBillingApi.java/[CN]/DefaultInternalBillingApi/[MT]/getBillingEventsForAccountAndUpdateAccountBCD(UUID,InternalCallContext)/body";
+"overdue_src_main_java_com_ning_billing_overdue_listener_OverdueDispatcher.java/[CN]/OverdueDispatcher/[MT]/processOverdueForAccount(UUID,InternalCallContext)/body";
+}
+subgraph cluster35 {
+"catalog_src_main_java_org_killbill_billing_catalog_VersionedCatalog.java/[CN]/VersionedCatalog/[MT]/findPlan(PlanRequestWrapper,DateTime,DateTime)/body";
+"catalog_src_main_java_org_killbill_billing_catalog_VersionedCatalog.java/[CN]/VersionedCatalog/[CS]/VersionedCatalog(Clock)/body";
+"catalog_src_main_java_org_killbill_billing_catalog_VersionedCatalog.java/[CN]/VersionedCatalog/[CS]/VersionedCatalog(Clock,String,BillingMode,List<StandaloneCatalogWithPriceOverride>,InternalTenantContext)/body";
+}
+subgraph cluster63 {
+"util_src_main_java_com_ning_billing_util_template_translation_DefaultTranslatorBase.java/[CN]/DefaultTranslatorBase/[MT]/getTranslation(Locale,String)/body";
+}
+subgraph cluster342 {
+"payment_src_main_java_org_killbill_billing_payment_dao_PaymentModelDao.java/[CN]/PaymentModelDao/[CS]/PaymentModelDao(DateTime,DateTime,UUID,UUID,String)/body";
+"payment_src_main_java_org_killbill_billing_payment_dao_PaymentModelDao.java/[CN]/PaymentModelDao/[CS]/PaymentModelDao(UUID,DateTime,DateTime,UUID,UUID,Integer,String)/parameters";
+}
+subgraph cluster460 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_DefaultEntitlementUserApi.java/[CN]/DefaultEntitlementUserApi/[MT]/createSubscription(UUID,PlanPhaseSpecifier,DateTime)/body";
+}
+subgraph cluster205 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_RefundJson.java/[CN]/RefundJson/[MT]/hashCode()/body";
+"payment_src_main_java_com_ning_billing_payment_core_PaymentMethodProcessor.java/[CN]/PaymentMethodProcessor/[MT]/buildDefaultPaymentMethod(PaymentMethodModelDao,boolean,InternalTenantContext)/body";
+}
+subgraph cluster381 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/refundPaymentInternal(PaymentTransactionJson,String,List<String>,List<String>,String,String,String,UriInfo,HttpServletRequest)/body";
+"invoice_src_main_java_org_killbill_billing_invoice_tree_NodeInterval.java/[CN]/NodeInterval/[MT]/build(BuildNodeCallback)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_CreditResource.java/[CN]/CreditResource/[MT]/createCredit(CreditJson,String,String,String)/body";
+}
+subgraph cluster373 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentAttempt.java/[CN]/PaymentAttempt/[MT]/toString()/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/getEffectiveEndDate(UUID,SubscriptionBase,DateTimeZone,InternalTenantContext)/body";
+}
+subgraph cluster446 {
+"overdue_src_main_java_com_ning_billing_overdue_calculator_BillingStateCalculator.java/[CN]/BillingStateCalculator/[MT]/earliest(SortedSet<Invoice>)/body";
+"overdue_src_main_java_com_ning_billing_overdue_calculator_BillingStateCalculatorBundle.java/[CN]/BillingStateCalculatorBundle/[MT]/calculateBillingState(SubscriptionBundle)/body";
+}
+subgraph cluster33 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentAttempt.java/[CN]/PaymentAttempt/[CS]/PaymentAttempt(UUID,Invoice)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/getAccountTimeline(String)/body";
+}
+subgraph cluster348 {
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceItem.java/[CN]/DefaultInvoiceItem/[MT]/asCredit(UUID)/body";
+"invoice_src_main_java_com_ning_billing_invoice_model_InvoiceItemList.java/[CN]/InvoiceItemList/[MT]/cleanupDuplicatedItems()/body";
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceGenerator.java/[CN]/DefaultInvoiceGenerator/[MT]/processEvent(UUID,BillingEvent,InvoiceItemList,DateTime,Currency)/body";
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceItem.java/[CN]/DefaultInvoiceItem/[CS]/DefaultInvoiceItem(InvoiceItem,UUID)/body";
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceItem.java/[CN]/DefaultInvoiceItem/[MT]/duplicates(InvoiceItem)/body";
+}
+subgraph cluster210 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/cancelEntitlementWithDateOverrideBillingPolicy(LocalDate,BillingActionPolicy,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/changePlanOverrideBillingPolicy(String,BillingPeriod,String,LocalDate,BillingActionPolicy,CallContext)/body";
+}
+subgraph cluster126 {
+"catalog_src_main_java_com_ning_billing_catalog_io_VersionedCatalogLoader.java/[CN]/VersionedCatalogLoader/[MT]/load(String)/parameters";
+}
+subgraph cluster329 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_PaymentMethodJson.java/[CN]/PaymentMethodJson/[CN]/PaymentMethodPluginDetailJson/[MT]/getExternalPaymentMethodId()/body";
+}
+subgraph cluster158 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/insertInvoiceItemAdjustment(UUID,UUID,UUID,LocalDate,BigDecimal,Currency,CallContext)/body";
+}
+subgraph cluster499 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_Subscription.java/[CN]/Subscription/[MT]/cancel(DateTime,boolean)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_core_Engine.java/[CN]/Engine/[MT]/start()/body";
+}
+subgraph cluster47 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_TagDefinitionJson.java/[CN]/TagDefinitionJson/[MT]/equals(Object)/parameters";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_TagDefinitionJson.java/[CN]/TagDefinitionJson/[MT]/equals(Object)/body";
+}
+subgraph cluster323 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentProviderAccount.java/[CN]/PaymentProviderAccount/[CN]/Builder/[MT]/build()/body";
+}
+subgraph cluster21 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getUnpaidInvoicesByAccountId(UUID,DateTime)/body";
+}
+subgraph cluster43 {
+"analytics_src_main_java_com_ning_billing_analytics_dao_BusinessSubscriptionTransitionFieldMapper.java/[CN]/BusinessSubscriptionTransitionFieldMapper/[MT]/map(int,ResultSet,StatementContext)/body";
+}
+subgraph cluster97 {
+"invoice_src_main_java_com_ning_billing_invoice_model_InvoiceItemList.java/[CN]/InvoiceItemList/[CS]/InvoiceItemList(List<InvoiceItem>)/parameters";
+"invoice_src_main_java_com_ning_billing_invoice_model_InvoiceItemList.java/[CN]/InvoiceItemList/[CS]/InvoiceItemList(List<InvoiceItem>)/body";
+}
+subgraph cluster171 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentInfo.java/[CN]/PaymentInfo/[MT]/toString()/body";
+"api_src_main_java_com_ning_billing_payment_api_PaymentInfo.java/[CN]/PaymentInfo/[MT]/hashCode()/body";
+}
+subgraph cluster480 {
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/extend";
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[FE]/maskNumber";
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransitionRecorder.java/[CN]/BusinessSubscriptionTransitionRecorder/[MT]/createPreviousBusinessSubscription(EffectiveSubscriptionEvent,BusinessSubscriptionEvent,ArrayList<BusinessSubscriptionTransition>,Currency)/body";
+}
+subgraph cluster367 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[FE]/paymentMethodPluginProperties";
+}
+subgraph cluster144 {
+"account_src_main_java_com_ning_billing_account_dao_DefaultAccountDao.java/[CN]/DefaultAccountDao/[MT]/getAccountByKey(String)/body";
+"account_src_main_java_com_ning_billing_account_dao_DefaultAccountDao.java/[CN]/DefaultAccountDao/[MT]/update(Account)/body";
+}
+subgraph cluster230 {
+"junction_src_main_java_com_ning_billing_junction_plumbing_billing_DefaultBillingApi.java/[CN]/DefaultBillingApi/[MT]/getBillingEventsForAccountAndUpdateAccountBCD(UUID)/body";
+}
+subgraph cluster225 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[FE]/isMigrated";
+"payment_src_main_java_org_killbill_billing_payment_core_janitor_IncompletePaymentTransactionTask.java/[CN]/IncompletePaymentTransactionTask/[MT]/getItemsForIteration()/body";
+}
+subgraph cluster497 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/getPaymentMethod(String,String)/parameters";
+}
+subgraph cluster266 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultDirectPaymentApi.java/[CN]/DefaultDirectPaymentApi/[MT]/createAuthorization(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultDirectPaymentApi.java/[CN]/DefaultDirectPaymentApi/[MT]/createPurchase(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster39 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_BusinessSubscriptionTransitionDao.java/[CN]/BusinessSubscriptionTransitionDao/[CS]/BusinessSubscriptionTransitionDao(OSGIKillbillLogService,OSGIKillbillAPI,OSGIKillbillDataSource,BusinessAccountDao)/body";
+}
+subgraph cluster462 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_EntitlementSqlDao.java/[CN]/EntitlementSqlDao/[MT]/changePlan(UUID,List<EntitlementEvent>,CallContext)/body";
+}
+subgraph cluster165 {
+"osgi_src_main_java_com_ning_billing_osgi_http_DefaultServletRouter.java/[CN]/DefaultServletRouter/[MT]/unRegisterServiceInternal(OSGIServiceDescriptor)/body";
+"osgi_src_main_java_com_ning_billing_osgi_http_DefaultServletRouter.java/[CN]/DefaultServletRouter/[MT]/unregisterService(String)/body";
+}
+subgraph cluster119 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_mappers_ExceptionMapperBase.java/[CN]/ExceptionMapperBase/[MT]/buildNotFoundResponse(Exception,UriInfo)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_mappers_ExceptionMapperBase.java/[CN]/ExceptionMapperBase/[MT]/buildInternalErrorResponse(Exception,UriInfo)/body";
+}
+subgraph cluster249 {
+"util_src_main_java_com_ning_billing_util_tag_dao_DefaultTagDefinitionDao.java/[CN]/DefaultTagDefinitionDao/[MT]/getTagDefinitions()/body";
+"util_src_main_java_com_ning_billing_util_tag_dao_DefaultTagDefinitionDao.java/[CN]/DefaultTagDefinitionDao/[MT]/deleteTagDefinition(String,CallContext)/body";
+"util_src_main_java_com_ning_billing_util_tag_dao_DefaultTagDefinitionDao.java/[CN]/DefaultTagDefinitionDao/[MT]/getByName(String)/body";
+}
+subgraph cluster180 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionBundleTimeline.java/[CN]/DefaultSubscriptionBundleTimeline/[CN]/TargetState/[MT]/addStateAndReturnEventTypes(BlockingState)/body";
+}
+subgraph cluster321 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_AuditedInvoiceDao.java/[CN]/AuditedInvoiceDao/[MT]/insertInvoiceItemAdjustment(UUID,UUID,UUID,LocalDate,BigDecimal,Currency,CallContext)/body";
+"invoice_src_main_java_com_ning_billing_invoice_dao_AuditedInvoiceDao.java/[CN]/AuditedInvoiceDao/[MT]/createRefund(UUID,BigDecimal,boolean,Map<UUID,BigDecimal>,UUID,CallContext)/body";
+}
+subgraph cluster86 {
+"invoice_src_main_java_org_killbill_billing_invoice_generator_BillingIntervalDetail.java/[CN]/BillingIntervalDetail/[MT]/calculateLastBillingCycleDate()/body";
+}
+subgraph cluster284 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/changePlanOverrideBillingPolicy(String,BillingPeriod,String,LocalDate,ActionPolicy,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/fromLocalDateAndReferenceTime(LocalDate,DateTime,Clock,InternalCallContext)/body";
+}
+subgraph cluster189 {
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[FE]/cardHolderName";
+}
+subgraph cluster150 {
+"payment_src_main_java_com_ning_billing_payment_PaypalPaymentMethod.java/package";
+"payment_src_main_java_com_ning_billing_payment_PaypalPaymentMethod.java/[CN]/PaypalPaymentMethod/[CS]/PaypalPaymentMethod(String,String,String,Boolean,String,String)/parameters";
+}
+subgraph cluster100 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getAddress2()/body";
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getLocale()/body";
+}
+subgraph cluster290 {
+"catalog_src_main_java_org_killbill_billing_catalog_DefaultBlock.java/[CN]/DefaultBlock/[MT]/validate(StandaloneCatalog,ValidationErrors)/body";
+}
+subgraph cluster349 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/setChargedThroughDates(InvoiceSqlDao,Collection<InvoiceItem>)/body";
+}
+subgraph cluster334 {
+"invoice_src_main_java_org_killbill_billing_invoice_model_DefaultInvoicePayment.java/[CN]/DefaultInvoicePayment/[CS]/DefaultInvoicePayment(InvoicePaymentType,UUID,UUID,DateTime,BigDecimal,Currency,Currency,String,Boolean)/body";
+}
+subgraph cluster226 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getTransitionFromEvent(EntitlementEvent,int)/body";
+}
+subgraph cluster101 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_mappers_PaymentApiExceptionMapper.java/[CN]/PaymentApiExceptionMapper/[MT]/toResponse(PaymentApiException)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_RetryOperationCallback.java/[CN]/RetryOperationCallback/[MT]/wrapTimeoutException(PaymentStateContext,TimeoutException)/body";
+}
+subgraph cluster390 {
+"api_src_main_java_org_killbill_billing_junction_DefaultBlockingState.java/[CN]/DefaultBlockingState/[CS]/DefaultBlockingState(UUID,UUID,BlockingStateType,String,String,boolean,boolean,boolean,DateTime,DateTime,DateTime,Long)/body";
+}
+subgraph cluster463 {
+"analytics_src_main_java_com_ning_billing_analytics_AnalyticsListener.java/[CN]/AnalyticsListener/[MT]/handleRequestedSubscriptionTransitionChange(RequestedSubscriptionEvent)/body";
+}
+subgraph cluster405 {
+"invoice_src_main_java_org_killbill_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getChargedAmount()/body";
+"tenant_src_main_java_com_ning_billing_tenant_api_DefaultTenantKV.java/[CN]/DefaultTenantKV/[CS]/DefaultTenantKV(UUID,String,String,DateTime,DateTime)/body";
+"invoice_src_main_java_com_ning_billing_invoice_api_svcs_DefaultInvoiceInternalApi.java/[CN]/DefaultInvoiceInternalApi/[MT]/createRefund(UUID,BigDecimal,boolean,Map<UUID,BigDecimal>,UUID,InternalCallContext)/body";
+}
+subgraph cluster296 {
+"payment_src_main_java_org_killbill_billing_payment_invoice_InvoicePaymentRoutingPluginApi.java/[CN]/InvoicePaymentRoutingPluginApi/[MT]/getNextRetryDateForPluginFailure(List<PaymentTransactionModelDao>)/body";
+}
+subgraph cluster30 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getCurrentPriceList()/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getCurrentPlan()/body";
+}
+subgraph cluster311 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getAccountBalance(UUID)/body";
+}
+subgraph cluster105 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionTransition.java/[CN]/SubscriptionTransition/[MT]/getTransitionType()/body";
+}
+subgraph cluster265 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_control_DefaultControlCompleted.java/[CN]/DefaultControlCompleted/[MT]/enteringState(State,OperationCallback,OperationResult,LeavingStateCallback)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_payments_PaymentLeavingStateCallback.java/[CN]/PaymentLeavingStateCallback/[MT]/leavingState(State)/body";
+}
+subgraph cluster72 {
+"catalog_src_main_java_org_killbill_billing_catalog_StandaloneCatalogWithPriceOverride.java/[CN]/StandaloneCatalogWithPriceOverride/[MT]/findCurrentPhase(String)/body";
+"catalog_src_main_java_org_killbill_billing_catalog_StandaloneCatalogWithPriceOverride.java/[CN]/StandaloneCatalogWithPriceOverride/[MT]/findCurrentPlan(String)/body";
+}
+subgraph cluster34 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_PaymentStateContext.java/[CN]/PaymentStateContext/[FE]/paymentTransactionInfoPlugin";
+}
+subgraph cluster22 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_InvoiceResource.java/[CN]/InvoiceResource/[MT]/getInvoice(String,boolean)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_InvoiceResource.java/[CN]/InvoiceResource/[MT]/createInstantPayment(PaymentJsonSimple,Boolean,String,String,String)/body";
+}
+subgraph cluster133 {
+"payment_src_main_java_com_ning_billing_payment_RequestProcessor.java/[CN]/RequestProcessor/[MT]/receiveInvoice(InvoiceCreationNotification)/body";
+}
+subgraph cluster251 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getExternalKey()/body";
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getName()/body";
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getCity()/body";
+}
+subgraph cluster91 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultDirectPaymentApi.java/[CN]/DefaultDirectPaymentApi/[MT]/createPurchaseWithPaymentControl(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,PaymentOptions,CallContext)/body";
+}
+subgraph cluster56 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createAuthorization(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster281 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_api_user_AnalyticsUserApi.java/[CN]/AnalyticsUserApi/[MT]/rebuildAnalyticsForAccount(UUID,CallContext)/body";
+}
+subgraph cluster217 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createCredit(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/logAPICall(String,Account,UUID,UUID,BigDecimal,Currency,String,String)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createCapture(Account,UUID,BigDecimal,Currency,String,Iterable<PluginProperty>,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createRefund(Account,UUID,BigDecimal,Currency,String,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster239 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/notifyOfFutureBillingEvents(EntitySqlDaoWrapperFactory<EntitySqlDao>,UUID,Map<UUID,DateTime>)/body";
+}
+subgraph cluster195 {
+"util_src_main_java_org_killbill_billing_util_cache_CacheLoaderArgument.java/[CN]/CacheLoaderArgument/[MT]/getHandle()/parameters";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveTenantRecordIdFromObjectInTransaction(UUID,ObjectType,CacheController<Object,Object>,Handle)/parameters";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveAccountRecordIdFromObjectInTransaction(UUID,ObjectType,CacheController<Object,Object>,Handle)/body";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveIdFromObject(Long,ObjectType,CacheController<Object,Object>)/body";
+"util_src_main_java_org_killbill_billing_util_cache_TenantRecordIdCacheLoader.java/[CN]/TenantRecordIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/parameters";
+}
+subgraph cluster196 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_Subscription.java/[CN]/Subscription/[MT]/rebuildTransitions()/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionTransition.java/[CN]/SubscriptionTransition/[MT]/getId()/parameters";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_PaymentAutomatonRunner.java/[CN]/PaymentAutomatonRunner/[MT]/buildPaymentStateContext(boolean,TransactionType,Account,UUID,UUID,UUID,UUID,String,String,BigDecimal,Currency,boolean,OperationResult,Iterable<PluginProperty>,CallContext,InternalCallContext)/body";
+}
+subgraph cluster190 {
+"junction_src_main_java_com_ning_billing_junction_plumbing_billing_DefaultBillingApi.java/[CN]/DefaultBillingApi/[MT]/addBillingEventsForBundles(List<SubscriptionBundle>,Account,CallContext,DefaultBillingEventSet)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_PaymentMethodResource.java/[CN]/PaymentMethodResource/[MT]/getPaymentMethod(String,Boolean,HttpServletRequest)/body";
+}
+subgraph cluster194 {
+"overdue_src_main_java_com_ning_billing_overdue_listener_OverdueListener.java/[CN]/OverdueListener/[MT]/handleInvoiceAdjustmentEvent(InvoiceAdjustmentInternalEvent)/body";
+}
+subgraph cluster340 {
+"overdue_src_main_java_com_ning_billing_ovedue_notification_DefaultOverdueCheckPoster.java/[CN]/DefaultOverdueCheckPoster/[MT]/insertOverdueCheckNotification(Blockable,DateTime)/body";
+}
+subgraph cluster278 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_InvoiceItemJsonSimple.java/[CN]/InvoiceItemJsonSimple/[MT]/equals(Object)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_PaymentJsonSimple.java/[CN]/PaymentJsonSimple/[MT]/equals(Object)/body";
+}
+subgraph cluster175 {
+"util_src_main_java_org_killbill_billing_util_cache_BaseIdCacheLoader.java/[CN]/BaseIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/parameters";
+"util_src_main_java_org_killbill_billing_util_cache_AccountRecordIdCacheLoader.java/[CN]/AccountRecordIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/body";
+"util_src_main_java_org_killbill_billing_util_cache_CacheLoaderArgument.java/[CN]/CacheLoaderArgument/[CS]/CacheLoaderArgument(ObjectType,Object[],InternalTenantContext,Handle)/parameters";
+"util_src_main_java_org_killbill_billing_util_entity_dao_EntitySqlDaoWrapperInvocationHandler.java/[CN]/EntitySqlDaoWrapperInvocationHandler/[MT]/invokeWithCaching(Cachable,Method,Object[])/body";
+"util_src_main_java_org_killbill_billing_util_cache_AccountRecordIdCacheLoader.java/[CN]/AccountRecordIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/parameters";
+"util_src_main_java_org_killbill_billing_util_cache_BaseIdCacheLoader.java/[CN]/BaseIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/body";
+}
+subgraph cluster65 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_BusinessTagDao.java/[CN]/BusinessTagDao/[CS]/BusinessTagDao(OSGIKillbillLogService,OSGIKillbillAPI,OSGIKillbillDataSource)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_RepairEntitlementDao.java/[CN]/RepairEntitlementDao/[CN]/SubscriptionRepairEvent/[CS]/SubscriptionRepairEvent(List<EntitlementEvent>)/body";
+}
+subgraph cluster275 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/logAPICall(String,Account,UUID,UUID,BigDecimal,Currency,String,String)/parameters";
+}
+subgraph cluster116 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[CS]/DefaultAccount(UUID,String,String,String,Integer,Currency,Integer,UUID,DateTimeZone,String,String,String,String,String,String,String,String,String,Boolean,Boolean)/parameters";
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[CS]/DefaultAccount(UUID,DateTime,DateTime,String,String,String,Integer,Currency,Integer,UUID,DateTimeZone,String,String,String,String,String,String,String,String,String,Boolean,Boolean)/parameters";
+}
+subgraph cluster159 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_DefaultSubscriptionApiService.java/[CN]/DefaultSubscriptionApiService/[MT]/doChangePlan(SubscriptionData,PlanChangeResult,DateTime,DateTime,String,BillingPeriod,ActionPolicy,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_DefaultSubscriptionApiService.java/[CN]/DefaultSubscriptionApiService/[MT]/doCancelPlan(SubscriptionData,DateTime,DateTime,ActionPolicy,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_DefaultSubscriptionApiService.java/[CN]/DefaultSubscriptionApiService/[MT]/cancelAddOnsIfRequired(SubscriptionData,DateTime,InternalCallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_DefaultEntitlementDao.java/[CN]/DefaultEntitlementDao/[MT]/notifyBusOfEffectiveImmediateChange(EntitySqlDaoWrapperFactory<EntitySqlDao>,SubscriptionData,EntitlementEvent,int,InternalCallContext)/body";
+}
+subgraph cluster439 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentAttempt.java/[CN]/PaymentAttempt/[CN]/Builder/[MT]/build()/body";
+}
+subgraph cluster209 {
+"invoice_src_main_java_org_killbill_billing_invoice_usage_RawUsageOptimizer.java/[CN]/RawUsageOptimizer/[MT]/getOptimizedRawUsageStartDate(LocalDate,LocalDate,Iterable<InvoiceItem>,Map<String,Usage>)/body";
+}
+subgraph cluster377 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_Subscription.java/[CN]/Subscription/[MT]/getTransitionFromEvent(IEvent)/parameters";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getAllTransitions()/body";
+"account_src_main_java_com_ning_billing_account_dao_DefaultAccountDao.java/[CN]/DefaultAccountDao/[MT]/create(Account)/body";
+}
+subgraph cluster282 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_RetryOperationCallback.java/[CN]/RetryOperationCallback/[MT]/rewrapExecutionException(PaymentStateContext,ExecutionException)/body";
+}
+subgraph cluster396 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionTransition.java/[CN]/SubscriptionTransition/[FE]/eventId";
+"invoice_src_main_java_com_ning_billing_invoice_notification_DefaultNextBillingDateNotifier.java/[CN]/DefaultNextBillingDateNotifier/[MT]/initialize()/body";
+}
+subgraph cluster273 {
+"subscription_src_main_java_com_ning_billing_subscription_engine_dao_model_SubscriptionBundleModelDao.java/[CN]/SubscriptionBundleModelDao/[MT]/equals(Object)/body";
+"subscription_src_main_java_com_ning_billing_subscription_api_transfer_DefaultSubscriptionBaseTransferApi.java/[CN]/DefaultSubscriptionBaseTransferApi/[MT]/transferBundle(UUID,UUID,String,DateTime,boolean,boolean,CallContext)/body";
+}
+subgraph cluster197 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_api_BusinessAccount.java/[CN]/BusinessAccount/[MT]/toString()/body";
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_model_BusinessAccountModelDao.java/[CN]/BusinessAccountModelDao/[MT]/equals(Object)/body";
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_api_BusinessAccount.java/[CN]/BusinessAccount/[MT]/hashCode()/body";
+}
+subgraph cluster407 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[FE]/isNotifiedForInvoices";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[FE]/city";
+}
+subgraph cluster312 {
+"beatrix_src_main_java_com_ning_billing_beatrix_lifecycle_Lifecycle.java/[CN]/Lifecycle/[MT]/findServices()/body";
+"beatrix_src_main_java_com_ning_billing_beatrix_lifecycle_Lifecycle.java/[CN]/Lifecycle/[CS]/Lifecycle(Injector)/body";
+}
+subgraph cluster110 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentAttempt.java/[CN]/PaymentAttempt/[MT]/hashCode()/body";
+"api_src_main_java_com_ning_billing_payment_api_PaymentAttempt.java/[CN]/PaymentAttempt/[CS]/PaymentAttempt(UUID,UUID,UUID,DateTime,DateTime)/body";
+}
+subgraph cluster411 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/changePlanOverrideBillingPolicy(String,BillingPeriod,String,LocalDate,ActionPolicy,CallContext)/parameters";
+}
+subgraph cluster447 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransitionRecorder.java/[CN]/BusinessSubscriptionTransitionRecorder/[MT]/recordTransition(BusinessSubscriptionEvent,ISubscriptionTransition)/body";
+}
+subgraph cluster317 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createVoid(Account,UUID,String,Iterable<PluginProperty>,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createAuthorizationWithPaymentControl(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,PaymentOptions,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createChargeback(Account,UUID,BigDecimal,Currency,String,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/notifyPendingTransactionOfStateChanged(Account,UUID,boolean,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_payments_PaymentOperation.java/[CN]/PaymentOperation/[MT]/unwrapExceptionFromDispatchedTask(PaymentApiException)/body";
+}
+subgraph cluster318 {
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/deletePaymentMethod(String,String)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/getPaymentProviderAccount(String)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/updatePaymentProviderAccountExistingContact(Account)/parameters";
+}
+subgraph cluster271 {
+"invoice_src_main_java_org_killbill_billing_invoice_tree_ItemsInterval.java/[CN]/ItemsInterval/[MT]/buildFromItems(List<Item>,boolean)/body";
+"invoice_src_main_java_org_killbill_billing_invoice_tree_ItemsInterval.java/[CN]/ItemsInterval/[MT]/createNewItem(LocalDate,LocalDate,boolean)/body";
+}
+subgraph cluster406 {
+"invoice_src_main_java_org_killbill_billing_invoice_tree_ItemsNodeInterval.java/[CN]/ItemsNodeInterval/[MT]/buildForExistingItems(List<Item>)/body";
+"account_src_main_java_com_ning_billing_account_api_user_DefaultAccountUserApi.java/[CN]/DefaultAccountUserApi/[MT]/createAccount(AccountData,CallContext)/body";
+}
+subgraph cluster245 {
+"overdue_src_main_java_com_ning_billing_overdue_wrapper_OverdueWrapperFactory.java/[CN]/OverdueWrapperFactory/[MT]/setOverdueConfig(OverdueConfig)/body";
+}
+subgraph cluster410 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getInvoicesByAccount(UUID)/body";
+}
+subgraph cluster474 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentAttempt.java/[CN]/PaymentAttempt/[MT]/equals(Object)/body";
+"api_src_main_java_com_ning_billing_payment_api_PaymentAttempt.java/[CN]/PaymentAttempt/[CS]/PaymentAttempt(UUID,UUID,UUID,BigDecimal,Currency,DateTime,DateTime)/body";
+}
+subgraph cluster187 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_Subscription.java/[CN]/Subscription/[MT]/changePlan(String,BillingPeriod,String,DateTime)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_core_Engine.java/[CN]/Engine/[CS]/Engine(IClock,IEntitlementDao,IApiEventProcessor,IPlanAligner,IEntitlementConfig,EntitlementUserApi,EntitlementBillingApi,EntitlementTestApi,IEventBus)/body";
+}
+subgraph cluster229 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getById(UUID)/body";
+}
+subgraph cluster433 {
+"overdue_src_main_java_com_ning_billing_overdue_applicator_OverdueEmailGenerator.java/[CN]/OverdueEmailGenerator/[MT]/generateEmail(Account,BillingState<T>,T,OverdueState<T>)/body";
+"overdue_src_main_java_com_ning_billing_overdue_glue_DefaultOverdueModule.java/[CN]/DefaultOverdueModule/[MT]/installOverdueEmail()/body";
+}
+subgraph cluster366 {
+"entitlement_src_main_java_org_killbill_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/changePlanWithDate(String,BillingPeriod,String,List<PlanPhasePriceOverride>,LocalDate,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster1 {
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[MT]/getExpirationDateStr()/body";
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[FE]/expirationDateStr";
+}
+subgraph cluster134 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionApiService.java/[CN]/SubscriptionApiService/[MT]/createPlan(SubscriptionBuilder,Plan,PhaseType,String,DateTime,DateTime,DateTime)/body";
+}
+subgraph cluster147 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/getPaymentMethod(String,String)/body";
+}
+subgraph cluster400 {
+"util_src_main_java_com_ning_billing_util_entity_dao_DefaultPaginationSqlDaoHelper.java/[CN]/DefaultPaginationSqlDaoHelper/[MT]/getPagination(Class<? extends EntitySqlDao<M,E>>,PaginationIteratorBuilder<M,E,S>,Long,Long,InternalTenantContext)/body";
+}
+subgraph cluster132 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultDirectPaymentApi.java/[CN]/DefaultDirectPaymentApi/[MT]/createRefund(Account,UUID,BigDecimal,Currency,String,Iterable<PluginProperty>,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/getStateForEntitlement(LocalDate,SubscriptionBase,DateTimeZone,InternalTenantContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_invoice_InvoicePaymentControlPluginApi.java/[CN]/InvoicePaymentControlPluginApi/[MT]/getPluginPurchaseResult(PaymentControlContext,Iterable<PluginProperty>,InternalCallContext)/body";
+}
+subgraph cluster292 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_EntitlementSqlDao.java/[CN]/EntitlementSqlDao/[MT]/migrate(UUID,AccountMigrationData,CallContext)/body";
+}
+subgraph cluster445 {
+"profiles_killbill_src_main_java_org_killbill_billing_server_filters_ResponseCorsFilter.java/[CN]/ResponseCorsFilter/[FE]/allowedHeaders";
+}
+subgraph cluster223 {
+"server_src_main_java_com_ning_billing_server_listeners_KillbillGuiceListener.java/[CN]/KillbillGuiceListener/[MT]/getInstantiatedInjector()/body";
+}
+subgraph cluster444 {
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveRecordIdFromObjectInTransaction(UUID,ObjectType,CacheController<Object,Object>,Handle)/body";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveTenantRecordIdFromObjectInTransaction(UUID,ObjectType,CacheController<Object,Object>,Handle)/body";
+}
+subgraph cluster66 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentMethodInfo.java/[CN]/PaymentMethodInfo/[MT]/equals(Object)/parameters";
+}
+subgraph cluster84 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentMethodInfo.java/[CN]/PaymentMethodInfo/[MT]/toString()/parameters";
+}
+subgraph cluster67 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessAccount.java/[CN]/BusinessAccount/[MT]/equals(Object)/body";
+}
+subgraph cluster176 {
+"analytics_src_main_java_com_ning_billing_analytics_setup_AnalyticsModule.java/[CN]/AnalyticsModule/[MT]/installAnalyticsDao()/body";
+}
+subgraph cluster435 {
+"entitlement_src_main_java_org_killbill_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/changePlan(String,BillingPeriod,String,List<PlanPhasePriceOverride>,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster168 {
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceGenerator.java/[CN]/DefaultInvoiceGenerator/[MT]/processEvents(UUID,BillingEvent,BillingEvent,InvoiceItemList,DateTime,Currency)/body";
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransitionRecorder.java/[CN]/BusinessSubscriptionTransitionRecorder/[MT]/rebuildTransitionsForBundle(UUID)/body";
+}
+subgraph cluster429 {
+"invoice_src_main_java_org_killbill_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/notifyOfFutureBillingEvents(EntitySqlDaoWrapperFactory,UUID,FutureAccountNotifications,InternalCallContext)/body";
+}
+subgraph cluster186 {
+"util_src_main_java_com_ning_billing_util_customfield_dao_DefaultCustomFieldDao.java/[CN]/DefaultCustomFieldDao/[MT]/searchCustomFields(String,Long,Long,InternalTenantContext)/body";
+"subscription_src_main_java_com_ning_billing_subscription_engine_dao_DefaultSubscriptionDao.java/[CN]/DefaultSubscriptionDao/[MT]/searchSubscriptionBundles(String,Long,Long,InternalTenantContext)/body";
+"util_src_main_java_com_ning_billing_util_tag_dao_DefaultTagDao.java/[CN]/DefaultTagDao/[MT]/searchTags(String,Long,Long,InternalTenantContext)/body";
+}
+subgraph cluster113 {
+"junction_src_main_java_org_killbill_billing_junction_plumbing_billing_BlockingCalculator.java/[CN]/BlockingCalculator/[MT]/createNewDisableEvent(DateTime,BillingEvent)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/removeEmail(String,String,String,String,String)/body";
+"server_src_main_java_com_ning_billing_server_listeners_KillbillGuiceListener.java/[CN]/KillbillGuiceListener/[MT]/contextInitialized(ServletContextEvent)/body";
+}
+subgraph cluster258 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_InvoiceResource.java/[CN]/InvoiceResource/[MT]/createExternalCharges(Iterable<InvoiceItemJson>,String,String,Boolean,List<String>,String,String,String,UriInfo,HttpServletRequest)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_JaxRsResourceBase.java/[CN]/JaxRsResourceBase/[MT]/createPurchaseForInvoice(Account,UUID,BigDecimal,UUID,Boolean,Iterable<PluginProperty>,CallContext)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_InvoiceResource.java/[CN]/InvoiceResource/[MT]/createInstantPayment(InvoicePaymentJson,Boolean,List<String>,String,String,String,HttpServletRequest,UriInfo)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_JaxRsResourceBase.java/[CN]/JaxRsResourceBase/[MT]/extractPluginProperties(Iterable<String>,PluginProperty)/body";
+}
+subgraph cluster418 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_EntitlementResource.java/[CN]/EntitlementResource/[MT]/createEntitlement(EntitlementJsonNoEvents,String,Boolean,long,String,String,String,HttpServletRequest)/body";
+}
+subgraph cluster302 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/createPaymentMethod(PaymentMethodJson,Boolean,String,String,String,UriInfo)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/setDefaultPaymentMethod(String,String,String,String,String)/body";
+}
+subgraph cluster228 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/getChargebacksForPayment(String,HttpServletRequest)/body";
+"util_src_main_java_com_ning_billing_util_tag_dao_AuditedTagDao.java/[CN]/AuditedTagDao/[MT]/insertTag(UUID,ObjectType,TagDefinition,CallContext)/body";
+}
+subgraph cluster491 {
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPaymentPlugin.java/[CN]/JRubyPaymentPlugin/[MT]/processPayment(UUID,UUID,BigDecimal,CallContext)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[MT]/equals(Object)/body";
+}
+subgraph cluster20 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_control_OperationControlCallback.java/[CN]/OperationControlCallback/[MT]/doOperationCallback()/body";
+}
+subgraph cluster81 {
+"junction_src_main_java_com_ning_billing_junction_plumbing_billing_DefaultBillingApi.java/[CN]/DefaultBillingApi/[MT]/addBillingEventsForSubscription(List<Subscription>,SubscriptionBundle,Account,CallContext,DefaultBillingEventSet)/body";
+}
+subgraph cluster425 {
+"util_src_main_java_com_ning_billing_util_tag_dao_AuditedTagDao.java/[CN]/AuditedTagDao/[MT]/saveTags(UUID,String,List<Tag>,CallContext)/body";
+"util_src_main_java_com_ning_billing_util_tag_dao_AuditedTagDao.java/[CN]/AuditedTagDao/[MT]/saveTagsFromTransaction(Transmogrifier,UUID,String,List<Tag>,CallContext)/body";
+}
+subgraph cluster448 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessAccount.java/[CN]/BusinessAccount/[MT]/toString()/body";
+"analytics_src_main_java_com_ning_billing_analytics_dao_BusinessAccountMapper.java/[CN]/BusinessAccountMapper/[MT]/map(int,ResultSet,StatementContext)/body";
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessAccount.java/[CN]/BusinessAccount/[MT]/hashCode()/body";
+}
+subgraph cluster238 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransitionRecorder.java/[CN]/BusinessSubscriptionTransitionRecorder/[MT]/subscriptionRecreated(SubscriptionEvent)/body";
+}
+subgraph cluster362 {
+"tenant_src_main_java_com_ning_billing_tenant_api_DefaultTenantKV.java/[CN]/DefaultTenantKV/extend";
+}
+subgraph cluster438 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_PaymentAutomatonDAOHelper.java/[CN]/PaymentAutomatonDAOHelper/[MT]/processPaymentInfoPlugin(TransactionStatus,PaymentTransactionInfoPlugin,String)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_janitor_IncompletePaymentTransactionTask.java/[CN]/IncompletePaymentTransactionTask/[MT]/updatePaymentAndTransactionInternal(PaymentModelDao,Integer,UUID,PaymentTransactionModelDao,PaymentTransactionInfoPlugin,InternalTenantContext)/body";
+}
+subgraph cluster27 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/getPaymentMethods(String)/parameters";
+"api_src_main_java_com_ning_billing_payment_api_PaymentMethodInfo.java/[CN]/PaymentMethodInfo/[MT]/toString()/body";
+}
+subgraph cluster471 {
+"api_src_main_java_org_killbill_billing_junction_DefaultBlockingState.java/[CN]/DefaultBlockingState/[CS]/DefaultBlockingState(UUID,UUID,BlockingStateType,String,String,boolean,boolean,boolean,DateTime,DateTime,DateTime,Long)/parameters";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[MT]/toAccountData()/body";
+}
+subgraph cluster48 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getEndDate()/body";
+"account_src_main_java_com_ning_billing_account_api_user_DefaultAccountUserApi.java/[CN]/DefaultAccountUserApi/[MT]/getEmails(UUID,TenantContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getState()/body";
+"invoice_src_main_java_org_killbill_billing_invoice_InvoiceDispatcher.java/[CN]/InvoiceDispatcher/[MT]/processAccountWithLockAndInputTargetDate(UUID,DateTime,BillingEventSet,boolean,InternalCallContext)/body";
+}
+subgraph cluster141 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_JaxRsResourceBase.java/[CN]/JaxRsResourceBase/[MT]/deleteTags(UUID,String,CallContext)/body";
+}
+subgraph cluster79 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_EntitlementResource.java/[CN]/EntitlementResource/[MT]/changeEntitlementPlan(EntitlementJsonNoEvents,String,String,Boolean,long,String,String,String,String,HttpServletRequest)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_EntitlementJsonNoEvents.java/[CN]/EntitlementJsonNoEvents/[CS]/EntitlementJsonNoEvents(Entitlement,List<AuditLog>)/body";
+}
+subgraph cluster36 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getInvoicesByAccount(UUID,DateTime)/body";
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/get()/body";
+}
+subgraph cluster417 {
+"account_src_main_java_com_ning_billing_account_api_svcs_DefaultAccountInternalApi.java/[CN]/DefaultAccountInternalApi/[MT]/updatePaymentMethod(UUID,UUID,InternalCallContext)/body";
+}
+subgraph cluster327 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_PaymentMethodJson.java/[CN]/PaymentMethodJson/[CN]/PaymentMethodPluginDetailJson/[MT]/toString()/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_PaymentMethodJson.java/[CN]/PaymentMethodJson/[CN]/PaymentMethodPluginDetailJson/[MT]/hashCode()/body";
+}
+subgraph cluster11 {
+"invoice_src_main_java_org_killbill_billing_invoice_usage_RawUsageOptimizer.java/[CN]/RawUsageOptimizer/[MT]/getConsumableInArrearUsage(LocalDate,LocalDate,Iterable<InvoiceItem>,Map<String,Usage>,InternalCallContext)/body";
+}
+subgraph cluster427 {
+"invoice_src_main_java_org_killbill_billing_invoice_calculator_InvoiceCalculatorUtils.java/[CN]/InvoiceCalculatorUtils/[MT]/computeInvoiceAmountRefunded(Currency,Iterable<InvoicePayment>)/body";
+}
+subgraph cluster399 {
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/getPaymentMethodInfo(String)/parameters";
+}
+subgraph cluster169 {
+"payment_src_main_java_com_ning_billing_payment_glue_PaymentModule.java/[CN]/PaymentModule/[CS]/PaymentModule(Properties)/body";
+"payment_src_main_java_com_ning_billing_payment_glue_PaymentModule.java/[CN]/PaymentModule/[CS]/PaymentModule(Properties)/parameters";
+}
+subgraph cluster509 {
+"overdue_src_main_java_org_killbill_billing_overdue_wrapper_OverdueWrapper.java/[CN]/OverdueWrapper/[MT]/clearWithLock(InternalCallContext)/body";
+"overdue_src_main_java_org_killbill_billing_overdue_wrapper_OverdueWrapper.java/[CN]/OverdueWrapper/[MT]/refreshWithLock(InternalCallContext)/body";
+}
+subgraph cluster252 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_JaxRsResourceBase.java/[CN]/JaxRsResourceBase/[MT]/createTags(UUID,String,CallContext)/body";
+}
+subgraph cluster393 {
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPaymentPlugin.java/[CN]/JRubyPaymentPlugin/[MT]/getPaymentMethods(UUID,boolean,CallContext)/body";
+}
+subgraph cluster29 {
+"overdue_src_main_java_org_killbill_billing_overdue_notification_DefaultOverduePosterBase.java/[CN]/DefaultOverduePosterBase/[MT]/getFutureNotificationsForAccountInTransaction(EntitySqlDaoWrapperFactory<EntitySqlDao>,NotificationQueue,Class<T>,InternalCallContext)/body";
+}
+subgraph cluster361 {
+"beatrix_src_main_java_com_ning_billing_beatrix_lifecycle_Lifecycle.java/[CN]/Lifecycle/[MT]/doFireStage(LyfecycleLevel)/body";
+}
+subgraph cluster264 {
+"payment_src_main_java_com_ning_billing_payment_core_RefundProcessor.java/[CN]/RefundProcessor/[MT]/completePluginCompletedRefund(List<RefundModelDao>,InternalTenantContext)/body";
+"payment_src_main_java_com_ning_billing_payment_core_RefundProcessor.java/[CN]/RefundProcessor/[MT]/getRefund(UUID,InternalTenantContext)/body";
+}
+subgraph cluster344 {
+"payment_src_main_java_com_ning_billing_payment_core_RefundProcessor.java/[CN]/RefundProcessor/[MT]/getRefunds(Long,Long,String,TenantContext,InternalTenantContext)/body";
+}
+subgraph cluster4 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[FE]/locale";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[FE]/postalCode";
+}
+subgraph cluster316 {
+"api_src_main_java_org_killbill_billing_junction_DefaultBlockingState.java/[CN]/DefaultBlockingState/[MT]/hashCode()/body";
+"api_src_main_java_org_killbill_billing_junction_DefaultBlockingState.java/[CN]/DefaultBlockingState/[MT]/equals(Object)/body";
+}
+subgraph cluster211 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_repair_DefaultEntitlementRepairApi.java/[CN]/DefaultEntitlementRepairApi/[MT]/validateFirstNewEvent(SubscriptionData,NewEvent,DateTime,DateTime)/body";
+}
+subgraph cluster386 {
+"invoice_src_main_java_com_ning_billing_invoice_InvoiceListener.java/[CN]/InvoiceListener/[MT]/handleSubscriptionTransition(SubscriptionTransition)/body";
+"invoice_src_main_java_com_ning_billing_invoice_model_InvoiceItemList.java/[CN]/InvoiceItemList/[CS]/InvoiceItemList()/body";
+}
+subgraph cluster138 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_BusinessInvoiceDao.java/[CN]/BusinessInvoiceDao/[MT]/isInvoiceAdjustmentItem(InvoiceItem,Collection<InvoiceItem>)/body";
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_BusinessInvoiceDao.java/[CN]/BusinessInvoiceDao/[MT]/isInvoiceAdjustmentItem(InvoiceItem,Collection<InvoiceItem>)/parameters";
+}
+subgraph cluster24 {
+"invoice_src_main_java_com_ning_billing_invoice_api_user_DefaultInvoiceUserApi.java/[CN]/DefaultInvoiceUserApi/[MT]/tagInvoiceAsNotWrittenOff(UUID,CallContext)/body";
+"invoice_src_main_java_com_ning_billing_invoice_api_user_DefaultInvoiceUserApi.java/[CN]/DefaultInvoiceUserApi/[MT]/tagInvoiceAsWrittenOff(UUID,CallContext)/body";
+}
+subgraph cluster77 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/getPayments(Long,Long,TenantContext)/parameters";
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/getPayments(Long,Long,String,TenantContext)/parameters";
+}
+subgraph cluster218 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_ChargebackJson.java/[CN]/ChargebackJson/[MT]/toString()/body";
+}
+subgraph cluster272 {
+"payment_src_main_java_org_killbill_billing_payment_core_PaymentProcessor.java/[CN]/PaymentProcessor/[MT]/performOperation(boolean,UUID,TransactionType,Account,UUID,UUID,UUID,BigDecimal,Currency,String,String,boolean,OperationResult,Iterable<PluginProperty>,CallContext,InternalCallContext)/body";
+}
+subgraph cluster364 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/getPaymentMethods(String)/body";
+}
+subgraph cluster3 {
+"tenant_src_main_java_com_ning_billing_tenant_api_DefaultTenantKV.java/[CN]/DefaultTenantKV/[CS]/DefaultTenantKV(UUID,String,String,DateTime,DateTime)/parameters";
+}
+subgraph cluster384 {
+"profiles_killbill_src_main_java_org_killbill_billing_server_filters_RequestDataFilter.java/[CN]/RequestDataFilter/[MT]/filter(ContainerRequest,ContainerResponse)/body";
+"profiles_killbill_src_main_java_org_killbill_billing_server_listeners_KillbillGuiceListener.java/[CN]/KillbillGuiceListener/[MT]/getServletModule()/body";
+"profiles_killbill_src_main_java_org_killbill_billing_server_listeners_KillbillGuiceListener.java/[CN]/KillbillGuiceListener/[MT]/startLifecycleStage3()/body";
+}
+subgraph cluster242 {
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessAccount.java/[CN]/BusinessAccount/[MT]/toString()/body";
+}
+subgraph cluster61 {
+"account_src_main_java_com_ning_billing_account_api_user_DefaultAccountUserApi.java/[CN]/DefaultAccountUserApi/[MT]/updateAccount(Account,CallContext)/body";
+"account_src_main_java_com_ning_billing_account_api_user_DefaultAccountUserApi.java/[CN]/DefaultAccountUserApi/[MT]/updateAccount(UUID,AccountData,CallContext)/body";
+}
+subgraph cluster41 {
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginProvider.java/package";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/createPaymentProviderAccount(Account)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/updatePaymentMethod(String,PaymentMethodInfo)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createVoidWithPaymentControl(Account,UUID,String,Iterable<PluginProperty>,PaymentOptions,CallContext)/body";
+}
+subgraph cluster422 {
+"invoice_src_main_java_com_ning_billing_invoice_api_user_DefaultInvoiceUserApi.java/[CN]/DefaultInvoiceUserApi/[MT]/insertCreditForInvoice(UUID,UUID,BigDecimal,DateTime,Currency,CallContext)/body";
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/insertCredit(UUID,UUID,BigDecimal,DateTime,Currency,CallContext)/parameters";
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/insertCredit(UUID,UUID,BigDecimal,DateTime,Currency,CallContext)/body";
+}
+subgraph cluster472 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionBundleTimeline.java/[CN]/DefaultSubscriptionBundleTimeline/[MT]/shouldSwap(SubscriptionEvent,SubscriptionEvent,boolean)/body";
+}
+subgraph cluster489 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_AuditedInvoiceDao.java/[CN]/AuditedInvoiceDao/[MT]/insertExternalCharge(UUID,UUID,UUID,String,BigDecimal,LocalDate,Currency,CallContext)/body";
+}
+subgraph cluster351 {
+"entitlement_src_main_java_com_ning_billing_entitlement_alignment_PlanAligner.java/[CN]/PlanAligner/[MT]/getNextTimedPhase(SubscriptionData,DateTime,DateTime)/body";
+}
+subgraph cluster324 {
+"payment_src_main_java_org_killbill_billing_payment_core_PaymentGatewayProcessor.java/[CN]/PaymentGatewayProcessor/[MT]/processNotification(boolean,String,String,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster74 {
+"invoice_src_main_java_org_killbill_billing_invoice_tree_ItemsInterval.java/[CN]/ItemsInterval/[MT]/getResulting_ADD_Item()/body";
+}
+subgraph cluster192 {
+"analytics_src_main_java_com_ning_billing_analytics_api_user_DefaultAnalyticsUserApi.java/[CN]/DefaultAnalyticsUserApi/[MT]/getTransitionsForBundle(String)/parameters";
+"analytics_src_main_java_com_ning_billing_analytics_api_user_DefaultAnalyticsUserApi.java/[CN]/DefaultAnalyticsUserApi/[MT]/getTransitionsForBundle(String)/body";
+}
+subgraph cluster199 {
+"osgi-bundles_libs_killbill_src_main_java_com_ning_killbill_osgi_libs_killbill_KillbillActivatorBase.java/[CN]/KillbillActivatorBase/[MT]/start(BundleContext)/body";
+"osgi-bundles_libs_killbill_src_main_java_com_ning_killbill_osgi_libs_killbill_KillbillActivatorBase.java/[CN]/KillbillActivatorBase/[MT]/stop(BundleContext)/body";
+}
+subgraph cluster483 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_RefundJson.java/[CN]/RefundJson/[MT]/toString()/body";
+}
+subgraph cluster26 {
+"payment_src_main_java_com_ning_billing_payment_dao_DefaultPaymentDao.java/[CN]/DefaultPaymentDao/[MT]/getPaymentAttemptById(UUID)/parameters";
+}
+subgraph cluster270 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionApiService.java/[CN]/SubscriptionApiService/[MT]/cancel(SubscriptionData,DateTime,boolean)/body";
+}
+subgraph cluster501 {
+"overdue_src_main_java_org_killbill_billing_overdue_caching_EhCacheOverdueConfigCache.java/[CN]/EhCacheOverdueConfigCache/[MT]/loadDefaultOverdueConfig(String)/body";
+"overdue_src_main_java_org_killbill_billing_overdue_caching_EhCacheOverdueConfigCache.java/[CN]/EhCacheOverdueConfigCache/[MT]/getOverdueConfig(InternalTenantContext)/body";
+"util_src_main_java_org_killbill_billing_util_cache_TenantOverdueConfigCacheLoader.java/[CN]/TenantOverdueConfigCacheLoader/[MT]/load(Object,Object)/body";
+}
+subgraph cluster507 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_EntitlementSqlDao.java/[CN]/EntitlementSqlDao/[MT]/createSubscriptionBundle(SubscriptionBundleData,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_EntitlementSqlDao.java/[CN]/EntitlementSqlDao/[MT]/createSubscription(SubscriptionData,List<EntitlementEvent>,CallContext)/body";
+}
+subgraph cluster379 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/getPaymentByIdOrKey(String,String,Iterable<PluginProperty>,TenantContext)/body";
+}
+subgraph cluster151 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/getEmails(String)/body";
+}
+subgraph cluster440 {
+"payment_src_main_java_org_killbill_billing_payment_core_PaymentGatewayProcessor.java/[CN]/PaymentGatewayProcessor/[MT]/buildFormDescriptor(boolean,Account,UUID,Iterable<PluginProperty>,Iterable<PluginProperty>,CallContext,InternalCallContext)/body";
+}
+subgraph cluster51 {
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceItemFormatter.java/[CN]/DefaultInvoiceItemFormatter/[MT]/getRate()/body";
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getCreditAdjAmount()/body";
+}
+subgraph cluster206 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_PurchaseOperation.java/[CN]/PurchaseOperation/[MT]/doCallSpecificOperationCallback()/parameters";
+}
+subgraph cluster356 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_AuditedEntitlementDao.java/[CN]/AuditedEntitlementDao/[MT]/uncancelSubscription(SubscriptionData,List<EntitlementEvent>,InternalCallContext)/body";
+}
+subgraph cluster378 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_TagDefinitionJson.java/[CN]/TagDefinitionJson/[MT]/hashCode()/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_payments_PaymentEnteringStateCallback.java/[CN]/PaymentEnteringStateCallback/[MT]/enteringState(State,Operation.OperationCallback,OperationResult,LeavingStateCallback)/body";
+"analytics_src_main_java_com_ning_billing_analytics_setup_AnalyticsModule.java/[CN]/AnalyticsModule/[MT]/installAnalyticsSqlDao()/body";
+}
+subgraph cluster419 {
+"payment_src_main_java_com_ning_billing_payment_provider_ExternalPaymentProviderPlugin.java/[CN]/ExternalPaymentProviderPlugin/[MT]/getPaymentInfo(UUID,UUID,TenantContext)/body";
+}
+subgraph cluster414 {
+"util_src_main_java_com_ning_billing_util_notificationq_DefaultNotificationQueue.java/[CN]/DefaultNotificationQueue/[CS]/DefaultNotificationQueue(IDBI,Clock,String,String,NotificationQueueHandler,NotificationConfig)/parameters";
+"util_src_main_java_com_ning_billing_util_notificationq_DefaultNotificationQueueService.java/[CN]/DefaultNotificationQueueService/[CS]/DefaultNotificationQueueService(IDBI,Clock)/parameters";
+}
+subgraph cluster404 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionBundleTimeline.java/[CN]/DefaultSubscriptionBundleTimeline/[MT]/findPrevNext(List<SubscriptionEvent>,UUID,SubscriptionEvent)/body";
+}
+subgraph cluster128 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_CreditResource.java/[CN]/CreditResource/[MT]/getCredit(String)/body";
+}
+subgraph cluster322 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/getAllEntitlementsForBundle(UUID,TenantContext)/body";
+}
+subgraph cluster62 {
+"entitlement_src_main_java_com_ning_billing_entitlement_dao_ProxyBlockingStateDao.java/[CN]/ProxyBlockingStateDao/[MT]/addBlockingStatesNotOnDisk(UUID,BlockingStateType,Collection<BlockingState>,Iterable<SubscriptionBase>,Iterable<EventsStream>)/body";
+}
+subgraph cluster385 {
+"util_src_main_java_org_killbill_billing_util_cache_CacheLoaderArgument.java/[CN]/CacheLoaderArgument/[CS]/CacheLoaderArgument(ObjectType,Object[],InternalTenantContext,Handle)/body";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveAccountRecordIdFromObjectInTransaction(UUID,ObjectType,CacheController<Object,Object>,Handle)/parameters";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveIdFromObjectInTransaction(Long,ObjectType,CacheController<Object,Object>,Handle)/parameters";
+"util_src_main_java_org_killbill_billing_util_cache_TenantRecordIdCacheLoader.java/[CN]/TenantRecordIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_PaymentOperation.java/[CN]/PaymentOperation/[MT]/wrapInterruptedException(PaymentStateContext,InterruptedException)/body";
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_BusinessInvoiceDao.java/[CN]/BusinessInvoiceDao/[MT]/isRevenueRecognizable(InvoiceItem,Collection<InvoiceItem>)/parameters";
+}
+subgraph cluster432 {
+"util_src_main_java_com_ning_billing_util_tag_DefaultTagDefinition.java/[CN]/DefaultTagDefinition/[MT]/hashCode()/body";
+"util_src_main_java_com_ning_billing_util_tag_DefaultTagDefinition.java/[CN]/DefaultTagDefinition/[MT]/equals(Object)/body";
+"util_src_main_java_com_ning_billing_util_tag_DefaultTagDefinition.java/[CN]/DefaultTagDefinition/[CS]/DefaultTagDefinition(UUID,String,String,Boolean)/parameters";
+}
+subgraph cluster450 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_BusinessInvoiceDao.java/[CN]/BusinessInvoiceDao/[MT]/createBusinessInvoiceItem(Account,Invoice,InvoiceItem,Collection<InvoiceItem>,SubscriptionBundle,Plan,PlanPhase,Long,AuditLog,Long,Long,ReportGroup,TenantContext)/parameters";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/getPayments(String,String,String)/body";
+}
+subgraph cluster212 {
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyActivator.java/[CN]/JRubyActivator/[MT]/doStopPlugin(BundleContext)/body";
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyActivator.java/[CN]/JRubyActivator/[MT]/startPlugin(PluginRubyConfig,String,BundleContext)/body";
+}
+subgraph cluster416 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_SubscriptionJsonNoEvents.java/[CN]/SubscriptionJsonNoEvents/[CS]/SubscriptionJsonNoEvents(String,String,String,String,LocalDate,String,String,String,String,LocalDate,List<AuditLogJson>,LocalDate,LocalDate,LocalDate)/body";
+}
+subgraph cluster70 {
+"util_src_main_java_com_ning_billing_util_notificationq_DefaultNotificationQueueService.java/[CN]/DefaultNotificationQueueService/[CS]/DefaultNotificationQueueService(IDBI,Clock,NotificationQueueConfig,InternalCallContextFactory)/body";
+"util_src_main_java_com_ning_billing_util_notificationq_DefaultNotificationQueueService.java/[CN]/DefaultNotificationQueueService/[CS]/DefaultNotificationQueueService(IDBI,Clock,NotificationQueueConfig,InternalCallContextFactory)/parameters";
+}
+subgraph cluster234 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_migration_DefaultEntitlementMigrationApi.java/[CN]/DefaultEntitlementMigrationApi/[MT]/createSubscriptionMigrationDataWithBundleDate(UUID,ProductCategory,EntitlementSubscriptionMigrationCase[],DateTime,DateTime,DateTime,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_migration_DefaultEntitlementMigrationApi.java/[CN]/DefaultEntitlementMigrationApi/[MT]/createInitialSubscription(UUID,ProductCategory,EntitlementSubscriptionMigrationCase[],DateTime,DateTime,CallContext)/body";
+}
+subgraph cluster383 {
+"subscription_src_main_java_com_ning_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/doCancelPlan(DefaultSubscriptionBase,DateTime,DateTime,CallContext)/body";
+}
+subgraph cluster298 {
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessSubscriptionTransition.java/[CN]/BusinessSubscriptionTransition/[MT]/toString()/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_InvoiceResource.java/[CN]/InvoiceResource/[MT]/getPayments(String)/body";
+}
+subgraph cluster289 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_ChargebackJson.java/[CN]/ChargebackJson/[MT]/hashCode()/body";
+"account_src_main_java_com_ning_billing_account_api_user_DefaultAccountUserApi.java/[CN]/DefaultAccountUserApi/[MT]/addEmail(UUID,AccountEmail,CallContext)/body";
+}
+subgraph cluster114 {
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPlugin.java/[CN]/JRubyPlugin/[MT]/callWithRuntimeAndChecking(PluginCallback)/body";
+}
+subgraph cluster219 {
+"analytics_src_main_java_com_ning_billing_analytics_dao_BusinessSubscriptionTransitionTagMapper.java/[CN]/BusinessSubscriptionTransitionTagMapper/[MT]/map(int,ResultSet,StatementContext)/body";
+}
+subgraph cluster188 {
+"subscription_src_main_java_com_ning_billing_subscription_api_timeline_DefaultSubscriptionBaseTimelineApi.java/[CN]/DefaultSubscriptionBaseTimelineApi/[MT]/getBundleTimeline(UUID,String,TenantContext)/body";
+"subscription_src_main_java_com_ning_billing_subscription_engine_dao_DefaultSubscriptionDao.java/[CN]/DefaultSubscriptionDao/[MT]/migrateBundleDataFromTransaction(BundleMigrationData,SubscriptionEventSqlDao,EntitySqlDaoWrapperFactory<EntitySqlDao>,InternalCallContext)/body";
+}
+subgraph cluster288 {
+"util_src_main_java_com_ning_billing_util_callcontext_InternalCallContextFactory.java/[CN]/InternalCallContextFactory/[MT]/createInternalCallContext(UUID,ObjectType,CallContext)/body";
+"util_src_main_java_com_ning_billing_util_callcontext_InternalCallContextFactory.java/[CN]/InternalCallContextFactory/[MT]/createInternalCallContext(UUID,CallContext)/body";
+}
+subgraph cluster202 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createCreditWithPaymentControl(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,PaymentOptions,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_PaymentMethodProcessor.java/[CN]/PaymentMethodProcessor/[MT]/deletedPaymentMethod(Account,UUID,boolean,Iterable<PluginProperty>,CallContext,InternalCallContext)/body";
+}
+subgraph cluster7 {
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessSubscriptionTransition.java/[CN]/BusinessSubscriptionTransition/[MT]/hashCode()/body";
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessSubscriptionTransition.java/[CN]/BusinessSubscriptionTransition/[MT]/equals(Object)/body";
+}
+subgraph cluster300 {
+"invoice_src_main_java_org_killbill_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getCreditedAmount()/body";
+"invoice_src_main_java_org_killbill_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getRefundedAmount()/body";
+}
+subgraph cluster221 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[MT]/toString()/body";
+}
+subgraph cluster436 {
+"util_src_main_java_com_ning_billing_util_tag_dao_DefaultTagDefinitionDao.java/[CN]/DefaultTagDefinitionDao/[MT]/create(String,String,CallContext)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/getEmailNotificationsForAccount(String)/body";
+}
+subgraph cluster172 {
+"tenant_src_main_java_com_ning_billing_tenant_dao_TenantKVModelDao.java/[CN]/TenantKVModelDao/[CS]/TenantKVModelDao(UUID,DateTime,DateTime,String,String)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/getEmailNotificationsForAccount(InvoiceEmailJson,String,String,String,String)/body";
+}
+subgraph cluster303 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_mappers_BlockingApiExceptionMapper.java/[CN]/BlockingApiExceptionMapper/[MT]/toResponse(BlockingApiException)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_mappers_EmailApiExceptionMapper.java/[CN]/EmailApiExceptionMapper/[MT]/toResponse(EmailApiException)/body";
+}
+subgraph cluster227 {
+"payment_src_main_java_com_ning_billing_payment_core_PaymentProcessor.java/[CN]/PaymentProcessor/[MT]/notifyPendingPaymentOfStateChanged(Account,UUID,boolean,InternalCallContext)/body";
+}
+subgraph cluster10 {
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPaymentPlugin.java/[CN]/JRubyPaymentPlugin/[MT]/processRefund(UUID,BigDecimal,CallContext)/body";
+}
+subgraph cluster148 {
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/cancel(DefaultSubscriptionBase,CallContext)/body";
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/changePlanWithPolicy(DefaultSubscriptionBase,String,BillingPeriod,String,List<PlanPhasePriceOverride>,BillingActionPolicy,CallContext)/body";
+}
+subgraph cluster124 {
+"invoice_src_main_java_org_killbill_billing_invoice_generator_DefaultInvoiceGenerator.java/[CN]/DefaultInvoiceGenerator/[MT]/generateInvoice(Account,BillingEventSet,List<Invoice>,LocalDate,Currency,InternalCallContext)/body";
+}
+subgraph cluster201 {
+"payment_src_main_java_com_ning_billing_payment_provider_ExternalPaymentProviderPlugin.java/[CN]/ExternalPaymentProviderPlugin/[MT]/processPayment(UUID,UUID,UUID,BigDecimal,Currency,CallContext)/body";
+}
+subgraph cluster285 {
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[MT]/getMaskNumber()/parameters";
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[CS]/CreditCardPaymentMethod(String,String,Boolean,String,String,String,String,String,String)/parameters";
+"invoice_src_main_java_com_ning_billing_invoice_model_Invoice.java/[CN]/Invoice/[MT]/toString()/parameters";
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[CS]/CreditCardPaymentMethod(String,String,Boolean,String,String,String,String,String,String)/body";
+}
+subgraph cluster476 {
+"server_src_main_java_com_ning_billing_server_modules_DBIProvider.java/[CN]/DBIProvider/[MT]/getC3P0DataSource()/body";
+"server_src_main_java_com_ning_billing_server_modules_DBIProvider.java/[CN]/DBIProvider/[MT]/getBoneCPDatSource()/body";
+}
+subgraph cluster420 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_control_DefaultControlCompleted.java/[CN]/DefaultControlCompleted/[MT]/isUnknownTransaction()/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_PluginRoutingPaymentAutomatonRunner.java/[CN]/PluginRoutingPaymentAutomatonRunner/[MT]/run(State,boolean,TransactionType,Account,UUID,UUID,String,String,BigDecimal,Currency,Iterable<PluginProperty>,List<String>,CallContext,InternalCallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_control_DefaultControlCompleted.java/[CN]/DefaultControlCompleted/[FE]/retriedState";
+}
+subgraph cluster469 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_payments_PaymentOperation.java/[CN]/PaymentOperation/[MT]/doOperationCallback()/body";
+}
+subgraph cluster167 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getTimeZone()/body";
+}
+subgraph cluster388 {
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[MT]/getCardHolderName()/body";
+"payment_src_main_java_com_ning_billing_payment_PaymentInfo.java/[CN]/PaymentInfo/[CS]/PaymentInfo(String,BigDecimal,BigDecimal,String,String,BigDecimal,String,String,String,DateTime,DateTime,DateTime)/parameters";
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/package";
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[MT]/getExpirationDateStr()/parameters";
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[MT]/getCardHolderName()/parameters";
+}
+subgraph cluster149 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscription.java/[CN]/BusinessSubscription/[MT]/equals(Object)/body";
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscription.java/[CN]/BusinessSubscription/[MT]/toString()/body";
+}
+subgraph cluster94 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionBundleTimeline.java/[CN]/DefaultSubscriptionBundleTimeline/[MT]/insertSubscriptionEvent(SubscriptionEvent,List<SubscriptionEvent>)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionBundleTimeline.java/[CN]/DefaultSubscriptionBundleTimeline/[MT]/computeEvents(Collection<Entitlement>,List<BlockingState>,DateTimeZone)/body";
+}
+subgraph cluster173 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionApiService.java/[CN]/SubscriptionApiService/[MT]/uncancel(SubscriptionData)/body";
+}
+subgraph cluster413 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_TagDefinitionJson.java/[CN]/TagDefinitionJson/[MT]/toString()/body";
+}
+subgraph cluster430 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_PaymentMethodJson.java/[CN]/PaymentMethodJson/[CN]/PaymentMethodPluginDetailJson/[FE]/externalPaymentMethodId";
+}
+subgraph cluster60 {
+"payment_src_main_java_org_killbill_billing_payment_core_janitor_IncompletePaymentTransactionTask.java/[CN]/IncompletePaymentTransactionTask/[MT]/updatePaymentAndTransactionIfNeededWithAccountLock(PaymentModelDao,PaymentTransactionModelDao,PaymentTransactionInfoPlugin,InternalTenantContext)/body";
+}
+subgraph cluster428 {
+"catalog_src_main_java_com_ning_billing_catalog_io_VersionedCatalogLoader.java/[CN]/VersionedCatalogLoader/[MT]/load(String)/body";
+}
+subgraph cluster331 {
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getCBAAmount()/body";
+}
+subgraph cluster142 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentInfo.java/[CN]/PaymentInfo/[CS]/PaymentInfo(String,BigDecimal,BigDecimal,String,String,String,String,String,String,String,String,String,DateTime,DateTime,DateTime)/body";
+"api_src_main_java_com_ning_billing_payment_api_PaymentInfo.java/[CN]/PaymentInfo/[MT]/getCardType()/body";
+"api_src_main_java_com_ning_billing_payment_api_PaymentInfo.java/[CN]/PaymentInfo/[CS]/PaymentInfo(PaymentInfo)/body";
+}
+subgraph cluster87 {
+"overdue_src_main_java_com_ning_billing_overdue_listener_OverdueListener.java/[CN]/OverdueListener/[MT]/handlePaymentErrorEvent(PaymentErrorInternalEvent)/body";
+}
+subgraph cluster326 {
+"payment_src_main_java_com_ning_billing_payment_PaymentInfo.java/[CN]/PaymentInfo/[MT]/hashCode()/body";
+"payment_src_main_java_com_ning_billing_payment_PaymentInfo.java/[CN]/PaymentInfo/[CN]/Builder/[MT]/build()/body";
+"payment_src_main_java_com_ning_billing_payment_PaymentInfo.java/[CN]/PaymentInfo/[CN]/Builder/[CS]/Builder(PaymentInfo)/body";
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[MT]/getCardType()/parameters";
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[MT]/getCardType()/body";
+}
+subgraph cluster328 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[CS]/ComboPaymentTransactionJson(AccountJson,PaymentMethodJson,PaymentTransactionJson,Iterable<PluginPropertyJson>,Iterable<PluginPropertyJson>,List<AuditLogJson>)/parameters";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[MT]/getPaymentMethodPluginProperties()/body";
+"entitlement_src_main_java_org_killbill_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/createBaseEntitlementWithAddOns(UUID,String,Iterable<EntitlementSpecifier>,LocalDate,Iterable<PluginProperty>,CallContext)/parameters";
+}
+subgraph cluster478 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_CreditJson.java/[CN]/CreditJson/[CS]/CreditJson(InvoiceItem)/body";
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessAccount.java/[CN]/BusinessAccount/[MT]/equals(Object)/body";
+}
+subgraph cluster297 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_model_EntitlementEventModelDao.java/[CN]/EntitlementEventModelDao/[MT]/getUserType()/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_model_EntitlementEventModelDao.java/[CN]/EntitlementEventModelDao/[MT]/getEventType()/body";
+}
+subgraph cluster121 {
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceGenerator.java/[CN]/DefaultInvoiceGenerator/[MT]/generateInvoice(UUID,BillingEventSet,List<Invoice>,DateTime,Currency)/body";
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceGenerator.java/[CN]/DefaultInvoiceGenerator/[MT]/adjustTargetDate(List<Invoice>,DateTime)/body";
+}
+subgraph cluster330 {
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceItemFormatter.java/[CN]/DefaultInvoiceItemFormatter/[MT]/getFormattedEndDate()/body";
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceItemFormatter.java/[CN]/DefaultInvoiceItemFormatter/[MT]/getFormattedStartDate()/body";
+}
+subgraph cluster309 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_core_Engine.java/[CN]/Engine/[MT]/processEventReady(IEvent)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionTransition.java/[CN]/SubscriptionTransition/[MT]/getId()/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionTransition.java/[CN]/SubscriptionTransition/[CS]/SubscriptionTransition(UUID,UUID,UUID,EventType,ApiEventType,DateTime,DateTime,SubscriptionState,IPlan,IPlanPhase,String,SubscriptionState,IPlan,IPlanPhase,String)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionTransition.java/[CN]/SubscriptionTransition/[CS]/SubscriptionTransition(UUID,UUID,UUID,EventType,ApiEventType,DateTime,DateTime,SubscriptionState,IPlan,IPlanPhase,String,SubscriptionState,IPlan,IPlanPhase,String)/parameters";
+}
+subgraph cluster88 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/getEntitlementForId(UUID,TenantContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/addEntitlement(UUID,PlanPhaseSpecifier,LocalDate,CallContext)/body";
+}
+subgraph cluster454 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/chargebackPaymentInternal(PaymentTransactionJson,String,List<String>,List<String>,String,String,String,UriInfo,HttpServletRequest)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/captureAuthorizationInternal(PaymentTransactionJson,String,List<String>,List<String>,String,String,String,UriInfo,HttpServletRequest)/body";
+}
+subgraph cluster162 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/createRefund(UUID,BigDecimal,boolean,Map<UUID,BigDecimal>,UUID,CallContext)/body";
+"payment_src_main_java_com_ning_billing_payment_dao_DefaultPaymentDao.java/[CN]/DefaultPaymentDao/[MT]/getPaymentAttemptById(UUID)/body";
+}
+subgraph cluster341 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_InvoiceJsonSimple.java/[CN]/InvoiceJsonSimple/[CS]/InvoiceJsonSimple(Invoice)/body";
+}
+subgraph cluster403 {
+"payment_src_main_java_org_killbill_billing_payment_core_Janitor.java/[CN]/Janitor/[MT]/start()/body";
+"payment_src_main_java_org_killbill_billing_payment_core_Janitor.java/[CN]/Janitor/[MT]/stop()/body";
+}
+subgraph cluster267 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getPreviousTransition()/body";
+}
+subgraph cluster232 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_mappers_ExceptionMapperBase.java/[CN]/ExceptionMapperBase/[MT]/buildNotFoundResponse(Exception,UriInfo)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_mappers_ExceptionMapperBase.java/[CN]/ExceptionMapperBase/[MT]/buildInternalErrorResponse(Exception,UriInfo)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_mappers_ExceptionMapperBase.java/[CN]/ExceptionMapperBase/[MT]/buildPluginTimeoutResponse(Exception,UriInfo)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_mappers_ExceptionMapperBase.java/[CN]/ExceptionMapperBase/[MT]/buildConflictingRequestResponse(Exception,UriInfo)/body";
+}
+subgraph cluster345 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_repair_SubscriptionDataRepair.java/[CN]/SubscriptionDataRepair/[MT]/trickleDownBPEffectForAddon(List<SubscriptionDataRepair>,DateTime,CallContext)/parameters";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_repair_SubscriptionDataRepair.java/[CN]/SubscriptionDataRepair/[MT]/trickleDownBPEffectForAddon(List<SubscriptionDataRepair>,DateTime,CallContext)/body";
+}
+subgraph cluster461 {
+"invoice_src_main_java_org_killbill_billing_invoice_tree_ItemsNodeInterval.java/[CN]/ItemsNodeInterval/[MT]/mergeExistingAndProposed(List<Item>)/body";
+"invoice_src_main_java_org_killbill_billing_invoice_tree_ItemsInterval.java/[CN]/ItemsInterval/[MT]/getResulting_CANCEL_Item()/body";
+}
+subgraph cluster237 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/setDefaultPaymentMethod(String,String,Boolean,List<String>,String,String,String,HttpServletRequest)/body";
+}
+subgraph cluster357 {
+"payment_src_main_java_org_killbill_billing_payment_invoice_InvoicePaymentControlPluginApi.java/[CN]/InvoicePaymentControlPluginApi/[MT]/onSuccessCall(PaymentControlContext,Iterable<PluginProperty>)/body";
+}
+subgraph cluster346 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_mappers_ExceptionMapperBase.java/[CN]/ExceptionMapperBase/[MT]/buildBadRequestResponse(Exception,UriInfo)/body";
+}
+subgraph cluster98 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getCurrentPhaseStart()/body";
+}
+subgraph cluster104 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getAccountIdFromInvoicePaymentId(UUID)/body";
+}
+subgraph cluster53 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionApi.java/[CN]/DefaultSubscriptionApi/[MT]/getSubscriptionBundlesForExternalKey(String,TenantContext)/body";
+}
+subgraph cluster236 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_PaymentJsonSimple.java/[CN]/PaymentJsonSimple/[MT]/hashCode()/body";
+}
+subgraph cluster401 {
+"util_src_main_java_com_ning_billing_util_notificationq_DefaultNotificationQueue.java/[CN]/DefaultNotificationQueue/[CS]/DefaultNotificationQueue(IDBI,Clock,String,String,NotificationQueueHandler,NotificationConfig)/body";
+}
+subgraph cluster392 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/changePlan(String,BillingPeriod,String,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/changePlanWithDate(String,BillingPeriod,String,LocalDate,CallContext)/body";
+}
+subgraph cluster193 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/createComboPayment(ComboPaymentTransactionJson,List<String>,String,String,String,UriInfo,HttpServletRequest)/body";
+}
+subgraph cluster434 {
+"account_src_main_java_org_killbill_billing_account_dao_AccountModelDao.java/[CN]/AccountModelDao/[CS]/AccountModelDao(UUID,DateTime,DateTime,String,String,String,Integer,Currency,int,UUID,DateTimeZone,String,String,String,String,String,String,String,String,String,Boolean,Boolean)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/createAccount(AccountJson,String,String,String,HttpServletRequest,UriInfo)/body";
+}
+subgraph cluster140 {
+"invoice_src_main_java_com_ning_billing_invoice_tree_AccountItemTree.java/[CN]/AccountItemTree/[MT]/build()/body";
+"invoice_src_main_java_com_ning_billing_invoice_tree_AccountItemTree.java/[CN]/AccountItemTree/[MT]/getSubscriptionId(InvoiceItem,List<InvoiceItem>)/body";
+}
+subgraph cluster154 {
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginProvider.java/[CN]/NoOpPaymentProviderPluginProvider/[FE]/registry";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/updatePaymentGateway(String)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/updatePaymentGateway(String)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/setDefaultPaymentMethodOnAccount(PaymentProviderAccount,String)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/getPaymentMethodInfo(String)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/updatePaymentMethod(String,PaymentMethodInfo)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/addPaymentMethod(String,PaymentMethodInfo)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginProvider.java/[CN]/NoOpPaymentProviderPluginProvider/[CS]/NoOpPaymentProviderPluginProvider(String)/body";
+}
+subgraph cluster398 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/notifyPendingRefundOfStateChanged(Account,UUID,boolean,CallContext)/parameters";
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/notifyPendingRefundOfStateChanged(Account,UUID,boolean,CallContext)/body";
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/notifyPendingPaymentOfStateChanged(Account,UUID,boolean,CallContext)/parameters";
+}
+subgraph cluster143 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_ChargebackJson.java/[CN]/ChargebackJson/[MT]/equals(Object)/body";
+}
+subgraph cluster332 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentGatewayApi.java/[CN]/DefaultPaymentGatewayApi/[MT]/buildFormDescriptorWithPaymentControl(Account,UUID,Iterable<PluginProperty>,Iterable<PluginProperty>,PaymentOptions,CallContext)/body";
+}
+subgraph cluster125 {
+"util_src_main_java_org_killbill_billing_util_cache_CacheLoaderArgument.java/[CN]/CacheLoaderArgument/[CS]/CacheLoaderArgument(ObjectType,Object[],InternalTenantContext)/body";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveTenantRecordIdFromObject(UUID,ObjectType,CacheController<Object,Object>)/body";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveAccountRecordIdFromObject(UUID,ObjectType,CacheController<Object,Object>)/body";
+"util_src_main_java_org_killbill_billing_util_cache_ObjectIdCacheLoader.java/[CN]/ObjectIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/body";
+}
+subgraph cluster38 {
+"payment_src_main_java_com_ning_billing_payment_RequestProcessor.java/[CN]/RequestProcessor/[MT]/receivePaymentInfoRequest(PaymentInfoRequest)/parameters";
+"api_src_main_java_com_ning_billing_payment_api_PaymentMethodInfo.java/[CN]/PaymentMethodInfo/[MT]/hashCode()/body";
+"api_src_main_java_com_ning_billing_payment_api_PaymentMethodInfo.java/[CN]/PaymentMethodInfo/[MT]/hashCode()/parameters";
+"payment_src_main_java_com_ning_billing_payment_RequestProcessor.java/[CN]/RequestProcessor/[MT]/receivePaymentInfoRequest(PaymentInfoRequest)/body";
+}
+subgraph cluster412 {
+"invoice_src_main_java_org_killbill_billing_invoice_api_migration_DefaultInvoiceMigrationApi.java/[CN]/DefaultInvoiceMigrationApi/[MT]/createMigrationInvoice(UUID,LocalDate,BigDecimal,Currency,CallContext)/body";
+}
+subgraph cluster304 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_BusinessInvoiceDao.java/[CN]/BusinessInvoiceDao/[MT]/isRevenueRecognizable(InvoiceItem,Collection<InvoiceItem>)/body";
+}
+subgraph cluster37 {
+"osgi_src_main_java_com_ning_billing_osgi_KillbillActivator.java/[CN]/KillbillActivator/[MT]/stop(BundleContext)/body";
+}
+subgraph cluster291 {
+"invoice_src_main_java_com_ning_billing_invoice_model_RecurringInvoiceItem.java/[CN]/RecurringInvoiceItem/[MT]/getLinkedItemId()/body";
+}
+subgraph cluster374 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getBillingTransitions()/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getInitialTransitionForCurrentPlan()/body";
+}
+subgraph cluster350 {
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getChargedAmount()/body";
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceItemFormatter.java/[CN]/DefaultInvoiceItemFormatter/[MT]/getAmount()/body";
+}
+subgraph cluster459 {
+"osgi_src_main_java_com_ning_billing_osgi_KillbillActivator.java/[CN]/KillbillActivator/[MT]/serviceChanged(ServiceEvent)/body";
+"osgi_src_main_java_com_ning_billing_osgi_KillbillActivator.java/[CN]/KillbillActivator/[MT]/listenForServiceType(ServiceReference,int,Class<T>,OSGIServiceRegistration<T>)/body";
+}
+subgraph cluster82 {
+"account_src_main_java_com_ning_billing_account_dao_AuditedAccountDao.java/[CN]/AuditedAccountDao/[MT]/updatePaymentMethod(UUID,UUID,InternalCallContext)/body";
+"account_src_main_java_com_ning_billing_account_dao_AuditedAccountDao.java/[CN]/AuditedAccountDao/[MT]/update(Account,InternalCallContext)/body";
+}
+subgraph cluster50 {
+"invoice_src_main_java_com_ning_billing_invoice_InvoiceDispatcher.java/[CN]/InvoiceDispatcher/[MT]/processAccountWithLock(UUID,DateTime,boolean,InternalCallContext)/body";
+}
+subgraph cluster465 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[MT]/toString()/parameters";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[MT]/equals(Object)/parameters";
+}
+subgraph cluster504 {
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessOverdueStatus.java/[CN]/BusinessOverdueStatus/[MT]/hashCode()/body";
+}
+subgraph cluster294 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createPurchaseWithPaymentControl(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,PaymentOptions,CallContext)/body";
+}
+subgraph cluster481 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_PaymentMethodResource.java/[CN]/PaymentMethodResource/[MT]/getPaymentMethod(String,Boolean)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_PaymentMethodResource.java/[CN]/PaymentMethodResource/[MT]/deletePaymentMethod(String,String,String,String)/body";
+}
+subgraph cluster443 {
+"server_src_main_java_org_killbill_billing_server_modules_KillbillServerModule.java/[CN]/KillbillServerModule/[MT]/installKillbillModules()/body";
+"server_src_main_java_org_killbill_billing_server_listeners_KillbillGuiceListener.java/[CN]/KillbillGuiceListener/[MT]/contextInitialized(ServletContextEvent)/body";
+}
+subgraph cluster96 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/createComboPayment(ComboPaymentTransactionJson,List<String>,String,String,String,UriInfo,HttpServletRequest)/parameters";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/getOrCreatePaymentMethod(Account,PaymentMethodJson,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster496 {
+"account_src_main_java_com_ning_billing_account_dao_DefaultAccountDao.java/[CN]/DefaultAccountDao/[MT]/getIdFromKey(String)/body";
+}
+subgraph cluster54 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_control_DefaultControlCompleted.java/[CN]/DefaultControlCompleted/[CS]/DefaultControlCompleted(PluginRoutingPaymentAutomatonRunner,PaymentStateControlContext,State,RetryServiceScheduler)/parameters";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_control_DefaultControlCompleted.java/[CN]/DefaultControlCompleted/[CS]/DefaultControlCompleted(PluginRoutingPaymentAutomatonRunner,PaymentStateControlContext,State,RetryServiceScheduler)/body";
+}
+subgraph cluster268 {
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginModule.java/[CN]/NoOpPaymentProviderPluginModule/extend";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginModule.java/[CN]/NoOpPaymentProviderPluginModule/[CS]/NoOpPaymentProviderPluginModule(String)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/createPaymentProviderAccount(Account)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginModule.java/package";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/setDefaultPaymentMethodOnAccount(PaymentProviderAccount,String)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/getPaymentMethods(String)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/updatePaymentProviderAccountExistingContact(Account)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginModule.java/[CN]/NoOpPaymentProviderPluginModule/[MT]/configure()/body";
+}
+subgraph cluster293 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createCaptureWithPaymentControl(Account,UUID,BigDecimal,Currency,String,Iterable<PluginProperty>,PaymentOptions,CallContext)/body";
+}
+subgraph cluster163 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[MT]/getStateOrProvince()/body";
+}
+subgraph cluster347 {
+"util_src_main_java_com_ning_billing_util_queue_PersistentQueueBase.java/[CN]/PersistentQueueBase/[CS]/PersistentQueueBase(String,Executor,int,PersistentQueueConfig)/body";
+}
+subgraph cluster46 {
+"profiles_killbill_src_main_java_org_killbill_billing_server_filters_ResponseCorsFilter.java/[CN]/ResponseCorsFilter/[MT]/doFilter(ServletRequest,ServletResponse,FilterChain)/body";
+}
+subgraph cluster179 {
+"invoice_src_main_java_com_ning_billing_invoice_model_InvoiceItemBase.java/[CN]/InvoiceItemBase/[MT]/getLinkedItemId()/body";
+"account_src_main_java_com_ning_billing_account_api_svcs_DefaultAccountInternalApi.java/[CN]/DefaultAccountInternalApi/[MT]/updateAccount(String,AccountData,InternalCallContext)/body";
+}
+subgraph cluster449 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultDirectPaymentApi.java/[CN]/DefaultDirectPaymentApi/[MT]/notifyChargeback(Account,UUID,String,BigDecimal,Currency,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultDirectPaymentApi.java/[CN]/DefaultDirectPaymentApi/[MT]/createCredit(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultDirectPaymentApi.java/[CN]/DefaultDirectPaymentApi/[MT]/createVoid(Account,UUID,String,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster120 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_NodesInfoResource.java/[CN]/NodesInfoResource/[MT]/getNodesInfo(HttpServletRequest)/body";
+}
+subgraph cluster31 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/payAllInvoices(String,Boolean,BigDecimal,List<String>,String,String,String,HttpServletRequest)/body";
+}
+subgraph cluster319 {
+"util_src_main_java_com_ning_billing_util_tag_DefaultTagDefinition.java/[CN]/DefaultTagDefinition/[MT]/toString()/body";
+"api_src_main_java_com_ning_billing_payment_api_PaymentProviderAccount.java/[CN]/PaymentProviderAccount/[MT]/equals(Object)/body";
+}
+subgraph cluster369 {
+"invoice_src_main_java_com_ning_billing_invoice_model_ExternalChargeInvoiceItem.java/[CN]/ExternalChargeInvoiceItem/[CS]/ExternalChargeInvoiceItem(UUID,UUID,UUID,String,LocalDate,BigDecimal,Currency)/body";
+"invoice_src_main_java_com_ning_billing_invoice_api_user_DefaultInvoiceUserApi.java/[CN]/DefaultInvoiceUserApi/[MT]/insertExternalChargeForInvoice(UUID,UUID,BigDecimal,String,LocalDate,Currency,CallContext)/body";
+}
+subgraph cluster57 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionBundleTimeline.java/[CN]/DefaultSubscriptionBundleTimeline/[MT]/insertFromBlockingEvent(DateTimeZone,Set<UUID>,List<SubscriptionEvent>,BlockingState,DateTime,List<SubscriptionEvent>)/body";
+}
+subgraph cluster13 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_AnalyticsDao.java/[CN]/AnalyticsDao/[MT]/getTagsForAccount(UUID,TenantContext)/body";
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_AnalyticsDao.java/[CN]/AnalyticsDao/[MT]/getFieldsForAccount(UUID,TenantContext)/body";
+}
+subgraph cluster204 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionApi.java/[CN]/DefaultSubscriptionApi/[MT]/getSubscriptionBundlesForExternalKey(String,TenantContext)/parameters";
+}
+subgraph cluster494 {
+"payment_src_main_java_com_ning_billing_payment_InvoiceProcessor.java/[CN]/InvoiceProcessor/[MT]/receiveInvoice(Invoice)/body";
+}
+subgraph cluster135 {
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPaymentPlugin.java/[CN]/JRubyPaymentPlugin/[MT]/getPaymentMethodDetail(UUID,UUID,TenantContext)/body";
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPaymentPlugin.java/[CN]/JRubyPaymentPlugin/[MT]/addPaymentMethod(UUID,UUID,PaymentMethodPlugin,boolean,CallContext)/body";
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPaymentPlugin.java/[CN]/JRubyPaymentPlugin/[MT]/getPaymentInfo(UUID,TenantContext)/body";
+}
+subgraph cluster68 {
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPaymentPlugin.java/[CN]/JRubyPaymentPlugin/[MT]/setDefaultPaymentMethod(UUID,CallContext)/body";
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPaymentPlugin.java/[CN]/JRubyPaymentPlugin/[MT]/deletePaymentMethod(UUID,CallContext)/body";
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyPaymentPlugin.java/[CN]/JRubyPaymentPlugin/[MT]/resetPaymentMethods(List<PaymentMethodInfoPlugin>)/body";
+}
+subgraph cluster453 {
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceItem.java/[CN]/DefaultInvoiceItem/[MT]/subtract(InvoiceItem)/body";
+}
+subgraph cluster170 {
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getRefundAdjAmount()/body";
+}
+subgraph cluster73 {
+"junction_src_main_java_org_killbill_billing_junction_plumbing_billing_DefaultBillingEvent.java/[CN]/DefaultBillingEvent/[MT]/hashCode()/body";
+"junction_src_main_java_org_killbill_billing_junction_plumbing_billing_DefaultBillingEvent.java/[CN]/DefaultBillingEvent/[CS]/DefaultBillingEvent(Account,EffectiveSubscriptionInternalEvent,SubscriptionBase,int,Currency,Catalog)/body";
+"junction_src_main_java_org_killbill_billing_junction_plumbing_billing_DefaultBillingEvent.java/[CN]/DefaultBillingEvent/[MT]/equals(Object)/body";
+"junction_src_main_java_org_killbill_billing_junction_plumbing_billing_BlockingCalculator.java/[CN]/BlockingCalculator/[MT]/createNewReenableEvent(DateTime,BillingEvent)/body";
+}
+subgraph cluster44 {
+"invoice_src_main_java_org_killbill_billing_invoice_InvoiceDispatcher.java/[CN]/InvoiceDispatcher/[MT]/createNextFutureNotificationDate(List<InvoiceItemModelDao>,Map<String,Usage>,DateAndTimeZoneContext)/body";
+"payment_src_main_java_com_ning_billing_payment_core_PaymentProcessor.java/[CN]/PaymentProcessor/[MT]/retryFailedPaymentInternal(UUID,InternalCallContext,PaymentStatus)/body";
+}
+subgraph cluster486 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[CS]/DefaultAccount(UUID,AccountData)/body";
+"account_src_main_java_com_ning_billing_account_api_user_AccountBuilder.java/[CN]/AccountBuilder/[MT]/build()/body";
+}
+subgraph cluster231 {
+"invoice_src_main_java_com_ning_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getTotalAdjAmount()/body";
+}
+subgraph cluster467 {
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/updatePaymentProviderAccountWithNewContact(Account)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginProvider.java/[CN]/NoOpPaymentProviderPluginProvider/[MT]/get()/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginProvider.java/[CN]/NoOpPaymentProviderPluginProvider/[MT]/setPaymentProviderPluginRegistry(PaymentProviderPluginRegistry)/parameters";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/getPaymentMethods(String)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/package";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPlugin.java/[CN]/NoOpPaymentProviderPlugin/[MT]/updatePaymentProviderAccountWithNewContact(Account)/parameters";
+}
+subgraph cluster145 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getPendingTransition()/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/isSubscriptionFutureCancelled()/body";
+}
+subgraph cluster89 {
+"tenant_src_main_java_com_ning_billing_tenant_dao_TenantKVModelDao.java/[CN]/TenantKVModelDao/[MT]/equals(Object)/body";
+}
+subgraph cluster370 {
+"payment_src_main_java_org_killbill_billing_payment_dispatcher_PluginDispatcher.java/[CN]/PluginDispatcher/[MT]/dispatchWithTimeout(Callable<PluginDispatcherReturnType<ReturnType>>,long,TimeUnit)/body";
+}
+subgraph cluster174 {
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginModule.java/[CN]/NoOpPaymentProviderPluginModule/[CS]/NoOpPaymentProviderPluginModule(String)/body";
+"payment_src_main_java_com_ning_billing_payment_provider_NoOpPaymentProviderPluginModule.java/[CN]/NoOpPaymentProviderPluginModule/[FE]/instanceName";
+}
+subgraph cluster19 {
+"payment_src_main_java_org_killbill_billing_payment_invoice_InvoicePaymentControlPluginApi.java/[CN]/InvoicePaymentControlPluginApi/[MT]/priorCall(PaymentControlContext,Iterable<PluginProperty>)/body";
+"overdue_src_main_java_org_killbill_billing_overdue_notification_DefaultOverduePosterBase.java/[CN]/DefaultOverduePosterBase/[MT]/clearOverdueCheckNotifications(UUID,String,Class<T>,InternalCallContext)/body";
+}
+subgraph cluster244 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/rebuildTransitions(List<EntitlementEvent>,Catalog)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_alignment_PlanAligner.java/[CN]/PlanAligner/[MT]/getTimedPhaseOnChange(SubscriptionData,Plan,String,DateTime,DateTime,WhichPhase)/body";
+}
+subgraph cluster493 {
+"osgi_src_main_java_com_ning_billing_osgi_glue_DefaultOSGIModule.java/[CN]/DefaultOSGIModule/[MT]/configure()/body";
+"invoice_src_main_java_org_killbill_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/postChargeback(UUID,BigDecimal,Currency,InternalCallContext)/body";
+}
+subgraph cluster477 {
+"invoice_src_main_java_org_killbill_billing_invoice_calculator_InvoiceCalculatorUtils.java/[CN]/InvoiceCalculatorUtils/[MT]/computeInvoiceAmountPaid(Currency,Iterable<InvoicePayment>)/body";
+}
+subgraph cluster358 {
+"osgi_src_main_java_com_ning_billing_osgi_http_DefaultServletRouter.java/[CN]/DefaultServletRouter/[MT]/registerServiceInternal(OSGIServiceDescriptor)/body";
+}
+subgraph cluster0 {
+"util_src_main_java_org_killbill_billing_util_cache_RecordIdCacheLoader.java/[CN]/RecordIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/parameters";
+}
+subgraph cluster503 {
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessOverdueStatus.java/[CN]/BusinessOverdueStatus/[MT]/toString()/body";
+"payment_src_main_java_org_killbill_billing_payment_core_janitor_IncompletePaymentTransactionTask.java/[CN]/IncompletePaymentTransactionTask/[MT]/doIteration(PaymentTransactionModelDao)/body";
+}
+subgraph cluster253 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_RefundJson.java/[CN]/RefundJson/[CS]/RefundJson(String,String,BigDecimal,String,Boolean,DateTime,DateTime,List<InvoiceItemJsonSimple>,List<AuditLogJson>)/parameters";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_RefundJson.java/[CN]/RefundJson/[MT]/equalsNoIdNoDates(Object)/body";
+}
+subgraph cluster156 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getInvoicePaymentsWithinTransaction(List<Invoice>,InvoiceSqlDao)/body";
+}
+subgraph cluster475 {
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessAccountModelDao.java/[CN]/BusinessAccountModelDao/[MT]/toString()/body";
+"analytics_src_main_java_com_ning_billing_analytics_model_BusinessAccountModelDao.java/[CN]/BusinessAccountModelDao/[MT]/hashCode()/body";
+}
+subgraph cluster314 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_AuditedInvoiceDao.java/[CN]/AuditedInvoiceDao/[MT]/insertCredit(UUID,UUID,BigDecimal,LocalDate,Currency,CallContext)/body";
+}
+subgraph cluster371 {
+"invoice_src_main_java_org_killbill_billing_invoice_generator_BillingIntervalDetail.java/[CN]/BillingIntervalDetail/[MT]/calculateEffectiveEndDate()/body";
+}
+subgraph cluster490 {
+"server_src_main_java_com_ning_billing_server_listeners_KillbillGuiceListener.java/[CN]/KillbillGuiceListener/[MT]/getInstantiatedInjector()/parameters";
+}
+subgraph cluster183 {
+"invoice_src_main_java_org_killbill_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/createRefund(UUID,BigDecimal,boolean,Map<UUID,BigDecimal>,String,InternalCallContext)/body";
+}
+subgraph cluster360 {
+"util_src_main_java_org_killbill_billing_util_cache_BaseIdCacheLoader.java/[CN]/BaseIdCacheLoader/[MT]/load(Object,Object)/body";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveRecordIdFromObjectInTransaction(UUID,ObjectType,CacheController<Object,Object>,Handle)/parameters";
+}
+subgraph cluster12 {
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveIdFromObjectInTransaction(Long,ObjectType,CacheController<Object,Object>,Handle)/body";
+}
+subgraph cluster23 {
+"util_src_main_java_org_killbill_billing_util_nodes_json_PluginInfoModelJson.java/[CN]/PluginInfoModelJson/[MT]/hashCode()/body";
+"util_src_main_java_org_killbill_billing_util_nodes_json_PluginInfoModelJson.java/[CN]/PluginInfoModelJson/[CS]/PluginInfoModelJson(PluginInfo)/body";
+}
+subgraph cluster299 {
+"payment_src_main_java_org_killbill_billing_payment_dao_PaymentModelDao.java/[CN]/PaymentModelDao/[CS]/PaymentModelDao(UUID,DateTime,DateTime,UUID,UUID,Integer,String)/body";
+"overdue_src_main_java_com_ning_billing_overdue_listener_OverdueListener.java/[CN]/OverdueListener/[MT]/handlePaymentInfoEvent(PaymentInfoInternalEvent)/body";
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/getPaymentMethods(Long,Long,String,TenantContext)/body";
+}
+subgraph cluster122 {
+"tenant_src_main_java_com_ning_billing_tenant_dao_TenantKVModelDao.java/[CN]/TenantKVModelDao/[MT]/hashCode()/body";
+"tenant_src_main_java_com_ning_billing_tenant_dao_DefaultTenantDao.java/[CN]/DefaultTenantDao/[MT]/getTenantValueForKey(String,InternalTenantContext)/body";
+}
+subgraph cluster78 {
+"tenant_src_main_java_com_ning_billing_tenant_dao_TenantKVModelDao.java/[CN]/TenantKVModelDao/[MT]/toString()/body";
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransition.java/[CN]/BusinessSubscriptionTransition/[MT]/toString()/body";
+}
+subgraph cluster250 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_PaymentMethodJson.java/[CN]/PaymentMethodJson/[CN]/PaymentMethodPluginDetailJson/[CS]/PaymentMethodPluginDetailJson(String,Boolean,List<PluginPropertyJson>)/parameters";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_PaymentMethodJson.java/[CN]/PaymentMethodJson/[MT]/toPaymentMethod(String)/body";
+}
+subgraph cluster352 {
+"payment_src_main_java_com_ning_billing_payment_dao_DefaultPaymentDao.java/[CN]/DefaultPaymentDao/[MT]/updatePaymentAttemptWithPaymentId(UUID,String)/parameters";
+"payment_src_main_java_com_ning_billing_payment_dao_DefaultPaymentDao.java/[CN]/DefaultPaymentDao/[MT]/updatePaymentAttemptWithPaymentId(UUID,String)/body";
+}
+subgraph cluster112 {
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/uncancel(DefaultSubscriptionBase,CallContext)/body";
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/getEventsOnCancelPlan(DefaultSubscriptionBase,DateTime,DateTime,DateTime,boolean,InternalTenantContext)/body";
+}
+subgraph cluster301 {
+"payment_src_main_java_com_ning_billing_payment_retry_BaseRetryService.java/[CN]/BaseRetryService/[CN]/RetryServiceScheduler/[MT]/scheduleRetryInternal(UUID,DateTime,Transmogrifier)/body";
+"invoice_src_main_java_com_ning_billing_invoice_notification_DefaultNextBillingDatePoster.java/[CN]/DefaultNextBillingDatePoster/[MT]/insertNextBillingNotification(Transmogrifier,UUID,UUID,DateTime)/body";
+}
+subgraph cluster93 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/getAccountBundles(String)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultDirectPaymentApi.java/[CN]/DefaultDirectPaymentApi/[MT]/createCapture(Account,UUID,BigDecimal,Currency,String,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster484 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/getAllEntitlementsForAccountIdAndExternalKey(UUID,String,TenantContext)/body";
+}
+subgraph cluster178 {
+"overdue_src_main_java_com_ning_billing_overdue_wrapper_OverdueWrapper.java/[CN]/OverdueWrapper/[MT]/refresh()/body";
+}
+subgraph cluster102 {
+"invoice_src_main_java_com_ning_billing_invoice_api_svcs_DefaultInvoiceInternalApi.java/[CN]/DefaultInvoiceInternalApi/[MT]/consumeExistingCBAOnAccountWithUnpaidInvoices(UUID,InternalCallContext)/body";
+}
+subgraph cluster215 {
+"util_src_main_java_com_ning_billing_util_tag_dao_AuditedTagDao.java/[CN]/AuditedTagDao/[MT]/deleteTag(UUID,ObjectType,TagDefinition,CallContext)/body";
+}
+subgraph cluster207 {
+"subscription_src_main_java_org_killbill_billing_subscription_engine_dao_DefaultSubscriptionDao.java/[CN]/DefaultSubscriptionDao/[MT]/buildBundleSubscriptions(List<SubscriptionBase>,Multimap<UUID,SubscriptionBaseEvent>,List<SubscriptionBaseEvent>,InternalTenantContext)/body";
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/addCancellationAddOnForEventsIfRequired(List<SubscriptionBaseEvent>,Product,UUID,DateTime,DateTime,DateTime,InternalTenantContext)/body";
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/getEventsOnCreation(UUID,UUID,DateTime,DateTime,long,Plan,PhaseType,String,DateTime,DateTime,DateTime,boolean,InternalTenantContext)/body";
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/getEventsOnChangePlan(DefaultSubscriptionBase,Plan,String,DateTime,DateTime,DateTime,boolean,InternalTenantContext)/body";
+}
+subgraph cluster256 {
+"payment_src_main_java_com_ning_billing_payment_glue_DefaultPaymentService.java/[CN]/DefaultPaymentService/[FE]/SERVICE_NAME";
+"payment_src_main_java_com_ning_billing_payment_glue_PaymentModule.java/[CN]/PaymentModule/[MT]/configure()/body";
+}
+subgraph cluster487 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/scheduleRetry(PaymentAttempt,String)/body";
+}
+subgraph cluster6 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getRemainingAmountPaid(UUID)/body";
+}
+subgraph cluster492 {
+"util_src_main_java_com_ning_billing_util_queue_PersistentQueueBase.java/[CN]/PersistentQueueBase/[FE]/config";
+}
+subgraph cluster306 {
+"payment_src_main_java_com_ning_billing_payment_CreditCardPaymentMethod.java/[CN]/CreditCardPaymentMethod/[MT]/getMaskNumber()/body";
+"payment_src_main_java_com_ning_billing_payment_PaymentInfo.java/[CN]/PaymentInfo/[MT]/toString()/body";
+"payment_src_main_java_com_ning_billing_payment_PaymentInfo.java/[CN]/PaymentInfo/[MT]/equals(Object)/body";
+"payment_src_main_java_com_ning_billing_payment_PaymentInfo.java/[CN]/PaymentInfo/[CS]/PaymentInfo(String,BigDecimal,BigDecimal,String,String,BigDecimal,String,String,String,DateTime,DateTime,DateTime)/body";
+"payment_src_main_java_com_ning_billing_payment_PaymentInfo.java/[CN]/PaymentInfo/[CS]/PaymentInfo(PaymentInfo)/body";
+}
+subgraph cluster146 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_model_EntitlementEventModelDao.java/[CN]/EntitlementEventModelDao/[MT]/toEntitlementEvent(EntitlementEventModelDao)/body";
+}
+subgraph cluster76 {
+"server_src_main_java_com_ning_billing_server_modules_KillBillShiroWebModule.java/[CN]/KillBillShiroWebModule/[MT]/configureShiroWeb()/body";
+"util_src_main_java_com_ning_billing_util_glue_KillBillShiroModule.java/[CN]/KillBillShiroModule/[MT]/configureShiro()/body";
+}
+subgraph cluster355 {
+"util_src_main_java_org_killbill_billing_util_cache_CacheLoaderArgument.java/[CN]/CacheLoaderArgument/[FE]/handle";
+"util_src_main_java_org_killbill_billing_util_cache_ObjectIdCacheLoader.java/[CN]/ObjectIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/parameters";
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[CN]/WithCaching/[MT]/withCaching(OperationRetrieval<TypeIn,TypeOut>,TypeIn,ObjectType,TableName,CacheController<Object,Object>)/body";
+"util_src_main_java_org_killbill_billing_util_cache_RecordIdCacheLoader.java/[CN]/RecordIdCacheLoader/[MT]/doRetrieveOperation(String,ObjectType,Handle)/body";
+}
+subgraph cluster42 {
+"util_src_main_java_com_ning_billing_util_bus_InMemoryBusModule.java/[CN]/InMemoryBusModule/[CS]/InMemoryBusModule(ConfigSource)/body";
+"util_src_main_java_com_ning_billing_util_glue_BusModule.java/[CN]/BusModule/[MT]/configurePersistentEventBus()/body";
+"util_src_main_java_com_ning_billing_util_glue_BusModule.java/[CN]/BusModule/[CS]/BusModule(ConfigSource)/body";
+}
+subgraph cluster257 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_core_EventsStreamBuilder.java/[CN]/EventsStreamBuilder/[MT]/buildForEntitlement(List<BlockingState>,Account,SubscriptionBaseBundle,SubscriptionBase,SubscriptionBase,List<SubscriptionBase>,InternalTenantContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_core_EventsStreamBuilder.java/[CN]/EventsStreamBuilder/[MT]/buildForAccount(Map<UUID,List<SubscriptionBase>>,InternalTenantContext)/body";
+}
+subgraph cluster305 {
+"invoice_src_main_java_org_killbill_billing_invoice_generator_DefaultInvoiceGenerator.java/[CN]/DefaultInvoiceGenerator/[CS]/DefaultInvoiceGenerator(Clock,InvoiceConfig,RawUsageOptimizer)/body";
+}
+subgraph cluster117 {
+"invoice_src_main_java_com_ning_billing_invoice_model_DefaultInvoiceGenerator.java/[CN]/DefaultInvoiceGenerator/[MT]/generateInvoiceItems(UUID,UUID,BillingEventSet,DateTime,Currency)/body";
+}
+subgraph cluster500 {
+"payment_src_main_java_org_killbill_billing_payment_invoice_InvoicePaymentControlPluginApi.java/[CN]/InvoicePaymentControlPluginApi/[MT]/onFailureCall(PaymentControlContext,Iterable<PluginProperty>)/body";
+}
+subgraph cluster2 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_mappers_CatalogApiExceptionMapper.java/[CN]/CatalogApiExceptionMapper/[MT]/toResponse(CatalogApiException)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_mappers_EntityPersistenceExceptionMapper.java/[CN]/EntityPersistenceExceptionMapper/[MT]/toResponse(EntityPersistenceException)/body";
+}
+subgraph cluster106 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_resources_PaymentResource.java/[CN]/PaymentResource/[MT]/voidPaymentInternal(PaymentTransactionJson,String,List<String>,List<String>,String,String,String,UriInfo,HttpServletRequest)/body";
+}
+subgraph cluster391 {
+"subscription_src_main_java_com_ning_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/doChangePlan(DefaultSubscriptionBase,String,BillingPeriod,String,DateTime,DateTime,CallContext)/body";
+}
+subgraph cluster115 {
+"account_src_main_java_com_ning_billing_account_api_DefaultAccount.java/[CN]/DefaultAccount/[CS]/DefaultAccount(UUID,String,String,String,Integer,Currency,Integer,UUID,DateTimeZone,String,String,String,String,String,String,String,String,String,Boolean,Boolean)/body";
+}
+subgraph cluster107 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransitionRecorder.java/[CN]/BusinessSubscriptionTransitionRecorder/[MT]/subscriptionChanged(SubscriptionEvent)/body";
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransitionRecorder.java/[CN]/BusinessSubscriptionTransitionRecorder/[MT]/subscriptionPhaseChanged(SubscriptionEvent)/body";
+}
+subgraph cluster452 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_reports_ReportsUserApi.java/[CN]/ReportsUserApi/[MT]/getTimeSeriesDataForReport(String[],LocalDate,LocalDate,SmootherType)/parameters";
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_reports_ReportsUserApi.java/[CN]/ReportsUserApi/[MT]/getTimeSeriesDataForReport(String[],LocalDate,LocalDate,SmootherType)/body";
+}
+subgraph cluster455 {
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyActivator.java/[CN]/JRubyActivator/[MT]/stop(BundleContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_core_ApiEventProcessorBase.java/[CN]/ApiEventProcessorBase/[MT]/startNotifications(IEventListener)/body";
+}
+subgraph cluster9 {
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyActivator.java/[CN]/JRubyActivator/[MT]/start(BundleContext)/body";
+"osgi-bundles_bundles_jruby_src_main_java_com_ning_billing_osgi_bundles_jruby_JRubyNotificationPlugin.java/[CN]/JRubyNotificationPlugin/[MT]/handleKillbillEvent(ExtBusEvent)/body";
+}
+subgraph cluster198 {
+"entitlement_src_main_java_org_killbill_billing_entitlement_api_svcs_DefaultEntitlementApiBase.java/[CN]/DefaultEntitlementApiBase/[MT]/resume(UUID,LocalDate,Iterable<PluginProperty>,InternalCallContext)/body";
+"entitlement_src_main_java_org_killbill_billing_entitlement_api_svcs_DefaultEntitlementApiBase.java/[CN]/DefaultEntitlementApiBase/[MT]/pause(UUID,LocalDate,Iterable<PluginProperty>,InternalCallContext)/body";
+}
+subgraph cluster287 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_repair_SubscriptionDataRepair.java/[CN]/SubscriptionDataRepair/[MT]/addNewRepairEvent(DefaultNewEvent,SubscriptionDataRepair,List<SubscriptionDataRepair>,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_repair_DefaultEntitlementRepairApi.java/[CN]/DefaultEntitlementRepairApi/[MT]/repairBundle(BundleRepair,boolean,CallContext)/body";
+}
+subgraph cluster182 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[MT]/getPaymentMethodPluginProperties()/parameters";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[MT]/getTransactionPluginProperties()/body";
+}
+subgraph cluster203 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionTransition.java/[CN]/SubscriptionTransition/[MT]/toString()/body";
+}
+subgraph cluster259 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_repair_RepairSubscriptionFactory.java/[CN]/RepairSubscriptionFactory/[MT]/createSubscription(SubscriptionBuilder,List<EntitlementEvent>)/body";
+}
+subgraph cluster498 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[MT]/hashCode()/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionBundleTimeline.java/[CN]/DefaultSubscriptionBundleTimeline/[MT]/toSubscriptionEvent(SubscriptionEvent,SubscriptionEvent,UUID,BlockingState,SubscriptionEventType,DateTimeZone)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[MT]/equals(Object)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[FE]/transactionPluginProperties";
+}
+subgraph cluster129 {
+"payment_src_main_java_com_ning_billing_payment_PaypalPaymentMethod.java/[CN]/PaypalPaymentMethod/extend";
+"account_src_main_java_com_ning_billing_account_api_user_DefaultAccountUserApi.java/[CN]/DefaultAccountUserApi/[MT]/removeEmail(UUID,AccountEmail,CallContext)/body";
+}
+subgraph cluster511 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_PaymentMethodResource.java/[CN]/PaymentMethodResource/[MT]/buildStreamingPaymentMethodsResponse(Pagination<PaymentMethod>,URI,TenantContext)/body";
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/getPaymentMethods(Long,Long,TenantContext)/body";
+}
+subgraph cluster208 {
+"payment_src_main_java_com_ning_billing_payment_core_PaymentMethodProcessor.java/[CN]/PaymentMethodProcessor/[MT]/refreshPaymentMethods(String,Account,InternalCallContext)/body";
+}
+subgraph cluster241 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_Subscription.java/[CN]/Subscription/[MT]/getTransitionFromEvent(IEvent)/body";
+}
+subgraph cluster442 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_InvoiceItemJsonSimple.java/[CN]/InvoiceItemJsonSimple/[MT]/hashCode()/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_control_OperationControlCallback.java/[CN]/OperationControlCallback/[MT]/executePluginOnFailureCalls(List<String>,PaymentControlContext)/body";
+}
+subgraph cluster222 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_user_SubscriptionData.java/[CN]/SubscriptionData/[MT]/getPlanChangeEffectiveDate(ActionPolicy,DateTime)/body";
+}
+subgraph cluster380 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/getAllInvoicesByAccount(UUID)/body";
+}
+subgraph cluster339 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentInfo.java/[CN]/PaymentInfo/[CS]/PaymentInfo(String,BigDecimal,BigDecimal,String,String,String,String,String,String,String,String,String,DateTime,DateTime,DateTime)/parameters";
+"api_src_main_java_com_ning_billing_payment_api_PaymentInfo.java/[CN]/PaymentInfo/[MT]/getCardCountry()/body";
+}
+subgraph cluster279 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_dao_EntitlementSqlDao.java/[CN]/EntitlementSqlDao/[MT]/uncancelSubscription(UUID,List<EntitlementEvent>,CallContext)/body";
+}
+subgraph cluster431 {
+"subscription_src_main_java_org_killbill_billing_subscription_api_user_DefaultSubscriptionBaseApiService.java/[CN]/DefaultSubscriptionBaseApiService/[MT]/changePlan(DefaultSubscriptionBase,String,BillingPeriod,String,List<PlanPhasePriceOverride>,CallContext)/body";
+}
+subgraph cluster280 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_mappers_OverdueApiExceptionMapper.java/[CN]/OverdueApiExceptionMapper/[MT]/toResponse(OverdueApiException)/body";
+"api_src_main_java_com_ning_billing_payment_api_PaymentProviderAccount.java/[CN]/PaymentProviderAccount/[MT]/hashCode()/body";
+}
+subgraph cluster277 {
+"api_src_main_java_com_ning_billing_payment_api_PaymentInfo.java/[CN]/PaymentInfo/[MT]/equals(Object)/body";
+"api_src_main_java_com_ning_billing_payment_api_PaymentInfo.java/[CN]/PaymentInfo/[CN]/Builder/[MT]/build()/body";
+"payment_src_main_java_com_ning_billing_payment_dao_DefaultPaymentDao.java/[CN]/DefaultPaymentDao/[MT]/updatePaymentInfo(String,String,String,String)/body";
+}
+subgraph cluster261 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_AccountJson.java/[CN]/AccountJson/[MT]/toString()/body";
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/searchInvoices(String,Long,Long,InternalTenantContext)/body";
+}
+subgraph cluster200 {
+"payment_src_main_java_com_ning_billing_payment_core_PaymentMethodProcessor.java/[CN]/PaymentMethodProcessor/[MT]/setDefaultPaymentMethod(Account,UUID,CallContext)/body";
+"payment_src_main_java_com_ning_billing_payment_core_PaymentMethodProcessor.java/[CN]/PaymentMethodProcessor/[MT]/updatePaymentMethod(Account,UUID,PaymentMethodPlugin)/body";
+}
+subgraph cluster262 {
+"payment_src_main_java_com_ning_billing_payment_glue_DefaultPaymentService.java/[CN]/DefaultPaymentService/[MT]/stop()/body";
+"payment_src_main_java_com_ning_billing_payment_glue_DefaultPaymentService.java/[CN]/DefaultPaymentService/[MT]/initialize()/body";
+}
+subgraph cluster286 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessAccountRecorder.java/[CN]/BusinessAccountRecorder/[MT]/accountCreated(AccountData)/body";
+}
+subgraph cluster365 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultAdminPaymentApi.java/[CN]/DefaultAdminPaymentApi/[MT]/fixPaymentTransactionState(Payment,PaymentTransaction,TransactionStatus,String,String,Iterable<PluginProperty>,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultAdminPaymentApi.java/[CN]/DefaultAdminPaymentApi/[MT]/fixPaymentTransactionState(Payment,PaymentTransaction,TransactionStatus,String,String,Iterable<PluginProperty>,CallContext)/parameters";
+}
+subgraph cluster387 {
+"account_src_main_java_org_killbill_billing_account_dao_DefaultAccountDao.java/[CN]/DefaultAccountDao/[MT]/update(AccountModelDao,InternalCallContext)/body";
+"account_src_main_java_org_killbill_billing_account_dao_DefaultAccountDao.java/[CN]/DefaultAccountDao/[MT]/updatePaymentMethod(UUID,UUID,InternalCallContext)/body";
+}
+subgraph cluster502 {
+"entitlement_src_main_java_org_killbill_billing_entitlement_api_DefaultEntitlement.java/[CN]/DefaultEntitlement/[MT]/changePlanOverrideBillingPolicy(String,BillingPeriod,String,List<PlanPhasePriceOverride>,LocalDate,BillingActionPolicy,Iterable<PluginProperty>,CallContext)/body";
+"entitlement_src_main_java_org_killbill_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/createBaseEntitlement(UUID,PlanPhaseSpecifier,String,List<PlanPhasePriceOverride>,LocalDate,Iterable<PluginProperty>,CallContext)/body";
+"entitlement_src_main_java_org_killbill_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/addEntitlement(UUID,PlanPhaseSpecifier,List<PlanPhasePriceOverride>,LocalDate,Iterable<PluginProperty>,CallContext)/body";
+}
+subgraph cluster99 {
+"util_src_main_java_org_killbill_billing_util_dao_DefaultNonEntityDao.java/[CN]/DefaultNonEntityDao/[MT]/retrieveRecordIdFromObject(UUID,ObjectType,CacheController<Object,Object>)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_TagDefinitionJson.java/[CN]/TagDefinitionJson/[MT]/equalsNoId(TagDefinitionJson)/body";
+}
+subgraph cluster123 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_PaymentOperation.java/[CN]/PaymentOperation/[MT]/rewrapExecutionException(PaymentStateContext,ExecutionException)/body";
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_mappers_ExceptionMapperBase.java/[CN]/ExceptionMapperBase/[MT]/buildPluginTimeoutResponse(Exception,UriInfo)/parameters";
+}
+subgraph cluster58 {
+"payment_src_main_java_org_killbill_billing_payment_invoice_InvoicePaymentControlPluginApi.java/[CN]/InvoicePaymentControlPluginApi/[MT]/getInvoiceId(Iterable<PluginProperty>)/body";
+"payment_src_main_java_org_killbill_billing_payment_invoice_InvoicePaymentControlPluginApi.java/[CN]/InvoicePaymentControlPluginApi/[MT]/getPluginRefundResult(PaymentControlContext,Iterable<PluginProperty>,InternalCallContext)/body";
+}
+subgraph cluster376 {
+"payment_src_main_java_com_ning_billing_payment_provider_DefaultNoOpPaymentInfoPlugin.java/[CN]/DefaultNoOpPaymentInfoPlugin/[MT]/toString()/body";
+"payment_src_main_java_com_ning_billing_payment_provider_DefaultNoOpPaymentInfoPlugin.java/[CN]/DefaultNoOpPaymentInfoPlugin/[MT]/hashCode()/body";
+"payment_src_main_java_com_ning_billing_payment_provider_DefaultNoOpPaymentInfoPlugin.java/[CN]/DefaultNoOpPaymentInfoPlugin/[MT]/equals(Object)/body";
+}
+subgraph cluster185 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_InvoiceJsonSimple.java/[CN]/InvoiceJsonSimple/[MT]/hashCode()/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_InvoiceJsonSimple.java/[CN]/InvoiceJsonSimple/[MT]/equals(Object)/body";
+}
+subgraph cluster359 {
+"payment_src_main_java_com_ning_billing_payment_PaypalPaymentMethod.java/[CN]/PaypalPaymentMethod/[MT]/getBaid()/parameters";
+"payment_src_main_java_com_ning_billing_payment_PaypalPaymentMethod.java/[CN]/PaypalPaymentMethod/[FE]/baid";
+"payment_src_main_java_com_ning_billing_payment_PaypalPaymentMethod.java/[CN]/PaypalPaymentMethod/[MT]/getBaid()/body";
+}
+subgraph cluster136 {
+"catalog_src_main_java_org_killbill_billing_catalog_VersionedCatalog.java/[CN]/VersionedCatalog/[CS]/VersionedCatalog()/body";
+"catalog_src_main_java_org_killbill_billing_catalog_StandaloneCatalogWithPriceOverride.java/[CN]/StandaloneCatalogWithPriceOverride/[MT]/createOrFindCurrentPlan(String,BillingPeriod,String,PlanPhasePriceOverridesWithCallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultSubscriptionBundleTimeline.java/[CN]/DefaultSubscriptionBundleTimeline/[MT]/reOrderSubscriptionEventsOnSameDateByType(List<SubscriptionEvent>)/body";
+}
+subgraph cluster118 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/transferEntitlementsOverrideBillingPolicy(UUID,UUID,String,LocalDate,BillingActionPolicy,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/pause(UUID,LocalDate,CallContext)/body";
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/resume(UUID,LocalDate,CallContext)/body";
+}
+subgraph cluster408 {
+"jaxrs_src_main_java_org_killbill_billing_jaxrs_json_ComboPaymentTransactionJson.java/[CN]/ComboPaymentTransactionJson/[MT]/getTransactionPluginProperties()/parameters";
+}
+subgraph cluster233 {
+"payment_src_main_java_com_ning_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/getPayments(Long,Long,TenantContext)/body";
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_api_BusinessAccount.java/[CN]/BusinessAccount/[MT]/equals(Object)/body";
+}
+subgraph cluster466 {
+"osgi-bundles_bundles_analytics_src_main_java_com_ning_billing_osgi_bundles_analytics_dao_model_BusinessAccountModelDao.java/[CN]/BusinessAccountModelDao/[MT]/hashCode()/body";
+"analytics_src_main_java_com_ning_billing_analytics_BusinessSubscriptionTransitionRecorder.java/[CN]/BusinessSubscriptionTransitionRecorder/[MT]/getPreviousBusinessSubscriptionTransitionForEvent(EffectiveSubscriptionEvent,ArrayList<BusinessSubscriptionTransition>)/body";
+}
+subgraph cluster92 {
+"payment_src_main_java_org_killbill_billing_payment_core_sm_control_OperationControlCallback.java/[CN]/OperationControlCallback/[MT]/unwrapExceptionFromDispatchedTask(PaymentApiException)/body";
+"invoice_src_main_java_org_killbill_billing_invoice_template_formatters_DefaultInvoiceFormatter.java/[CN]/DefaultInvoiceFormatter/[MT]/getOriginalChargedAmount()/body";
+}
+subgraph cluster131 {
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createPurchase(Account,UUID,UUID,BigDecimal,Currency,String,String,Iterable<PluginProperty>,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_api_DefaultPaymentApi.java/[CN]/DefaultPaymentApi/[MT]/createRefundWithPaymentControl(Account,UUID,BigDecimal,Currency,String,Iterable<PluginProperty>,PaymentOptions,CallContext)/body";
+}
+subgraph cluster389 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_json_ChargebackJson.java/[CN]/ChargebackJson/[CS]/ChargebackJson(UUID,InvoicePayment,List<AuditLog>)/body";
+}
+subgraph cluster485 {
+"entitlement_src_main_java_com_ning_billing_entitlement_api_DefaultEntitlementApi.java/[CN]/DefaultEntitlementApi/[MT]/createBaseEntitlement(UUID,PlanPhaseSpecifier,String,LocalDate,CallContext)/body";
+"payment_src_main_java_org_killbill_billing_payment_core_sm_control_OperationControlCallback.java/[CN]/OperationControlCallback/[MT]/executePluginOnSuccessCalls(List<String>,PaymentControlContext)/body";
+}
+subgraph cluster313 {
+"invoice_src_main_java_com_ning_billing_invoice_dao_DefaultInvoiceDao.java/[CN]/DefaultInvoiceDao/[MT]/postChargeback(UUID,BigDecimal,CallContext)/body";
+}
+subgraph cluster402 {
+"osgi_src_main_java_com_ning_billing_osgi_http_DefaultServletRouter.java/[CN]/DefaultServletRouter/[MT]/registerService(OSGIServiceDescriptor,Servlet)/body";
+}
+subgraph cluster90 {
+"tenant_src_main_java_org_killbill_billing_tenant_api_user_DefaultTenantUserApi.java/[CN]/DefaultTenantUserApi/[MT]/getTenantValuesForKey(String,TenantContext)/body";
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/getChargebacksForAccount(String,HttpServletRequest)/parameters";
+}
+subgraph cluster336 {
+"util_src_main_java_org_killbill_billing_util_cache_CacheLoaderArgument.java/[CN]/CacheLoaderArgument/[MT]/getHandle()/body";
+}
+subgraph cluster437 {
+"overdue_src_main_java_com_ning_billing_ovedue_notification_DefaultOverdueCheckNotifier.java/[CN]/DefaultOverdueCheckNotifier/[MT]/initialize()/body";
+}
+subgraph cluster111 {
+"analytics_src_main_java_com_ning_billing_analytics_BusinessAccount.java/[CN]/BusinessAccount/[MT]/hashCode()/body";
+}
+subgraph cluster508 {
+"util_src_main_java_com_ning_billing_util_tag_dao_TagMapper.java/[CN]/TagMapper/[MT]/map(int,ResultSet,StatementContext)/body";
+}
+subgraph cluster479 {
+"payment_src_main_java_org_killbill_billing_payment_dispatcher_PaymentPluginDispatcher.java/[CN]/PaymentPluginDispatcher/[MT]/dispatchWithExceptionHandling(Account,String,Callable<PluginDispatcherReturnType<ReturnType>>,PluginDispatcher<ReturnType>)/body";
+}
+subgraph cluster247 {
+"overdue_src_main_java_org_killbill_billing_overdue_notification_OverdueCheckPoster.java/[CN]/OverdueCheckPoster/[MT]/cleanupFutureNotificationsFormTransaction(EntitySqlDaoWrapperFactory<EntitySqlDao>,Collection<NotificationEventWithMetadata<T>>,DateTime,NotificationQueue)/body";
+}
+subgraph cluster255 {
+"jaxrs_src_main_java_com_ning_billing_jaxrs_resources_AccountResource.java/[CN]/AccountResource/[MT]/updateAccount(AccountJson,String,String,String,String)/body";
+}
+subgraph cluster71 {
+"entitlement_src_main_java_com_ning_billing_entitlement_engine_core_Engine.java/[CN]/Engine/[MT]/stop()/body";
+}
+}
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[

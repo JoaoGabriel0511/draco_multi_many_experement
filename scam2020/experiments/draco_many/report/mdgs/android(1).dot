@@ -1,0 +1,1861 @@
+
+
+
+digraph {
+subgraph cluster298 {
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/update(SQLiteDatabase,Uri,ContentValues,String,String[])/body";
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/query(SQLiteDatabase,Uri,String[],String,String[],String)/body";
+}
+subgraph cluster386 {
+"src_com_owncloud_android_ui_activity_ShareActivity.java/[CN]/ShareActivity/[MT]/onNewIntent(Intent)/body";
+}
+subgraph cluster320 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onConfigurationChanged(Configuration)/body";
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[CN]/VideoHelper/[MT]/onPrepared(MediaPlayer)/body";
+}
+subgraph cluster23 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/removeFolderInDb(OCFile)/body";
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/delete(SQLiteDatabase,Uri,String,String[])/body";
+}
+subgraph cluster196 {
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/getFabMkdir()/body";
+}
+subgraph cluster28 {
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onStart()/body";
+}
+subgraph cluster500 {
+"src_com_owncloud_android_ui_activity_UploadFilesActivity.java/[CN]/UploadFilesActivity/[MT]/onBackPressed()/body";
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/updateActionBarTitleAndHomeButton(OCFile)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/requestMoveOperation(Intent,int)/body";
+}
+subgraph cluster0 {
+"src_eu_alefzero_webdav_FileRequestEntity.java/[CN]/FileRequestEntity/[MT]/writeRequest(OutputStream)/body";
+}
+subgraph cluster439 {
+"src_com_owncloud_android_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/pinCodeChangeRequest()/body";
+"src_com_owncloud_android_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/setInitView()/body";
+}
+subgraph cluster81 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/saveShare(OCShare)/body";
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/saveShares(Collection<OCShare>)/body";
+}
+subgraph cluster477 {
+"src_com_owncloud_android_ui_dialog_SslUntrustedCertDialog.java/[CN]/SslUntrustedCertDialog/[MT]/onCreateDialog(Bundle)/body";
+"src_com_owncloud_android_ui_dialog_SslUntrustedCertDialog.java/[CN]/SslUntrustedCertDialog/[MT]/onDestroyView()/body";
+}
+subgraph cluster483 {
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/createFirstAccount()/body";
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onDestroy()/body";
+}
+subgraph cluster50 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/onStartCommand(Intent,int,int)/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onDismiss(EditNameDialog)/body";
+}
+subgraph cluster149 {
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[CN]/RenameRunnable/[MT]/run()/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onDismiss(EditNameFragment)/body";
+}
+subgraph cluster304 {
+"src_com_owncloud_android_ui_activity_UploadListActivity.java/[CN]/UploadListActivity/[CN]/UploadListServiceConnection/[MT]/onServiceConnected(ComponentName,IBinder)/body";
+"src_com_owncloud_android_ui_activity_UploadListActivity.java/[CN]/UploadListActivity/[CN]/UploadListServiceConnection/[MT]/onServiceDisconnected(ComponentName)/body";
+"src_com_owncloud_android_ui_adapter_ExpandableUploadListAdapter.java/[CN]/ExpandableUploadListAdapter/[FE]/mCurrentUpload";
+}
+subgraph cluster396 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onRemoteOperationFinish(RemoteOperation,RemoteOperationResult)/body";
+}
+subgraph cluster370 {
+"src_com_owncloud_android_files_services_FileObserverService.java/[CN]/FileObserverService/[MT]/removeObservedFile(OCFile,Account)/body";
+}
+subgraph cluster225 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onConfirmation(String)/body";
+}
+subgraph cluster30 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/generateFooterText(OCFile)/parameters";
+}
+subgraph cluster191 {
+"src_com_owncloud_android_files_services_ConnectivityActionReceiver.java/[CN]/ConnectivityActionReceiver/[MT]/wifiConnected(Context)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/requestCopyOperation(Intent,int)/body";
+}
+subgraph cluster171 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/retry(Context)/body";
+}
+subgraph cluster251 {
+"oc__framework_sample__client_src_com_owncloud_android_oc__framework_sampleclient_MainActivity.java/[CN]/MainActivity/[MT]/onCreate(Bundle)/body";
+"oc__framework_sample__client_src_com_owncloud_android_oc__framework_sampleclient_MainActivity.java/[CN]/MainActivity/[MT]/onSuccessfulRefresh(ReadRemoteFolderOperation,RemoteOperationResult)/body";
+}
+subgraph cluster148 {
+"src_com_owncloud_android_ui_dialog_SslUntrustedCertDialog.java/[CN]/SslUntrustedCertDialog/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_ui_dialog_SslUntrustedCertDialog.java/[CN]/SslUntrustedCertDialog/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster404 {
+"src_com_owncloud_android_ui_adapter_DiskLruImageCache.java/[CN]/DiskLruImageCache/[MT]/put(String,Bitmap)/body";
+}
+subgraph cluster266 {
+"src_com_owncloud_android_services_SyncFolderHandler.java/[CN]/SyncFolderHandler/[MT]/cancel(Account,OCFile)/body";
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/onStartCommand(Intent,int,int)/body";
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[CN]/ServiceHandler/[MT]/handleMessage(Message)/body";
+}
+subgraph cluster330 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/startSamlBasedFederatedSingleSignOnAuthorization()/body";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/checkBasicAuthorization()/body";
+}
+subgraph cluster228 {
+"oc__framework_sample__client_src_com_owncloud_android_oc__framework_sampleclient_MainActivity.java/[CN]/MainActivity/[MT]/startRemoteDeletion()/body";
+"oc__framework_sample__client_src_com_owncloud_android_oc__framework_sampleclient_MainActivity.java/[CN]/MainActivity/[MT]/startLocalDeletion()/body";
+}
+subgraph cluster479 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[MT]/onBind(Intent)/body";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onPause()/body";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/doOnResumeAndBound()/body";
+}
+subgraph cluster484 {
+"src_com_owncloud_android_ui_dialog_EditNameDialog.java/[CN]/EditNameDialog/[MT]/onCreateDialog(Bundle)/body";
+}
+subgraph cluster141 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onCancel(String)/body";
+}
+subgraph cluster74 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/onStart(Intent,int)/body";
+}
+subgraph cluster227 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/sortByName(boolean)/body";
+}
+subgraph cluster119 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/fileExists()/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(ContentResolver,Account)/body";
+}
+subgraph cluster354 {
+"src_com_owncloud_android_ui_controller_TransferProgressController.java/[CN]/TransferProgressController/[MT]/setProgressBar(ProgressBar)/body";
+"src_com_owncloud_android_ui_activity_Preferences.java/[CN]/Preferences/[MT]/onResume()/body";
+}
+subgraph cluster27 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/startGetSharedFiles()/body";
+"src_com_owncloud_android_utils_UploadUtils.java/[CN]/UploadUtils/[MT]/userCanRetryUpload(UploadDbObject)/body";
+}
+subgraph cluster237 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/setFileData(Cursor)/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/createNewFile(ContentProviderClient,Account,String,long,long,long,String,long)/body";
+}
+subgraph cluster409 {
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onRestoreInstanceState(Bundle)/body";
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/onStart()/body";
+}
+subgraph cluster393 {
+"src_com_owncloud_android_ui_dialog_SslUntrustedCertDialogForEmptySslError.java/[CN]/SslUntrustedCertDialogForEmptySslError/[MT]/showSubject(SslCertificate.DName)/body";
+}
+subgraph cluster107 {
+"src_com_owncloud_android_ui_dialog_ShareLinkToDialog.java/[CN]/ShareLinkToDialog/[MT]/createSelector(boolean)/body";
+"src_eu_alefzero_owncloud_files_services_FileUploader.java/[CN]/FileUploader/[MT]/onCreate()/body";
+}
+subgraph cluster92 {
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster221 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onOkClick()/parameters";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onOkClick()/body";
+}
+subgraph cluster377 {
+"src_com_owncloud_android_ui_activity_Preferences.java/[CN]/Preferences/[MT]/saveInstantUploadPathOnPreferences()/body";
+}
+subgraph cluster109 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onDestroy()/body";
+}
+subgraph cluster276 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/removeFolder(OCFile,boolean,boolean)/body";
+}
+subgraph cluster94 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onAuthorizationCheckFinish(RemoteOperationResult)/body";
+"src_com_owncloud_android_operations_UploadFileOperation.java/[CN]/UploadFileOperation/[MT]/cancel()/body";
+}
+subgraph cluster104 {
+"src_com_owncloud_android_datamodel_ThumbnailsCacheManager.java/[CN]/ThumbnailsCacheManager/[MT]/getBitmapLocalWorkerTask(ImageView)/body";
+"src_com_owncloud_android_datamodel_ThumbnailsCacheManager.java/[CN]/ThumbnailsCacheManager/[CN]/ThumbnailLocalGenerationTask/[MT]/onPostExecute(Bitmap)/body";
+"src_com_owncloud_android_datamodel_ThumbnailsCacheManager.java/[CN]/ThumbnailsCacheManager/[CN]/ThumbnailLocalGenerationTask/[CS]/ThumbnailLocalGenerationTask(ImageView)/body";
+}
+subgraph cluster358 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onTouch(View,MotionEvent)/body";
+}
+subgraph cluster88 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onSaveInstanceState(Bundle)/body";
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onActivityCreated(Bundle)/body";
+}
+subgraph cluster95 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onOptionsItemSelected(MenuItem)/body";
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/removeLocalFolder(OCFile)/body";
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster238 {
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onPause()/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onResume()/body";
+}
+subgraph cluster426 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/shareExists(long)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onPrepareOptionsMenu(Menu)/body";
+}
+subgraph cluster253 {
+"src_eu_alefzero_webdav_FileRequestEntity.java/[CN]/FileRequestEntity/[MT]/setOnDatatransferProgressListener(OnDatatransferProgressListener)/body";
+}
+subgraph cluster218 {
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onRestart()/body";
+}
+subgraph cluster243 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[CN]/SyncFolderHandler/[MT]/handleMessage(Message)/body";
+}
+subgraph cluster384 {
+"src_com_owncloud_android_ui_preview_PreviewImageActivity.java/[CN]/PreviewImageActivity/[MT]/toggleFullScreen()/body";
+"src_eu_alefzero_owncloud_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster59 {
+"src_com_owncloud_android_db_UploadDbHandler.java/[CN]/UploadDbHandler/[MT]/removeUpload(String)/body";
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[CN]/FileUploaderBinder/[MT]/cancel(Account,OCFile)/body";
+}
+subgraph cluster71 {
+"src_eu_alefzero_owncloud_PathLayout.java/[CN]/PathLayout/[MT]/push(String)/body";
+"src_eu_alefzero_owncloud_PathLayout.java/[CN]/PathLayout/[MT]/pop()/body";
+}
+subgraph cluster455 {
+"src_eu_alefzero_webdav_WebdavClient.java/[CN]/WebdavClient/[CS]/WebdavClient()/body";
+"src_eu_alefzero_webdav_WebdavClient.java/[CN]/WebdavClient/[CS]/WebdavClient(Account,Context)/body";
+}
+subgraph cluster372 {
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/updatePublicShareSection()/body";
+}
+subgraph cluster115 {
+"src_de_mobilcom_debitel_cloud_android_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/onCreate(Bundle)/body";
+"src_de_mobilcom_debitel_cloud_android_ui_activity_LogHistoryActivity.java/[CN]/LogHistoryActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster423 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onResume()/body";
+}
+subgraph cluster69 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/updateFileDetails(OCFile,Account)/body";
+}
+subgraph cluster135 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/startSynchronization()/body";
+}
+subgraph cluster346 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/onBackPressed()/body";
+}
+subgraph cluster421 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/getDirectoryContent(long)/body";
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/getDirectoryContent(OCFile)/body";
+}
+subgraph cluster75 {
+"src_eu_alefzero_owncloud_ui_fragment_FileList.java/[CN]/FileList/[MT]/onCreate(Bundle)/body";
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster401 {
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/onCreate()/body";
+"src_com_owncloud_android_ui_preview_PreviewImageActivity.java/[CN]/PreviewImageActivity/[MT]/onAccountSet(boolean)/body";
+}
+subgraph cluster235 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onRemoveFileOperationFinish(RemoveFileOperation,RemoteOperationResult)/body";
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onConfirmation(String)/body";
+"src_eu_alefzero_owncloud_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/fillOCFile(WebdavEntry)/body";
+}
+subgraph cluster167 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[CN]/LoadBitmapTask/[MT]/hideProgressWheel()/body";
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/setUploadPermissionsToShare(OCFile,boolean)/parameters";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/getPasswordSwitch()/body";
+}
+subgraph cluster402 {
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[CN]/UploadRequester/[MT]/retry(Context,Account,OCUpload)/body";
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[CN]/UploadRequester/[MT]/uploadUpdate(Context,Account,OCFile[],Integer,Boolean)/body";
+}
+subgraph cluster29 {
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/getOAuth2AccessTokenFromCapturedRedirection()/body";
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onGetOAuthAccessTokenFinish(OAuth2GetAccessToken,RemoteOperationResult)/body";
+}
+subgraph cluster412 {
+"src_eu_alefzero_owncloud_ui_fragment_FileList.java/[CN]/FileList/[MT]/onItemClick(AdapterView<?>,View,int,long)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileList.java/[CN]/FileList/[CS]/FileList()/body";
+}
+subgraph cluster192 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(ContentProviderClient,Account,String)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetail.java/[CN]/FileDetail/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster85 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/uploadFile(UploadDbObject)/body";
+"src_eu_alefzero_owncloud_ui_activity_Preferences.java/[CN]/Preferences/[MT]/onPreferenceChange(Preference,Object)/body";
+}
+subgraph cluster301 {
+"src_eu_alefzero_webdav_WebdavClient.java/[CN]/WebdavClient/[MT]/setSsoSessionCookie(String)/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onStart()/body";
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/restoreIndexAndTopPosition()/body";
+}
+subgraph cluster422 {
+"src_com_owncloud_android_files_services_FileObserverService.java/[CN]/FileObserverService/[MT]/initializeObservedList()/body";
+"src_com_owncloud_android_files_OwnCloudFileObserver.java/[CN]/OwnCloudFileObserver/[MT]/onEvent(int,String)/body";
+}
+subgraph cluster198 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onRequestPermissionsResult(int,String[],int[])/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onPostCreate(Bundle)/body";
+}
+subgraph cluster499 {
+"src_com_owncloud_android_operations_RemoteOperationResult.java/[CN]/RemoteOperationResult/[MT]/isIdPRedirection()/parameters";
+"src_com_owncloud_android_operations_RemoteOperationResult.java/[CN]/RemoteOperationResult/[MT]/isIdPRedirection()/body";
+}
+subgraph cluster299 {
+"src_com_owncloud_android_operations_UpdateShareViaLinkOperation.java/[CN]/UpdateShareViaLinkOperation/[MT]/run(OwnCloudClient)/body";
+}
+subgraph cluster31 {
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/getSortOrder(Context)/body";
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/setSortOrder(int,Context)/body";
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/instantVideoUploadViaWiFiOnly(Context)/body";
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/instantVideoUploadEnabled(Context)/body";
+}
+subgraph cluster314 {
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/synchronizeData(ArrayList<Object>,OwnCloudClient)/body";
+}
+subgraph cluster329 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[CN]/OperationsServiceBinder/[MT]/dispatchResultIfFinished(int,OnRemoteOperationListener)/body";
+}
+subgraph cluster306 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_operations_DownloadFileOperation.java/[CN]/DownloadFileOperation/[MT]/getTmpPath()/body";
+}
+subgraph cluster351 {
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[MT]/destroyItem(ViewGroup,int,Object)/body";
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[MT]/getItem(int)/body";
+}
+subgraph cluster504 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/sortByDate(boolean)/body";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/sortByName(boolean)/parameters";
+}
+subgraph cluster187 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/startMediaPreview(OCFile,int,boolean,boolean)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/startDownloadForPreview(OCFile,boolean)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/startDetails(OCFile,boolean)/body";
+}
+subgraph cluster163 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/onCreate()/body";
+}
+subgraph cluster122 {
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/createUploadsTable(SQLiteDatabase)/body";
+"src_eu_alefzero_owncloud_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/onPerformSync(Account,Bundle,String,ContentProviderClient,SyncResult)/body";
+"src_com_owncloud_android_ui_fragment_UploadListFragment.java/[CN]/UploadListFragment/[FE]/mAdapter";
+}
+subgraph cluster250 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onNeutral(String)/body";
+}
+subgraph cluster294 {
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[FE]/mSsoWebView";
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/updateDatabaseUploadStart(UploadFileOperation)/body";
+}
+subgraph cluster368 {
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[CN]/FileUploaderBinder/[MT]/isUploading(Account,OCFile)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetail.java/[CN]/FileDetail/[MT]/setStuff(Intent)/body";
+}
+subgraph cluster230 {
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/setTimeCreated(long)/body";
+}
+subgraph cluster208 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/setParentId(long)/body";
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[CN]/LoadBitmapTask/[MT]/showErrorMessage()/body";
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/updateDatabaseUploadResult(RemoteOperationResult,UploadFileOperation)/body";
+}
+subgraph cluster226 {
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/onResume()/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[CN]/ListServiceConnection/[MT]/onServiceConnected(ComponentName,IBinder)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetail.java/[CN]/FileDetail/[FE]/mIntent";
+}
+subgraph cluster102 {
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onSaveInstanceState(Bundle)/body";
+}
+subgraph cluster101 {
+"src_com_owncloud_android_ui_activity_UploadFilesActivity.java/[CN]/UploadFilesActivity/[MT]/onCancel(String)/body";
+}
+subgraph cluster80 {
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/update(Uri,ContentValues,String,String[])/body";
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/onStart()/body";
+"src_com_owncloud_android_operations_OwnCloudServerCheckOperation.java/[CN]/OwnCloudServerCheckOperation/[MT]/tryConnection(WebdavClient,String)/body";
+}
+subgraph cluster394 {
+"src_com_owncloud_android_ui_dialog_ConflictsResolveDialog.java/[CN]/ConflictsResolveDialog/[CN]/OnConflictDecisionMadeListener/[MT]/conflictDecisionMade(Decision)/parameters";
+"src_com_owncloud_android_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/notifyForgottenLocalFiles()/body";
+"src_com_owncloud_android_ui_activity_ConflictsResolveActivity.java/[CN]/ConflictsResolveActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster288 {
+"src_eu_alefzero_webdav_WebdavClient.java/[CN]/WebdavClient/[MT]/setBasicCredentials(String,String)/body";
+"src_eu_alefzero_webdav_WebdavClient.java/[CN]/WebdavClient/[CS]/WebdavClient(HttpConnectionManager)/body";
+}
+subgraph cluster328 {
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/extend";
+}
+subgraph cluster179 {
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/isSharedSupported()/body";
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/swapToDefaultAccount()/body";
+}
+subgraph cluster269 {
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/insert(SQLiteDatabase,Uri,ContentValues)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/sendDownloadedFile()/body";
+}
+subgraph cluster437 {
+"src_com_owncloud_android_operations_RefreshFolderOperation.java/[CN]/RefreshFolderOperation/[MT]/updateOCVersion(OwnCloudClient)/body";
+"src_com_owncloud_android_authentication_AuthenticatorAsyncTask.java/[CN]/AuthenticatorAsyncTask/[MT]/doInBackground(Object)/body";
+"src_com_owncloud_android_operations_GetServerInfoOperation.java/[CN]/GetServerInfoOperation/[MT]/run(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_CreateFolderOperation.java/[CN]/CreateFolderOperation/[MT]/run(OwnCloudClient)/body";
+"src_eu_alefzero_owncloud_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/downloadFile()/body";
+}
+subgraph cluster293 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/initAuthorizationMethod()/body";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/adaptViewAccordingToAuthenticationMethod()/body";
+}
+subgraph cluster242 {
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_DownloadRemoteFileOperation.java/[CN]/DownloadRemoteFileOperation/[MT]/run(WebdavClient)/body";
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_DownloadRemoteFileOperation.java/[CN]/DownloadRemoteFileOperation/[MT]/downloadFile(WebdavClient,File)/body";
+}
+subgraph cluster292 {
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster367 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/createChildFragment()/body";
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/createShareInstance(Cursor)/body";
+}
+subgraph cluster417 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onFileActionChosen(int)/body";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/registerLongClickListener()/body";
+}
+subgraph cluster364 {
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/updateListOfUserGroups()/body";
+}
+subgraph cluster124 {
+"src_com_owncloud_android_ui_TextDrawable.java/[CN]/TextDrawable/[MT]/setAlpha(int)/body";
+}
+subgraph cluster408 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/onResume()/body";
+"src_com_owncloud_android_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/synchronizeFolder(OCFile)/body";
+}
+subgraph cluster55 {
+"src_com_owncloud_android_operations_RemoveFileOperation.java/[CN]/RemoveFileOperation/[CS]/RemoveFileOperation(String,boolean)/parameters";
+"src_com_owncloud_android_operations_RemoveFileOperation.java/[CN]/RemoveFileOperation/[CS]/RemoveFileOperation(String,boolean)/body";
+}
+subgraph cluster130 {
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[MT]/finish()/body";
+}
+subgraph cluster445 {
+"src_eu_alefzero_owncloud_ui_fragment_FileDetail.java/[CN]/FileDetail/[MT]/setFiletype(String)/parameters";
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/requestCredentialsUpdate(Context)/body";
+}
+subgraph cluster345 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/getFileLength()/body";
+}
+subgraph cluster158 {
+"src_eu_alefzero_owncloud_ui_fragment_FileDetail.java/[CN]/FileDetail/[MT]/setFiletype(String)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetail.java/[CN]/FileDetail/[MT]/setStuff(View)/body";
+}
+subgraph cluster146 {
+"oc__framework_sample__client_src_com_owncloud_android_oc__framework_sampleclient_MainActivity.java/[CN]/MainActivity/[MT]/onRemoteOperationFinish(RemoteOperation,RemoteOperationResult)/body";
+"oc__framework_sample__client_src_com_owncloud_android_oc__framework_sampleclient_MainActivity.java/[CN]/MainActivity/[MT]/onTransferProgress(long,long,long,String)/body";
+}
+subgraph cluster425 {
+"src_eu_alefzero_owncloud_ui_fragment_FileListFragment.java/[CN]/FileListFragment/[MT]/resetFileFragment()/body";
+}
+subgraph cluster47 {
+"src_com_owncloud_android_files_services_FileObserverService.java/[CN]/FileObserverService/[MT]/onDestroy()/body";
+"src_com_owncloud_android_files_services_FileObserverService.java/[CN]/FileObserverService/[MT]/addObservedFile(OCFile,Account)/body";
+"src_com_owncloud_android_files_services_FileObserverService.java/[CN]/FileObserverService/[MT]/onStartCommand(Intent,int,int)/body";
+}
+subgraph cluster339 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onCreateFolderOperationFinish(CreateFolderOperation,RemoteOperationResult)/body";
+}
+subgraph cluster270 {
+"src_com_owncloud_android_ui_preview_PreviewImageActivity.java/[CN]/PreviewImageActivity/[MT]/initViewPager()/body";
+}
+subgraph cluster56 {
+"src_com_owncloud_android_ui_fragment_LocalFileListFragment.java/[CN]/LocalFileListFragment/[MT]/onActivityCreated(Bundle)/body";
+"src_com_owncloud_android_files_FileMenuFilter.java/[CN]/FileMenuFilter/[MT]/filter(com.actionbarsherlock.view.Menu)/body";
+}
+subgraph cluster58 {
+"src_com_owncloud_android_datamodel_OCFile.java/[CN]/OCFile/[MT]/writeToParcel(Parcel,int)/body";
+"src_com_owncloud_android_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(Parcel)/body";
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[CN]/DataBaseHelper/[MT]/onCreate(SQLiteDatabase)/body";
+"src_com_owncloud_android_utils_FileStorageUtils.java/[CN]/FileStorageUtils/[MT]/fillOCFile(RemoteFile)/body";
+}
+subgraph cluster300 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onStart()/parameters";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onStart()/body";
+"src_com_owncloud_android_ui_dialog_ConflictsResolveDialog.java/[CN]/ConflictsResolveDialog/[CN]/OnConflictDecisionMadeListener/[MT]/conflictDecisionMade(Decision)/body";
+"src_com_owncloud_android_ui_activity_GenericExplanationActivity.java/[CN]/GenericExplanationActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster325 {
+"src_com_owncloud_android_services_SyncFolderHandler.java/[CN]/SyncFolderHandler/[MT]/handleMessage(Message)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/requestForDownload()/body";
+}
+subgraph cluster316 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[MT]/onUnbind(Intent)/body";
+}
+subgraph cluster15 {
+"src_com_owncloud_android_datamodel_OCFile.java/[CN]/OCFile/[MT]/toString()/body";
+}
+subgraph cluster322 {
+"src_com_owncloud_android_providers_UsersAndGroupsSearchProvider.java/[CN]/UsersAndGroupsSearchProvider/[MT]/searchForUsersOrGroups(Uri)/body";
+}
+subgraph cluster503 {
+"src_com_owncloud_android_ui_dialog_RemoveFilesDialogFragment.java/[CN]/RemoveFilesDialogFragment/[MT]/onConfirmation(String)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetail.java/[CN]/FileDetail/[MT]/setFilename(String)/body";
+}
+subgraph cluster168 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onStart()/body";
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster496 {
+"src_com_owncloud_android_authentication_PassCodeManager.java/[CN]/PassCodeManager/[MT]/onActivityStopped(Activity)/body";
+}
+subgraph cluster454 {
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[MT]/notifyUploadStart(UploadFileOperation)/body";
+}
+subgraph cluster151 {
+"src_com_owncloud_android_ui_preview_PreviewVideoActivity.java/[CN]/PreviewVideoActivity/[MT]/onSaveInstanceState(Bundle)/body";
+"src_com_owncloud_android_ui_preview_PreviewVideoActivity.java/[CN]/PreviewVideoActivity/[MT]/onPrepared(MediaPlayer)/body";
+}
+subgraph cluster424 {
+"src_de_mobilcom_debitel_cloud_android_ui_activity_InstantUploadActivity.java/[CN]/InstantUploadActivity/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_ui_dialog_SharePasswordDialogFragment.java/[CN]/SharePasswordDialogFragment/[MT]/onClick(DialogInterface,int)/body";
+"src_de_mobilcom_debitel_cloud_android_ui_activity_FailedUploadActivity.java/[CN]/FailedUploadActivity/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/getUploadLaterReason(Context,UploadDbObject)/body";
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onPause()/body";
+}
+subgraph cluster201 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/saveFile(OCFile)/body";
+"src_com_owncloud_android_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/confirmPincode()/body";
+"src_com_owncloud_android_operations_SynchronizeFileOperation.java/[CN]/SynchronizeFileOperation/[MT]/fillOCFile(WebdavEntry)/body";
+}
+subgraph cluster502 {
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/[MT]/processFullPassCode()/body";
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/[MT]/savePassCodeAndExit()/body";
+}
+subgraph cluster184 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/refreshSecondFragment(String,String,boolean)/body";
+"src_com_owncloud_android_ui_preview_PreviewImageActivity.java/[CN]/PreviewImageActivity/[CN]/DownloadFinishReceiver/[MT]/onReceive(Context,Intent)/body";
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/getDownloadAddedMessage()/body";
+}
+subgraph cluster360 {
+"src_com_owncloud_android_ui_activity_ManageSpaceActivity.java/[CN]/ManageSpaceActivity/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster154 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/getStoragePath()/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/resetData()/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/getMimetype()/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/getFileId()/body";
+}
+subgraph cluster121 {
+"src_com_owncloud_android_operations_DownloadFileOperation.java/[CN]/DownloadFileOperation/[MT]/run(OwnCloudClient)/body";
+}
+subgraph cluster2 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[MT]/onStartCommand(Intent,int,int)/body";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/getOAuth2AccessTokenFromCapturedRedirection()/body";
+}
+subgraph cluster473 {
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[CN]/DownloadFinishReceiver/[MT]/onReceive(Context,Intent)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[CN]/DownloadFinishReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster161 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/initServerPreFragment(Bundle)/body";
+}
+subgraph cluster214 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/updateChildFragment(String,String,boolean)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onFileClick(OCFile,boolean)/body";
+}
+subgraph cluster340 {
+"src_com_owncloud_android_media_MediaService.java/[CN]/MediaService/[MT]/onDestroy()/body";
+}
+subgraph cluster70 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onCopyFileOperationFinish(CopyFileOperation,RemoteOperationResult)/body";
+"src_com_owncloud_android_utils_ErrorMessageAdapter.java/[CN]/ErrorMessageAdapter/[MT]/getErrorCauseMessage(RemoteOperationResult,RemoteOperation,Resources)/body";
+"src_com_owncloud_android_operations_UnshareOperation.java/[CN]/UnshareOperation/[MT]/run(OwnCloudClient)/body";
+}
+subgraph cluster381 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/playAudio()/body";
+}
+subgraph cluster211 {
+"src_com_owncloud_android_operations_common_SyncOperation.java/[CN]/SyncOperation/[MT]/execute(OwnCloudClient,FileDataStorageManager)/body";
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[MT]/uploadFile(String)/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onSaveInstanceState(Bundle)/body";
+"src_com_owncloud_android_operations_MoveFileOperation.java/[CN]/MoveFileOperation/[MT]/run(OwnCloudClient)/body";
+}
+subgraph cluster442 {
+"src_com_owncloud_android_ui_activity_ShareActivity.java/[CN]/ShareActivity/[MT]/refreshSharesFromStorageManager()/body";
+}
+subgraph cluster136 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(ContentResolver,Account,long)/parameters";
+"src_com_owncloud_android_ui_activity_ManageSpaceActivity.java/[CN]/ManageSpaceActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster244 {
+"src_com_owncloud_android_ui_activity_FolderPickerActivity.java/[CN]/FolderPickerActivity/[CN]/SyncBroadcastReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster14 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[MT]/onCreate()/body";
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[CN]/ServiceHandler/[MT]/handleMessage(Message)/body";
+}
+subgraph cluster469 {
+"src_com_owncloud_android_ui_activity_Preferences.java/[CN]/Preferences/[MT]/saveInstantUploadVideoPathOnPreferences()/body";
+}
+subgraph cluster449 {
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/[MT]/checkPassCode()/body";
+"src_eu_alefzero_owncloud_PathLayout.java/[CN]/PathLayout/[MT]/initialize()/body";
+}
+subgraph cluster258 {
+"src_com_owncloud_android_ui_preview_FileDownloadFragment.java/[CN]/FileDownloadFragment/[MT]/onStop()/body";
+}
+subgraph cluster335 {
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[CN]/DataBaseHelper/[MT]/onUpgrade(SQLiteDatabase,int,int)/body";
+}
+subgraph cluster498 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/checkConfigurationChange(Configuration)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/checkConfigurationChange(Configuration)/body";
+}
+subgraph cluster26 {
+"src_eu_alefzero_owncloud_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/createFileInstance(Cursor)/body";
+"src_com_owncloud_android_ui_activity_LogHistoryActivity.java/[CN]/LogHistoryActivity/[CN]/LoadingLogTask/[MT]/onPostExecute(String)/body";
+}
+subgraph cluster352 {
+"src_eu_alefzero_webdav_WebdavClient.java/[CN]/WebdavClient/[MT]/getSsoSessionCookie()/parameters";
+"src_com_owncloud_android_network_OwnCloudClientUtils.java/[CN]/OwnCloudClientUtils/[MT]/createOwnCloudClient(Account,Context,Activity)/body";
+"src_com_owncloud_android_operations_UpdateOCVersionOperation.java/[CN]/UpdateOCVersionOperation/[MT]/run(WebdavClient)/body";
+"src_com_owncloud_android_operations_RenameFileOperation.java/[CN]/RenameFileOperation/[MT]/run(WebdavClient)/body";
+}
+subgraph cluster200 {
+"src_com_owncloud_android_ui_adapter_DiskLruImageCache.java/[CN]/DiskLruImageCache/[FE]/TAG";
+"src_com_owncloud_android_ui_adapter_DiskLruImageCache.java/[CN]/DiskLruImageCache/[MT]/containsKey(String)/body";
+}
+subgraph cluster202 {
+"src_eu_alefzero_owncloud_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/pinCodeChangeRequest()/body";
+"src_eu_alefzero_owncloud_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/setInitView()/body";
+}
+subgraph cluster460 {
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/setSortAscending(boolean,Context)/body";
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/onPause()/body";
+"src_eu_alefzero_owncloud_OwnCloudMainScreen.java/[CN]/OwnCloudMainScreen/[MT]/onBackPressed()/body";
+}
+subgraph cluster4 {
+"src_com_owncloud_android_ui_activity_GenericExplanationActivity.java/[CN]/GenericExplanationActivity/extend";
+"src_com_owncloud_android_ui_activity_LogHistoryActivity.java/[CN]/LogHistoryActivity/extend";
+}
+subgraph cluster427 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onAttach(Activity)/body";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onSaveInstanceState(Bundle)/parameters";
+}
+subgraph cluster96 {
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[CN]/TextLoadAsyncTask/[MT]/showLoadingDialog()/parameters";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[CN]/TextLoadAsyncTask/[MT]/doInBackground(java.lang.Object)/body";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[CN]/TextLoadAsyncTask/[MT]/dismissLoadingDialog()/parameters";
+}
+subgraph cluster177 {
+"src_eu_alefzero_owncloud_Uploader.java/[CN]/Uploader/[MT]/populateDirectoryList()/body";
+}
+subgraph cluster456 {
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/setButtonsForRemote()/body";
+}
+subgraph cluster144 {
+"src_com_owncloud_android_operations_SynchronizeFileOperation.java/[CN]/SynchronizeFileOperation/[CS]/SynchronizeFileOperation(String,Account,boolean,Context)/body";
+}
+subgraph cluster185 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onAccountSet(boolean)/body";
+}
+subgraph cluster63 {
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[CN]/FileUploaderBinder/[MT]/cancel(Account)/body";
+}
+subgraph cluster378 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/showFragmentWithDetails(OCFile)/body";
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/requestForDownload()/body";
+}
+subgraph cluster24 {
+"src_com_owncloud_android_operations_SynchronizeFileOperation.java/[CN]/SynchronizeFileOperation/[MT]/run(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/fetchAndSyncRemoteFolder(OwnCloudClient)/body";
+}
+subgraph cluster46 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/setButtonsForTransferring()/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/setButtonsForDown()/body";
+}
+subgraph cluster127 {
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[CS]/SynchronizeFolderOperation(Context,String,Account,long)/body";
+}
+subgraph cluster172 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onActivityCreated(Bundle)/body";
+"src_com_owncloud_android_ui_controller_TransferProgressController.java/[CN]/TransferProgressController/[MT]/onTransferProgress(long,long,long,String)/body";
+}
+subgraph cluster199 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onDismiss(EditNameDialog)/body";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onConfirmation(String)/body";
+}
+subgraph cluster129 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/removeLocalFolder(File)/body";
+}
+subgraph cluster118 {
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onResume()/body";
+}
+subgraph cluster398 {
+"src_com_owncloud_android_ui_dialog_SslUntrustedCertDialogForEmptySslError.java/[CN]/SslUntrustedCertDialogForEmptySslError/[MT]/showIssuer(SslCertificate.DName)/body";
+}
+subgraph cluster234 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster313 {
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[CN]/TextLoadAsyncTask/[MT]/onPreExecute()/body";
+}
+subgraph cluster309 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[CN]/OperationsServiceConnection/[MT]/onServiceDisconnected(ComponentName)/body";
+}
+subgraph cluster68 {
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/applyBatch(ArrayList<ContentProviderOperation>)/body";
+}
+subgraph cluster474 {
+"src_eu_alefzero_owncloud_files_services_FileUploader.java/[CN]/FileUploader/[MT]/transferProgress(long)/body";
+}
+subgraph cluster9 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/onTmpFilesCopied(ResultCode)/body";
+}
+subgraph cluster112 {
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/onCreate()/body";
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/refreshSharesForFolder(OwnCloudClient)/body";
+"src_com_owncloud_android_ui_fragment_ExpandableListFragment.java/[CN]/ExpandableListFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster383 {
+"src_com_owncloud_android_ui_dialog_CredentialsDialogFragment.java/[CN]/CredentialsDialogFragment/[MT]/onClick(DialogInterface,int)/body";
+}
+subgraph cluster156 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onDestroy()/body";
+}
+subgraph cluster66 {
+"src_eu_alefzero_owncloud_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/pinCodeEnd(boolean)/body";
+}
+subgraph cluster229 {
+"src_com_owncloud_android_files_services_FileObserverService.java/[CN]/FileObserverService/[MT]/onCreate()/body";
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/renameFile(OCFile,String)/body";
+}
+subgraph cluster164 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/startMediaPreview(OCFile,int,boolean)/body";
+}
+subgraph cluster215 {
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_CreateRemoteFolderOperation.java/[CN]/CreateRemoteFolderOperation/[MT]/run(WebdavClient)/body";
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/onActivityResult(int,int,Intent)/body";
+}
+subgraph cluster44 {
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/getFabMain()/body";
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/onClick(View)/body";
+"src_com_owncloud_android_ui_dialog_RemoveFileDialogFragment.java/[CN]/RemoveFileDialogFragment/[MT]/onNeutral(String)/body";
+}
+subgraph cluster429 {
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/saveDownloadedFile()/body";
+}
+subgraph cluster264 {
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/requestContentDownload(OCFile)/body";
+}
+subgraph cluster48 {
+"src_com_owncloud_android_ui_dialog_UploadSourceDialogFragment.java/[CN]/UploadSourceDialogFragment/[MT]/onCreateDialog(Bundle)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onActivityResult(int,int,Intent)/body";
+}
+subgraph cluster73 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onGetUserNameFinish(RemoteOperationResult)/body";
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onCreateDialog(int)/body";
+"src_com_owncloud_android_authentication_SsoWebViewClient.java/[CN]/SsoWebViewClient/[MT]/onPageFinished(WebView,String)/body";
+}
+subgraph cluster152 {
+"src_eu_alefzero_owncloud_files_services_InstantUploadService.java/[CN]/InstantUploadService/[CN]/UploaderRunnable/[MT]/run()/body";
+}
+subgraph cluster494 {
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/getSortAscending(Context)/body";
+}
+subgraph cluster305 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/notifyUploadStart(UploadFileOperation)/body";
+}
+subgraph cluster54 {
+"src_com_owncloud_android_ui_dialog_ExpirationDatePickerDialogFragment.java/[CN]/ExpirationDatePickerDialogFragment/[MT]/onCreateDialog(Bundle)/body";
+}
+subgraph cluster362 {
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/delete(Uri,String,String[])/body";
+"src_com_owncloud_android_providers_FileContentProvider.java/[CN]/FileContentProvider/[MT]/insert(Uri,ContentValues)/body";
+}
+subgraph cluster348 {
+"src_com_owncloud_android_ui_controller_TransferProgressController.java/[CN]/TransferProgressController/[MT]/startListeningProgressFor(OCFile,Account)/body";
+"src_com_owncloud_android_ui_preview_PreviewAudioFragment.java/[CN]/PreviewAudioFragment/[MT]/onActivityCreated(Bundle)/body";
+}
+subgraph cluster45 {
+"src_eu_alefzero_owncloud_ui_FragmentListView.java/[CN]/FragmentListView/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster241 {
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/registerLongClickListener(ListView)/body";
+"src_com_owncloud_android_ui_adapter_ShareUserListAdapter.java/[CN]/ShareUserListAdapter/[MT]/getView(int,View,ViewGroup)/body";
+}
+subgraph cluster349 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/listDirectory(OCFile)/body";
+"src_com_owncloud_android_ui_fragment_LocalFileListFragment.java/[CN]/LocalFileListFragment/[MT]/onSaveInstanceState(Bundle)/body";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onSaveInstanceState(Bundle)/body";
+}
+subgraph cluster397 {
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/onStop()/body";
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/onSaveInstanceState(Bundle)/body";
+}
+subgraph cluster145 {
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_DownloadRemoteFileOperation.java/[CN]/DownloadRemoteFileOperation/[MT]/getTmpPath()/body";
+}
+subgraph cluster389 {
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[MT]/clearErrorAt(int)/body";
+}
+subgraph cluster451 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[FE]/mFooterView";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/generateFooterText(OCFile)/body";
+}
+subgraph cluster418 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onSynchronizeFileOperationFinish(SynchronizeFileOperation,RemoteOperationResult)/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onSynchronizeFileOperationFinish(SynchronizeFileOperation,RemoteOperationResult)/body";
+}
+subgraph cluster159 {
+"src_com_owncloud_android_operations_GetServerInfoOperation.java/[CN]/GetServerInfoOperation/[MT]/detectAuthorizationMethod(OwnCloudClient)/body";
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/downloadFile(String)/body";
+}
+subgraph cluster485 {
+"src_eu_alefzero_owncloud_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/setTextListeners()/body";
+}
+subgraph cluster76 {
+"src_eu_alefzero_owncloud_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[CS]/FileListListAdapter(OCFile,Context)/parameters";
+"src_eu_alefzero_owncloud_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[MT]/getView(int,View,ViewGroup)/body";
+}
+subgraph cluster432 {
+"src_com_owncloud_android_ui_activity_FolderPickerActivity.java/[CN]/FolderPickerActivity/[MT]/onClick(View)/body";
+}
+subgraph cluster406 {
+"src_com_owncloud_android_operations_DownloadFileOperation.java/[CN]/DownloadFileOperation/[MT]/getSavePath()/body";
+}
+subgraph cluster206 {
+"src_com_owncloud_android_operations_GetSharedFilesOperation.java/[CN]/GetSharedFilesOperation/[MT]/run(WebdavClient)/body";
+}
+subgraph cluster282 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onConfirmation(String)/body";
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/removeDirectory(OCFile,boolean,boolean)/body";
+}
+subgraph cluster255 {
+"src_eu_alefzero_owncloud_ui_fragment_FileListFragment.java/[CN]/FileListFragment/[MT]/onNavigateUp()/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileListFragment.java/[CN]/FileListFragment/[MT]/onItemClick(AdapterView<?>,View,int,long)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileListFragment.java/[CN]/FileListFragment/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster344 {
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/onRefresh()/body";
+}
+subgraph cluster35 {
+"src_com_owncloud_android_utils_FileStorageUtils.java/[CN]/FileStorageUtils/[MT]/fillRemoteFile(OCFile)/body";
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/getDirectoryContent(long)/parameters";
+}
+subgraph cluster430 {
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_ReadRemoteFolderOperation.java/[CN]/ReadRemoteFolderOperation/[MT]/readData(MultiStatus,WebdavClient)/body";
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_ReadRemoteFolderOperation.java/[CN]/ReadRemoteFolderOperation/[MT]/run(WebdavClient)/body";
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/fetchAndSyncRemoteFolder(WebdavClient)/body";
+}
+subgraph cluster472 {
+"src_com_owncloud_android_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/sendLocalBroadcast(String,String,RemoteOperationResult)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onPause()/body";
+}
+subgraph cluster438 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/showDetails(OCFile)/body";
+"src_com_owncloud_android_datamodel_UploadsStorageManager.java/[CN]/UploadsStorageManager/[MT]/storeUpload(OCUpload)/body";
+}
+subgraph cluster62 {
+"src_com_owncloud_android_ui_activity_UploadListActivity.java/[CN]/UploadListActivity/[MT]/onActivityResult(int,int,Intent)/body";
+}
+subgraph cluster493 {
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/extend";
+}
+subgraph cluster20 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onBrowsedDownTo(OCFile)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/initFragmentsWithFile()/body";
+}
+subgraph cluster310 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/uploadFiles()/body";
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[MT]/uploadNewFile(Context,Account,String[],String[],Integer,String,Boolean,Boolean)/body";
+}
+subgraph cluster267 {
+"src_com_owncloud_android_operations_SynchronizeFileOperation.java/[CN]/SynchronizeFileOperation/[MT]/requestForDownload(OCFile)/body";
+}
+subgraph cluster232 {
+"src_com_owncloud_android_syncadapter_AbstractOwnCloudSyncAdapter.java/[CN]/AbstractOwnCloudSyncAdapter/[MT]/initClientForCurrentAccount()/body";
+}
+subgraph cluster289 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/updateSharedFiles(Collection<OCFile>)/body";
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/saveFolder(OCFile,Collection<OCFile>,Collection<OCFile>)/body";
+}
+subgraph cluster510 {
+"src_com_owncloud_android_providers_UsersAndGroupsSearchProvider.java/[CN]/UsersAndGroupsSearchProvider/[MT]/onCreate()/body";
+"src_eu_alefzero_owncloud_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[MT]/getCount()/body";
+}
+subgraph cluster12 {
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/[MT]/confirmPassCode()/body";
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster203 {
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_RenameRemoteFileOperation.java/[CN]/RenameRemoteFileOperation/[MT]/run(WebdavClient)/body";
+}
+subgraph cluster363 {
+"src_com_owncloud_android_ui_dialog_SharePasswordDialogFragment.java/[CN]/SharePasswordDialogFragment/[MT]/onCreateDialog(Bundle)/body";
+}
+subgraph cluster77 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/prepareStreamsToUpload()/body";
+}
+subgraph cluster78 {
+"src_com_owncloud_android_ui_adapter_DiskLruImageCache.java/[CN]/DiskLruImageCache/[MT]/getDiskCacheDir(Context,String)/body";
+"src_com_owncloud_android_ui_adapter_DiskLruImageCache.java/[CN]/DiskLruImageCache/[MT]/getBitmap(String)/body";
+}
+subgraph cluster419 {
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onResume()/body";
+}
+subgraph cluster249 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/updateRightPanel(String,String,boolean)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/initFileDetailsInDualPane()/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onSaveInstanceState(Bundle)/body";
+}
+subgraph cluster400 {
+"src_com_owncloud_android_operations_common_SyncOperation.java/[CN]/SyncOperation/[MT]/execute(FileDataStorageManager,Context)/body";
+"src_com_owncloud_android_operations_UploadFileOperation.java/[CN]/UploadFileOperation/[MT]/run(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/checkForChanges(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_RefreshFolderOperation.java/[CN]/RefreshFolderOperation/[MT]/fetchAndSyncRemoteFolder(OwnCloudClient)/body";
+}
+subgraph cluster505 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onGetSharedFilesOperationFinish(GetSharedFilesOperation,RemoteOperationResult)/body";
+}
+subgraph cluster275 {
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[CS]/FileDetailFragment()/body";
+}
+subgraph cluster39 {
+"src_eu_alefzero_owncloud_ui_activity_Preferences.java/[CN]/Preferences/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_ui_preview_PreviewVideoFragment.java/[CN]/PreviewVideoFragment/[MT]/onDownloadEvent(String,String,boolean)/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(ContentProviderClient,Account)/parameters";
+}
+subgraph cluster120 {
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/setPasswordToShareViaLink(OCFile,String)/body";
+}
+subgraph cluster64 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/startImagePreview(OCFile)/body";
+}
+subgraph cluster166 {
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/shareFileViaLink(OCFile,String)/body";
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onAccountSet(boolean)/body";
+}
+subgraph cluster506 {
+"src_com_owncloud_android_ui_dialog_AccountActionsDialogFragment.java/[CN]/AccountActionsDialogFragment/[MT]/onItemClick(AdapterView<?>,View,int,long)/body";
+"src_com_owncloud_android_ui_dialog_AccountActionsDialogFragment.java/[CN]/AccountActionsDialogFragment/[MT]/onActivityCreated(Bundle)/body";
+}
+subgraph cluster195 {
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[MT]/getUploadFinishMessage()/body";
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/getDownloadFinishMessage()/body";
+"src_com_owncloud_android_media_MediaService.java/[CN]/MediaService/[MT]/onCreate()/body";
+}
+subgraph cluster247 {
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/show(FragmentTransaction,String)/body";
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster414 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onGetOAuthAccessTokenFinish(RemoteOperationResult)/body";
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onAuthorizationCheckFinish(ExistenceCheckOperation,RemoteOperationResult)/body";
+}
+subgraph cluster223 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onSaveInstanceState(Bundle)/body";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onResume()/body";
+}
+subgraph cluster210 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[CN]/LoadBitmapTask/[CS]/LoadBitmapTask(ImageViewCustom,TextView,ProgressBar)/body";
+}
+subgraph cluster157 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onNeutral(String)/body";
+}
+subgraph cluster79 {
+"src_com_owncloud_android_ui_fragment_LocalFileListFragment.java/[CN]/LocalFileListFragment/[MT]/listDirectory(File)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster271 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onDownloadEvent(String,String,boolean)/body";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[MT]/onDownloadEvent(String,String,boolean)/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onDownloadEvent(String,String,boolean)/body";
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[MT]/onDownloadEvent(OCFile,String,boolean)/body";
+}
+subgraph cluster468 {
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_UploadRemoteFileOperation.java/[CN]/UploadRemoteFileOperation/[FE]/mMimeType";
+"src_com_owncloud_android_operations_UploadFileOperation.java/[CN]/UploadFileOperation/[MT]/run(WebdavClient)/body";
+}
+subgraph cluster53 {
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/sendLocalBroadcast(String,String,RemoteOperationResult)/body";
+}
+subgraph cluster87 {
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/loadSavedInstanceState(Bundle)/body";
+}
+subgraph cluster413 {
+"oc__jb__workaround_src_com_owncloud_android_workaround_accounts_AccountAuthenticatorService.java/[CN]/AccountAuthenticatorService/[CN]/AccountAuthenticator/[MT]/getAccountRemovalAllowed(AccountAuthenticatorResponse,Account)/body";
+}
+subgraph cluster82 {
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/updateToken()/body";
+}
+subgraph cluster382 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/requestForDownload(OCFile)/body";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[CN]/TextLoadAsyncTask/[MT]/onPostExecute(StringWriter)/body";
+"src_com_owncloud_android_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/extend";
+}
+subgraph cluster6 {
+"src_com_owncloud_android_ui_activity_Preferences.java/[CN]/Preferences/[MT]/onActivityResult(int,int,Intent)/body";
+"src_com_owncloud_android_ui_activity_Preferences.java/[CN]/Preferences/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster341 {
+"src_com_owncloud_android_operations_CreateShareOperation.java/[CN]/CreateShareOperation/extend";
+"src_com_owncloud_android_ui_dialog_SslUntrustedCertDialogForEmptySslError.java/[CN]/SslUntrustedCertDialogForEmptySslError/[MT]/showCertificateData()/body";
+"src_com_owncloud_android_ui_preview_FileDownloadFragment.java/[CN]/FileDownloadFragment/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster108 {
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/onGetDataShareWithFinish(RemoteOperationResult)/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/refreshUsersOrGroupsListFromServer()/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/refreshUsersOrGroupsListFromDB()/body";
+}
+subgraph cluster180 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/onCreateDialog(int)/body";
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/setAccount(Account,boolean)/body";
+}
+subgraph cluster459 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[CN]/ServiceHandler/[MT]/nextOperation()/body";
+}
+subgraph cluster97 {
+"src_com_owncloud_android_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[CS]/FileListListAdapter(Context,ComponentsGetter)/body";
+}
+subgraph cluster245 {
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/instantPictureUploadViaWiFiOnly(Context)/body";
+"src_com_owncloud_android_network_OwnCloudClientUtils.java/[CN]/OwnCloudClientUtils/[MT]/createOwnCloudClient(Account,Context)/body";
+}
+subgraph cluster19 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onStop()/body";
+}
+subgraph cluster342 {
+"src_com_owncloud_android_ui_dialog_RemoveFilesDialogFragment.java/[CN]/RemoveFilesDialogFragment/[MT]/onCancel(String)/body";
+}
+subgraph cluster476 {
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/show(FragmentManager,String)/body";
+}
+subgraph cluster392 {
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[CN]/OnPasswordInteractionListener/[MT]/onCheckedChanged(CompoundButton,boolean)/parameters";
+"src_com_owncloud_android_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[MT]/swapDirectory(OCFile,FileDataStorageManager)/body";
+}
+subgraph cluster337 {
+"src_com_owncloud_android_ui_TextDrawable.java/[CN]/TextDrawable/[MT]/draw(Canvas)/body";
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[CN]/FileUploaderBinder/[MT]/retry(Account,OCUpload)/body";
+}
+subgraph cluster110 {
+"src_com_owncloud_android_operations_DownloadFileOperation.java/[CN]/DownloadFileOperation/[MT]/run(WebdavClient)/body";
+"src_com_owncloud_android_ui_adapter_LocalFileListAdapter.java/[CN]/LocalFileListAdapter/[MT]/getView(int,View,ViewGroup)/body";
+}
+subgraph cluster25 {
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[CN]/OnPasswordInteractionListener/[MT]/onCheckedChanged(CompoundButton,boolean)/body";
+}
+subgraph cluster60 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onTransferStateChanged(OCFile,boolean,boolean)/body";
+}
+subgraph cluster326 {
+"src_com_owncloud_android_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[MT]/setSortOrder(Integer,boolean)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster388 {
+"src_com_owncloud_android_authentication_SsoWebViewClient.java/[CN]/SsoWebViewClient/[MT]/onReceivedHttpAuthRequest(WebView,HttpAuthHandler,String,String)/body";
+}
+subgraph cluster319 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onResume()/body";
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onStart()/body";
+}
+subgraph cluster387 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onPrepareOptionsMenu(Menu)/body";
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onPrepareOptionsMenu(Menu)/body";
+"src_com_owncloud_android_files_FileMenuFilter.java/[CN]/FileMenuFilter/[MT]/filter(Menu)/body";
+}
+subgraph cluster435 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/notifyUploadResult(RemoteOperationResult,UploadFileOperation)/body";
+}
+subgraph cluster434 {
+"src_com_owncloud_android_ui_activity_ReceiveExternalFilesActivity.java/[CN]/ReceiveExternalFilesActivity/[MT]/uploadFiles()/body";
+}
+subgraph cluster22 {
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[CN]/FileUploaderBinder/[MT]/cancel(Account,OCFile)/body";
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[MT]/onStartCommand(Intent,int,int)/body";
+}
+subgraph cluster143 {
+"src_com_owncloud_android_services_SyncFolderHandler.java/[CN]/SyncFolderHandler/[MT]/add(Account,String,SynchronizeFolderOperation)/body";
+}
+subgraph cluster332 {
+"src_com_owncloud_android_media_MediaService.java/[CN]/MediaService/[MT]/onPrepared(MediaPlayer)/body";
+}
+subgraph cluster410 {
+"src_de_mobilcom_debitel_cloud_android_extensions_ExtensionsAvailableDialog.java/[CN]/ExtensionsAvailableDialog/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"src_eu_alefzero_owncloud_Uploader.java/[CN]/Uploader/[MT]/onClick(View)/body";
+}
+subgraph cluster125 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/sortBySize(boolean)/parameters";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/sortByDate(boolean)/parameters";
+}
+subgraph cluster278 {
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[MT]/onStart()/body";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[MT]/loadAndShowTextPreview()/body";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[CN]/TextLoadAsyncTask/extend";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[MT]/onResume()/body";
+}
+subgraph cluster8 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onClick(View)/body";
+}
+subgraph cluster236 {
+"src_com_owncloud_android_operations_RemoveFileOperation.java/[CN]/RemoveFileOperation/[MT]/run(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_RenameFileOperation.java/[CN]/RenameFileOperation/[MT]/run(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_common_SyncOperation.java/[CN]/SyncOperation/[MT]/execute(OwnCloudClient,FileDataStorageManager,OnRemoteOperationListener,Handler)/body";
+}
+subgraph cluster194 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/onSavedCertificate()/body";
+}
+subgraph cluster132 {
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[CN]/OperationsServiceConnection/[MT]/onServiceConnected(ComponentName,IBinder)/body";
+}
+subgraph cluster134 {
+"src_com_owncloud_android_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[MT]/addBitmapToCache(String,Bitmap)/body";
+}
+subgraph cluster32 {
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/initShareViaLinkListener(View)/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/initExpirationListener(View)/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/initPasswordListener(View)/body";
+}
+subgraph cluster261 {
+"src_com_owncloud_android_ui_preview_PreviewImageActivity.java/[CN]/PreviewImageActivity/[MT]/onResume()/body";
+}
+subgraph cluster257 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/uploadFile(String)/body";
+}
+subgraph cluster137 {
+"src_com_owncloud_android_operations_CopyFileOperation.java/[CN]/CopyFileOperation/[MT]/run(OwnCloudClient)/body";
+}
+subgraph cluster84 {
+"oc__framework_sample__client_src_com_owncloud_android_oc__framework_sampleclient_MainActivity.java/[CN]/MainActivity/[MT]/startUpload()/body";
+"oc__framework_sample__client_src_com_owncloud_android_oc__framework_sampleclient_MainActivity.java/[CN]/MainActivity/[MT]/startRefresh()/body";
+}
+subgraph cluster480 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onSamlDialogSuccess(String)/body";
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[CN]/LoadBitmapTask/extend";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onEditorAction(TextView,int,KeyEvent)/body";
+}
+subgraph cluster260 {
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/getGetLinkButton()/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/refreshPublicShareFromDB()/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/onActivityCreated(Bundle)/body";
+"src_com_owncloud_android_ui_fragment_SearchShareesFragment.java/[CN]/SearchShareesFragment/[MT]/onActivityCreated(Bundle)/body";
+}
+subgraph cluster182 {
+"src_com_owncloud_android_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/setTextListeners()/body";
+}
+subgraph cluster338 {
+"src_eu_alefzero_owncloud_ui_fragment_ConfirmationDialogFragment.java/[CN]/ConfirmationDialogFragment/[FE]/mListener";
+"src_eu_alefzero_owncloud_files_services_FileUploader.java/[CN]/FileUploader/[MT]/onStartCommand(Intent,int,int)/body";
+}
+subgraph cluster478 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[MT]/dispatchResultToOperationListeners(Target,RemoteOperation,RemoteOperationResult)/body";
+}
+subgraph cluster99 {
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/onAttach(Activity)/body";
+"src_com_owncloud_android_authentication_SsoWebViewClient.java/[CN]/SsoWebViewClient/[MT]/onReceivedSslError(WebView,SslErrorHandler,SslError)/body";
+}
+subgraph cluster105 {
+"src_eu_alefzero_owncloud_OwnCloudMainScreen.java/[CN]/OwnCloudMainScreen/[MT]/populateFileList()/body";
+}
+subgraph cluster248 {
+"src_com_owncloud_android_operations_OAuth2GetAccessToken.java/[CN]/OAuth2GetAccessToken/[MT]/run(WebdavClient)/body";
+"src_eu_alefzero_webdav_WebdavClient.java/[CN]/WebdavClient/[MT]/getSsoSessionCookie()/body";
+}
+subgraph cluster256 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/cleanShares()/body";
+}
+subgraph cluster5 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/setStoragePath(String)/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/getParentId()/body";
+}
+subgraph cluster259 {
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[CS]/SynchronizeFolderOperation(OCFile,long,boolean,boolean,boolean,FileDataStorageManager,Account,Context)/parameters";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/startSyncFolderOperation(OCFile,boolean)/body";
+"src_com_owncloud_android_ui_preview_PreviewImageActivity.java/[CN]/PreviewImageActivity/[MT]/onPause()/body";
+}
+subgraph cluster67 {
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/getFabUploadFromApp()/body";
+}
+subgraph cluster207 {
+"src_com_owncloud_android_ui_adapter_ExpandableUploadListAdapter.java/[CN]/ExpandableUploadListAdapter/[MT]/getView(UploadDbObject[],int,View,ViewGroup)/body";
+}
+subgraph cluster497 {
+"src_com_owncloud_android_utils_GetShareWithUsersAsyncTask.java/[CN]/GetShareWithUsersAsyncTask/extend";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/getShareViaLinkSwitch()/body";
+}
+subgraph cluster205 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/needsUpdatingWhileSaving()/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/setFileLength(long)/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/getCreationTimestamp()/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/setMimetype(String)/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/setCreationTimestamp(long)/body";
+}
+subgraph cluster509 {
+"src_com_owncloud_android_utils_DisplayUtils.java/[CN]/DisplayUtils/[MT]/getSeasonalIconId()/parameters";
+"src_com_owncloud_android_ui_preview_PreviewImageActivity.java/[CN]/PreviewImageActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster361 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onContextItemSelected(MenuItem)/body";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onContextItemSelected(MenuItem)/parameters";
+}
+subgraph cluster193 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[CN]/OperationsServiceBinder/[MT]/cancel(Account,OCFile)/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[CN]/OnShareViaLinkListener/[MT]/onCheckedChanged(CompoundButton,boolean)/body";
+}
+subgraph cluster36 {
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_UploadRemoteFileOperation.java/[CN]/UploadRemoteFileOperation/[FE]/mDataTransferListeners";
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_UploadRemoteFileOperation.java/[CN]/UploadRemoteFileOperation/[FE]/mRemotePath";
+}
+subgraph cluster222 {
+"src_com_owncloud_android_ui_preview_PreviewVideoFragment.java/[CN]/PreviewVideoFragment/[MT]/onTransferServiceConnected()/body";
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onTransferServiceConnected()/body";
+}
+subgraph cluster165 {
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/run(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/startDirectDownloads()/body";
+}
+subgraph cluster220 {
+"src_com_owncloud_android_ui_activity_ConflictsResolveActivity.java/[CN]/ConflictsResolveActivity/[MT]/conflictDecisionMade(Decision)/body";
+"src_com_owncloud_android_operations_SynchronizeFileOperation.java/[CN]/SynchronizeFileOperation/[MT]/requestForUpload(OCFile)/body";
+}
+subgraph cluster489 {
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/syncContents(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/prepareOpsFromLocalKnowledge()/body";
+}
+subgraph cluster395 {
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/run(WebdavClient)/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[MT]/getExpirationDateSwitch()/body";
+}
+subgraph cluster89 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/refreshList(boolean)/parameters";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/refreshList(boolean)/body";
+}
+subgraph cluster343 {
+"src_com_owncloud_android_files_services_ConnectivityActionReceiver.java/[CN]/ConnectivityActionReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster93 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/extend";
+}
+subgraph cluster462 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onDestroy()/body";
+}
+subgraph cluster83 {
+"src_com_owncloud_android_ui_preview_PreviewImageActivity.java/[CN]/PreviewImageActivity/[MT]/showDetails(OCFile)/body";
+"src_com_owncloud_android_services_observer_FileObserverService.java/[CN]/FileObserverService/[MT]/makeObservedFileIntent(Context,OCFile,Account,boolean)/body";
+}
+subgraph cluster443 {
+"src_eu_alefzero_owncloud_ui_adapter_LandingScreenAdapter.java/[CN]/LandingScreenAdapter/[MT]/getItem(int)/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onOptionsItemSelected(MenuItem)/body";
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/toggleFavorite(OCFile,boolean)/body";
+}
+subgraph cluster150 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onRenameFileOperationFinish(RenameFileOperation,RemoteOperationResult)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onRenameFileOperationFinish(RenameFileOperation,RemoteOperationResult)/body";
+}
+subgraph cluster116 {
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onPause()/body";
+}
+subgraph cluster281 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[MT]/newOperation(Intent)/body";
+"src_com_owncloud_android_operations_UpdateShareViaLinkOperation.java/[CN]/UpdateShareViaLinkOperation/[CS]/UpdateShareViaLinkOperation(String)/body";
+"src_com_owncloud_android_ui_dialog_ExpirationDatePickerDialogFragment.java/[CN]/ExpirationDatePickerDialogFragment/[MT]/onDateSet(DatePicker,int,int,int)/body";
+}
+subgraph cluster315 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(String)/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/setFileId(long)/body";
+}
+subgraph cluster366 {
+"src_com_owncloud_android_ui_activity_LogHistoryActivity.java/[CN]/LogHistoryActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster65 {
+"src_com_owncloud_android_ui_fragment_LocalFileListFragment.java/[CN]/LocalFileListFragment/[MT]/getCheckedFilePaths()/body";
+"src_com_owncloud_android_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[MT]/getView(int,View,ViewGroup)/body";
+"src_com_owncloud_android_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[MT]/restoreSelectionState(Bundle)/body";
+}
+subgraph cluster447 {
+"src_com_owncloud_android_datamodel_FileDataStorageManager.java/[CN]/FileDataStorageManager/[MT]/shareExists(long)/parameters";
+}
+subgraph cluster175 {
+"src_com_owncloud_android_operations_CreateFolderOperation.java/[CN]/CreateFolderOperation/[MT]/run(WebdavClient)/body";
+}
+subgraph cluster347 {
+"src_eu_alefzero_owncloud_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/setChangePincodeView(boolean)/body";
+"src_eu_alefzero_owncloud_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/onKeyDown(int,KeyEvent)/body";
+}
+subgraph cluster446 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/setFabEnabled(boolean)/body";
+}
+subgraph cluster49 {
+"src_com_owncloud_android_datamodel_UploadsStorageManager.java/[CN]/UploadsStorageManager/[MT]/updateUpload(OCUpload)/body";
+"src_com_owncloud_android_ui_adapter_ExpandableUploadListAdapter.java/[CN]/ExpandableUploadListAdapter/[MT]/getView(OCUpload[],int,View,ViewGroup)/body";
+"src_com_owncloud_android_db_OCUpload.java/[CN]/OCUpload/[MT]/resetData()/body";
+}
+subgraph cluster287 {
+"src_eu_alefzero_owncloud_Uploader.java/[CN]/Uploader/[MT]/uploadFiles()/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onBackPressed()/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[CN]/RemoveRunnable/[MT]/run()/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/updateFileDetails(boolean,boolean)/body";
+}
+subgraph cluster128 {
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[CN]/UploadRequester/[MT]/uploadNewFile(Context,Account,String[],String[],String[],Integer,Boolean,int)/body";
+}
+subgraph cluster492 {
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_CreateRemoteFolderOperation.java/[CN]/CreateRemoteFolderOperation/[MT]/createParentFolder(String,WebdavClient)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onDismiss(EditNameDialog)/body";
+}
+subgraph cluster448 {
+"src_com_owncloud_android_files_managers_OCNotificationManager.java/[CN]/OCNotificationManager/[MT]/updateNotification(int,NotificationData)/body";
+"src_com_owncloud_android_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/notifyFailedSynchronization()/body";
+}
+subgraph cluster375 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/startFullScreenVideo()/body";
+"src_com_owncloud_android_media_MediaService.java/[CN]/MediaService/[MT]/setUpAsForeground(String)/body";
+}
+subgraph cluster123 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/writeToParcel(Parcel,int)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onClick(View)/body";
+"src_com_owncloud_android_ui_activity_UploadListActivity.java/[CN]/UploadListActivity/[MT]/onUploadItemClick(UploadDbObject)/body";
+}
+subgraph cluster279 {
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/cancelDownloadsForAccount(Account)/body";
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/isSharedSupported(FileActivity)/body";
+}
+subgraph cluster369 {
+"src_com_owncloud_android_ui_preview_FileDownloadFragment.java/[CN]/FileDownloadFragment/[MT]/onDownloadEvent(String,String,boolean)/body";
+"src_com_owncloud_android_ui_preview_PreviewAudioFragment.java/[CN]/PreviewAudioFragment/[MT]/onDownloadEvent(String,String,boolean)/body";
+}
+subgraph cluster160 {
+"src_com_owncloud_android_ui_activity_Preferences.java/[CN]/Preferences/[MT]/onDestroy()/body";
+}
+subgraph cluster467 {
+"src_com_owncloud_android_files_services_IndexedForest.java/[CN]/IndexedForest/[MT]/remove(Account,String)/body";
+}
+subgraph cluster138 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[CN]/VideoHelper/[MT]/onCompletion(MediaPlayer)/body";
+}
+subgraph cluster481 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/createNewFile(ContentResolver,Account,String,int,int,int,String,long)/parameters";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(ContentResolver,Account)/parameters";
+}
+subgraph cluster272 {
+"src_com_owncloud_android_ui_activity_ConflictsResolveActivity.java/[CN]/ConflictsResolveActivity/[MT]/conflictDecisionMade(Decision)/parameters";
+"src_com_owncloud_android_ui_activity_UploadFilesActivity.java/[CN]/UploadFilesActivity/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/notifyDownloadResult(DownloadFileOperation,RemoteOperationResult)/body";
+}
+subgraph cluster126 {
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/notifyDownloadStart(DownloadFileOperation)/body";
+"src_eu_alefzero_owncloud_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/savePincodeAndExit()/body";
+"src_com_owncloud_android_db_UploadDbHandler.java/[CN]/UploadDbHandler/[MT]/storeUpload(UploadDbObject)/body";
+}
+subgraph cluster436 {
+"src_com_owncloud_android_operations_RemoveFileOperation.java/[CN]/RemoveFileOperation/[MT]/run(WebdavClient)/body";
+}
+subgraph cluster176 {
+"src_com_owncloud_android_datamodel_ThumbnailsCacheManager.java/[CN]/ThumbnailsCacheManager/[CN]/ThumbnailGenerationTask/[MT]/doInBackground(Object)/body";
+"src_com_owncloud_android_services_SyncFolderHandler.java/[CN]/SyncFolderHandler/[MT]/doOperation(Account,String)/body";
+}
+subgraph cluster317 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[CN]/OperationsServiceBinder/[MT]/queueNewOperation(Intent)/body";
+}
+subgraph cluster458 {
+"src_com_owncloud_android_authentication_AccountUtils.java/[CN]/AccountUtils/[MT]/setCurrentOwnCloudAccount(Context,String)/body";
+"src_com_owncloud_android_authentication_AccountUtils.java/[CN]/AccountUtils/[MT]/getCurrentOwnCloudAccount(Context)/body";
+}
+subgraph cluster356 {
+"src_eu_alefzero_owncloud_ui_activity_Preferences.java/[CN]/Preferences/[MT]/onMenuItemSelected(int,MenuItem)/body";
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onOptionsItemSelected(MenuItem)/body";
+"src_eu_alefzero_owncloud_files_PhotoTakenBroadcastReceiver.java/[CN]/PhotoTakenBroadcastReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster440 {
+"src_com_owncloud_android_ui_fragment_LocalFileListFragment.java/[CN]/LocalFileListFragment/[MT]/onItemClick(AdapterView<?>,View,int,long)/body";
+}
+subgraph cluster353 {
+"src_com_owncloud_android_operations_RemoteOperationResult.java/[CN]/RemoteOperationResult/[MT]/getLogMessage()/body";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/updateAuthStatusIconAndText(RemoteOperationResult)/body";
+}
+subgraph cluster51 {
+"src_com_owncloud_android_ui_fragment_UploadListFragment.java/[CN]/UploadListFragment/[CN]/ContainerActivity/[MT]/onUploadItemClick(UploadDbObject)/parameters";
+"src_com_owncloud_android_ui_fragment_UploadListFragment.java/[CN]/UploadListFragment/[CN]/ContainerActivity/[MT]/onUploadItemClick(UploadDbObject)/body";
+}
+subgraph cluster40 {
+"src_com_owncloud_android_files_services_ConnectivityActionReceiver.java/[CN]/ConnectivityActionReceiver/[MT]/wifiDisconnected(Context)/body";
+"src_com_owncloud_android_files_services_ConnectivityActionReceiver.java/[CN]/ConnectivityActionReceiver/[MT]/wifiConnected(Context)/parameters";
+}
+subgraph cluster461 {
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/onDestroy()/body";
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[MT]/onDestroy()/body";
+}
+subgraph cluster380 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(ContentResolver,Account,String)/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/createNewFile(ContentProviderClient,Account,String,long,long,long,String,long)/parameters";
+}
+subgraph cluster470 {
+"src_com_owncloud_android_utils_GetShareWithUsersAsyncTask.java/[CN]/GetShareWithUsersAsyncTask/[MT]/doInBackground(Object)/body";
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/requestCredentialsUpdate(Context,Account)/body";
+}
+subgraph cluster333 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/onBackPressed()/body";
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/browseToRoot()/body";
+}
+subgraph cluster407 {
+"src_com_owncloud_android_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/onKeyDown(int,KeyEvent)/body";
+}
+subgraph cluster465 {
+"src_com_owncloud_android_ui_activity_LogHistoryActivity.java/[CN]/LogHistoryActivity/[MT]/onMenuItemSelected(int,MenuItem)/body";
+}
+subgraph cluster18 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/onDestroy()/body";
+}
+subgraph cluster1 {
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/setButtonsForDown()/body";
+}
+subgraph cluster10 {
+"src_com_owncloud_android_media_MediaService.java/[CN]/MediaService/[MT]/updateNotification(String)/body";
+"src_eu_alefzero_owncloud_ui_fragment_ConfirmationDialogFragment.java/[CN]/ConfirmationDialogFragment/[MT]/onCreateDialog(Bundle)/body";
+}
+subgraph cluster495 {
+"src_com_owncloud_android_operations_SynchronizeFolderOperation.java/[CN]/SynchronizeFolderOperation/[MT]/startContentSynchronizations(List<SyncOperation>,OwnCloudClient)/body";
+"src_com_owncloud_android_ui_activity_Preferences.java/[CN]/Preferences/[MT]/run(AccountManagerFuture<Boolean>)/body";
+}
+subgraph cluster296 {
+"src_eu_alefzero_owncloud_OwnCloudMainScreen.java/[CN]/OwnCloudMainScreen/[MT]/onListItemClick(ListView,View,int,long)/body";
+}
+subgraph cluster190 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onActivityResult(int,int,Intent)/body";
+}
+subgraph cluster390 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[CS]/PreviewImageFragment()/body";
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onActivityCreated(Bundle)/body";
+}
+subgraph cluster52 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[MT]/onDestroy()/body";
+}
+subgraph cluster72 {
+"src_com_owncloud_android_ui_activity_MoveActivity.java/[CN]/MoveActivity/[MT]/startSyncFolderOperation(OCFile,boolean)/body";
+}
+subgraph cluster371 {
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/createFolder(String,boolean)/body";
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/moveFile(OCFile,OCFile)/body";
+}
+subgraph cluster420 {
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onNavigationItemSelected(int,long)/body";
+}
+subgraph cluster491 {
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[MT]/cancelUploadsForAccount(Account)/body";
+}
+subgraph cluster153 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onStop()/parameters";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onStop()/body";
+}
+subgraph cluster254 {
+"src_com_owncloud_android_operations_RemoteOperation.java/[CN]/RemoteOperation/[MT]/run()/body";
+}
+subgraph cluster311 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/onDestroy()/body";
+}
+subgraph cluster433 {
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/unshareFileWithUserOrGroup(OCFile,ShareType,String)/body";
+}
+subgraph cluster265 {
+"src_com_owncloud_android_operations_CreateShareOperation.java/[CN]/CreateShareOperation/[MT]/run(OwnCloudClient)/body";
+"src_com_owncloud_android_ui_activity_FolderPickerActivity.java/[CN]/FolderPickerActivity/[MT]/startSyncFolderOperation(OCFile,boolean)/body";
+"src_com_owncloud_android_operations_RefreshFolderOperation.java/[CN]/RefreshFolderOperation/[MT]/checkForChanges(OwnCloudClient)/body";
+}
+subgraph cluster379 {
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/[MT]/setTextListeners()/body";
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/[MT]/clearBoxes()/body";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[CN]/OnEditPermissionInteractionListener/[MT]/onCheckedChanged(CompoundButton,boolean)/body";
+}
+subgraph cluster399 {
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/switchFileView()/body";
+}
+subgraph cluster231 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/onSaveInstanceState(Bundle)/body";
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster100 {
+"src_com_owncloud_android_ui_activity_ShareActivity.java/[CN]/ShareActivity/[MT]/onRemoteOperationFinish(RemoteOperation,RemoteOperationResult)/body";
+"src_com_owncloud_android_files_services_FileDownloader.java/[CN]/FileDownloader/[CN]/FileDownloaderBinder/[MT]/cancel(Account,OCFile)/body";
+}
+subgraph cluster173 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onStop()/body";
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[CN]/SyncFolderHandler/[MT]/doOperation(Account,String)/body";
+}
+subgraph cluster431 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onFocusChange(View,boolean)/body";
+}
+subgraph cluster103 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onRemoteOperationFinish(RemoteOperation,RemoteOperationResult)/body";
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onGetServerInfoFinish(RemoteOperationResult)/body";
+}
+subgraph cluster391 {
+"src_com_owncloud_android_ui_fragment_LocalFileListFragment.java/[CN]/LocalFileListFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"src_com_owncloud_android_ui_fragment_TaskRetainerFragment.java/[CN]/TaskRetainerFragment/[MT]/onAttach(Context)/body";
+}
+subgraph cluster186 {
+"src_eu_alefzero_owncloud_files_services_FileDownloader.java/[CN]/FileDownloader/[MT]/onStartCommand(Intent,int,int)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/startSyncFolderOperation(OCFile,boolean)/parameters";
+}
+subgraph cluster213 {
+"src_com_owncloud_android_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/checkPincode()/body";
+}
+subgraph cluster450 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[FE]/MY_PACKAGE";
+}
+subgraph cluster111 {
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onFocusChange(View,boolean)/body";
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/continueConnection(String)/body";
+}
+subgraph cluster57 {
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[MT]/instantiateItem(ViewGroup,int)/body";
+"src_com_owncloud_android_ui_activity_VideoActivity.java/[CN]/VideoActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster359 {
+"src_com_owncloud_android_ui_activity_MoveActivity.java/[CN]/MoveActivity/[MT]/startSyncFolderOperation(OCFile,boolean)/parameters";
+}
+subgraph cluster240 {
+"src_com_owncloud_android_ui_controller_TransferProgressController.java/[CN]/TransferProgressController/[MT]/stopListeningProgressFor(OCFile,Account)/body";
+}
+subgraph cluster441 {
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/updateStatusIconAndText(RemoteOperationResult)/body";
+"src_com_owncloud_android_ui_activity_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster204 {
+"src_com_owncloud_android_ui_helpers_UriUploader.java/[CN]/UriUploader/[MT]/copyThenUpload(Uri[],String[])/body";
+}
+subgraph cluster268 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onRemoveFileOperationFinish(RemoveFileOperation,RemoteOperationResult)/body";
+}
+subgraph cluster321 {
+"src_com_owncloud_android_operations_SynchronizeFileOperation.java/[CN]/SynchronizeFileOperation/[MT]/run(WebdavClient)/body";
+}
+subgraph cluster511 {
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[MT]/pendingErrorAt(int)/body";
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[MT]/updateWithDownloadError(int)/body";
+}
+subgraph cluster416 {
+"src_com_owncloud_android_ui_preview_PreviewVideoFragment.java/[CN]/PreviewVideoFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster415 {
+"src_com_owncloud_android_ui_helpers_UriUploader.java/[CN]/UriUploader/[MT]/uploadUris()/body";
+}
+subgraph cluster385 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/populateDirectoryList()/body";
+}
+subgraph cluster350 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onStop()/body";
+}
+subgraph cluster34 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onBrowseUp()/body";
+"src_com_owncloud_android_operations_UpdateOCVersionOperation.java/[CN]/UpdateOCVersionOperation/[MT]/run(OwnCloudClient)/body";
+}
+subgraph cluster42 {
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[FE]/imageView";
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/switchImageView()/body";
+}
+subgraph cluster488 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/getModificationTimestamp()/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/setModificationTimestamp(long)/body";
+}
+subgraph cluster457 {
+"src_com_owncloud_android_ui_fragment_ExtendedListFragment.java/[CN]/ExtendedListFragment/[MT]/getFabUpload()/body";
+}
+subgraph cluster307 {
+"src_eu_alefzero_owncloud_files_services_FileUploader.java/[CN]/FileUploader/[MT]/uploadFile()/body";
+"src_eu_alefzero_owncloud_WebdavClient.java/[CN]/WebdavClient/[MT]/downloadFile(String,File)/body";
+}
+subgraph cluster277 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/toString()/body";
+}
+subgraph cluster376 {
+"src_com_owncloud_android_ui_preview_PreviewImageFragment.java/[CN]/PreviewImageFragment/[MT]/onCreateOptionsMenu(Menu,MenuInflater)/body";
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onPrepareOptionsMenu(Menu)/body";
+}
+subgraph cluster273 {
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[CS]/PreviewImagePagerAdapter(FragmentManager,OCFile,Account,FileDataStorageManager)/body";
+}
+subgraph cluster197 {
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[CN]/FileUploaderBinder/[MT]/onTransferProgress(long,long,long,String)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/updateActionBarTitleAndHomeButton(OCFile)/body";
+}
+subgraph cluster284 {
+"src_com_owncloud_android_ui_TextDrawable.java/[CN]/TextDrawable/[MT]/setColorFilter(ColorFilter)/body";
+"src_com_owncloud_android_ui_adapter_NavigationDrawerListAdapter.java/[CN]/NavigationDrawerListAdapter/[MT]/getView(int,View,ViewGroup)/body";
+}
+subgraph cluster189 {
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[CN]/SyncBroadcastReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster3 {
+"oc__jb__workaround_src_com_owncloud_android_workaround_accounts_AccountAuthenticatorService.java/[CN]/AccountAuthenticatorService/[CN]/AccountAuthenticator/[MT]/addAccount(AccountAuthenticatorResponse,String,String,String[],Bundle)/body";
+}
+subgraph cluster331 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/isPlaying()/body";
+}
+subgraph cluster178 {
+"src_com_owncloud_android_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/notifyFailsInFavourites()/body";
+}
+subgraph cluster113 {
+"src_com_owncloud_android_operations_MoveFileOperation.java/[CN]/MoveFileOperation/[CS]/MoveFileOperation(String,String,Account)/parameters";
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[CN]/OnPasswordInteractionListener/[MT]/onClick(View)/parameters";
+}
+subgraph cluster174 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[CN]/VideoHelper/[MT]/onError(MediaPlayer,int,int)/body";
+}
+subgraph cluster280 {
+"src_com_owncloud_android_files_services_FileUploader.java/[CN]/FileUploader/[MT]/onCreate()/body";
+}
+subgraph cluster106 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/addFile(OCFile)/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/getDirectoryContent()/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(ContentResolver,Account,String)/parameters";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/save()/body";
+}
+subgraph cluster246 {
+"src_com_owncloud_android_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/updateOCVersion()/body";
+"src_com_owncloud_android_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/onPerformSync(Account,Bundle,String,ContentProviderClient,SyncResult)/body";
+"src_com_owncloud_android_operations_UpdateOCVersionOperation.java/[CN]/UpdateOCVersionOperation/[CS]/UpdateOCVersionOperation(Account,Context)/body";
+}
+subgraph cluster334 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/registerFabUploadFromAppListeners()/body";
+}
+subgraph cluster475 {
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_UploadRemoteFileOperation.java/[CN]/UploadRemoteFileOperation/[FE]/mPutMethod";
+"oc__framework_src_com_owncloud_android_oc__framework_operations_remote_UploadRemoteFileOperation.java/[CN]/UploadRemoteFileOperation/[FE]/mStoragePath";
+}
+subgraph cluster117 {
+"src_com_owncloud_android_datamodel_OCFile.java/[CN]/OCFile/[MT]/resetData()/body";
+"src_eu_alefzero_owncloud_ui_activity_PinCodeActivity.java/[CN]/PinCodeActivity/[MT]/confirmPincode()/body";
+}
+subgraph cluster336 {
+"src_eu_alefzero_webdav_WebdavClient.java/[CN]/WebdavClient/[MT]/createDirectory(String)/body";
+"src_eu_alefzero_owncloud_ui_adapter_FileListActionListAdapter.java/[CN]/FileListActionListAdapter/[MT]/getItem(int)/body";
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onResume()/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileListFragment.java/[CN]/FileListFragment/[MT]/listDirectory(OCFile)/body";
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onActivityResult(int,int,Intent)/body";
+}
+subgraph cluster239 {
+"src_eu_alefzero_owncloud_syncadapter_FileSyncService.java/[CN]/FileSyncService/[MT]/onCreate()/body";
+"src_eu_alefzero_owncloud_syncadapter_FileSyncService.java/[CN]/FileSyncService/[MT]/onBind(Intent)/body";
+}
+subgraph cluster466 {
+"oc__framework_sample__client_src_com_owncloud_android_oc__framework_sampleclient_MainActivity.java/[CN]/MainActivity/[MT]/startDownload()/body";
+}
+subgraph cluster357 {
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/updateFileDetails()/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/setFilesize(long)/body";
+}
+subgraph cluster114 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/browseToRoot()/body";
+"src_com_owncloud_android_ui_adapter_NavigationDrawerListAdapter.java/[CN]/NavigationDrawerListAdapter/[MT]/updateAccountList()/body";
+}
+subgraph cluster263 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onNeutral(String)/body";
+"src_eu_alefzero_webdav_WebdavClient.java/[CN]/WebdavClient/[MT]/setBearerCredentials(String)/body";
+}
+subgraph cluster303 {
+"src_com_owncloud_android_ui_adapter_FileListListAdapter.java/[CN]/FileListListAdapter/[MT]/swapDirectory(OCFile,FileDataStorageManager)/parameters";
+}
+subgraph cluster133 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onCheckClick(View)/body";
+}
+subgraph cluster217 {
+"src_com_owncloud_android_files_FileMenuFilter.java/[CN]/FileMenuFilter/[CS]/FileMenuFilter(OCFile,Account,ComponentsGetter,Context)/body";
+}
+subgraph cluster486 {
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onSaveInstanceState(Bundle)/body";
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onNeutral(String)/body";
+}
+subgraph cluster131 {
+"src_com_owncloud_android_operations_UploadFileOperation.java/[CN]/UploadFileOperation/[MT]/createNewOCFile(String)/body";
+"src_com_owncloud_android_files_FileOperationsHelper.java/[CN]/FileOperationsHelper/[MT]/cancelTransference(OCFile)/body";
+}
+subgraph cluster61 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/registerFabUploadListeners()/body";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onItemClick(AdapterView<?>,View,int,long)/body";
+"src_com_owncloud_android_files_services_FileUploadService.java/[CN]/FileUploadService/[MT]/onStart(Intent,int)/parameters";
+}
+subgraph cluster142 {
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/[MT]/onKeyDown(int,KeyEvent)/body";
+"src_com_owncloud_android_ui_activity_PassCodeActivity.java/[CN]/PassCodeActivity/[MT]/setCancelButtonEnabled(boolean)/body";
+}
+subgraph cluster219 {
+"src_com_owncloud_android_ui_dialog_ConflictsResolveDialog.java/[CN]/ConflictsResolveDialog/[MT]/onCancel(DialogInterface)/body";
+"src_com_owncloud_android_ui_dialog_ChangelogDialog.java/[CN]/ChangelogDialog/[MT]/onCreateDialog(Bundle)/body";
+"src_com_owncloud_android_utils_DisplayUtils.java/[CN]/DisplayUtils/[MT]/getSeasonalIconId()/body";
+}
+subgraph cluster405 {
+"src_com_owncloud_android_files_FileMenuFilter.java/[CN]/FileMenuFilter/[MT]/filter(List<Integer>,List<Integer>)/body";
+}
+subgraph cluster374 {
+"src_eu_alefzero_owncloud_ui_fragment_FileListFragment.java/[CN]/FileListFragment/[MT]/onStart()/body";
+}
+subgraph cluster453 {
+"src_com_owncloud_android_ui_dialog_SslValidatorDialog.java/[CN]/SslValidatorDialog/[MT]/updateResult(RemoteOperationResult)/body";
+"src_com_owncloud_android_ui_dialog_SslValidatorDialog.java/[CN]/SslValidatorDialog/[MT]/showCertificateData(X509Certificate)/body";
+}
+subgraph cluster355 {
+"src_com_owncloud_android_operations_SynchronizeFileOperation.java/[CN]/SynchronizeFileOperation/[CS]/SynchronizeFileOperation(OCFile,OCFile,Account,boolean,boolean,Context)/body";
+}
+subgraph cluster181 {
+"src_com_owncloud_android_services_observer_FolderObserver.java/[CN]/FolderObserver/[MT]/startSyncOperation(String)/body";
+"src_com_owncloud_android_media_MediaServiceBinder.java/[CN]/MediaServiceBinder/[MT]/start(Account,OCFile,boolean,int)/body";
+"src_com_owncloud_android_ui_dialog_RemoveFileDialogFragment.java/[CN]/RemoveFileDialogFragment/[MT]/onConfirmation(String)/body";
+}
+subgraph cluster37 {
+"src_com_owncloud_android_ui_activity_ShareActivity.java/[CN]/ShareActivity/[MT]/showSearchUsersAndGroups()/body";
+"src_com_owncloud_android_ui_activity_ShareActivity.java/[CN]/ShareActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster209 {
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[MT]/loadAndShowTextPreview()/parameters";
+}
+subgraph cluster155 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/sortBySize(boolean)/body";
+}
+subgraph cluster262 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onCreateOptionsMenu(Menu,MenuInflater)/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/onCreateOptionsMenu(Menu,MenuInflater)/body";
+}
+subgraph cluster233 {
+"src_com_owncloud_android_db_OCUpload.java/[CN]/OCUpload/[MT]/writeToParcel(Parcel,int)/body";
+"src_com_owncloud_android_db_OCUpload.java/[CN]/OCUpload/[MT]/readFromParcel(Parcel)/body";
+}
+subgraph cluster290 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/getPosition()/body";
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/onPause()/body";
+}
+subgraph cluster464 {
+"src_com_owncloud_android_ui_activity_MoveActivity.java/[CN]/MoveActivity/[MT]/onBrowsedDownTo(OCFile)/body";
+"src_com_owncloud_android_ui_activity_MoveActivity.java/[CN]/MoveActivity/[MT]/onAccountSet(boolean)/body";
+"src_com_owncloud_android_ui_activity_MoveActivity.java/[CN]/MoveActivity/[MT]/browseToRoot()/body";
+}
+subgraph cluster140 {
+"src_com_owncloud_android_operations_DetectAuthenticationMethodOperation.java/[CN]/DetectAuthenticationMethodOperation/[MT]/run(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_GetSharesForFileOperation.java/[CN]/GetSharesForFileOperation/[MT]/run(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_UploadFileOperation.java/[CN]/UploadFileOperation/[MT]/existsFile(OwnCloudClient,String)/body";
+"src_com_owncloud_android_operations_RefreshFolderOperation.java/[CN]/RefreshFolderOperation/[MT]/refreshSharesForFolder(OwnCloudClient)/body";
+"src_com_owncloud_android_operations_GetSharesOperation.java/[CN]/GetSharesOperation/[MT]/run(OwnCloudClient)/body";
+}
+subgraph cluster147 {
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[MT]/onItemClick(AdapterView<?>,View,int,long)/body";
+"src_com_owncloud_android_ui_activity_Uploader.java/[CN]/Uploader/[CN]/SyncBroadcastReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster86 {
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[MT]/getItemPosition(Object)/body";
+}
+subgraph cluster373 {
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/onPause()/body";
+"src_com_owncloud_android_ui_dialog_SamlWebViewDialog.java/[CN]/SamlWebViewDialog/[MT]/onDestroyView()/body";
+}
+subgraph cluster7 {
+"src_com_owncloud_android_ui_activity_UploadFilesActivity.java/[CN]/UploadFilesActivity/[MT]/onDirectoryClick(File)/body";
+"src_com_owncloud_android_ui_activity_UploadFilesActivity.java/[CN]/UploadFilesActivity/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster365 {
+"src_com_owncloud_android_ui_fragment_ShareFileFragment.java/[CN]/ShareFileFragment/[CN]/OnPasswordInteractionListener/[MT]/onClick(View)/body";
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onRemoteOperationFinish(RemoteOperation,RemoteOperationResult)/body";
+}
+subgraph cluster17 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/createNewFile(ContentResolver,Account,String,int,int,int,String,long)/body";
+}
+subgraph cluster291 {
+"src_de_mobilcom_debitel_cloud_android_ui_activity_ErrorsWhileCopyingHandlerActivity.java/[CN]/ErrorsWhileCopyingHandlerActivity/[MT]/onCreate(Bundle)/body";
+"src_de_mobilcom_debitel_cloud_android_ui_activity_UploadFilesActivity.java/[CN]/UploadFilesActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster98 {
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/setLastUploadPath(String,Context)/body";
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/instantPictureUploadEnabled(Context)/body";
+"src_com_owncloud_android_db_PreferenceManager.java/[CN]/PreferenceManager/[MT]/getLastUploadPath(Context)/body";
+}
+subgraph cluster312 {
+"src_com_owncloud_android_ui_activity_UploadFilesActivity.java/[CN]/UploadFilesActivity/[MT]/onNeutral(String)/body";
+"src_com_owncloud_android_ui_activity_UploadFilesActivity.java/[CN]/UploadFilesActivity/[MT]/onConfirmation(String)/body";
+}
+subgraph cluster428 {
+"src_com_owncloud_android_services_OperationsService.java/[CN]/OperationsService/[CN]/SyncFolderHandler/[MT]/isSynchronizing(Account,String)/body";
+}
+subgraph cluster33 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[MT]/onConfigurationChanged(Configuration)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[MT]/onResume()/body";
+}
+subgraph cluster188 {
+"src_com_owncloud_android_operations_RemoteOperationResult.java/[CN]/RemoteOperationResult/[CS]/RemoteOperationResult(Exception)/body";
+"src_com_owncloud_android_ui_preview_PreviewImageActivity.java/[CN]/PreviewImageActivity/[MT]/onPageSelected(int)/body";
+}
+subgraph cluster482 {
+"src_com_owncloud_android_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[CN]/SyncBroadcastReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster41 {
+"src_com_owncloud_android_ui_activity_ReceiveExternalFilesActivity.java/[CN]/ReceiveExternalFilesActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster43 {
+"src_com_owncloud_android_ui_activity_FileActivity.java/[CN]/FileActivity/[MT]/onPostCreate(Bundle)/body";
+}
+subgraph cluster297 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/isDirectory()/body";
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[MT]/getFileName()/body";
+}
+subgraph cluster323 {
+"src_com_owncloud_android_ui_preview_PreviewVideoActivity.java/[CN]/PreviewVideoActivity/[MT]/onCreate(Bundle)/body";
+"src_com_owncloud_android_ui_preview_PreviewVideoActivity.java/[CN]/PreviewVideoActivity/[MT]/onBackPressed()/body";
+}
+subgraph cluster286 {
+"src_eu_alefzero_owncloud_datamodel_OCFile.java/[CN]/OCFile/[CS]/OCFile(ContentResolver,Account,long)/body";
+"src_eu_alefzero_owncloud_ui_fragment_FileList.java/[CN]/FileList/[MT]/populateFileList()/body";
+}
+subgraph cluster507 {
+"src_com_owncloud_android_operations_RefreshFolderOperation.java/[CN]/RefreshFolderOperation/[MT]/synchronizeData(ArrayList<Object>,OwnCloudClient)/body";
+"src_eu_alefzero_owncloud_ui_activity_FileDisplayActivity.java/[CN]/FileDisplayActivity/[CN]/UploadFinishReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster139 {
+"src_com_owncloud_android_ui_fragment_UploadListFragment.java/[CN]/UploadListFragment/[MT]/onActivityCreated(Bundle)/body";
+}
+subgraph cluster169 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/checkOcServer()/body";
+}
+subgraph cluster162 {
+"src_com_owncloud_android_ui_activity_VideoActivity.java/[CN]/VideoActivity/[MT]/onTouchEvent(MotionEvent)/body";
+}
+subgraph cluster170 {
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/onActivityCreated(Bundle)/body";
+"src_com_owncloud_android_ui_fragment_OCFileListFragment.java/[CN]/OCFileListFragment/[MT]/listDirectory()/body";
+}
+subgraph cluster252 {
+"src_com_owncloud_android_authentication_PassCodeManager.java/[CN]/PassCodeManager/[MT]/passCodeShouldBeRequested()/body";
+"src_eu_alefzero_owncloud_syncadapter_FileSyncAdapter.java/[CN]/FileSyncAdapter/[MT]/fetchData(String,SyncResult,long)/body";
+}
+subgraph cluster308 {
+"src_com_owncloud_android_ui_activity_FileDetailActivity.java/[CN]/FileDetailActivity/[CN]/DownloadFinishReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster490 {
+"src_com_owncloud_android_datamodel_ThumbnailsCacheManager.java/[CN]/ThumbnailsCacheManager/[CN]/AsyncLocalDrawable/[MT]/getBitmapWorkerTask()/body";
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/synchronizeFile()/body";
+}
+subgraph cluster11 {
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[CN]/TextLoadAsyncTask/[MT]/showLoadingDialog()/body";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[CN]/TextLoadAsyncTask/[FE]/DIALOG_WAIT_TAG";
+"src_com_owncloud_android_ui_preview_PreviewTextFragment.java/[CN]/PreviewTextFragment/[CN]/TextLoadAsyncTask/[MT]/dismissLoadingDialog()/body";
+}
+subgraph cluster38 {
+"src_com_owncloud_android_ui_preview_PreviewMediaFragment.java/[CN]/PreviewMediaFragment/[MT]/seeShareFile()/body";
+}
+subgraph cluster324 {
+"src_com_owncloud_android_authentication_AuthenticatorActivity.java/[CN]/AuthenticatorActivity/[MT]/onSamlBasedFederatedSingleSignOnAuthorizationStart(RemoteOperationResult)/body";
+}
+subgraph cluster212 {
+"src_com_owncloud_android_ui_dialog_ConflictsResolveDialog.java/[CN]/ConflictsResolveDialog/[MT]/onCreateDialog(Bundle)/body";
+"src_com_owncloud_android_ui_preview_PreviewImagePagerAdapter.java/[CN]/PreviewImagePagerAdapter/[MT]/updateFile(int,OCFile)/body";
+}
+subgraph cluster327 {
+"src_com_owncloud_android_ui_fragment_FileDetailFragment.java/[CN]/FileDetailFragment/[MT]/setButtonsForRemote()/body";
+}
+subgraph cluster216 {
+"src_eu_alefzero_owncloud_ui_fragment_FileListFragment.java/[CN]/FileListFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+}
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[

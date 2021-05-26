@@ -1,0 +1,1732 @@
+
+
+
+digraph {
+subgraph cluster442 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/addAtmosphereResource(AtmosphereResource<?,?>)/body";
+}
+subgraph cluster270 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/destroy()/body";
+}
+subgraph cluster223 {
+"modules_cpr_src_main_java_org_atmosphere_container_JBossWebCometSupport.java/[CN]/JBossWebCometSupport/[MT]/complete(AtmosphereResourceImpl)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_TomcatCometSupport.java/[CN]/TomcatCometSupport/[MT]/complete(AtmosphereResourceImpl)/body";
+}
+subgraph cluster325 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/interceptor(AtmosphereInterceptor)/body";
+}
+subgraph cluster241 {
+"modules_cpr_src_main_java_org_atmosphere_cache_HeaderBroadcasterCache.java/[CN]/HeaderBroadcasterCache/[MT]/retrieveLastMessage(AtmosphereResource<HttpServletRequest,HttpServletResponse>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cache_HeaderBroadcasterCache.java/[CN]/HeaderBroadcasterCache/[MT]/cache(AtmosphereResource<HttpServletRequest,HttpServletResponse>,CachedMessage)/body";
+}
+subgraph cluster261 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getParameterNames()/body";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getServerName()/body";
+}
+subgraph cluster189 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/response(WebSocketHttpServletResponse<?>)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[FE]/request";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/response(WebSocketHttpServletResponse<?>)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/invokeWebSocketProtocol(byte[],int,int)/body";
+}
+subgraph cluster40 {
+"extras_guice_src_main_java_org_atmosphere_guice_GuiceManagedAtmosphereServlet.java/[CN]/GuiceManagedAtmosphereServlet/[CS]/GuiceManagedAtmosphereServlet(boolean,boolean)/body";
+}
+subgraph cluster290 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/framework()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/getWriter()/body";
+}
+subgraph cluster146 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/removeAtmosphereHandler(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/addMapping(String,AtmosphereHandlerWrapper)/body";
+}
+subgraph cluster299 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/checkDuplicate(List<AtmosphereInterceptor>,Class<? extends AtmosphereInterceptor>)/body";
+}
+subgraph cluster191 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableSession.java/[CN]/TrackableSession/[CN]/AliveChecker/[MT]/onDisconnect(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ManagedServiceInterceptor.java/[CN]/ManagedServiceInterceptor/extend";
+}
+subgraph cluster478 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcast(T,Set<AtmosphereResource<?,?>>)/body";
+}
+subgraph cluster107 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_TomcatWebSocket.java/[CN]/TomcatWebSocket/[MT]/write(byte[])/body";
+}
+subgraph cluster96 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableSession.java/[CN]/TrackableSession/[CN]/AliveChecker/[MT]/onResume(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/parameters";
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableSession.java/[CN]/TrackableSession/[CN]/AliveChecker/extend";
+}
+subgraph cluster265 {
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_AnnotationDetector.java/[CN]/AnnotationDetector/[MT]/readAnnotation(DataInput)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_AnnotationDetector.java/[CN]/AnnotationDetector/[MT]/readAttributes(DataInput,char,boolean)/body";
+}
+subgraph cluster490 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ServiceInterceptor.java/[CN]/ServiceInterceptor/[MT]/configure(AtmosphereConfig)/body";
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ServiceInterceptor.java/[CN]/ServiceInterceptor/[MT]/inspect(AtmosphereResource)/body";
+}
+subgraph cluster143 {
+"extras_gwt_atmosphere-gwt-client_src_main_java_org_atmosphere_gwt_client_AtmosphereClient.java/[CN]/AtmosphereClient/[MT]/failedRefresh()/body";
+"extras_gwt_atmosphere-gwt-client_src_main_java_org_atmosphere_gwt_client_AtmosphereClient.java/[CN]/AtmosphereClient/[MT]/doOnError(Throwable,boolean,CometClientTransportWrapper)/body";
+}
+subgraph cluster196 {
+"modules_cpr_src_main_java_org_atmosphere_container_Servlet30CometSupport.java/[CN]/Servlet30CometSupport/[CN]/CometListener/[MT]/onStartAsync(AsyncEvent)/body";
+}
+subgraph cluster25 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_OnDisconnectInterceptor.java/[CN]/OnDisconnectInterceptor/[MT]/configure(AtmosphereConfig)/body";
+}
+subgraph cluster303 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/toString()/body";
+}
+subgraph cluster494 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/resume()/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_EchoProtocol.java/[CN]/EchoProtocol/[MT]/onOpen(WebSocket)/body";
+}
+subgraph cluster221 {
+"samples_websocket-chat_src_main_java_org_atmosphere_samples_chat_WebSocketChat.java/[CN]/WebSocketChat/[MT]/onOpen(WebSocket)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/notifyListener(WebSocket,WebSocketEventListener.WebSocketEvent)/body";
+}
+subgraph cluster267 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_EchoProtocol.java/[CN]/EchoProtocol/[MT]/onError(WebSocket,WebSocketProcessor.WebSocketException)/parameters";
+}
+subgraph cluster43 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcast(Object)/body";
+}
+subgraph cluster92 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/addAtmosphereHandler(String,AtmosphereHandler,Broadcaster)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/addAtmosphereHandler(String,AtmosphereHandler)/body";
+}
+subgraph cluster464 {
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/retryInjection(AtmosphereFramework)/body";
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/nullFieldInjectionFor(Field,U,Class<T>)/body";
+}
+subgraph cluster187 {
+"modules_cpr_src_main_java_org_atmosphere_container_TomcatCometSupport.java/[CN]/TomcatCometSupport/[MT]/action(AtmosphereResourceImpl)/body";
+}
+subgraph cluster5 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[MT]/session(HttpSession)/body";
+}
+subgraph cluster230 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ManagedAtmosphereHandler.java/[CN]/ManagedAtmosphereHandler/[MT]/configure(AtmosphereConfig,Object)/body";
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ManagedAtmosphereHandler.java/[CN]/ManagedAtmosphereHandler/[MT]/onRequest(AtmosphereResource)/body";
+}
+subgraph cluster428 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/setIntHeader(String,int)/body";
+}
+subgraph cluster449 {
+"samples_commons_src_main_java_org_atmosphere_commons_util_EventsLogger.java/[CN]/EventsLogger/[MT]/onSuspend(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster423 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/filter(Object)/body";
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[MT]/resumeOnBroadcast(boolean)/body";
+}
+subgraph cluster367 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequestImpl.java/[CN]/AtmosphereRequestImpl/[MT]/getAsyncContext()/body";
+}
+subgraph cluster133 {
+"modules_cpr_src_main_java_org_atmosphere_util_IOUtils.java/[CN]/IOUtils/[MT]/readServiceFile(String)/body";
+}
+subgraph cluster407 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_AtmosphereHandlerServiceInterceptor.java/[CN]/AtmosphereHandlerServiceInterceptor/[MT]/inspect(AtmosphereResource)/body";
+}
+subgraph cluster8 {
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/nullFieldInjectionFor(Field,U,Class<T>)/parameters";
+}
+subgraph cluster403 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/sendRedirect(String)/body";
+}
+subgraph cluster507 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_container_Jetty8WebSocket.java/[CN]/Jetty8WebSocket/[MT]/redirect(String)/body";
+}
+subgraph cluster136 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/setIsInScope(boolean)/body";
+}
+subgraph cluster348 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/initWebSocket()/body";
+}
+subgraph cluster237 {
+"modules_cpr_src_main_java_org_atmosphere_util_ForkJoinPool.java/[CN]/ForkJoinPool/[CS]/ForkJoinPool()/body";
+}
+subgraph cluster219 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/addIntHeader(String,int)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/setHeader(String,String)/body";
+}
+subgraph cluster382 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[FE]/localAttributes";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getAttributeNames()/parameters";
+}
+subgraph cluster401 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/createWrapperAndConfigureHandler(AtmosphereHandler,String,List<AtmosphereInterceptor>)/body";
+}
+subgraph cluster444 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponseImpl.java/[CN]/AtmosphereResponseImpl/[MT]/getWriter()/body";
+}
+subgraph cluster210 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[CN]/AsyncWriteToken/[FE]/originalMessage";
+}
+subgraph cluster116 {
+"extras_gwt_atmosphere-gwt-server_src_main_java_org_atmosphere_gwt_server_AtmosphereGwtHandler.java/[CN]/AtmosphereGwtHandler/[MT]/reapResources()/body";
+}
+subgraph cluster60 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[FE]/parameters";
+}
+subgraph cluster24 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/destroy()/body";
+}
+subgraph cluster69 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_TomcatWebSocket.java/[CN]/TomcatWebSocket/[MT]/close(AtmosphereResponse)/body";
+}
+subgraph cluster186 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/configureSharedCacheExecutor()/body";
+}
+subgraph cluster231 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_Invoker.java/[CN]/Invoker/[MT]/matchDecoder(Object,List<Decoder<?,?>>)/body";
+}
+subgraph cluster66 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAtmosphereResourceSessionFactory.java/[CN]/DefaultAtmosphereResourceSessionFactory/[FE]/disconnectListener";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAtmosphereResourceSession.java/[CN]/DefaultAtmosphereResourceSession/[MT]/getAttribute(String)/body";
+}
+subgraph cluster86 {
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_ClassFileIterator.java/[CN]/ClassFileIterator/[MT]/next()/body";
+}
+subgraph cluster324 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/toString()/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/dispatch(HttpServletRequest,AtmosphereResponse<?>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsynchronousProcessor.java/[CN]/AsynchronousProcessor/[MT]/destroyResource(AtmosphereResource<?,?>)/parameters";
+}
+subgraph cluster10 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/addWebSocketHandler(String,WebSocketHandler,AtmosphereHandler,List<AtmosphereInterceptor>)/body";
+}
+subgraph cluster481 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/toString()/body";
+}
+subgraph cluster239 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcasterFactory.java/[CN]/DefaultBroadcasterFactory/[MT]/lookup(Class<T>,Object,boolean,boolean)/body";
+}
+subgraph cluster452 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/isResumed()/body";
+}
+subgraph cluster16 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getServletPath()/body";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_CacheHeadersInterceptor.java/[CN]/CacheHeadersInterceptor/[MT]/inspect(AtmosphereResource)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[MT]/servletPath(String)/parameters";
+}
+subgraph cluster339 {
+"modules_cpr_src_main_java_org_atmosphere_container_Tomcat7CometSupport.java/[CN]/Tomcat7CometSupport/[MT]/action(AtmosphereResourceImpl)/body";
+}
+subgraph cluster429 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_JSR356WebSocket.java/[CN]/JSR356WebSocket/[MT]/write(byte[],int,int)/body";
+}
+subgraph cluster455 {
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onClose(WebSocket)/body";
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onMessage(WebSocket,byte[],int,int)/parameters";
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/lookupBroadcaster(String)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/resource()/parameters";
+}
+subgraph cluster26 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFrameworkInitializer.java/[CN]/AtmosphereFrameworkInitializer/[MT]/framework()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/newAtmosphereFramework()/body";
+}
+subgraph cluster268 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[CN]/WebSocketException/extend";
+}
+subgraph cluster255 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceSessionFactory.java/[CN]/AtmosphereResourceSessionFactory/[MT]/getSession(AtmosphereResource)/parameters";
+}
+subgraph cluster330 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AtmosphereResourceStateRecovery.java/[CN]/AtmosphereResourceStateRecovery/[CN]/BroadcasterTracker/[MT]/add(Broadcaster)/body";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_CorsInterceptor.java/[CN]/CorsInterceptor/[MT]/inspect(AtmosphereResource)/parameters";
+}
+subgraph cluster479 {
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onError(WebSocket,WebSocketProcessor.WebSocketException)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[CN]/WebSocketException/[MT]/response()/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_EchoProtocol.java/[CN]/EchoProtocol/[MT]/onError(WebSocket,WebSocketProcessor.WebSocketException)/body";
+}
+subgraph cluster215 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getHeaderNames()/body";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_JavaScriptProtocol.java/[CN]/JavaScriptProtocol/[MT]/configure(AtmosphereConfig)/body";
+}
+subgraph cluster228 {
+"modules_cpr_src_main_java_org_atmosphere_util_SimpleBroadcaster.java/[CN]/SimpleBroadcaster/[MT]/createBroadcasterConfig(AtmosphereConfig)/body";
+}
+subgraph cluster362 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getLocalAddr()/body";
+}
+subgraph cluster379 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[MT]/init(ServletConfig)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/queryString(String)/body";
+}
+subgraph cluster463 {
+"modules_cpr_src_main_java_org_atmosphere_util_SimpleBroadcaster.java/[CN]/SimpleBroadcaster/[MT]/broadcast(Object,AtmosphereResource)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceSessionFactory.java/[CN]/AtmosphereResourceSessionFactory/[MT]/getSession(AtmosphereResource,boolean)/parameters";
+}
+subgraph cluster413 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/configureWebDotXmlAtmosphereHandler(ServletConfig)/body";
+}
+subgraph cluster87 {
+"samples_jquery-pubsub_src_main_java_org_atmosphere_samples_pubsub_EventsLogger.java/[CN]/EventsLogger/[MT]/onResume(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+"samples_jquery-pubsub_src_main_java_org_atmosphere_samples_pubsub_EventsLogger.java/[CN]/EventsLogger/[MT]/onBroadcast(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster264 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereInterceptorWriter.java/[CN]/AtmosphereInterceptorWriter/[MT]/write(byte[])/body";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_JSONPAtmosphereInterceptor.java/[CN]/JSONPAtmosphereInterceptor/[MT]/inspect(AtmosphereResource)/body";
+}
+subgraph cluster156 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/write(byte[],int,int)/body";
+}
+subgraph cluster446 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onClose(com.sun.grizzly.websockets.WebSocket,DataFrame)/body";
+}
+subgraph cluster319 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[FE]/method";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getMethod()/body";
+}
+subgraph cluster243 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_container_JettyWebSocket.java/[CN]/JettyWebSocket/[MT]/writeError(int,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/setAtmosphereResource(AtmosphereResource<?,?>)/body";
+}
+subgraph cluster461 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/broadcast(Object)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/suspend(long)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/delayBroadadcast(Object,long)/body";
+}
+subgraph cluster105 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_MeteorServlet.java/[CN]/MeteorServlet/[MT]/destroy()/body";
+}
+subgraph cluster192 {
+"extras_gwt_atmosphere-gwt-server_src_main_java_org_atmosphere_gwt_server_AtmosphereGwtHandler.java/[CN]/AtmosphereGwtHandler/[MT]/doCometImpl(GwtAtmosphereResourceImpl)/body";
+}
+subgraph cluster277 {
+"extras_gwt_atmosphere-gwt-server_src_main_java_org_atmosphere_gwt_server_AtmosphereGwtHandler.java/[CN]/AtmosphereGwtHandler/[MT]/destroy()/body";
+}
+subgraph cluster440 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/executeAsyncWrite(AsyncWriteToken)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/cacheLostMessage(AtmosphereResource,AsyncWriteToken,boolean)/body";
+}
+subgraph cluster460 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/configureAtmosphereResourceFactory()/body";
+}
+subgraph cluster395 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[FE]/response";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/response()/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/request()/parameters";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/response()/parameters";
+}
+subgraph cluster222 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/onPreSuspend(AtmosphereResourceEvent)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/onSuspend(AtmosphereResourceEvent)/body";
+}
+subgraph cluster310 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_SSEAtmosphereInterceptor.java/[CN]/SSEAtmosphereInterceptor/[MT]/configure(AtmosphereConfig)/body";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_SSEAtmosphereInterceptor.java/[CN]/SSEAtmosphereInterceptor/[MT]/configure(AtmosphereConfig)/parameters";
+}
+subgraph cluster275 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequestImpl.java/[CN]/AtmosphereRequestImpl/[MT]/isAsyncStarted()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequestImpl.java/[CN]/AtmosphereRequestImpl/[MT]/startAsync(ServletRequest,ServletResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequestImpl.java/[CN]/AtmosphereRequestImpl/[MT]/startAsync()/body";
+}
+subgraph cluster35 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AtmosphereResourceStateRecovery.java/[CN]/AtmosphereResourceStateRecovery/[MT]/configure(AtmosphereConfig)/body";
+}
+subgraph cluster482 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponseImpl.java/[CN]/AtmosphereResponseImpl/[MT]/getOutputStream()/body";
+}
+subgraph cluster502 {
+"modules_cpr_src_main_java_org_atmosphere_container_JSR356AsyncSupport.java/[CN]/JSR356AsyncSupport/[CN]/AtmosphereConfigurator/[MT]/getEndpointInstance(java.lang.Class<T>)/body";
+}
+subgraph cluster19 {
+"modules_cpr_src_main_java_org_atmosphere_util_ServletContextFactory.java/[CN]/ServletContextFactory/[MT]/init(ServletContext)/body";
+}
+subgraph cluster425 {
+"extras_gwt_atmosphere-gwt-client_src_main_java_org_atmosphere_gwt_client_AtmosphereClient.java/[CN]/AtmosphereClient/[MT]/doneRefresh()/body";
+}
+subgraph cluster309 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getParameterValues(String)/body";
+}
+subgraph cluster274 {
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/getCreationTime()/body";
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/removeValue(String)/body";
+}
+subgraph cluster508 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsyncSupportListenerAdapter.java/[CN]/AsyncSupportListenerAdapter/[MT]/onDestroyed(AtmosphereRequest,AtmosphereResponse)/body";
+}
+subgraph cluster250 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketSupport.java/[CN]/JettyWebSocketSupport/[MT]/write(byte,byte[])/body";
+}
+subgraph cluster22 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcasterFactory.java/[CN]/DefaultBroadcasterFactory/[MT]/removeAllAtmosphereResource(AtmosphereResource<?,?>)/body";
+"modules_jersey_src_main_java_org_atmosphere_jersey_util_JerseyBroadcasterUtil.java/[CN]/JerseyBroadcasterUtil/[MT]/onException(Throwable,AtmosphereResource<?,?>)/body";
+}
+subgraph cluster363 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocket.java/[CN]/WebSocket/[MT]/write(AtmosphereResponse,String)/body";
+}
+subgraph cluster437 {
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onError(WebSocket,WebSocketProcessor.WebSocketException)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_websocket_container_Jetty8WebSocket.java/[CN]/Jetty8WebSocket/[MT]/writeError(int,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_SimpleHttpProtocol.java/[CN]/SimpleHttpProtocol/[MT]/onError(WebSocket,WebSocketProcessor.WebSocketException)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[CN]/WebSocketException/[CS]/WebSocketException(Throwable,WebSocketHttpServletResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[CN]/WebSocketException/[FE]/r";
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[FE]/logger";
+}
+subgraph cluster11 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketHandler.java/[CN]/GlassFishWebSocketHandler/[MT]/onMessage(WebSocket,byte[])/body";
+}
+subgraph cluster207 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/getHeaders(String)/body";
+}
+subgraph cluster82 {
+"modules_cpr_src_main_java_org_atmosphere_util_ExcludeSessionBroadcaster.java/[CN]/ExcludeSessionBroadcaster/[MT]/broadcast(Object,Set<AtmosphereResource>)/body";
+}
+subgraph cluster38 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/resource()/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/request()/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/request(HttpServletRequest)/parameters";
+}
+subgraph cluster404 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onMessage(com.sun.grizzly.websockets.WebSocket,String)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onPong(com.sun.grizzly.websockets.WebSocket,byte[])/body";
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onFragment(com.sun.grizzly.websockets.WebSocket,byte[],boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onPing(com.sun.grizzly.websockets.WebSocket,byte[])/body";
+}
+subgraph cluster361 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_Jetty8WebSocket.java/[CN]/Jetty8WebSocket/[MT]/writeError(int,String)/body";
+}
+subgraph cluster415 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/postProcessMapping(WebSocket,AtmosphereRequest,WebSocketHandlerProxy)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/registerWebSocketHandler(String,WebSocketHandlerProxy)/body";
+}
+subgraph cluster0 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/configureBroadcasterCache()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/configureBroadcasterFilter(String[])/body";
+}
+subgraph cluster29 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsynchronousProcessor.java/[CN]/AsynchronousProcessor/[MT]/action(AtmosphereRequest,AtmosphereResponse)/body";
+}
+subgraph cluster456 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/addAtmosphereHandler(String,AtmosphereHandler,String,List<AtmosphereInterceptor>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcast(T,AtmosphereResource)/body";
+}
+subgraph cluster154 {
+"modules_cpr_src_main_java_org_atmosphere_container_JBossWebSocketHandler.java/[CN]/JBossWebSocketHandler/[MT]/onReceivedFrame(WebSocket)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/initAtmosphereHandler(ServletConfig)/body";
+}
+subgraph cluster90 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_BroadcastOnPostAtmosphereInterceptor.java/[CN]/BroadcastOnPostAtmosphereInterceptor/[MT]/postInspect(AtmosphereResource)/body";
+}
+subgraph cluster235 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getSession(boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getParameterValues(String)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getParameterValues(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[FE]/serverName";
+}
+subgraph cluster505 {
+"modules_cpr_src_main_java_org_atmosphere_util_SimpleBroadcaster.java/[CN]/SimpleBroadcaster/[MT]/broadcast(T,AtmosphereResource<?,?>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcast(T,AtmosphereResource<?,?>)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_SimpleBroadcaster.java/[CN]/SimpleBroadcaster/[MT]/broadcast(T,Set<AtmosphereResource<?,?>>)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_SimpleBroadcaster.java/[CN]/SimpleBroadcaster/[MT]/broadcast(T)/body";
+}
+subgraph cluster119 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_SimpleHttpProtocol.java/[CN]/SimpleHttpProtocol/[MT]/parseMessage(byte[],int,int)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_SimpleHttpProtocol.java/[CN]/SimpleHttpProtocol/[MT]/parseMessage(String)/body";
+}
+subgraph cluster375 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/destroy()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_MeteorServlet.java/[CN]/MeteorServlet/[MT]/init(ServletConfig)/body";
+}
+subgraph cluster234 {
+"modules_cpr_src_main_java_org_atmosphere_util_SimpleBroadcaster.java/[CN]/SimpleBroadcaster/[MT]/broadcast(Object)/body";
+"samples_jquery-pubsub_src_main_java_org_atmosphere_samples_pubsub_EventsLogger.java/[CN]/EventsLogger/[MT]/onSuspend(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster131 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/detectSupportedFramework(ServletConfig)/body";
+}
+subgraph cluster252 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceEventImpl.java/[CN]/AtmosphereResourceEventImpl/[CS]/AtmosphereResourceEventImpl(AtmosphereResourceImpl,boolean,boolean,boolean,Throwable)/body";
+}
+subgraph cluster447 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_GrizzlyWebSocket.java/[CN]/GrizzlyWebSocket/[MT]/writeError(int,String)/body";
+}
+subgraph cluster468 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/build(HttpServletRequest,Broadcaster.SCOPE,List<BroadcastFilter>,Serializer)/body";
+}
+subgraph cluster188 {
+"modules_cpr_src_main_java_org_atmosphere_container_JBossWebCometSupport.java/[CN]/JBossWebCometSupport/[MT]/cancelled(AtmosphereRequest,AtmosphereResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_JBossWebCometSupport.java/[CN]/JBossWebCometSupport/[MT]/service(AtmosphereRequest,AtmosphereResponse)/body";
+}
+subgraph cluster95 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/setBroadcasterLifeCyclePolicy(BroadcasterLifeCyclePolicy)/parameters";
+}
+subgraph cluster387 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereInterceptorWriter.java/[CN]/AtmosphereInterceptorWriter/[MT]/write(String)/body";
+}
+subgraph cluster34 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_MeteorServiceInterceptor.java/[CN]/MeteorServiceInterceptor/[MT]/mapAnnotatedService(AtmosphereRequest,AtmosphereHandlerWrapper)/body";
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ManagedServiceInterceptor.java/[CN]/ManagedServiceInterceptor/[MT]/mapAnnotatedService(AtmosphereRequest,AtmosphereHandlerWrapper)/body";
+}
+subgraph cluster365 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/initialize(AtmosphereConfig,Broadcaster,AtmosphereRequest,AtmosphereResponse,AsyncSupport,AtmosphereHandler)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_Tomcat7CometSupport.java/[CN]/Tomcat7CometSupport/[MT]/action(AtmosphereResourceImpl)/parameters";
+}
+subgraph cluster285 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_HttpServletRequestWebSocketProcessor.java/[CN]/HttpServletRequestWebSocketProcessor/[CS]/HttpServletRequestWebSocketProcessor(AtmosphereServlet,WebSocketSupport)/body";
+}
+subgraph cluster106 {
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/injectMethods(Set<Method>,U)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/configExecutors()/body";
+}
+subgraph cluster211 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableSession.java/[CN]/TrackableSession/[CN]/AliveChecker/[MT]/onDisconnect(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster201 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_HttpServletRequestWebSocketProcessor.java/[CN]/HttpServletRequestWebSocketProcessor/[MT]/broadcast(byte[],int,int)/body";
+}
+subgraph cluster53 {
+"modules_cpr_src_main_java_org_atmosphere_cache_UUIDBroadcasterCache.java/[CN]/UUIDBroadcasterCache/[MT]/addToCache(String,String,BroadcastMessage)/body";
+"modules_cpr_src_main_java_org_atmosphere_cache_UUIDBroadcasterCache.java/[CN]/UUIDBroadcasterCache/[MT]/retrieveFromCache(String,String)/body";
+}
+subgraph cluster198 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onControl(byte,byte[],int,int)/body";
+}
+subgraph cluster165 {
+"modules_cpr_src_main_java_org_atmosphere_util_VoidServletConfig.java/[CN]/VoidServletConfig/[MT]/getServletName()/body";
+"modules_cpr_src_main_java_org_atmosphere_util_IOUtils.java/[CN]/IOUtils/[MT]/guestRawServletPath(AtmosphereConfig)/body";
+}
+subgraph cluster501 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[FE]/config";
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[CS]/GrizzlyApplication(AtmosphereConfig)/parameters";
+}
+subgraph cluster322 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyWebSocket/[MT]/writeError(int,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cache_UUIDBroadcasterCache.java/[CN]/UUIDBroadcasterCache/[MT]/addToCache(String,String,BroadcastMessage)/parameters";
+}
+subgraph cluster232 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onDisconnect()/body";
+}
+subgraph cluster354 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_Invoker.java/[CN]/Invoker/[MT]/matchEncoder(Object,List<Encoder<?,?>>)/body";
+}
+subgraph cluster262 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[CS]/BroadcasterConfig(List<String>,AtmosphereConfig,String)/parameters";
+}
+subgraph cluster307 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getRemoteAddr()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getRemotePort()/body";
+}
+subgraph cluster181 {
+"modules_cpr_src_main_java_org_atmosphere_cache_BroadcasterCacheBase.java/[CN]/BroadcasterCacheBase/[MT]/setExecutorService(ScheduledExecutorService)/parameters";
+}
+subgraph cluster67 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/initServletProcessor(AtmosphereHandler)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/addAtmosphereHandler(String,AtmosphereHandler,List<AtmosphereInterceptor>)/body";
+}
+subgraph cluster305 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[FE]/requestURL";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/setAttribute(String,Object)/parameters";
+}
+subgraph cluster358 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/close()/body";
+}
+subgraph cluster391 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFrameworkInitializer.java/[CN]/AtmosphereFrameworkInitializer/[MT]/newAtmosphereFramework(Class<? extends AtmosphereFramework>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/write(String)/body";
+}
+subgraph cluster301 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[MT]/requestURI(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[FE]/servletPath";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[FE]/requestURL";
+}
+subgraph cluster376 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[MT]/queryString(String)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getQueryString()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/load(HttpServletRequest,Builder)/body";
+}
+subgraph cluster475 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceEventImpl.java/[CN]/AtmosphereResourceEventImpl/[MT]/toString()/body";
+}
+subgraph cluster485 {
+"modules_gwt_atmosphere-gwt-server_src_main_java_org_atmosphere_gwt_server_AtmosphereGwtHandler.java/[CN]/AtmosphereGwtHandler/[MT]/getBroadcaster(GwtAtmosphereResource)/body";
+"modules_gwt_atmosphere-gwt-server_src_main_java_org_atmosphere_gwt_server_AtmosphereGwtHandler.java/[CN]/AtmosphereGwtHandler/[MT]/broadcast(Serializable,GwtAtmosphereResource)/body";
+}
+subgraph cluster269 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_CorsInterceptor.java/[CN]/CorsInterceptor/[MT]/configure(AtmosphereConfig)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_CorsInterceptor.java/[CN]/CorsInterceptor/[MT]/inspect(AtmosphereResource)/body";
+}
+subgraph cluster111 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAtmosphereResourceFactory.java/[CN]/DefaultAtmosphereResourceFactory/[MT]/remove(String)/body";
+}
+subgraph cluster64 {
+"modules_cpr_src_main_java_org_atmosphere_container_JSR356AsyncSupport.java/[CN]/JSR356AsyncSupport/[CN]/AtmosphereConfigurator/[MT]/modifyHandshake(ServerEndpointConfig,HandshakeRequest,HandshakeResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_JSR356AsyncSupport.java/[CN]/JSR356AsyncSupport/[CS]/JSR356AsyncSupport(AtmosphereConfig)/body";
+}
+subgraph cluster410 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[CS]/Filter(Action,long,int,Suspend.SCOPE,boolean)/parameters";
+}
+subgraph cluster7 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onFragment(com.sun.grizzly.websockets.WebSocket,byte[],boolean)/parameters";
+}
+subgraph cluster102 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocket.java/[CN]/WebSocket/[CS]/WebSocket(AtmosphereConfig)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_ProtocolUtil.java/[CN]/ProtocolUtil/[MT]/attributes(WebSocket,AtmosphereRequest)/body";
+}
+subgraph cluster157 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAtmosphereResourceFactory.java/[CN]/DefaultAtmosphereResourceFactory/[MT]/broadcasters(String)/body";
+}
+subgraph cluster288 {
+"samples_jquery-pubsub_src_main_java_org_atmosphere_samples_pubsub_EventsLogger.java/[CN]/EventsLogger/[MT]/onDisconnect(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster438 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/addBroadcaster(Broadcaster)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/getBroadcaster(boolean)/body";
+}
+subgraph cluster217 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/removeBroadcaster(Broadcaster)/body";
+}
+subgraph cluster510 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/lookup(HttpServletRequest)/body";
+}
+subgraph cluster472 {
+"samples_di-guice-sample_src_main_java_org_atmosphere_samples_di_guice_EventsLogger.java/[CN]/EventsLogger/[MT]/onSuspend(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+"plugins_jgroups_src_main_java_org_atmosphere_plugin_jgroups_JGroupsFilter.java/[CN]/JGroupsFilter/[MT]/receive(Message)/body";
+}
+subgraph cluster276 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/resumeAll()/body";
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onClose(com.sun.grizzly.websockets.WebSocket,DataFrame)/parameters";
+}
+subgraph cluster216 {
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_AnnotationDetector.java/[CN]/AnnotationDetector/[MT]/resolveUtf8(DataInput)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_Grizzly2CometSupport.java/[CN]/Grizzly2CometSupport/[MT]/suspend(CometContext,Action,AtmosphereRequest,AtmosphereResponse)/body";
+}
+subgraph cluster85 {
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/injectFields(Set<Field>,U,AtmosphereFramework,LinkedList<Injectable<?>>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/NoOpsRequest/[MT]/login(String,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_SessionTimeoutRestorer.java/[CN]/SessionTimeoutRestorer/[MT]/sessionWillPassivate(HttpSessionEvent)/body";
+}
+subgraph cluster421 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketAdapter.java/[CN]/WebSocketAdapter/[MT]/request(HttpServletRequest)/body";
+}
+subgraph cluster160 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_MetaBroadcaster.java/[CN]/MetaBroadcaster/[MT]/delayTo(String,Object,int,TimeUnit)/body";
+}
+subgraph cluster504 {
+"extras_guice_src_main_java_org_atmosphere_guice_AtmosphereGuiceServlet.java/[CN]/AtmosphereGuiceServlet/[CS]/AtmosphereGuiceServlet(boolean,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_SessionTimeoutRestorer.java/[CN]/SessionTimeoutRestorer/[MT]/setup(HttpSession)/body";
+}
+subgraph cluster297 {
+"modules_cpr_src_main_java_org_atmosphere_util_CookieUtil.java/[CN]/CookieUtil/[MT]/escapeDoubleQuotes(String,int,int)/body";
+}
+subgraph cluster314 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/cacheLostMessage(AtmosphereResource<?,?>)/body";
+"modules_jersey_src_main_java_org_atmosphere_jersey_util_JerseyBroadcasterUtil.java/[CN]/JerseyBroadcasterUtil/[MT]/broadcast(AtmosphereResource<?,?>,AtmosphereResourceEvent,Broadcaster)/parameters";
+}
+subgraph cluster414 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ManagedServiceInterceptor.java/[CN]/ManagedServiceInterceptor/[MT]/mapAnnotatedService(boolean,String,AtmosphereRequest,AtmosphereFramework.AtmosphereHandlerWrapper)/body";
+}
+subgraph cluster409 {
+"modules_cpr_src_main_java_org_atmosphere_handler_ReflectorServletProcessor.java/[CN]/ReflectorServletProcessor/[MT]/onRequest(AtmosphereResource)/body";
+}
+subgraph cluster256 {
+"modules_cpr_src_main_java_org_atmosphere_cache_AbstractBroadcasterCache.java/[CN]/AbstractBroadcasterCache/[MT]/excludeFromCache(String,AtmosphereResource)/body";
+}
+subgraph cluster345 {
+"samples_rest-chat_src_main_java_org_atmosphere_samples_chat_jersey_ChatResource.java/[CN]/ChatResource/[MT]/broadcast(Message)/body";
+}
+subgraph cluster284 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/event(HttpEvent)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/event(org.apache.catalina.comet.CometEvent)/body";
+}
+subgraph cluster312 {
+"modules_cpr_src_main_java_org_atmosphere_container_Jetty7CometSupport.java/[CN]/Jetty7CometSupport/[MT]/action(AtmosphereResourceImpl)/body";
+}
+subgraph cluster175 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[CS]/Filter(Action,long,int)/parameters";
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[CS]/Filter(Action,long,int,Suspend.SCOPE)/parameters";
+}
+subgraph cluster258 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_JerseyBroadcaster.java/[CN]/JerseyBroadcaster/[MT]/broadcast(AtmosphereResource<?,?>,AtmosphereResourceEvent)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_container_JettyWebSocket.java/[CN]/JettyWebSocket/[MT]/redirect(String)/body";
+}
+subgraph cluster42 {
+"extras_gwt_atmosphere-gwt-server_src_main_java_org_atmosphere_gwt_server_AtmosphereGwtHandler.java/[CN]/AtmosphereGwtHandler/[MT]/deserialize(String,SerialMode)/body";
+}
+subgraph cluster118 {
+"modules_cpr_src_main_java_org_atmosphere_container_Grizzly2CometSupport.java/[CN]/Grizzly2CometSupport/[MT]/action(AtmosphereResourceImpl)/body";
+}
+subgraph cluster388 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getRequestURI()/body";
+}
+subgraph cluster292 {
+"samples_rest-chat_src_main_java_org_atmosphere_commons_jersey_ResourceChat.java/[CN]/ResourceChat/[MT]/suspend()/parameters";
+}
+subgraph cluster406 {
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_ClassFileIterator.java/[CN]/ClassFileIterator/[CS]/ClassFileIterator(File[],String[])/body";
+}
+subgraph cluster263 {
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onMessage(WebSocket,String)/parameters";
+}
+subgraph cluster75 {
+"modules_cpr_src_main_java_org_atmosphere_util_ExcludeSessionBroadcaster.java/[CN]/ExcludeSessionBroadcaster/[MT]/broadcast(T,Set<AtmosphereResource>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceEventImpl.java/[CN]/AtmosphereResourceEventImpl/[MT]/setIsResumedOnTimeout(boolean)/body";
+}
+subgraph cluster32 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getParameterMap()/body";
+}
+subgraph cluster417 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onConnect(com.sun.grizzly.websockets.WebSocket)/body";
+}
+subgraph cluster412 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/suspend(long,boolean)/body";
+}
+subgraph cluster249 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[CS]/BroadcasterConfig(List<String>,AtmosphereConfig,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[CS]/BroadcasterConfig(ExecutorService,ExecutorService,ScheduledExecutorService,AtmosphereConfig,String)/body";
+}
+subgraph cluster279 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/perRequestFilter(AtmosphereResource<?,?>,Entry)/body";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AtmosphereResourceStateRecovery.java/[CN]/AtmosphereResourceStateRecovery/[MT]/inspect(AtmosphereResource)/body";
+}
+subgraph cluster332 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_Invoker.java/[CN]/Invoker/[MT]/invokeMethod(Method,Object,Object)/parameters";
+}
+subgraph cluster331 {
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/removeAttribute(String)/body";
+}
+subgraph cluster287 {
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisBroadcaster.java/[CN]/RedisBroadcaster/[MT]/outgoingBroadcast(Object)/body";
+}
+subgraph cluster227 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Universe.java/[CN]/Universe/[MT]/resourceFactory(AtmosphereResourceFactory)/body";
+}
+subgraph cluster173 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[CS]/DefaultBroadcaster(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcasterFactory.java/[CN]/DefaultBroadcasterFactory/[MT]/get()/body";
+}
+subgraph cluster148 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsynchronousProcessor.java/[CN]/AsynchronousProcessor/[MT]/cancelled(HttpServletRequest,HttpServletResponse)/body";
+}
+subgraph cluster389 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsynchronousProcessor.java/[CN]/AsynchronousProcessor/[MT]/timedout(AtmosphereRequest,AtmosphereResponse)/body";
+}
+subgraph cluster495 {
+"modules_cpr_src_main_java_org_atmosphere_container_TomcatCometSupport.java/[CN]/TomcatCometSupport/[MT]/service(AtmosphereRequest,AtmosphereResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_Tomcat7CometSupport.java/[CN]/Tomcat7CometSupport/[MT]/service(AtmosphereRequest,AtmosphereResponse)/body";
+}
+subgraph cluster280 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_GrizzlyWebSocket.java/[CN]/GrizzlyWebSocket/[MT]/write(byte[],int,int)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_version_Jetty8WebSocket.java/[CN]/Jetty8WebSocket/[MT]/write(byte[],int,int)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_version_Jetty8WebSocket.java/[CN]/Jetty8WebSocket/[MT]/write(String)/body";
+}
+subgraph cluster295 {
+"modules_cpr_src_main_java_org_atmosphere_container_Servlet30CometSupportWithWebSocket.java/[CN]/Servlet30CometSupportWithWebSocket/[CS]/Servlet30CometSupportWithWebSocket(AtmosphereConfig)/body";
+}
+subgraph cluster240 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Entry.java/[CN]/Entry/[CS]/Entry(AtmosphereResource,Entry)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/addWebSocketHandler(String,WebSocketHandler,AtmosphereHandler,List<AtmosphereInterceptor>)/body";
+}
+subgraph cluster316 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/setBroadcaster(Broadcaster)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[FE]/logger";
+}
+subgraph cluster68 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/cacheLostMessage(AtmosphereResource<?,?>)/parameters";
+"modules_jersey_src_main_java_org_atmosphere_jersey_util_JerseyBroadcasterUtil.java/[CN]/JerseyBroadcasterUtil/[MT]/broadcast(AtmosphereResource<?,?>,AtmosphereResourceEvent,Broadcaster)/body";
+}
+subgraph cluster254 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/filter(AtmosphereResource,Object,Object)/body";
+}
+subgraph cluster124 {
+"modules_cpr_src_main_java_org_atmosphere_util_SimpleBroadcaster.java/[CN]/SimpleBroadcaster/[MT]/broadcast(Object,Set<AtmosphereResource>)/body";
+}
+subgraph cluster65 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/suspend(long,TimeUnit,boolean)/body";
+}
+subgraph cluster335 {
+"samples_gwt-demo_src_main_java_org_atmosphere_samples_client_GWTDemo.java/[CN]/GWTDemo/[MT]/onModuleLoad()/body";
+}
+subgraph cluster333 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_SessionTimeoutRestorer.java/[CN]/SessionTimeoutRestorer/[MT]/restore(HttpSession)/body";
+}
+subgraph cluster99 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onClose(int,String)/body";
+}
+subgraph cluster50 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getAttribute(String)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/removeAttribute(String)/parameters";
+}
+subgraph cluster306 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/unregister()/body";
+}
+subgraph cluster486 {
+"samples_gwt-demo_src_main_java_org_atmosphere_samples_client_GWTDemo.java/[CN]/GWTDemo/[CN]/MyCometListener/[MT]/onError(Throwable,boolean)/body";
+}
+subgraph cluster224 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/setAsyncWriteService(ExecutorService)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/destroy()/body";
+}
+subgraph cluster48 {
+"modules_cpr_src_main_java_org_atmosphere_util_ExecutorsFactory.java/[CN]/ExecutorsFactory/[MT]/getMessageDispatcher(AtmosphereConfig,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_ExecutorsFactory.java/[CN]/ExecutorsFactory/[MT]/getScheduler(AtmosphereConfig)/body";
+}
+subgraph cluster451 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ManagedAtmosphereHandler.java/[CN]/ManagedAtmosphereHandler/[MT]/populateMessage(Object,Class<? extends Annotation>)/body";
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ManagedAtmosphereHandler.java/[CN]/ManagedAtmosphereHandler/[MT]/populateEncoders()/body";
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ManagedAtmosphereHandler.java/[CN]/ManagedAtmosphereHandler/[MT]/onStateChange(AtmosphereResourceEvent)/body";
+"modules_cpr_src_main_java_org_atmosphere_config_managed_ManagedAtmosphereHandler.java/[CN]/ManagedAtmosphereHandler/[MT]/populateDecoders()/body";
+}
+subgraph cluster135 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getLocalName()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getRemoteHost()/body";
+}
+subgraph cluster488 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFrameworkInitializer.java/[CN]/AtmosphereFrameworkInitializer/[MT]/newAtmosphereFramework(Class<? extends AtmosphereFramework>,boolean,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/configureStream()/body";
+}
+subgraph cluster80 {
+"modules_cpr_src_main_java_org_atmosphere_util_CookieUtil.java/[CN]/CookieUtil/[MT]/escapeDoubleQuotes(String)/body";
+}
+subgraph cluster327 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/dispatch(HttpServletRequest,HttpServletResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[CN]/WebSocketException/[CS]/WebSocketException(String,WebSocketHttpServletResponse)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[CN]/WebSocketException/[MT]/response()/parameters";
+}
+subgraph cluster101 {
+"modules_cpr_src_main_java_org_atmosphere_container_Tomcat7CometSupport.java/[CN]/Tomcat7CometSupport/[MT]/complete(AtmosphereResourceImpl)/body";
+}
+subgraph cluster476 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onMessage(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onFrame(byte,byte,byte[],int,int)/body";
+}
+subgraph cluster436 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/loadAtmosphereHandlersFromPath(URLClassLoader,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/loadAtmosphereDotXml(InputStream,URLClassLoader)/body";
+}
+subgraph cluster51 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onMessage(com.sun.grizzly.websockets.WebSocket,String)/body";
+}
+subgraph cluster28 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getSession(boolean)/body";
+}
+subgraph cluster498 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcastOnResume(Object)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_AbstractBroadcasterProxy.java/[CN]/AbstractBroadcasterProxy/[MT]/broadcast(Object)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_AbstractBroadcasterProxy.java/[CN]/AbstractBroadcasterProxy/[MT]/broadcastReceivedMessage(Object)/body";
+}
+subgraph cluster61 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/getRequest(boolean)/body";
+}
+subgraph cluster430 {
+"modules_cpr_src_main_java_org_atmosphere_util_AbstractBroadcasterProxy.java/[CN]/AbstractBroadcasterProxy/[MT]/broadcast(Object,AtmosphereResource)/body";
+}
+subgraph cluster453 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterFuture.java/[CN]/BroadcasterFuture/[MT]/notifyListener()/body";
+}
+subgraph cluster78 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/addAtmosphereHandler(String,AtmosphereHandler,String,List<AtmosphereInterceptor>)/body";
+}
+subgraph cluster405 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_Jetty8WebSocket.java/[CN]/Jetty8WebSocket/[MT]/redirect(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_version_Jetty8WebSocket.java/[CN]/Jetty8WebSocket/[MT]/write(byte[])/body";
+}
+subgraph cluster349 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereSession.java/[CN]/AtmosphereSession/[MT]/acquire()/body";
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableSession.java/[CN]/TrackableSession/[MT]/track(TrackableResource<? extends Trackable>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/doCometSupport(AtmosphereRequest,AtmosphereResponse)/body";
+}
+subgraph cluster257 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/push(Entry)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/handleException(Exception)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[FE]/cacheStrategy";
+}
+subgraph cluster204 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAtmosphereResourceSessionFactory.java/[CN]/DefaultAtmosphereResourceSessionFactory/[MT]/getSession(AtmosphereResource,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAtmosphereResourceSession.java/[CN]/DefaultAtmosphereResourceSession/[MT]/setAttribute(String,Object)/body";
+}
+subgraph cluster343 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/notifyBroadcastListener()/body";
+}
+subgraph cluster31 {
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/getAttributeNames()/body";
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/invalidate()/body";
+}
+subgraph cluster283 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onFragment(boolean,byte,byte[],int,int)/body";
+}
+subgraph cluster293 {
+"modules_cpr_src_main_java_org_atmosphere_util_ExcludeSessionBroadcaster.java/[CN]/ExcludeSessionBroadcaster/[MT]/broadcast(Object,List<HttpSession>)/body";
+}
+subgraph cluster418 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereInterceptorWriter.java/[CN]/AtmosphereInterceptorWriter/[MT]/write(byte[],int,int)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAnnotationProcessor.java/[CN]/DefaultAnnotationProcessor/[MT]/scan(String)/body";
+}
+subgraph cluster344 {
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onOpen(WebSocket)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_SimpleHttpProtocol.java/[CN]/SimpleHttpProtocol/[MT]/onOpen(WebSocket)/body";
+}
+subgraph cluster253 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[FE]/requestURI";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[MT]/servletPath(String)/body";
+}
+subgraph cluster493 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_EchoWebSocketProcessor.java/[CN]/EchoWebSocketProcessor/[MT]/broadcast(byte[],int,int)/body";
+}
+subgraph cluster84 {
+"modules_cpr_src_main_java_org_atmosphere_handler_ReflectorServletProcessor.java/[CN]/ReflectorServletProcessor/[MT]/loadWebApplication(ServletConfig)/body";
+"samples_di-guice-sample_src_main_java_org_atmosphere_samples_di_guice_EventsLogger.java/[CN]/EventsLogger/[MT]/onDisconnect(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster313 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereSession.java/[CN]/AtmosphereSession/[FE]/uuid";
+}
+subgraph cluster193 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/delayBroadcast(Object,long,TimeUnit)/body";
+}
+subgraph cluster462 {
+"samples_twitter-live-feed_src_main_java_org_atmosphere_samples_twitter_TwitterFeed.java/[CN]/TwitterFeed/[MT]/stopSearch(Broadcaster,String)/body";
+}
+subgraph cluster300 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcast(T,Set<AtmosphereResource>)/body";
+}
+subgraph cluster370 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/write(byte[])/body";
+}
+subgraph cluster20 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/cancel()/body";
+}
+subgraph cluster197 {
+"modules_cpr_src_main_java_org_atmosphere_container_Servlet30CometSupportWithWebSocket.java/[CN]/Servlet30CometSupportWithWebSocket/[MT]/service(HttpServletRequest,HttpServletResponse)/body";
+}
+subgraph cluster149 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcast(Object,Set<AtmosphereResource>)/body";
+}
+subgraph cluster159 {
+"plugins_jgroups_src_main_java_org_atmosphere_plugin_jgroups_JGroupsFilter.java/[CN]/JGroupsFilter/[MT]/filter(Object,Object)/body";
+}
+subgraph cluster397 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_SimpleHttpProtocol.java/[CN]/SimpleHttpProtocol/[MT]/onMessage(WebSocket,byte[],int,int)/body";
+}
+subgraph cluster291 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[FE]/DROP_ACCESS_CONTROL_ALLOW_ORIGIN_HEADER";
+}
+subgraph cluster110 {
+"modules_cpr_src_main_java_org_atmosphere_container_Servlet30CometSupport.java/[CN]/Servlet30CometSupport/[MT]/action(AtmosphereResourceImpl)/body";
+}
+subgraph cluster120 {
+"modules_cpr_src_main_java_org_atmosphere_util_SimpleBroadcaster.java/[CN]/SimpleBroadcaster/[MT]/queueWriteIO(AtmosphereResource<?,?>,Object,Entry)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/executeAsyncWrite(AsyncWriteToken)/parameters";
+}
+subgraph cluster172 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/destroy(boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsyncIOWriterAdapter.java/[CN]/AsyncIOWriterAdapter/[MT]/redirect(AtmosphereResponse,String)/body";
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[FE]/useResumeAnnotation";
+}
+subgraph cluster168 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/getHeader(String)/body";
+}
+subgraph cluster233 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/init(ServletConfig,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_annotation_AtmosphereServiceProcessor.java/[CN]/AtmosphereServiceProcessor/[MT]/handle(AtmosphereFramework,Class<?>)/body";
+}
+subgraph cluster180 {
+"modules_cpr_src_main_java_org_atmosphere_util_ExcludeSessionBroadcaster.java/[CN]/ExcludeSessionBroadcaster/[MT]/broadcast(T,List<HttpSession>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/addWebSocketHandler(WebSocketHandler)/body";
+}
+subgraph cluster236 {
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisFilter.java/[CN]/RedisFilter/[MT]/auth(Jedis)/parameters";
+}
+subgraph cluster125 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AtmosphereResourceLifecycleInterceptor.java/[CN]/AtmosphereResourceLifecycleInterceptor/[MT]/postInspect(AtmosphereResource)/body";
+}
+subgraph cluster360 {
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/retryInjection(AtmosphereFramework)/parameters";
+}
+subgraph cluster112 {
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_AnnotationDetector.java/[CN]/AnnotationDetector/[MT]/detect(String)/body";
+}
+subgraph cluster200 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_MeteorServlet.java/[CN]/MeteorServlet/[MT]/loadDelegateViaConfig(ServletConfig)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/suspend(long)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/destroy()/body";
+}
+subgraph cluster321 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/configureBroadcasterFactory()/body";
+}
+subgraph cluster44 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocket.java/[CN]/WebSocket/[MT]/write(AtmosphereResponse,byte[],int,int)/body";
+}
+subgraph cluster338 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAnnotationProcessor.java/[CN]/DefaultAnnotationProcessor/[CN]/ServletContainerInitializerAnnotationProcessor/[MT]/scan(File)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAnnotationProcessor.java/[CN]/DefaultAnnotationProcessor/[CN]/ServletContainerInitializerAnnotationProcessor/[MT]/scan(String)/body";
+}
+subgraph cluster37 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_StreamingHttpProtocol.java/[CN]/StreamingHttpProtocol/[MT]/onBinaryStream(WebSocket,InputStream)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/setID(String)/body";
+}
+subgraph cluster247 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[MT]/queryString(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_AbstractBroadcasterProxy.java/[CN]/AbstractBroadcasterProxy/[MT]/broadcast(Object,Set<AtmosphereResource>)/body";
+}
+subgraph cluster396 {
+"modules_cpr_src_main_java_org_atmosphere_cache_SessionBroadcasterCache.java/[CN]/SessionBroadcasterCache/[MT]/addToCache(String,String,BroadcastMessage)/body";
+}
+subgraph cluster161 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceEventImpl.java/[CN]/AtmosphereResourceEventImpl/[CS]/AtmosphereResourceEventImpl(AtmosphereResourceImpl,boolean,boolean,Throwable)/body";
+}
+subgraph cluster229 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_TomcatWebSocket.java/[CN]/TomcatWebSocket/[MT]/write(byte[],int,int)/body";
+}
+subgraph cluster399 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getInputStream()/body";
+}
+subgraph cluster281 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/LazyComputation/[MT]/getPort()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/LazyComputation/[MT]/getHostName()/body";
+}
+subgraph cluster41 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[CN]/WebSocketException/[CS]/WebSocketException(Throwable,WebSocketHttpServletResponse)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_SimpleHttpProtocol.java/[CN]/SimpleHttpProtocol/[MT]/onError(WebSocket,WebSocketProcessor.WebSocketException)/body";
+}
+subgraph cluster302 {
+"modules_cpr_src_main_java_org_atmosphere_util_Utils.java/[CN]/Utils/[MT]/inject(Object,Class,AtmosphereConfig)/body";
+}
+subgraph cluster14 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/toString()/body";
+}
+subgraph cluster46 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsyncSupportListenerAdapter.java/[CN]/AsyncSupportListenerAdapter/[MT]/onSuspend(AtmosphereRequest,AtmosphereResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_SessionTimeoutSupport.java/[CN]/SessionTimeoutSupport/[MT]/restoreTimeout(HttpSession)/body";
+}
+subgraph cluster272 {
+"samples_websocket-chat_src_main_java_org_atmosphere_samples_chat_WebSocketChat.java/[CN]/WebSocketChat/[MT]/onTextMessage(WebSocket,String)/body";
+"samples_websocket-chat_src_main_java_org_atmosphere_samples_chat_WebSocketChat.java/[CN]/WebSocketChat/[CN]/Data/[CS]/Data(String,String)/parameters";
+}
+subgraph cluster353 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onOpen(WebSocket.Connection)/body";
+}
+subgraph cluster308 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[CS]/Filter(Action,long,int,Suspend.SCOPE,boolean)/body";
+}
+subgraph cluster336 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onMessage(byte[],int,int)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onMessage(byte,byte[],int,int)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onMessage(byte,String)/body";
+}
+subgraph cluster273 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/broadcasterID(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/initClusterExtension()/body";
+}
+subgraph cluster205 {
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisBroadcaster.java/[CN]/RedisBroadcaster/[MT]/disconnectSubscriber()/body";
+}
+subgraph cluster326 {
+"extras_gwt_atmosphere-gwt-client_src_main_java_org_atmosphere_gwt_client_AtmosphereClient.java/[CN]/AtmosphereClient/[MT]/scheduleConnect(CometClientTransportWrapper)/body";
+}
+subgraph cluster220 {
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onMessage(WebSocket,byte[],int,int)/body";
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/package";
+}
+subgraph cluster59 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onFragment(com.sun.grizzly.websockets.WebSocket,String,boolean)/parameters";
+}
+subgraph cluster100 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/invokeWebSocketProtocol(WebSocket,byte[],int,int)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/invokeWebSocketProtocol(WebSocket,Reader)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/_destroy()/body";
+}
+subgraph cluster113 {
+"modules_native_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/configureFramework(ServletConfig,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/configureFramework(ServletConfig,boolean)/body";
+}
+subgraph cluster164 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/getResponse(boolean)/body";
+}
+subgraph cluster88 {
+"plugins_jgroups_src_main_java_org_atmosphere_plugin_jgroups_JGroupsFilter.java/[CN]/JGroupsFilter/[MT]/setUri(String)/body";
+"plugins_jgroups_src_main_java_org_atmosphere_plugin_jgroups_JGroupsFilter.java/[CN]/JGroupsFilter/[MT]/setUri(String)/parameters";
+}
+subgraph cluster71 {
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_AnnotationDetector.java/[CN]/AnnotationDetector/[MT]/readAnnotationElementValue(DataInput)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_AnnotationDetector.java/[CN]/AnnotationDetector/[MT]/readMethods(DataInput)/body";
+}
+subgraph cluster426 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Universe.java/[CN]/Universe/[MT]/sessionResourceFactory(AtmosphereResourceSessionFactory)/body";
+}
+subgraph cluster383 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketHandler.java/[CN]/GlassFishWebSocketHandler/[MT]/onMessage(WebSocket,String)/body";
+}
+subgraph cluster386 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableSession.java/[CN]/TrackableSession/[CN]/AliveChecker/[MT]/onResume(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableSession.java/[CN]/TrackableSession/[FE]/aliveChecker";
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableSession.java/[CN]/TrackableSession/[MT]/lookup(String)/body";
+}
+subgraph cluster489 {
+"samples_wicket-clock_src_main_java_org_atmosphere_samples_wicket_PushPage.java/[CN]/PushPage/[MT]/onBroadcast(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+"samples_wicket-clock_src_main_java_org_atmosphere_samples_wicket_PushPage.java/[CN]/PushPage/[MT]/onSuspend(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster130 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Universe.java/[CN]/Universe/[MT]/framework(AtmosphereFramework)/body";
+}
+subgraph cluster209 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsynchronousProcessor.java/[CN]/AsynchronousProcessor/[MT]/cancelled(AtmosphereRequest,AtmosphereResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_TomcatWebSocketUtil.java/[CN]/TomcatWebSocketUtil/[MT]/doService(AtmosphereRequest,AtmosphereResponse,Delegate,AtmosphereConfig)/body";
+}
+subgraph cluster77 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[MT]/attributes(Map<String,Object>)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[FE]/requestURI";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getHeader(String)/body";
+}
+subgraph cluster152 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getReader()/body";
+}
+subgraph cluster141 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceEventImpl.java/[CN]/AtmosphereResourceEventImpl/[CS]/AtmosphereResourceEventImpl(AtmosphereResourceImpl,boolean,boolean)/body";
+}
+subgraph cluster129 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AndroidAtmosphereInterceptor.java/[CN]/AndroidAtmosphereInterceptor/[MT]/inspect(AtmosphereResource)/body";
+}
+subgraph cluster30 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/resizeByteBuffer(WebSocket)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/resizeCharBuffer(WebSocket)/body";
+}
+subgraph cluster368 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_HeartbeatInterceptor.java/[CN]/HeartbeatInterceptor/[MT]/inspect(AtmosphereResource)/body";
+}
+subgraph cluster323 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/removeListener(AtmosphereResourceEventListener)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[FE]/METEOR";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/getBroadcaster()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/setScope(SCOPE)/body";
+}
+subgraph cluster377 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/invokeWebSocketProtocol(String)/body";
+}
+subgraph cluster238 {
+"plugins_jgroups_src_main_java_org_atmosphere_plugin_jgroups_JGroupsBroadcaster.java/[CN]/JGroupsBroadcaster/[MT]/incomingBroadcast()/body";
+}
+subgraph cluster70 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_JSONPAtmosphereInterceptor.java/[CN]/JSONPAtmosphereInterceptor/[MT]/configure(AtmosphereConfig)/body";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_JSONPAtmosphereInterceptor.java/[CN]/JSONPAtmosphereInterceptor/[MT]/configure(AtmosphereConfig)/parameters";
+}
+subgraph cluster89 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getServerPort()/body";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getParameterNames()/parameters";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[FE]/serverPort";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getParameter(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getSession(boolean)/parameters";
+}
+subgraph cluster483 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/addAtmosphereHandler(String,AtmosphereHandler,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/addAtmosphereHandler(String,AtmosphereHandler<HttpServletRequest,HttpServletResponse>,Broadcaster)/body";
+}
+subgraph cluster266 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[MT]/executeSuspend(AtmosphereResource,long,boolean,boolean,URI,ContainerRequest,ContainerResponse,boolean)/body";
+}
+subgraph cluster473 {
+"samples_jquery-pubsub_src_main_java_org_atmosphere_samples_pubsub_FileResource.java/[CN]/FileResource/[MT]/getJQuery(PathSegment)/body";
+"samples_jquery-pubsub_src_main_java_org_atmosphere_samples_pubsub_FileResource.java/[CN]/FileResource/[FE]/sc";
+}
+subgraph cluster45 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/suspend(long,TimeUnit)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/suspend(long,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/schedule(Object,long)/body";
+}
+subgraph cluster392 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[CS]/BroadcasterConfig(List<String>,AtmosphereConfig,boolean,String)/parameters";
+}
+subgraph cluster182 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/sendError(int,String)/body";
+}
+subgraph cluster177 {
+"modules_cpr_src_main_java_org_atmosphere_cache_UUIDBroadcasterCache.java/[CN]/UUIDBroadcasterCache/[MT]/excludeFromCache(String,AtmosphereResource)/body";
+"modules_cpr_src_main_java_org_atmosphere_cache_DefaultBroadcasterCache.java/[CN]/DefaultBroadcasterCache/[MT]/excludeFromCache(String,AtmosphereResource)/body";
+}
+subgraph cluster441 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_StreamingHttpProtocol.java/[CN]/StreamingHttpProtocol/[MT]/onTextStream(WebSocket,Reader)/body";
+}
+subgraph cluster289 {
+"extras_gwt_atmosphere-gwt-server_src_main_java_org_atmosphere_gwt_server_impl_GwtResponseWriterImpl.java/[CN]/GwtResponseWriterImpl/[MT]/serialize(Object)/body";
+}
+subgraph cluster318 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/configureBroadcasterFactory()/body";
+}
+subgraph cluster503 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getAttribute(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/dispatch(AtmosphereRequest)/body";
+}
+subgraph cluster54 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/resume()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/destroy()/body";
+}
+subgraph cluster340 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getRequestURL()/parameters";
+}
+subgraph cluster166 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getAttributeNames()/body";
+}
+subgraph cluster195 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_EchoWebSocketProcessor.java/[CN]/EchoWebSocketProcessor/[MT]/broadcast(String)/body";
+}
+subgraph cluster104 {
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisBroadcaster.java/[CN]/RedisBroadcaster/[MT]/getLockingObject()/body";
+}
+subgraph cluster497 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_SSEAtmosphereInterceptor.java/[CN]/SSEAtmosphereInterceptor/[MT]/inspect(AtmosphereResource)/body";
+}
+subgraph cluster320 {
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisFilter.java/[CN]/RedisFilter/[MT]/auth(Jedis)/body";
+}
+subgraph cluster294 {
+"modules_cpr_src_main_java_org_atmosphere_container_Servlet30CometSupport.java/[CN]/Servlet30CometSupport/[CN]/CometListener/[MT]/onTimeout(AsyncEvent)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_Servlet30CometSupport.java/[CN]/Servlet30CometSupport/[CN]/CometListener/[MT]/onError(AsyncEvent)/body";
+}
+subgraph cluster496 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[CS]/Filter(Action,long)/parameters";
+}
+subgraph cluster466 {
+"modules_cpr_src_main_java_org_atmosphere_annotation_MeteorServiceProcessor.java/[CN]/MeteorServiceProcessor/[MT]/handle(AtmosphereFramework,Class<Servlet>)/body";
+"modules_cpr_src_main_java_org_atmosphere_annotation_WebSocketHandlerServiceProcessor.java/[CN]/WebSocketHandlerServiceProcessor/[MT]/handle(AtmosphereFramework,Class<WebSocketHandler>)/body";
+}
+subgraph cluster178 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_util_JerseyBroadcasterUtil.java/[CN]/JerseyBroadcasterUtil/[MT]/broadcast(AtmosphereResource,AtmosphereResourceEvent,Broadcaster)/body";
+}
+subgraph cluster443 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/addAtmosphereHandler(String,AtmosphereHandler,List<AtmosphereInterceptor>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/addAtmosphereHandler(String,AtmosphereHandler,Broadcaster,List<AtmosphereInterceptor>)/body";
+}
+subgraph cluster315 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsynchronousProcessor.java/[CN]/AsynchronousProcessor/[MT]/invokeAtmosphereHandler(AtmosphereResourceImpl)/body";
+}
+subgraph cluster6 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onPong(com.sun.grizzly.websockets.WebSocket,byte[])/parameters";
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[MT]/filter(ContainerRequest,ContainerResponse)/body";
+}
+subgraph cluster384 {
+"modules_native_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/configureFramework(ServletConfig)/body";
+}
+subgraph cluster278 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsyncSupportListenerAdapter.java/[CN]/AsyncSupportListenerAdapter/[MT]/onResume(AtmosphereRequest,AtmosphereResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsyncSupportListenerAdapter.java/[CN]/AsyncSupportListenerAdapter/[MT]/onTimeout(AtmosphereRequest,AtmosphereResponse)/body";
+}
+subgraph cluster433 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_Invoker.java/[CN]/Invoker/[MT]/invokeMethod(Method,Object,Object)/body";
+}
+subgraph cluster347 {
+"modules_cpr_src_main_java_org_atmosphere_util_AbstractBroadcasterProxy.java/[CN]/AbstractBroadcasterProxy/[MT]/broadcast(T,AtmosphereResource<?,?>)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_AbstractBroadcasterProxy.java/[CN]/AbstractBroadcasterProxy/[MT]/broadcast(T)/body";
+}
+subgraph cluster471 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[FE]/webSocketFakeSession";
+}
+subgraph cluster56 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getLocalPort()/body";
+"extras_spring_src_main_java_org_atmosphere_spring_SpringInjector.java/package";
+}
+subgraph cluster17 {
+"modules_cpr_src_main_java_org_atmosphere_container_Tomcat7CometSupport.java/[CN]/Tomcat7CometSupport/[MT]/service(HttpServletRequest,HttpServletResponse)/body";
+}
+subgraph cluster150 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/metaBroadcaster()/body";
+}
+subgraph cluster393 {
+"modules_cpr_src_main_java_org_atmosphere_annotation_AtmosphereServiceProcessor.java/[CN]/AtmosphereServiceProcessor/[MT]/handle(AtmosphereFramework,Class<Object>)/body";
+"modules_cpr_src_main_java_org_atmosphere_annotation_ManagedServiceProcessor.java/[CN]/ManagedServiceProcessor/[MT]/handle(AtmosphereFramework,Class<Object>)/body";
+}
+subgraph cluster296 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getHeaders(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getHeader(String,boolean)/body";
+}
+subgraph cluster282 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcastOnResume(T)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/removeAtmosphereResource(AtmosphereResource)/body";
+}
+subgraph cluster174 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/destroy()/body";
+}
+subgraph cluster137 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsyncIOWriterAdapter.java/[CN]/AsyncIOWriterAdapter/[MT]/writeError(AtmosphereResponse,int,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/addFilter(BroadcastFilter,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceEventImpl.java/[CN]/AtmosphereResourceEventImpl/[MT]/setCancelled(boolean)/body";
+}
+subgraph cluster184 {
+"modules_cpr_src_main_java_org_atmosphere_cache_UUIDBroadcasterCache.java/[CN]/UUIDBroadcasterCache/[MT]/clearCache(String,String,CacheMessage)/body";
+}
+subgraph cluster435 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/dispatch(HttpServletRequest)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_TomcatWebSocketUtil.java/[CN]/TomcatWebSocketUtil/[MT]/doService(AtmosphereRequest,AtmosphereResponse,Delegate,AtmosphereConfig,WebSocketProcessor)/body";
+}
+subgraph cluster454 {
+"samples_wicket-clock_src_main_java_org_atmosphere_samples_wicket_PushPage.java/[CN]/PushPage/[MT]/onResume(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+"samples_wicket-clock_src_main_java_org_atmosphere_samples_wicket_PushPage.java/[CN]/PushPage/[MT]/onDisconnect(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster225 {
+"modules_cpr_src_main_java_org_atmosphere_util_ExcludeSessionBroadcaster.java/[CN]/ExcludeSessionBroadcaster/[MT]/broadcast(T,HttpSession)/body";
+}
+subgraph cluster465 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAnnotationProcessor.java/[CN]/DefaultAnnotationProcessor/[MT]/scan(File)/body";
+}
+subgraph cluster145 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_SimpleHttpProtocol.java/[CN]/SimpleHttpProtocol/[MT]/onMessage(WebSocket,String)/body";
+}
+subgraph cluster380 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/notifyAndAdd(AtmosphereResource)/body";
+}
+subgraph cluster179 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/dispatchStream(WebSocket,InputStream)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/dispatchReader(WebSocket,Reader)/body";
+}
+subgraph cluster484 {
+"modules_cpr_src_main_java_org_atmosphere_inject_PathParamIntrospector.java/[CN]/PathParamIntrospector/[FE]/pathLocal";
+}
+subgraph cluster411 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_util_JerseySimpleBroadcaster.java/[CN]/JerseySimpleBroadcaster/[MT]/broadcast(AtmosphereResource<?,?>,AtmosphereResourceEvent)/body";
+}
+subgraph cluster138 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableResource.java/[CN]/TrackableResource/[MT]/setResource(Trackable)/body";
+}
+subgraph cluster469 {
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/getValue(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/getValueNames()/body";
+}
+subgraph cluster208 {
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onMessage(WebSocket,String)/body";
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onOpen(WebSocket)/parameters";
+}
+subgraph cluster171 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/destroyed()/parameters";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/addListener(AtmosphereResourceEventListener)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[FE]/isDestroyed";
+}
+subgraph cluster445 {
+"modules_cpr_src_main_java_org_atmosphere_util_Utils.java/[CN]/Utils/[MT]/inject(AtmosphereResource)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishv2CometSupport.java/[CN]/GlassFishv2CometSupport/[MT]/resume(AtmosphereRequest,CometContext)/body";
+}
+subgraph cluster33 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[CS]/Filter(Action,long)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/addAtmosphereHandler(String,AtmosphereHandler,String)/body";
+}
+subgraph cluster419 {
+"modules_cpr_src_main_java_org_atmosphere_inject_PathParamIntrospector.java/[CN]/PathParamIntrospector/[MT]/injectable(AtmosphereResource)/body";
+}
+subgraph cluster487 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[MT]/attributes(Map<String,Object>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[FE]/servletPath";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[MT]/requestURI(String)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CS]/AtmosphereRequest(Builder)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getRequestURI()/parameters";
+}
+subgraph cluster63 {
+"samples_twitter-live-feed_src_main_java_org_atmosphere_samples_twitter_TwitterFeed.java/[CN]/TwitterFeed/[MT]/search(Broadcaster,String)/body";
+}
+subgraph cluster374 {
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisBroadcaster.java/[CN]/RedisBroadcaster/[MT]/disconnectPublisher()/body";
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisBroadcaster.java/[CN]/RedisBroadcaster/[MT]/destroy()/body";
+}
+subgraph cluster199 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/invokeWebSocketProtocol(WebSocket,String)/body";
+}
+subgraph cluster155 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[FE]/remotePort";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/Builder/[FE]/remoteHost";
+}
+subgraph cluster170 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_Jetty9WebSocket.java/[CN]/Jetty9WebSocket/[MT]/write(byte[],int,int)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_version_Jetty9WebSocket.java/[CN]/Jetty9WebSocket/[MT]/write(String)/body";
+}
+subgraph cluster39 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/scheduleFixedBroadcast(Object,long,long,TimeUnit)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/loadAtmosphereDotXml(InputStream,URLClassLoader)/body";
+}
+subgraph cluster378 {
+"plugins_jgroups_src_main_java_org_atmosphere_plugin_jgroups_JGroupsFilter.java/[CN]/JGroupsFilter/[MT]/init()/body";
+}
+subgraph cluster432 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/finish(WebSocket,AtmosphereResource,AtmosphereRequest,AtmosphereResponse,boolean)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/finish(WebSocket,AtmosphereResource,AtmosphereRequest,AtmosphereResponse,boolean)/body";
+}
+subgraph cluster203 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereSession.java/[CN]/AtmosphereSession/[MT]/setResource(AtmosphereResource)/body";
+}
+subgraph cluster434 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onMessage(com.sun.grizzly.websockets.WebSocket,byte[])/parameters";
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onPing(com.sun.grizzly.websockets.WebSocket,byte[])/parameters";
+}
+subgraph cluster79 {
+"samples_jquery-atmospherehandler-pubsub_src_main_java_org_atmosphere_samples_pubsub_AtmosphereHandlerPubSub.java/[CN]/AtmosphereHandlerPubSub/[MT]/onRequest(AtmosphereResource<HttpServletRequest,HttpServletResponse>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getParameterValues(String)/parameters";
+}
+subgraph cluster248 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/register()/body";
+}
+subgraph cluster81 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[MT]/resumeOnBroadcast(boolean)/parameters";
+}
+subgraph cluster337 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[CN]/AsyncWriteToken/[CS]/AsyncWriteToken(AtmosphereResource<?,?>,Object,BroadcasterFuture,Object)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/queueWriteIO(AtmosphereResource<?,?>,Object,Entry)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/onException(Throwable,AtmosphereResource<?,?>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[CN]/AsyncWriteToken/[CS]/AsyncWriteToken(AtmosphereResource<?,?>,Object,BroadcasterFuture,Object)/parameters";
+}
+subgraph cluster108 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/destroy()/body";
+}
+subgraph cluster163 {
+"extras_gwt_atmosphere-gwt-client_src_main_java_org_atmosphere_gwt_client_AtmosphereClient.java/[CN]/AtmosphereClient/[MT]/doOnDisconnected(CometClientTransportWrapper)/body";
+}
+subgraph cluster134 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocket.java/[CN]/WebSocket/[MT]/writeError(AtmosphereResponse,int,String)/body";
+}
+subgraph cluster15 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_JSR356WebSocket.java/[CN]/JSR356WebSocket/[MT]/write(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AtmosphereResourceLifecycleInterceptor.java/[CN]/AtmosphereResourceLifecycleInterceptor/[MT]/configure(AtmosphereConfig)/body";
+}
+subgraph cluster73 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereProviders.java/[CN]/AtmosphereProviders/[FE]/logger";
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereProviders.java/[CN]/AtmosphereProviders/[CN]/TrackableResourceProvider/[CN]/TrackableResourceStringReader/[MT]/fromString(String)/body";
+}
+subgraph cluster169 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Entry.java/[CN]/Entry/[CS]/Entry(Object,Set<AtmosphereResource>,BroadcasterFuture<?>,Object)/body";
+}
+subgraph cluster317 {
+"modules_cpr_src_main_java_org_atmosphere_cache_DefaultBroadcasterCache.java/[CN]/DefaultBroadcasterCache/[MT]/clearCache(String,String,CacheMessage)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/configureFramework(ServletConfig)/body";
+}
+subgraph cluster427 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcast(Object,AtmosphereResource)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_HttpServletRequestWebSocketProcessor.java/[CN]/HttpServletRequestWebSocketProcessor/[MT]/broadcast(String)/body";
+}
+subgraph cluster151 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereSession.java/[CN]/AtmosphereSession/[FE]/resource";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereSession.java/[CN]/AtmosphereSession/[FE]/logger";
+}
+subgraph cluster214 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishv2CometSupport.java/[CN]/GlassFishv2CometSupport/[MT]/action(AtmosphereResourceImpl)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_GrizzlyCometSupport.java/[CN]/GrizzlyCometSupport/[MT]/action(AtmosphereResourceImpl)/body";
+}
+subgraph cluster499 {
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/putValue(String,Object)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/getLastAccessedTime()/body";
+}
+subgraph cluster58 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/dispatch(List<AtmosphereRequest>)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/close(int)/body";
+}
+subgraph cluster304 {
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/configure(AtmosphereConfig)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/newAInterceptor(Class<? extends AtmosphereInterceptor>)/body";
+}
+subgraph cluster251 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/invokeWebSocketProtocol(WebSocket,InputStream)/body";
+}
+subgraph cluster55 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketUtil.java/[CN]/JettyWebSocketUtil/[MT]/getFactory(AtmosphereConfig,WebSocketProcessor)/body";
+"modules_cpr_src_main_java_org_atmosphere_interceptor_OnDisconnectInterceptor.java/[CN]/OnDisconnectInterceptor/[MT]/inspect(AtmosphereResource)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/isNew()/body";
+}
+subgraph cluster123 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/session()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[FE]/session";
+}
+subgraph cluster94 {
+"modules_cpr_src_main_java_org_atmosphere_container_JBossWebCometSupport.java/[CN]/JBossWebCometSupport/[MT]/action(AtmosphereResourceImpl)/body";
+}
+subgraph cluster467 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponseImpl.java/[CN]/AtmosphereResponseImpl/[CN]/Stream/[MT]/write(byte[])/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponseImpl.java/[CN]/AtmosphereResponseImpl/[CN]/Stream/[MT]/write(byte[],int,int)/body";
+}
+subgraph cluster352 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_TrackableResource.java/[CN]/TrackableResource/[MT]/resource()/body";
+}
+subgraph cluster76 {
+"modules_cpr_src_main_java_org_atmosphere_util_Utils.java/[CN]/Utils/[MT]/inject(Object,Class,AtmosphereConfig)/parameters";
+}
+subgraph cluster398 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_GrizzlyWebSocket.java/[CN]/GrizzlyWebSocket/[MT]/write(String)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_version_GrizzlyWebSocket.java/[CN]/GrizzlyWebSocket/[MT]/write(byte[])/body";
+}
+subgraph cluster23 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/newInstance()/body";
+}
+subgraph cluster470 {
+"modules_cpr_src_main_java_org_atmosphere_cache_DefaultBroadcasterCache.java/[CN]/DefaultBroadcasterCache/[MT]/addToCache(String,String,BroadcastMessage)/body";
+}
+subgraph cluster12 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Entry.java/[CN]/Entry/[CS]/Entry(Object,BroadcasterFuture<?>,boolean)/body";
+}
+subgraph cluster511 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onConnect(WebSocket.Outbound)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/setBroadcasterLifeCyclePolicy(BroadcasterLifeCyclePolicy)/body";
+}
+subgraph cluster36 {
+"modules_cpr_src_main_java_org_atmosphere_annotation_WebSocketHandlerServiceProcessor.java/[CN]/WebSocketHandlerServiceProcessor/[MT]/handle(AtmosphereFramework,Class<?>)/body";
+"modules_cpr_src_main_java_org_atmosphere_annotation_MeteorServiceProcessor.java/[CN]/MeteorServiceProcessor/[MT]/handle(AtmosphereFramework,Class<?>)/body";
+"modules_cpr_src_main_java_org_atmosphere_annotation_ManagedServiceProcessor.java/[CN]/ManagedServiceProcessor/[MT]/handle(AtmosphereFramework,Class<?>)/body";
+}
+subgraph cluster416 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_JettyWebSocketSupport.java/[CN]/JettyWebSocketSupport/[MT]/write(byte,byte[],int,int)/body";
+}
+subgraph cluster329 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/awaitAndBroadcast(T,long,TimeUnit)/body";
+}
+subgraph cluster245 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AtmosphereResourceStateRecovery.java/[CN]/AtmosphereResourceStateRecovery/[CN]/BroadcasterTracker/[MT]/remove(Broadcaster)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_WebSocketProcessor.java/[CN]/WebSocketProcessor/[MT]/notifyListener(WebSocketEventListener.WebSocketEvent)/body";
+}
+subgraph cluster93 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/write(String,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_protocol_SimpleHttpProtocol.java/[CN]/SimpleHttpProtocol/[MT]/configure(AtmosphereConfig)/body";
+}
+subgraph cluster128 {
+"extras_gwt_atmosphere-gwt-client_src_main_java_org_atmosphere_gwt_client_extra_LoadRegister.java/[CN]/LoadRegister/[MT]/onUnload()/body";
+"extras_gwt_atmosphere-gwt-client_src_main_java_org_atmosphere_gwt_client_extra_LoadRegister.java/[CN]/LoadRegister/[MT]/onBeforeUnload()/body";
+"extras_gwt_atmosphere-gwt-client_src_main_java_org_atmosphere_gwt_client_extra_LoadRegister.java/[CN]/LoadRegister/[MT]/addUnloadHandler(UnloadHandler)/body";
+}
+subgraph cluster457 {
+"samples_rest-chat_src_main_java_org_atmosphere_commons_jersey_ResourceChat.java/[CN]/ResourceChat/[MT]/suspend()/body";
+}
+subgraph cluster121 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/cacheLostMessage(AtmosphereResource,boolean)/body";
+}
+subgraph cluster328 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getMethod()/parameters";
+}
+subgraph cluster18 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_JavaScriptProtocol.java/[CN]/JavaScriptProtocol/[MT]/inspect(AtmosphereResource)/body";
+}
+subgraph cluster357 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/createBroadcasterConfig(AtmosphereConfig)/body";
+}
+subgraph cluster448 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/body(String)/body";
+}
+subgraph cluster167 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsynchronousProcessor.java/[CN]/AsynchronousProcessor/[MT]/action(AtmosphereResourceImpl)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsynchronousProcessor.java/[CN]/AsynchronousProcessor/[MT]/timedout(HttpServletRequest,HttpServletResponse)/body";
+}
+subgraph cluster459 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[CN]/NoOpsRequest/[MT]/logout()/body";
+}
+subgraph cluster147 {
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisBroadcaster.java/[CN]/RedisBroadcaster/[MT]/getLockingObject()/parameters";
+}
+subgraph cluster1 {
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/setAttribute(String,Object)/body";
+}
+subgraph cluster492 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[CN]/Builder/[FE]/destroyable";
+}
+subgraph cluster246 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/removeAtmosphereResource(AtmosphereResource,boolean)/body";
+}
+subgraph cluster115 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_TomcatWebSocket.java/[CN]/TomcatWebSocket/[MT]/write(String)/body";
+}
+subgraph cluster185 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/loadAtmosphereHandlersFromPath(URLClassLoader,String)/body";
+}
+subgraph cluster477 {
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/open(WebSocket,AtmosphereRequest,AtmosphereResponse)/body";
+"modules_cpr_src_main_java_org_atmosphere_websocket_DefaultWebSocketProcessor.java/[CN]/DefaultWebSocketProcessor/[MT]/invokeInterceptors(WebSocketHandlerProxy,WebSocket,Object,int,int)/body";
+}
+subgraph cluster450 {
+"modules_cpr_src_main_java_org_atmosphere_util_AbstractBroadcasterProxy.java/[CN]/AbstractBroadcasterProxy/[MT]/broadcast(T,Set<AtmosphereResource<?,?>>)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResourceImpl.java/[CN]/AtmosphereResourceImpl/[MT]/setBroadcaster(Broadcaster)/body";
+}
+subgraph cluster439 {
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_AnnotationDetector.java/[CN]/AnnotationDetector/[MT]/readAnnotations(DataInput,char)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_AnnotationDetector.java/[CN]/AnnotationDetector/[MT]/readThisClass(DataInput)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_annotation_AnnotationDetector.java/[CN]/AnnotationDetector/[MT]/readFields(DataInput)/body";
+}
+subgraph cluster126 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_MetaBroadcaster.java/[CN]/MetaBroadcaster/[MT]/broadcastTo(String,Object)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_MetaBroadcaster.java/[CN]/MetaBroadcaster/[MT]/scheduleTo(String,Object,int,TimeUnit)/body";
+}
+subgraph cluster21 {
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/newClassInstance(Class<T>,Class<U>)/body";
+}
+subgraph cluster369 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/resetStates()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/DefaultAtmosphereObjectFactory/[MT]/configureMetaBroadcaster()/body";
+}
+subgraph cluster194 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[CS]/Filter(Action,long,int,Suspend.SCOPE)/body";
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[MT]/create(AbstractMethod)/body";
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[CS]/Filter(Action,long,int)/body";
+}
+subgraph cluster97 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/notifyOnMessage(Deliver)/body";
+}
+subgraph cluster271 {
+"modules_cpr_src_main_java_org_atmosphere_container_JBossWebSocketHandler.java/[CN]/JBossWebSocketHandler/[MT]/onSocketOpened(WebSocket)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_JBossWebSocketHandler.java/[CN]/JBossWebSocketHandler/[MT]/onSocketClosed(WebSocket)/body";
+}
+subgraph cluster3 {
+"samples_di-guice-sample_src_main_java_org_atmosphere_samples_di_guice_EventsLogger.java/[CN]/EventsLogger/[MT]/onThrowable(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+"samples_di-guice-sample_src_main_java_org_atmosphere_samples_di_guice_EventsLogger.java/[CN]/EventsLogger/[MT]/onResume(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster176 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/notifyOnAddAtmosphereResourceListener(AtmosphereResource)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/notifyOnRemoveAtmosphereResourceListener(AtmosphereResource)/body";
+}
+subgraph cluster242 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/destroyed()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/notifyOnPreDestroy()/body";
+}
+subgraph cluster400 {
+"modules_cpr_src_main_java_org_atmosphere_util_ServletContextFactory.java/[CN]/ServletContextFactory/[MT]/init(ServletContext)/parameters";
+}
+subgraph cluster506 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/getHeaderNames()/body";
+}
+subgraph cluster47 {
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/onClose(WebSocket)/parameters";
+"samples_jquery-websocketprotocol-pubsub_src_main_java_org_atmosphere_samples_pubsub_WebSocketPubSub.java/[CN]/WebSocketPubSub/[MT]/lookupBroadcaster(String)/body";
+}
+subgraph cluster83 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/broadcast(T)/body";
+}
+subgraph cluster114 {
+"modules_cpr_src_main_java_org_atmosphere_cache_UUIDBroadcasterCache.java/[CN]/UUIDBroadcasterCache/[MT]/clearCache(String,String,CacheMessage)/parameters";
+}
+subgraph cluster371 {
+"modules_cpr_src_main_java_org_atmosphere_container_Tomcat7CometSupport.java/[CN]/Tomcat7CometSupport/[MT]/cancelled(AtmosphereRequest,AtmosphereResponse)/body";
+}
+subgraph cluster2 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[MT]/delayBroadcast(T,long,TimeUnit)/body";
+}
+subgraph cluster62 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getRequestURL()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/getServletPath()/parameters";
+}
+subgraph cluster190 {
+"samples_di-guice-sample_src_main_java_org_atmosphere_samples_di_guice_EventsLogger.java/[CN]/EventsLogger/[MT]/onBroadcast(AtmosphereResourceEvent<HttpServletRequest,HttpServletResponse>)/body";
+}
+subgraph cluster373 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[MT]/setBroadcasterCache(BroadcasterCache)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultBroadcaster.java/[CN]/DefaultBroadcaster/[CS]/DefaultBroadcaster(String,URI,AtmosphereServlet.AtmosphereConfig)/body";
+}
+subgraph cluster390 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[CS]/AtmosphereResponse(Builder)/body";
+}
+subgraph cluster109 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterFuture.java/[CN]/BroadcasterFuture/[MT]/done()/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterFuture.java/[CN]/BroadcasterFuture/[MT]/cancel(boolean)/body";
+}
+subgraph cluster132 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyCometSupport.java/[CN]/JettyCometSupport/[MT]/action(AtmosphereResourceImpl)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_Grizzly2CometSupport.java/[CN]/Grizzly2CometSupport/[MT]/resume(AtmosphereRequest,CometContext)/body";
+}
+subgraph cluster334 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[CN]/AtmosphereHandlerWrapper/[CS]/AtmosphereHandlerWrapper(AtmosphereHandler,Broadcaster,AtmosphereConfig)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[CN]/AtmosphereHandlerWrapper/[CS]/AtmosphereHandlerWrapper(BroadcasterFactory,AtmosphereHandler,String,AtmosphereConfig)/body";
+}
+subgraph cluster422 {
+"modules_native_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/newAtmosphereFramework()/body";
+}
+subgraph cluster103 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AndroidAtmosphereInterceptor.java/[CN]/AndroidAtmosphereInterceptor/[MT]/configure(AtmosphereConfig)/body";
+}
+subgraph cluster153 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_DefaultAtmosphereResourceSession.java/[CN]/DefaultAtmosphereResourceSession/[MT]/getAttributeNames()/body";
+}
+subgraph cluster142 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[MT]/onDisconnect()/body";
+}
+subgraph cluster218 {
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/inject(T)/body";
+}
+subgraph cluster286 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/write(byte[],boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/write(byte[],int,int,boolean)/body";
+}
+subgraph cluster139 {
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisBroadcaster.java/[CN]/RedisBroadcaster/[MT]/setID(String)/body";
+"extras_redis_src_main_java_org_atmosphere_plugin_redis_RedisBroadcaster.java/[CN]/RedisBroadcaster/[MT]/setUp()/body";
+}
+subgraph cluster183 {
+"modules_cpr_src_main_java_org_atmosphere_container_Tomcat7CometSupport.java/[CN]/Tomcat7CometSupport/[MT]/cancelled(HttpServletRequest,HttpServletResponse)/body";
+}
+subgraph cluster27 {
+"modules_cpr_src_main_java_org_atmosphere_inject_BroadcasterIntrospector.java/[CN]/BroadcasterIntrospector/[MT]/injectable(AtmosphereConfig)/body";
+}
+subgraph cluster341 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFramework.java/[CN]/AtmosphereFramework/[MT]/loadWebSocketFromPath(URLClassLoader,String)/body";
+}
+subgraph cluster356 {
+"modules_cpr_src_main_java_org_atmosphere_inject_InjectableObjectFactory.java/[CN]/InjectableObjectFactory/[MT]/requestScoped(Object,Class,AtmosphereResource)/body";
+}
+subgraph cluster298 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AtmosphereResourceStateRecovery.java/[CN]/AtmosphereResourceStateRecovery/[MT]/startStateTracker()/body";
+}
+subgraph cluster509 {
+"samples_jquery-pubsub_src_main_java_org_atmosphere_samples_pubsub_JQueryPubSub.java/[CN]/JQueryPubSub/[MT]/subscribe()/body";
+}
+subgraph cluster72 {
+"modules_cpr_src_main_java_org_atmosphere_config_managed_MeteorServiceInterceptor.java/[CN]/MeteorServiceInterceptor/[MT]/mapAnnotatedService(boolean,String,AtmosphereRequest,AtmosphereFramework.AtmosphereHandlerWrapper)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFrameworkInitializer.java/[CN]/AtmosphereFrameworkInitializer/[MT]/configureFramework(ServletConfig,boolean,boolean,Class<? extends AtmosphereFramework>)/body";
+}
+subgraph cluster4 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereResponse.java/[CN]/AtmosphereResponse/[MT]/sendError(int)/body";
+}
+subgraph cluster500 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onFragment(com.sun.grizzly.websockets.WebSocket,String,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyApplication/[MT]/onMessage(com.sun.grizzly.websockets.WebSocket,byte[])/body";
+}
+subgraph cluster342 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereFrameworkInitializer.java/[CN]/AtmosphereFrameworkInitializer/[MT]/newAtmosphereFramework(ServletContext,boolean,boolean)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/queryString(String)/parameters";
+}
+subgraph cluster474 {
+"modules_cpr_src_main_java_org_atmosphere_util_ExecutorsFactory.java/[CN]/ExecutorsFactory/[MT]/getAsyncOperationExecutor(AtmosphereConfig,String)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_Utils.java/[CN]/Utils/[MT]/resumableTransport(AtmosphereResource.TRANSPORT)/body";
+}
+subgraph cluster140 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereSession.java/[CN]/AtmosphereSession/[MT]/tryAcquire(int)/body";
+}
+subgraph cluster52 {
+"modules_cpr_src_main_java_org_atmosphere_container_GlassFishWebSocketSupport.java/[CN]/GlassFishWebSocketSupport/[CN]/GrizzlyWebSocket/[MT]/redirect(String)/body";
+}
+subgraph cluster431 {
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getServerPort()/parameters";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getParameter(String)/parameters";
+"modules_cpr_src_main_java_org_atmosphere_container_JettyWebSocketHandler.java/[CN]/JettyWebSocketHandler/[CN]/JettyRequestFix/[MT]/getServerName()/parameters";
+}
+subgraph cluster402 {
+"samples_jquery-atmospherehandler-pubsub_src_main_java_org_atmosphere_samples_pubsub_AtmosphereHandlerPubSub.java/[CN]/AtmosphereHandlerPubSub/[MT]/onRequest(AtmosphereResource<HttpServletRequest,HttpServletResponse>)/parameters";
+}
+subgraph cluster394 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/loadAtmosphereDotXml(InputStream,URLClassLoader)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereServlet.java/[CN]/AtmosphereServlet/[MT]/addAtmosphereHandler(String,AtmosphereHandler)/body";
+}
+subgraph cluster424 {
+"modules_cpr_src_main_java_org_atmosphere_container_version_TomcatWebSocket.java/[CN]/TomcatWebSocket/[MT]/close()/body";
+}
+subgraph cluster122 {
+"modules_cpr_src_main_java_org_atmosphere_interceptor_AtmosphereResourceStateRecovery.java/[CN]/AtmosphereResourceStateRecovery/[MT]/timeout(long)/body";
+"modules_cpr_src_main_java_org_atmosphere_util_FakeHttpSession.java/[CN]/FakeHttpSession/[MT]/getId()/body";
+}
+subgraph cluster480 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_BroadcasterConfig.java/[CN]/BroadcasterConfig/[CS]/BroadcasterConfig(List<String>,AtmosphereConfig,boolean,String)/body";
+}
+subgraph cluster458 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_Entry.java/[CN]/Entry/[CS]/Entry(Object,AtmosphereResource,BroadcasterFuture<?>,Object)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_Entry.java/[CN]/Entry/[CS]/Entry(Object,BroadcasterFuture<?>,Object)/body";
+}
+subgraph cluster372 {
+"modules_jersey_src_main_java_org_atmosphere_jersey_AtmosphereFilter.java/[CN]/AtmosphereFilter/[CN]/Filter/[MT]/executeSuspend(AtmosphereResource,long,boolean,boolean,URI,ContainerRequest,ContainerResponse,boolean)/parameters";
+}
+subgraph cluster158 {
+"samples_rest-chat_src_main_java_org_atmosphere_commons_jersey_ResourceChat.java/package";
+}
+subgraph cluster91 {
+"modules_cpr_src_main_java_org_atmosphere_handler_ReflectorServletProcessor.java/[CN]/ReflectorServletProcessor/[MT]/destroy()/body";
+}
+subgraph cluster213 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/setAttribute(String,Object)/body";
+"modules_cpr_src_main_java_org_atmosphere_cpr_AtmosphereRequest.java/[CN]/AtmosphereRequest/[MT]/removeAttribute(String)/body";
+}
+subgraph cluster491 {
+"modules_cpr_src_main_java_org_atmosphere_cpr_AsynchronousProcessor.java/[CN]/AsynchronousProcessor/[MT]/init(ServletConfig)/body";
+}
+subgraph cluster212 {
+"extras_spring_src_main_java_org_atmosphere_spring_SpringInjector.java/[CN]/SpringInjector/[MT]/inject(Object)/parameters";
+"extras_spring_src_main_java_org_atmosphere_spring_SpringInjector.java/[CN]/SpringInjector/[MT]/inject(Object)/body";
+}
+}
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[

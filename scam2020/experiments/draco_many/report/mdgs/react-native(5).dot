@@ -1,0 +1,422 @@
+
+digraph {
+subgraph cluster87 {
+"ReactAndroid_src_main_java_com_facebook_react_bridge_BaseJavaModule.java/[CN]/BaseJavaModule/[MT]/getMethods()/body";
+}
+subgraph cluster79 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_JSCHeapCapture.java/[CN]/JSCHeapCapture/[MT]/unregisterHeapCapture(JSCHeapCapture)/body";
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_JSCHeapCapture.java/[CN]/JSCHeapCapture/[MT]/registerHeapCapture(JSCHeapCapture)/body";
+}
+subgraph cluster26 {
+"ReactAndroid_src_main_java_com_facebook_react_views_toolbar_ReactToolbar.java/[CN]/ReactToolbar/[MT]/getDrawableByName(String)/body";
+}
+subgraph cluster65 {
+"ReactAndroid_src_main_java_com_facebook_react_ReactInstanceManager.java/[CN]/ReactInstanceManager/[CN]/Builder/[MT]/setBundleAssetName(String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_ReactInstanceManager.java/[CN]/ReactInstanceManager/[MT]/createReactContextInBackground()/body";
+}
+subgraph cluster5 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_core_Timing.java/[CN]/Timing/[CN]/TimerFrameCallback/[MT]/doFrame(long)/body";
+}
+subgraph cluster83 {
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/onPageStarted(WebView,String,Bitmap)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_drawer_ReactDrawerLayoutManager.java/[CN]/ReactDrawerLayoutManager/[CN]/DrawerEventEmitter/[MT]/onDrawerClosed(View)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_textinput_ReactTextInputManager.java/[CN]/ReactTextInputManager/[CN]/ReactTextInputTextWatcher/[MT]/onTextChanged(CharSequence,int,int,int)/body";
+}
+subgraph cluster85 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_websocket_WebSocketModule.java/[CN]/WebSocketModule/[MT]/connect(String,ReadableArray,ReadableMap,int)/parameters";
+"ReactAndroid_src_main_java_com_facebook_react_modules_websocket_WebSocketModule.java/[CN]/WebSocketModule/[MT]/connect(String,ReadableArray,ReadableMap,int)/body";
+}
+subgraph cluster64 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_location_LocationModule.java/[CN]/LocationModule/[MT]/startObserving(ReadableMap)/body";
+"ReactAndroid_src_main_java_com_facebook_react_modules_location_LocationModule.java/[CN]/LocationModule/[CN]/LocationOptions/[MT]/fromReactMap(ReadableMap)/body";
+}
+subgraph cluster80 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_UIViewOperationQueue.java/[CN]/UIViewOperationQueue/[CN]/DispatchUIFrameCallback/[MT]/doFrameGuarded(long)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_UIViewOperationQueue.java/[CN]/UIViewOperationQueue/[MT]/dispatchViewUpdates(int)/body";
+}
+subgraph cluster30 {
+"ReactAndroid_src_main_java_com_facebook_react_views_recyclerview_RecyclerViewBackedScrollViewManager.java/[CN]/RecyclerViewBackedScrollViewManager/[MT]/scrollTo(RecyclerViewBackedScrollView,ReactScrollViewCommandHelper.ScrollToCommandData)/parameters";
+}
+subgraph cluster1 {
+"ReactAndroid_src_main_java_com_facebook_react_views_scroll_ReactScrollView.java/[CN]/ReactScrollView/[CS]/ReactScrollView(ReactContext,FpsListener)/body";
+}
+subgraph cluster91 {
+"ReactAndroid_src_main_java_com_facebook_react_views_modal_ReactModalHostView.java/[CN]/ReactModalHostView/[MT]/onHostDestroy()/body";
+}
+subgraph cluster0 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevServerHelper.java/[CN]/DevServerHelper/[MT]/getJSBundleURLForRemoteDebugging(String)/body";
+}
+subgraph cluster6 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_NativeViewHierarchyManager.java/[CN]/NativeViewHierarchyManager/[MT]/manageChildren(int,int[],ViewAtIndex[],int[])/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_NativeViewHierarchyManager.java/[CN]/NativeViewHierarchyManager/[MT]/dropView(View)/body";
+}
+subgraph cluster23 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_ReactShadowNode.java/[CN]/ReactShadowNode/[MT]/removeAllChildren()/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_ReactShadowNode.java/[CN]/ReactShadowNode/[MT]/updateNativeChildrenCountInParent(int)/body";
+}
+subgraph cluster62 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_network_NetworkingModule.java/[CN]/NetworkingModule/[CS]/NetworkingModule(ReactApplicationContext,String)/body";
+}
+subgraph cluster100 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_i18nmanager_I18nUtil.java/[CN]/I18nUtil/[MT]/isRTLAllowed(Context)/body";
+}
+subgraph cluster35 {
+"ReactAndroid_src_main_java_com_facebook_react_bridge_ReactContext.java/[CN]/ReactContext/[MT]/onHostPause()/body";
+"ReactAndroid_src_main_java_com_facebook_react_bridge_ReactContext.java/[CN]/ReactContext/[MT]/onHostDestroy()/body";
+}
+subgraph cluster123 {
+"ReactAndroid_src_main_java_com_facebook_csslayout_Spacing.java/[CN]/Spacing/[MT]/reset()/body";
+"ReactAndroid_src_main_java_com_facebook_csslayout_CSSStyle.java/[CN]/CSSStyle/[MT]/reset()/body";
+}
+subgraph cluster3 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_fresco_FrescoModule.java/[CN]/FrescoModule/[MT]/initialize()/body";
+}
+subgraph cluster97 {
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageManager.java/[CN]/ReactImageManager/[CS]/ReactImageManager()/body";
+}
+subgraph cluster8 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_i18nmanager_I18nUtil.java/[CN]/I18nUtil/[MT]/forceRTL(Context,boolean)/parameters";
+"ReactAndroid_src_main_java_com_facebook_react_modules_i18nmanager_I18nUtil.java/[CN]/I18nUtil/[MT]/allowRTL(Context,boolean)/body";
+"ReactAndroid_src_main_java_com_facebook_react_modules_i18nmanager_I18nUtil.java/[CN]/I18nUtil/[MT]/isRTLForced(Context)/body";
+}
+subgraph cluster39 {
+"ReactAndroid_src_main_java_com_facebook_react_bridge_ModuleSpec.java/[CN]/ModuleSpec/[MT]/simple(Class<? extends NativeModule>)/body";
+}
+subgraph cluster28 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_network_NetworkingModule.java/[CN]/NetworkingModule/[MT]/abortRequest(ExecutorToken,int)/body";
+}
+subgraph cluster52 {
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewManager.java/[CN]/ReactViewManager/[MT]/setNativeBackground(ReactViewGroup,ReadableMap)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactDrawableHelper.java/[CN]/ReactDrawableHelper/[MT]/createDrawableFromJSDescription(Context,ReadableMap)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewGroup.java/[CN]/ReactViewGroup/[MT]/setBorderRadius(float)/body";
+}
+subgraph cluster24 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_UIImplementation.java/[CN]/UIImplementation/[CS]/UIImplementation(ReactApplicationContext,ViewManagerRegistry)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_UIImplementation.java/[CN]/UIImplementation/[MT]/createRootShadowNode()/body";
+}
+subgraph cluster67 {
+"ReactAndroid_src_main_java_com_facebook_react_views_textinput_ReactEditText.java/[CN]/ReactEditText/[MT]/onAttachedToWindow()/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_text_ReactTextView.java/[CN]/ReactTextView/[MT]/onAttachedToWindow()/body";
+}
+subgraph cluster102 {
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageView.java/[CN]/ReactImageView/[MT]/setSource(ReadableArray)/body";
+}
+subgraph cluster69 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_storage_AsyncStorageModule.java/[CN]/AsyncStorageModule/[MT]/multiRemove(ReadableArray,Callback)/body";
+}
+subgraph cluster125 {
+"ReactAndroid_src_main_java_com_facebook_react_module_processing_ReactModuleSpecProcessor.java/[CN]/ReactModuleSpecProcessor/[MT]/process(Set<? extends TypeElement>,RoundEnvironment)/body";
+}
+subgraph cluster46 {
+"ReactAndroid_src_main_java_com_facebook_react_views_modal_ReactModalHostManager.java/[CN]/ReactModalHostManager/[MT]/addEventEmitters(ThemedReactContext,ReactModalHostView)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_recyclerview_RecyclerViewBackedScrollView.java/[CN]/RecyclerViewBackedScrollView/[MT]/onTotalChildrenHeightChange(int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_picker_ReactPickerManager.java/[CN]/ReactPickerManager/[CN]/PickerEventEmitter/[MT]/onItemSelected(int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_recyclerview_RecyclerViewBackedScrollView.java/[CN]/RecyclerViewBackedScrollView/[MT]/onScrollChanged(int,int,int,int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_drawer_ReactDrawerLayoutManager.java/[CN]/ReactDrawerLayoutManager/[CN]/DrawerEventEmitter/[MT]/onDrawerStateChanged(int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_viewpager_ReactViewPager.java/[CN]/ReactViewPager/[CN]/PageChangeListener/[MT]/onPageScrollStateChanged(int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_toolbar_ReactToolbarManager.java/[CN]/ReactToolbarManager/[MT]/addEventEmitters(ThemedReactContext,ReactToolbar)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/onReceivedError(WebView,int,String,String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_textinput_ReactTextInputManager.java/[CN]/ReactTextInputManager/[MT]/addEventEmitters(ThemedReactContext,ReactEditText)/body";
+}
+subgraph cluster120 {
+"ReactAndroid_src_main_java_com_facebook_react_views_text_ReactTextShadowNode.java/[CN]/ReactTextShadowNode/[MT]/buildSpannedFromTextCSSNode(ReactTextShadowNode,SpannableStringBuilder,List<SetSpanOperation>)/body";
+}
+subgraph cluster40 {
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewGroup.java/[CN]/ReactViewGroup/[MT]/setBorderRadius(float,int)/body";
+}
+subgraph cluster76 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_JSPackagerWebSocketClient.java/[CN]/JSPackagerWebSocketClient/[MT]/closeQuietly()/body";
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_JSPackagerWebSocketClient.java/[CN]/JSPackagerWebSocketClient/[MT]/reconnect()/body";
+}
+subgraph cluster50 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_JSCHeapCapture.java/[CN]/JSCHeapCapture/[CS]/JSCHeapCapture(ReactApplicationContext)/body";
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevSupportManagerImpl.java/[CN]/DevSupportManagerImpl/[MT]/showDevOptionsDialog()/body";
+}
+subgraph cluster117 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevInternalSettings.java/[CN]/DevInternalSettings/[MT]/onSharedPreferenceChanged(SharedPreferences,String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevServerHelper.java/[CN]/DevServerHelper/[MT]/downloadBundleFromURL(BundleDownloadCallback,String,File)/body";
+}
+subgraph cluster96 {
+"ReactAndroid_src_main_java_com_facebook_react_views_progressbar_ProgressBarContainerView.java/[CN]/ProgressBarContainerView/[MT]/setStyle(String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_progressbar_ProgressBarContainerView.java/[CN]/ProgressBarContainerView/[MT]/apply()/body";
+}
+subgraph cluster34 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_storage_AsyncStorageModule.java/[CN]/AsyncStorageModule/[MT]/multiGet(ReadableArray,Callback)/body";
+}
+subgraph cluster74 {
+"ReactAndroid_src_main_java_com_facebook_react_bridge_JavaScriptModuleRegistry.java/[CN]/JavaScriptModuleRegistry/[CN]/JavaScriptModuleInvocationHandler/[MT]/invoke(Object,Method,Object[])/body";
+"ReactAndroid_src_main_java_com_facebook_react_bridge_JavaScriptModuleRegistration.java/[CN]/JavaScriptModuleRegistration/[CS]/JavaScriptModuleRegistration(Class<? extends JavaScriptModule>)/body";
+}
+subgraph cluster72 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_events_EventDispatcher.java/[CN]/EventDispatcher/[CN]/ScheduleDispatchFrameCallback/[MT]/doFrame(long)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_events_EventDispatcher.java/[CN]/EventDispatcher/[MT]/dispatchEvent(Event)/body";
+}
+subgraph cluster84 {
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageView.java/[CN]/ReactImageView/[MT]/setShouldNotifyLoadEvents(boolean)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_viewpager_ReactViewPager.java/[CN]/ReactViewPager/[CN]/PageChangeListener/[MT]/onPageSelected(int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_drawer_ReactDrawerLayoutManager.java/[CN]/ReactDrawerLayoutManager/[CN]/DrawerEventEmitter/[MT]/onDrawerSlide(View,float)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/emitFinishEvent(WebView,String)/body";
+}
+subgraph cluster38 {
+"ReactAndroid_src_main_java_com_facebook_react_ReactInstanceManager.java/[CN]/ReactInstanceManager/[CN]/Builder/[MT]/setJSBundleLoader(JSBundleLoader)/body";
+"ReactAndroid_src_main_java_com_facebook_react_ReactInstanceManager.java/[CN]/ReactInstanceManager/[CN]/Builder/[MT]/setJSBundleFile(String)/body";
+}
+subgraph cluster57 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_JSTouchDispatcher.java/[CN]/JSTouchDispatcher/[MT]/handleTouchEvent(MotionEvent,EventDispatcher)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_events_TouchEventCoalescingKeyHelper.java/[CN]/TouchEventCoalescingKeyHelper/[MT]/hasCoalescingKey(long)/body";
+}
+subgraph cluster121 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_ViewProps.java/[CN]/ViewProps/[FE]/LAYOUT_ONLY_PROPS";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_NativeViewHierarchyManager.java/[CN]/NativeViewHierarchyManager/[MT]/removeRootView(int)/body";
+}
+subgraph cluster32 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_websocket_WebSocketModule.java/[CN]/WebSocketModule/[CS]/WebSocketModule(ReactApplicationContext)/body";
+}
+subgraph cluster53 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_statusbar_StatusBarModule.java/[CN]/StatusBarModule/[MT]/setTranslucent(boolean,Promise)/body";
+"ReactAndroid_src_main_java_com_facebook_react_modules_statusbar_StatusBarModule.java/[CN]/StatusBarModule/[MT]/setColor(int,boolean,Promise)/body";
+}
+subgraph cluster47 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevServerHelper.java/[CN]/DevServerHelper/[MT]/getSourceUrl(String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevServerHelper.java/[CN]/DevServerHelper/[MT]/getSourceMapUrl(String)/body";
+}
+subgraph cluster59 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_core_Timing.java/[CN]/Timing/[MT]/setChoreographerCallback()/body";
+"ReactAndroid_src_main_java_com_facebook_react_modules_core_Timing.java/[CN]/Timing/[MT]/clearChoreographerCallback()/body";
+}
+subgraph cluster12 {
+"ReactAndroid_src_main_java_com_facebook_react_module_processing_ReactModuleSpecProcessor.java/[CN]/ReactModuleSpecProcessor/[MT]/init(ProcessingEnvironment)/body";
+}
+subgraph cluster105 {
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ImageLoadEvent.java/[CN]/ImageLoadEvent/[MT]/dispatch(RCTEventEmitter)/body";
+}
+subgraph cluster95 {
+"ReactAndroid_src_main_java_com_facebook_react_XReactInstanceManagerImpl.java/[CN]/XReactInstanceManagerImpl/[MT]/destroy()/body";
+}
+subgraph cluster33 {
+"ReactAndroid_src_main_java_com_facebook_react_bridge_BaseJavaModule.java/[CN]/BaseJavaModule/[MT]/getSyncHooks()/body";
+}
+subgraph cluster15 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_TouchTargetHelper.java/[CN]/TouchTargetHelper/[MT]/findTouchTargetView(float[],ViewGroup)/body";
+}
+subgraph cluster119 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevServerHelper.java/[CN]/DevServerHelper/[MT]/enqueueOnChangeEndpointLongPolling()/body";
+}
+subgraph cluster42 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_TouchTargetHelper.java/[CN]/TouchTargetHelper/[MT]/getTouchTargetForView(View,float,float)/parameters";
+}
+subgraph cluster7 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevSupportManagerImpl.java/[CN]/DevSupportManagerImpl/[MT]/reload()/body";
+}
+subgraph cluster56 {
+"ReactAndroid_src_main_java_com_facebook_react_views_recyclerview_RecyclerViewBackedScrollViewManager.java/[CN]/RecyclerViewBackedScrollViewManager/[MT]/scrollTo(RecyclerViewBackedScrollView,ReactScrollViewCommandHelper.ScrollToCommandData)/body";
+}
+subgraph cluster104 {
+"ReactAndroid_src_main_java_com_facebook_react_common_futures_SimpleSettableFuture.java/[CN]/SimpleSettableFuture/[MT]/get(long,TimeUnit)/body";
+"ReactAndroid_src_main_java_com_facebook_react_common_futures_SimpleSettableFuture.java/[CN]/SimpleSettableFuture/[MT]/get()/body";
+}
+subgraph cluster31 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_TouchTargetHelper.java/[CN]/TouchTargetHelper/[MT]/isTransformedTouchPointInView(float,float,ViewGroup,View,PointF)/parameters";
+}
+subgraph cluster70 {
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageManager.java/[CN]/ReactImageManager/[CS]/ReactImageManager(AbstractDraweeControllerBuilder,Object)/body";
+}
+subgraph cluster107 {
+"ReactAndroid_src_main_java_com_facebook_react_bridge_ReactContext.java/[CN]/ReactContext/[MT]/startActivityForResult(Intent,int,Bundle)/body";
+"ReactAndroid_src_main_java_com_facebook_react_bridge_ReactContext.java/[CN]/ReactContext/[MT]/hasCurrentActivity()/body";
+}
+subgraph cluster81 {
+"ReactAndroid_src_main_java_com_facebook_react_bridge_queue_MessageQueueThreadImpl.java/[CN]/MessageQueueThreadImpl/[MT]/createForMainThread(String,QueueThreadExceptionHandler)/body";
+"ReactAndroid_src_main_java_com_facebook_react_bridge_queue_MessageQueueThreadImpl.java/[CN]/MessageQueueThreadImpl/[MT]/startNewBackgroundThread(String,QueueThreadExceptionHandler)/body";
+}
+subgraph cluster36 {
+"ReactAndroid_src_main_java_com_facebook_react_views_toolbar_ReactToolbar.java/[CN]/ReactToolbar/[CS]/ReactToolbar(Context)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_toolbar_ReactToolbar.java/[CN]/ReactToolbar/[MT]/setOverflowIconSource(ReadableMap)/body";
+}
+subgraph cluster25 {
+"ReactAndroid_src_main_java_com_facebook_react_views_swiperefresh_SwipeRefreshLayoutManager.java/[CN]/SwipeRefreshLayoutManager/[MT]/addEventEmitters(ThemedReactContext,ReactSwipeRefreshLayout)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_drawer_ReactDrawerLayoutManager.java/[CN]/ReactDrawerLayoutManager/[CN]/DrawerEventEmitter/[MT]/onDrawerOpened(View)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_OnLayoutEvent.java/[CN]/OnLayoutEvent/[MT]/init(int,int,int,int,int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_textinput_ReactTextInputManager.java/[CN]/ReactTextInputManager/[CN]/ReactSelectionWatcher/[MT]/onSelectionChanged(int,int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/doUpdateVisitedHistory(WebView,String,boolean)/body";
+}
+subgraph cluster116 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_JSPackagerWebSocketClient.java/[CN]/JSPackagerWebSocketClient/[MT]/connect()/body";
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_JSPackagerWebSocketClient.java/[CN]/JSPackagerWebSocketClient/[MT]/abort(String,Throwable)/body";
+}
+subgraph cluster71 {
+"ReactAndroid_src_main_java_com_facebook_react_CoreModulesPackage.java/[CN]/CoreModulesPackage/[MT]/createJSModules()/body";
+}
+subgraph cluster101 {
+"ReactAndroid_src_main_java_com_facebook_react_views_modal_ReactModalHostView.java/[CN]/ReactModalHostView/[MT]/onHostResume()/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_TouchTargetHelper.java/[CN]/TouchTargetHelper/[MT]/findTargetTagForTouch(float,float,ViewGroup)/body";
+}
+subgraph cluster21 {
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewBackgroundDrawable.java/[CN]/ReactViewBackgroundDrawable/[MT]/drawRoundedBackgroundWithBorders(Canvas)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewBackgroundDrawable.java/[CN]/ReactViewBackgroundDrawable/[MT]/draw(Canvas)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewBackgroundDrawable.java/[CN]/ReactViewBackgroundDrawable/[MT]/updatePath()/body";
+}
+subgraph cluster88 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevServerHelper.java/[CN]/DevServerHelper/[MT]/startPollingOnChangeEndpoint(OnServerContentChangeListener)/body";
+}
+subgraph cluster111 {
+"ReactAndroid_src_main_java_com_facebook_react_ReactRootView.java/[CN]/ReactRootView/[MT]/onMeasure(int,int)/body";
+}
+subgraph cluster4 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_events_TouchesHelper.java/[CN]/TouchesHelper/[MT]/createsPointersArray(int,TouchEvent)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_events_TouchesHelper.java/[CN]/TouchesHelper/[MT]/createsPointersArray(int,TouchEvent)/parameters";
+}
+subgraph cluster93 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_core_Timing.java/[CN]/Timing/[MT]/createTimer(ExecutorToken,int,int,double,boolean)/body";
+}
+subgraph cluster78 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_network_NetworkingModule.java/[CN]/NetworkingModule/[MT]/constructMultipartBody(ExecutorToken,ReadableArray,String,int)/body";
+}
+subgraph cluster11 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_location_LocationModule.java/[CN]/LocationModule/[MT]/getCurrentPosition(ReadableMap,Callback,Callback)/body";
+}
+subgraph cluster68 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_storage_ReactDatabaseSupplier.java/[CN]/ReactDatabaseSupplier/[MT]/deleteInstance()/body";
+"ReactAndroid_src_main_java_com_facebook_react_modules_storage_ReactDatabaseSupplier.java/[CN]/ReactDatabaseSupplier/[MT]/getInstance(Context)/body";
+}
+subgraph cluster112 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_core_Timing.java/[CN]/Timing/[MT]/deleteTimer(ExecutorToken,int)/body";
+}
+subgraph cluster43 {
+"ReactAndroid_src_main_java_com_facebook_react_views_textinput_ReactTextInputManager.java/[CN]/ReactTextInputManager/[MT]/setInlineImageLeft(ReactEditText,String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageView.java/[CN]/ReactImageView/[MT]/setLoadingIndicatorSource(String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageManager.java/[CN]/ReactImageManager/[MT]/createViewInstance(ThemedReactContext)/body";
+}
+subgraph cluster106 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_i18nmanager_I18nUtil.java/[CN]/I18nUtil/[MT]/isRTL(Context)/body";
+"ReactAndroid_src_main_java_com_facebook_react_modules_i18nmanager_I18nManagerModule.java/[CN]/I18nManagerModule/[MT]/allowRTL(boolean)/body";
+}
+subgraph cluster19 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_events_Event.java/[CN]/Event/[MT]/dispose()/body";
+}
+subgraph cluster75 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevServerHelper.java/[CN]/DevServerHelper/[MT]/stopPollingOnChangeEndpoint()/body";
+}
+subgraph cluster115 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_i18nmanager_I18nUtil.java/[CN]/I18nUtil/[MT]/forceRTL(Context,boolean)/body";
+"ReactAndroid_src_main_java_com_facebook_react_XReactInstanceManagerImpl.java/[CN]/XReactInstanceManagerImpl/[MT]/createAllViewManagers(ReactApplicationContext)/body";
+"ReactAndroid_src_main_java_com_facebook_react_ReactRootView.java/[CN]/ReactRootView/[MT]/attachToReactInstanceManager()/body";
+}
+subgraph cluster20 {
+"ReactAndroid_src_main_java_com_facebook_react_bridge_ModuleSpec.java/[CN]/ModuleSpec/[MT]/simple(Class<? extends NativeModule>,ReactApplicationContext)/body";
+}
+subgraph cluster86 {
+"ReactAndroid_src_main_java_com_facebook_react_ReactRootView.java/[CN]/ReactRootView/[MT]/onDetachedFromWindow()/body";
+"ReactAndroid_src_main_java_com_facebook_react_ReactRootView.java/[CN]/ReactRootView/[MT]/startReactApplication(ReactInstanceManager,String,Bundle)/body";
+}
+subgraph cluster99 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_network_NetworkingModule.java/[CN]/NetworkingModule/[MT]/getEventEmitter(ExecutorToken)/body";
+}
+subgraph cluster9 {
+"ReactAndroid_src_main_java_com_facebook_react_views_scroll_ReactScrollView.java/[CN]/ReactScrollView/[MT]/onTouchEvent(MotionEvent)/body";
+}
+subgraph cluster61 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_UIManagerModuleConstants.java/[CN]/UIManagerModuleConstants/[MT]/getConstants()/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ImageResizeMode.java/[CN]/ImageResizeMode/[MT]/toScaleType(String)/body";
+}
+subgraph cluster122 {
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewGroup.java/[CN]/ReactViewGroup/[MT]/updateSubviewClipStatus(Rect,int,int)/body";
+}
+subgraph cluster126 {
+"ReactAndroid_src_main_java_com_facebook_react_views_modal_ReactModalHostView.java/[CN]/ReactModalHostView/[MT]/onHostPause()/body";
+}
+subgraph cluster49 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_network_NetworkingModule.java/[CN]/NetworkingModule/[MT]/onCatalystInstanceDestroy()/body";
+"ReactAndroid_src_main_java_com_facebook_react_modules_network_NetworkingModule.java/[CN]/NetworkingModule/[CS]/NetworkingModule(ReactApplicationContext,String,OkHttpClient,List<NetworkInterceptorCreator>)/body";
+}
+subgraph cluster118 {
+"ReactAndroid_src_main_java_com_facebook_react_ReactInstanceManager.java/[CN]/ReactInstanceManager/[CN]/Builder/[MT]/build()/body";
+}
+subgraph cluster110 {
+"ReactAndroid_src_main_java_com_facebook_react_ReactRootView.java/[CN]/ReactRootView/[MT]/onAttachedToWindow()/body";
+}
+subgraph cluster66 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_statusbar_StatusBarModule.java/[CN]/StatusBarModule/[MT]/setHidden(boolean,Promise)/body";
+}
+subgraph cluster90 {
+"ReactAndroid_src_main_java_com_facebook_react_module_processing_ReactModuleSpecProcessor.java/[CN]/ReactModuleSpecProcessor/[MT]/getCodeBlockForReactModuleInfos(List<String>)/body";
+}
+subgraph cluster18 {
+"ReactAndroid_src_main_java_com_facebook_react_views_text_ReactTextShadowNode.java/[CN]/ReactTextShadowNode/[MT]/onCollectExtraUpdates(UIViewOperationQueue)/body";
+}
+subgraph cluster124 {
+"ReactAndroid_src_main_java_com_facebook_react_XReactInstanceManagerImpl.java/[CN]/XReactInstanceManagerImpl/[MT]/setupReactContext(ReactApplicationContext)/body";
+}
+subgraph cluster127 {
+"ReactAndroid_src_main_java_com_facebook_react_cxxbridge_UnpackingJSBundleLoader.java/[CN]/UnpackingJSBundleLoader/[CS]/UnpackingJSBundleLoader(Builder)/body";
+"ReactAndroid_src_main_java_com_facebook_react_cxxbridge_UnpackingJSBundleLoader.java/[CN]/UnpackingJSBundleLoader/[CN]/Builder/[CS]/Builder()/body";
+}
+subgraph cluster41 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevSupportManagerImpl.java/[CN]/DevSupportManagerImpl/[CS]/DevSupportManagerImpl(Context,ReactInstanceDevCommandsHandler,String,boolean,RedBoxHandler)/body";
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_JSPackagerWebSocketClient.java/[CN]/JSPackagerWebSocketClient/[MT]/onClose(int,String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_JSPackagerWebSocketClient.java/[CN]/JSPackagerWebSocketClient/[MT]/onFailure(IOException,Response)/body";
+}
+subgraph cluster89 {
+"ReactAndroid_src_main_java_com_facebook_react_views_scroll_ReactScrollViewCommandHelper.java/[CN]/ReactScrollViewCommandHelper/[MT]/getCommandsMap()/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_scroll_ReactScrollViewCommandHelper.java/[CN]/ReactScrollViewCommandHelper/[MT]/receiveCommand(ScrollCommandHandler<T>,T,int,ReadableArray)/body";
+}
+subgraph cluster94 {
+"ReactAndroid_src_main_java_com_facebook_react_views_scroll_ReactHorizontalScrollView.java/[CN]/ReactHorizontalScrollView/[MT]/onInterceptTouchEvent(MotionEvent)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_scroll_ReactScrollView.java/[CN]/ReactScrollView/[MT]/onInterceptTouchEvent(MotionEvent)/body";
+}
+subgraph cluster13 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevSupportManagerImpl.java/[CN]/DevSupportManagerImpl/[MT]/updateJSError(String,ReadableArray,int)/body";
+}
+subgraph cluster82 {
+"ReactAndroid_src_main_java_com_facebook_react_devsupport_DevSupportManagerImpl.java/[CN]/DevSupportManagerImpl/[MT]/showNewError(String,StackFrame[],int,ErrorType)/body";
+}
+subgraph cluster77 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_fresco_FrescoModule.java/[CN]/FrescoModule/[CS]/FrescoModule(ReactApplicationContext)/body";
+}
+subgraph cluster10 {
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageView.java/[CN]/ReactImageView/[MT]/maybeUpdateView()/body";
+}
+subgraph cluster73 {
+"ReactAndroid_src_main_java_com_facebook_react_views_textinput_ReactTextInputShadowNode.java/[CN]/ReactTextInputShadowNode/[MT]/onCollectExtraUpdates(UIViewOperationQueue)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_text_ReactTextView.java/[CN]/ReactTextView/[MT]/setText(ReactTextUpdate)/body";
+}
+subgraph cluster27 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_network_NetworkingModule.java/[CN]/NetworkingModule/[MT]/initialize()/body";
+}
+subgraph cluster58 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_JSTouchDispatcher.java/[CN]/JSTouchDispatcher/[MT]/dispatchCancelEvent(MotionEvent,EventDispatcher)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_scroll_ReactScrollViewHelper.java/[CN]/ReactScrollViewHelper/[MT]/emitScrollEvent(ViewGroup,ScrollEventType)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_viewpager_ReactViewPager.java/[CN]/ReactViewPager/[CN]/PageChangeListener/[MT]/onPageScrolled(int,float,int)/body";
+}
+subgraph cluster92 {
+"ReactAndroid_src_main_java_com_facebook_react_modules_network_NetworkingModule.java/[CN]/NetworkingModule/[CS]/NetworkingModule(ReactApplicationContext)/body";
+"ReactAndroid_src_main_java_com_facebook_react_modules_network_NetworkingModule.java/[CN]/NetworkingModule/[CS]/NetworkingModule(ReactApplicationContext,String,OkHttpClient)/body";
+}
+subgraph cluster22 {
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewBackgroundDrawable.java/[CN]/ReactViewBackgroundDrawable/[MT]/setBorderRGB(int,float)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewBackgroundDrawable.java/[CN]/ReactViewBackgroundDrawable/[MT]/setBorderAlpha(int,float)/body";
+}
+subgraph cluster51 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_BaseViewManager.java/[CN]/BaseViewManager/[MT]/setRotation(T,float)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_BaseViewManager.java/[CN]/BaseViewManager/[MT]/setScaleY(T,float)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_BaseViewManager.java/[CN]/BaseViewManager/[MT]/setTranslateY(T,float)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_scroll_ReactScrollView.java/[CN]/ReactScrollView/[MT]/onScrollChanged(int,int,int,int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewGroup.java/[CN]/ReactViewGroup/[MT]/updateSubviewClipStatus(View)/body";
+}
+subgraph cluster2 {
+"ReactAndroid_src_main_java_com_facebook_react_animated_InterpolationAnimatedNode.java/[CN]/InterpolationAnimatedNode/[MT]/update()/body";
+"ReactAndroid_src_main_java_com_facebook_react_animated_InterpolationAnimatedNode.java/[CN]/InterpolationAnimatedNode/[CS]/InterpolationAnimatedNode(ReadableMap)/body";
+}
+subgraph cluster103 {
+"ReactAndroid_src_main_java_com_facebook_react_views_recyclerview_RecyclerViewBackedScrollView.java/[CN]/RecyclerViewBackedScrollView/[CN]/ReactListAdapter/[MT]/addView(View,int)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_recyclerview_RecyclerViewBackedScrollView.java/[CN]/RecyclerViewBackedScrollView/[CN]/ReactListAdapter/[MT]/removeViewAt(int)/body";
+}
+subgraph cluster60 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_BaseViewManager.java/[CN]/BaseViewManager/[MT]/setTranslateX(T,float)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_NativeViewHierarchyOptimizer.java/[CN]/NativeViewHierarchyOptimizer/[MT]/isLayoutOnlyAndCollapsable(ReactStylesDiffMap)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_BaseViewManager.java/[CN]/BaseViewManager/[MT]/setScaleX(T,float)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_BaseViewManager.java/[CN]/BaseViewManager/[MT]/setTransform(T,ReadableArray)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_NativeViewHierarchyOptimizer.java/[CN]/NativeViewHierarchyOptimizer/[MT]/handleCreateView(ReactShadowNode,ThemedReactContext,ReactStylesDiffMap)/body";
+}
+}
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[

@@ -1,0 +1,1857 @@
+
+
+
+digraph {
+subgraph cluster425 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_PhotoHolder.java/[CN]/PhotoHolder/[MT]/bindData(Message,boolean,PreprocessedData)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[FE]/readColor";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessageHolder.java/[CN]/MessageHolder/[MT]/bindData(Message,Message,Message,PreprocessedData)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[FE]/time";
+}
+subgraph cluster50 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_EncryptedSessionActor.java/[CN]/EncryptedSessionActor/[MT]/onEncrypt(byte[],Future)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_PhotoHolder.java/[CN]/PhotoHolder/[MT]/onClick(Message)/body";
+}
+subgraph cluster182 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestCreateGroup.java/[CN]/RequestCreateGroup/[MT]/parse(BserValues)/body";
+}
+subgraph cluster373 {
+"library_actor-common_src_main_java_im_actor_model_modules_notifications_NotificationsActor.java/[CN]/NotificationsActor/[MT]/onReceive(Object)/body";
+"library_actor-common_src_main_java_im_actor_model_modules_messages_OwnReadActor.java/[CN]/OwnReadActor/[MT]/onReceive(Object)/body";
+}
+subgraph cluster391 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_ShortcutActivity.java/[CN]/ShortcutActivity/extend";
+}
+subgraph cluster16 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_PhotoHolder.java/[CN]/PhotoHolder/[MT]/bindImage(Uri)/body";
+}
+subgraph cluster350 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_view_AvatarView.java/[CN]/AvatarView/[MT]/bind(Contact)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_main_SearchHolder.java/[CN]/SearchHolder/[MT]/bind(SearchEntity,String,boolean)/body";
+"apps_actor-android_src_main_java_im_actor_model_android_providers_AndroidNotifications.java/[CN]/AndroidNotifications/[MT]/onNotification(Messenger,List<Notification>,int,int,boolean,boolean)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_view_AvatarPlaceholderDrawable.java/[CN]/AvatarPlaceholderDrawable/[MT]/setBounds(int,int,int,int)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_view_AvatarView.java/[CN]/AvatarView/[MT]/bind(GroupVM)/body";
+}
+subgraph cluster42 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_ConfigurationBuilder.java/[CN]/ConfigurationBuilder/[FE]/isEnabledGroupedChatList";
+}
+subgraph cluster135 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_contacts_InviteContactAdapter.java/[CN]/InviteContactAdapter/[MT]/updateIds()/body";
+}
+subgraph cluster143 {
+"java_im_actor_model_api_Message.java/[CN]/Message/[MT]/fromBytes(byte[])/body";
+}
+subgraph cluster165 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_dialogs_view_DialogView.java/[CN]/DialogView/[MT]/onDraw(Canvas)/body";
+}
+subgraph cluster489 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_entity_content_AbsContent.java/[CN]/AbsContent/[FE]/updatedCounter";
+}
+subgraph cluster415 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_Promises.java/[CN]/Promises/[MT]/success(T)/body";
+}
+subgraph cluster463 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_EditNameFragment.java/[CN]/EditNameFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster469 {
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_presence_PresenceActor.java/[CN]/PresenceActor/[MT]/onUserOnline(int,long)/body";
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_presence_PresenceActor.java/[CN]/PresenceActor/[MT]/onUserOffline(int,long)/body";
+}
+subgraph cluster138 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_dialogs_BaseDialogFragment.java/[CN]/BaseDialogFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_contacts_BaseContactFragment.java/[CN]/BaseContactFragment/[MT]/onCreateContactsView(int,LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster335 {
+"actor-common_src_main_java_im_actor_model_Messenger.java/[CN]/Messenger/[MT]/getTyping(int)/body";
+"actor-common_src_main_java_im_actor_model_Messenger.java/[CN]/Messenger/[MT]/getGroupTyping(int)/body";
+}
+subgraph cluster398 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_adapter_TextHolder.java/[CN]/TextHolder/[MT]/bindData(Message,boolean)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_adapter_TextHolder.java/[CN]/TextHolder/[FE]/bypass";
+}
+subgraph cluster208 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/fromBytes(byte[])/body";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[FE]/HEADER";
+}
+subgraph cluster108 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_kuznechik_KuznechikFastEngine.java/[CN]/KuznechikFastEngine/[MT]/encryptBlock(byte[],int,byte[],int)/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_kuznechik_KuznechikFastEngine.java/[CN]/KuznechikFastEngine/[MT]/decryptBlock(byte[],int,byte[],int)/body";
+}
+subgraph cluster399 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_auth_SignInFragment.java/[CN]/SignInFragment/[MT]/initView(View)/body";
+}
+subgraph cluster438 {
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_GroupsModule.java/[CN]/GroupsModule/[MT]/editAbout(int,String)/body";
+}
+subgraph cluster101 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessagesFragment.java/[CN]/MessagesFragment/[MT]/bindDisplayListLoad(boolean)/body";
+}
+subgraph cluster122 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_PeerConnectionActor.java/[CN]/PeerConnectionActor/[MT]/onOffer(String)/body";
+}
+subgraph cluster281 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[MT]/getRelatedGroups()/parameters";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/package";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessagesFragment.java/[CN]/MessagesFragment/[MT]/onResume()/body";
+}
+subgraph cluster481 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_group_InviteLinkFragment.java/[CN]/InviteLinkFragment/[CN]/ActionHolder/[MT]/init(Void,ViewGroup,Context)/body";
+}
+subgraph cluster257 {
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_notifications_NotificationsActor.java/[CN]/NotificationsActor/[MT]/showNotification()/body";
+}
+subgraph cluster31 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_users_UsersProcessor.java/[CN]/UsersProcessor/[MT]/onUserDescChanged(User)/body";
+}
+subgraph cluster370 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_calls_CallFragment.java/[CN]/CallFragment/[MT]/onPause()/body";
+}
+subgraph cluster29 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallManagerActor.java/[CN]/CallManagerActor/[MT]/onCallAnswered(long)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallActor.java/[CN]/CallActor/[MT]/onVideoEnableChanged(boolean)/body";
+}
+subgraph cluster284 {
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_providers_JsWebRTCProvider.java/[CN]/JsWebRTCProvider/[MT]/onIncomingCall()/body";
+}
+subgraph cluster253 {
+"actor-apps_runtime_src_generic_java_im_actor_runtime_generic_mvvm_DisplayList.java/[CN]/DisplayList/[CN]/ListSwitcher/[MT]/onEditList(Modification<T>,Runnable,boolean)/body";
+}
+subgraph cluster492 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_MediaPagerAdapter.java/[CN]/MediaPagerAdapter/[MT]/getItem(int)/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_PromisesArray.java/[CN]/PromisesArray/[MT]/zip()/body";
+}
+subgraph cluster224 {
+"library_actor-common_src_main_java_im_actor_model_modules_file_UploadTask.java/[CN]/UploadTask/[MT]/preStart()/body";
+}
+subgraph cluster384 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_ConversationActor.java/[CN]/ConversationActor/[MT]/onInMessages(ArrayList<Message>)/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_Promises.java/[CN]/Promises/[MT]/sequence(Promise<T>)/body";
+}
+subgraph cluster420 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_auth_SignUpFragment.java/[CN]/SignUpFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_auth_SignInFragment.java/[CN]/SignInFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster416 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupInfoActivity.java/[CN]/GroupInfoActivity/[MT]/onCreate(Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_settings_BaseActorSettingsFragment.java/[CN]/BaseActorSettingsFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster288 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[MT]/loadItem(long)/body";
+}
+subgraph cluster427 {
+"java_im_actor_model_api_DocumentMessage.java/[CN]/DocumentMessage/[MT]/serialize(BserWriter)/body";
+}
+subgraph cluster393 {
+"actor-common_src_main_java_im_actor_model_Messenger.java/[CN]/Messenger/[MT]/onDialogsClosed()/body";
+}
+subgraph cluster478 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[MT]/onNewMessage(Peer,long,int)/body";
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_webrtc_AndroidPeerConnection.java/[CN]/AndroidPeerConnection/[CS]/AndroidPeerConnection(WebRTCIceServer[],WebRTCSettings)/body";
+}
+subgraph cluster162 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/onMessageSent(long,long)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/preStart()/body";
+}
+subgraph cluster112 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_streebog_StreebogFastDigest.java/[CN]/StreebogFastDigest/[MT]/doFinal(byte[],int)/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_streebog_StreebogFastDigest.java/[CN]/StreebogFastDigest/[MT]/streebog_g(byte[],long)/body";
+}
+subgraph cluster206 {
+"apps_actor-android_src_main_java_in_uncod_android_bypass_MentionSpan.java/[CN]/MentionSpan/[MT]/onClick(View)/body";
+"actor-sdk_sdk-core-se_src_main_java_im_actor_app_monitoring_AuthKeyCreationMon.java/[CN]/AuthKeyCreationMon/[MT]/startMonitoring(long)/body";
+}
+subgraph cluster452 {
+"actor-apps_core-js_src_main_java_im_actor_core_js_JsFacade.java/[CN]/JsFacade/[MT]/editMyNick(String)/body";
+}
+subgraph cluster78 {
+"library_actor-js_src_main_java_im_actor_model_js_entity_JsGroup.java/[CN]/JsGroup/[MT]/fromGroupVM(GroupVM,JsMessenger)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_stickers_StickersAdapter.java/[CN]/StickersAdapter/[CS]/StickersAdapter(EmojiKeyboard,RecyclerView)/body";
+}
+subgraph cluster256 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_auth_AuthActivity.java/[CN]/AuthActivity/[MT]/updateState(AuthState,boolean)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_auth_AuthActivity.java/[CN]/AuthActivity/[MT]/validateCode(Promise<AuthCodeRes>,String)/body";
+}
+subgraph cluster197 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/onMessageError(long)/body";
+}
+subgraph cluster298 {
+"actor-apps_core_src_main_java_im_actor_core_entity_Group.java/[CN]/Group/[MT]/updateMembers(List<ApiMember>)/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_Promises.java/[CN]/Promises/[MT]/failure(Exception)/body";
+}
+subgraph cluster1 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/onItemClicked(Dialog)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster59 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_StickersModule.java/[CN]/StickersModule/[CS]/StickersModule(ModuleContext)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_profile_ProfileFragment.java/[CN]/ProfileFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster136 {
+"actor-apps_core-js_src_main_java_im_actor_model_js_JsFacade.java/[CN]/JsFacade/[MT]/sendCode(String,JsAuthSuccessClosure,JsAuthErrorClosure)/body";
+"actor-sdk_sdk-core_core_core-android_src_main_java_me_leolin_shortcutbadger_ShortcutBadger.java/[CN]/ShortcutBadger/[MT]/getEntryActivityName()/body";
+}
+subgraph cluster336 {
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogGroup.java/package";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogShort.java/[CN]/JsDialogShort/[MT]/create(JsPeerInfo,int)/parameters";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_JsMessenger.java/[CN]/JsMessenger/[MT]/getDialogsGroupedList()/body";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogGroup.java/[CN]/JsDialogGroup/[CS]/JsDialogGroup()/parameters";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogShort.java/[CN]/JsDialogShort/[CS]/JsDialogShort()/parameters";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogShort.java/[CN]/JsDialogShort/extend";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_JsMessenger.java/[CN]/JsMessenger/[MT]/getDialogsGroupedList()/parameters";
+}
+subgraph cluster362 {
+"java_im_actor_model_api_ServiceMessage.java/[CN]/ServiceMessage/[MT]/serialize(BserWriter)/body";
+}
+subgraph cluster222 {
+"actor-common_src_main_java_im_actor_model_modules_updates_SequenceActor.java/[CN]/SequenceActor/[MT]/onReceive(Object)/body";
+"actor-common_src_main_java_im_actor_model_modules_updates_SequenceActor.java/[CN]/SequenceActor/[MT]/onUpdateReceived(Object)/body";
+}
+subgraph cluster17 {
+"library_actor-common_src_main_java_im_actor_model_modules_messages_SenderActor.java/[CN]/SenderActor/[MT]/doSendDocument(Peer,String,String,int,FastThumb,String)/body";
+}
+subgraph cluster388 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_BaseActivity.java/[CN]/BaseActivity/[MT]/onDestroy()/body";
+}
+subgraph cluster72 {
+"actor-apps_core_src_main_java_im_actor_core_entity_compat_ObsoleteGroup.java/[CN]/ObsoleteGroup/[MT]/toApiGroup()/body";
+"actor-apps_core_src_main_java_im_actor_core_entity_Group.java/[CN]/Group/[MT]/addMember(int,int,long)/body";
+"actor-apps_core_src_main_java_im_actor_core_api_ApiGroup.java/[CN]/ApiGroup/[MT]/parse(BserValues)/body";
+"actor-apps_core_src_main_java_im_actor_core_entity_Group.java/[CN]/Group/[MT]/editAvatar(ApiAvatar)/body";
+"actor-apps_core_src_main_java_im_actor_core_entity_Group.java/[CN]/Group/[MT]/editTitle(String)/body";
+}
+subgraph cluster210 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_emoji_stickers_StickersAdapter.java/[CN]/StickersAdapter/[MT]/onBindViewHolder(RecyclerView.ViewHolder,int)/body";
+}
+subgraph cluster221 {
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[CS]/RequestInitLlectro(int,int)/parameters";
+}
+subgraph cluster366 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/onPause()/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_emoji_keyboard_EmojiKeyboardPopup.java/[CN]/EmojiKeyboardPopup/[MT]/dismiss()/body";
+}
+subgraph cluster163 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/setDefaultAvatarPlaceholders(int[])/parameters";
+}
+subgraph cluster242 {
+"actor-apps_core_src_main_java_im_actor_core_entity_content_AbsContent.java/[CN]/AbsContent/[FE]/converters";
+"actor-apps_core_src_ext_java_im_actor_core_ExampleExtension.java/[CN]/ExampleExtension/[MT]/registerExtension(ModuleContext)/body";
+"actor-apps_core_src_ext_java_im_actor_core_ExampleExtension.java/[CN]/ExampleExtension/[FE]/CREATOR";
+"actor-apps_core_src_main_java_im_actor_core_entity_content_AbsContent.java/[CN]/AbsContent/[MT]/registerConverter(ContentConverter)/body";
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[CS]/Extensions(ModuleContext)/parameters";
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[CS]/Extensions(ModuleContext)/body";
+}
+subgraph cluster161 {
+"actor-common_src_main_java_im_actor_model_modules_updates_UpdateProcessor.java/[CN]/UpdateProcessor/[MT]/processInternalUpdate(InternalUpdate)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_MentionsAdapter.java/[CN]/MentionsAdapter/[MT]/createHolder(GroupMember)/body";
+}
+subgraph cluster297 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_Promises.java/[CN]/Promises/[MT]/tuple(Promise<T1>,Promise<T2>)/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_Promises.java/[CN]/Promises/[MT]/tuple(Promise<T1>,Promise<T2>,Promise<T3>)/body";
+}
+subgraph cluster243 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_ActorEditTextActivity.java/[CN]/ActorEditTextActivity/[MT]/onPause()/parameters";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_ActorEditTextActivity.java/[CN]/ActorEditTextActivity/[MT]/onPause()/body";
+}
+subgraph cluster315 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_contacts_InviteFragment.java/[CN]/InviteFragment/[MT]/onCollectionChanged()/body";
+}
+subgraph cluster120 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_Assets.java/[CN]/Assets/[MT]/loadBinAsset(String)/parameters";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_kuznechik_KuznechikFastEngine.java/[CN]/KuznechikFastEngine/[MT]/initCalc()/parameters";
+"actor-sdk_sdk-core_runtime_runtime-generic_src_main_java_im_actor_runtime_generic_GenericAssetsProvider.java/[CN]/GenericAssetsProvider/[MT]/loadBinAsset(String)/body";
+}
+subgraph cluster490 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[MT]/preStart()/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[FE]/relatedUsers";
+}
+subgraph cluster380 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[MT]/getHeadId()/body";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[MT]/getOrderedIds()/body";
+}
+subgraph cluster456 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/onContactClicked(Contact)/body";
+}
+subgraph cluster407 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_settings_MyProfileFragment.java/[CN]/MyProfileFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_view_CoverAvatarView.java/[CN]/CoverAvatarView/[MT]/bind(Avatar)/body";
+}
+subgraph cluster348 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_BaseFragment.java/[CN]/BaseFragment/[MT]/execute(Command<T>,int,CommandCallback<T>)/body";
+}
+subgraph cluster79 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onNewIntent(Intent)/parameters";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onNewIntent(Intent)/body";
+}
+subgraph cluster400 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[MT]/updateOrAdd(List<ListEngineRecord>)/body";
+}
+subgraph cluster383 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_entity_content_AbsContent.java/[CN]/AbsContent/[MT]/incrementUpdatedCounter(int)/body";
+}
+subgraph cluster53 {
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_providers_JsCallsProvider.java/[CN]/JsCallsProvider/[MT]/stopOutgoingBeep()/body";
+}
+subgraph cluster102 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onCreateOptionsMenu(Menu)/body";
+}
+subgraph cluster132 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_Authentication.java/[CN]/Authentication/[MT]/requestCompleteOauth(String)/body";
+}
+subgraph cluster381 {
+"actor-sdk_sdk-core_runtime_shared_src_main_java_im_actor_runtime_storage_memory_MemoryListStorage.java/[CN]/MemoryListStorage/[MT]/loadAllItems()/parameters";
+}
+subgraph cluster377 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_view_BubbleContainer.java/[CN]/BubbleContainer/[MT]/makeInboundBubble(boolean,int,int)/parameters";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_view_BubbleContainer.java/[CN]/BubbleContainer/[MT]/makeInboundBubble(boolean,int,int)/body";
+}
+subgraph cluster21 {
+"actor-apps_app-android_src_release_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/extend";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[MT]/onCounterChanged(Peer,int)/parameters";
+}
+subgraph cluster369 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallManagerActor.java/[CN]/CallManagerActor/[MT]/doEndCall(long)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallManagerActor.java/[CN]/CallManagerActor/[MT]/onCallEnded(long)/body";
+}
+subgraph cluster413 {
+"actor-apps_runtime_src_generic_java_im_actor_runtime_generic_mvvm_alg_Modifications.java/[CN]/Modifications/[MT]/noOp()/parameters";
+"actor-apps_runtime_src_generic_java_im_actor_runtime_generic_mvvm_alg_Modifications.java/[CN]/Modifications/[MT]/noOp()/body";
+}
+subgraph cluster466 {
+"actor-sdk_sdk-core_runtime_shared_src_main_java_im_actor_runtime_storage_memory_MemoryListStorage.java/[CN]/MemoryListStorage/[MT]/loadAllItems()/body";
+"actor-sdk_sdk-core_runtime_shared_src_main_java_im_actor_runtime_storage_memory_MemoryKeyValueStorage.java/[CN]/MemoryKeyValueStorage/[MT]/loadItems(long[])/body";
+}
+subgraph cluster470 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/toString()/parameters";
+}
+subgraph cluster44 {
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_GroupsModule.java/[CN]/GroupsModule/[MT]/editTheme(int,String)/body";
+}
+subgraph cluster14 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_entity_ConversationState.java/[CN]/ConversationState/[MT]/parse(BserValues)/body";
+}
+subgraph cluster93 {
+"library_actor-common_src_main_java_im_actor_model_network_mtp_actors_SenderActor.java/[CN]/SenderActor/[MT]/buildAck()/body";
+}
+subgraph cluster374 {
+"actor-apps_app-android_src_release_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/[FE]/NOTIFICATION_ID";
+}
+subgraph cluster144 {
+"library_actor-common-base_src_main_java_im_actor_model_mvvm_BindedDisplayList.java/[CN]/BindedDisplayList/[CN]/EngineListener/[MT]/onItemRemoved(long)/body";
+"library_actor-common-base_src_main_java_im_actor_model_mvvm_BindedDisplayList.java/[CN]/BindedDisplayList/[CN]/EngineListener/[MT]/addOrUpdate(T)/body";
+}
+subgraph cluster279 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/onInMessages(ArrayList<Message>)/body";
+}
+subgraph cluster320 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_MediaActivity.java/[CN]/MediaActivity/[MT]/hidePager()/body";
+}
+subgraph cluster212 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_view_keyboard_BaseKeyboard.java/[CN]/BaseKeyboard/[MT]/show(EditText)/parameters";
+}
+subgraph cluster357 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_calls_CallActivity.java/[CN]/CallActivity/[MT]/onCreateOptionsMenu(Menu)/body";
+}
+subgraph cluster292 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_viewmodel_GroupVM.java/[CN]/GroupVM/[CS]/GroupVM(Group)/body";
+"actor-sdk_sdk-core-se_src_main_java_im_actor_app_monitoring_AuthKeyCreationMon.java/[CN]/AuthKeyCreationMon/[MT]/onKeyCreated()/body";
+}
+subgraph cluster487 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_settings_NotificationsFragment.java/[CN]/NotificationsFragment/[MT]/onActivityResult(int,int,Intent)/body";
+}
+subgraph cluster215 {
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_AndroidWebRTCRuntimeProvider.java/[CN]/AndroidWebRTCRuntimeProvider/[MT]/supportsPreConnections()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_calls_CallFragment.java/[CN]/CallFragment/[MT]/onResume()/body";
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_webrtc_AndroidPeerConnection.java/[CN]/AndroidPeerConnection/[MT]/addCallback(WebRTCPeerConnectionCallback)/body";
+}
+subgraph cluster137 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[FE]/sendText";
+}
+subgraph cluster83 {
+"actor-apps_core_src_main_java_im_actor_core_modules_Authentication.java/[CN]/Authentication/[MT]/requestCallActivation()/body";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[CS]/RequestSendCodeByPhoneCall()/body";
+}
+subgraph cluster134 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_Assets.java/[CN]/Assets/[MT]/loadBinAsset(String)/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_kuznechik_KuznechikFastEngine.java/[CN]/KuznechikFastEngine/[MT]/initDump(byte[])/parameters";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_JsAssetsProvider.java/[CN]/JsAssetsProvider/[MT]/loadBinAsset(String)/body";
+}
+subgraph cluster252 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_EncryptedSessionActor.java/[CN]/EncryptedSessionActor/[MT]/onDecrypt(byte[],Future)/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_entity_GroupedStorage.java/[CN]/GroupedStorage/[MT]/parse(BserValues)/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_group_view_PublicGroupSetView.java/[CN]/PublicGroupSetView/[CS]/PublicGroupSetView(Context,PublicGroupSet,int)/body";
+}
+subgraph cluster274 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupPermissionsFragment.java/[CN]/GroupPermissionsFragment/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster37 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_api_PersistentRequestsActor.java/[CN]/PersistentRequestsActor/[MT]/preStart()/body";
+}
+subgraph cluster505 {
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogGroup.java/[CN]/JsDialogGroup/[MT]/create(String,String,JsArray<JsDialogShort>)/parameters";
+}
+subgraph cluster194 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_entity_Group.java/[CN]/Group/[MT]/applyWrapped(ApiGroup,ApiGroupFull)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_viewmodel_GroupVM.java/[CN]/GroupVM/[MT]/updateValues(Group)/body";
+}
+subgraph cluster476 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_AudioHolder.java/[CN]/AudioHolder/[MT]/play(String)/body";
+}
+subgraph cluster337 {
+"apps_actor-android_src_main_java_im_actor_model_android_providers_AndroidNotifications.java/[CN]/AndroidNotifications/[MT]/drawableToBitmap(Drawable)/body";
+}
+subgraph cluster24 {
+"actor-sdk_sdk-core-android_android-app_src_main_java_im_actor_Application.java/[CN]/Application/[MT]/onConfigureActorSDK()/body";
+}
+subgraph cluster34 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_network_mtp_actors_ManagerActor.java/[CN]/ManagerActor/[MT]/onInMessage(byte[],int,int)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_network_mtp_actors_ManagerActor.java/[CN]/ManagerActor/[MT]/onOutMessage(byte[],int,int)/body";
+}
+subgraph cluster13 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[MT]/bindData(Message,boolean,PreprocessedData)/body";
+}
+subgraph cluster431 {
+"actor-common_src_main_java_im_actor_model_modules_updates_UpdateProcessor.java/[CN]/UpdateProcessor/[CS]/UpdateProcessor(Modules)/body";
+}
+subgraph cluster412 {
+"actor-apps_app-android_src_debug_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/[FE]/NOTIFICATION_ID";
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_notifications_NotificationsActor.java/[CN]/NotificationsActor/[MT]/onMessagesRead(Peer,long)/body";
+}
+subgraph cluster451 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_PeerConnectionActor.java/[CN]/PeerConnectionActor/[MT]/onReceive(Object)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_PeerConnectionActor.java/[CN]/PeerConnectionActor/[MT]/preStart()/body";
+}
+subgraph cluster247 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_auth_SignPhoneFragment.java/[CN]/SignPhoneFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_search_SearchAdapter.java/[CN]/SearchAdapter/[MT]/onCreateViewHolder(ViewGroup,int)/body";
+}
+subgraph cluster205 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListEngine.java/[CN]/JsListEngine/[MT]/replaceItems(List<T>)/body";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListEngine.java/[CN]/JsListEngine/[MT]/addOrUpdateItem(T)/body";
+}
+subgraph cluster402 {
+"library_actor-js_src_main_java_im_actor_model_js_JsFacade.java/[CN]/JsFacade/[MT]/onConversationOpen(JsPeer)/body";
+"library_actor-js_src_main_java_im_actor_model_js_JsFacade.java/[CN]/JsFacade/[MT]/onConversationClosed(JsPeer)/body";
+}
+subgraph cluster203 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_MentionsAdapter.java/[CN]/MentionsAdapter/[CN]/GroupViewHolder/[MT]/bind(GroupMember,int,Context)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_MentionsAdapter.java/[CN]/MentionsAdapter/[MT]/setQuery(String)/body";
+}
+subgraph cluster305 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_raw_RawProcessor.java/[CN]/RawProcessor/[MT]/process(Update)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_ConfigurationBuilder.java/[CN]/ConfigurationBuilder/[MT]/build()/body";
+}
+subgraph cluster423 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_ConversationActor.java/[CN]/ConversationActor/[MT]/onMessagesDeleted(List<Long>)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_ConversationActor.java/[CN]/ConversationActor/[MT]/onClearConversation()/body";
+}
+subgraph cluster223 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_PromisesArray.java/[CN]/PromisesArray/[MT]/first()/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_PromisesArray.java/[CN]/PromisesArray/[MT]/zipPromise(ListFunction<T,Promise<R>>)/body";
+}
+subgraph cluster22 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_NotificationsFragment.java/[CN]/NotificationsFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster353 {
+"actor-apps_runtime_src_main_java_im_actor_runtime_util_ClassCreator.java/package";
+}
+subgraph cluster190 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_network_api_ApiBroker.java/[CN]/ApiBroker/[MT]/get(Endpoints,AuthKeyStorage,ActorApiCallback,boolean,int,int,int,int)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_network_ActorApi.java/[CN]/ActorApi/[CS]/ActorApi(Endpoints,AuthKeyStorage,ActorApiCallback,boolean,int,int,int)/body";
+}
+subgraph cluster76 {
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[CN]/ConnectionsCountChanged/[MT]/getCount()/body";
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_AppStateVM.java/[CN]/AppStateVM/[MT]/getIsConnecting()/body";
+}
+subgraph cluster493 {
+"actor-apps_core_src_main_java_im_actor_model_modules_updates_SequenceActor.java/[CN]/SequenceActor/[MT]/onUpdateStarted()/body";
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[MT]/connectionCountChanged(int)/parameters";
+}
+subgraph cluster486 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[FE]/stateIcon";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ReactionSpan.java/[CN]/ReactionSpan/[CS]/ReactionSpan(String,boolean,Peer,long,int)/parameters";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[FE]/time";
+}
+subgraph cluster258 {
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_webrtc_AndroidPeerConnection.java/[CN]/AndroidPeerConnection/[MT]/createAnswer()/body";
+"library_actor-common_src_main_java_im_actor_model_modules_messages_SenderActor.java/[CN]/SenderActor/[MT]/doSendPhoto(Peer,FastThumb,String,String,int,int,int)/body";
+}
+subgraph cluster270 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_actors_Actor.java/[CN]/Actor/[MT]/ask(ActorRef,Object,AskCallback)/body";
+}
+subgraph cluster70 {
+"actor-apps_app-android_src_push_google_java_im_actor_core_AndroidPushActor.java/[CN]/AndroidPushActor/[MT]/preStart()/body";
+"actor-apps_app-android_src_push_google_java_im_actor_core_AndroidPushActor.java/[CN]/AndroidPushActor/[MT]/onPushRegistered(String)/body";
+}
+subgraph cluster43 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_ActorSettingsField.java/[CN]/ActorSettingsField/[MT]/getRightViewWidth()/parameters";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_PeerCallMasterActor.java/[CN]/PeerCallMasterActor/[MT]/onFirstPeerStarted()/body";
+}
+subgraph cluster300 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_contacts_BaseContactFragment.java/[CN]/BaseContactFragment/[MT]/addFootersAndHeaders()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_group_InviteLinkFragment.java/[CN]/InviteLinkFragment/[CN]/ActionHolder/[MT]/bind(Void,int,Context)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster209 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallMasterActor.java/[CN]/CallMasterActor/[MT]/onPeerStateChanged(int,long,PeerState)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallMasterActor.java/[CN]/CallMasterActor/[MT]/onPeerStarted(int,long,PeerSettings)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallMasterActor.java/[CN]/CallMasterActor/[MT]/onAdvertised(int,long,PeerSettings)/body";
+}
+subgraph cluster392 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_MyProfileFragment.java/[CN]/MyProfileFragment/[MT]/addCategories(LinearLayout,ActorSettingsCategory[],LayoutInflater)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_MyProfileFragment.java/[CN]/MyProfileFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster153 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_Promises.java/[CN]/Promises/[MT]/tuple(Promise<T1>,Promise<T2>,Promise<T3>,Promise<T4>)/body";
+}
+subgraph cluster185 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListEngine.java/[CN]/JsListEngine/[MT]/removeItem(long)/body";
+}
+subgraph cluster233 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_Intents.java/[CN]/Intents/[MT]/openAvatar(FileReference)/body";
+}
+subgraph cluster85 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_peers_PeerNodeActor.java/[CN]/PeerNodeActor/[MT]/startIfNeeded()/body";
+}
+subgraph cluster95 {
+"java_im_actor_model_api_DocumentMessage.java/[CN]/DocumentMessage/[MT]/parse(BserValues)/body";
+}
+subgraph cluster64 {
+"java_im_actor_model_api_TextMessage.java/[CN]/TextMessage/[MT]/parse(BserValues)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_search_GlobalSearchBaseFragment.java/[CN]/GlobalSearchBaseFragment/[MT]/onCreateOptionsMenu(Menu,MenuInflater)/body";
+}
+subgraph cluster186 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_peers_PeerNodeActor.java/[CN]/PeerNodeActor/[MT]/makePeerConnectionIfNeeded()/body";
+}
+subgraph cluster196 {
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[CN]/ConnectionsCountChanged/[FE]/count";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_Authentication.java/[CN]/Authentication/[MT]/requestStartUserNameAuth(String)/body";
+}
+subgraph cluster304 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/getHeaderKey()/parameters";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/getTransactionHash()/body";
+}
+subgraph cluster394 {
+"actor-apps_core_src_main_java_im_actor_core_entity_Group.java/[CN]/Group/[MT]/clearMembers()/body";
+}
+subgraph cluster351 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupPermissionsFragment.java/[CN]/GroupPermissionsFragment/[MT]/bindView()/body";
+}
+subgraph cluster62 {
+"actor-apps_core_src_main_java_im_actor_core_entity_content_ContentConverter.java/package";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_viewmodel_UserVM.java/[CN]/UserVM/[MT]/updateValues(User)/body";
+}
+subgraph cluster267 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[CS]/JsListStorage(String,Storage)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_search_SearchHolder.java/[CN]/SearchHolder/[CS]/SearchHolder(Context,OnItemClickedListener<SearchEntity>)/body";
+}
+subgraph cluster471 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/clearShare()/body";
+}
+subgraph cluster290 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_MediaActivity.java/[CN]/MediaActivity/[MT]/showGrid()/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_MediaActivity.java/[CN]/MediaActivity/[MT]/showPager()/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_PictureActivity.java/[CN]/PictureActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster73 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_attach_AttachFragment.java/[CN]/AttachFragment/[MT]/show()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_attach_AttachFragment.java/[CN]/AttachFragment/[MT]/hide()/body";
+}
+subgraph cluster141 {
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/parse(BserValues)/body";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/getScreenHeight()/parameters";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[FE]/screenHeight";
+}
+subgraph cluster251 {
+"actor-apps_runtime-cocoa_src_main_java_im_actor_runtime_cocoa_CocoaLogProvider.java/[CN]/CocoaLogProvider/[MT]/w(String,String)/body";
+}
+subgraph cluster497 {
+"actor-sdk_sdk-core_core_core-android_src_main_java_im_actor_core_utils_GalleryScannerActor.java/[CN]/GalleryScannerActor/[MT]/initScan()/body";
+}
+subgraph cluster314 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_ConversationActor.java/[CN]/ConversationActor/[MT]/onInMessage(Message)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_ConversationActor.java/[CN]/ConversationActor/[MT]/preStart()/body";
+}
+subgraph cluster496 {
+"actor-apps_core-android_src_main_java_im_actor_core_AndroidMessenger.java/[CN]/AndroidMessenger/[MT]/sendUri(Peer,Uri)/body";
+}
+subgraph cluster146 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/openDialog(Dialog)/body";
+}
+subgraph cluster272 {
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_AndroidLogProvider.java/[CN]/AndroidLogProvider/[MT]/d(String,String)/body";
+}
+subgraph cluster71 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_box_ActorBox.java/[CN]/ActorBox/[MT]/openBox(byte[],byte[],ActorBoxKey)/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_box_ActorBox.java/[CN]/ActorBox/[MT]/closeBox(byte[],byte[],byte[],ActorBoxKey)/body";
+}
+subgraph cluster113 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_Authentication.java/[CN]/Authentication/[MT]/requestStartPhoneAuth(long)/body";
+}
+subgraph cluster439 {
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_providers_JsWebRTCProvider.java/[CN]/JsWebRTCProvider/[MT]/onSignalingReceived(AbsSignal)/body";
+}
+subgraph cluster503 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessageHolder.java/[CN]/MessageHolder/[MT]/bindData(Message,Message,Message,long,long,PreprocessedData)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onCreateToolbar()/body";
+}
+subgraph cluster225 {
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/package";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_kuznechik_KuznechikFastEngine.java/[CN]/KuznechikFastEngine/[MT]/initCalc()/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_updates_MessagesProcessor.java/[CN]/MessagesProcessor/[MT]/onChatGroupsChanged(List<ApiDialogGroup>)/body";
+}
+subgraph cluster401 {
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogGroup.java/[CN]/JsDialogGroup/[MT]/create(String,String,JsArray<JsDialogShort>)/body";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_JsFacade.java/[CN]/JsFacade/[MT]/unbindGroupDialogs(JsBindedValueCallback)/parameters";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_modules_JsBindingModule.java/[CN]/JsBindingModule/[MT]/getDialogsGroupedList()/parameters";
+}
+subgraph cluster508 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/checkReadState(boolean)/body";
+}
+subgraph cluster56 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_dialogs_BaseDialogFragment.java/[CN]/BaseDialogFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessagesFragment.java/[CN]/MessagesFragment/[MT]/onCreateDisplayList()/body";
+}
+subgraph cluster445 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_keyboard_emoji_smiles_SmilePagerAdapter.java/[CN]/SmilePagerAdapter/[MT]/release()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_stickers_StickersAdapter.java/[CN]/StickersAdapter/[MT]/release()/body";
+}
+subgraph cluster406 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_peers_CallBusActor.java/[CN]/CallBusActor/[MT]/onReceive(Object)/body";
+}
+subgraph cluster172 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/setDefaultAvatarPlaceholders(int[])/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getDefaultAvatarPlaceholders()/body";
+}
+subgraph cluster193 {
+"actor-apps_core_src_main_java_im_actor_core_entity_Group.java/[CN]/Group/[MT]/applyWrapped(ApiGroup)/body";
+"java_im_actor_model_api_ServiceExUnsupported.java/[CN]/ServiceExUnsupported/[MT]/serialize(BserWriter)/body";
+}
+subgraph cluster246 {
+"actor-apps_core_src_main_java_im_actor_core_entity_Group.java/[CN]/Group/[MT]/removeMember(int)/body";
+}
+subgraph cluster311 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_EncryptedSessionActor.java/[CN]/EncryptedSessionActor/[MT]/onDecrypt(byte[],byte[],byte[],byte[],byte[],int,Future)/body";
+}
+subgraph cluster333 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_core_KeepAliveService.java/[CN]/KeepAliveService/[MT]/onStartCommand(Intent,int,int)/parameters";
+}
+subgraph cluster128 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_BaseActivity.java/[CN]/BaseActivity/[MT]/execute(Command<T>,int,CommandCallback<T>)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_BaseActivity.java/[CN]/BaseActivity/[MT]/execute(Command<T>,int)/body";
+}
+subgraph cluster41 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster454 {
+"actor-sdk_sdk-core_core_core-android_src_main_java_im_actor_core_utils_GalleryScannerActor.java/[CN]/GalleryScannerActor/[MT]/scan()/body";
+"actor-sdk_sdk-core_core_core-android_src_main_java_im_actor_core_utils_GalleryScannerActor.java/[CN]/GalleryScannerActor/[MT]/onReceive(Object)/body";
+}
+subgraph cluster47 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[MT]/onReceive(Object)/body";
+}
+subgraph cluster443 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_calls_CallFragment.java/[CN]/CallFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster317 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_webrtc_PeerConnection.java/[CN]/PeerConnection/[MT]/close()/body";
+}
+subgraph cluster148 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_KeyManagerActor.java/[CN]/KeyManagerActor/[MT]/onAsk(Object,Future)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_EncryptedPeerActor.java/[CN]/EncryptedPeerActor/[MT]/doEncrypt(byte[],byte[],ArrayList<EncryptedBoxKey>,Future)/body";
+}
+subgraph cluster23 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_ShareMenuButtonFactory.java/[CN]/ShareMenuButtonFactory/[MT]/get(int,Context)/body";
+}
+subgraph cluster390 {
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageInt.java/[CN]/AsyncStorageInt/[MT]/loadCenter(long,int,ListEngineDisplayLoadCallback<T>)/body";
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[MT]/onReceive(Object)/body";
+"library_actor-android-base_src_main_java_im_actor_android_sql_SQLiteList.java/[CN]/SQLiteList/[MT]/loadCenter(Long,int)/parameters";
+}
+subgraph cluster195 {
+"actor-apps_core_src_main_java_im_actor_core_Messenger.java/[CN]/Messenger/[MT]/getModuleContext()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/showShare()/body";
+}
+subgraph cluster6 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_MediaActivity.java/[CN]/MediaActivity/[CN]/MediaFullscreenAnimationUtils/[MT]/animateForward(View,Bitmap,int,int,int,int,Animator.AnimatorListener)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_PictureActivity.java/[CN]/PictureActivity/[MT]/finish()/body";
+}
+subgraph cluster361 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_view_PagerSlidingTabStrip.java/[CN]/PagerSlidingTabStrip/[MT]/blendColors(int,int,float,boolean)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_view_PagerSlidingTabStrip.java/[CN]/PagerSlidingTabStrip/[MT]/onDraw(Canvas)/body";
+}
+subgraph cluster386 {
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_JsFacade.java/[CN]/JsFacade/[MT]/onConversationClosed(JsPeer)/body";
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_JsFacade.java/[CN]/JsFacade/[MT]/onConversationOpen(JsPeer)/body";
+}
+subgraph cluster176 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ReactionSpan.java/[CN]/ReactionSpan/[FE]/hasMyReaction";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[FE]/waitColor";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[CS]/ContactHolder(MessagesAdapter,View)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_LocationHolder.java/[CN]/LocationHolder/[MT]/bindData(Message,boolean,PreprocessedData)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessageHolder.java/[CN]/MessageHolder/[FE]/reactions";
+}
+subgraph cluster349 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/onResume()/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[FE]/forwardTextRaw";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/onCreate(Bundle)/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/onItemClicked(Dialog)/body";
+}
+subgraph cluster359 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessagesFragment.java/[CN]/MessagesFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster458 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_PictureActivity.java/[CN]/PictureActivity/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster285 {
+"actor-apps_core_src_ext_java_im_actor_core_ExampleExtension.java/[CN]/ExampleExtension/[MT]/runExtension()/parameters";
+"actor-apps_core_src_ext_java_im_actor_core_ExampleExtension.java/[CN]/ExampleExtension/[MT]/runExtension()/body";
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/package";
+"actor-apps_core_src_ext_java_im_actor_core_ExampleExtension.java/[CN]/ExampleExtension/[MT]/registerExtension(ModuleContext)/parameters";
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[MT]/runExtensions()/parameters";
+"actor-apps_core_src_main_java_im_actor_core_Extension.java/package";
+}
+subgraph cluster248 {
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[MT]/getLimit()/body";
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[MT]/getCallback()/parameters";
+"java_im_actor_model_api_ServiceMessage.java/[CN]/ServiceMessage/[MT]/parse(BserValues)/body";
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[MT]/loadCenter(Long,int,ListEngineDisplayLoadCallback<T>)/body";
+}
+subgraph cluster277 {
+"library_actor-js_src_main_java_im_actor_model_js_entity_JsUser.java/[CN]/JsUser/[MT]/fromUserVM(UserVM,JsMessenger)/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_core_KeepAliveService.java/[CN]/KeepAliveService/[MT]/onStartCommand(Intent,int,int)/body";
+}
+subgraph cluster109 {
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_JsFacade.java/[CN]/JsFacade/[MT]/unbindGroupDialogs(JsBindedValueCallback)/body";
+}
+subgraph cluster306 {
+"library_actor-common_src_main_java_im_actor_model_entity_ContentDescription.java/[CN]/ContentDescription/[MT]/fromContent(AbsContent)/body";
+"library_actor-common_src_main_java_im_actor_model_entity_content_AbsContent.java/[CN]/AbsContent/[MT]/convertData(AbsContentContainer)/body";
+}
+subgraph cluster25 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_group_view_MembersAdapter.java/[CN]/MembersAdapter/[CN]/GroupViewHolder/[MT]/init(GroupMember,ViewGroup,Context)/body";
+}
+subgraph cluster389 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupTypeFragment.java/[CN]/GroupTypeFragment/[CS]/GroupTypeFragment()/body";
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_AndroidLogProvider.java/[CN]/AndroidLogProvider/[MT]/w(String,String)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_auth_AuthActivity.java/[CN]/AuthActivity/[MT]/handleAuthError(Exception)/body";
+}
+subgraph cluster422 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallActor.java/[CN]/CallActor/[MT]/onReceive(Object)/body";
+}
+subgraph cluster409 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/addQuote(String,String)/body";
+}
+subgraph cluster97 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_contacts_InviteFragment.java/[CN]/InviteFragment/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster432 {
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[CN]/ProtoCallback/[MT]/onConnectionsCountChanged(int)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_peers_PeerNodeActor.java/[CN]/PeerNodeActor/[MT]/onStreamAdded(WebRTCMediaStream)/body";
+}
+subgraph cluster278 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_updates_MessagesProcessor.java/[CN]/MessagesProcessor/[MT]/onMessage(ApiPeer,int,long,long,ApiMessage)/body";
+}
+subgraph cluster125 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_PeerConnectionActor.java/[CN]/PeerConnectionActor/[MT]/onOfferNeeded()/body";
+}
+subgraph cluster309 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_messages_MessageHolder.java/[CN]/MessageHolder/[MT]/bindData(Message,Message,Message,PreprocessedData)/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_view_BubbleContainer.java/[CN]/BubbleContainer/[MT]/makeInboundBubble(boolean,int)/body";
+}
+subgraph cluster133 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_group_InviteLinkFragment.java/[CN]/InviteLinkFragment/[CN]/ActionHolder/[MT]/init(Void,ViewGroup,Context)/body";
+}
+subgraph cluster316 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_SecuritySettingsFragment.java/[CN]/SecuritySettingsFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_EditAboutFragment.java/[CN]/EditAboutFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_group_GroupInfoFragment.java/[CN]/GroupInfoFragment/[MT]/updateDescriptionVisibility(View,boolean,View)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_ChatSettingsFragment.java/[CN]/ChatSettingsFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster191 {
+"library_actor-common_src_main_java_im_actor_model_modules_file_UploadTask.java/[CN]/UploadTask/[MT]/uploadPart(int,int,byte[])/body";
+}
+subgraph cluster157 {
+"actor-sdk_sdk-core_runtime_runtime-cocoa_src_main_java_im_actor_runtime_cocoa_CocoaAssetsProxyProvider.java/[CN]/CocoaAssetsProxyProvider/[MT]/loadBinAsset(String)/body";
+"actor-sdk_sdk-core_runtime_runtime-cocoa_src_main_java_im_actor_runtime_cocoa_CocoaAssetsProxyProvider.java/[CN]/CocoaAssetsProxyProvider/[MT]/loadBinAsset(String)/parameters";
+}
+subgraph cluster226 {
+"actor-integrations_teamcity_src_main_java_im_actor_teamcity_ActorNotifier.java/[CN]/ActorNotifier/[MT]/notifyBuildFailed(SRunningBuild,Set<SUser>)/body";
+"actor-integrations_teamcity_src_main_java_im_actor_teamcity_ActorNotifier.java/[CN]/ActorNotifier/[MT]/notifyBuildSuccessful(SRunningBuild,Set<SUser>)/body";
+}
+subgraph cluster364 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_calls_CallFragment.java/[CN]/CallFragment/[MT]/initIncoming()/body";
+}
+subgraph cluster28 {
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_webrtc_AndroidPeerConnection.java/[CN]/AndroidPeerConnection/[MT]/close()/body";
+}
+subgraph cluster168 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_KeyManagerActor.java/[CN]/KeyManagerActor/[MT]/fetchEphemeralKey(long,Future)/body";
+}
+subgraph cluster74 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_MentionsAdapter.java/[CN]/MentionsAdapter/[CN]/GroupViewHolder/[MT]/init(GroupMember,ViewGroup,Context)/body";
+}
+subgraph cluster142 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onCreateFragment()/body";
+}
+subgraph cluster52 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallMasterActor.java/[CN]/CallMasterActor/[MT]/onBusCreated()/body";
+}
+subgraph cluster295 {
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[MT]/runExtensions()/body";
+"actor-apps_app-android_src_release_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster417 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_Intents.java/[CN]/Intents/[MT]/pickFile(Context)/body";
+}
+subgraph cluster33 {
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_UsersModule.java/[CN]/UsersModule/[MT]/editNick(String)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_adapters_BottomSheetListView.java/[CN]/BottomSheetListView/[MT]/resizeHeader()/body";
+}
+subgraph cluster440 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/hideShare()/body";
+}
+subgraph cluster213 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[MT]/delete(long[])/body";
+}
+subgraph cluster121 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_websocket_WebSocketConnection.java/[CN]/WebSocketConnection/[MT]/doClose()/body";
+}
+subgraph cluster403 {
+"library_actor-common-base_src_main_java_im_actor_model_mvvm_DisplayModifications.java/[CN]/DisplayModifications/[MT]/addOrUpdate(T,ArrayList<T>,DisplayList.ModificationResult<T>,boolean)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_DisplayListFragment.java/[CN]/DisplayListFragment/[MT]/onPause()/body";
+}
+subgraph cluster131 {
+"actor-apps_core_src_main_java_im_actor_core_Messenger.java/[CN]/Messenger/[MT]/findExtension(String)/body";
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_UserVM.java/[CN]/UserVM/[CS]/UserVM(User,Modules)/body";
+}
+subgraph cluster249 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_contacts_BaseContactFragment.java/[CN]/BaseContactFragment/[MT]/addFooterOrHeaderAction(int,int,int,boolean,Runnable,boolean)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_contacts_ContactHolder.java/[CN]/ContactHolder/[CS]/ContactHolder(FrameLayout,boolean,Context,OnItemClickedListener<Contact>)/body";
+}
+subgraph cluster150 {
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[MT]/registerExtensions()/body";
+"actor-apps_core_src_ext_java_im_actor_core_ExampleExtension.java/[CN]/ExampleExtension/[MT]/getExtensionKey()/body";
+}
+subgraph cluster119 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_stickers_StickersView.java/[CN]/StickersView/[MT]/relesase()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_keyboard_emoji_EmojiKeyboard.java/[CN]/EmojiKeyboard/[MT]/release()/body";
+}
+subgraph cluster202 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/extend";
+"actor-apps_core_src_main_java_im_actor_core_modules_Authentication.java/[CN]/Authentication/[MT]/requestCallActivation()/parameters";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[FE]/transactionHash";
+}
+subgraph cluster158 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_BaseActorSDKDelegate.java/[CN]/BaseActorSDKDelegate/[MT]/getNotificationSoundForPeer(Peer)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_profile_ProfileFragment.java/[CN]/ProfileFragment/[MT]/onActivityResult(int,int,Intent)/body";
+}
+subgraph cluster307 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[MT]/onPeerInfoChanged(Peer,String,Avatar)/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_GroupsProcessor.java/[CN]/GroupsProcessor/[MT]/onGroupDescChanged(Group)/body";
+}
+subgraph cluster344 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_SenderActor.java/[CN]/SenderActor/[MT]/onReceive(Object)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onResume()/body";
+}
+subgraph cluster7 {
+"library_actor-common_src_main_java_im_actor_model_modules_messages_SenderActor.java/[CN]/SenderActor/[MT]/doSendVideo(Peer,String,int,int,int,FastThumb,String,int)/body";
+}
+subgraph cluster181 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_emoji_stickers_StickersAdapter.java/[CN]/StickersAdapter/[MT]/getItemCount()/body";
+}
+subgraph cluster39 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_calls_CallFragment.java/[CN]/CallFragment/[MT]/onCallEnd()/body";
+}
+subgraph cluster234 {
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogGroup.java/[CN]/JsDialogGroup/[CS]/JsDialogGroup()/body";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_JsFacade.java/[CN]/JsFacade/[MT]/bindGroupDialogs(JsBindedValueCallback)/parameters";
+}
+subgraph cluster67 {
+"actor-sdk_sdk-core_runtime_shared_src_main_java_im_actor_runtime_storage_memory_MemoryKeyValueStorage.java/[CN]/MemoryKeyValueStorage/[MT]/loadAllItems()/parameters";
+}
+subgraph cluster510 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_ConversationActor.java/[CN]/ConversationActor/[MT]/onHistoryLoaded(List<Message>,long,long)/body";
+}
+subgraph cluster498 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_kuznechik_KuznechikFastEngine.java/[CN]/KuznechikFastEngine/[MT]/kuz_l_inv(byte[])/body";
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_kuznechik_KuznechikFastEngine.java/[CN]/KuznechikFastEngine/[MT]/convertKey(byte[])/body";
+}
+subgraph cluster220 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_calls_CallFragment.java/[CN]/CallFragment/[MT]/onAnswer()/body";
+}
+subgraph cluster174 {
+"actor-apps_app-android_src_release_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/[FE]/TAG";
+"actor-apps_app-android_src_debug_java_im_actor_messenger_PushReceiver.java/package";
+"actor-apps_app-android_src_debug_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/[MT]/onReceive(Context,Intent)/parameters";
+"actor-apps_app-android_src_release_java_im_actor_messenger_PushReceiver.java/package";
+}
+subgraph cluster175 {
+"apps_actor-android_src_main_java_in_uncod_android_bypass_Bypass.java/[CN]/Bypass/[MT]/recurseElement(Element)/body";
+"apps_actor-android_src_main_java_in_uncod_android_bypass_BaseUrlSpan.java/[CN]/BaseUrlSpan/[MT]/onClick(View)/body";
+}
+subgraph cluster26 {
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_UsersModule.java/[CN]/UsersModule/[MT]/editName(int,String)/body";
+}
+subgraph cluster308 {
+"java_im_actor_model_api_TextMessage.java/[CN]/TextMessage/[MT]/serialize(BserWriter)/body";
+}
+subgraph cluster329 {
+"apps_actor-android_src_main_java_in_uncod_android_bypass_Bypass.java/[CN]/Bypass/[MT]/markdownToSpannable(String,boolean)/body";
+}
+subgraph cluster166 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/onBackPressed()/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/sendMessage()/body";
+}
+subgraph cluster477 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[FE]/deliveredColor";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ReactionSpan.java/[CN]/ReactionSpan/[CS]/ReactionSpan(String,boolean,Peer,long,int)/body";
+"actor-sdk_sdk-core-android_android-app_src_main_java_im_actor_auth_SignEmailFragment.java/[CN]/SignEmailFragment/[MT]/requestCode()/body";
+}
+subgraph cluster447 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_help_HelpFragment.java/[CN]/HelpFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_auth_PickCountryFragment.java/[CN]/PickCountryFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupInfoFragment.java/[CN]/GroupInfoFragment/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster464 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_keyboard_emoji_smiles_SmilePagerAdapter.java/[CN]/SmilePagerAdapter/[MT]/getTab(int,Context)/body";
+}
+subgraph cluster82 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_viewmodel_UserVM.java/[CN]/UserVM/[CS]/UserVM(User,ModuleContext)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_entity_User.java/[CN]/User/[MT]/applyWrapped(ApiUser,ApiFullUser)/body";
+}
+subgraph cluster46 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/openContactDialog(Contact)/body";
+}
+subgraph cluster441 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_contacts_ContactHolder.java/[CN]/ContactHolder/[CS]/ContactHolder(FrameLayout,boolean,Context,OnItemClickedListener<Contact>)/body";
+}
+subgraph cluster40 {
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/getScreenHeight()/body";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/toString()/body";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/parse(BserValues)/parameters";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/serialize(BserWriter)/body";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/fromBytes(byte[])/body";
+}
+subgraph cluster453 {
+"actor-apps_core_src_main_java_im_actor_core_entity_content_AbsContent.java/[CN]/AbsContent/[MT]/convertData(AbsContentContainer)/body";
+"actor-apps_core_src_main_java_im_actor_core_modules_Modules.java/[CN]/Modules/[MT]/onLoggedIn()/body";
+"actor-common_src_main_java_im_actor_model_modules_DisplayLists.java/[CN]/DisplayLists/[MT]/buildNewDialogsList(boolean)/body";
+}
+subgraph cluster397 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_ConversationActor.java/[CN]/ConversationActor/[MT]/onMessageReceived(long)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[MT]/bindData(Message,long,long,boolean,PreprocessedData)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_LocationHolder.java/[CN]/LocationHolder/[MT]/bindData(Message,long,long,boolean,PreprocessedData)/body";
+}
+subgraph cluster90 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_DialogsActor.java/[CN]/DialogsActor/[MT]/buildPeerDesc(Peer)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[MT]/notifyVM()/body";
+}
+subgraph cluster482 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_auth_SignPhoneFragment.java/[CN]/SignPhoneFragment/extend";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_PictureActivity.java/[CN]/PictureActivity/[CN]/PictureFragment/[MT]/onDestroyView()/body";
+}
+subgraph cluster5 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_keyboard_BaseKeyboard.java/[CN]/BaseKeyboard/[MT]/dismissInternally(boolean)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_keyboard_BaseKeyboard.java/[CN]/BaseKeyboard/[MT]/onGlobalLayout()/body";
+}
+subgraph cluster322 {
+"actor-integrations_teamcity_src_main_java_im_actor_teamcity_ActorNotifier.java/[CN]/ActorNotifier/[MT]/notifyBuildFailing(SRunningBuild,Set<SUser>)/body";
+}
+subgraph cluster231 {
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_webrtc_AndroidPeerConnection.java/[CN]/AndroidPeerConnection/[MT]/createOffer()/body";
+}
+subgraph cluster169 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_Authentication.java/[CN]/Authentication/[MT]/requestValidatePassword(String)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_Authentication.java/[CN]/Authentication/[MT]/requestValidateCode(String)/body";
+}
+subgraph cluster446 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorSDK.java/[CN]/ActorSDK/[MT]/getDelegatedCustomMessageViewHolder(int,OnDelegateViewHolder<MessageHolder>,MessagesAdapter,ViewGroup)/body";
+}
+subgraph cluster424 {
+"actor-apps_core_src_main_java_im_actor_core_entity_content_AbsContent.java/[CN]/AbsContent/[MT]/registerConverter(ContentConverter)/parameters";
+"actor-apps_core_src_main_java_im_actor_core_modules_Modules.java/[CN]/Modules/[FE]/extensions";
+}
+subgraph cluster507 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_stickers_StickerAdapter.java/[CN]/StickerAdapter/[MT]/buildStickerLines(ScrollTo)/body";
+}
+subgraph cluster368 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_encryption_KeyManagerActor.java/[CN]/KeyManagerActor/[MT]/onMainKeysReady()/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_encryption_KeyManagerActor.java/[CN]/KeyManagerActor/[MT]/preStart()/body";
+}
+subgraph cluster465 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/onResume()/body";
+}
+subgraph cluster12 {
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_UserVM.java/[CN]/UserVM/[FE]/PRESENCE_UPDATE_DELAY";
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_UserVM.java/[CN]/UserVM/[FE]/presenceTimer";
+"actor-apps_core_src_main_java_im_actor_model_mvvm_ValueModel.java/[CN]/ValueModel/[MT]/forceNotify()/parameters";
+}
+subgraph cluster376 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getFabColor()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getToolBarColor()/body";
+}
+subgraph cluster92 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[MT]/getRelatedGroups()/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[MT]/getRelatedUsers()/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_Updates.java/[CN]/Updates/[MT]/executeRelatedResponse(List<ApiUser>,List<ApiGroup>,ActorRef,Runnable)/parameters";
+}
+subgraph cluster77 {
+"actor-apps_core_src_main_java_im_actor_core_Messenger.java/[CN]/Messenger/[MT]/requestPhoneCall()/parameters";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/package";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/getHeaderKey()/body";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/parse(BserValues)/parameters";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[CS]/RequestSendCodeByPhoneCall(String)/parameters";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/toString()/body";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/getTransactionHash()/parameters";
+}
+subgraph cluster180 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_Configuration.java/[CN]/Configuration/[MT]/isEnabledGroupedChatList()/parameters";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_updates_GroupsProcessor.java/[CN]/GroupsProcessor/[MT]/onGroupDescChanged(Group)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_MessagesModule.java/[CN]/MessagesModule/[MT]/run()/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/onMessageError(long)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/onInMessage(Message)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_ConfigurationBuilder.java/[CN]/ConfigurationBuilder/[MT]/setIsEnabledGroupedChatList(boolean)/body";
+}
+subgraph cluster474 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_ConfigurationBuilder.java/[CN]/ConfigurationBuilder/[MT]/setIsEnabledGroupedChatList(boolean)/parameters";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_Configuration.java/[CN]/Configuration/[FE]/isEnabledGroupedChatList";
+}
+subgraph cluster237 {
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_notifications_NotificationsActor.java/[CN]/NotificationsActor/[MT]/onNotificationsResumed()/body";
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_notifications_NotificationsActor.java/[CN]/NotificationsActor/[MT]/onNewMessage(Peer,int,long,ContentDescription,boolean)/body";
+}
+subgraph cluster294 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_DisplayListFragment.java/[CN]/DisplayListFragment/[MT]/onResume()/body";
+}
+subgraph cluster4 {
+"apps_actor-android_src_main_java_in_uncod_android_bypass_Bypass.java/[CN]/Bypass/[MT]/quotesWorkaround(String,int)/body";
+}
+subgraph cluster68 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getActionAddContactColor()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getActionShareColor()/body";
+}
+subgraph cluster410 {
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/fromBytes(byte[])/parameters";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/extend";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[FE]/HEADER";
+}
+subgraph cluster371 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_eventbus_EventBusActor.java/[CN]/EventBusActor/[MT]/createBus(long)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_eventbus_EventBusActor.java/[CN]/EventBusActor/[MT]/joinBus(String,long)/body";
+}
+subgraph cluster126 {
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[MT]/loadCenter(Long,int,ListEngineDisplayLoadCallback<T>)/parameters";
+}
+subgraph cluster480 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_view_AvatarPlaceholderDrawable.java/[CN]/AvatarPlaceholderDrawable/[MT]/draw(Canvas)/body";
+"actor-apps_runtime-cocoa_src_main_java_im_actor_runtime_cocoa_CocoaLogProvider.java/[CN]/CocoaLogProvider/[MT]/e(String,Throwable)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_ConversationActor.java/[CN]/ConversationActor/[MT]/onDeleteConversation()/body";
+}
+subgraph cluster494 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[MT]/delete(long)/body";
+}
+subgraph cluster429 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[CS]/RelatedResponse(List<ApiUser>,List<ApiGroup>,Runnable)/parameters";
+}
+subgraph cluster334 {
+"library_actor-common_src_main_java_im_actor_model_modules_file_UploadTask.java/[CN]/UploadTask/[MT]/startUpload()/body";
+"library_actor-common_src_main_java_im_actor_model_modules_file_UploadTask.java/[CN]/UploadTask/[MT]/checkQueue()/body";
+}
+subgraph cluster491 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallManagerActor.java/[CN]/CallManagerActor/[MT]/onCallUnmute(long)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallManagerActor.java/[CN]/CallManagerActor/[MT]/onCallMute(long)/body";
+}
+subgraph cluster179 {
+"library_actor-common-base_src_main_java_im_actor_model_mvvm_BindedDisplayList.java/[CN]/BindedDisplayList/[CN]/EngineListener/[MT]/onItemsRemoved(long[])/body";
+}
+subgraph cluster455 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_BackgroundPreviewView.java/[CN]/BackgroundPreviewView/[MT]/bind(int)/body";
+}
+subgraph cluster276 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_api_rpc_RequestDoCall.java/[CN]/RequestDoCall/[MT]/parse(BserValues)/body";
+}
+subgraph cluster0 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_MediaActivity.java/[CN]/MediaActivity/[CN]/MediaFullscreenAnimationUtils/[MT]/animateBackgroundForward(View,Animator.AnimatorListener)/body";
+}
+subgraph cluster127 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/onCreate(Bundle)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/onMentionsChanged(int,int)/body";
+}
+subgraph cluster245 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_contacts_InviteFragment.java/[CN]/InviteFragment/[MT]/onCreateOptionsMenu(Menu,MenuInflater)/body";
+}
+subgraph cluster80 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_MediaActivity.java/[CN]/MediaActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster442 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ActorEditTextActivity.java/[CN]/ActorEditTextActivity/[MT]/onCreate(Bundle)/body";
+"actor-common_src_main_java_im_actor_model_modules_updates_MessagesProcessor.java/[CN]/MessagesProcessor/[MT]/onMessage(im.actor.model.api.Peer,int,long,long,im.actor.model.api.MessageContent)/body";
+}
+subgraph cluster15 {
+"actor-sdk_sdk-core-android_android-google-push_src_main_java_im_actor_push_PushReceiver.java/[CN]/PushReceiver/extend";
+}
+subgraph cluster499 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_sequence_SequenceActor.java/[CN]/SequenceActor/[MT]/invalidate()/body";
+}
+subgraph cluster280 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorSDKApplication.java/[CN]/ActorSDKApplication/[MT]/onCreate()/body";
+}
+subgraph cluster459 {
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_providers_JsCallsProvider.java/[CN]/JsCallsProvider/[MT]/startOutgoingBeep()/body";
+}
+subgraph cluster511 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[CS]/RequestSendCodeByPhoneCall()/parameters";
+"actor-apps_core_src_main_java_im_actor_core_api_parser_RpcParser.java/[CN]/RpcParser/[MT]/read(int,byte[])/body";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/parse(BserValues)/body";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_webrtc_MediaStream.java/[CN]/MediaStream/[MT]/close()/body";
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_AndroidLogProvider.java/[CN]/AndroidLogProvider/[MT]/e(String,Throwable)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_ConfigurationBuilder.java/[CN]/ConfigurationBuilder/[MT]/addTrustedKey(String)/body";
+}
+subgraph cluster219 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_StickerHolder.java/[CN]/StickerHolder/[MT]/bindData(Message,long,long,boolean,PreprocessedData)/body";
+}
+subgraph cluster414 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_BackgroundPreviewView.java/[CN]/BackgroundPreviewView/[MT]/getBackground(int)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/setDefaultBackgrouds(int[])/parameters";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getDefaultBackgrouds()/body";
+}
+subgraph cluster504 {
+"actor-integrations_teamcity_src_main_java_im_actor_teamcity_ActorNotifier.java/[CN]/ActorNotifier/[MT]/notifyBuildFailedToStart(SRunningBuild,Set<SUser>)/body";
+}
+subgraph cluster19 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_view_ChatBackgroundView.java/[CN]/ChatBackgroundView/[MT]/bind()/body";
+}
+subgraph cluster313 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_promise_PromisesArray.java/[CN]/PromisesArray/[MT]/of(Collection<T>)/body";
+}
+subgraph cluster347 {
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_entity_JsMessagesBind.java/[CN]/JsMessagesBind/[CS]/JsMessagesBind(JsMessagesBindClosure,JsDisplayList<JsMessage,Message>,ConversationVM)/body";
+}
+subgraph cluster250 {
+"actor-apps_core_src_main_java_im_actor_model_modules_updates_SequenceActor.java/[CN]/SequenceActor/[MT]/onUpdateEnded()/body";
+}
+subgraph cluster160 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_UpdateProcessor.java/[CN]/UpdateProcessor/[MT]/processInternalUpdate(InternalUpdate)/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_Updates.java/[CN]/Updates/[MT]/executeRelatedResponse(List<ApiUser>,List<ApiGroup>,Runnable)/parameters";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[CS]/RelatedResponse(List<ApiUser>,List<ApiGroup>,Runnable)/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[FE]/afterApply";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[MT]/saveStorage()/body";
+}
+subgraph cluster330 {
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_modules_JsBindingModule.java/[CN]/JsBindingModule/[FE]/dialogsGroupedList";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogShort.java/[CN]/JsDialogShort/[MT]/create(JsPeerInfo,int)/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/addQuote(String,String)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_core_AndroidCallProvider.java/[CN]/AndroidCallProvider/[MT]/onCallEnd(long)/body";
+}
+subgraph cluster232 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_auth_SignPhoneFragment.java/[CN]/SignPhoneFragment/[MT]/initView(View)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[CS]/DocHolder(MessagesAdapter,View,boolean)/body";
+}
+subgraph cluster310 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_dialogs_view_DialogView.java/[CN]/DialogView/[MT]/buildLayout(Dialog,int,int)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_BaseActivity.java/[CN]/BaseActivity/[MT]/execute(Promise<T>,int)/body";
+}
+subgraph cluster339 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_group_JoinPublicGroupFragment.java/[CN]/JoinPublicGroupFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_profile_ProfileActivity.java/[CN]/ProfileActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster385 {
+"java_im_actor_model_api_EncryptedPackageV2.java/[CN]/EncryptedPackageV2/[MT]/fromBytes(byte[])/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_core_AndroidNotifications.java/[CN]/AndroidNotifications/[MT]/buildSingleConversationNotification(NotificationCompat.Builder,NotificationCompat.InboxStyle,Drawable,Notification)/body";
+}
+subgraph cluster8 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_updates_MessagesProcessor.java/[CN]/MessagesProcessor/[MT]/onMessages(ApiPeer,List<UpdateMessage>)/body";
+}
+subgraph cluster485 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_router_RouterActor.java/[CN]/RouterActor/[MT]/onChatClear(Peer)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_router_RouterActor.java/[CN]/RouterActor/[MT]/onChatDelete(Peer)/body";
+}
+subgraph cluster365 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ReactionSpan.java/[CN]/ReactionSpan/[MT]/hasMyReaction()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessagesFragment.java/[CN]/MessagesFragment/[MT]/onLongClick(Message,boolean)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ReactionSpan.java/[CN]/ReactionSpan/[MT]/hasMyReaction()/parameters";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessagesFragment.java/[CN]/MessagesFragment/[MT]/onLongClick(Message,boolean)/parameters";
+}
+subgraph cluster265 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListEngine.java/[CN]/JsListEngine/[MT]/addOrUpdateItems(List<T>)/body";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListEngine.java/[CN]/JsListEngine/[MT]/removeItems(long[])/body";
+}
+subgraph cluster96 {
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[MT]/findExtension(String)/parameters";
+}
+subgraph cluster283 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_utils_BaseKeyValueEngine.java/[CN]/BaseKeyValueEngine/[MT]/getValue(long)/body";
+}
+subgraph cluster244 {
+"actor-sdk_sdk-core-android_android-app_src_main_java_im_actor_Application.java/[CN]/Application/[CN]/ActorSDKDelegate/[MT]/getCustomMessageViewHolder(int,MessagesAdapter,ViewGroup)/parameters";
+}
+subgraph cluster65 {
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[FE]/callback";
+}
+subgraph cluster187 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[FE]/waitColor";
+"actor-integrations_teamcity_src_main_java_im_actor_teamcity_ActorNotifier.java/[CN]/ActorNotifier/[MT]/notifyBuildStarted(SRunningBuild,Set<SUser>)/body";
+}
+subgraph cluster156 {
+"apps_actor-android_src_main_java_in_uncod_android_bypass_Bypass.java/[CN]/Bypass/[MT]/markdownToSpannable(String,boolean)/parameters";
+}
+subgraph cluster262 {
+"actor-apps_core_src_main_java_im_actor_model_mvvm_ValueModel.java/[CN]/ValueModel/[MT]/forceNotify()/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_entity_content_AbsContent.java/[CN]/AbsContent/[MT]/getUpdatedCounter()/parameters";
+}
+subgraph cluster204 {
+"actor-apps_core_src_main_java_im_actor_core_ConfigurationBuilder.java/[CN]/ConfigurationBuilder/[MT]/build()/body";
+}
+subgraph cluster345 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_view_AvatarView.java/[CN]/AvatarView/[MT]/bind(Dialog)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_view_BubbleContainer.java/[CN]/BubbleContainer/[MT]/makeInboundBubble(boolean,int)/body";
+}
+subgraph cluster58 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_raw_RawProcessor.java/[CN]/RawProcessor/[CS]/RawProcessor(ModuleContext)/body";
+}
+subgraph cluster147 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/handleIntent(Intent)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/handleIntent()/body";
+}
+subgraph cluster289 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_emoji_keyboard_EmojiKeyboardPopup.java/[CN]/EmojiKeyboardPopup/[MT]/createView()/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_emoji_keyboard_EmojiKeyboardPopup.java/[CN]/EmojiKeyboardPopup/[CN]/EmojisPagerAdapter/[MT]/instantiateItem(ViewGroup,int)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_emoji_stickers_StickersAdapter.java/[CN]/StickersAdapter/[MT]/onCreateViewHolder(ViewGroup,int)/body";
+}
+subgraph cluster375 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_group_InviteLinkFragment.java/[CN]/InviteLinkFragment/[CN]/ActionHolder/[MT]/bind(Void,int,Context)/body";
+}
+subgraph cluster340 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_PickWallpaperFragment.java/[CN]/PickWallpaperFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster217 {
+"actor-apps_core_src_main_java_im_actor_model_network_mtp_actors_ManagerActor.java/[CN]/ManagerActor/[MT]/connectionStateChanged()/parameters";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onAttachButtonClicked()/body";
+}
+subgraph cluster229 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_tour_TourActivity.java/[CN]/TourActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster352 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_view_ViewUtils.java/[CN]/ViewUtils/[MT]/expandMentions(View,int,int)/body";
+}
+subgraph cluster54 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onRequestPermissionsResult(int,String[],int[])/body";
+}
+subgraph cluster69 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_calls_CallActor.java/[CN]/CallActor/[MT]/onReceive(Object)/body";
+}
+subgraph cluster372 {
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[CN]/ConnectionsCountChanged/[CS]/ConnectionsCountChanged(int)/parameters";
+"actor-apps_core_src_main_java_im_actor_model_modules_Modules.java/[CN]/Modules/[CN]/ActorApiCallbackImpl/[MT]/onConnectionsChanged(int)/parameters";
+"actor-apps_core_src_main_java_im_actor_model_network_mtp_actors_ManagerActor.java/[CN]/ManagerActor/[MT]/preStart()/body";
+"actor-apps_core_src_main_java_im_actor_model_network_mtp_actors_ManagerActor.java/[CN]/ManagerActor/[MT]/onConnectionCreated(int,Connection)/body";
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_AppStateVM.java/[CN]/AppStateVM/[CS]/AppStateVM(Modules)/body";
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_AppStateVM.java/[CN]/AppStateVM/[FE]/isSyncing";
+"actor-apps_core_src_main_java_im_actor_model_network_mtp_actors_ManagerActor.java/[CN]/ManagerActor/[MT]/connectionStateChanged()/body";
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[CN]/ConnectionsCountChanged/[CS]/ConnectionsCountChanged(int)/body";
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_AppStateVM.java/[CN]/AppStateVM/[FE]/isConnecting";
+"actor-apps_core_src_main_java_im_actor_model_network_mtp_actors_ManagerActor.java/[CN]/ManagerActor/[MT]/onConnectionDie(int)/body";
+"actor-apps_core_src_main_java_im_actor_model_modules_updates_SequenceActor.java/[CN]/SequenceActor/[MT]/onUpdateEnded()/parameters";
+}
+subgraph cluster104 {
+"actor-apps_core-js_src_main_java_im_actor_core_js_modules_JsBindingModule.java/[CN]/JsBindingModule/[MT]/getUser(int)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster282 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_sequence_SequenceActor.java/[CN]/SequenceActor/[MT]/onUpdateReceived(int,byte[],int,byte[],List<ApiUser>,List<ApiGroup>)/body";
+}
+subgraph cluster488 {
+"actor-apps_core_src_ext_java_im_actor_core_ExampleExtension.java/[CN]/ExampleExtension/[MT]/getExtensionKey()/parameters";
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[MT]/findExtension(String)/body";
+}
+subgraph cluster35 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_PhotoHolder.java/[CN]/PhotoHolder/[MT]/bindData(Message,long,long,boolean,PreprocessedData)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[MT]/bindData(Message,long,long,boolean,PreprocessedData)/body";
+}
+subgraph cluster55 {
+"actor-apps_runtime_src_generic_java_im_actor_runtime_generic_mvvm_DisplayList.java/[CN]/DisplayList/[MT]/forcePreprocessing()/parameters";
+}
+subgraph cluster261 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/showMentions(boolean)/body";
+}
+subgraph cluster89 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessageHolder.java/[CN]/MessageHolder/[MT]/setTimeAndReactions(TextView)/parameters";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[FE]/sentColor";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ReactionSpan.java/[CN]/ReactionSpan/[FE]/baseColor";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessageHolder.java/[CN]/MessageHolder/[MT]/onLongClick(View)/body";
+}
+subgraph cluster341 {
+"actor-apps_app-android_src_release_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/[MT]/onReceive(Context,Intent)/parameters";
+"actor-apps_app-android_src_debug_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/extend";
+}
+subgraph cluster36 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_actors_ConversationActor.java/[CN]/ConversationActor/[MT]/onMessageSent(long,long)/body";
+"actor-common_src_main_java_im_actor_model_modules_updates_MessagesProcessor.java/[CN]/MessagesProcessor/[MT]/onDialogsLoaded(ResponseLoadDialogs)/body";
+"actor-apps_core-js_src_main_java_im_actor_core_js_JsFacade.java/[CN]/JsFacade/[MT]/editMyAbout(String)/body";
+}
+subgraph cluster435 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onDestroy()/body";
+}
+subgraph cluster472 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallMasterActor.java/[CN]/CallMasterActor/[MT]/onDeviceConnected(int,long)/body";
+}
+subgraph cluster436 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_PeerCallMasterActor.java/[CN]/PeerCallMasterActor/[MT]/onAnswered(int,long)/body";
+}
+subgraph cluster241 {
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_entity_JsUser.java/[CN]/JsUser/[MT]/fromUserVM(UserVM,JsMessenger)/body";
+}
+subgraph cluster326 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_EncryptedSessionActor.java/[CN]/EncryptedSessionActor/[MT]/encrypt(EncryptedSessionChain,byte[])/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_session_EncryptedSessionChain.java/[CN]/EncryptedSessionChain/[MT]/encrypt(byte[])/body";
+}
+subgraph cluster98 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallMasterActor.java/[CN]/CallMasterActor/[MT]/onAnswered(int,long,PeerSettings)/body";
+}
+subgraph cluster500 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_BaseActorSettingsFragment.java/[CN]/BaseActorSettingsFragment/[FE]/shp";
+}
+subgraph cluster103 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupTypeFragment.java/[CN]/GroupTypeFragment/[MT]/onCreate(Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupTypeActivity.java/[CN]/GroupTypeActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster379 {
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[FE]/extensionsMap";
+"actor-apps_core_src_main_java_im_actor_core_modules_Modules.java/[CN]/Modules/[MT]/findExtension(String)/parameters";
+"actor-apps_core_src_main_java_im_actor_core_Messenger.java/[CN]/Messenger/[MT]/findExtension(String)/parameters";
+"actor-apps_core_src_main_java_im_actor_core_modules_Modules.java/[CN]/Modules/[MT]/findExtension(String)/body";
+}
+subgraph cluster430 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_BaseActorSDKDelegate.java/[CN]/BaseActorSDKDelegate/[MT]/getCustomMessageViewHolder(int,MessagesAdapter,ViewGroup)/parameters";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessagesAdapter.java/[CN]/MessagesAdapter/[MT]/getItemViewType(int)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessagesAdapter.java/[CN]/MessagesAdapter/[MT]/onCreateViewHolder(ViewGroup,int)/body";
+}
+subgraph cluster325 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/onDialogClicked(Dialog)/body";
+}
+subgraph cluster332 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_auth_SignEmailFragment.java/[CN]/SignEmailFragment/[MT]/initView(View)/body";
+}
+subgraph cluster114 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_auth_AuthActivity.java/[CN]/AuthActivity/[MT]/startAuth(String)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_auth_AuthActivity.java/[CN]/AuthActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster61 {
+"actor-sdk_sdk-core_runtime_shared_src_main_java_im_actor_runtime_storage_memory_MemoryKeyValueStorage.java/[CN]/MemoryKeyValueStorage/[MT]/loadItem(long)/body";
+}
+subgraph cluster271 {
+"actor-apps_core-js_src_main_java_im_actor_model_js_JsFacade.java/[CN]/JsFacade/[MT]/signUp(String,JsAuthSuccessClosure,JsAuthErrorClosure)/body";
+}
+subgraph cluster192 {
+"library_actor-common_src_main_java_im_actor_model_i18n_I18nEngine.java/[CN]/I18nEngine/[MT]/formatFullServiceMessage(int,ServiceContent)/body";
+}
+subgraph cluster199 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_websocket_WebSocketConnection.java/[CN]/WebSocketConnection/[MT]/onRawClosed()/body";
+}
+subgraph cluster129 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_media_DocumentsFragment.java/[CN]/DocumentsFragment/[MT]/onCreateDisplayList()/body";
+}
+subgraph cluster117 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_group_GroupInfoFragment.java/[CN]/GroupInfoFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_group_InviteLinkFragment.java/[CN]/InviteLinkFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_compose_GroupNameFragment.java/[CN]/GroupNameFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster164 {
+"actor-sdk_sdk-core_runtime_shared_src_main_java_im_actor_runtime_storage_memory_MemoryKeyValueStorage.java/[CN]/MemoryKeyValueStorage/[MT]/loadAllItems()/body";
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_entity_JsMessagesBind.java/[CN]/JsMessagesBind/[MT]/unbind()/body";
+}
+subgraph cluster236 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_group_IntegrationTokenFragment.java/[CN]/IntegrationTokenFragment/[CN]/ActionHolder/[MT]/bind(Void,int,Context)/body";
+}
+subgraph cluster286 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorSDK.java/[CN]/ActorSDK/[MT]/setFastShareEnabled(boolean)/body";
+}
+subgraph cluster360 {
+"actor-common_src_main_java_im_actor_model_modules_updates_UpdateProcessor.java/[CN]/UpdateProcessor/[MT]/processUpdate(Update)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_dialogs_DialogsFragment.java/[CN]/DialogsFragment/[MT]/onItemLongClick(Dialog)/body";
+}
+subgraph cluster495 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_group_IntegrationTokenFragment.java/[CN]/IntegrationTokenFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster27 {
+"actor-apps_core_src_main_java_im_actor_model_modules_updates_SequenceActor.java/[CN]/SequenceActor/[MT]/invalidate()/body";
+"actor-apps_core_src_main_java_im_actor_model_modules_updates_SequenceActor.java/[CN]/SequenceActor/[MT]/onUpdateStarted()/parameters";
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[CN]/ConnectionsCountChanged/[MT]/getCount()/parameters";
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_AppStateVM.java/[CN]/AppStateVM/[MT]/getIsSyncing()/body";
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[MT]/connectionCountChanged(int)/body";
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_AppStateVM.java/[CN]/AppStateVM/[MT]/getIsConnecting()/parameters";
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[MT]/onReceive(Object)/body";
+"actor-apps_core_src_main_java_im_actor_model_network_mtp_actors_ManagerActor.java/[CN]/ManagerActor/[MT]/postStop()/body";
+"actor-apps_core_src_main_java_im_actor_model_viewmodel_AppStateVM.java/[CN]/AppStateVM/[MT]/getIsSyncing()/parameters";
+}
+subgraph cluster433 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/onMessageReadByMe(long)/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/onInMessages(ArrayList<Message>)/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_users_UsersProcessor.java/[CN]/UsersProcessor/[MT]/onUserDescChanged(User)/body";
+}
+subgraph cluster111 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_MessagesFragment.java/[CN]/MessagesFragment/[MT]/onLongClick(Message,boolean)/body";
+}
+subgraph cluster115 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_search_GlobalSearchBaseFragment.java/[CN]/GlobalSearchBaseFragment/[MT]/onSearchChanged()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_search_GlobalSearchBaseFragment.java/[CN]/GlobalSearchBaseFragment/[MT]/showSearch()/body";
+}
+subgraph cluster266 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_profile_ProfileActivity.java/[CN]/ProfileActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster238 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_dialogs_BaseDialogFragment.java/[CN]/BaseDialogFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_contacts_BaseContactFragment.java/[CN]/BaseContactFragment/[MT]/onCreateContactsView(int,LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster10 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_streebog_StreebogFastDigest.java/[CN]/StreebogFastDigest/[MT]/reset()/body";
+}
+subgraph cluster437 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_auth_AuthActivity.java/[CN]/AuthActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster235 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_Configuration.java/[CN]/Configuration/[MT]/isEnabledGroupedChatList()/body";
+}
+subgraph cluster75 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_keyboard_emoji_smiles_SmilePagerAdapter.java/[CN]/SmilePagerAdapter/[MT]/getCount()/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_keyboard_emoji_smiles_SmilePagerAdapter.java/[CN]/SmilePagerAdapter/[MT]/instantiateItem(ViewGroup,int)/body";
+}
+subgraph cluster467 {
+"actor-common_src_main_java_im_actor_model_modules_updates_GroupsProcessor.java/[CN]/GroupsProcessor/[MT]/onMembersUpdated(int,List<Member>)/body";
+}
+subgraph cluster468 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_CallsModule.java/[CN]/CallsModule/[MT]/onIncomingCall(long,int)/body";
+}
+subgraph cluster86 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_network_TrustedKey.java/[CN]/TrustedKey/[CS]/TrustedKey(byte[])/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_network_TrustedKey.java/[CN]/TrustedKey/[MT]/getKeyId()/body";
+}
+subgraph cluster408 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_BaseActivity.java/[CN]/BaseActivity/[MT]/onCreate(Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_controllers_MainPhoneController.java/[CN]/MainPhoneController/[MT]/onResume()/body";
+}
+subgraph cluster260 {
+"actor-common_src_main_java_im_actor_model_mvvm_BindedDisplayList.java/[CN]/BindedDisplayList/[MT]/loadMoreBackward()/body";
+}
+subgraph cluster145 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_media_PictureActivity.java/[CN]/PictureActivity/[CN]/PictureFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_group_view_MembersAdapter.java/[CN]/MembersAdapter/[CN]/GroupViewHolder/[MT]/bind(GroupMember,int,Context)/body";
+}
+subgraph cluster123 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_StickersModule.java/[CN]/StickersModule/[MT]/buildStickerPacks()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_keyboard_emoji_smiles_SmilePagerAdapter.java/[CN]/SmilePagerAdapter/[CS]/SmilePagerAdapter(EmojiKeyboard)/body";
+}
+subgraph cluster2 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_EncryptedSessionActor.java/[CN]/EncryptedSessionActor/[MT]/onDecrypt(byte[],PromiseResolver<DecryptedPackage>)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_encryption_session_EncryptedSessionChain.java/[CN]/EncryptedSessionChain/[CS]/EncryptedSessionChain(PeerSession,byte[],byte[])/body";
+}
+subgraph cluster91 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_group_view_PublicGroupCardView.java/[CN]/PublicGroupCardView/[CS]/PublicGroupCardView(Context,PublicGroup,int)/body";
+}
+subgraph cluster140 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_calls_CallActor.java/[CN]/CallActor/[MT]/onCallInProgress(int)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_calls_CallActor.java/[CN]/CallActor/[MT]/checkAlive()/body";
+}
+subgraph cluster312 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[MT]/onCounterChanged(Peer,int)/body";
+"actor-apps_core_src_main_java_im_actor_core_api_ApiGroup.java/[CN]/ApiGroup/[MT]/serialize(BserWriter)/body";
+"actor-apps_core_src_main_java_im_actor_core_modules_internal_GroupsModule.java/[CN]/GroupsModule/[MT]/createGroup(String,String,int[])/body";
+}
+subgraph cluster177 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_BaseActorSettingsFragment.java/[CN]/BaseActorSettingsFragment/[FE]/ed";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_BaseActorSettingsFragment.java/[CN]/BaseActorSettingsFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster411 {
+"actor-apps_core-js_src_main_java_im_actor_core_js_modules_JsBindingModule.java/[CN]/JsBindingModule/[MT]/getOnlineStatus()/body";
+"actor-apps_core-js_src_main_java_im_actor_core_js_modules_JsBindingModule.java/[CN]/JsBindingModule/[MT]/getTyping(Peer)/body";
+}
+subgraph cluster396 {
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_webrtc_AndroidPeerConnection.java/[CN]/AndroidPeerConnection/[MT]/addOwnStream(WebRTCMediaStream)/body";
+"actor-sdk_sdk-core_core_core-js_src_main_java_im_actor_core_js_entity_JsMessagesBind.java/[CN]/JsMessagesBind/[MT]/notifySubscriber()/body";
+}
+subgraph cluster130 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_BaseMessagesFragment.java/[CN]/BaseMessagesFragment/[MT]/onPause()/body";
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_chat_BaseMessagesFragment.java/[CN]/BaseMessagesFragment/[MT]/onResume()/body";
+}
+subgraph cluster149 {
+"library_actor-js_src_main_java_im_actor_model_js_JsFacade.java/[CN]/JsFacade/[MT]/unbindChat(JsPeer,AngularListCallback<JsMessage>)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorSDK.java/[CN]/ActorSDK/[MT]/getDelegatedCustomMessageViewHolder(int,OnDelegateViewHolder<MessageHolder>,MessagesAdapter,ViewGroup)/parameters";
+}
+subgraph cluster124 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[FE]/errorColor";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[FE]/readColor";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessageHolder.java/[CN]/MessageHolder/[MT]/setTimeAndReactions(TextView)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[FE]/sentColor";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[FE]/stateIcon";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_MessageHolder.java/[CN]/MessageHolder/[FE]/hasMyReaction";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[MT]/bindData(Message,boolean,PreprocessedData)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ChatListProcessor.java/[CN]/ChatListProcessor/[MT]/process(List<Message>,Object)/body";
+}
+subgraph cluster395 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/serialize(BserWriter)/parameters";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_MyProfileFragment.java/[CN]/MyProfileFragment/[MT]/addFields(FrameLayout,ActorSettingsField[],LayoutInflater)/body";
+}
+subgraph cluster483 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_calls_CallFragment.java/[CN]/CallFragment/[MT]/startTimer()/body";
+}
+subgraph cluster32 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_view_keyboard_BaseKeyboard.java/[CN]/BaseKeyboard/[MT]/show(EditText)/body";
+}
+subgraph cluster9 {
+"actor-apps_core-js_src_main_java_im_actor_core_js_modules_JsBindingModule.java/[CN]/JsBindingModule/[MT]/getGroup(int)/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_core_Core.java/[CN]/Core/[FE]/PUSH_ID";
+}
+subgraph cluster239 {
+"actor-apps_core_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[CN]/ProtoCallback/[MT]/onConnectionsCountChanged(int)/parameters";
+}
+subgraph cluster321 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_view_keyboard_BaseKeyboard.java/[CN]/BaseKeyboard/[MT]/toggle(EditText)/body";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_websocket_WebSocketConnection.java/[CN]/WebSocketConnection/[MT]/doSend(byte[])/body";
+}
+subgraph cluster450 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_attach_AttachFragment.java/[CN]/AttachFragment/[MT]/onDestroyView()/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_Authentication.java/[CN]/Authentication/[MT]/requestStartEmailAuth(String)/body";
+}
+subgraph cluster460 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getProfilleIconColor()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getProfileContactIconColor()/body";
+}
+subgraph cluster428 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_entity_ConversationState.java/[CN]/ConversationState/[MT]/serialize(BserWriter)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_stickers_StickerAdapter.java/[CN]/StickerAdapter/[CN]/StickerLineViewHolder/[MT]/bind(StickerLine,int,Context)/body";
+}
+subgraph cluster214 {
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/getHeaderKey()/body";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/getHeaderKey()/parameters";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/serialize(BserWriter)/parameters";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_contacts_ContactsFragment.java/[CN]/ContactsFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster354 {
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[CS]/RequestInitLlectro()/parameters";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/getScreenWidth()/body";
+}
+subgraph cluster118 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[CS]/RequestSendCodeByPhoneCall(String)/body";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/serialize(BserWriter)/body";
+}
+subgraph cluster275 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_emoji_stickers_StickersView.java/[CN]/StickersView/[MT]/buildAdapter(Context)/body";
+"java_im_actor_model_api_TextMessageExUnsupported.java/[CN]/TextMessageExUnsupported/[MT]/serialize(BserWriter)/body";
+}
+subgraph cluster106 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupInfoFragment.java/[CN]/GroupInfoFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster355 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[MT]/getAfterApply()/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[FE]/relatedGroups";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[FE]/PREFERENCE_GROUPED_LOADED";
+}
+subgraph cluster418 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_streebog_StreebogFastDigest.java/[CN]/StreebogFastDigest/[MT]/update(byte[],int,int)/body";
+}
+subgraph cluster49 {
+"library_actor-common_src_main_java_im_actor_model_network_mtp_actors_ManagerActor.java/[CN]/ManagerActor/[MT]/onReceive(Object)/body";
+"library_actor-common_src_main_java_im_actor_model_network_api_ApiBroker.java/[CN]/ApiBroker/[MT]/onReceive(Object)/body";
+}
+subgraph cluster268 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_auth_AuthActivity.java/[CN]/AuthActivity/[MT]/updateState(AuthState)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorSDK.java/[CN]/ActorSDK/[MT]/setDelegate(ActorSDKDelegate)/body";
+}
+subgraph cluster324 {
+"actor-sdk_sdk-core-android_android-google-push_src_main_java_im_actor_push_PushReceiver.java/[CN]/PushReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster363 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_crypto_primitives_kuznechik_KuznechikFastEngine.java/[CN]/KuznechikFastEngine/[MT]/initDump(byte[])/body";
+}
+subgraph cluster506 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/onMessageContentUpdated(long,AbsContent)/body";
+}
+subgraph cluster167 {
+"actor-common_src_main_java_im_actor_model_mvvm_BindedDisplayList.java/[CN]/BindedDisplayList/[MT]/loadMoreForward()/body";
+}
+subgraph cluster218 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_activity_AddContactActivity.java/[CN]/AddContactActivity/[MT]/onCreate(Bundle)/body";
+}
+subgraph cluster501 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_internal_messages_ConversationActor.java/[CN]/ConversationActor/[MT]/onMessageReadByMe(long)/body";
+}
+subgraph cluster198 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_peers_CallBusActor.java/[CN]/CallBusActor/[MT]/onMessageReceived(Integer,Long,byte[])/body";
+}
+subgraph cluster461 {
+"actor-sdk_sdk-core_runtime_runtime-shared_src_main_java_im_actor_runtime_Crypto.java/[CN]/Crypto/[MT]/keyHash(byte[])/body";
+}
+subgraph cluster367 {
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogGroup.java/[CN]/JsDialogGroup/extend";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogShort.java/[CN]/JsDialogShort/[CS]/JsDialogShort()/body";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_modules_JsBindingModule.java/[CN]/JsBindingModule/[MT]/getDialogsGroupedList()/body";
+"actor-sdk_sdk-core_core_js_src_main_java_im_actor_core_js_entity_JsDialogShort.java/package";
+}
+subgraph cluster3 {
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/toString()/parameters";
+}
+subgraph cluster228 {
+"actor-apps_runtime_src_generic_java_im_actor_runtime_generic_mvvm_DisplayList.java/[CN]/DisplayList/[MT]/getListProcessor()/parameters";
+"actor-apps_runtime_src_generic_java_im_actor_runtime_generic_mvvm_DisplayList.java/[CN]/DisplayList/[MT]/getListProcessor()/body";
+}
+subgraph cluster302 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestSendCodeByPhoneCall.java/[CN]/RequestSendCodeByPhoneCall/[MT]/fromBytes(byte[])/parameters";
+}
+subgraph cluster84 {
+"java_im_actor_model_api_DocumentExUnsupported.java/[CN]/DocumentExUnsupported/[MT]/serialize(BserWriter)/body";
+}
+subgraph cluster18 {
+"apps_actor-android_src_main_java_in_uncod_android_bypass_MentionSpan.java/[CN]/MentionSpan/extend";
+}
+subgraph cluster189 {
+"actor-apps_core_src_main_java_im_actor_core_Messenger.java/[CN]/Messenger/[MT]/getModuleContext()/parameters";
+}
+subgraph cluster116 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_updates_UpdateProcessor.java/[CN]/UpdateProcessor/[MT]/processUpdate(Update)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_core_AndroidNotifications.java/[CN]/AndroidNotifications/[MT]/onNotification(Messenger,List<Notification>,int,int)/body";
+}
+subgraph cluster343 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_view_MentionSpan.java/[CN]/MentionSpan/[MT]/updateDrawState(TextPaint)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_api_rpc_RequestDoCall.java/[CN]/RequestDoCall/[MT]/serialize(BserWriter)/body";
+}
+subgraph cluster382 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallManagerActor.java/[CN]/CallManagerActor/[MT]/onCallCreated(long,ActorRef)/body";
+}
+subgraph cluster331 {
+"actor-common_src_main_java_im_actor_model_modules_DisplayLists.java/[CN]/DisplayLists/[MT]/buildNewContactList(boolean)/body";
+}
+subgraph cluster20 {
+"actor-apps_core-js_src_main_java_im_actor_core_js_modules_JsBindingModule.java/[CN]/JsBindingModule/[MT]/getTempGlobalCounter()/body";
+}
+subgraph cluster434 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_group_InviteLinkFragment.java/[CN]/InviteLinkFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster421 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/setDefaultBackgrouds(int[])/body";
+}
+subgraph cluster293 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_dialogs_DialogHolder.java/[CN]/DialogHolder/[MT]/bind(Dialog,boolean)/body";
+}
+subgraph cluster323 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_BaseActorSettingsFragment.java/[CN]/BaseActorSettingsFragment/[MT]/addFields(FrameLayout,ActorSettingsField[],LayoutInflater)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_ActorSettingsField.java/[CN]/ActorSettingsField/[MT]/getRightViewWidth()/body";
+}
+subgraph cluster207 {
+"actor-apps_app-android_src_debug_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/[FE]/TAG";
+"actor-apps_app-android_src_debug_java_im_actor_messenger_PushReceiver.java/[CN]/PushReceiver/[MT]/onReceive(Context,Intent)/body";
+}
+subgraph cluster255 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_DocHolder.java/[CN]/DocHolder/[FE]/deliveredColor";
+}
+subgraph cluster264 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_group_JoinPublicGroupFragment.java/[CN]/JoinPublicGroupFragment/[MT]/openGroup(PublicGroup)/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_group_JoinPublicGroupPopUpFragment.java/[CN]/JoinPublicGroupPopUpFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster94 {
+"library_actor-common_src_main_java_im_actor_model_modules_notifications_NotificationsActor.java/[CN]/NotificationsActor/[MT]/onConversationVisible(Peer)/body";
+"library_actor-common_src_main_java_im_actor_model_modules_notifications_NotificationsActor.java/[CN]/NotificationsActor/[MT]/onDialogsVisible()/body";
+}
+subgraph cluster139 {
+"actor-sdk_sdk-core_runtime_shared_src_main_java_im_actor_runtime_storage_SyncKeyValue.java/[CN]/SyncKeyValue/[MT]/get(long)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupPermissionsFragment.java/[CN]/GroupPermissionsFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+}
+subgraph cluster287 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_eventbus_EventBusActor.java/[CN]/EventBusActor/[MT]/sendMessage(int,long,byte[])/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_eventbus_EventBusActor.java/[CN]/EventBusActor/[MT]/sendMessage(int,long,byte[])/parameters";
+}
+subgraph cluster448 {
+"library_actor-common_src_main_java_im_actor_model_modules_updates_UpdateProcessor.java/[CN]/UpdateProcessor/[MT]/applyDifferenceUpdate(List<User>,List<Group>,List<Update>)/body";
+}
+subgraph cluster378 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallSlaveActor.java/[CN]/CallSlaveActor/[MT]/onSignalingMessage(int,long,ApiWebRTCSignaling)/body";
+}
+subgraph cluster319 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_websocket_WebSocketConnection.java/[CN]/WebSocketConnection/[MT]/onRawConnected()/body";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_websocket_WebSocketConnection.java/[CN]/WebSocketConnection/[MT]/doConnect()/body";
+}
+subgraph cluster342 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_auth_AuthActivity.java/[CN]/AuthActivity/[MT]/updateState(AuthState)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onSendButtonPressed()/body";
+}
+subgraph cluster502 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_viewmodel_ConversationVM.java/[CN]/ConversationVM/[CS]/ConversationVM(ConversationState)/body";
+}
+subgraph cluster303 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_PeerConnectionActor.java/[CN]/PeerConnectionActor/[MT]/onAnswer(String)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_BaseFragment.java/[CN]/BaseFragment/[MT]/execute(Promise<T>,int)/body";
+}
+subgraph cluster301 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster201 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_adapters_BottomSheetListView.java/[CN]/BottomSheetListView/[MT]/init()/body";
+}
+subgraph cluster159 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_group_IntegrationTokenFragment.java/[CN]/IntegrationTokenFragment/[CN]/ActionHolder/[MT]/init(Void,ViewGroup,Context)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_mentions_MentionsAdapter.java/[CN]/MentionsAdapter/[CN]/GroupViewHolder/[MT]/init(MentionFilterResult,ViewGroup,Context)/body";
+}
+subgraph cluster107 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_view_avatar_AvatarPlaceholderDrawable.java/[CN]/AvatarPlaceholderDrawable/[CS]/AvatarPlaceholderDrawable(String,int,float,Context)/body";
+}
+subgraph cluster263 {
+"actor-sdk_sdk-core_runtime_shared_src_main_java_im_actor_runtime_storage_memory_MemoryKeyValueStorage.java/[CN]/MemoryKeyValueStorage/[MT]/loadItem(long)/parameters";
+"actor-sdk_sdk-core_runtime_shared_src_main_java_im_actor_runtime_storage_memory_MemoryKeyValueStorage.java/[CN]/MemoryKeyValueStorage/[MT]/loadItems(long[])/parameters";
+}
+subgraph cluster479 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getDefaultAvatarPlaceholders()/parameters";
+}
+subgraph cluster30 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallManagerActor.java/[CN]/CallManagerActor/[MT]/onIncomingCallHandled(long)/body";
+}
+subgraph cluster171 {
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[FE]/APP_EXTENSIONS";
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[FE]/context";
+"actor-apps_core_src_ext_java_im_actor_core_ExampleExtension.java/package";
+"actor-apps_runtime_src_main_java_im_actor_runtime_util_ClassCreatorArg.java/package";
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[FE]/extensions";
+}
+subgraph cluster87 {
+"actor-apps_core_src_main_java_im_actor_core_entity_Group.java/[CN]/Group/[MT]/changeMember(boolean)/body";
+}
+subgraph cluster188 {
+"actor-sdk_sdk-core_runtime_runtime-android_src_main_java_im_actor_runtime_android_AndroidLogProvider.java/[CN]/AndroidLogProvider/[MT]/v(String,String)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupInfoFragment.java/[CN]/GroupInfoFragment/[MT]/onCreateOptionsMenu(Menu,MenuInflater)/body";
+}
+subgraph cluster230 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_Messenger.java/[CN]/Messenger/[MT]/getDialogGroupsVM()/parameters";
+}
+subgraph cluster405 {
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[MT]/getLimit()/parameters";
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[MT]/getCenterSortKey()/body";
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[MT]/getCallback()/body";
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[CS]/LoadCenter(Long,int,ListEngineDisplayLoadCallback<T>)/parameters";
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[CS]/LoadCenter(Long,int,ListEngineDisplayLoadCallback<T>)/body";
+}
+subgraph cluster184 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_emoji_keyboard_EmojiKeyboardPopup.java/[CN]/EmojiKeyboardPopup/[CN]/EmojisPagerAdapter/[MT]/getTab(int)/body";
+"library_actor-common_src_main_java_im_actor_model_network_mtp_actors_SenderActor.java/[CN]/SenderActor/[MT]/onReceive(Object)/body";
+}
+subgraph cluster200 {
+"library_actor-common-base_src_main_java_im_actor_model_mvvm_BindedDisplayList.java/[CN]/BindedDisplayList/[CN]/EngineListener/[MT]/onListClear()/body";
+"library_actor-common-base_src_main_java_im_actor_model_mvvm_BindedDisplayList.java/[CN]/BindedDisplayList/[CN]/EngineListener/[MT]/onItemsReplaced(List<T>)/body";
+}
+subgraph cluster110 {
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[MT]/getAfterApply()/parameters";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_Updates.java/[CN]/Updates/[MT]/executeRelatedResponse(List<ApiUser>,List<ApiGroup>,Runnable)/body";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_internal_messages_GroupedDialogsActor.java/[CN]/GroupedDialogsActor/[FE]/isLoaded";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/[MT]/getRelatedUsers()/parameters";
+"actor-sdk_sdk-core_core_shared_src_main_java_im_actor_core_modules_updates_internal_RelatedResponse.java/[CN]/RelatedResponse/extend";
+}
+subgraph cluster509 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_Messenger.java/[CN]/Messenger/[MT]/toggleVideoEnabled(long)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_CallActor.java/[CN]/CallActor/[MT]/onAudioEnableChanged(boolean)/body";
+}
+subgraph cluster358 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_contacts_BookImportActor.java/[CN]/BookImportActor/[MT]/onPhoneBookLoaded(List<PhoneBookContact>)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_ActorStyle.java/[CN]/ActorStyle/[MT]/getDefaultBackgrouds()/parameters";
+}
+subgraph cluster457 {
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[FE]/screenWidth";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[CS]/RequestInitLlectro(int,int)/body";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[MT]/getScreenWidth()/parameters";
+"library_actor-common_src_main_java_im_actor_model_api_rpc_RequestInitLlectro.java/[CN]/RequestInitLlectro/[CS]/RequestInitLlectro()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_BaseFragment.java/[CN]/BaseFragment/[MT]/execute(Command<T>,int)/body";
+}
+subgraph cluster327 {
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[FE]/centerSortKey";
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[FE]/limit";
+"library_actor-common-base_src_main_java_im_actor_model_droidkit_engine_AsyncStorageActor.java/[CN]/AsyncStorageActor/[CN]/LoadCenter/[MT]/getCenterSortKey()/parameters";
+}
+subgraph cluster173 {
+"actor-sdk_sdk-core_core_core-android_src_main_java_im_actor_core_utils_GalleryScannerActor.java/[CN]/GalleryScannerActor/[MT]/checkNew()/body";
+}
+subgraph cluster269 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[MT]/updateIndex()/body";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[CN]/Index/[FE]/sortKey";
+}
+subgraph cluster99 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_AudioHolder.java/[CN]/AudioHolder/[MT]/pause()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_AudioHolder.java/[CN]/AudioHolder/[MT]/stop()/body";
+}
+subgraph cluster484 {
+"actor-apps_core_src_ext_java_im_actor_core_ExampleExtension.java/[CN]/ExampleExtension/[FE]/context";
+"actor-apps_core_src_ext_java_im_actor_core_Extensions.java/[CN]/Extensions/[MT]/registerExtensions()/parameters";
+}
+subgraph cluster51 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_websocket_WebSocketConnection.java/[CN]/WebSocketConnection/[MT]/onRawMessage(ArrayBuffer)/body";
+"actor-common_src_main_java_im_actor_model_Messenger.java/[CN]/Messenger/[MT]/onDialogsOpen()/body";
+}
+subgraph cluster296 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_messages_MessagesFragment.java/[CN]/MessagesFragment/[MT]/onLongClick(Message)/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/onSendButtonPressed()/body";
+}
+subgraph cluster338 {
+"apps_actor-android_src_main_java_im_actor_messenger_app_fragment_dialogs_DialogHolder.java/[CN]/DialogHolder/[CS]/DialogHolder(Context,FrameLayout,OnItemClickedListener<Dialog>)/body";
+}
+subgraph cluster45 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/showShareChecked()/body";
+}
+subgraph cluster291 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_group_IntegrationTokenFragment.java/[CN]/IntegrationTokenFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_compose_GroupUsersFragment.java/[CN]/GroupUsersFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_preview_ViewAvatarActivity.java/[CN]/ViewAvatarActivity/[MT]/onOptionsItemSelected(MenuItem)/body";
+}
+subgraph cluster105 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_router_RouterActor.java/[CN]/RouterActor/[MT]/onChatDropCache(Peer)/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_messaging_history_ConversationHistoryActor.java/[CN]/ConversationHistoryActor/[MT]/onReset()/body";
+}
+subgraph cluster152 {
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestCreateGroup.java/[CN]/RequestCreateGroup/[MT]/toString()/body";
+"actor-apps_core_src_main_java_im_actor_core_api_rpc_RequestCreateGroup.java/[CN]/RequestCreateGroup/[MT]/serialize(BserWriter)/body";
+}
+subgraph cluster426 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_JsAssetsProvider.java/[CN]/JsAssetsProvider/[MT]/loadBinAsset(String)/parameters";
+"actor-sdk_sdk-core_runtime_runtime-generic_src_main_java_im_actor_runtime_generic_GenericAssetsProvider.java/[CN]/GenericAssetsProvider/[MT]/loadBinAsset(String)/parameters";
+}
+subgraph cluster60 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/hideMentions()/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_ChatActivity.java/[CN]/ChatActivity/[MT]/showMentions(boolean)/body";
+}
+subgraph cluster227 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_group_GroupInfoFragment.java/[CN]/GroupInfoFragment/[MT]/onDestroyView()/body";
+}
+subgraph cluster449 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ReactionSpan.java/[CN]/ReactionSpan/[MT]/updateDrawState(TextPaint)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_TextHolder.java/[CN]/TextHolder/[MT]/bindRawText(CharSequence,Spannable,Message,boolean)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_ContactHolder.java/[CN]/ContactHolder/[FE]/errorColor";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_settings_ActorSettingsField.java/[CN]/ActorSettingsField/[MT]/getRightViewHeight()/parameters";
+}
+subgraph cluster404 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_group_JoinGroupPopUpActivity.java/[CN]/JoinGroupPopUpActivity/extend";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListEngine.java/[CN]/JsListEngine/[MT]/clear()/body";
+}
+subgraph cluster11 {
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_fragment_chat_ChatActivity.java/[CN]/ChatActivity/[MT]/onPerformBind()/body";
+"actor-apps_app-android_src_main_java_im_actor_messenger_app_view_keyboard_BaseKeyboard.java/[CN]/BaseKeyboard/[MT]/toggle(EditText)/parameters";
+}
+subgraph cluster240 {
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[MT]/updateOrAdd(ListEngineRecord)/body";
+"actor-sdk_sdk-core_runtime_runtime-js_src_main_java_im_actor_runtime_js_storage_JsListStorage.java/[CN]/JsListStorage/[MT]/clear()/body";
+}
+subgraph cluster81 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_viewmodel_ConversationVM.java/[CN]/ConversationVM/[MT]/updateValues(ConversationState)/body";
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_conversation_messages_TextHolder.java/[CN]/TextHolder/[MT]/bindRawText(CharSequence,long,long,Spannable,Message,boolean)/body";
+}
+subgraph cluster88 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_modules_calls_PeerConnectionActor.java/[CN]/PeerConnectionActor/[MT]/onEnded()/body";
+}
+subgraph cluster66 {
+"actor-apps_core_src_main_java_im_actor_core_modules_updates_PresenceProcessor.java/[CN]/PresenceProcessor/[MT]/onUserLastSeen(int,int,long)/body";
+}
+subgraph cluster419 {
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_entity_content_AbsContent.java/[CN]/AbsContent/[MT]/getUpdatedCounter()/body";
+"actor-sdk_sdk-core_core_core-shared_src_main_java_im_actor_core_entity_content_AbsContent.java/[CN]/AbsContent/[MT]/incrementUpdatedCounter(int)/parameters";
+}
+subgraph cluster170 {
+"actor-apps_core-js_src_main_java_im_actor_core_js_JsFacade.java/[CN]/JsFacade/[CS]/JsFacade(String[])/body";
+}
+subgraph cluster216 {
+"actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_core_AndroidNotifications.java/[CN]/AndroidNotifications/[MT]/buildSingleMessageNotification(Drawable,NotificationCompat.Builder,String,CharSequence,Notification)/body";
+}
+}
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[

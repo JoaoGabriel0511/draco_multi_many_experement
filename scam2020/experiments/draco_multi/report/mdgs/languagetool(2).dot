@@ -1,0 +1,2005 @@
+
+
+
+digraph {
+subgraph cluster134 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_GuiLangConfigPanel.java/[CN]/GuiLangConfigPanel/[MT]/save()/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_GuiLangConfigPanel.java/[CN]/GuiLangConfigPanel/[MT]/loadOption()/body";
+}
+subgraph cluster331 {
+"languagetool-core_src_main_java_org_languagetool_rules_WordRepeatBeginningRule.java/[CN]/WordRepeatBeginningRule/[CS]/WordRepeatBeginningRule(ResourceBundle,Language)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_WordRepeatRule.java/[CN]/WordRepeatRule/[CS]/WordRepeatRule(ResourceBundle,Language)/body";
+}
+subgraph cluster388 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_ExportGermanNouns.java/[CN]/ExportGermanNouns/[MT]/getWords()/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_ExportGermanNouns.java/[CN]/ExportGermanNouns/[MT]/main(String[])/body";
+}
+subgraph cluster172 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_BaseTagger.java/[CN]/BaseTagger/[MT]/setLocale(Locale)/parameters";
+}
+subgraph cluster477 {
+"trunk_JLanguageTool_src_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/showOptions()/body";
+"trunk_languagetool_TextChecker.py/[CN]/TextChecker/[MT]/checkBNCFiles/body";
+}
+subgraph cluster99 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_LanguageToolAnalyzer.java/[CN]/LanguageToolAnalyzer/[MT]/tokenStream(String,Reader)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_LanguageToolAnalyzer.java/[CN]/LanguageToolAnalyzer/[CS]/LanguageToolAnalyzer(Version,JLanguageTool)/parameters";
+}
+subgraph cluster426 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleMatcher.java/[CN]/PatternRuleMatcher/[MT]/concatMatches(int,int,int,AnalyzedTokenReadings[],int,List<Match>)/body";
+}
+subgraph cluster101 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/getCurrentConfigDialog()/body";
+}
+subgraph cluster88 {
+"trunk_languagetool_Rules.py/[CN]/Token/[CS]/__init__/body";
+"trunk_languagetool_Rules.py/[CN]/PatternRule/[MT]/setVars/body";
+"trunk_languagetool_Rules.py/[CN]/Rules/[CS]/__init__/body";
+"trunk_languagetool_Rules.py/[CN]/Rules/[CS]/__init__/parameters";
+}
+subgraph cluster54 {
+"trunk_JLanguageTool_src_dev_org_languagetool_dev_index_Searcher.java/[CN]/Searcher/[MT]/main(String[])/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_language_German.java/[CN]/German/[MT]/getDefaultLanguageVariant()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_AbstractCompoundRule.java/[CN]/AbstractCompoundRule/[MT]/hasAllUppercaseParts(String)/body";
+}
+subgraph cluster22 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_CaseRule.java/[CN]/CaseRule/[MT]/isSpecialCase(int,AnalyzedTokenReadings[])/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_CaseRule.java/[CN]/CaseRule/[MT]/isNominalization(int,AnalyzedTokenReadings[])/body";
+}
+subgraph cluster35 {
+"languagetool-core_src_main_java_org_languagetool_ResourceBundleTools.java/[CN]/ResourceBundleTools/[MT]/getMessageBundle(Language)/body";
+}
+subgraph cluster500 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_Indexer.java/[CN]/Indexer/[MT]/run(String,String)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_Indexer.java/[CN]/Indexer/[MT]/main(String[])/body";
+}
+subgraph cluster392 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_hunspell_HunspellRule.java/[CN]/HunspellRule/[MT]/match(AnalyzedSentence)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_hunspell_HunspellRule.java/[CN]/HunspellRule/[MT]/tokenizeText(String)/body";
+}
+subgraph cluster102 {
+"trunk_languagetool_socket__server.py/[MT]/main/body";
+"trunk_languagetool_socket__server.py/[MT]/makeChecker/body";
+}
+subgraph cluster296 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_de_AnalyzedGermanTokenReadings.java/[CN]/AnalyzedGermanTokenReadings/[MT]/hasReading(GermanToken.Numerus)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_de_AnalyzedGermanTokenReadings.java/[CN]/AnalyzedGermanTokenReadings/[MT]/hasReading(GermanToken.Genus)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_de_AnalyzedGermanTokenReadings.java/[CN]/AnalyzedGermanTokenReadings/[MT]/hasReadingOfType(POSType)/body";
+}
+subgraph cluster398 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_CaseRuleExceptions.java/[CN]/CaseRuleExceptions/[MT]/loadExceptions(String)/body";
+"languagetool-language-modules_pt_src_main_java_org_languagetool_language_Portuguese.java/[CN]/Portuguese/[MT]/getDefaultLanguageVariant()/body";
+}
+subgraph cluster413 {
+"languagetool-language-modules_km_src_main_java_org_languagetool_rules_km_KhmerWordCoherencyRule.java/[CN]/KhmerWordCoherencyRule/[MT]/loadWords(InputStream)/body";
+}
+subgraph cluster326 {
+"trunk_JLanguageTool_src_java_org_languagetool_synthesis_ManualSynthesizer.java/[CN]/ManualSynthesizer/[MT]/loadMapping(InputStream,String)/parameters";
+"trunk_JLanguageTool_src_java_org_languagetool_synthesis_ManualSynthesizer.java/[CN]/ManualSynthesizer/[MT]/loadMapping(InputStream,String)/body";
+}
+subgraph cluster122 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Morphy2Lucene.java/[CN]/Morphy2Lucene/[MT]/fillIndex(IndexWriter,String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Morphy2Lucene.java/[CN]/Morphy2Lucene/[MT]/main(String[])/body";
+}
+subgraph cluster162 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Match.java/[CN]/Match/[MT]/toFinalString()/body";
+"trunk_JLanguageTool_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/quit()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_MainMenuBar.java/[CN]/MainMenuBar/[CS]/MainMenuBar(Main)/body";
+}
+subgraph cluster44 {
+"languagetool-core_src_main_java_org_languagetool_rules_WhitespaceRule.java/[CN]/WhitespaceRule/[CS]/WhitespaceRule(ResourceBundle,Language)/body";
+}
+subgraph cluster27 {
+"trunk_languagetool_python__rules_huAvsAnRule.py/[CN]/huAvsAnRule/[MT]/match/body";
+"trunk_languagetool_python__rules_enWordRepeatRule.py/[CN]/enWordRepeatRule/[MT]/match/parameters";
+}
+subgraph cluster163 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_AbstractPatternRulePerformer.java/[CN]/AbstractPatternRulePerformer/[MT]/testAllReadings(AnalyzedTokenReadings[],ElementMatcher,ElementMatcher,int,int,int)/body";
+"languagetool-core_src_main_java_org_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/equals(Object)/body";
+}
+subgraph cluster324 {
+"languagetool-core_src_main_java_org_languagetool_rules_ngrams_Probability.java/[CN]/Probability/[CS]/Probability(double,float)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_SimpleCorpusEvaluator.java/[CN]/SimpleCorpusEvaluator/[CN]/NgramLanguageToolEvaluator/[CS]/NgramLanguageToolEvaluator(File)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_StringElement.java/[CN]/StringElement/[CS]/StringElement(String[],boolean,boolean,boolean)/body";
+}
+subgraph cluster270 {
+"trunk_languagetool_python__rules_enAvsAnRule.py/[CN]/enAvsAnRule/[MT]/match/body";
+"trunk_languagetool_python__rules_enAvsAnRule.py/[CN]/enAvsAnRule/[MT]/match/parameters";
+}
+subgraph cluster308 {
+"languagetool-server_src_main_java_org_languagetool_server_TextChecker.java/[CN]/TextChecker/[MT]/checkText(String,HttpExchange,Map<String,String>,int)/body";
+}
+subgraph cluster143 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_uk_UkrainianMyspellTagger.java/[CN]/UkrainianMyspellTagger/[MT]/tag(List<String>)/body";
+}
+subgraph cluster75 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/debug_compound_write(String)/body";
+}
+subgraph cluster274 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/activateDefaultFalseFriendRules()/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/main(String[])/body";
+}
+subgraph cluster209 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[CN]/_Main/[MT]/initialize(Object[])/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[CN]/_Main/[MT]/trigger(String)/body";
+}
+subgraph cluster185 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Element.java/[CN]/Element/[MT]/setOptionalException(String,boolean,boolean,boolean,String,boolean,boolean)/body";
+"trunk_languagetool_python__rules_enWordRepeatRule.py/other";
+}
+subgraph cluster135 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanHelper.java/[CN]/GermanHelper/[MT]/getDeterminerNumber(String)/body";
+"languagetool-language-modules_en_src_main_java_org_languagetool_rules_en_BritishReplaceRule.java/[CN]/BritishReplaceRule/[CS]/BritishReplaceRule(ResourceBundle)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_POSTagLanguageModel.java/[CN]/POSTagLanguageModel/[MT]/getSentence(AnalyzedSentence)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/getAgreementCategories(AnalyzedTokenReadings,Set<GrammarCategory>,boolean)/body";
+}
+subgraph cluster183 {
+"languagetool-language-modules_ro_src_main_java_org_languagetool_language_Romanian.java/[CN]/Romanian/[MT]/getMaintainers()/body";
+}
+subgraph cluster502 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleXmlCreator.java/[CN]/PatternRuleXmlCreator/[MT]/toXML(PatternRuleId,Language)/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_dumpcheck_TatoebaSentenceSource.java/[CN]/TatoebaSentenceSource/[CS]/TatoebaSentenceSource(InputStream,Language)/body";
+}
+subgraph cluster320 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_OutputDumpHandler.java/[CN]/OutputDumpHandler/[MT]/handleResult(String,List<RuleMatch>,String,Language)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/showPopup(MouseEvent)/body";
+}
+subgraph cluster18 {
+"trunk_JLanguageTool_src_java_org_languagetool_Main.java/[CN]/Main/[MT]/getLanguageOrExit(String)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_UselessExampleFinder.java/[CN]/UselessExampleFinder/[MT]/run(Language)/body";
+}
+subgraph cluster404 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_de_AnalyzedGermanTokenReadings.java/[CN]/AnalyzedGermanTokenReadings/[MT]/toSortedString()/body";
+}
+subgraph cluster402 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_en_AvsAnRule.java/[CN]/AvsAnRule/[MT]/suggestAorAn(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_en_AvsAnRule.java/[CN]/AvsAnRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster414 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/checkParaRules(String,Locale,int,int,String)/body";
+}
+subgraph cluster178 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_XMLRuleHandler.java/[CN]/XMLRuleHandler/[MT]/finalizeTokens()/body";
+"languagetool-core_src_main_java_org_languagetool_ResourceBundleTools.java/[CN]/ResourceBundleTools/[MT]/getMessageBundle()/body";
+}
+subgraph cluster276 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/quit()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/restoreFromTray()/body";
+}
+subgraph cluster246 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanSpellerRule.java/[CN]/GermanSpellerRule/[CS]/GermanSpellerRule(ResourceBundle,German)/body";
+}
+subgraph cluster397 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationPatternRule.java/[CN]/DisambiguationPatternRule/[MT]/executeAction(AnalyzedSentence,AnalyzedTokenReadings[],AnalyzedTokenReadings[],int,int,int[])/body";
+}
+subgraph cluster290 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_SRXSentenceTokenizer.java/[CN]/SRXSentenceTokenizer/[FE]/srxReader";
+"trunk_JLanguageTool_src_java_org_languagetool_commandline_CommandLineParser.java/[CN]/CommandLineParser/[MT]/parseOptions(String[])/body";
+"languagetool-language-modules_km_src_main_java_org_languagetool_rules_km_KhmerSimpleReplaceRule.java/[CN]/KhmerSimpleReplaceRule/[MT]/loadWords(InputStream)/body";
+}
+subgraph cluster188 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_de_VerbAgreementRule.java/[CN]/VerbAgreementRule/[MT]/hasUnambiguouslyPersonAndNumber(AnalyzedTokenReadings,String,String)/body";
+}
+subgraph cluster230 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_NewChecker.java/[CN]/NewChecker/[MT]/endDocument(int)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_de_GermanTagger.java/[CN]/GermanTagger/[MT]/main(String[])/body";
+}
+subgraph cluster360 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_br_TopoReplaceRule.java/[CN]/TopoReplaceRule/[MT]/getSuggestion()/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_br_TopoReplaceRule.java/[CN]/TopoReplaceRule/extend";
+}
+subgraph cluster0 {
+"languagetool-core_src_main_java_org_languagetool_rules_spelling_morfologik_MorfologikSpellerRule.java/[CN]/MorfologikSpellerRule/[CS]/MorfologikSpellerRule(ResourceBundle,Language)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/checkText(String,HttpExchange,Map<String,String>)/parameters";
+}
+subgraph cluster272 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/checkDetNounAgreement(AnalyzedTokenReadings,AnalyzedTokenReadings)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_cs_CzechTagger.java/[CN]/CzechTagger/[MT]/tag(List<String>)/body";
+}
+subgraph cluster248 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/addLinguServiceEventListener(XLinguServiceEventListener)/parameters";
+"trunk_JLanguageTool_src_java_org_languagetool_language_Icelandic.java/[CN]/Icelandic/[MT]/getRelevantRules()/body";
+}
+subgraph cluster30 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_WikipediaQuickCheck.java/[CN]/WikipediaQuickCheck/[CS]/WikipediaQuickCheck(File)/body";
+}
+subgraph cluster378 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_Rule.java/[CN]/Rule/[MT]/isInRemoved(RuleMatch)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_Rule.java/[CN]/Rule/[MT]/isInRemoved(RuleMatch)/body";
+}
+subgraph cluster473 {
+"languagetool-commandline_src_main_java_org_languagetool_commandline_CommandLineTools.java/[CN]/CommandLineTools/[MT]/checkText(String,JLanguageTool,boolean,int,int,int,StringTools.XmlPrintMode,boolean,List<String>)/body";
+"trunk_JLanguageTool_src_main_dev_org_languagetool_dev_wikipedia_BaseWikipediaDumpHandler.java/[CN]/BaseWikipediaDumpHandler/[MT]/endElement(String,String,String)/body";
+}
+subgraph cluster36 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/getRequestQuery(HttpExchange,URI)/parameters";
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_Configuration.java/[CN]/Configuration/[MT]/restoreState(Configuration)/body";
+"languagetool-core_src_main_java_org_languagetool_AnalyzedToken.java/[CN]/AnalyzedToken/[MT]/equals(Object)/body";
+}
+subgraph cluster118 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/printListOfLanguages(HttpExchange)/parameters";
+}
+subgraph cluster14 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_patterns_PatternRuleHandler.java/[CN]/PatternRuleHandler/[MT]/endElement(String,String,String)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_tagging_disambiguation_rules_DisambiguationRuleLoader.java/[CN]/DisambiguationRuleHandler/[MT]/endElement(String,String,String)/body";
+}
+subgraph cluster483 {
+"languagetool-core_src_main_java_org_languagetool_rules_bitext_DifferentPunctuationRule.java/[CN]/DifferentPunctuationRule/[MT]/match(AnalyzedSentence,AnalyzedSentence)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_bitext_SameTranslationRule.java/[CN]/SameTranslationRule/[MT]/match(AnalyzedSentence,AnalyzedSentence)/body";
+}
+subgraph cluster15 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[CS]/Main(XComponentContext)/body";
+}
+subgraph cluster421 {
+"languagetool-language-modules_br_src_main_java_org_languagetool_rules_br_TopoReplaceRule.java/[CN]/TopoReplaceRule/[CS]/TopoReplaceRule(ResourceBundle)/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_ReplaceOperationNamesRule.java/[CN]/ReplaceOperationNamesRule/[CS]/ReplaceOperationNamesRule(ResourceBundle)/body";
+}
+subgraph cluster425 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_GuiLangConfigPanel.java/[CN]/GuiLangConfigPanel/[MT]/itemStateChanged(ItemEvent)/body";
+"languagetool-office-extension_src_main_java_org_languagetool_openoffice_Main.java/[CN]/Main/[MT]/getXComponent()/body";
+"trunk_JLanguageTool_src_main_java_org_languagetool_tokenizers_ca_CatalanWordTokenizer.java/[CN]/CatalanWordTokenizer/[CS]/CatalanWordTokenizer()/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/init()/body";
+}
+subgraph cluster31 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_MainMenuBar.java/[CN]/MainMenuBar/[CS]/MainMenuBar(Main,ResourceBundle)/body";
+}
+subgraph cluster323 {
+"trunk_JLanguageTool_src_java_org_languagetool_language_Portuguese.java/[CN]/Portuguese/[MT]/getCountryVariants()/body";
+"trunk_JLanguageTool_src_java_org_languagetool_language_Portuguese.java/[CN]/Portuguese/[MT]/getMaintainers()/body";
+}
+subgraph cluster445 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationRuleLoader.java/[CN]/DisambiguationRuleHandler/[CS]/DisambiguationRuleHandler()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleHandler.java/[CN]/PatternRuleHandler/[MT]/prepareRule(AbstractPatternRule)/body";
+}
+subgraph cluster354 {
+"languagetool-core_src_main_java_org_languagetool_Languages.java/[CN]/Languages/[MT]/getAllLanguages()/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_errorcorpus_TrainingDataGenerator.java/[CN]/TrainingDataGenerator/[MT]/crossValidate(List<ValidationSentence>,String,String,List<Sentence>,List<Sentence>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/hasLocale(Locale)/body";
+"languagetool-core_src_main_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/getMessageBundle(Language)/body";
+}
+subgraph cluster37 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/runOptionsDialog()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/checkText(TextToCheck)/body";
+}
+subgraph cluster3 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_ReflectionUtils.java/[CN]/ReflectionUtils/[MT]/isExtending(Class,String)/body";
+}
+subgraph cluster419 {
+"languagetool-language-modules_fr_src_main_java_org_languagetool_language_French.java/[CN]/French/[MT]/getRelevantRules()/body";
+"languagetool-language-modules_eo_src_main_java_org_languagetool_language_Esperanto.java/[CN]/Esperanto/[MT]/getRelevantRules()/body";
+}
+subgraph cluster353 {
+"trunk_languagetool_RulesTest.py/[CN]/RuleTestCase/[MT]/setUp/body";
+}
+subgraph cluster311 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_ConfusionRuleEvaluator.java/[CN]/ConfusionRuleEvaluator/[MT]/printEvalResult(List<Sentence>,List<Sentence>,List<String>,String,String)/body";
+}
+subgraph cluster321 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/reset()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/isSatisfied(AnalyzedToken,Map<String,List<String>>)/body";
+}
+subgraph cluster351 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_SuggestionReplacer.java/[CN]/SuggestionReplacer/[MT]/applySuggestionsToOriginalText(RuleMatch)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/removeLinguServiceEventListener(XLinguServiceEventListener)/parameters";
+"languagetool-office-extension_src_main_java_org_languagetool_openoffice_Main.java/[CN]/Main/[MT]/doGrammarCheckingInternal(String,Locale,ProofreadingResult,int[])/body";
+}
+subgraph cluster96 {
+"languagetool-language-modules_en_src_main_java_org_languagetool_rules_en_AvsAnRule.java/[CN]/AvsAnRule/[MT]/suggestAorAn(String)/body";
+"languagetool-language-modules_en_src_main_java_org_languagetool_rules_en_AvsAnRule.java/[CN]/AvsAnRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster100 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_WikipediaQuickCheck.java/[CN]/WikipediaQuickCheck/[MT]/getPlainTextMapping(String)/body";
+"trunk_languagetool_python__rules_deWordRepeatRule.py/[CN]/deWordRepeatRule/[MT]/match/parameters";
+}
+subgraph cluster79 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_Main.java/[CN]/Main/[MT]/main(String[])/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_Main.java/[CN]/Main/[MT]/getLanguageOrExit(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_Main.java/[CN]/Main/[CS]/Main(boolean,boolean,Language,Language,String[],String[],boolean,boolean)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_Main.java/[CN]/Main/[MT]/runOnFile(String,String,boolean)/body";
+}
+subgraph cluster478 {
+"trunk_languagetool_python__rules_allSentenceLengthRule.py/[CN]/allSentenceLengthRule/[MT]/match/parameters";
+"trunk_languagetool_src_Rules.py/[CN]/PatternRule/[MT]/match/parameters";
+}
+subgraph cluster371 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[CN]/SaveAsAction/[CS]/SaveAsAction()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[CS]/Main()/body";
+}
+subgraph cluster160 {
+"languagetool-dev_src_main_java_org_languagetool_dev_conversion_gui_Main.java/[CN]/Main/[MT]/checkDisplayedRuleCoverage()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_XMLRuleHandler.java/[CN]/XMLRuleHandler/[MT]/preparePhrase(Attributes)/body";
+}
+subgraph cluster222 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedSentence.java/[CN]/AnalyzedSentence/[MT]/getTokensWithoutWhitespace()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedSentence.java/[CN]/AnalyzedSentence/[MT]/getOriginalPosition(int)/body";
+}
+subgraph cluster391 {
+"trunk_languagetool_TextChecker.py/[CN]/TextChecker/[MT]/check/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_eo_EsperantoTagger.java/[CN]/EsperantoTagger/[MT]/tag(List<String>)/body";
+}
+subgraph cluster68 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_wikipedia_WikipediaIndexHandler.java/[CN]/WikipediaIndexHandler/[MT]/endElement(String,String,String)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_wikipedia_WikipediaIndexHandler.java/[CN]/WikipediaIndexHandler/[MT]/main(String)/body";
+}
+subgraph cluster210 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/startNextToken()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/getUnifiedTokens()/body";
+}
+subgraph cluster138 {
+"languagetool-core_src_main_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/getMessageBundle()/body";
+}
+subgraph cluster387 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_hunspell_HunspellRule.java/[CN]/HunspellRule/[MT]/getDictionaryPath(String,String)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_VerbAgreementRule.java/[CN]/VerbAgreementRule/[CS]/VerbAgreementRule(ResourceBundle,German)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/checkDetNounAgreement(AnalyzedGermanTokenReadings,AnalyzedGermanTokenReadings)/body";
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/isThereReflexivePronoun(AnalyzedTokenReadings[],int)/body";
+}
+subgraph cluster418 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_EquivalenceTypeLocator.java/[CN]/EquivalenceTypeLocator/[MT]/equals(Object)/body";
+"languagetool-language-modules_km_src_main_java_org_languagetool_rules_km_KhmerSimpleReplaceRule.java/[CN]/KhmerSimpleReplaceRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster356 {
+"languagetool-office-extension_src_main_java_org_languagetool_openoffice_Main.java/[CN]/Main/[MT]/hasLocale(Locale)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/autoDetectLanguage(String)/body";
+}
+subgraph cluster149 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster241 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/cityAvenueMatch(String,List<AnalyzedToken>)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_SimpleCorpusEvaluator.java/[CN]/SimpleCorpusEvaluator/[CN]/NgramLanguageToolEvaluator/[CS]/NgramLanguageToolEvaluator(File)/body";
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/configureFromRulesFile(JLanguageTool,Language)/body";
+}
+subgraph cluster181 {
+"languagetool-language-modules_ro_src_main_java_org_languagetool_rules_ro_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[MT]/match(AnalyzedSentence)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_ro_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[MT]/match(AnalyzedSentence)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRule.java/[CN]/PatternRule/[MT]/setupRef(int,Element,AnalyzedTokenReadings[])/body";
+}
+subgraph cluster171 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_WordRepeatRule.java/[CN]/WordRepeatRule/[MT]/getLanguages()/body";
+}
+subgraph cluster16 {
+"languagetool-core_src_main_java_org_languagetool_language_LanguageIdentifier.java/[CN]/LanguageIdentifier/[MT]/loadProfiles(List<String>)/parameters";
+"languagetool-core_src_main_java_org_languagetool_language_LanguageIdentifier.java/[CN]/LanguageIdentifier/[MT]/loadProfiles(List<String>)/body";
+}
+subgraph cluster490 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanHelper.java/[CN]/GermanHelper/[MT]/getDeterminerGender(String)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanHelper.java/[CN]/GermanHelper/[MT]/getNounGender(String)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_AgreementSuggestor.java/[CN]/AgreementSuggestor/[MT]/getNounSuggestions(AnalyzedToken,AnalyzedToken)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanHelper.java/[CN]/GermanHelper/[MT]/getNounCase(String)/body";
+}
+subgraph cluster9 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/fireEvent(LanguageToolEvent.Type,Object)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/createGUI()/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/checkText(Object)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_ResultArea.java/[CN]/ResultArea/[CN]/MyHyperlinkListener/[MT]/handleRuleLinkClick(String)/body";
+}
+subgraph cluster312 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_dumpcheck_SentenceSourceChecker.java/[CN]/SentenceSourceChecker/[MT]/ensureCorrectUsageOrExit(String[])/body";
+"trunk_languagetool_src_EnglishTest.py/[CN]/EnglishTestCase/[MT]/setUp/body";
+}
+subgraph cluster120 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_Indexer.java/[CN]/Indexer/[FE]/sentenceTokenizer";
+}
+subgraph cluster123 {
+"languagetool-core_src_main_java_org_languagetool_rules_MatchPosition.java/[CN]/MatchPosition/[MT]/equals(Object)/body";
+}
+subgraph cluster285 {
+"languagetool-dev_src_main_java_org_languagetool_dev_conversion_gui_Main.java/[CN]/Main/[MT]/checkIfAllCurrentRulesCovered()/body";
+}
+subgraph cluster343 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/startUnify()/body";
+}
+subgraph cluster367 {
+"languagetool-core_src_main_java_org_languagetool_rules_ngrams_NgramProbabilityRule.java/[CN]/NgramProbabilityRule/[CN]/Replacement/[CS]/Replacement(String,String)/body";
+}
+subgraph cluster215 {
+"languagetool-tools_src_main_java_org_languagetool_tools_DictionaryBuilder.java/[CN]/DictionaryBuilder/[MT]/buildDict(File)/body";
+}
+subgraph cluster82 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/activateDefaultPatternRules()/body";
+}
+subgraph cluster318 {
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_CatalanUnpairedQuestionMarksRule.java/[CN]/CatalanUnpairedQuestionMarksRule/[CS]/CatalanUnpairedQuestionMarksRule(ResourceBundle,Language)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/createMenuBar()/body";
+"languagetool-language-modules_eo_src_main_java_org_languagetool_tagging_eo_EsperantoTagger.java/[CN]/EsperantoTagger/[MT]/loadWords(InputStream)/body";
+}
+subgraph cluster177 {
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[CS]/Main(CommandLineOptions)/body";
+"languagetool-language-modules_fa_src_main_java_org_languagetool_rules_fa_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[MT]/getDescription()/body";
+}
+subgraph cluster295 {
+"trunk_JLanguageTool_src_java_org_languagetool_Main.java/[CN]/Main/[MT]/detectLanguageOfString(String)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_UppercaseSentenceStartRule.java/[CN]/UppercaseSentenceStartRule/[MT]/match(AnalyzedSentence)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanSpellerRule.java/[CN]/GermanSpellerRule/[MT]/sortByCase(String,List<String>)/body";
+}
+subgraph cluster250 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_UnpairedQuotesBracketsRule.java/[CN]/UnpairedQuotesBracketsRule/[MT]/reset()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_UnpairedQuotesBracketsRule.java/[CN]/UnpairedQuotesBracketsRule/[MT]/findSymbolNum(String)/body";
+}
+subgraph cluster416 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_SuggestionExtractor.java/[CN]/SuggestionExtractor/[MT]/writeIgnoreTokensForLanguages()/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_SuggestionExtractor.java/[CN]/SuggestionExtractor/[MT]/writeIntro(FileWriter,Language)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_SuggestionExtractor.java/[CN]/SuggestionExtractor/[MT]/getLanguageToIgnoreTokensMapping()/body";
+"trunk_JLanguageTool_src_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/getAllIgnoreWords(List<Rule>)/body";
+}
+subgraph cluster242 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_CaseRule.java/[CN]/CaseRule/[CS]/CaseRule(ResourceBundle,German)/body";
+"languagetool-core_src_main_java_org_languagetool_synthesis_BaseSynthesizer.java/[CN]/BaseSynthesizer/[MT]/lookup(String,String,List<String>)/body";
+"trunk_languagetool_Chunker.py/[CN]/Chunker/[MT]/chunk/body";
+"trunk_languagetool_TextChecker.py/[MT]/usage/body";
+}
+subgraph cluster303 {
+"languagetool-core_src_main_java_org_languagetool_rules_bitext_IncorrectBitextExample.java/[CN]/IncorrectBitextExample/[CS]/IncorrectBitextExample(StringPair)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_bitext_IncorrectBitextExample.java/[CN]/IncorrectBitextExample/[CS]/IncorrectBitextExample(StringPair,String[])/body";
+}
+subgraph cluster26 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlToNgram.java/[CN]/CommonCrawlToNgram/[CN]/LuceneLiveIndex/[MT]/close()/body";
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/getLanguageToolInstance(Language,Language,QueryParams)/body";
+}
+subgraph cluster464 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_XMLRuleHandler.java/[CN]/XMLRuleHandler/[MT]/setToken(Attributes)/body";
+}
+subgraph cluster370 {
+"trunk_JLanguageTool_src_dev_org_languagetool_dev_index_Searcher.java/[CN]/Searcher/[MT]/findRuleMatchesOnIndex(PatternRule,Language,IndexSearcher)/body";
+"languagetool-core_src_main_java_org_languagetool_tagging_TaggedWord.java/[CN]/TaggedWord/[MT]/equals(Object)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_ngrams_ConfusionProbabilityRule.java/[CN]/ConfusionProbabilityRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster495 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_index_Indexer.java/[CN]/Indexer/[MT]/indexSentence(Sentence,int)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_language_SwissGerman.java/[CN]/SwissGerman/[MT]/getName()/body";
+"trunk_languagetool_Tagger.py/[CN]/TextToTag/[MT]/getBestTagSimple/body";
+}
+subgraph cluster471 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[CN]/SaveAction/[CS]/SaveAction()/body";
+}
+subgraph cluster503 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_index_Indexer.java/[CN]/Indexer/[MT]/run(String,Directory,Language)/body";
+"languagetool-tools_src_main_java_org_languagetool_tools_POSDictionaryBuilder.java/[CN]/POSDictionaryBuilder/[MT]/main(String[])/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_Main.java/[CN]/Main/[MT]/exitWithUsageMessage()/body";
+}
+subgraph cluster487 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/checkDetAdjNounAgreement(AnalyzedGermanTokenReadings,AnalyzedGermanTokenReadings,AnalyzedGermanTokenReadings)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/getAgreementCategories(AnalyzedGermanTokenReadings)/body";
+}
+subgraph cluster94 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_VerbAgreementRule.java/[CN]/VerbAgreementRule/[MT]/match(AnalyzedSentence)/body";
+"languagetool-server_src_main_java_org_languagetool_server_Server.java/[CN]/Server/[MT]/printCommonConfigFileOptions()/body";
+}
+subgraph cluster141 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_conversion_gui_Main.java/[CN]/Main/[MT]/getCurrentRuleConverter()/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_conversion_gui_Main.java/[CN]/Main/[MT]/checkIfAllCurrentRulesCovered()/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[CN]/AutoCheckAction/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster211 {
+"languagetool-language-modules_nl_src_main_java_org_languagetool_language_Dutch.java/[CN]/Dutch/[MT]/getMaintainers()/body";
+"trunk_languagetool_Rules.py/[CN]/RuleMatch/[CS]/__init__/body";
+}
+subgraph cluster220 {
+"languagetool-server_src_main_java_org_languagetool_server_HTTPServerConfig.java/[CN]/HTTPServerConfig/[MT]/parseConfigFile(File)/body";
+"languagetool-server_src_main_java_org_languagetool_server_HTTPServerConfig.java/[CN]/HTTPServerConfig/[MT]/getOptionalProperty(Properties,String,String)/body";
+}
+subgraph cluster64 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/updateHighlights(List<RuleMatch>)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_conversion_AtdRuleConverter.java/[CN]/AtdRuleConverter/[MT]/isCaseSensitiveRule(String)/body";
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/isTherePersonalSubjectBefore(AnalyzedTokenReadings[],int,Pattern)/body";
+}
+subgraph cluster128 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_index_Indexer.java/[CN]/Indexer/[MT]/getIndexWriterConfig(Analyzer)/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_index_Indexer.java/[CN]/Indexer/[MT]/getAnalyzer(Language)/body";
+}
+subgraph cluster217 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_nl_DutchWrongWordInContextRule.java/[CN]/DutchWrongWordInContextRule/[MT]/getMessageString()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_DoublePunctuationRule.java/[CN]/DoublePunctuationRule/[CS]/DoublePunctuationRule(ResourceBundle)/body";
+}
+subgraph cluster505 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_VerbAgreementRule.java/[CN]/VerbAgreementRule/[MT]/ruleMatchWrongVerbSubject(AnalyzedTokenReadings,AnalyzedTokenReadings,String)/body";
+}
+subgraph cluster261 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_it_ItalianTagger.java/[CN]/ItalianTagger/[MT]/tag(List<String>)/body";
+"trunk_languagetool_Tagger.py/[CN]/TextToTag/[MT]/selectTagsByContext/body";
+}
+subgraph cluster475 {
+"languagetool-core_src_main_java_org_languagetool_Languages.java/[CN]/Languages/[MT]/getLanguageForName(String)/body";
+"languagetool-core_src_main_java_org_languagetool_Languages.java/[CN]/Languages/[MT]/isLanguageSupported(String)/body";
+}
+subgraph cluster415 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_language_German.java/[CN]/German/[MT]/getRelevantRules()/body";
+"languagetool-language-modules_en_src_main_java_org_languagetool_language_English.java/[CN]/English/[MT]/getRelevantRules()/body";
+}
+subgraph cluster191 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_sv_CompoundRule.java/[CN]/CompoundRule/[MT]/getDescription()/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_conversion_AtdRuleConverter.java/[CN]/AtdRuleConverter/[MT]/isApostropheCase(String[])/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/getCurrentLanguageTool()/body";
+}
+subgraph cluster155 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_hunspell_Hunspell.java/[CN]/Hunspell/[CN]/Dictionary/[MT]/suggest(String)/body";
+}
+subgraph cluster190 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_CompoundTagger.java/[CN]/CompoundTagger/[MT]/tagMatch(String,List<AnalyzedToken>,List<AnalyzedToken>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_en_AvsAnRule.java/[CN]/AvsAnRule/[MT]/loadWords(File)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/checkTextAndDisplayResults()/body";
+}
+subgraph cluster80 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_synthesis_pl_PolishSynthesizer.java/[CN]/PolishSynthesizer/[MT]/synthesize(AnalyzedToken,String,boolean)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_synthesis_pl_PolishSynthesizer.java/[CN]/PolishSynthesizer/[MT]/synthesize(AnalyzedToken,String)/body";
+}
+subgraph cluster203 {
+"languagetool-core_src_main_java_org_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/removeReading(AnalyzedToken)/body";
+}
+subgraph cluster456 {
+"languagetool-language-modules_en_src_main_java_org_languagetool_synthesis_en_EnglishSynthesizer.java/[CN]/EnglishSynthesizer/[MT]/lookup(String,String,List<String>,String)/body";
+}
+subgraph cluster236 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_WikipediaIndexHandler.java/[CN]/WikipediaIndexHandler/[MT]/endElement(String,String,String)/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_SwebleWikipediaTextFilter.java/[CN]/SwebleWikipediaTextFilter/[MT]/filter(String)/body";
+}
+subgraph cluster409 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_bitext_SameTranslationRule.java/[CN]/SameTranslationRule/[MT]/match(AnalyzedSentence,AnalyzedSentence)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_bitext_DifferentLengthRule.java/[CN]/DifferentLengthRule/[MT]/match(AnalyzedSentence,AnalyzedSentence)/body";
+}
+subgraph cluster133 {
+"trunk_JLanguageTool_src_main_dev_org_languagetool_dev_wikipedia_CheckWikipediaDump.java/[CN]/CheckWikipediaDump/[MT]/run(File,Set<String>,String,String,String[],int,int)/parameters";
+}
+subgraph cluster479 {
+"languagetool-core_src_main_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/disableCategory(String)/body";
+}
+subgraph cluster294 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/createGUI()/body";
+}
+subgraph cluster158 {
+"trunk_languagetool_Tagger.py/[CN]/TextToTag/[MT]/getStats/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/tagTextAndDisplayResults()/body";
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[CS]/LanguageToolHttpHandler(boolean,Set<String>,boolean,RequestLimiter,LinkedBlockingQueue<Runnable>)/body";
+}
+subgraph cluster259 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_DoublePunctuationRule.java/[CN]/DoublePunctuationRule/[MT]/getDescription()/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_language_ValencianCatalan.java/[CN]/ValencianCatalan/[MT]/getDefaultDisabledRulesForVariant()/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/makeString(GermanToken.Kasus,GermanToken.Numerus,GermanToken.Genus,GermanToken.Determination,Set<GrammarCategory>)/body";
+}
+subgraph cluster154 {
+"languagetool-core_src_main_java_org_languagetool_rules_CommaWhitespaceRule.java/[CN]/CommaWhitespaceRule/[CS]/CommaWhitespaceRule(ResourceBundle)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_WhitespaceBeforePunctuationRule.java/[CN]/WhitespaceBeforePunctuationRule/[CS]/WhitespaceBeforePunctuationRule(ResourceBundle)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_AdvancedWordRepeatRule.java/[CN]/AdvancedWordRepeatRule/[CS]/AdvancedWordRepeatRule(ResourceBundle)/body";
+}
+subgraph cluster204 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/startElement(String,String,String,Attributes)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_FalseFriendRuleLoader.java/[CN]/FalseFriendRuleHandler/[MT]/startElement(String,String,String,Attributes)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_pl_PolishWordRepeatRule.java/[CN]/PolishWordRepeatRule/[CS]/PolishWordRepeatRule(ResourceBundle)/body";
+}
+subgraph cluster257 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_bitext_WordFastTMReader.java/[CN]/WordFastTMReader/[CS]/WordFastTMReader(String,String)/body";
+}
+subgraph cluster90 {
+"languagetool-core_src_main_java_org_languagetool_rules_spelling_morfologik_MorfologikSpeller.java/[CN]/MorfologikSpeller/[CS]/MorfologikSpeller(String,int)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/setParaEnd()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_AbstractCompoundRule.java/[CN]/AbstractCompoundRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster200 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_TextConverter.java/[CN]/TextConverter/[MT]/before(AstNode)/body";
+}
+subgraph cluster474 {
+"languagetool-language-modules_fa_src_main_java_org_languagetool_rules_fa_WordCoherencyRule.java/[CN]/WordCoherencyRule/extend";
+"trunk_JLanguageTool_src_dev_org_languagetool_dev_wikipedia_WikipediaQuickCheck.java/[CN]/WikipediaQuickCheck/[MT]/main(String[])/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_ReflectionUtils.java/[CN]/ReflectionUtils/[MT]/isExtending(Class,String)/parameters";
+}
+subgraph cluster454 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_commandline_CommandLineParser.java/[CN]/CommandLineParser/[MT]/printUsage()/body";
+}
+subgraph cluster327 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_databroker_DefaultResourceDataBroker.java/[CN]/DefaultResourceDataBroker/[MT]/getCompleteRulesUrl(String)/body";
+}
+subgraph cluster347 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_AboutDialog.java/[CN]/AboutDialog/[MT]/show()/body";
+"languagetool-server_src_main_java_org_languagetool_server_V2TextChecker.java/[CN]/V2TextChecker/[MT]/getLanguage(String,Map<String,String>,List<String>)/body";
+}
+subgraph cluster438 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/quit()/body";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_rules_uk_MorfologikUkrainianSpellerRule.java/[CN]/MorfologikUkrainianSpellerRule/[MT]/ignoreToken(AnalyzedTokenReadings[],int)/body";
+}
+subgraph cluster385 {
+"trunk_JLanguageTool_src_dev_org_languagetool_dev_index_Searcher.java/[CN]/Searcher/[MT]/getRuleById(String,File)/body";
+"trunk_languagetool_Rules.py/[CN]/PatternRule/[CS]/__init__/parameters";
+}
+subgraph cluster57 {
+"languagetool-core_src_main_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/disableRule(String)/body";
+}
+subgraph cluster12 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlToNgram.java/[CN]/CommonCrawlToNgram/[MT]/close()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleId.java/[CN]/PatternRuleId/[CS]/PatternRuleId(String,String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_HTTPServer.java/[CN]/HTTPServer/[MT]/stop()/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_CaseRule.java/[CN]/CaseRule/[MT]/potentiallyAddLowercaseMatch(List<RuleMatch>,AnalyzedTokenReadings,boolean,String,boolean)/body";
+}
+subgraph cluster73 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_synthesis_en_EnglishSynthesizer.java/[CN]/EnglishSynthesizer/[MT]/synthesize(AnalyzedToken,String)/body";
+}
+subgraph cluster408 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/startElement(String,String,String,Attributes)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/tagText()/body";
+"languagetool-language-modules_eo_src_main_java_org_languagetool_tagging_eo_EsperantoTagger.java/[CN]/EsperantoTagger/[MT]/tag(List<String>)/body";
+}
+subgraph cluster131 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_ResultArea.java/[CN]/ResultArea/[CS]/ResultArea(ResourceBundle,LanguageToolSupport,JTextPane)/body";
+}
+subgraph cluster157 {
+"trunk_languagetool_Tagger.py/[CN]/Text/[MT]/getBNCTuples/body";
+}
+subgraph cluster81 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/isPhraseImpersonalVerbSP(AnalyzedTokenReadings[],int)/body";
+}
+subgraph cluster255 {
+"languagetool-core_src_main_java_org_languagetool_AnalyzedToken.java/[CN]/AnalyzedToken/[MT]/hashCode()/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_en_MorfologikAmericanSpellerRule.java/[CN]/MorfologikAmericanSpellerRule/[MT]/getId()/body";
+}
+subgraph cluster407 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/handle(HttpExchange)/body";
+"languagetool-language-modules_km_src_main_java_org_languagetool_rules_km_KhmerSpaceBeforeRule.java/[CN]/KhmerSpaceBeforeRule/extend";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_index_PatternRuleQueryBuilder.java/[CN]/PatternRuleQueryBuilder/[MT]/getPosQueryOrNull(Element,String)/body";
+}
+subgraph cluster164 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[CS]/AgreementRule(ResourceBundle,German)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_MissingVerbRule.java/[CN]/MissingVerbRule/[CS]/MissingVerbRule(ResourceBundle,German)/body";
+}
+subgraph cluster383 {
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/getCommaSeparatedStrings(String,Map<String,String>)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_ConfusionRuleEvaluator.java/[CN]/ConfusionRuleEvaluator/[CN]/EvalResult/[CS]/EvalResult(String,float,float)/parameters";
+}
+subgraph cluster461 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlToNgram.java/[CN]/CommonCrawlToNgram/[MT]/getCountField(long)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlToNgram.java/[CN]/CommonCrawlToNgram/[MT]/getDoc(String,long)/body";
+}
+subgraph cluster277 {
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_Configuration.java/[CN]/Configuration/[MT]/loadConfiguration(Language)/body";
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_Configuration.java/[CN]/Configuration/[MT]/saveConfiguration(Language)/body";
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_Tools.java/[CN]/Tools/[MT]/openFileDialog(Frame,FileFilter,File)/body";
+}
+subgraph cluster381 {
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[MT]/runRecursive(String,String,boolean)/body";
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[MT]/getInputStreamReader(String,String)/body";
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[MT]/handleLine(XmlPrintMode,int,StringBuilder)/body";
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[MT]/runOnFileLineByLine(String,String)/body";
+}
+subgraph cluster196 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/readFile(InputStream,String)/body";
+}
+subgraph cluster271 {
+"languagetool-core_src_main_java_org_languagetool_databroker_DefaultResourceDataBroker.java/[CN]/DefaultResourceDataBroker/[MT]/getFromResourceDirAsUrl(String)/body";
+}
+subgraph cluster344 {
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/configureFromGUI(JLanguageTool,Language)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationPatternRule.java/[CN]/DisambiguationPatternRule/[MT]/setupRef(int,Element,AnalyzedTokenReadings[])/body";
+}
+subgraph cluster256 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_SentenceTokenizer.java/[CN]/SentenceTokenizer/[MT]/tokenize(String)/body";
+}
+subgraph cluster262 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_SuggestionReplacer.java/[CN]/SuggestionReplacer/[CS]/SuggestionReplacer(PlainTextMapping,String)/body";
+}
+subgraph cluster116 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleXmlCreator.java/[CN]/PatternRuleXmlCreator/[MT]/getDocument(InputStream)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_WordCoherencyRule.java/[CN]/WordCoherencyRule/[MT]/loadWords(File)/body";
+}
+subgraph cluster410 {
+"languagetool-core_src_main_java_org_languagetool_tools_Tools.java/[CN]/Tools/[MT]/printMatches(List<RuleMatch>,int,String,int)/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_WikipediaQuickCheck.java/[CN]/WikipediaQuickCheck/[MT]/main(String[])/body";
+}
+subgraph cluster380 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/updateHighlights(String)/body";
+"trunk_languagetool_RulesTest.py/[CN]/RuleTestCase/[MT]/testPatternRuleMatch/body";
+}
+subgraph cluster332 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_atom_MatchDatabase.java/[CN]/MatchDatabase/[MT]/dropTables()/body";
+}
+subgraph cluster159 {
+"languagetool-core_src_main_java_org_languagetool_rules_spelling_morfologik_MorfologikSpellerRule.java/[CN]/MorfologikSpellerRule/[MT]/getRuleMatches(String,int)/body";
+}
+subgraph cluster448 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_de_AnalyzedGermanTokenReadings.java/[CN]/AnalyzedGermanTokenReadings/[MT]/toString()/body";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/oAdjMatch(String,List<AnalyzedToken>,String)/body";
+}
+subgraph cluster104 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_ca_AccentuationCheckRule.java/[CN]/AccentuationCheckRule/[MT]/matchPostagRegexp(AnalyzedTokenReadings,Pattern)/body";
+}
+subgraph cluster389 {
+"languagetool-language-modules_pt_src_main_java_org_languagetool_language_PostReformPortugalPortuguese.java/[CN]/PostReformPortugalPortuguese/[MT]/getRelevantRules()/body";
+}
+subgraph cluster411 {
+"trunk_languagetool_Rules.py/[CN]/WhitespaceRule/[MT]/getNextTriple/body";
+"trunk_languagetool_Rules.py/[CN]/WhitespaceRule/[MT]/match/parameters";
+}
+subgraph cluster33 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_WikipediaQuickCheck.java/[CN]/WikipediaQuickCheck/[MT]/getPlainText(String)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_SimpleCorpusEvaluator.java/[CN]/SimpleCorpusEvaluator/[MT]/getCorpus(File)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_gui_Configuration.java/[CN]/Configuration/[MT]/setUseGUIConfig(boolean)/body";
+}
+subgraph cluster182 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/ignoreRule(String,Locale)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationPatternRule.java/[CN]/DisambiguationPatternRule/[CS]/DisambiguationPatternRule(String,String,Language,List<Element>,String,Match,DisambiguatorAction)/body";
+}
+subgraph cluster193 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_Searcher.java/[CN]/Searcher/[MT]/run(String,File,File)/parameters";
+}
+subgraph cluster491 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_bitext_BitextPatternRuleLoader.java/[CN]/BitextPatternRuleHandler/[MT]/endElement(String,String,String)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_wikipedia_CheckWikipediaDump.java/[CN]/CheckWikipediaDump/[MT]/getDumpFileDate(File)/body";
+}
+subgraph cluster469 {
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_SimpleCorpusEvaluator.java/[CN]/SimpleCorpusEvaluator/[MT]/getEvaluator(File)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_SimpleCorpusEvaluator.java/[CN]/SimpleCorpusEvaluator/[MT]/main(String[])/body";
+}
+subgraph cluster2 {
+"trunk_JLanguageTool_src_java_org_languagetool_gui_Configuration.java/[CN]/Configuration/[MT]/setUseGUIConfig(boolean)/parameters";
+}
+subgraph cluster106 {
+"languagetool-core_src_main_java_org_languagetool_rules_UppercaseSentenceStartRule.java/[CN]/UppercaseSentenceStartRule/[CS]/UppercaseSentenceStartRule(ResourceBundle,Language)/body";
+"languagetool-core_src_main_java_org_languagetool_tagging_CombiningTagger.java/[CN]/CombiningTagger/[CS]/CombiningTagger(WordTagger,WordTagger,boolean)/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/isThereVerbBeforeListLimit(AnalyzedTokenReadings[],int,List<String>,int)/body";
+}
+subgraph cluster10 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/startsWithUppercase(String)/body";
+}
+subgraph cluster501 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_HTTPServer.java/[CN]/HTTPServer/[MT]/run()/body";
+}
+subgraph cluster485 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_French.java/[CN]/French/[MT]/getMaintainers()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_English.java/[CN]/English/[MT]/getMaintainers()/body";
+}
+subgraph cluster147 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/handle(HttpExchange)/parameters";
+}
+subgraph cluster91 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Match.java/[CN]/Match/[MT]/setToken(AnalyzedTokenReadings)/body";
+}
+subgraph cluster17 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/streamToString(InputStream)/body";
+}
+subgraph cluster341 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/getArgreedPosTag(String,String)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_RuleMatch.java/[CN]/RuleMatch/[MT]/equals(Object)/body";
+}
+subgraph cluster348 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/saveFile(boolean)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/loadFile()/body";
+}
+subgraph cluster396 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_databroker_DefaultResourceDataBroker.java/[CN]/DefaultResourceDataBroker/[MT]/getCompleteResourceUrl(String)/body";
+}
+subgraph cluster137 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Configuration.java/[CN]/Configuration/[MT]/loadConfiguration()/body";
+}
+subgraph cluster455 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_StringElement.java/[CN]/StringElement/[MT]/matchToken(AnalyzedToken)/body";
+}
+subgraph cluster205 {
+"trunk_languagetool_Rules.py/[CN]/WhitespaceRule/[MT]/match/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_hunspell_HunspellRule.java/[CN]/HunspellRule/[MT]/init()/body";
+}
+subgraph cluster233 {
+"languagetool-office-extension_src_main_java_org_languagetool_openoffice_Main.java/[CN]/Main/[MT]/getLocales()/body";
+"languagetool-office-extension_src_main_java_org_languagetool_openoffice_Main.java/[CN]/Main/[MT]/getLanguage()/body";
+}
+subgraph cluster304 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/countLineBreaks(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/printIfVerbose(String)/body";
+}
+subgraph cluster420 {
+"languagetool-language-modules_fa_src_main_java_org_languagetool_rules_fa_WordCoherencyRule.java/[CN]/WordCoherencyRule/[CS]/WordCoherencyRule(ResourceBundle)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Match.java/[CN]/Match/[MT]/setLemmaString(String)/body";
+}
+subgraph cluster358 {
+"trunk_languagetool_Rules.py/[CN]/PatternRule/[MT]/match/body";
+"trunk_languagetool_Rules.py/[CN]/PatternRule/[MT]/listPosToAbsPos/parameters";
+}
+subgraph cluster384 {
+"languagetool-core_src_main_java_org_languagetool_databroker_DefaultResourceDataBroker.java/[CN]/DefaultResourceDataBroker/[MT]/getFromRulesDirAsUrl(String)/body";
+}
+subgraph cluster508 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedSentence.java/[CN]/AnalyzedSentence/[MT]/getTokens()/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_RealWordFalseAlarmEvaluator.java/[CN]/RealWordFalseAlarmEvaluator/[CS]/RealWordFalseAlarmEvaluator(File)/body";
+}
+subgraph cluster125 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_SRXSentenceTokenizer.java/[CN]/SRXSentenceTokenizer/[FE]/document";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_SRXSentenceTokenizer.java/[CN]/SRXSentenceTokenizer/[FE]/language";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_SRXSentenceTokenizer.java/[CN]/SRXSentenceTokenizer/[MT]/finalize()/body";
+}
+subgraph cluster400 {
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[MT]/getFilteredText(String,String,boolean)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_ConfusionRuleEvaluator.java/[CN]/ConfusionRuleEvaluator/[CN]/EvalResult/[CS]/EvalResult(String,float,float)/body";
+"languagetool-language-modules_ro_src_main_java_org_languagetool_rules_ro_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[MT]/loadWords(InputStream)/body";
+}
+subgraph cluster374 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_sv_CompoundRule.java/[CN]/CompoundRule/extend";
+"trunk_languagetool_ChunkerTest.py/[CN]/ChunkerTest/[MT]/testChunk/body";
+}
+subgraph cluster289 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/resetIgnoreRules()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/ignoreRule(String,Locale)/parameters";
+}
+subgraph cluster297 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/getUnifiedTokens()/body";
+}
+subgraph cluster313 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleHandler.java/[CN]/PatternRuleHandler/[MT]/endElement(String,String,String)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_XMLRuleHandler.java/[CN]/XMLRuleHandler/[MT]/finalizePhrase()/body";
+}
+subgraph cluster442 {
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/isThereVerbBeforeList(AnalyzedTokenReadings[],int,List<String>)/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster286 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_databroker_DefaultResourceDataBroker.java/[CN]/DefaultResourceDataBroker/[MT]/getFromRulesDirAsStream(String)/body";
+}
+subgraph cluster39 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_dumpcheck_SentenceSource.java/[CN]/SentenceSource/[MT]/acceptSentence(String)/body";
+}
+subgraph cluster108 {
+"languagetool-core_src_main_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/disableRules(List<String>)/body";
+}
+subgraph cluster330 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_CaseRule.java/[CN]/CaseRule/[MT]/getDescription()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_CaseRule.java/[CN]/CaseRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster365 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_HTTPServer.java/[CN]/HTTPServer/[CS]/HTTPServer(int,boolean)/body";
+}
+subgraph cluster401 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleId.java/[CN]/PatternRuleId/[MT]/toString()/body";
+}
+subgraph cluster375 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_ResultArea.java/[CN]/ResultArea/[MT]/getDisabledRulesHtml()/body";
+"languagetool-core_src_main_java_org_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/ruleMatchesToXML(List<RuleMatch>,String,int,XmlPrintMode,Language,Language)/body";
+}
+subgraph cluster342 {
+"languagetool-core_src_main_java_org_languagetool_rules_AbstractCompoundRule.java/[CN]/AbstractCompoundRule/[MT]/mergeCompound(String)/body";
+}
+subgraph cluster434 {
+"languagetool-language-modules_eo_src_main_java_org_languagetool_tokenizers_eo_EsperantoWordTokenizer.java/[CN]/EsperantoWordTokenizer/[MT]/tokenize(String)/body";
+}
+subgraph cluster11 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_XMLRuleHandler.java/[CN]/XMLRuleHandler/[MT]/resetException()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_XMLRuleHandler.java/[CN]/XMLRuleHandler/[MT]/setExceptions(Attributes)/body";
+}
+subgraph cluster218 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/tagMatch(String,List<AnalyzedToken>,List<AnalyzedToken>)/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_CatalanUnpairedExclamationMarksRule.java/[CN]/CatalanUnpairedExclamationMarksRule/[CS]/CatalanUnpairedExclamationMarksRule(ResourceBundle,Language)/body";
+}
+subgraph cluster267 {
+"languagetool-core_src_main_java_org_languagetool_languagemodel_MultiLanguageModel.java/[CN]/MultiLanguageModel/[MT]/getPseudoProbability(List<String>)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_ngrams_NgramProbabilityRule.java/[CN]/NgramProbabilityRule/[MT]/match(AnalyzedSentence)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_ngrams_NgramProbabilityRule.java/[CN]/NgramProbabilityRule/[CN]/Replacement/[CS]/Replacement(String,String)/parameters";
+}
+subgraph cluster115 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/startUnify()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/startNextToken()/body";
+}
+subgraph cluster306 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_Romanian.java/[CN]/Romanian/[MT]/getMaintainers()/body";
+}
+subgraph cluster87 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/uppercaseFirstChar(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/getLanguageForLocalizedName(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_SentenceTokenizer.java/[CN]/SentenceTokenizer/[MT]/removeFalseEndOfSentence(String)/body";
+}
+subgraph cluster97 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_Ukrainian.java/[CN]/Ukrainian/[MT]/getRelevantRuleIDs()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_French.java/[CN]/French/[MT]/getRelevantRuleIDs()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_Spanish.java/[CN]/Spanish/[MT]/getRelevantRuleIDs()/body";
+}
+subgraph cluster264 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_databroker_DefaultResourceDataBroker.java/[CN]/DefaultResourceDataBroker/[MT]/getFromRulesDirAsUrl(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_databroker_DefaultResourceDataBroker.java/[CN]/DefaultResourceDataBroker/[MT]/getFromResourceDirAsUrl(String)/body";
+}
+subgraph cluster284 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster225 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternToken.java/[CN]/PatternToken/[MT]/setStringPosException(String,boolean,boolean,boolean,boolean,boolean,String,boolean,boolean,Boolean)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternToken.java/[CN]/PatternToken/[MT]/doCompile(AnalyzedTokenReadings,Synthesizer)/body";
+}
+subgraph cluster369 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_UndoRedoSupport.java/[CN]/UndoRedoSupport/[CN]/RedoAction/[CS]/RedoAction()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/characters(char[],int,int)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_morfologik_MorfologikSpellerRule.java/[CN]/MorfologikSpellerRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster310 {
+"languagetool-language-modules_ca_src_main_java_org_languagetool_language_Catalan.java/[CN]/Catalan/[MT]/getCountries()/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_language_Catalan.java/[CN]/Catalan/[MT]/getDefaultLanguageVariant()/body";
+}
+subgraph cluster266 {
+"trunk_languagetool_python__rules_allSentenceLengthRule.py/[CN]/allSentenceLengthRule/[MT]/match/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_en_EnglishTagger.java/[CN]/EnglishTagger/[MT]/tag(List<String>)/parameters";
+}
+subgraph cluster287 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/actionPerformed(ActionEvent)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/getPossibleMotherTongues()/body";
+}
+subgraph cluster482 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_atom_MatchDatabase.java/[CN]/MatchDatabase/[MT]/markedFixed(WikipediaRuleMatch)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_eo_EsperantoTagger.java/[CN]/EsperantoTagger/[MT]/lazyInit()/body";
+}
+subgraph cluster153 {
+"trunk_JLanguageTool_src_java_org_languagetool_language_Slovak.java/[CN]/Slovak/[MT]/getRelevantRules()/body";
+}
+subgraph cluster41 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_XMLRuleHandler.java/[CN]/XMLRuleHandler/[MT]/setMatchElement(Attributes)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_Swedish.java/[CN]/Swedish/[MT]/getRelevantRuleIDs()/body";
+}
+subgraph cluster111 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/isThereVerbBefore(AnalyzedTokenReadings[],int,Pattern)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_Main.java/[CN]/Main/[MT]/detectLanguageOfString(String)/body";
+}
+subgraph cluster446 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/autoDetectLanguage(String)/body";
+}
+subgraph cluster240 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_NewChecker.java/[CN]/NewChecker/[MT]/doGrammarChecking(int,XFlatParagraph,Locale,int,int)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_bitext_BitextPatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/startElement(String,String,String,Attributes)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanSpellerRule.java/[CN]/GermanSpellerRule/[MT]/ignoreByHangingHyphen(List<String>,int)/body";
+}
+subgraph cluster506 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_de_AnalyzedGermanTokenReadings.java/[CN]/AnalyzedGermanTokenReadings/[MT]/getGermanReadings()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/median(long[])/body";
+}
+subgraph cluster206 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_tagging_de_AnalyzedGermanToken.java/[CN]/AnalyzedGermanToken/[CS]/AnalyzedGermanToken(AnalyzedToken)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/setEquivalence(String,String,Element)/body";
+}
+subgraph cluster496 {
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/show(List<Rule>)/body";
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[MT]/printLanguages()/body";
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster427 {
+"trunk_JLanguageTool_src_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[CS]/LanguageToolHttpHandler(boolean,Set<String>,boolean)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_RegexNotQuery.java/[CN]/RegexNotQuery/[MT]/getEnum(IndexReader)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanSpellerRule.java/[CN]/GermanSpellerRule/[MT]/sortByReplacements(String,List<String>)/body";
+}
+subgraph cluster377 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/doGrammarCheckingInternal(String,Locale,ProofreadingResult)/body";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_CompoundTagger.java/[CN]/CompoundTagger/[MT]/doGuessCompoundTag(String)/body";
+"languagetool-language-modules_fa_src_main_java_org_languagetool_rules_fa_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[MT]/getMessage(String,List<String>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/trigger(String)/body";
+}
+subgraph cluster254 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/checkBitext(String,String,JLanguageTool,JLanguageTool,List<BitextRule>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/ruleMatchesToXML(List<RuleMatch>,String,int)/body";
+}
+subgraph cluster504 {
+"languagetool-core_src_main_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/getPatternRulesByIdAndSubId(String,String)/body";
+"languagetool-core_src_main_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/getAllActiveRules()/body";
+}
+subgraph cluster85 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_RegexNotQuery.java/[CN]/RegexNotQuery/[MT]/toString(String)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_RegexNotQuery.java/[CN]/RegexNotQuery/extend";
+}
+subgraph cluster63 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_German.java/[CN]/German/[MT]/getMaintainers()/body";
+"languagetool-core_src_main_java_org_languagetool_MultiThreadedJLanguageTool.java/[CN]/MultiThreadedJLanguageTool/[MT]/getThreadPoolSize()/body";
+"trunk_languagetool_TextChecker.py/[CN]/TextChecker/[CS]/__init__/parameters";
+}
+subgraph cluster229 {
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/isThereReflexivePronoun(AnalyzedTokenReadings[],int)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_UppercaseSentenceStartRule.java/[CN]/UppercaseSentenceStartRule/[MT]/dutchSpecialCase(String,String,AnalyzedTokenReadings[])/body";
+}
+subgraph cluster247 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_bitext_TabBitextReader.java/[CN]/TabBitextReader/[MT]/getColumnCount()/body";
+}
+subgraph cluster431 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_Indexer.java/[CN]/Indexer/[FE]/writer";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_Indexer.java/[CN]/Indexer/[MT]/run(String,Directory,Language,boolean)/body";
+}
+subgraph cluster366 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationPatternRule.java/[CN]/DisambiguationPatternRule/[MT]/testUnificationAndGroups(boolean,boolean,AnalyzedToken,Element)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRule.java/[CN]/PatternRule/[MT]/match(AnalyzedSentence)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRule.java/[CN]/PatternRule/[MT]/testUnificationAndGroups(boolean,boolean,AnalyzedToken,Element)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationPatternRule.java/[CN]/DisambiguationPatternRule/[MT]/replace(AnalyzedSentence)/body";
+}
+subgraph cluster278 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_LanguageToolFilter.java/[CN]/LanguageToolFilter/[CS]/LanguageToolFilter(TokenStream,JLanguageTool)/parameters";
+"languagetool-office-extension_src_main_java_org_languagetool_openoffice_Main.java/[CN]/Main/[MT]/getLanguage(Locale)/body";
+}
+subgraph cluster5 {
+"languagetool-core_src_main_java_org_languagetool_tagging_disambiguation_rules_XmlRuleDisambiguator.java/[CN]/XmlRuleDisambiguator/[MT]/loadPatternRules(String)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_ConfusionSetLoader.java/[CN]/ConfusionSetLoader/[MT]/loadConfusionSet(InputStream)/body";
+}
+subgraph cluster339 {
+"trunk_languagetool_python__rules_deWordRepeatRule.py/[CN]/deWordRepeatRule/[MT]/match/body";
+"trunk_languagetool_python__rules_huAvsAnRule.py/[CN]/huAvsAnRule/[MT]/match/parameters";
+}
+subgraph cluster42 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_bitext_BitextPatternRuleLoader.java/[CN]/BitextPatternRuleHandler/[MT]/finalizeRule()/body";
+}
+subgraph cluster174 {
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_SimpleCorpusEvaluator.java/[CN]/SimpleCorpusEvaluator/[MT]/getEvaluator(File)/parameters";
+"languagetool-language-modules_ja_src_main_java_org_languagetool_tokenizers_ja_JapaneseWordTokenizer.java/[CN]/JapaneseWordTokenizer/[MT]/tokenize(String)/body";
+}
+subgraph cluster61 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_FalseFriendRuleLoader.java/[CN]/FalseFriendRuleLoader/[MT]/main(String[])/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_FalseFriendRuleLoader.java/[CN]/FalseFriendRuleLoader/[MT]/getRules(InputStream,Language,Language)/body";
+}
+subgraph cluster173 {
+"languagetool-dev_src_main_java_org_languagetool_dev_errorcorpus_TrainingDataGenerator.java/[CN]/TrainingDataGenerator/[MT]/run(File,String,String,int,int)/body";
+}
+subgraph cluster405 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_XMLRuleHandler.java/[CN]/XMLRuleHandler/[MT]/addLegacyMatches(List<Match>,String,boolean)/body";
+}
+subgraph cluster237 {
+"trunk_languagetool_Chunker.py/[CN]/Rule/[CS]/__init__/body";
+"trunk_languagetool_Chunker.py/other";
+}
+subgraph cluster428 {
+"languagetool-tools_src_main_java_org_languagetool_tools_DictionaryExporter.java/[CN]/DictionaryExporter/[MT]/main(String[])/body";
+"languagetool-tools_src_main_java_org_languagetool_tools_SpellDictionaryBuilder.java/[CN]/SpellDictionaryBuilder/[MT]/main(String[])/body";
+}
+subgraph cluster49 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_UppercaseSentenceStartRule.java/[CN]/UppercaseSentenceStartRule/[MT]/getLanguages()/body";
+}
+subgraph cluster288 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_atom_MatchDatabase.java/[CN]/MatchDatabase/[MT]/createTables()/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_atom_MatchDatabase.java/[CN]/MatchDatabase/[MT]/updateRuleMatchCheckDate(Language,Date)/body";
+}
+subgraph cluster489 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_en_MorfologikBritishSpellerRule.java/[CN]/MorfologikBritishSpellerRule/[MT]/getId()/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_CaseRuleExceptions.java/[CN]/CaseRuleExceptions/[MT]/getExceptions()/body";
+"trunk_languagetool_TaggerTest.py/[CN]/TaggerTest/[MT]/testGuess/body";
+}
+subgraph cluster86 {
+"trunk_languagetool_Rules.py/[CN]/PatternRule/[MT]/parseRuleNode/body";
+}
+subgraph cluster167 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/show(List<Rule>)/body";
+}
+subgraph cluster62 {
+"languagetool-core_src_main_java_org_languagetool_rules_LongSentenceRule.java/[CN]/LongSentenceRule/[MT]/getDescription()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_LongSentenceRule.java/[CN]/LongSentenceRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster55 {
+"languagetool-server_src_main_java_org_languagetool_server_HTTPServer.java/[CN]/HTTPServer/[MT]/main(String[])/body";
+"languagetool-server_src_main_java_org_languagetool_server_HTTPSServer.java/[CN]/HTTPSServer/[MT]/main(String[])/body";
+}
+subgraph cluster346 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_ca_AccentuationCheckRule.java/[CN]/AccentuationCheckRule/[MT]/match(AnalyzedSentence)/body";
+"trunk_languagetool_TextChecker.py/[CN]/TextChecker/[MT]/checkFile/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/getLanguageToolInstance(Language,Language)/body";
+}
+subgraph cluster224 {
+"languagetool-core_src_main_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/performCheck(List<AnalyzedSentence>,List<String>,List<Rule>,ParagraphHandling)/body";
+}
+subgraph cluster307 {
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/getPossibleMotherTongues()/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_RealWordCorpusEvaluator.java/[CN]/RealWordCorpusEvaluator/[MT]/printResults()/body";
+}
+subgraph cluster345 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageComparator.java/[CN]/LanguageComparator/[MT]/getTranslatedName(Language)/body";
+}
+subgraph cluster340 {
+"languagetool-core_src_main_java_org_languagetool_synthesis_BaseSynthesizer.java/[CN]/BaseSynthesizer/[MT]/synthesize(AnalyzedToken,String,boolean)/body";
+"languagetool-language-modules_pt_src_main_java_org_languagetool_language_PreReformPortugalPortuguese.java/[CN]/PreReformPortugalPortuguese/[MT]/getRelevantRules()/body";
+}
+subgraph cluster260 {
+"languagetool-language-modules_fr_src_main_java_org_languagetool_language_French.java/[CN]/French/[MT]/getMaintainers()/body";
+"languagetool-core_src_main_java_org_languagetool_tools_Tools.java/[CN]/Tools/[MT]/getBitextRules(Language,Language)/body";
+}
+subgraph cluster301 {
+"trunk_JLanguageTool_src_dev_org_languagetool_dev_index_Searcher.java/[CN]/Searcher/[MT]/ensureCorrectUsageOrExit(String[])/body";
+"trunk_languagetool_Rules.py/[CN]/PatternRule/[MT]/setVars/parameters";
+}
+subgraph cluster395 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRule.java/[CN]/PatternRule/[MT]/testAllReadings(AnalyzedTokenReadings[],Element,Element,int,int,int)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_language_AustrianGerman.java/[CN]/AustrianGerman/[MT]/getName()/body";
+}
+subgraph cluster314 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_conversion_gui_Main.java/[CN]/Main/[MT]/writeRulesToFile()/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_conversion_gui_Main.java/[CN]/Main/[MT]/createGUI()/body";
+}
+subgraph cluster273 {
+"languagetool-core_src_main_java_org_languagetool_tokenizers_SRXSentenceTokenizer.java/[CN]/SRXSentenceTokenizer/[MT]/tokenize(String)/body";
+"languagetool-core_src_main_java_org_languagetool_tokenizers_SRXSentenceTokenizer.java/[CN]/SRXSentenceTokenizer/[CS]/SRXSentenceTokenizer(Language)/body";
+}
+subgraph cluster399 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/correctBitext(BitextReader,JLanguageTool,JLanguageTool,List<BitextRule>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/main(String[])/body";
+}
+subgraph cluster480 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/checkDetAdjNounAgreement(AnalyzedTokenReadings,AnalyzedTokenReadings,AnalyzedTokenReadings)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/retainCommonCategories(AnalyzedTokenReadings,AnalyzedTokenReadings,AnalyzedTokenReadings)/body";
+}
+subgraph cluster197 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/checkDelayed()/body";
+}
+subgraph cluster275 {
+"languagetool-language-modules_km_src_main_java_org_languagetool_rules_km_KhmerWordRepeatRule.java/[CN]/KhmerWordRepeatRule/[MT]/isWord(String)/body";
+"languagetool-language-modules_km_src_main_java_org_languagetool_rules_km_KhmerWordRepeatRule.java/[CN]/KhmerWordRepeatRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster103 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_NewChecker.java/[CN]/NewChecker/[MT]/startDocument(int)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_NewChecker.java/[CN]/NewChecker/[MT]/getLanguage()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_NewChecker.java/[CN]/NewChecker/[MT]/hasLocale(Locale)/body";
+}
+subgraph cluster207 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_tokenizers_ca_CatalanWordTokenizer.java/[CN]/CatalanWordTokenizer/[MT]/tokenize(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_French.java/[CN]/French/[MT]/getUnifier()/body";
+}
+subgraph cluster110 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_LanguageToolFilter.java/[CN]/LanguageToolFilter/[MT]/incrementToken()/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_LanguageToolAnalyzer.java/[CN]/LanguageToolAnalyzer/[CS]/LanguageToolAnalyzer(Version,JLanguageTool)/body";
+}
+subgraph cluster333 {
+"languagetool-core_src_main_java_org_languagetool_rules_WrongWordInContextRule.java/[CN]/WrongWordInContextRule/[CS]/WrongWordInContextRule(ResourceBundle)/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_AccentuationCheckRule.java/[CN]/AccentuationCheckRule/[CS]/AccentuationCheckRule(ResourceBundle)/body";
+}
+subgraph cluster186 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_SRXSentenceTokenizer.java/[CN]/SRXSentenceTokenizer/[FE]/parCode";
+}
+subgraph cluster282 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/isParaEnd()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/isSentEnd()/body";
+}
+subgraph cluster148 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/debugCompounds()/body";
+}
+subgraph cluster252 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_DoublePunctuationRule.java/[CN]/DoublePunctuationRule/[MT]/match(AnalyzedSentence)/body";
+"languagetool-core_src_main_java_org_languagetool_tagging_disambiguation_rules_XmlRuleDisambiguator.java/[CN]/XmlRuleDisambiguator/[CS]/XmlRuleDisambiguator(Language)/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_TextConverter.java/[CN]/TextConverter/[MT]/visit(AstNode)/body";
+}
+subgraph cluster430 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/checkText(String,JLanguageTool,boolean,int,int,int,XmlPrintMode)/body";
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/createTree(List<Rule>)/body";
+}
+subgraph cluster493 {
+"trunk_JLanguageTool_src_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/quit()/body";
+}
+subgraph cluster352 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/checkBitext(String,String,JLanguageTool,JLanguageTool,List<BitextRule>,boolean,XmlPrintMode)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/assureSet(String,String)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[CN]/OpenAction/[CS]/OpenAction()/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/addLanguage()/body";
+}
+subgraph cluster283 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_hunspell_HunspellRule.java/[CN]/HunspellRule/[CS]/HunspellRule(ResourceBundle,Language)/body";
+}
+subgraph cluster202 {
+"trunk_JLanguageTool_src_main_dev_org_languagetool_dev_wikipedia_CheckWikipediaDump.java/[CN]/CheckWikipediaDump/[MT]/run(File,Set<String>,String,String,String[],int,int)/body";
+}
+subgraph cluster470 {
+"languagetool-language-modules_fa_src_main_java_org_languagetool_rules_fa_PersianSpaceBeforeRule.java/[CN]/PersianSpaceBeforeRule/[CS]/PersianSpaceBeforeRule(ResourceBundle,Language)/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_TextConverter.java/[CN]/TextConverter/[MT]/getMapping()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_spelling_morfologik_MorfologikSpellerRule.java/[CN]/MorfologikSpellerRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster258 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_UndoRedoSupport.java/[CN]/UndoRedoSupport/[CN]/RedoAction/[MT]/actionPerformed(ActionEvent)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_UndoRedoSupport.java/[CN]/UndoRedoSupport/[CN]/UndoAction/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster180 {
+"languagetool-language-modules_en_src_main_java_org_languagetool_synthesis_en_EnglishSynthesizer.java/[CN]/EnglishSynthesizer/[MT]/synthesize(AnalyzedToken,String)/body";
+"languagetool-language-modules_en_src_main_java_org_languagetool_synthesis_en_EnglishSynthesizer.java/[CN]/EnglishSynthesizer/[MT]/synthesize(AnalyzedToken,String,boolean)/body";
+}
+subgraph cluster359 {
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_SimpleCorpusEvaluator.java/[CN]/SimpleCorpusEvaluator/[CS]/SimpleCorpusEvaluator(File)/parameters";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_MatchState.java/[CN]/MatchState/[MT]/filterReadings()/body";
+}
+subgraph cluster59 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/getSentence(String,int)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/setTrayMode(boolean)/body";
+}
+subgraph cluster437 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/eksNounMatch(String,List<AnalyzedToken>,String)/body";
+}
+subgraph cluster406 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/hideToTray()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/checkTextAndDisplayResults(JLanguageTool,String)/body";
+}
+subgraph cluster238 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/agreementWithCategoryRelaxation(AnalyzedTokenReadings,AnalyzedTokenReadings,GrammarCategory)/body";
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/getNgramPanel(GridBagConstraints)/body";
+}
+subgraph cluster476 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_Rule.java/[CN]/Rule/[MT]/setAsDeleted(int)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_bitext_TabBitextReader.java/[CN]/TabBitextReader/[CS]/TabBitextReader(String,String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_FalseFriendRuleLoader.java/[CN]/FalseFriendRuleHandler/[MT]/endElement(String,String,String)/body";
+}
+subgraph cluster51 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationRuleLoader.java/[CN]/DisambiguationRuleHandler/[MT]/resetToken()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationRuleLoader.java/[CN]/DisambiguationRuleHandler/[MT]/resetException()/body";
+}
+subgraph cluster280 {
+"languagetool-core_src_main_java_org_languagetool_rules_DoublePunctuationRule.java/[CN]/DoublePunctuationRule/[CS]/DoublePunctuationRule(ResourceBundle)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_Searcher.java/[CN]/Searcher/[MT]/run(String,File,IndexSearcher,boolean)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_OOoDialog.java/[CN]/OOoDialog/[MT]/setSuggestions()/body";
+}
+subgraph cluster130 {
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_SimpleCorpusEvaluator.java/[CN]/SimpleCorpusEvaluator/[CS]/SimpleCorpusEvaluator(File)/body";
+"languagetool-server_src_main_java_org_languagetool_server_Server.java/[CN]/Server/[MT]/getRequestLimiterOrNull(HTTPServerConfig)/body";
+}
+subgraph cluster457 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleHandler.java/[CN]/PatternRuleHandler/[MT]/startElement(String,String,String,Attributes)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRule.java/[CN]/PatternRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster361 {
+"languagetool-core_src_main_java_org_languagetool_tagging_TaggedWord.java/[CN]/TaggedWord/[MT]/hashCode()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_bitext_BitextPatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/endElement(String,String,String)/body";
+"languagetool-commandline_src_main_java_org_languagetool_commandline_CommandLineParser.java/[CN]/CommandLineParser/[MT]/parseOptions(String[])/body";
+}
+subgraph cluster337 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_DoublePunctuationRule.java/[CN]/DoublePunctuationRule/[MT]/getLanguages()/body";
+"trunk_languagetool_src_Tagger.py/[CN]/TextToTag/[MT]/tag/body";
+}
+subgraph cluster165 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleXmlCreator.java/[CN]/PatternRuleXmlCreator/[MT]/nodeToString(Node)/body";
+}
+subgraph cluster216 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedToken.java/[CN]/AnalyzedToken/[FE]/token";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedToken.java/[CN]/AnalyzedToken/[FE]/startPos";
+}
+subgraph cluster189 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlToNgram.java/[CN]/CommonCrawlToNgram/[MT]/main(String[])/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlToNgram.java/[CN]/CommonCrawlToNgram/[MT]/writeAndEvaluate()/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlToNgram.java/[CN]/CommonCrawlToNgram/[MT]/indexInputFile()/body";
+}
+subgraph cluster451 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_NewChecker.java/[CN]/NewChecker/[MT]/getLocales()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_NewChecker.java/[CN]/NewChecker/[MT]/runOptionsDialog(int)/body";
+}
+subgraph cluster52 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/checkImmediately()/body";
+}
+subgraph cluster21 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_synthesis_BaseSynthesizer.java/[CN]/BaseSynthesizer/[MT]/synthesize(AnalyzedToken,String,boolean)/body";
+"trunk_languagetool_Rules.py/[CN]/RuleMatch/[CS]/__init__/parameters";
+}
+subgraph cluster92 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_BaseTagger.java/[CN]/BaseTagger/[MT]/setLocale(Locale)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_BaseTagger.java/[CN]/BaseTagger/[MT]/tag(List<String>)/body";
+}
+subgraph cluster439 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_nl_DutchTagger.java/[CN]/DutchTagger/[MT]/tag(List<String>)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_language_German.java/[CN]/German/[MT]/getNonStrictCompoundSplitter()/body";
+}
+subgraph cluster510 {
+"languagetool-core_src_main_java_org_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/hashCode()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Element.java/[CN]/Element/[MT]/isMatched(AnalyzedToken)/body";
+}
+subgraph cluster453 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_ca_AccentuationCheckRule.java/[CN]/AccentuationCheckRule/[MT]/matchPostagRegexp(AnalyzedTokenReadings,Pattern)/parameters";
+}
+subgraph cluster45 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_ProgressDialog.java/[CN]/ProgressDialog/[CS]/ProgressDialog(ResourceBundle)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_ReplaceTextDialog.java/[CN]/ReplaceTextDialog/[CS]/ReplaceTextDialog(ResourceBundle)/body";
+}
+subgraph cluster417 {
+"trunk_JLanguageTool_src_dev_org_languagetool_dev_wikipedia_WikipediaQuickCheck.java/[CN]/WikipediaQuickCheck/[MT]/getMediaWikiContent(URL)/body";
+}
+subgraph cluster1 {
+"languagetool-language-modules_en_src_main_java_org_languagetool_rules_en_AvsAnRule.java/[CN]/AvsAnRule/[CS]/AvsAnRule(ResourceBundle)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_ngrams_NgramProbabilityRule.java/[CN]/NgramProbabilityRule/[MT]/getByPosTag(Set<AnalyzedToken>,String)/body";
+"trunk_languagetool_Tagger.py/[CN]/Tagger/[MT]/loadUncountables/body";
+"languagetool-language-modules_en_src_main_java_org_languagetool_rules_en_NewZealandReplaceRule.java/[CN]/NewZealandReplaceRule/[CS]/NewZealandReplaceRule(ResourceBundle)/body";
+}
+subgraph cluster8 {
+"languagetool-office-extension_src_main_java_org_languagetool_openoffice_Main.java/[CN]/Main/[MT]/doProofreading(String,String,Locale,int,int,PropertyValue[])/body";
+"languagetool-core_src_main_java_org_languagetool_rules_ngrams_NgramProbabilityRule.java/[CN]/NgramProbabilityRule/[CS]/NgramProbabilityRule(ResourceBundle,LanguageModel,Language)/body";
+}
+subgraph cluster221 {
+"languagetool-language-modules_pt_src_main_java_org_languagetool_rules_pt_PostReformPortugueseCompoundRule.java/[CN]/PostReformPortugueseCompoundRule/[MT]/getDescription()/body";
+"languagetool-language-modules_pt_src_main_java_org_languagetool_rules_pt_PreReformPortugueseCompoundRule.java/[CN]/PreReformPortugueseCompoundRule/[MT]/getDescription()/body";
+"languagetool-language-modules_pt_src_main_java_org_languagetool_rules_pt_PreReformPortugueseCompoundRule.java/[CN]/PreReformPortugueseCompoundRule/[CS]/PreReformPortugueseCompoundRule(ResourceBundle)/body";
+}
+subgraph cluster113 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_VerbAgreementRule.java/[CN]/VerbAgreementRule/[MT]/getVerbSuggestions(AnalyzedTokenReadings,String,boolean)/body";
+}
+subgraph cluster140 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Element.java/[CN]/Element/[MT]/isExceptionMatched(AnalyzedToken)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Element.java/[CN]/Element/[MT]/isMatchedByPreviousException(AnalyzedToken)/body";
+}
+subgraph cluster6 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_SRXSentenceTokenizer.java/[CN]/SRXSentenceTokenizer/[CS]/SRXSentenceTokenizer(String)/body";
+}
+subgraph cluster169 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_OOoDialog.java/[CN]/OOoDialog/[MT]/showError(int)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_OOoDialog.java/[CN]/OOoDialog/[MT]/main(String[])/body";
+}
+subgraph cluster394 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/reset()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/clear()/body";
+}
+subgraph cluster168 {
+"languagetool-language-modules_pt_src_main_java_org_languagetool_rules_pt_PostReformPortugueseCompoundRule.java/[CN]/PostReformPortugueseCompoundRule/[CS]/PostReformPortugueseCompoundRule(ResourceBundle)/body";
+}
+subgraph cluster298 {
+"languagetool-core_src_main_java_org_languagetool_rules_spelling_morfologik_MorfologikMultiSpeller.java/[CN]/MorfologikMultiSpeller/[MT]/getDictionary(List<byte[]>,String)/parameters";
+"languagetool-core_src_main_java_org_languagetool_rules_spelling_morfologik_MorfologikMultiSpeller.java/[CN]/MorfologikMultiSpeller/[MT]/getDictionary(List<byte[]>,String)/body";
+}
+subgraph cluster435 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_OOoDialog.java/[CN]/OOoDialog/[MT]/complete()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_OOoDialog.java/[CN]/OOoDialog/[CS]/OOoDialog(Configuration,List<Rule>,XTextDocument,List<CheckedParagraph>,XTextViewCursor,TextToCheck)/body";
+}
+subgraph cluster176 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_GermanLemmatizer.java/[CN]/GermanLemmatizer/[MT]/loadWords(File)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_WrongWordInContextRule.java/[CN]/WrongWordInContextRule/[MT]/loadContextWords(InputStream)/body";
+}
+subgraph cluster145 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_databroker_DefaultResourceDataBroker.java/[CN]/DefaultResourceDataBroker/[MT]/getFromResourceDirAsStream(String)/body";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/verbImperNoBo(String,List<AnalyzedToken>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/prepareRule(PatternRule)/body";
+}
+subgraph cluster436 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/correctBitext(BitextReader,JLanguageTool,JLanguageTool,List<BitextRule>)/parameters";
+}
+subgraph cluster219 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/readerToString(Reader)/body";
+}
+subgraph cluster208 {
+"languagetool-core_src_main_java_org_languagetool_rules_ngrams_NgramProbabilityRule.java/[CN]/NgramProbabilityRule/[MT]/getByPosTag(Set<AnalyzedToken>,String)/parameters";
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/handle(HttpExchange)/body";
+}
+subgraph cluster214 {
+"trunk_JLanguageTool_src_java_org_languagetool_language_Lithuanian.java/[CN]/Lithuanian/[MT]/getRelevantRules()/body";
+"trunk_JLanguageTool_src_java_org_languagetool_language_Ukrainian.java/[CN]/Ukrainian/[MT]/getRelevantRules()/body";
+}
+subgraph cluster368 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_ExportGermanNouns.java/[CN]/ExportGermanNouns/[MT]/serialize(Set<String>,File)/body";
+}
+subgraph cluster281 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_OOoDialog.java/[CN]/OOoDialog/[MT]/gotoNextMatch()/body";
+}
+subgraph cluster319 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[CS]/PatternRuleHandler()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/endElement(String,String,String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/resetException()/body";
+}
+subgraph cluster76 {
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/sendError(HttpExchange,int,String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_bitext_WordFastTMReader.java/[CN]/WordFastTMReader/[CN]/TabReader/[MT]/hasNext()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_SentenceTokenizer.java/[CN]/SentenceTokenizer/[CS]/SentenceTokenizer(String[])/body";
+}
+subgraph cluster459 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_UndoRedoSupport.java/[CN]/UndoRedoSupport/[CN]/RedoAction/[MT]/updateRedoState()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_MainMenuBar.java/[CN]/MainMenuBar/[MT]/actionPerformed(ActionEvent)/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_TextConverter.java/[CN]/TextConverter/[MT]/visit(Text)/body";
+"languagetool-core_src_main_java_org_languagetool_tools_Tools.java/[CN]/Tools/[MT]/selectRules(JLanguageTool,String[],String[],boolean)/parameters";
+}
+subgraph cluster251 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlNGramJob.java/[CN]/CommonCrawlNGramJob/[CN]/TokenizerMapper/[MT]/map(Object,Text,Context)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_bitext_TabBitextReader.java/[CN]/TabBitextReader/[MT]/tab2StringPair(String)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_LanguageToolFilter.java/[CN]/LanguageToolFilter/[CS]/LanguageToolFilter(TokenStream,JLanguageTool)/body";
+}
+subgraph cluster390 {
+"trunk_languagetool_Chunker.py/[CN]/Rules/[CS]/__init__/body";
+"trunk_languagetool_ChunkerTest.py/other";
+}
+subgraph cluster305 {
+"languagetool-language-modules_ca_src_main_java_org_languagetool_synthesis_ca_CatalanSynthesizer.java/[CN]/CatalanSynthesizer/[MT]/synthesize(AnalyzedToken,String)/body";
+}
+subgraph cluster7 {
+"languagetool-core_src_main_java_org_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/getContext(int,int,String,int)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_synthesis_ManualSynthesizer.java/[CN]/ManualSynthesizer/[CS]/ManualSynthesizer(InputStream)/parameters";
+}
+subgraph cluster412 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_en_EnglishTagger.java/[CN]/EnglishTagger/[MT]/tag(List<String>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[CS]/AnalyzedTokenReadings(AnalyzedToken[])/body";
+}
+subgraph cluster338 {
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[CS]/ReflexiveVerbsRule(ResourceBundle)/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_SimpleReplaceVerbsRule.java/[CN]/SimpleReplaceVerbsRule/[CS]/SimpleReplaceVerbsRule(ResourceBundle)/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_CatalanWrongWordInContextRule.java/[CN]/CatalanWrongWordInContextRule/[CS]/CatalanWrongWordInContextRule(ResourceBundle)/body";
+}
+subgraph cluster50 {
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_ComplexAdjectiveConcordanceRule.java/[CN]/ComplexAdjectiveConcordanceRule/[CS]/ComplexAdjectiveConcordanceRule(ResourceBundle)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/profileRulesOnText(String,JLanguageTool)/body";
+}
+subgraph cluster150 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_bitext_WordFastTMReader.java/[CN]/WordFastTMReader/[CN]/TabReader/[MT]/next()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_bitext_WordFastTMReader.java/[CN]/WordFastTMReader/[MT]/tab2StringPair(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_bitext_TabBitextReader.java/[CN]/TabBitextReader/[CN]/TabReader/[MT]/next()/body";
+}
+subgraph cluster66 {
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/getTreeButtonPanel()/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_conversion_AtdRuleConverter.java/[CN]/AtdRuleConverter/[MT]/expandTransform(String,String[])/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_dumpcheck_DatabaseHandler.java/[CN]/DatabaseHandler/[MT]/close()/body";
+}
+subgraph cluster447 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_UnpairedQuotesBracketsRule.java/[CN]/UnpairedQuotesBracketsRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster292 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationPatternRule.java/[CN]/DisambiguationPatternRule/[MT]/setNewInterpretations(AnalyzedToken[])/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_bitext_FalseFriendsAsBitextLoader.java/[CN]/FalseFriendsAsBitextLoader/[MT]/getFalseFriendsAsBitext(String,Language,Language)/body";
+}
+subgraph cluster119 {
+"trunk_languagetool_Tagger.py/[CN]/TextToTag/[MT]/tag/body";
+"trunk_languagetool_Tagger.py/[CN]/Text/[MT]/tagWord/body";
+"trunk_languagetool_Tagger.py/[CN]/Text/[CS]/__init__/body";
+}
+subgraph cluster223 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_index_Indexer.java/[CN]/Indexer/[MT]/add(String,String,String,int)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_language_NewZealandEnglish.java/[CN]/NewZealandEnglish/[MT]/getRelevantRules()/body";
+}
+subgraph cluster363 {
+"languagetool-language-modules_en_src_main_java_org_languagetool_chunking_EnglishChunker.java/[CN]/EnglishChunker/[MT]/assignChunksToReadings(List<ChunkTaggedToken>)/body";
+"languagetool-core_src_main_java_org_languagetool_AnalyzedToken.java/[CN]/AnalyzedToken/[MT]/matches(AnalyzedToken)/body";
+}
+subgraph cluster144 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/checkText(String,JLanguageTool)/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_dumpcheck_SentenceSourceChecker.java/[CN]/SentenceSourceChecker/[MT]/main(String[])/body";
+}
+subgraph cluster227 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_Rule.java/[CN]/Rule/[MT]/isInMatches(int)/parameters";
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_Tools.java/[CN]/Tools/[MT]/openFileDialog(Frame,FileFilter,File,int)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/createGUI()/body";
+}
+subgraph cluster498 {
+"trunk_JLanguageTool_src_java_org_languagetool_language_Dutch.java/[CN]/Dutch/[MT]/getRelevantRules()/body";
+"trunk_JLanguageTool_src_java_org_languagetool_language_Malayalam.java/[CN]/Malayalam/[MT]/getRelevantRules()/body";
+}
+subgraph cluster121 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_xx_DemoTagger.java/[CN]/DemoTagger/[MT]/tag(List<String>)/body";
+}
+subgraph cluster291 {
+"trunk_languagetool_TaggerTest.py/[CN]/TaggerTest/[MT]/testLearningAndTagging/body";
+}
+subgraph cluster58 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_rules_uk_TokenAgreementRule.java/[CN]/TokenAgreementRule/[MT]/hasRequiredPosTag(Collection<String>,AnalyzedTokenReadings)/body";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_rules_uk_TokenAgreementRule.java/[CN]/TokenAgreementRule/[MT]/createRuleMatch(AnalyzedTokenReadings,AnalyzedTokenReadings,List<String>)/body";
+}
+subgraph cluster19 {
+"trunk_languagetool_Tagger.py/[CN]/TextToTag/[MT]/getBestTagSimple/parameters";
+"languagetool-language-modules_nl_src_main_java_org_languagetool_tokenizers_nl_DutchWordTokenizer.java/[CN]/DutchWordTokenizer/[MT]/tokenize(String)/body";
+"languagetool-core_src_main_java_org_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/leaveReading(AnalyzedToken)/body";
+}
+subgraph cluster253 {
+"languagetool-core_src_main_java_org_languagetool_Languages.java/[CN]/Languages/[MT]/getLanguageForLocale(Locale)/body";
+"languagetool-core_src_main_java_org_languagetool_Languages.java/[CN]/Languages/[MT]/getLanguageForShortName(String)/body";
+}
+subgraph cluster379 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/stopServer()/body";
+"trunk_JLanguageTool_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/makePopupMenu()/body";
+}
+subgraph cluster71 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_fr_FrenchTagger.java/[CN]/FrenchTagger/[MT]/tag(List<String>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_es_SpanishTagger.java/[CN]/SpanishTagger/[MT]/tag(List<String>)/body";
+}
+subgraph cluster20 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_ConfusionRuleEvaluator.java/[CN]/ConfusionRuleEvaluator/[MT]/run(List<String>,String,String,int,List<Long>)/body";
+}
+subgraph cluster265 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_SuggestionExtractor.java/[CN]/SuggestionExtractor/[MT]/main(String[])/body";
+}
+subgraph cluster84 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlNGramJob.java/[CN]/CommonCrawlNGramJob/[CN]/TokenizerMapper/[MT]/indexSentence(String,Context)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlNGramJob.java/[CN]/CommonCrawlNGramJob/[CN]/TokenizerMapper/[MT]/write(String,Context)/body";
+}
+subgraph cluster195 {
+"trunk_languagetool_TextChecker.py/[MT]/main/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleLoader/[MT]/main(String[])/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/toString()/body";
+}
+subgraph cluster460 {
+"languagetool-core_src_main_java_org_languagetool_rules_MatchPosition.java/[CN]/MatchPosition/[MT]/hashCode()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/print(String)/body";
+}
+subgraph cluster95 {
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_ComplexAdjectiveConcordanceRule.java/[CN]/ComplexAdjectiveConcordanceRule/[MT]/match(AnalyzedSentence)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/checkNext(AnalyzedToken,Map<String,List<String>>)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_bitext_BitextPatternRuleLoader.java/[CN]/BitextPatternRuleHandler/[MT]/startElement(String,String,String,Attributes)/body";
+}
+subgraph cluster325 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/loadFalseFriendRules(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/getAnalyzedSentence(String)/body";
+}
+subgraph cluster422 {
+"languagetool-language-modules_pl_src_main_java_org_languagetool_rules_pl_MorfologikPolishSpellerRule.java/[CN]/MorfologikPolishSpellerRule/[MT]/getRuleMatches(String,int)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/removeHighlights()/body";
+}
+subgraph cluster357 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_ro_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[MT]/getDescription()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_ro_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/extend";
+}
+subgraph cluster481 {
+"languagetool-server_src_main_java_org_languagetool_server_HTTPServerConfig.java/[CN]/HTTPServerConfig/[MT]/getProperty(Properties,String,File)/body";
+}
+subgraph cluster175 {
+"languagetool-core_src_main_java_org_languagetool_tagging_CombiningTagger.java/[CN]/CombiningTagger/[MT]/tag(String)/body";
+"trunk_languagetool_Tagger.py/[CN]/Text/[MT]/addTagSequences/body";
+}
+subgraph cluster449 {
+"trunk_languagetool_src_Wfinder.py/other";
+}
+subgraph cluster228 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_UndoRedoSupport.java/[CN]/UndoRedoSupport/[CN]/UndoAction/[CS]/UndoAction()/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_UndoRedoSupport.java/[CN]/UndoRedoSupport/[CN]/UndoAction/[MT]/updateUndoState()/body";
+}
+subgraph cluster429 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Element.java/[CN]/Element/[MT]/isExceptionMatched(AnalyzedToken)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Element.java/[CN]/Element/[MT]/isMatchedByScopeNextException(AnalyzedToken)/body";
+}
+subgraph cluster497 {
+"languagetool-core_src_main_java_org_languagetool_tagging_disambiguation_rules_DisambiguationRuleLoader.java/[CN]/DisambiguationRuleHandler/[MT]/endElement(String,String,String)/body";
+"languagetool-core_src_main_java_org_languagetool_tagging_disambiguation_rules_DisambiguationRuleLoader.java/[CN]/DisambiguationRuleHandler/[MT]/startElement(String,String,String,Attributes)/body";
+}
+subgraph cluster466 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_nl_DutchWrongWordInContextRule.java/[CN]/DutchWrongWordInContextRule/[MT]/getDescription()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/showOptions()/body";
+}
+subgraph cluster488 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/checkDetNounAgreement(AnalyzedGermanToken,AnalyzedGermanToken)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Match.java/[CN]/Match/[MT]/getTargetPosTag()/body";
+}
+subgraph cluster355 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster234 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/getReadings()/body";
+}
+subgraph cluster192 {
+"languagetool-core_src_main_java_org_languagetool_synthesis_BaseSynthesizer.java/[CN]/BaseSynthesizer/[MT]/initPossibleTags()/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_ConfusionRuleEvaluator.java/[CN]/ConfusionRuleEvaluator/[MT]/main(String[])/body";
+}
+subgraph cluster152 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/getRequestQuery(HttpExchange,URI)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/printListOfLanguages(HttpExchange)/body";
+}
+subgraph cluster179 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_WiederVsWiderRule.java/[CN]/WiederVsWiderRule/[MT]/match(AnalyzedSentence)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationRuleLoader.java/[CN]/DisambiguationRuleHandler/[MT]/characters(char[],int,int)/body";
+}
+subgraph cluster263 {
+"languagetool-language-modules_fa_src_main_java_org_languagetool_rules_fa_PersianSpaceBeforeRule.java/[CN]/PersianSpaceBeforeRule/extend";
+}
+subgraph cluster364 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_de_GermanTagger.java/[CN]/GermanTagger/[MT]/tag(List<String>,boolean)/body";
+}
+subgraph cluster126 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationRuleLoader.java/[CN]/DisambiguationRuleHandler/[MT]/startElement(String,String,String,Attributes)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_RealWordCorpusEvaluator.java/[CN]/RealWordCorpusEvaluator/[MT]/checkLines(List<String>)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_language_Romanian.java/[CN]/Romanian/[MT]/getRelevantRules()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_Romanian.java/[CN]/Romanian/[MT]/getRelevantRuleIDs()/body";
+}
+subgraph cluster34 {
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[MT]/runOnFile(String,String,boolean)/body";
+}
+subgraph cluster463 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_synthesis_en_EnglishSynthesizer.java/[CN]/EnglishSynthesizer/[MT]/synthesize(AnalyzedToken,String,boolean)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_synthesis_nl_DutchSynthesizer.java/[CN]/DutchSynthesizer/[MT]/synthesize(AnalyzedToken,String,boolean)/body";
+}
+subgraph cluster499 {
+"trunk_JLanguageTool_src_dev_org_languagetool_dev_index_Searcher.java/[CN]/Searcher/[MT]/createQuery(PatternRule)/body";
+}
+subgraph cluster23 {
+"trunk_JLanguageTool_src_java_org_languagetool_Main.java/[CN]/Main/[MT]/getLanguageOrExit(String)/parameters";
+}
+subgraph cluster443 {
+"trunk_JLanguageTool_src_java_org_languagetool_tagging_ja_JapaneseTagger.java/[CN]/JapaneseTagger/[MT]/asAnalyzedToken(String)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_tokenizers_ja_JapaneseWordTokenizer.java/[CN]/JapaneseWordTokenizer/[MT]/tokenize(String)/body";
+}
+subgraph cluster132 {
+"languagetool-office-extension_src_main_java_org_languagetool_openoffice_Main.java/[CN]/Main/[MT]/checkParaRules(String,int,int,String)/body";
+}
+subgraph cluster38 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_Rule.java/[CN]/Rule/[MT]/addRuleMatch(RuleMatch)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_ReplaceTextDialog.java/[CN]/ReplaceTextDialog/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster67 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_StringElement.java/[CN]/StringElement/[CS]/StringElement(String,boolean,boolean,boolean)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_StringElement.java/[CN]/StringElement/[CS]/StringElement(String[],boolean,boolean,boolean)/parameters";
+}
+subgraph cluster151 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_commandline_CommandLineParser.java/[CN]/CommandLineParser/[MT]/parseOptions(String[])/body";
+"languagetool-language-modules_zh_src_main_java_org_languagetool_tokenizers_zh_ChineseSentenceTokenizer.java/[CN]/ChineseSentenceTokenizer/[MT]/tokenize(String)/body";
+}
+subgraph cluster362 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleMatcher.java/[CN]/PatternRuleMatcher/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster269 {
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/getMouseAdapter()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_spelling_morfologik_MorfologikSpeller.java/[CN]/MorfologikSpeller/[CS]/MorfologikSpeller(String,int)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_FalseFriendRuleLoader.java/[CN]/FalseFriendRuleHandler/[MT]/formatTranslations(List<StringBuilder>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_English.java/[CN]/English/[MT]/getRelevantRuleIDs()/body";
+}
+subgraph cluster93 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_CaseRule.java/[CN]/CaseRule/[MT]/potentiallyAddUppercaseMatch(List<RuleMatch>,AnalyzedTokenReadings[],int,AnalyzedTokenReadings,String)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_CaseRule.java/[CN]/CaseRule/[MT]/isNumbering(int,AnalyzedTokenReadings[])/body";
+}
+subgraph cluster170 {
+"trunk_languagetool_src_Tagger.py/[CN]/Text/[MT]/guessTags/body";
+}
+subgraph cluster60 {
+"languagetool-dev_src_main_java_org_languagetool_dev_eval_SimpleCorpusEvaluator.java/[CN]/SimpleCorpusEvaluator/[MT]/getCorpus(File)/parameters";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_dumpcheck_DatabaseHandler.java/[CN]/DatabaseHandler/[MT]/handleResult(Sentence,List<RuleMatch>,Language)/body";
+}
+subgraph cluster350 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_conversion_AtdRuleConverter.java/[CN]/AtdRuleConverter/[MT]/ltRuleAsList(HashMap<String,String>,String,String,String)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_conversion_RuleConverterMain.java/[CN]/RuleConverterMain/[MT]/run()/body";
+}
+subgraph cluster372 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/populateLanguageBox(JComboBox)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/doProofreading(String,String,Locale,int,int,PropertyValue[])/body";
+"languagetool-core_src_main_java_org_languagetool_tools_Tools.java/[CN]/Tools/[MT]/selectRules(JLanguageTool,String[],String[],boolean)/body";
+}
+subgraph cluster322 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_Main.java/[CN]/Main/[MT]/handleLine(int,int,StringBuilder)/body";
+}
+subgraph cluster245 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanHelper.java/[CN]/GermanHelper/[MT]/getNounNumber(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_Polish.java/[CN]/Polish/[MT]/getUnifier()/body";
+}
+subgraph cluster127 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_Lithuanian.java/[CN]/Lithuanian/[MT]/getRelevantRuleIDs()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_Italian.java/[CN]/Italian/[MT]/getRelevantRuleIDs()/body";
+}
+subgraph cluster139 {
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[MT]/main(String[])/body";
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_nl_DutchWrongWordInContextRule.java/[CN]/DutchWrongWordInContextRule/[MT]/getLongMessageString()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_synthesis_pl_PolishSynthesizer.java/[CN]/PolishSynthesizer/[MT]/getPosTagCorrection(String)/body";
+}
+subgraph cluster24 {
+"languagetool-language-modules_zh_src_main_java_org_languagetool_tagging_zh_ChineseTagger.java/[CN]/ChineseTagger/[MT]/arrayToString(byte[])/body";
+"languagetool-language-modules_ja_src_main_java_org_languagetool_tagging_ja_JapaneseTagger.java/[CN]/JapaneseTagger/[MT]/arrayToString(byte[])/body";
+}
+subgraph cluster89 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_WordRepeatRule.java/[CN]/WordRepeatRule/[MT]/getDescription()/body";
+}
+subgraph cluster465 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/removeLinguServiceEventListener(XLinguServiceEventListener)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/resetDocument()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/addLinguServiceEventListener(XLinguServiceEventListener)/body";
+}
+subgraph cluster65 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationPatternRule.java/[CN]/DisambiguationPatternRule/[MT]/testAllReadings(AnalyzedTokenReadings[],Element,Element,int,int,int)/body";
+}
+subgraph cluster212 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_AutomaticConfusionRuleEvaluator.java/[CN]/AutomaticConfusionRuleEvaluator/[MT]/findExampleSentences(String,FileWriter)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_AutomaticConfusionRuleEvaluator.java/[CN]/AutomaticConfusionRuleEvaluator/[MT]/run(List<String>,File)/body";
+}
+subgraph cluster468 {
+"languagetool-core_src_main_java_org_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/trimWhitespace(String)/parameters";
+"languagetool-core_src_main_java_org_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/trimWhitespace(String)/body";
+}
+subgraph cluster507 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_en_BritishReplaceRule.java/[CN]/BritishReplaceRule/[CS]/BritishReplaceRule(ResourceBundle)/body";
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_en_AvsAnRule.java/[CN]/AvsAnRule/[CS]/AvsAnRule(ResourceBundle)/body";
+}
+subgraph cluster239 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_de_VerbAgreementRule.java/[CN]/VerbAgreementRule/[MT]/match(AnalyzedSentence)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Configuration.java/[CN]/Configuration/[MT]/saveConfiguration()/body";
+}
+subgraph cluster472 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanHelper.java/[CN]/GermanHelper/[MT]/getDeterminerCase(String)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanHelper.java/[CN]/GermanHelper/[MT]/getDeterminerDefiniteness(String)/body";
+}
+subgraph cluster467 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_XMLRuleHandler.java/[CN]/XMLRuleHandler/[MT]/finalizeExceptions()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tokenizers_cs_CzechSentenceTokenizer.java/[CN]/CzechSentenceTokenizer/[MT]/tokenize(String)/body";
+}
+subgraph cluster226 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Match.java/[CN]/Match/[MT]/toCase(String)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_Polish.java/[CN]/Polish/[MT]/getDisambiguationUnifier()/body";
+}
+subgraph cluster244 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_WikipediaQuickCheck.java/[CN]/WikipediaQuickCheck/[MT]/checkPage(URL,ErrorMarker)/body";
+}
+subgraph cluster74 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_index_Indexer.java/[CN]/Indexer/[MT]/run(String,String,String)/body";
+}
+subgraph cluster335 {
+"trunk_languagetool_python__rules_enWordRepeatRule.py/[CN]/enWordRepeatRule/[MT]/match/body";
+"trunk_JLanguageTool_src_java_org_languagetool_commandline_CommandLineParser.java/[CN]/CommandLineParser/[MT]/printUsage()/body";
+"languagetool-commandline_src_main_java_org_languagetool_commandline_Main.java/[CN]/Main/[MT]/setBitextMode(Language,List<String>,List<String>,File)/body";
+}
+subgraph cluster403 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_nl_DutchWrongWordInContextRule.java/[CN]/DutchWrongWordInContextRule/[MT]/getShortMessageString()/body";
+}
+subgraph cluster129 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRuleHandler.java/[CN]/PatternRuleHandler/[MT]/prepareRule(PatternRule)/body";
+}
+subgraph cluster105 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_FalseFriendRuleLoader.java/[CN]/FalseFriendRuleLoader/[MT]/formatSuggestions(List<String>)/body";
+}
+subgraph cluster43 {
+"trunk_JLanguageTool_src_java_org_languagetool_language_SouthAfricanEnglish.java/[CN]/SouthAfricanEnglish/[MT]/getRelevantRules()/body";
+}
+subgraph cluster309 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/getUnknownWords()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_Match.java/[CN]/Match/[MT]/setToken(AnalyzedTokenReadings[],int,int)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/getSpan(int)/body";
+}
+subgraph cluster299 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_hunspell_HunspellRule.java/[CN]/HunspellRule/[MT]/fileCopy(InputStream,File)/body";
+"languagetool-language-modules_sk_src_main_java_org_languagetool_language_Slovak.java/[CN]/Slovak/[MT]/getMaintainers()/body";
+}
+subgraph cluster440 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/getText()/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/isUnified(AnalyzedToken,Map<String,List<String>>,boolean,boolean)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_wikipedia_CheckWikipediaDump.java/[CN]/CheckWikipediaDump/[MT]/main(String[])/body";
+}
+subgraph cluster382 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_OOoDialog.java/[CN]/OOoDialog/[MT]/changeText()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_OOoDialog.java/[CN]/OOoDialog/[MT]/show()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_OOoDialog.java/[CN]/OOoDialog/[MT]/actionPerformed(ActionEvent)/body";
+}
+subgraph cluster349 {
+"languagetool-language-modules_es_src_main_java_org_languagetool_language_Spanish.java/[CN]/Spanish/[MT]/getMaintainers()/body";
+"languagetool-language-modules_pt_src_main_java_org_languagetool_language_Portuguese.java/[CN]/Portuguese/[MT]/getMaintainers()/body";
+}
+subgraph cluster69 {
+"languagetool-core_src_main_java_org_languagetool_Language.java/[CN]/Language/[MT]/getDefaultEnabledRulesForVariant()/body";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_language_ValencianCatalan.java/[CN]/ValencianCatalan/[MT]/getDefaultEnabledRulesForVariant()/body";
+}
+subgraph cluster235 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_AboutDialog.java/[CN]/AboutDialog/[FE]/messages";
+}
+subgraph cluster70 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/updateHighlights()/body";
+"trunk_languagetool_src_EnglishTest.py/[CN]/EnglishTestCase/[MT]/testSomeRules/body";
+}
+subgraph cluster494 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/loadFile(File)/body";
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/updateTitle()/body";
+}
+subgraph cluster386 {
+"trunk_languagetool_src_EnglishTest.py/[CN]/EnglishTestCase/extend";
+"trunk_languagetool_src_EnglishTest.py/other";
+}
+subgraph cluster315 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/setSentEnd()/body";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/tryAnimInanim(String,String,String,String,boolean,boolean)/body";
+}
+subgraph cluster187 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/isThereAfter(AnalyzedTokenReadings[],int,Pattern)/body";
+}
+subgraph cluster317 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/main(String[])/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_MainMenuBar.java/[CN]/MainMenuBar/[MT]/initStrings()/body";
+}
+subgraph cluster232 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[FE]/tokenInflected";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_rules_uk_MixedAlphabetsRule.java/[CN]/MixedAlphabetsRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster201 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_dumpcheck_WikipediaSentenceSource.java/[CN]/WikipediaSentenceSource/[CS]/WikipediaSentenceSource(InputStream,Language)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_POSTagLanguageModel.java/[CN]/POSTagLanguageModel/[MT]/runOnStdIn(JLanguageTool)/body";
+}
+subgraph cluster486 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/getContext(int,int,String,int)/body";
+}
+subgraph cluster458 {
+"trunk_languagetool_src_Wfinder.py/[CN]/Wfinder/[MT]/do_test/body";
+}
+subgraph cluster424 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/checkText(String,JLanguageTool,boolean,int)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_Tools.java/[CN]/Tools/[MT]/checkText(String,JLanguageTool,boolean,int)/body";
+}
+subgraph cluster48 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/isPlural(String)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_hunspell_Hunspell.java/[CN]/Hunspell/[CN]/Dictionary/[MT]/stringToBytes(String)/body";
+}
+subgraph cluster98 {
+"languagetool-dev_src_main_java_org_languagetool_dev_conversion_cg_CgTextualParser.java/[CN]/CgTextualParser/[MT]/parseTagList(CgSet,boolean)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_conversion_cg_CgTextualParser.java/[CN]/CgTextualParser/[MT]/parseSetInline(CgSet)/body";
+}
+subgraph cluster452 {
+"languagetool-core_src_main_java_org_languagetool_tagging_disambiguation_rules_XmlRuleDisambiguator.java/[CN]/XmlRuleDisambiguator/[MT]/disambiguate(AnalyzedSentence)/body";
+}
+subgraph cluster199 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/resetToken()/body";
+}
+subgraph cluster161 {
+"trunk_languagetool_Rules.py/[CN]/PatternRule/[MT]/parseFalseFriendsRuleNode/body";
+}
+subgraph cluster484 {
+"trunk_JLanguageTool_src_java_org_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/endElement(String,String,String)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_patterns_PatternRuleLoader.java/[CN]/PatternRuleHandler/[MT]/prepareRule(PatternRule)/body";
+}
+subgraph cluster29 {
+"languagetool-server_src_main_java_org_languagetool_server_HTTPSServerConfig.java/[CN]/HTTPSServerConfig/[CS]/HTTPSServerConfig(String[])/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_server_HTTPServer.java/[CN]/HTTPServer/[MT]/main(String[])/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_dumpcheck_SentenceSource.java/[CN]/SentenceSource/[CS]/SentenceSource(Language)/body";
+}
+subgraph cluster373 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_de_AnalyzedGermanTokenReadings.java/[CN]/AnalyzedGermanTokenReadings/[MT]/hasReading(GermanToken.Kasus)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_RuleMatch.java/[CN]/RuleMatch/[CS]/RuleMatch(Rule,int,int,String)/body";
+}
+subgraph cluster198 {
+"languagetool-language-modules_br_src_main_java_org_languagetool_tokenizers_br_BretonWordTokenizer.java/[CN]/BretonWordTokenizer/[MT]/tokenize(String)/body";
+}
+subgraph cluster243 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/rememberUnknownWords(AnalyzedSentence)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/check(String)/body";
+}
+subgraph cluster47 {
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[CS]/SimpleReplaceRule(ResourceBundle)/body";
+"languagetool-language-modules_pl_src_main_java_org_languagetool_rules_pl_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[CS]/SimpleReplaceRule(ResourceBundle)/body";
+}
+subgraph cluster492 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/getLanguage()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[MT]/changeContext(XComponentContext)/body";
+}
+subgraph cluster441 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/getCurrentLanguage()/body";
+}
+subgraph cluster56 {
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/checkText(String,HttpExchange,Map<String,String>)/body";
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/getCategoryIds(String,Map<String,String>)/body";
+}
+subgraph cluster393 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_synthesis_BaseSynthesizer.java/[CN]/BaseSynthesizer/[MT]/synthesize(AnalyzedToken,String)/body";
+}
+subgraph cluster4 {
+"languagetool-language-modules_nl_src_main_java_org_languagetool_tokenizers_nl_DutchWordTokenizer.java/[CN]/DutchWordTokenizer/[CS]/DutchWordTokenizer()/body";
+"languagetool-language-modules_nl_src_main_java_org_languagetool_tokenizers_nl_DutchWordTokenizer.java/[CN]/DutchWordTokenizer/[MT]/getTokenizingCharacters()/body";
+}
+subgraph cluster423 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/couldBeRelativeClause(AnalyzedTokenReadings[],int)/body";
+"languagetool-core_src_main_java_org_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/check(String,boolean,ParagraphHandling)/body";
+}
+subgraph cluster444 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_ro_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[MT]/loadWords(InputStream)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_hunspell_HunspellRule.java/[CN]/HunspellRule/[MT]/getSentenceText(AnalyzedSentence)/body";
+}
+subgraph cluster32 {
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/additionalTags(String,WordTagger)/body";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/guessCompoundTag(String)/body";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tagging_uk_UkrainianTagger.java/[CN]/UkrainianTagger/[MT]/getGenderConj(String)/body";
+}
+subgraph cluster433 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_Searcher.java/[CN]/Searcher/[MT]/run(String,File,File)/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_index_Searcher.java/[CN]/Searcher/[MT]/run(String,File,IndexSearcher,boolean)/body";
+}
+subgraph cluster25 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_atom_MatchDatabase.java/[CN]/MatchDatabase/[MT]/getCheckDates()/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_atom_MatchDatabase.java/[CN]/MatchDatabase/[MT]/dropTable(String)/body";
+}
+subgraph cluster107 {
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_wikipedia_atom_MatchDatabase.java/[CN]/MatchDatabase/[MT]/add(WikipediaRuleMatch)/body";
+}
+subgraph cluster249 {
+"languagetool-language-modules_en_src_main_java_org_languagetool_rules_en_ContractionSpellingRule.java/[CN]/ContractionSpellingRule/[CS]/ContractionSpellingRule(ResourceBundle)/body";
+"languagetool-core_src_main_java_org_languagetool_tagging_disambiguation_rules_DisambiguationRuleHandler.java/[CN]/DisambiguationRuleHandler/[MT]/endElement(String,String,String)/body";
+}
+subgraph cluster156 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageToolSupport.java/[CN]/LanguageToolSupport/[MT]/updateHighlights(String)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_language_German.java/[CN]/German/[MT]/getRelevantRuleIDs()/body";
+"languagetool-core_src_main_java_org_languagetool_MultiThreadedJLanguageTool.java/[CN]/MultiThreadedJLanguageTool/[CS]/MultiThreadedJLanguageTool(Language,Language)/body";
+}
+subgraph cluster511 {
+"languagetool-language-modules_fa_src_main_java_org_languagetool_rules_fa_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[MT]/getShort()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_pl_PolishTagger.java/[CN]/PolishTagger/[MT]/tag(List<String>)/body";
+}
+subgraph cluster279 {
+"languagetool-core_src_main_java_org_languagetool_rules_bitext_IncorrectBitextExample.java/[CN]/IncorrectBitextExample/[CS]/IncorrectBitextExample(StringPair,List<String>)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tools_StringTools.java/[CN]/StringTools/[MT]/readFile(String)/body";
+}
+subgraph cluster462 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[CN]/CheckAction/[CS]/CheckAction()/body";
+}
+subgraph cluster28 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_Rule.java/[CN]/Rule/[MT]/isInMatches(int)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_bitext_BitextPatternRuleHandler.java/[CN]/BitextPatternRuleHandler/[MT]/endElement(String,String,String)/body";
+}
+subgraph cluster136 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_tagging_disambiguation_rules_DisambiguationRuleLoader.java/[CN]/DisambiguationRuleHandler/[MT]/endElement(String,String,String)/body";
+}
+subgraph cluster302 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/main(String[])/body";
+}
+subgraph cluster124 {
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_AutomaticConfusionRuleEvaluator.java/[CN]/AutomaticConfusionRuleEvaluator/[MT]/runOnPair(ConfusionRuleEvaluator,String,String,String)/body";
+"languagetool-core_src_main_java_org_languagetool_tagging_disambiguation_rules_DisambiguationPatternRuleReplacer.java/[CN]/DisambiguationPatternRuleReplacer/[MT]/replaceTokens(AnalyzedTokenReadings,AnalyzedTokenReadings)/body";
+}
+subgraph cluster268 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternToken.java/[CN]/PatternToken/[MT]/isPosTokenMatched(AnalyzedToken)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternToken.java/[CN]/PatternToken/[MT]/toString()/body";
+}
+subgraph cluster83 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_Rule.java/[CN]/Rule/[MT]/setAsDeleted(int)/parameters";
+"languagetool-language-modules_br_src_main_java_org_languagetool_rules_br_TopoReplaceRule.java/[CN]/TopoReplaceRule/[MT]/match(AnalyzedSentence)/body";
+}
+subgraph cluster184 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_uk_SimpleReplaceRule.java/[CN]/SimpleReplaceRule/[CS]/SimpleReplaceRule(ResourceBundle)/body";
+"languagetool-language-modules_km_src_main_java_org_languagetool_rules_km_KhmerSpaceBeforeRule.java/[CN]/KhmerSpaceBeforeRule/[CS]/KhmerSpaceBeforeRule(ResourceBundle,Language)/body";
+}
+subgraph cluster194 {
+"trunk_JLanguageTool_src_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/getLanguageToolInstance(Language,Language)/body";
+"trunk_languagetool_src_Rules.py/[CN]/PatternRule/[MT]/match/body";
+}
+subgraph cluster329 {
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/getLanguageForLocalizedName(String)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_EquivalenceTypeLocator.java/[CN]/EquivalenceTypeLocator/[MT]/equals(Object)/parameters";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_WordRepeatRule.java/[CN]/WordRepeatRule/[MT]/match(AnalyzedSentence)/body";
+"languagetool-wikipedia_src_main_java_org_languagetool_dev_index_PatternRuleQueryBuilder.java/[CN]/PatternRuleQueryBuilder/[MT]/getTermQueryOrNull(Element,String)/body";
+}
+subgraph cluster509 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_WordRepeatRule.java/[CN]/WordRepeatRule/[CS]/WordRepeatRule(ResourceBundle,Language)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_CommaWhitespaceRule.java/[CN]/CommaWhitespaceRule/[CS]/CommaWhitespaceRule(ResourceBundle)/body";
+}
+subgraph cluster166 {
+"languagetool-server_src_main_java_org_languagetool_server_LanguageToolHttpHandler.java/[CN]/LanguageToolHttpHandler/[MT]/printListOfLanguages(HttpExchange)/body";
+"languagetool-server_src_main_java_org_languagetool_server_HTTPServerConfig.java/[CN]/HTTPServerConfig/[CS]/HTTPServerConfig(String[])/body";
+}
+subgraph cluster78 {
+"trunk_languagetool_TextChecker.py/other";
+"trunk_languagetool_src_Rules.py/[CN]/RuleMatch/[CS]/__init__/body";
+}
+subgraph cluster376 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanSpellerRule.java/[CN]/GermanSpellerRule/[CN]/ExpandingReader/[MT]/readLine()/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_GermanSpellerRule.java/[CN]/GermanSpellerRule/[MT]/expandLine(String)/body";
+}
+subgraph cluster231 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_Unifier.java/[CN]/Unifier/[MT]/getFinalUnificationValue(Map<String,List<String>>)/body";
+}
+subgraph cluster336 {
+"languagetool-standalone_src_main_java_org_languagetool_dev_NGramStats.java/[CN]/NGramStats/[MT]/main(String[])/body";
+"languagetool-standalone_src_main_java_org_languagetool_dev_NGramStats.java/[CN]/NGramStats/[MT]/lookup(File,String)/body";
+}
+subgraph cluster432 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_openoffice_Main.java/[CN]/Main/[CN]/_Main/[CS]/_Main()/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_conversion_gui_Main.java/[CN]/Main/[MT]/convertRuleFile()/body";
+}
+subgraph cluster146 {
+"languagetool-core_src_main_java_org_languagetool_rules_patterns_PatternRule.java/[CN]/PatternRule/[MT]/addSuggestionMatchOutMsg(Match)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_Main.java/[CN]/Main/[MT]/getFilteredText(String,String)/body";
+}
+subgraph cluster109 {
+"languagetool-core_src_main_java_org_languagetool_rules_RuleMatch.java/[CN]/RuleMatch/[MT]/hashCode()/body";
+}
+subgraph cluster213 {
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_Configuration.java/[CN]/Configuration/[MT]/loadConfigForOtherLanguages(Language,Properties)/body";
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_AboutDialog.java/[CN]/AboutDialog/[MT]/getMaintainers()/body";
+}
+subgraph cluster77 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/checkDetAdjNounAgreement(AnalyzedGermanToken,AnalyzedGermanToken,AnalyzedGermanToken)/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_rules_de_AgreementRule.java/[CN]/AgreementRule/[MT]/getAgreementCategories(AnalyzedGermanToken)/body";
+}
+subgraph cluster316 {
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_WiederVsWiderRule.java/[CN]/WiederVsWiderRule/[CS]/WiederVsWiderRule(ResourceBundle)/body";
+"languagetool-language-modules_de_src_main_java_org_languagetool_rules_de_DashRule.java/[CN]/DashRule/[CS]/DashRule(ResourceBundle)/body";
+}
+subgraph cluster117 {
+"languagetool-gui-commons_src_main_java_org_languagetool_gui_ConfigurationDialog.java/[CN]/ConfigurationDialog/[MT]/getMotherTonguePanel(GridBagConstraints)/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_CommonCrawlToNgram.java/[CN]/CommonCrawlToNgram/[MT]/writeToLucene(int,Map<String,Long>)/body";
+"languagetool-language-modules_br_src_main_java_org_languagetool_rules_br_TopoReplaceRule.java/[CN]/TopoReplaceRule/[MT]/loadWords(InputStream)/body";
+}
+subgraph cluster53 {
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_CheckBNC.java/[CN]/CheckBNC/[MT]/main(String[])/body";
+"trunk_JLanguageTool_src_dev_de_danielnaber_languagetool_dev_CheckBNC.java/[CN]/CheckBNC/[MT]/run(File)/body";
+}
+subgraph cluster300 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_gui_Main.java/[CN]/Main/[MT]/maybeStartServer()/body";
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_AnalyzedTokenReadings.java/[CN]/AnalyzedTokenReadings/[MT]/getAnalyzedToken(int)/body";
+}
+subgraph cluster46 {
+"languagetool-standalone_src_main_java_org_languagetool_gui_LanguageComboBoxRenderer.java/[CN]/LanguageComboBoxRenderer/[MT]/getTranslatedName(Language)/body";
+}
+subgraph cluster450 {
+"trunk_languagetool_python__rules_huAvsAnRule.py/other";
+"languagetool-language-modules_ca_src_main_java_org_languagetool_rules_ca_ComplexAdjectiveConcordanceRule.java/[CN]/ComplexAdjectiveConcordanceRule/[MT]/keepCounting(AnalyzedTokenReadings)/body";
+}
+subgraph cluster142 {
+"trunk_JLanguageTool_src_main_java_org_languagetool_rules_ca_ReflexiveVerbsRule.java/[CN]/ReflexiveVerbsRule/[MT]/isPhraseImpersonalVerbS(AnalyzedTokenReadings[],int)/body";
+}
+subgraph cluster293 {
+"languagetool-core_src_main_java_org_languagetool_rules_RuleMatch.java/[CN]/RuleMatch/[MT]/setSuggestedReplacement(String)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_RuleMatch.java/[CN]/RuleMatch/[MT]/setSuggestedReplacements(List<String>)/body";
+}
+subgraph cluster112 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_gui_Main.java/[CN]/Main/[MT]/quitOrHide()/body";
+"languagetool-dev_src_main_java_org_languagetool_dev_bigdata_ConfusionRuleEvaluator.java/[CN]/ConfusionRuleEvaluator/[MT]/getSentencesFromSource(List<String>,String,int,SentenceSource)/body";
+}
+subgraph cluster334 {
+"trunk_JLanguageTool_src_java_de_danielnaber_languagetool_JLanguageTool.java/[CN]/JLanguageTool/[MT]/getAllRules()/body";
+}
+subgraph cluster328 {
+"languagetool-dev_src_main_java_org_languagetool_dev_UselessExampleFinder.java/[CN]/UselessExampleFinder/[MT]/removeLinesFromXml(Rule,String,List<String>)/body";
+"trunk_JLanguageTool_src_java_org_languagetool_rules_spelling_morfologik_MorfologikSpellerRule.java/[CN]/MorfologikSpellerRule/[CS]/MorfologikSpellerRule(ResourceBundle,Language)/body";
+"languagetool-language-modules_uk_src_main_java_org_languagetool_tokenizers_uk_UkrainianWordTokenizer.java/[CN]/UkrainianWordTokenizer/[MT]/tokenize(String)/body";
+}
+subgraph cluster72 {
+"languagetool-language-modules_tl_src_main_java_org_languagetool_language_Tagalog.java/[CN]/Tagalog/[MT]/getMaintainers()/body";
+"languagetool-language-modules_ru_src_main_java_org_languagetool_language_Russian.java/[CN]/Russian/[MT]/getMaintainers()/body";
+}
+subgraph cluster40 {
+"languagetool-server_src_main_java_org_languagetool_server_HTTPServer.java/[CN]/HTTPServer/[CS]/HTTPServer(HTTPServerConfig,boolean,String,Set<String>)/body";
+"languagetool-core_src_main_java_org_languagetool_rules_spelling_hunspell_HunspellRule.java/[CN]/HunspellRule/[MT]/match(AnalyzedSentence)/body";
+}
+}
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
