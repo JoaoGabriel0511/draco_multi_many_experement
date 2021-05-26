@@ -12,8 +12,5 @@
 # python virtualenv
 venv/
 
-# experiment's generated files
-experiments/
-
 # java output files
 target/
